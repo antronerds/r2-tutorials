@@ -33,7 +33,7 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)*
     and click next.
 
 ![ *Figure 1: Default multiple gene view.*
-](/img/MultipleGenesView_Default.png)
+](https://github.com/antronerds/r2-tutorials/blob/master/img/MultipleGenesView_perTrack.png)
 
 1.  In Figure 1 a selection of gene expression profiles are depicted in
     one picture in contrast to the one gene view. The multiple gene view
