@@ -17,13 +17,13 @@ tutorials <http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials>`__*
 -  Adjust several parameters in the settings panel
 
 -  In R2, the samples are annotated with e.g. clinical data. Each group
-   of annotated data is called a “Track” in R2. These tracks can be used
+   of annotated data is called a ï¿½Trackï¿½ in R2. These tracks can be used
    to split the group gene expression levels per track.
 
-1. Use “single dataset” in field 1 and select the “Tumor Medulloblastoma
-   PLoS One - Kool - 62 - MAS5.0 - u133p2” dataset in field 2.
+1. Use ï¿½single datasetï¿½ in field 1 and select the ï¿½Tumor Medulloblastoma
+   PLoS One - Kool - 62 - MAS5.0 - u133p2ï¿½ dataset in field 2.
 
-2. Choose “View multiple genes ” in field 3 and Click Next
+2. Choose ï¿½View multiple genes ï¿½ in field 3 and Click Next
 
 3. To illustrate the possibilities of the multiple gene view. Genes
    identified as classifiers for Medulloblastoma subtypes (Kool et al,
@@ -40,13 +40,13 @@ tutorials <http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials>`__*
    gene expression can be visualized.
 
 2. The dataset we are using is described in `PLoS
-   One. <http://www.ncbi.nlm.nih.gov/pubmed/18769486>`__ 2008 Aug
+   One. <http://www.ncbi.nlm.nih.gov/pubmed/18769486>`__ï¿½2008 Aug
    28;3(8), Kool M et al. Here the classification of 5 medulloblastoma
    subgroups are reported and annotated as such: A,B,C,D and E. To
    investigate the expression levels of a small group of genes per
-   sub-category select in the adjustable settings box “subtype (cat)” at
-   use track, “lump by group plot gene” at handle groups by and “Track”
-   at color by track. Further set transform tot “none”, select “boxplot”
+   sub-category select in the adjustable settings box ï¿½subtype (cat)ï¿½ at
+   use track, ï¿½lump by group plot geneï¿½ at handle groups by and ï¿½Trackï¿½
+   at color by track. Further set transform tot ï¿½noneï¿½, select ï¿½boxplotï¿½
    at Plot type and click NEXT.
 
 | *Figure 2: Multiple gene view per track* |
@@ -57,7 +57,7 @@ tutorials <http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials>`__*
    Medulloblastoma molecular subtypes a,b,c,d and e are plotted together
    with the gene names. s
 
-2. Also try the “lump by gene plot group” which will produce an image
+2. Also try the ï¿½lump by gene plot groupï¿½ which will produce an image
    where the genes are shown, separated by the subtypes.
 
 3. The sample filter option allows the user to generate a multiple gene
@@ -104,5 +104,5 @@ We hope that these tutorials will be helpful. If you have any comments
 or suggestions you're welcome to contact us through the `R2
 website <http://r2.amc.nl>`__.
 
-.. | *Figure 1: Default multiple gene view.* | image:: http://ogtoolbox/w/index.php?title=File:MultipleGenesView_Default.png
-.. | *Figure 2: Multiple gene view per track* | image:: http://ogtoolbox/w/index.php?title=File:MultipleGenesView_perTrack.png
+.. | *Figure 1: Default multiple gene view.* | image:: https://raw.githubusercontent.com/antronerds/r2-tutorials/master/img/MultipleGenesView_Default.png
+.. | *Figure 2: Multiple gene view per track* | image:: https://raw.githubusercontent.com/antronerds/r2-tutorials/master/img/MultipleGenesView_perTrack.png
