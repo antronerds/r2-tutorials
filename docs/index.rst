@@ -14,3 +14,5 @@ TOC
    :glob:
 
    TestRST.rst
+   Introduction
+   UsingDatasets
