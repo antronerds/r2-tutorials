@@ -11,8 +11,9 @@ TOC
 ===
 
 .. toctree::
-   :glob:
+   :maxdepth: 2:
 
-   TestRST.rst
    Introduction
    UsingDatasets
+
+..
