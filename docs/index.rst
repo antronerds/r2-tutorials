@@ -15,5 +15,6 @@ TOC
 
    Introduction
    UsingDatasets
+   AnnotationAnalyses
 
 ..
