@@ -57,7 +57,7 @@ cases, R2 contains the Annotation modules; ‘relate 2 tracks’ and
     diseased patients who are older than 18 months.
 
 ![ *Figure 3: "Color samples by track*
-](images/AnnotationAnalyses_colorsamples.png)
+](img/AnnotationAnalyses_colorsamples.png)
 
 1.  Just as in the previous example, we select the ‘relate 2 tracks’
     option from the main R2 screen and press enter. Now this time, we
@@ -73,7 +73,7 @@ cases, R2 contains the Annotation modules; ‘relate 2 tracks’ and
     would be appropriate.
 
 ![ *Figure 4: "Output of relating numerical tracks*
-](images/AnnotationAnalyse_relatetracks.png)
+](img/AnnotationAnalyse_relatetracks.png)
 
 1.  The last example for relating 2 tracks, involves the combination of
     a numerical one to a categorical track. Essentially, this option
@@ -97,7 +97,7 @@ cases, R2 contains the Annotation modules; ‘relate 2 tracks’ and
 
 ![ *Figure 5: Representing the relation between categorical and
 numerical tracks*
-](images/AnnotationAnalyse_relationnumcat.png)
+](img/AnnotationAnalyse_relationnumcat.png)
 
 As a recap for the last 3 tutorial steps, you have used the ‘relate 2
 tracks’ option from the annotation methods in R2 and represented
@@ -110,7 +110,7 @@ r2 to your needs’ chapter.
 
 ![ *Figure 6: "Representations of relations between different types of
 tracks in R2*
-](images/AnnotationAnalyse_representation.png)
+](img/AnnotationAnalyse_representation.png)
 
 1.  In some publications, patient data is represented in slick looking
     annotation plots, showing the patient characteristics in rectangles.
@@ -133,7 +133,7 @@ tracks in R2*
     create a numeric track that puts the sample in the intended order.
 
 ![ *Figure 7: Plotting the annotation tracks*
-](images/AnnotationAnalyse_plotting.png)
+](img/AnnotationAnalyse_plotting.png)
 
 Some of these functionalities have been developed recently. If you run
 into any quirks or annoyances don't hesitate to contact r2 support
