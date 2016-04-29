@@ -9,23 +9,10 @@ Copyright (c) 2006-2016 Jan Koster
 .. rubric:: Table of Contents
 
 .. toctree::
-<<<<<<< HEAD
    :maxdepth: 2
    :numbered: 2
-=======
->>>>>>> branch 'master' of https://github.com/antronerds/r2-tutorials.git
-
    Introduction
-<<<<<<< HEAD
    Using_datasets
    Integrative_analysis_ChIP-Seq_data
 ..   
    
-
-
-=======
-   UsingDatasets
-   AnnotationAnalyses
-
-..
->>>>>>> branch 'master' of https://github.com/antronerds/r2-tutorials.git
