@@ -42,12 +42,12 @@ latex_elements = {
 }
 
 latex_documents = [
-  (master_doc, 'Test.tex', u'Cytoscape User Manual',
-   u'The R2 support team', 'tutorials'),
+  (master_doc, 'Test.tex', u'R2 Tutorials',
+   u'The R2 support team', 'manual'),
 ]
 
 man_pages = [
-    (master_doc, 'test', u'Cytoscape User Manual',
+    (master_doc, 'test', u'R2 Tutorials',
      [author], 1)
 ]
 
