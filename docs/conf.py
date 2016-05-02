@@ -7,6 +7,7 @@ project = u'R2 Tutorials'
 copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
+date = datetime.date.today()
 version = '1.0.0'
 release = '1.0.0'
 language = None
