@@ -27,8 +27,8 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_static_path = ['_static']
 html_show_sourcelink = True
 htmlhelp_basename = 'Testdoc'
-#html_logo = '_static/images/cytoscape3-icon-trans-128x128.png'
-#html_favicon = '_static/images/cytoscape3-icon.ico'
+html_logo = '_static/images/r2_logo_128.png'
+html_favicon = '_static/images/r2favicon.ico'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
