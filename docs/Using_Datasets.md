@@ -31,8 +31,10 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)*
     the following genes: AXIN2, BOC, dkk2, GABRA5, PTCH1, SMARCD3, WIF1
     and click next.
 
+<div class="noshow">
 ![ *Figure 1: Default multiple gene view.*
 ](_static/images/UsingDatasets/MultipleGenesView_Default.png)
+</div>
 
 1.  In Figure 1 a selection of gene expression profiles are depicted in
     one picture in contrast to the one gene view. The multiple gene view
