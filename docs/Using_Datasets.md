@@ -49,9 +49,10 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)*
     at use track, â€œlump by group plot geneâ€� at handle groups by and
     â€œTrackâ€� at color by track. Further set transform tot â€œnoneâ€�, select
     â€œboxplotâ€� at Plot type and click NEXT.
-
+<div class="noshow">
 ![ *Figure 2: Multiple gene view per track*
 ](_static/images/UsingDatasets/MultipleGenesView_perTrack.png)
+</div>
 <div class="polaroid">
   <img src="_static/images/UsingDatasets/MultipleGenesView_perTrack.png" alt="Multiple genes view in R2" style="width:100%">
   <div class="container">
