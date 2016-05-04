@@ -9,7 +9,7 @@ project = u'R2 Tutorials'
 copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
-version = datetime.date.today()
+version = datetime.date.today().strftime('%Y-%m-%d')
 release = '1.0.0'
 language = None
 
