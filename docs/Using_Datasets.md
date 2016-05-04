@@ -52,6 +52,14 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)*
 
 ![ *Figure 2: Multiple gene view per track*
 ](_static/images/UsingDatasets/MultipleGenesView_perTrack.png)
+<div class="polaroid">
+  <img src="_static/images/UsingDatasets/MultipleGenesView_perTrack.png" alt="Multiple genes view in R2" style="width:100%">
+  <div class="container">
+    <p>Figure 2: Multiple gene view per track</p>
+  </div>
+</div>
+
+
 
 1.  Most of the used genes are part of the WNT (subgroup A) and de SHH
     (subgroup B) signaling pathway overexpressed per subtype as shown by
