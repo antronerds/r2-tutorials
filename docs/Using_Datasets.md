@@ -30,9 +30,17 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)*
     Plos one) will be used. In the GENE/reporter textbox type or copy
     the following genes: AXIN2, BOC, dkk2, GABRA5, PTCH1, SMARCD3, WIF1
     and click next.
-
+<div class="noshow">
 ![ *Figure 1: Default multiple gene view.*
 ](_static/images/UsingDatasets/MultipleGenesView_Default.png)
+</div>
+<div class="polaroid">
+  <img src="_static/images/UsingDatasets/MultipleGenesView_Default.png" alt="Default multiple genes view in R2" style="width:100%">
+  <div class="container">
+    <p>Figure 1: Default multiple gene view</p>
+  </div>
+</div>
+
 
 1.  In Figure 1 a selection of gene expression profiles are depicted in
     one picture in contrast to the one gene view. The multiple gene view
@@ -41,13 +49,13 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)*
     gene expression can be visualized.
 
 2.  The dataset we are using is described in
-    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486)Â 2008 Aug
+    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486) 2008 Aug
     28;3(8), Kool M et al. Here the classification of 5 medulloblastoma
     subgroups are reported and annotated as such: A,B,C,D and E. To
     investigate the expression levels of a small group of genes per
     sub-category select in the adjustable settings box "subtype (cat)"
     at use track, "lump by group plot gene" at handle groups by and
-    "Track" at color by track. Further set transform tot "none", select
+    "Track" at color by track. Set transform to "none", select
     "boxplot" at Plot type and click NEXT.
 <div class="noshow">
 ![ *Figure 2: Multiple gene view per track*
