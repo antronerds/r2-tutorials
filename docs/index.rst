@@ -1,4 +1,4 @@
-R2 Tutorials: |date|
+R2 Tutorials: |version|
 ====================
 
 These are the tutorials for R2; a biologist friendly, web based genomics analysis and visualization application developed by Jan Koster at the department of Oncogenomics in the Academic Medical Center (AMC) Amsterdam, the Netherlands. You can start exploring the gene expression data by following the numbered options in the center.
