@@ -34,9 +34,10 @@ div.r2didyouknow table {
 	margin:auto;
 	background-color:#f2f2f2;
 	width: 85%; 
-	cellpadding: 6;
+	cellpadding: 6px;
 }
 div.r2didyouknow th {
 	color:#C45A58;
-	background: url(_static/images/R2d2_logo.png);
+	background-image: url(_static/images/R2d2_logo.png);
+	border-bottom:solid 1px black;
 }
