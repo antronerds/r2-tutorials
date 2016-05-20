@@ -18,6 +18,10 @@ Copyright (c) 2006-2016 Jan Koster
    Multiple_Genes_View
    Annotation_Analyses
    Differential_Expression
+   Correlating_Genes
+   Kaplan_Meier
+   Pathway_Finder
+   Multiple_Datasets
    Integrative_analysis_ChIP-Seq_data
    
 ..   
