@@ -15,6 +15,8 @@ Copyright (c) 2006-2016 Jan Koster
    Introduction
    Using_Datasets
    One_Gene_View
+   Multiple_Genes_View
+   Annotation_Analyses
    Integrative_analysis_ChIP-Seq_data
    
 ..   
