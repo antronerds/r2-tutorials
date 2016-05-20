@@ -48,7 +48,17 @@ with ```pandoc -f html -t markdown -s R2Tutorials.xhtml -o R2Tutorials.md```
 4. Remove sporadic html tags 
 
 5. Get all pictures used by each chapter and put them into the Images directory. These are contained in the collection.zip on 
-the mediawiki server. Resolve all picture references in the text by hand.
+the mediawiki server. Resolve all picture references in the text by hand. Provide two links, one to read directly in github and one for readthedocs including polaroid style css layout
+<div class="noshow">
+![ *Figure 1: Default multiple gene view.*](_static/images/UsingDatasets/MultipleGenesView_Default.png)
+</div>
+<div class="polaroid">
+  <img src="_static/images/UsingDatasets/MultipleGenesView_Default.png" alt="Default multiple genes view in R2" style="width:100%">
+  <div class="container">
+    <p>Figure 1: Default multiple gene view</p>
+  </div>
+</div>
+
 
 6. Separate UserManual.md per chapter manually. 
  
