@@ -38,6 +38,9 @@ div.r2didyouknow table {
 }
 div.r2didyouknow th {
 	color:#C45A58;
-	background-image: url(_static/images/R2d2_logo.png);
+	height: 32px;
 	border-bottom:solid 1px black;
+	background-image: url("../_static/images/R2d2_logo.png");
+	background-repeat: no-repeat; 
+	background-position: left; 
 }

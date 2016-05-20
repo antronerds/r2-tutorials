@@ -47,12 +47,13 @@ Tutorial step 1
     screen**](Image:Image:UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
 <div class="r2didyouknow">
-<table>
-<th>Did you know that datasets have an informative naming</th>
-<tr>
-<td>Datasets have a structured naming in R2, using the following rules: *type_of_dataset - author - number_of_samples - normalization - chiptype*
-Datasets are listed alphabetically</td>
-</tr>
+	<table>
+		<th>Did you know that datasets have an informative naming</th>
+		<tr>
+			<td>Datasets have a structured naming in R2, using the following rules: 				*type_of_dataset - author - number_of_samples - normalization - chiptype*
+				Datasets are listed alphabetically
+			</td>
+		</tr>
 </table>
 </div>  
 
