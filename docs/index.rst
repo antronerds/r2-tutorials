@@ -14,6 +14,8 @@ Copyright (c) 2006-2016 Jan Koster
    
    Introduction
    Using_Datasets
+   One_Gene_View
    Integrative_analysis_ChIP-Seq_data
+   
 ..   
    
