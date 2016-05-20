@@ -17,6 +17,7 @@ Copyright (c) 2006-2016 Jan Koster
    One_Gene_View
    Multiple_Genes_View
    Annotation_Analyses
+   Differential_Expression
    Integrative_analysis_ChIP-Seq_data
    
 ..   
