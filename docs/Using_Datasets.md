@@ -1,19 +1,9 @@
 <a id="using_datasets"> </a>
 
-
 Using Datasets
 ==============
 
-
-
 *Selecting or searching for datasets in R2*
-
-
-
-
-
-
-
 
 Scope
 -----
@@ -32,20 +22,23 @@ Scope
     through most of the tutorial. Later on working with multiple
     datasets will be discussed.
 
-
-
-
-
 Tutorial step 1
 ---------------
 
 1.  In R2 a large amount of datasets are available for analysis
     and visualization. The numbered items in the main window will guide
     you through all the steps necessary to perform a task. In field
-    **1** select “single dataset”, in field **2** choose “change
-    [![](_static/images/First_image_select_dataset.png)**Figure
-    1: In the main screen
-    “Change dataset”.**](Image:Image:First_image_select_dataset.png)
+    **1** select “single dataset”, in field **2** choose "change"   
+<div class="noshow">
+![ **Figure 1: In the main screen “Change dataset” **](_static/images/First_image_select_dataset.png)
+</div>
+<div class="polaroid">
+  <img src="_static/images/First_image_select_dataset.png" alt="Default multiple genes view in R2" style="width:100%">
+  <div class="container">
+    <p>**Figure 1: In the main screen “Change dataset”</p>
+  </div>
+</div>
+
 2.  A pull-down menu appears containing a large collection of datasets
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
@@ -53,13 +46,15 @@ Tutorial step 1
     2: Selecting datasets from the pull down menu on the main
     screen**](Image:Image:UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that datasets have an informative naming***
-
-  Datasets have a structured naming in R2, using the following rules: *type\_of\_dataset - author - number\_of\_samples - normalization - chiptype*\
-  Datasets are listed alphabetically
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<div class="r2didyouknow">
+<table>
+<th>Did you know that datasets have an informative naming</th>
+<tr>
+<td>Datasets have a structured naming in R2, using the following rules: *type_of_dataset - author - number_of_samples - normalization - chiptype*
+Datasets are listed alphabetically</td>
+</tr>
+</table>
+</div>  
 
 
 
