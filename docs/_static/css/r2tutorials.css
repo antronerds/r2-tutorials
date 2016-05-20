@@ -40,7 +40,7 @@ div.r2didyouknow th {
 	color:#C45A58;
 	height: 32px;
 	border-bottom:solid 1px black;
-	background-image: url("../_static/images/R2d2_logo.png");
+	background-image: url("../images/R2d2_logo.png");
 	background-repeat: no-repeat; 
 	background-position: left; 
 }
