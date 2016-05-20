@@ -36,7 +36,7 @@ div.r2didyouknow table {
 	width: 85%; 
 	cellpadding: 6;
 }
-div.r2didyouknow td.header {
+div.r2didyouknow th {
 	color:#C45A58;
 	background: url(_static/images/R2d2_logo.png);
 }
