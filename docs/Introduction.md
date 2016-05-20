@@ -1,7 +1,20 @@
-<a id="introduction"> </a>
-# Introduction
+<a id="introduction"></a>
+
+Preface
+=======
 
 *Why these tutorials?*
+
+The R2 platform (<http://r2platform.com> / <http://r2.amc.nl)> is a
+genomics analysis and visualization platform that tries to provide a
+biologist friendly interface to high throughput data. It has been
+developed within the department of Oncogenomics at the AMC in the
+Netherlands, where it still serves as a primary entry point for all
+types of high throughput data generated within the department. The R2
+platform consists of 2 parts; a (publicly accessible) database, that
+stores the data, coupled to a web-interface that provides a set of tools
+and visualizations to mine the database.
+
 
 Even though many people like the concept of R2, getting started with the
 platform as a new user can be a bit difficult or intimidating. With this
@@ -10,7 +23,8 @@ demonstrate the diverse set of functionalities to users which may
 already have experience with R2, but want to get familiar with new
 additions to the platform.
 
-The setup of the tutorials is as follows: We have divided the different
+
+The setup of these tutorials is as follows: We have divided the different
 aspects of the R2 platform in a number of chapters which reflect tasks
 that are often performed within R2. In each chapter, step by step
 instructions guide you through an analysis, which you can perform online
@@ -29,8 +43,6 @@ collaborative work. The last two chapters further elaborate on this by
 explaining how to add your own data and how to export data from R2 for
 use in other tools.
 
-By using the book creation tool you can select chapters and create your
-own pdf suited to your specific needs.
 
 We hope that these tutorials will be helpful. If you have any comments
 or suggestions you're welcome to contact us through the [R2
