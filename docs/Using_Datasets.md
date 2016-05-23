@@ -144,7 +144,7 @@ datasets”.
 <td>
 Datasets have a structured naming in R2, using the following rules: *type_of_dataset - author - number_of_samples - normalization - chiptype*
 Datasets are listed alphabetically
-[![](_static/images/UsingDatasets_ClickExclamationMarkForInfoInR2.png){width="400"}]
+[![](_static/images/UsingDatasets_ClickExclamationMarkForInfoInR2.png)]
 </td>
 </tr>
 <tr>
@@ -152,7 +152,7 @@ Datasets are listed alphabetically
 Clicking on the GEO ID link redirects to the GEO repository database  
 where RAW data files are available. A Pubmed link is listed in case the
 dataset is linked to a publication listed in PubMed
-[![](_static/images/UsingDatasets_LinksToRawDataInR2.png){width="400"}]
+[![](_static/images/UsingDatasets_LinksToRawDataInR2.png)]
 </td>
 </tr>
 </table>
