@@ -30,30 +30,37 @@ Tutorial step 1
     you through all the steps necessary to perform a task. In field
     **1** select “single dataset”, in field **2** choose "change"   
 <div class="noshow">
-![ **Figure 1: In the main screen “Change dataset” **](_static/images/First_image_select_dataset.png)
+![ **Figure 1: In the main screen "Change dataset" **](_static/images/First_image_select_dataset.png)
 </div>
 <div class="polaroid">
-  <img src="_static/images/First_image_select_dataset.png" alt="Default multiple genes view in R2" style="width:100%">
-  <div class="container">
-    <p>**Figure 1: In the main screen “Change dataset”</p>
-  </div>
+<img src="_static/images/First_image_select_dataset.png" alt="Default multiple genes view in R2" style="width:100%">
+<div class="container">
+<p>Figure 1: In the main screen "Change dataset"</p>
+</div>
 </div>
 
 2.  A pull-down menu appears containing a large collection of datasets
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
-    [![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)**Figure
-    2: Selecting datasets from the pull down menu on the main
-    screen**](Image:Image:UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
+
+<div class="noshow">
+![ **Figure 2: Selecting datasets from the pull down menu on the main screen** ](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
+</div>
+<div class="polaroid">
+<img src="_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png" alt="Select specific datasets in R2" style="width:100%">
+<div class="container">
+<p>Figure 2: Selecting datasets from the pull down menu on the main screen</p>
+</div>
+</div>
 
 <div class="r2didyouknow">
-	<table>
-		<th>Did you know that datasets have an informative naming</th>
-		<tr>
-			<td>Datasets have a structured naming in R2, using the following rules: 				*type_of_dataset - author - number_of_samples - normalization - chiptype*
-				Datasets are listed alphabetically
-			</td>
-		</tr>
+<table>
+<th>Did you know that datasets have an informative naming</th>
+<tr>
+<td>Datasets have a structured naming in R2, using the following rules: *type_of_dataset - author - number_of_samples - normalization - chiptype*
+Datasets are listed alphabetically
+</td>
+</tr>
 </table>
 </div>  
 
@@ -70,18 +77,14 @@ Tutorial step 2
     was published etc. An example search would be finding all colon
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
-    [![](_static/images/UsingDatasets_AdvancedSelectionLink.png)**Figure
-    3: Advanced selection of
-    datasets**](Image:Image:UsingDatasets_AdvancedSelectionLink.png)
+    [![](_static/images/UsingDatasets_AdvancedSelectionLink.png)**Figure 3: Advanced selection of datasets**]
 2.  Click on the “Advanced” link. A new screen shows a table where the
     headers can be filled with search entries to fine tune your search
     for a dataset meeting your search criteria. Enter ‘Neuro’ in the
     class column and’ 50’ in the ‘\#’ column and select ‘ greater than’
     from the pull down menu. This returns all the datasets containing
     the search term ‘Neuro’ and having more than 50 samples.
-    [![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)**Figure
-    4: Advanced selection
-    panel**](Image:Image:UsingDatasets_AdvancedSelectionPanelInR2.png)
+    [![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)**Figure 4: Advanced selection panel**]
 3.  Clicking on ‘Neuroblastoma’ in the class 3 column containing 88
     samples reveals a detailed info box containing additional dataset
     information from the R2 database. When the dataset is publicly
@@ -91,15 +94,11 @@ Tutorial step 2
     in PubMed.
     Note: Clicking on an exclamation mark also shows detailed
     dataset information.
-    [![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)**Figure
-    5: Additional Dataset
-    Info**](Image:Image:UsingDatasets_AdditinalDatasetInfoInR2.png)
+    [![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)**Figure 5: Additional Dataset Info**]
 4.  Select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
     dataset” option.
-    [![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)**Figure
-    6: Selecting across
-    datasets**](Image:Image:UsingDatasets_SelectAcrossDatasetsInR2.png)
+    [![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)**Figure 6: Selecting across datasets**]
 
 
 
@@ -107,44 +106,38 @@ Analysis methods following selecting the “Across Datasets” option in
 field **1** will be discussed in tutorial “Working with multiple
 datasets”.
 
+<div class="r2didyouknow">
+<table>
+<th>Did you know that clicking on an exclamation balloon provides additional info?</th>
+<tr>
+<td>
+Datasets have a structured naming in R2, using the following rules: *type_of_dataset - author - number_of_samples - normalization - chiptype*
+Datasets are listed alphabetically
+[![](_static/images/UsingDatasets_ClickExclamationMarkForInfoInR2.png){width="400"}]
+</td>
+</tr>
+<tr>
+<td>
+Clicking on the GEO ID link redirects to the GEO repository database  
+where RAW data files are available. A Pubmed link is listed in case the
+dataset is linked to a publication listed in PubMed
+[![](_static/images/UsingDatasets_LinksToRawDataInR2.png){width="400"}]
+</td>
+</tr>
+</table>
+</div>  
 
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that clicking on an exclamation balloon provides additional     |
-| info***                                                                  |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](Image:Image:U |
-| singDatasets_ClickExclamationMarkForInfoInR2.png)       |
-|                                               |
-|                                                                          |
-| \                                                                        |
-|                                                                          |
-|                                                                    |
-|                                                                          |
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](Image:Image:U |
-| singDatasets_LinksToRawDataInR2.png)                    |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| Clicking on the GEO ID link redirects to the GEO repository database     |
-| where RAW data files are available. A Pubmed link is listed in case the  |
-| dataset is linked to a publication listed in PubMed                      |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
-
-
-
-\
-
-
-
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis.In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl***
-  Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to ***<r2-support@amc.nl>***
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<div class="r2didyouknow">
+<table>
+<th>Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis</th>
+<tr>
+<td>In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl
+Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to ***<r2-support@amc.nl>***
+</td>
+</tr>
+</table>
+</div>  
 
 
 

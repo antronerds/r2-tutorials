@@ -25,6 +25,10 @@ div.noshow{
 	display: none;
 }
 
+/* 
+Creates an R2 did you know box; a table containing header with R2D2 image
+*/
+
 div.r2didyouknow table {
 	border-collapse:collapse;
 	border-left:solid 1px black;
