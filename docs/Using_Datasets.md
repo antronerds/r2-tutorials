@@ -77,14 +77,30 @@ Tutorial step 2
     was published etc. An example search would be finding all colon
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
-    [![](_static/images/UsingDatasets_AdvancedSelectionLink.png)**Figure 3: Advanced selection of datasets**]
+<div class="noshow">
+![ **Figure 3: Advanced selection of datasets **](_static/images/UsingDatasets_AdvancedSelectionLink.png)
+</div>
+<div class="polaroid">
+<img src="_static/images/UsingDatasets_AdvancedSelectionLink.png" alt="Figure 3: Advanced selection of datasets" style="width:100%">
+<div class="container">
+<p>Figure 3: Advanced selection of datasets</p>
+</div>
+</div>
 2.  Click on the “Advanced” link. A new screen shows a table where the
     headers can be filled with search entries to fine tune your search
     for a dataset meeting your search criteria. Enter ‘Neuro’ in the
     class column and’ 50’ in the ‘\#’ column and select ‘ greater than’
     from the pull down menu. This returns all the datasets containing
     the search term ‘Neuro’ and having more than 50 samples.
-    [![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)**Figure 4: Advanced selection panel**]
+<div class="noshow">
+![ **Figure 4: Advanced selection panel **](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
+</div>
+<div class="polaroid">
+<img src="_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png" alt="Figure 4: Advanced selection panel" style="width:100%">
+<div class="container">
+<p>Figure 4: Advanced selection panel</p>
+</div>
+</div>
 3.  Clicking on ‘Neuroblastoma’ in the class 3 column containing 88
     samples reveals a detailed info box containing additional dataset
     information from the R2 database. When the dataset is publicly
@@ -94,12 +110,27 @@ Tutorial step 2
     in PubMed.
     Note: Clicking on an exclamation mark also shows detailed
     dataset information.
-    [![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)**Figure 5: Additional Dataset Info**]
+<div class="noshow">
+![ **Figure 5: Additional Dataset Info **](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
+</div>
+<div class="polaroid">
+<img src="_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png" alt="Figure 5: Additional Dataset Info" style="width:100%">
+<div class="container">
+<p>Figure 5: Additional Dataset Info</p>
+</div>
+</div>
 4.  Select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
     dataset” option.
-    [![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)**Figure 6: Selecting across datasets**]
-
+<div class="noshow">
+![ **Figure 6: Selecting across datasets **](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
+</div>
+<div class="polaroid">
+<img src="_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png" alt="Figure 6: Selecting across datasets Info" style="width:100%">
+<div class="container">
+<p>Figure 6: Selecting across datasets</p>
+</div>
+</div>
 
 
 Analysis methods following selecting the “Across Datasets” option in
