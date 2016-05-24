@@ -42,17 +42,18 @@ Tutorial step 1
 1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
     Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2” dataset is
     selected in field 2.
+    
+[![](_static/images/OneGene_singleselect.png)**Figure 1: Single geneselection**]
+    
 2.  Choose “View a gene” in field 3.
 3.  Type MYCN and click ‘next’.
 
+
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can find the latest R2 updates in the right panel in the R2 main screen***
+  
   Click on “all news” to see previous R2 updates
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-[![](_static/images/OneGene_singleselect.png)**Figure
-1: Single gene
-selection**](Image:Image:OneGene_singleselect.png)
 
 
 
@@ -82,29 +83,21 @@ Tutorial step 2
 3.  In the adjustable settings screen use the pre-defined default
     settings and click ‘next’.
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that a reporter with an exclamation marks is an indication      |
-| there may be something wrong with the reporter (e.g. bad design)***      |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](Image:Image:O |
-| neGene_Probeset.png)                                    |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| Hovering over the exclamation mark will inform you on what may be the    |
-| issue with a specific reporter (probeset).Reportes with an issue will    |
-| not be used to represent a gene in searches where hugoonce is used.\     |
-| Hovering over the name of a gene will display concise gene information,  |
-| such as alternative names for the current gene. In case you are not      |
-| searching with an official NCBI genesymbol, R2 will also search the      |
-| alternative names to find your gene of interest.                         |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ [![](_static/images/R2d2_logo.png)](Image:Image 
+ :R2d2%20logo.png)***Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)***      
 
-
+ [![](_static/images/OneGene_Probeset.png)]                  
+                                               
+                                                                          
+ Hovering over the exclamation mark will inform you on what may be the    
+ issue with a specific reporter (probeset).Reportes with an issue will    
+ not be used to represent a gene in searches where hugoonce is used.\     
+ Hovering over the name of a gene will display concise gene information,  
+ such as alternative names for the current gene. In case you are not      
+ searching with an official NCBI genesymbol, R2 will also search the      
+ alternative names to find your gene of interest.                         
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
