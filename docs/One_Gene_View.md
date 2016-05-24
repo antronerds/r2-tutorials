@@ -87,7 +87,7 @@ Tutorial step 2
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  [![](_static/images/R2d2_logo.png)](Image:Image 
- :R2d2%20logo.png)***Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)***      
+ :R2d2%20logo.png) ***Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)***      
 
  [![](_static/images/OneGene_Probeset.png)]                  
                                                

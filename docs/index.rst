@@ -22,6 +22,15 @@ Copyright (c) 2006-2016 Jan Koster
    Kaplan_Meier
    Pathway_Finder
    Multiple_Datasets
+   K_Means_Clustering
+   Using_Signatures
+   Analysing_Time_Series
+   Using_And_Creating_Genesets
+   Principle_Components_Analysis
+   Using_The_Genome_Browser
+   Adapting_R2
+   Exporting_Data
+   R2_Dataset_Addition
    Integrative_analysis_ChIP-Seq_data
    
 ..   
