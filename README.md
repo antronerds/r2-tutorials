@@ -14,7 +14,7 @@ Note that for a manual under developement, we should make "latest" non-public (c
 
 ## Editing the Manual
 To edit manual text, you must first check out this repository and use a text editor on your workstation. (You can use GitHub's native Markdown editor directly, too, for small edits.) 
-Another option is use the online wysiwyg editor http://dillinger.io/ It has an underwater screen and shows direct output of your actions. 
+Another option is use the online wysiwyg editor http://dillinger.io/ It has an underwater screen and shows direct output of your actions. You'll have to create an access token though: https://github.com/joemccann/dillinger/blob/master/plugins/github/README.md
 
 All document components are in the "docs" directory. Each chapter is contained in its own file, and the files are assembled as a complete document by naming them in the "docs/index.rst" file.
 

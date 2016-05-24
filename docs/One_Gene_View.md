@@ -21,7 +21,7 @@ Scope
     better insight in the expressions levels or adapt your
     graphic layout.
 -   In R2, the samples are annotated with e.g clinical data, each group
-    of annotated data is called a “Track” in R2. These tracks can be
+    of annotated data is called a â€œTrackâ€ in R2. These tracks can be
     used to filter data in all types of analyses R2 is offering.
 -   A separated info panel in the one-gene expression level screen
     provides different types of analyses based on the expression level
@@ -29,7 +29,7 @@ Scope
 -   Most of the mRNA expression datasets are generated with Affymetrix
     profiling arrays. In general these arrays use more than one so
     called probeset to measure the expression level of one single gene.
-    With a separated module “Transcript view”, the details of the
+    With a separated module â€œTranscript viewâ€, the details of the
     probesets can be studied.
 
 
@@ -39,20 +39,20 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
-    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2” dataset is
+1.  Use â€œSingle Datasetâ€ in field 1 and make sure that the â€œTumor
+    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2â€ dataset is
     selected in field 2.
     
 [![](_static/images/OneGene_singleselect.png)**Figure 1: Single geneselection**]
     
-2.  Choose “View a gene” in field 3.
-3.  Type MYCN and click ‘next’.
+2.  Choose â€œView a geneâ€ in field 3.
+3.  Type MYCN and click â€˜nextâ€™.
 
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can find the latest R2 updates in the right panel in the R2 main screen***
+  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)
   
-  Click on “all news” to see previous R2 updates
+***  Click on "all news" to see previous R2 updates***
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -73,15 +73,15 @@ Tutorial step 2
     informative probeset is re-determined in every dataset, sometimes
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
-    [![](_static/images/OneGene_Adjust.png)**Figure
-    2: By default the probeset with the highest expression level is
-    selected**](Image:Image:OneGene_Adjust.png)
+  
+    [![](_static/images/OneGene_Adjust.png)**Figure 2: By default the probeset with the highest expression level is selected**]
+    
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
     skip tracks, click on the Track Display section and select the
     appropriate tracks.
 3.  In the adjustable settings screen use the pre-defined default
-    settings and click ‘next’.
+    settings and click â€˜nextâ€™.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  [![](_static/images/R2d2_logo.png)](Image:Image 
@@ -112,25 +112,25 @@ Tutorial step 3
     clinical information of the samples in so called "tracks". Again,
     hovering over them will reveal underlying data. For MYCN there is a
     clear relation between the expression levels and the tracks for
-    “MYCN amplification” and “INSS-stage“. So these tracks underneath
+    â€œMYCN amplificationâ€ and â€œINSS-stageâ€œ. So these tracks underneath
     the image give a quick glance at some of the clinical parameters,
     defined for the dataset. It is also possible to define your own
     custom made tracks, or disable/adapt the settings for default tracks
-    (further explained in “Adapting R2 to your needs").
+    (further explained in â€œAdapting R2 to your needs").
     [![](_static/images/OneGene_MYCN.png)**'Figure
     3: YY plot MYCN
     expression**](Image:Image:OneGene_MYCN.png)
 3.  Sometimes you get more insight by reviewing the expression levels
     with other transformations. Scroll down and transform the data
-    (Figure 4), choosing “none”, in the ‘transformation’ pulldown menu
-    and click adjust settings. In the “adjustable settings” panel, there
+    (Figure 4), choosing â€œnoneâ€, in the â€˜transformationâ€™ pulldown menu
+    and click adjust settings. In the â€œadjustable settingsâ€ panel, there
     are several other settings to adapt the graph R2 generates (like
     changing font sizes, or adding labels to the datapoints). To mark
-    specific samples in the graph you can enter the sample ID’s in the
-    ‘adjustable settings’ field, several marking options can be selected
-    (e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
+    specific samples in the graph you can enter the sample IDâ€™s in the
+    â€˜adjustable settingsâ€™ field, several marking options can be selected
+    (e.g: â€˜epicenterâ€™ and â€˜arrowâ€™). To generate a graph of a subgroup of
     samples use the subset Select pulldown to select a specific group.
-    Click ‘**confirm’** and the redraw button.
+    Click â€˜**confirmâ€™** and the redraw button.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that the Adjustable Settings panel is also available in the previous screen***
@@ -144,28 +144,28 @@ Tutorial step 3
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
 | :R2d2%20logo.png)***Did                                 |
-| you know that converting expression levels using the “transform” option  |
+| you know that converting expression levels using the â€œtransformâ€ option  |
 | can help you to gain additional insight.***                              |
 +--------------------------------------------------------------------------+
 | There are several data transformations available                         |
-| -   “none”: Raw untransformed expression values, as they are represented |
+| -   â€œnoneâ€: Raw untransformed expression values, as they are represented |
 |     in the R2 database.                                                  |
-| -   “2log”: logarithmic values with base of 2. Every increment           |
+| -   â€œ2logâ€: logarithmic values with base of 2. Every increment           |
 |     constitutes twice the amount.                                        |
-| -   “rank”: Data transformation in which numerical or ordinal values are |
+| -   â€œrankâ€: Data transformation in which numerical or ordinal values are |
 |     replaced by their rank when the data are sorted by expression. This  |
 |     transformation is useful for non-parametric statistical tests.       |
-| -   “zscore”: 2log transformed data, centered around the average and     |
+| -   â€œzscoreâ€: 2log transformed data, centered around the average and     |
 |     expressed as the number of standard deviations from the average.     |
-| -   “zscore\_nonlog”: raw intensity values, centered around the average  |
+| -   â€œzscore\_nonlogâ€: raw intensity values, centered around the average  |
 |     and expressed as the number of standard deviations from the average. |
 |     This transformation is useful when the intensities in R2 are not     |
 |     raw, but for example logfolds as is often the case for aCGH data.    |
-| -   “mad/mad2log”: Median absolute deviation (on raw values, or log2     |
+| -   â€œmad/mad2logâ€: Median absolute deviation (on raw values, or log2     |
 |     transformed values).                                                 |
-| -   “center/log2center”: Expression values centered around 0 (on raw     |
+| -   â€œcenter/log2centerâ€: Expression values centered around 0 (on raw     |
 |     values, or log2 transformed values).                                 |
-| -   “zcore\_group”: Coverts the expression levels from the zscore within |
+| -   â€œzcore\_groupâ€: Coverts the expression levels from the zscore within |
 |     a group (track). Applicable when e.g technical variation in          |
 |     expression levels is expected. A possible reason could be when       |
 |     samples from the same dataset originate from different centers.      |
@@ -182,10 +182,10 @@ Tutorial step 4
 
 Figure 5 lists for the various reporters of MYCN whether they are in
 agreement with the genome position of MYCN reference sequence (RefSeq).
-If all are stating “YES” then everything appears alright (from the
-perspective of an automated assessment). For the MYCN reporters “NO”
+If all are stating â€œYESâ€ then everything appears alright (from the
+perspective of an automated assessment). For the MYCN reporters â€œNOâ€
 indications indicate there may be an issue with it. Scroll down the page
-and click on the “Tview” link in the reporter table.
+and click on the â€œTviewâ€ link in the reporter table.
 
 
 
@@ -202,8 +202,8 @@ table**](Image:Image:OneGene_Probesettable.png)
     aligned the sequences used to generate the reporters on the array
     (in the case of Affymetrix microarrays). This view can be used to
     inspect the quality of a reporter. Note that the reporter
-    “242046\_at” is aligned to the genomic region of the MYCN reference
-    sequence, but that it’s color is different from the rest (colored
+    â€œ242046\_atâ€ is aligned to the genomic region of the MYCN reference
+    sequence, but that itâ€™s color is different from the rest (colored
     in red). In addition in this particular case the reporter is also
     located in the intronic (light shaded color) region which is also a
     reason not to pick a certain probeset. Indeed, if we compare the
@@ -266,7 +266,7 @@ dataset additions).
 
 Clicking on pubsniffer opens a new screen showing a list of how times
 your gene of interest is found within the NCBI Pubmed database in
-combination with dataset keywords. Clicking on “outlink” redirects you
+combination with dataset keywords. Clicking on â€œoutlinkâ€ redirects you
 **to Pubmed Pub-reminer** which is a tool for PubMed query building and
 literature mining.
 
@@ -291,7 +291,7 @@ Tutorial step 6
 
 
 To investigate the values R2 uses for graph generation click on
-“Datatable” to unfold a table with the expression levels for all
+â€œDatatableâ€ to unfold a table with the expression levels for all
 samples.
 
 
@@ -301,11 +301,11 @@ samples.
 datatable**](Image:Image:OneGene_Datatable.png)
 
 
-The “track display selection” section can be opened by clicking on it.
+The â€œtrack display selectionâ€ section can be opened by clicking on it.
 In here, you are able to toggle which tracks to display and/or hide
 within the YY-plots. Do note that these selections are non-persistent
 and will be forgotten as soon as you leave the xgeneview. Persistent,
-changes to the tracks can be made via the ‘my settings’ menu item, which
+changes to the tracks can be made via the â€˜my settingsâ€™ menu item, which
 is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
 
@@ -316,7 +316,7 @@ including the customize track parameters are available throughout R2.
 tracks**](Image:Image:OneGene_trackdisplay.png)
 
 
-Other convenient options are revealed by clicking the “more settings”
+Other convenient options are revealed by clicking the â€œmore settingsâ€
 section. An extra panel unfolds which allows you to adapt your graph to
 meet for example the requirements of a journal. The appearance of this
 section will change depending on the kind of graph that you are
@@ -331,8 +331,8 @@ Panel**](Image:Image:OneGene_Adapting.png)[![](_static/images/OneGene_Extrasetti
 graph**](Image:Image:OneGene_Extrasettings.png)
 
 
-In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
-Legend”) were added. The “Annot Graph” option, adds the information of a
+In Figure 12 sample annotation (â€œAnnot Graphâ€) and legend (â€œDraw
+Legendâ€) were added. The â€œAnnot Graphâ€ option, adds the information of a
 selected track to the YY-plot. This can be helpful for the addition of
 Sample labels, or cell line names etc. Annotations can be shown in 3
 ways; just below/on top of the expression value, as a series below the
