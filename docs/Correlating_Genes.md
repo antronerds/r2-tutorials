@@ -46,7 +46,7 @@ Tutorial step 1
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" field is selected in field 1 of the R2 step-by-step
     guide
-2.  Make sure the ‘Tumor Neuroblastoma public dataset’ is selected in
+2.  Make sure the â€˜Tumor Neuroblastoma public datasetâ€™ is selected in
     field 2 (For additional information on these first two steps,
     consult tutorial : Working with datasets
 3.  In field 3 select 'Find Correlated genes with a single gene'
@@ -97,7 +97,7 @@ Tutorial step 3
     of calculations! The result is presented as two tables (Figure 3 )
     In the header a summary is given: \~ 2200 combinations of MYCN and
     another gene met the criteria, i.e. having a significant correlation
-    (p &lt; 0.01) with the expression of MYCN, \~ 15000 genes did not
+    (p < 0.01) with the expression of MYCN, \~ 15000 genes did not
     obey these criteria. The left table represents the genes whose
     expression correlates positively, or is similar, with that of MYCN
     in this dataset. Of course MYCN has a perfect correlation
@@ -113,7 +113,7 @@ Tutorial step 3
 
 
 Exact (gene-) numbers listed in the tutorial Figures such as in this
-example “2208 combinations…” can vary. This could be caused by database
+example â€œ2208 combinationsâ€¦â€ can vary. This could be caused by database
 updates upon a new genebuild release or an affymetrix annotation update.
 
 
@@ -127,7 +127,7 @@ updates upon a new genebuild release or an affymetrix annotation update.
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
 3.  In the left upper corner the filter icon is located , this links
-    directly to the ‘adjustable settings panel ‘ where you adapt the
+    directly to the â€˜adjustable settings panel â€˜ where you adapt the
     filtering conditions . The filter button is accessible in many
     analysis modules of R2.
 
@@ -170,9 +170,9 @@ Tutorial step 4
 
 
 To generate a correlation plot where the negative relation between MYCN
-and MEAF6 gene is more clearly visualized select ‘XY-plot’ as graph type
+and MEAF6 gene is more clearly visualized select â€˜XY-plotâ€™ as graph type
 in the graphics section in the Adjustable Settings box and click the
-Adjust Settings button. In this correlation plot it’s also still
+Adjust Settings button. In this correlation plot itâ€™s also still
 possible to show expression levels for the samples are distributed. In
 order to do so click on more settings in the Adjustable Settings box and
 set Histogram to yes, click Adjust Settings button. Now the histogram
