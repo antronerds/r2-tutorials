@@ -43,7 +43,7 @@ Tutorial step 1
     Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2” dataset is
     selected in field 2.
     
-[![](_static/images/OneGene_singleselect.png)**Figure 1: Single geneselection**]
+[![**Figure 1: Single geneselection**](_static/images/OneGene_singleselect.png)]
     
 2.  Choose “View a gene” in field 3.
 3.  Type MYCN and click ‘next’.
