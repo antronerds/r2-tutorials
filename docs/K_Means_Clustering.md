@@ -34,7 +34,7 @@ Tutorial step 1
     [![](_static/images/Kmeans_selecting.png)**Figure
     1: Selecting K-means clustering on the R2 main
     page**](Image:Image:Kmeans_selecting.png)
-4.  Click ‘next’
+4.  Click â€˜nextâ€™
 
 
 
@@ -58,7 +58,7 @@ Tutorial step 2
     settings**](Image:Image:Kmeans_clustersettings.png)
 3.  Dependending on the size of your dataset or geneset you can enlarge
     of minimize your K-means plot by adapting te size of the retangles
-    at heatmap option. click ‘next’
+    at heatmap option. click â€˜nextâ€™
 
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
@@ -126,8 +126,9 @@ Tutorial step 3
     subset of one of the two current clusters; more groups are expected.
     We're going to use a larger value for k to investigate this. In your
     browser click the back button and change the number of groups to 8.
-4.  Click ‘next’.
-    [![](_static/images/Kmeans_heatmap.png)**Figure
+4.  Click â€˜nextâ€™.
+    [![](_static/images/Kmeans_heatmap.png)**
+Figure
     4: The heatmap for the k-means clustering in 2 groups; it is obvious
     that the data is represented in
     the clusters.**](Image:Image:Kmeans_heatmap.png)
