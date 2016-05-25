@@ -45,7 +45,7 @@ Tutorial step 1
 2.  Choose “View a gene” in field 3.
 3.  Type MYCN and click ‘next’.
 
-![Figure 1: R2 Single geneselection] (_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
+![Figure 1: R2 Single geneselection](_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
 
 
 **Figure 1: Single geneselection**
@@ -53,6 +53,7 @@ Tutorial step 1
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Click on "all news" to see previous R2 updates***
+  
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
