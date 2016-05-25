@@ -127,7 +127,9 @@ Tutorial step 3
     We're going to use a larger value for k to investigate this. In your
     browser click the back button and change the number of groups to 8.
 4.  Click ‘next’.
-    [![](_static/images/Kmeans_heatmap.png)
+
+[![](_static/images/Kmeans_heatmap.png)
+
 **Figure
     4: The heatmap for the k-means clustering in 2 groups; it is obvious
     that the data is represented in
