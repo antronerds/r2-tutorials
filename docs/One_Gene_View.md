@@ -75,7 +75,10 @@ Tutorial step 2
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
   
-    [![](_static/images/OneGene_Adjust.png)**Figure 2: By default the probeset with the highest expression level is selected**]
+![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
+    
+    
+**Figure 2: By default the probeset with the highest expression level is selected**
     
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
@@ -85,9 +88,9 @@ Tutorial step 2
     settings and click ‘next’.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- [![](_static/images/R2d2_logo.png)]**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)**      
+ ![](_static/images/R2d2_logo.png)**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)**      
 
- [![](_static/images/OneGene_Probeset.png)]                  
+ ![](_static/images/OneGene_Probeset.png)                  
 
  Hovering over the exclamation mark will inform you on what may be the    
  issue with a specific reporter (probeset).Reportes with an issue will    
@@ -116,60 +119,63 @@ Tutorial step 3
     the image give a quick glance at some of the clinical parameters,
     defined for the dataset. It is also possible to define your own
     custom made tracks, or disable/adapt the settings for default tracks
-    (further explained in “Adapting R2 to your needs").
-    [![](_static/images/OneGene_MYCN.png)**'Figure
-    3: YY plot MYCN
-    expression**](Image:Image:OneGene_MYCN.png)
+    (further explained in “Adapting R2 to your needs")
+    
+![Figure 3: YY plot MYCN expression](_static/images/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
+
+**Figure 3: YY plot MYCN expression**
+
 3.  Sometimes you get more insight by reviewing the expression levels
     with other transformations. Scroll down and transform the data
     (Figure 4), choosing “none”, in the ‘transformation’ pulldown menu
     and click adjust settings. In the “adjustable settings” panel, there
     are several other settings to adapt the graph R2 generates (like
-    changing font sizes, or adding labels to the datapoints). To mark
-    specific samples in the graph you can enter the sample ID’s in the
+    changing font sizes, or adding labels to the datapoints). 
+   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png))**Did you know that the Adjustable Settings panel is also available in the previous screen**
+  
+  Just scroll down the page
+  
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+  	To mark specific samples in the graph you can enter the sample ID’s in the
     ‘adjustable settings’ field, several marking options can be selected
     (e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
     samples use the subset Select pulldown to select a specific group.
     Click ‘**confirm’** and the redraw button.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))***Did you know that the Adjustable Settings panel is also available in the previous screen***
-  Just scroll down
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  [![](_static/images/OneGene_Marksample.png)**Figure
-    4: Adjusting the graph
-    settings**](Image:Image:OneGene_Marksample.png)
+![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that converting expression levels using the “transform” option  |
-| can help you to gain additional insight.***                              |
-+--------------------------------------------------------------------------+
-| There are several data transformations available                         |
-| -   “none”: Raw untransformed expression values, as they are represented |
-|     in the R2 database.                                                  |
-| -   “2log”: logarithmic values with base of 2. Every increment           |
-|     constitutes twice the amount.                                        |
-| -   “rank”: Data transformation in which numerical or ordinal values are |
-|     replaced by their rank when the data are sorted by expression. This  |
-|     transformation is useful for non-parametric statistical tests.       |
-| -   “zscore”: 2log transformed data, centered around the average and     |
-|     expressed as the number of standard deviations from the average.     |
-| -   “zscore\_nonlog”: raw intensity values, centered around the average  |
-|     and expressed as the number of standard deviations from the average. |
-|     This transformation is useful when the intensities in R2 are not     |
-|     raw, but for example logfolds as is often the case for aCGH data.    |
-| -   “mad/mad2log”: Median absolute deviation (on raw values, or log2     |
-|     transformed values).                                                 |
-| -   “center/log2center”: Expression values centered around 0 (on raw     |
-|     values, or log2 transformed values).                                 |
-| -   “zcore\_group”: Coverts the expression levels from the zscore within |
-|     a group (track). Applicable when e.g technical variation in          |
-|     expression levels is expected. A possible reason could be when       |
-|     samples from the same dataset originate from different centers.      |
-+--------------------------------------------------------------------------+
+**Figure 4: Adjusting the graph settings**
+
+--------------------------------------------------------------------------
+ ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
+
+ There are several data transformations available                         
+ -   “none”: Raw untransformed expression values, as they are represented 
+     in the R2 database.                                                  
+ -   “2log”: logarithmic values with base of 2. Every increment           
+     constitutes twice the amount.                                        
+ -   “rank”: Data transformation in which numerical or ordinal values are 
+     replaced by their rank when the data are sorted by expression. This  
+     transformation is useful for non-parametric statistical tests.       
+ -   “zscore”: 2log transformed data, centered around the average and     
+     expressed as the number of standard deviations from the average.     
+ -   “zscore\_nonlog”: raw intensity values, centered around the average  
+     and expressed as the number of standard deviations from the average. 
+     This transformation is useful when the intensities in R2 are not     
+     raw, but for example logfolds as is often the case for aCGH data.    
+ -   “mad/mad2log”: Median absolute deviation (on raw values, or log2     
+     transformed values).                                                 
+ -   “center/log2center”: Expression values centered around 0 (on raw     
+     values, or log2 transformed values).                                 
+ -   “zcore\_group”: Coverts the expression levels from the zscore within 
+     a group (track). Applicable when e.g technical variation in          
+     expression levels is expected. A possible reason could be when       
+     samples from the same dataset originate from different centers.      
+     
+--------------------------------------------------------------------------
 
 
 
@@ -188,10 +194,10 @@ indications indicate there may be an issue with it. Scroll down the page
 and click on the “Tview” link in the reporter table.
 
 
+![Figure 5: Probeset verification table](_static/images/OneGene_Probesettable.png "Figure 5: Probeset verification table")
 
-[![](_static/images/OneGene_Probesettable.png)**Figure
-5: Probeset verification
-table**](Image:Image:OneGene_Probesettable.png)
+**Figure 5: Probeset verification table**
+
 1.  A new screen (or TAB in the browser) appears with TranscriptView.
     The Transcript view application depicts the alignment of expressed
     sequence tags (EST) and mRNA sequences to the human reference genome
@@ -214,11 +220,11 @@ table**](Image:Image:OneGene_Probesettable.png)
     NB: Currently probeset verification is only provided for various
     human Affymetrix array types.
 
-[![](_static/images/OneGene_Colorlegend.png)**Figure
-6: Color
-legend**](Image:Image:OneGene_Colorlegend.png)[![](_static/images/OneGene_Tview.png)**Figure
-7: MYCN reporters in Transcript
-view**](Image:Image:OneGene_Tview.png)
+![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Color legend")
+
+**Figure 6: Color legend**
+
+[![](_static/images/OneGene_Tview.png)**Figure 7: MYCN reporters in Transcript view**](Image:Image:OneGene_Tview.png)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png))***Did you know that you can browse the gene expression values along the genome***
 
