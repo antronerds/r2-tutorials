@@ -133,7 +133,7 @@ Tutorial step 3
     the clusters.**](Image:Image:Kmeans_heatmap.png)
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
+  ![](_static/images/R2d2_logo.png))***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
   Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@ Tutorial step 3
 
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)**'Did you know that** ***some virus scanners slow drawing of these graphs??***
+  ![](_static/images/R2d2_logo.png))**'Did you know that** ***some virus scanners slow drawing of these graphs??***
   If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

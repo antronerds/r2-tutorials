@@ -132,7 +132,7 @@ to your personal needs. Such as fontsize , Line width etc.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments***
   Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -206,7 +206,7 @@ Tutorial step 2
     diagram**](Image:Image:AnalysingTime_Venn.png)
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?***
+  ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?***
   In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -262,7 +262,7 @@ Tutorial step 3.
     of the selected genecategory is represented./
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
+  ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
   Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting &lt; \~400 genes.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -273,7 +273,7 @@ Tutorial step 3.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that with ‘sample ordering’ (Figure 11) you can manage the way the samples are clustered.***
+  ![](_static/images/R2d2_logo.png)***Did you know that with ‘sample ordering’ (Figure 11) you can manage the way the samples are clustered.***
   By choosing ‘sample ordering ’ by ‘track’ , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -311,7 +311,7 @@ detail in tutorial 10.
 
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.***
   You can use this track for further analysis with a custom made track for example by using the ‘find differential expression between groups’. This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and ‘Adapting R2 to your needs’ .
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

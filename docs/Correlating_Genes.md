@@ -46,7 +46,7 @@ Tutorial step 1
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" field is selected in field 1 of the R2 step-by-step
     guide
-2.  Make sure the ‘Tumor Neuroblastoma public dataset’ is selected in
+2.  Make sure the â€˜Tumor Neuroblastoma public datasetâ€™ is selected in
     field 2 (For additional information on these first two steps,
     consult tutorial : Working with datasets
 3.  In field 3 select 'Find Correlated genes with a single gene'
@@ -77,7 +77,7 @@ Tutorial step 2
 3.  Scroll down the screen and click 'Next'
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can find the correlation between two genes directly?***
+  ![](_static/images/R2d2_logo.png))***Did you know that you can find the correlation between two genes directly?***
   Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -113,7 +113,7 @@ Tutorial step 3
 
 
 Exact (gene-) numbers listed in the tutorial Figures such as in this
-example “2208 combinations…” can vary. This could be caused by database
+example â€œ2208 combinationsâ€¦â€� can vary. This could be caused by database
 updates upon a new genebuild release or an affymetrix annotation update.
 
 
@@ -127,7 +127,7 @@ updates upon a new genebuild release or an affymetrix annotation update.
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
 3.  In the left upper corner the filter icon is located , this links
-    directly to the ‘adjustable settings panel ‘ where you adapt the
+    directly to the â€˜adjustable settings panel â€˜ where you adapt the
     filtering conditions . The filter button is accessible in many
     analysis modules of R2.
 
@@ -170,9 +170,9 @@ Tutorial step 4
 
 
 To generate a correlation plot where the negative relation between MYCN
-and MEAF6 gene is more clearly visualized select ‘XY-plot’ as graph type
+and MEAF6 gene is more clearly visualized select â€˜XY-plotâ€™ as graph type
 in the graphics section in the Adjustable Settings box and click the
-Adjust Settings button. In this correlation plot it’s also still
+Adjust Settings button. In this correlation plot itâ€™s also still
 possible to show expression levels for the samples are distributed. In
 order to do so click on more settings in the Adjustable Settings box and
 set Histogram to yes, click Adjust Settings button. Now the histogram
@@ -219,7 +219,7 @@ arm of) a chromosome is calculated.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that over-representation is explained here?***
+  ![](_static/images/R2d2_logo.png))***Did you know that over-representation is explained here?***
   Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

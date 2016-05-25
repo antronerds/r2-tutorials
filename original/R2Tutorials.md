@@ -100,8 +100,8 @@ Scope
     individual human samples. The samples are grouped in so
     called datasets. Each dataset has its own characteristics such
     tissue type, tumor type or from cell-line experiments.
--   The “**Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
-    u133p2”** dataset will be used as an example dataset to guide you
+-   The ï¿½**Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
+    u133p2ï¿½** dataset will be used as an example dataset to guide you
     through most of the tutorial. Later on working with multiple
     datasets will be discussed.
 
@@ -115,10 +115,10 @@ Tutorial step 1
 1.  In R2 a large amount of datasets are available for analysis
     and visualization. The numbered items in the main window will guide
     you through all the steps necessary to perform a task. In field
-    **1** select “single dataset”, in field **2** choose “change
+    **1** select ï¿½single datasetï¿½, in field **2** choose ï¿½change
     [![](_static/images/First_image_select_dataset.png)**Figure
     1: In the main screen
-    “Change dataset”.**](Image:Image:First_image_select_dataset.png)
+    ï¿½Change datasetï¿½.**](Image:Image:First_image_select_dataset.png)
 2.  A pull-down menu appears containing a large collection of datasets
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
@@ -127,7 +127,7 @@ Tutorial step 1
     screen**](Image:Image:UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that datasets have an informative naming***
+  ![](_static/images/R2d2_logo.png)***Did you know that datasets have an informative naming***
 
   Datasets have a structured naming in R2, using the following rules: *type\_of\_dataset - author - number\_of\_samples - normalization - chiptype*\
   Datasets are listed alphabetically
@@ -140,8 +140,8 @@ Tutorial step 1
 Tutorial step 2
 ---------------
 
-1.  Next to the pull down menu you can also choose for the “advanced
-    dataset selection” tool. The advanced dataset selection facilitates
+1.  Next to the pull down menu you can also choose for the ï¿½advanced
+    dataset selectionï¿½ tool. The advanced dataset selection facilitates
     searching through datasets using keywords and other filter options
     such as the minimal size of a dataset , the date a certain dataset
     was published etc. An example search would be finding all colon
@@ -150,16 +150,16 @@ Tutorial step 2
     [![](_static/images/UsingDatasets_AdvancedSelectionLink.png)**Figure
     3: Advanced selection of
     datasets**](Image:Image:UsingDatasets_AdvancedSelectionLink.png)
-2.  Click on the “Advanced” link. A new screen shows a table where the
+2.  Click on the ï¿½Advancedï¿½ link. A new screen shows a table where the
     headers can be filled with search entries to fine tune your search
-    for a dataset meeting your search criteria. Enter ‘Neuro’ in the
-    class column and’ 50’ in the ‘\#’ column and select ‘ greater than’
+    for a dataset meeting your search criteria. Enter ï¿½Neuroï¿½ in the
+    class column andï¿½ 50ï¿½ in the ï¿½\#ï¿½ column and select ï¿½ greater thanï¿½
     from the pull down menu. This returns all the datasets containing
-    the search term ‘Neuro’ and having more than 50 samples.
+    the search term ï¿½Neuroï¿½ and having more than 50 samples.
     [![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)**Figure
     4: Advanced selection
     panel**](Image:Image:UsingDatasets_AdvancedSelectionPanelInR2.png)
-3.  Clicking on ‘Neuroblastoma’ in the class 3 column containing 88
+3.  Clicking on ï¿½Neuroblastomaï¿½ in the class 3 column containing 88
     samples reveals a detailed info box containing additional dataset
     information from the R2 database. When the dataset is publicly
     available clicking on the GEO ID link redirects to the GEO
@@ -171,18 +171,18 @@ Tutorial step 2
     [![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)**Figure
     5: Additional Dataset
     Info**](Image:Image:UsingDatasets_AdditinalDatasetInfoInR2.png)
-4.  Select “Across Datasets” in field **1**. Note that in field 2
-    different options become available compared to the “single
-    dataset” option.
+4.  Select ï¿½Across Datasetsï¿½ in field **1**. Note that in field 2
+    different options become available compared to the ï¿½single
+    datasetï¿½ option.
     [![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)**Figure
     6: Selecting across
     datasets**](Image:Image:UsingDatasets_SelectAcrossDatasetsInR2.png)
 
 
 
-Analysis methods following selecting the “Across Datasets” option in
-field **1** will be discussed in tutorial “Working with multiple
-datasets”.
+Analysis methods following selecting the ï¿½Across Datasetsï¿½ option in
+field **1** will be discussed in tutorial ï¿½Working with multiple
+datasetsï¿½.
 
 
 
@@ -219,7 +219,7 @@ datasets”.
 
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis.In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl***
+  ![](_static/images/R2d2_logo.png)***Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis.In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl***
   Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to ***<r2-support@amc.nl>***
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -278,7 +278,7 @@ Scope
     better insight in the expressions levels or adapt your
     graphic layout.
 -   In R2, the samples are annotated with e.g clinical data, each group
-    of annotated data is called a “Track” in R2. These tracks can be
+    of annotated data is called a ï¿½Trackï¿½ in R2. These tracks can be
     used to filter data in all types of analyses R2 is offering.
 -   A separated info panel in the one-gene expression level screen
     provides different types of analyses based on the expression level
@@ -286,7 +286,7 @@ Scope
 -   Most of the mRNA expression datasets are generated with Affymetrix
     profiling arrays. In general these arrays use more than one so
     called probeset to measure the expression level of one single gene.
-    With a separated module “Transcript view”, the details of the
+    With a separated module ï¿½Transcript viewï¿½, the details of the
     probesets can be studied.
 
 
@@ -296,15 +296,15 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
-    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2” dataset is
+1.  Use ï¿½Single Datasetï¿½ in field 1 and make sure that the ï¿½Tumor
+    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2ï¿½ dataset is
     selected in field 2.
-2.  Choose “View a gene” in field 3.
-3.  Type MYCN and click ‘next’.
+2.  Choose ï¿½View a geneï¿½ in field 3.
+3.  Type MYCN and click ï¿½nextï¿½.
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can find the latest R2 updates in the right panel in the R2 main screen***
-  Click on “all news” to see previous R2 updates
+  ![](_static/images/R2d2_logo.png)***Did you know that you can find the latest R2 updates in the right panel in the R2 main screen***
+  Click on ï¿½all newsï¿½ to see previous R2 updates
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![](_static/images/OneGene_singleselect.png)**Figure
@@ -337,7 +337,7 @@ Tutorial step 2
     skip tracks, click on the Track Display section and select the
     appropriate tracks.
 3.  In the adjustable settings screen use the pre-defined default
-    settings and click ‘next’.
+    settings and click ï¿½nextï¿½.
 
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
@@ -376,28 +376,28 @@ Tutorial step 3
     clinical information of the samples in so called "tracks". Again,
     hovering over them will reveal underlying data. For MYCN there is a
     clear relation between the expression levels and the tracks for
-    “MYCN amplification” and “INSS-stage“. So these tracks underneath
+    ï¿½MYCN amplificationï¿½ and ï¿½INSS-stageï¿½. So these tracks underneath
     the image give a quick glance at some of the clinical parameters,
     defined for the dataset. It is also possible to define your own
     custom made tracks, or disable/adapt the settings for default tracks
-    (further explained in “Adapting R2 to your needs").
+    (further explained in ï¿½Adapting R2 to your needs").
     [![](_static/images/OneGene_MYCN.png)**'Figure
     3: YY plot MYCN
     expression**](Image:Image:OneGene_MYCN.png)
 3.  Sometimes you get more insight by reviewing the expression levels
     with other transformations. Scroll down and transform the data
-    (Figure 4), choosing “none”, in the ‘transformation’ pulldown menu
-    and click adjust settings. In the “adjustable settings” panel, there
+    (Figure 4), choosing ï¿½noneï¿½, in the ï¿½transformationï¿½ pulldown menu
+    and click adjust settings. In the ï¿½adjustable settingsï¿½ panel, there
     are several other settings to adapt the graph R2 generates (like
     changing font sizes, or adding labels to the datapoints). To mark
-    specific samples in the graph you can enter the sample ID’s in the
-    ‘adjustable settings’ field, several marking options can be selected
-    (e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
+    specific samples in the graph you can enter the sample IDï¿½s in the
+    ï¿½adjustable settingsï¿½ field, several marking options can be selected
+    (e.g: ï¿½epicenterï¿½ and ï¿½arrowï¿½). To generate a graph of a subgroup of
     samples use the subset Select pulldown to select a specific group.
-    Click ‘**confirm’** and the redraw button.
+    Click ï¿½**confirmï¿½** and the redraw button.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that the Adjustable Settings panel is also available in the previous screen***
+  ![](_static/images/R2d2_logo.png)***Did you know that the Adjustable Settings panel is also available in the previous screen***
   Just scroll down
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -408,28 +408,28 @@ Tutorial step 3
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
 | :R2d2%20logo.png)***Did                                 |
-| you know that converting expression levels using the “transform” option  |
+| you know that converting expression levels using the ï¿½transformï¿½ option  |
 | can help you to gain additional insight.***                              |
 +--------------------------------------------------------------------------+
 | There are several data transformations available                         |
-| -   “none”: Raw untransformed expression values, as they are represented |
+| -   ï¿½noneï¿½: Raw untransformed expression values, as they are represented |
 |     in the R2 database.                                                  |
-| -   “2log”: logarithmic values with base of 2. Every increment           |
+| -   ï¿½2logï¿½: logarithmic values with base of 2. Every increment           |
 |     constitutes twice the amount.                                        |
-| -   “rank”: Data transformation in which numerical or ordinal values are |
+| -   ï¿½rankï¿½: Data transformation in which numerical or ordinal values are |
 |     replaced by their rank when the data are sorted by expression. This  |
 |     transformation is useful for non-parametric statistical tests.       |
-| -   “zscore”: 2log transformed data, centered around the average and     |
+| -   ï¿½zscoreï¿½: 2log transformed data, centered around the average and     |
 |     expressed as the number of standard deviations from the average.     |
-| -   “zscore\_nonlog”: raw intensity values, centered around the average  |
+| -   ï¿½zscore\_nonlogï¿½: raw intensity values, centered around the average  |
 |     and expressed as the number of standard deviations from the average. |
 |     This transformation is useful when the intensities in R2 are not     |
 |     raw, but for example logfolds as is often the case for aCGH data.    |
-| -   “mad/mad2log”: Median absolute deviation (on raw values, or log2     |
+| -   ï¿½mad/mad2logï¿½: Median absolute deviation (on raw values, or log2     |
 |     transformed values).                                                 |
-| -   “center/log2center”: Expression values centered around 0 (on raw     |
+| -   ï¿½center/log2centerï¿½: Expression values centered around 0 (on raw     |
 |     values, or log2 transformed values).                                 |
-| -   “zcore\_group”: Coverts the expression levels from the zscore within |
+| -   ï¿½zcore\_groupï¿½: Coverts the expression levels from the zscore within |
 |     a group (track). Applicable when e.g technical variation in          |
 |     expression levels is expected. A possible reason could be when       |
 |     samples from the same dataset originate from different centers.      |
@@ -446,10 +446,10 @@ Tutorial step 4
 
 Figure 5 lists for the various reporters of MYCN whether they are in
 agreement with the genome position of MYCN reference sequence (RefSeq).
-If all are stating “YES” then everything appears alright (from the
-perspective of an automated assessment). For the MYCN reporters “NO”
+If all are stating ï¿½YESï¿½ then everything appears alright (from the
+perspective of an automated assessment). For the MYCN reporters ï¿½NOï¿½
 indications indicate there may be an issue with it. Scroll down the page
-and click on the “Tview” link in the reporter table.
+and click on the ï¿½Tviewï¿½ link in the reporter table.
 
 
 
@@ -466,8 +466,8 @@ table**](Image:Image:OneGene_Probesettable.png)
     aligned the sequences used to generate the reporters on the array
     (in the case of Affymetrix microarrays). This view can be used to
     inspect the quality of a reporter. Note that the reporter
-    “242046\_at” is aligned to the genomic region of the MYCN reference
-    sequence, but that it’s color is different from the rest (colored
+    ï¿½242046\_atï¿½ is aligned to the genomic region of the MYCN reference
+    sequence, but that itï¿½s color is different from the rest (colored
     in red). In addition in this particular case the reporter is also
     located in the intronic (light shaded color) region which is also a
     reason not to pick a certain probeset. Indeed, if we compare the
@@ -484,7 +484,7 @@ legend**](Image:Image:OneGene_Colorlegend.png)[![](_static/images/OneGene_Tview.
 7: MYCN reporters in Transcript
 view**](Image:Image:OneGene_Tview.png)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can browse the gene expression values along the genome***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can browse the gene expression values along the genome***
 
   Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.\
   What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.
@@ -520,7 +520,7 @@ dataset additions).
 
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
+  ![](_static/images/R2d2_logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
 
   The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.\
   To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.
@@ -530,14 +530,14 @@ dataset additions).
 
 Clicking on pubsniffer opens a new screen showing a list of how times
 your gene of interest is found within the NCBI Pubmed database in
-combination with dataset keywords. Clicking on “outlink” redirects you
+combination with dataset keywords. Clicking on ï¿½outlinkï¿½ redirects you
 **to Pubmed Pub-reminer** which is a tool for PubMed query building and
 literature mining.
 
 
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
+  ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
 
   In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?\
   Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.\
@@ -555,7 +555,7 @@ Tutorial step 6
 
 
 To investigate the values R2 uses for graph generation click on
-“Datatable” to unfold a table with the expression levels for all
+ï¿½Datatableï¿½ to unfold a table with the expression levels for all
 samples.
 
 
@@ -565,11 +565,11 @@ samples.
 datatable**](Image:Image:OneGene_Datatable.png)
 
 
-The “track display selection” section can be opened by clicking on it.
+The ï¿½track display selectionï¿½ section can be opened by clicking on it.
 In here, you are able to toggle which tracks to display and/or hide
 within the YY-plots. Do note that these selections are non-persistent
 and will be forgotten as soon as you leave the xgeneview. Persistent,
-changes to the tracks can be made via the ‘my settings’ menu item, which
+changes to the tracks can be made via the ï¿½my settingsï¿½ menu item, which
 is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
 
@@ -580,7 +580,7 @@ including the customize track parameters are available throughout R2.
 tracks**](Image:Image:OneGene_trackdisplay.png)
 
 
-Other convenient options are revealed by clicking the “more settings”
+Other convenient options are revealed by clicking the ï¿½more settingsï¿½
 section. An extra panel unfolds which allows you to adapt your graph to
 meet for example the requirements of a journal. The appearance of this
 section will change depending on the kind of graph that you are
@@ -595,8 +595,8 @@ Panel**](Image:Image:OneGene_Adapting.png)[![](_static/images/OneGene_Extrasetti
 graph**](Image:Image:OneGene_Extrasettings.png)
 
 
-In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
-Legend”) were added. The “Annot Graph” option, adds the information of a
+In Figure 12 sample annotation (ï¿½Annot Graphï¿½) and legend (ï¿½Draw
+Legendï¿½) were added. The ï¿½Annot Graphï¿½ option, adds the information of a
 selected track to the YY-plot. This can be helpful for the addition of
 Sample labels, or cell line names etc. Annotations can be shown in 3
 ways; just below/on top of the expression value, as a series below the
@@ -668,7 +668,7 @@ Scope
     differentially expressed per subgroup.
 -   Adjust several parameters in the settings panel
 -   In R2, the samples are annotated with e.g. clinical data. Each group
-    of annotated data is called a “Track” in R2. These tracks can be
+    of annotated data is called a ï¿½Trackï¿½ in R2. These tracks can be
     used to split the group gene expression levels per track.
 
 
@@ -678,10 +678,10 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  Use “single dataset” in field 1 and select the “Tumor
-    Medulloblastoma PLoS One - Kool - 62 - MAS5.0 - u133p2” dataset in
+1.  Use ï¿½single datasetï¿½ in field 1 and select the ï¿½Tumor
+    Medulloblastoma PLoS One - Kool - 62 - MAS5.0 - u133p2ï¿½ dataset in
     field 2.
-2.  Choose “View multiple genes ” in field 3 and Click Next
+2.  Choose ï¿½View multiple genes ï¿½ in field 3 and Click Next
 3.  To illustrate the possibilities of the multiple gene view. Genes
     identified as classifiers for Medulloblastoma subtypes (Kool et al,
     Plos one) will be used. In the GENE/reporter textbox type or copy
@@ -720,14 +720,14 @@ Tutorial step 2
     each track. In this manner potential relations between subgroups and
     gene expression can be visualized.
 2.  The dataset we are using is described in
-    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486) 2008
+    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486)ï¿½2008
     Aug 28;3(8), Kool M et al. Here the classification of 5
     medulloblastoma subgroups are reported and annotated as such:
     A,B,C,D and E. To investigate the expression levels of a small group
     of genes per sub-category select in the adjustable settings box
-    “subtype (cat)” at use track, “lump by group plot gene” at handle
-    groups by and “Track” at color by track. Further set transform tot
-    “none”, select “boxplot” at Plot type and click NEXT.
+    ï¿½subtype (cat)ï¿½ at use track, ï¿½lump by group plot geneï¿½ at handle
+    groups by and ï¿½Trackï¿½ at color by track. Further set transform tot
+    ï¿½noneï¿½, select ï¿½boxplotï¿½ at Plot type and click NEXT.
 
 [![](_static/images/MultipleGenesView_perTrack.png)**Figure
 2: Multiple gene view per
@@ -737,7 +737,7 @@ track**](Image:Image:MultipleGenesView_perTrack.png)
     Kool et al. These genes are overexpressed in different
     Medulloblastoma molecular subtypes a,b,c,d and e are plotted
     together with the gene names. s
-2.  Also try the “lump by gene plot group” which will produce an image
+2.  Also try the ï¿½lump by gene plot groupï¿½ which will produce an image
     where the genes are shown, separated by the subtypes.
 3.  The sample filter option allows the user to generate a multiple gene
     view per track.
@@ -792,18 +792,18 @@ Scope
 
 
 
-As you know by now, annotation of your data is stored in R2 as ‘tracks’.
+As you know by now, annotation of your data is stored in R2 as ï¿½tracksï¿½.
 Within R2, one can easily create new annotation tracks. This can be done
 either based on results generated within analyses, or completely
 independent by uploading of tracks. In some cases it is of interest to
 start comparing one track with another. The type of statistics used to
 compare the tracks depends on the type of data; either categorical or
 numerical. One may wonder if there are significant overlaps between 2
-tracks (with categorical variables), based on Fisher’s exact test.
+tracks (with categorical variables), based on Fisherï¿½s exact test.
 Alternatively, if there are multiple numerical tracks available; one may
 wonder if there is a significant correlation between 2 tracks. For these
-cases, R2 contains the Annotation modules; ‘relate 2 tracks’ and
-‘annotation plotter’.
+cases, R2 contains the Annotation modules; ï¿½relate 2 tracksï¿½ and
+ï¿½annotation plotterï¿½.
 
 
 
@@ -822,16 +822,16 @@ cases, R2 contains the Annotation modules; ‘relate 2 tracks’ and
 Tutorial step 1: Relating 2 (categorical) tracks
 ------------------------------------------------
 
-1.  Make sure that you are on the ‘main’ page of R2, and that the
-    selected dataset is ‘Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2’. From the ‘type of analysis’ dropdown select
-    ‘relate 2 tracks’, which can be found in the annotation subsection
+1.  Make sure that you are on the ï¿½mainï¿½ page of R2, and that the
+    selected dataset is ï¿½Tumor Neuroblastoma public - Versteeg - 88 -
+    MAS5.0 - u133p2ï¿½. From the ï¿½type of analysisï¿½ dropdown select
+    ï¿½relate 2 tracksï¿½, which can be found in the annotation subsection
     and press next.
     [![](_static/images/AnnotationAnalyses_relate.png)**Figure
     1: Figure 1: Select "relate
-    two tracks”.**](Image:Image:AnnotationAnalyses_relate.png)
+    two tracksï¿½.**](Image:Image:AnnotationAnalyses_relate.png)
 2.  For the different tracks, make sure that you select a categorical
-    one (which can be recognized by (cat)). Let’s investigate whether
+    one (which can be recognized by (cat)). Letï¿½s investigate whether
     there is a relation between the neuroblastoma age-group
     (track=agegroup, flip point being 18 months at diagnosis) and the
     survival status (track=alive). Then press next to generate
@@ -841,15 +841,15 @@ Tutorial step 1: Relating 2 (categorical) tracks
     tracks**](Image:Image:AnnotationAnalyses_adjust.png)
 3.  The generated result is now displayed on the screen. As we are
     testing 2 categorical variables, R2 has tested the relation between
-    the 2 tracks and finds a highly significant Fisher’s exact p-value,
+    the 2 tracks and finds a highly significant Fisherï¿½s exact p-value,
     indicating that there is a relation between the agegroup and vital
     status of the patients. The result is also shown in a honeycomb
     image, where every individual patient is represented as a separate
     circle, with the annotation as a hover box.
 4.  One can add more visual information to the plot, by coloring the
     patients on the basis of a track. From the adjustable settings at
-    the bottom of the page, set the ‘colormode’ to ‘color by track’ and
-    select the ‘inss\_stage’ as track. Press the adapt settings to
+    the bottom of the page, set the ï¿½colormodeï¿½ to ï¿½color by trackï¿½ and
+    select the ï¿½inss\_stageï¿½ as track. Press the adapt settings to
     create an updated image. Now we can clearly see that there is a
     great over-representation of stage 4 patients in the group of
     diseased patients who are older than 18 months.
@@ -865,12 +865,12 @@ track**](Image:Image:AnnotationAnalyses_colorsamples.png)
 Tutorial step 2: Relating 2 (numerical) tracks
 ----------------------------------------------
 
-1.  Just as in the previous example, we select the ‘relate 2 tracks’
+1.  Just as in the previous example, we select the ï¿½relate 2 tracksï¿½
     option from the main R2 screen and press enter. Now this time, we
     select 2 numerical tracks, which can be recognized by the (\#) sign
     at the end of a track. Within the Neuroblastoma dataset our options
-    are limited for this example, so we select the ‘age in years’ track
-    vs the ‘nti\_surv\_overall’ track and proceed to the next screen.
+    are limited for this example, so we select the ï¿½age in yearsï¿½ track
+    vs the ï¿½nti\_surv\_overallï¿½ track and proceed to the next screen.
 2.  In the result page, R2 has detected that 2 numerical tracks were
     selected, so the correlation between the different tracks is being
     displayed and tested for statistical significance. Just as in the
@@ -894,7 +894,7 @@ Tutorial step 3: Relating a categorical track to a numerical track
     values of multiple genes expressed as a single value) as well, where
     you could create a track containing only value information for the
     patients, and test this track to clinical parameters. We again
-    select ‘Relate 2 tracks’ from the main menu and navigate to the
+    select ï¿½Relate 2 tracksï¿½ from the main menu and navigate to the
     next page.
 2.  From the track options, we choose a categorical track for X (inss
     stage), and a numerical one for Y (nti\_surv\_overall) and navigate
@@ -911,14 +911,14 @@ Tutorial step 3: Relating a categorical track to a numerical track
 tracks**](Image:Image:AnnotationAnalyse_relationnumcat.png)
 
 
-As a recap for the last 3 tutorial steps, you have used the ‘relate 2
-tracks’ option from the annotation methods in R2 and represented
+As a recap for the last 3 tutorial steps, you have used the ï¿½relate 2
+tracksï¿½ option from the annotation methods in R2 and represented
 different types of tracks with each other to gain new insights from
 combining 2 tracks. Below the 3-different representations are depicted
-side by side. Do remember, that this module allows you to use ‘meta
-data’ tracks that you can assemble either within, but also outside of R2
-via the uploading of a track option that will be shown in the ‘adapting
-r2 to your needs’ chapter.
+side by side. Do remember, that this module allows you to use ï¿½meta
+dataï¿½ tracks that you can assemble either within, but also outside of R2
+via the uploading of a track option that will be shown in the ï¿½adapting
+r2 to your needsï¿½ chapter.
 
 
 
@@ -936,13 +936,13 @@ Tutorial step 4: Annotation plotter
 1.  In some publications, patient data is represented in slick looking
     annotation plots, showing the patient characteristics in rectangles.
     In a sense, these are just like the tracks that are represented
-    underneath YY-plots in R2. To allow users to create these ‘track’
+    underneath YY-plots in R2. To allow users to create these ï¿½trackï¿½
     figures, ordered in a user provided order, we have implemented the
     annotation plotter in R2.
-2.  Make sure that you are on the ‘main’ page of R2, and that the
-    selected dataset is ‘Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2’. From the ‘type of analysis’ dropdown select
-    ‘Annotation plotter’, which can be found in the annotation
+2.  Make sure that you are on the ï¿½mainï¿½ page of R2, and that the
+    selected dataset is ï¿½Tumor Neuroblastoma public - Versteeg - 88 -
+    MAS5.0 - u133p2ï¿½. From the ï¿½type of analysisï¿½ dropdown select
+    ï¿½Annotation plotterï¿½, which can be found in the annotation
     subsection and press next.
 3.  The default view for the dataset will be plotted. Now one can change
     the tracks to display (with track display selection), as well as the
@@ -1038,7 +1038,7 @@ Tutorial step 1
     field 2 (For additional information on these first two steps,
     consult tutorial 1: Choose "View a gene in groups" in field 3.
 3.  Type MYCN as gene (see Figure 1) in field 4.
-4.  Click ‘next’ in field 5.
+4.  Click ï¿½nextï¿½ in field 5.
 
 [![](_static/images/DiffentialExpression_Gene.png)**Figure
 1: Step-by-step scenario: selecting to 'View a gene in groups' on the
@@ -1053,7 +1053,7 @@ Tutorial step 2
 ---------------
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can create your own tracks?***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can create your own tracks?***
 
   This is explained in a separate tutorial "Adapting R2 to your needs"\
   Datasets are listed alphabetically
@@ -1067,7 +1067,7 @@ Tutorial step 2
     (Figure 2). Note that the other fields can be kept as is, the right
     choices are already provided. Note also that the proper reporter
     probeset is already selected.
-2.  Click ‘next’
+2.  Click ï¿½nextï¿½
 
 [![](_static/images/DiffentialExpression_Select.png)**'Figure
 2: Selecting the proper annotation track to differentiate expression
@@ -1079,14 +1079,14 @@ data**](Image:Image:DiffentialExpression%20Select.png)
 +--------------------------------------------------------------------------+
 |                                               |
 |                                                                          |
-| Under the sub-header ‘Sample Filter’ you can select a specific subset of |
+| Under the sub-header ï¿½Sample Filterï¿½ you can select a specific subset of |
 | samples based on the annotation (track).\                                |
 | The analysis will only be performed on the selected subset. In Fig 2a    |
 | the track gender was selected that enables filtering on gender.\         |
 | Be sure to click the red confirm link to set the filter, or make further |
 | selections. Filtering and marking samples Keep in mind that you can      |
 | repeat the filter procedure on top of the previous one.\                 |
-| Don’t forget the red “confirm” link before switching tracks. The extra   |
+| Donï¿½t forget the red ï¿½confirmï¿½ link before switching tracks. The extra   |
 | graph option allows the users to select different graphical              |
 | representations.\                                                        |
 | In the samples to mark section, a sample name can be entered that will   |
@@ -1106,14 +1106,14 @@ Tutorial step 3
 ---------------
 
 1.  In the next window a selection of the groups can be made. Only the
-    selected group will be displayed in the graph; the “one way
-    Anova”/”student T test” test will be performed for data on both
+    selected group will be displayed in the graph; the ï¿½one way
+    Anovaï¿½/ï¿½student T testï¿½ test will be performed for data on both
     groups (of course, see explanation in step 4). In this case this we
     want to see both groups so keep the selection as is.
     [![](_static/images/DiffentialExpression_Selectgroup.png)**Figure
     3: Selecting groups for the
     graph**](Image:Image:DiffentialExpression_Selectgroup.png)
-2.  Click ‘next’
+2.  Click ï¿½nextï¿½
 
 
 
@@ -1134,7 +1134,7 @@ Tutorial step 4
     [](http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example)<http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example>.
     R2 shows the result by default as a graph where the mRNA expression
     of the samples is plotted over the two groups with increasing
-    expression (Figure 3Figure 4). Note that the “alive” annotation is
+    expression (Figure 3Figure 4). Note that the ï¿½aliveï¿½ annotation is
     in the second row (track) beneath the graph. The actual result of
     the calculations is shown above the graph; the difference in average
     expression between the two groups is significant. These results can
@@ -1185,7 +1185,7 @@ Tutorial step 5
     will be explained in a separate tutorial. The right panel allows you
     to change your gene of interest immediately, while keeping all the
     changes that you have made to the graphical representation; just
-    type a gene name and click 'Change Gene'. The ‘sample overview’
+    type a gene name and click 'Change Gene'. The ï¿½sample overviewï¿½
     shows the clinical data associated with the samples. Click the view
     button for the first sample.
 7.  Figure 9 shows the clinical data associated with that
@@ -1226,7 +1226,7 @@ Tutorial step 7
     [![](_static/images/DiffentialExpress_AdaptParam.png)**'Figure
     11: Differential expression
     parameters**](Image:Image:DiffentialExpress_AdaptParam.png)
-2.  Click ‘next’
+2.  Click ï¿½nextï¿½
 3.  In the next screen click next also; R2 now calculates for all genes
     (under the parameters set) a one way anova test and also corrects
     this for multiple testing! (Figure 12). An amazing amount of
@@ -1236,11 +1236,11 @@ Tutorial step 7
 12: Progress dialog during on the fly
 calculation**](Image:Image:DiffentialExpress%20Progress.png)
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that all other parameters have a meaning?***
+  ![](_static/images/R2d2_logo.png)***Did you know that all other parameters have a meaning?***
 
   **HugoOnce**:For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.\
   **Differential Expression**: R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.\
-  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) × (1/2)10 = 0.0107This is relatively unlikely, and under statistical criteria;such as ;p-value;&lt; 0.05, one would declare that the null hypothesis should be rejected — i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.\
+  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) ï¿½ (1/2)10 = 0.0107This is relatively unlikely, and underï¿½statistical criteria;such as ;p-value;&lt; 0.05, one would declare that the null hypothesis should be rejected ï¿½ i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.\
   **Gene Filters:** The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the KEGG pathway database ( [](http://www.genome.jp/kegg/pathway.html)<http://www.genome.jp/kegg/pathway.html>). Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.\
   \
   Of course: to really get familiar with these settings you have to toy around with them!
@@ -1254,7 +1254,7 @@ Tutorial step 8
 ---------------
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that what those R and p-values were again?***
+  ![](_static/images/R2d2_logo.png)***Did you know that what those R and p-values were again?***
   R is the correlation coefficient; it ranges from -1 to +1, if R &gt; 0 the value of two variables tends to increase or decrease together. If R &lt; 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2^=0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1270,9 +1270,9 @@ Tutorial step 8
 3.  A similar graph as produced for MYCN appears, the differential
     expression is more pronounced for this gene (Figure 14). In the
     generated picture the genes are not ordered for their gene
-    expression go to the adjustable settings menu and select ”Track and
-    gene sort” in the ”Extra Graph Option” pulldown menu. Click
-    ”adjust settings”.
+    expression go to the adjustable settings menu and select ï¿½Track and
+    gene sortï¿½ in the ï¿½Extra Graph Optionï¿½ pulldown menu. Click
+    ï¿½adjust settingsï¿½.
 4.  The functionality in the right panel of Figure 15 will be explored
     in more advanced tutorials (K-Means clustering). We'll explore one
     add**i**tional data visualization however; that of all genes I this
@@ -1280,8 +1280,8 @@ Tutorial step 8
     volcano, etc)'.
 
 [![](_static/images/DiffentialExpress_TopGene.png)**Figure
-14: In the main screen “Change
-dataset”.**](Image:Image:DiffentialExpress_TopGene.png)[![](_static/images/DiffentialExpress_RightMenu.png)**Figure
+14: In the main screen ï¿½Change
+datasetï¿½.**](Image:Image:DiffentialExpress_TopGene.png)[![](_static/images/DiffentialExpress_RightMenu.png)**Figure
 15: Right menu in genelist windos; choosing plot all
 genes**](Image:Image:DiffentialExpress_RightMenu.png)
 
@@ -1297,9 +1297,9 @@ Tutorial step 9
     differentially expressed. Hovering over the points shows the
     genesymbol, in this case the NTRK1 gene (Figure 16). To speed up the
     graph generation this information is not automatically loaded: click
-    on the ‘add hovering’ button below the graph to add
+    on the ï¿½add hoveringï¿½ button below the graph to add
     this information. Note: every plot in R2 with larger amounts of
-    datapoints (&gt;5000) will have this ‘add hovering’ button.
+    datapoints (&gt;5000) will have this ï¿½add hoveringï¿½ button.
     [![](_static/images/DiffentialExpress_XYplot.png)**Figure
     16: XY plot of all genes differentially expressed in the current
     track;**](Image:Image:DiffentialExpress%20XYplot.png)
@@ -1334,7 +1334,7 @@ Tutorial step 9
     your gene of interest'-tutorial
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can tailor visualization of specific genes in one go?***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can tailor visualization of specific genes in one go?***
   You can annotate genenames by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply. First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\* for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1424,7 +1424,7 @@ Tutorial step 1
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" field is selected in field 1 of the R2 step-by-step
     guide
-2.  Make sure the ‘Tumor Neuroblastoma public dataset’ is selected in
+2.  Make sure the ï¿½Tumor Neuroblastoma public datasetï¿½ is selected in
     field 2 (For additional information on these first two steps,
     consult tutorial : Working with datasets
 3.  In field 3 select 'Find Correlated genes with a single gene'
@@ -1455,7 +1455,7 @@ Tutorial step 2
 3.  Scroll down the screen and click 'Next'
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can find the correlation between two genes directly?***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can find the correlation between two genes directly?***
   Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1491,7 +1491,7 @@ Tutorial step 3
 
 
 Exact (gene-) numbers listed in the tutorial Figures such as in this
-example “2208 combinations…” can vary. This could be caused by database
+example ï¿½2208 combinationsï¿½ï¿½ can vary. This could be caused by database
 updates upon a new genebuild release or an affymetrix annotation update.
 
 
@@ -1505,7 +1505,7 @@ updates upon a new genebuild release or an affymetrix annotation update.
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
 3.  In the left upper corner the filter icon is located , this links
-    directly to the ‘adjustable settings panel ‘ where you adapt the
+    directly to the ï¿½adjustable settings panel ï¿½ where you adapt the
     filtering conditions . The filter button is accessible in many
     analysis modules of R2.
 
@@ -1548,9 +1548,9 @@ Tutorial step 4
 
 
 To generate a correlation plot where the negative relation between MYCN
-and MEAF6 gene is more clearly visualized select ‘XY-plot’ as graph type
+and MEAF6 gene is more clearly visualized select ï¿½XY-plotï¿½ as graph type
 in the graphics section in the Adjustable Settings box and click the
-Adjust Settings button. In this correlation plot it’s also still
+Adjust Settings button. In this correlation plot itï¿½s also still
 possible to show expression levels for the samples are distributed. In
 order to do so click on more settings in the Adjustable Settings box and
 set Histogram to yes, click Adjust Settings button. Now the histogram
@@ -1597,7 +1597,7 @@ arm of) a chromosome is calculated.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that over-representation is explained here?***
+  ![](_static/images/R2d2_logo.png)***Did you know that over-representation is explained here?***
   Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1805,7 +1805,7 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)**
 Scope
 -----
 
--   Use R2 to generate a Kaplan graph by ‘annotated parameter’. Use
+-   Use R2 to generate a Kaplan graph by ï¿½annotated parameterï¿½. Use
     tracks or combine two tracks to assign the group separation of a
     specific dataset.
 
@@ -1847,7 +1847,7 @@ Tutorial step 1
 
 
 
-1.  Logon the R2 homepage and select Kaplan Meier – By
+1.  Logon the R2 homepage and select Kaplan Meier ï¿½ By
     Annotated parameter. You can find this option either in the left
     menu panel on the main screen or in field 3 at the type of analysis
     pull down menu. Using the Kaplan Meier module via the left menu
@@ -1855,12 +1855,12 @@ Tutorial step 1
     [![](_static/images/WorkingWithKaplan_menu.png)**Figure
     1: Select a Kaplan
     Meier option.**](Image:Image:WorkingWithKaplan_menu.png)
-2.  In the adjustable settings menu choose ‘overall survival’ , select
-    ‘track’ at Separate by and select ‘inss-cat’ stage in use track pull
-    down menu . Click ‘next’ .
+2.  In the adjustable settings menu choose ï¿½overall survivalï¿½ , select
+    ï¿½trackï¿½ at Separate by and select ï¿½inss-catï¿½ stage in use track pull
+    down menu . Click ï¿½nextï¿½ .
     [![](_static/images/WorkingWithKaplan_Kaplan.png)**Figure
     2: Kaplan Meier by
-    ‘Annotated parameter.**](Image:Image:WorkingWithKaplan%20Kaplan.png)
+    ï¿½Annotated parameter.**](Image:Image:WorkingWithKaplan%20Kaplan.png)
 
 
 
@@ -1871,9 +1871,9 @@ agreement with the clinical outcome of the INSS stages.
 
 1.  A handy feature of the R2 kaplan module is the option to combine two
     tracks to generate subgroups for the Kaplan meier analyses. Use the
-    back-button from the browser and select at ‘ separate by ‘ , ‘
-    combination of two tracks’. Choose for example for the first track ‘
-    agegroup (cat) ‘ and for the second track ‘mycn\_amp (cat) ‘. And
+    back-button from the browser and select at ï¿½ separate by ï¿½ , ï¿½
+    combination of two tracksï¿½. Choose for example for the first track ï¿½
+    agegroup (cat) ï¿½ and for the second track ï¿½mycn\_amp (cat) ï¿½. And
     click next.
     [![](_static/images/WorkingWithKaplan_Combined.png)**Figure
     3: Kaplan Meier graph with
@@ -1883,7 +1883,7 @@ agreement with the clinical outcome of the INSS stages.
 
 The combined track agegroup ( &gt;=1 year) and no mycn application
 results in intermediate survival probability. Note that there are 3
-groups instead of “expected” 4 since there are no patients &lt; 1 year
+groups instead of ï¿½expectedï¿½ 4 since there are no patients &lt; 1 year
 and a mycn amplification, in this cohort.
 
 
@@ -1922,23 +1922,23 @@ Tutorial step 2
 
 
 1.  Select from the main screen either the left menu or in field 3,
-    Kaplan Meier – By gene expression. Make sure that “Tumor
-    Neuroblastoma public – Versteeg – 88” is selected, for analyses
-    choose ’Kaplan Scan a single gene’ fill in MYCN and use as cut-off
-    method “ scan ” and click ‘next’.
-2.  In the next screen use the prefilled settings and click ‘next’.
+    Kaplan Meier ï¿½ By gene expression. Make sure that ï¿½Tumor
+    Neuroblastoma public ï¿½ Versteeg ï¿½ 88ï¿½ is selected, for analyses
+    choose ï¿½Kaplan Scan a single geneï¿½ fill in MYCN and use as cut-off
+    method ï¿½ scan ï¿½ and click ï¿½nextï¿½.
+2.  In the next screen use the prefilled settings and click ï¿½nextï¿½.
 3.  The Kaplan scan generates a Kaplan Meier Plot based on the most
     optimal mRNA cut-off expression level to discriminate between a good
     and bad prognosis cohort.
 4.  The determined separation in groups can be stored in a track and
-    used in other analyes, click the ‘store as track’ button
+    used in other analyes, click the ï¿½store as trackï¿½ button
     [![](_static/images/WorkingWithKaplan_GroupPvalue.png)**Figure
     5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)
     Median D)
     Average**](Image:Image:WorkingWithKaplan_GroupPvalue.png)
 5.  To illustrate that with the Kaplan scan more significant biological
-    subgroups can be found, adjust the cut-off mode to ‘median’ in the
-    settings menu and click ‘redraw’graph.
+    subgroups can be found, adjust the cut-off mode to ï¿½medianï¿½ in the
+    settings menu and click ï¿½redrawï¿½graph.
     [![](_static/images/WorkingWithKaplan_Multiple.png)**Figure
     6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)
     Median D)
@@ -1946,7 +1946,7 @@ Tutorial step 2
 
 
 
-It’s obvious that with the Kaplan Meier scan the group separation is
+Itï¿½s obvious that with the Kaplan Meier scan the group separation is
 much more significant compared to the median cut-off modus. Try to find
 out whether this is also the case with other cut-off modi.
 
@@ -1957,7 +1957,7 @@ out whether this is also the case with other cut-off modi.
     of the p-value plotted against the mRNA expression level values. In
     some cases it could be useful to change the p-value cut-off level
     and for this reason this graphical p-value plot (which is clickable)
-    could be of help. Alternatively, you could use the ‘cutoff’ field to
+    could be of help. Alternatively, you could use the ï¿½cutoffï¿½ field to
     regenerate a Kaplan curve with that separation.
 
 
@@ -1976,14 +1976,14 @@ Tutorial step 3
 ---------------
 
 1.  Instead of using the Kaplan Scan for a single gene you can also
-    analyse a group of genes at the same time. Go to Kaplan Meier – by
-    gene expression, select at analysis ‘Kaplan Scan a group of
-    genes’and click ‘next’
+    analyse a group of genes at the same time. Go to Kaplan Meier ï¿½ by
+    gene expression, select at analysis ï¿½Kaplan Scan a group of
+    genesï¿½and click ï¿½nextï¿½
 2.  In this example select the apoptosis route at the Kegg path way
-    pulldown menu. Leave the ‘type of survival’ at overall survival. In
+    pulldown menu. Leave the ï¿½type of survivalï¿½ at overall survival. In
     the statistics panel there are several filtering options possible
     leave these options unchanged
-3.  In the graphics section select ‘yes’ at ‘Draw heatmap and
+3.  In the graphics section select ï¿½yesï¿½ at ï¿½Draw heatmap and
     click next.
 4.  In the next screen R2 had generated a list of the genes within the
     apoptosis pathway which have significant prognostic value. A heatmap
@@ -2023,8 +2023,8 @@ Tutorial step 4
     dataset that is not available in R2. Especially for this reason we
     have made a user defined version within R2, where you can paste your
     cohort into R2 and run the procedure. To initiate such a user
-    defined kaplanscan, select the ‘Kaplan Meier’ &gt; ‘Kaplan Meier by
-    user provide data’ option from the left hand menu.
+    defined kaplanscan, select the ï¿½Kaplan Meierï¿½ &gt; ï¿½Kaplan Meier by
+    user provide dataï¿½ option from the left hand menu.
     [![](_static/images/Kaplanscan_userdefined_1a.png)**Figure
     9: Kaplanscan with user defined
     data**](Image:Image:kaplanscan_userdefined_1a.png)
@@ -2041,7 +2041,7 @@ Tutorial step 4
 
 3.  One can easily prepare this information in Excel and paste the
     selected columns into the large white paste box. Do take care that
-    we use ‘.’ for decimal signs. After you pasted the dataset
+    we use ï¿½.ï¿½ for decimal signs. After you pasted the dataset
     information, you make the selection for the cutoff option and
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
@@ -2052,7 +2052,7 @@ Tutorial step 4
     parameters to optimize appearance of your result.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that The survival data used in your scan produces a unique signature***
+  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature***
   R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -2217,7 +2217,7 @@ Tutorial step 4
     [![](_static/images/Pathway_Finder.png)**Figure
     6: Selecting PathwayFinder by
     Groups**](Image:Image:Pathway_Finder.png)
-2.  Click ‘Next’
+2.  Click ï¿½Nextï¿½
 
 
 
@@ -2331,7 +2331,7 @@ Scope
     database
 -   Use R2 to compose your selection of datasets to investigate the
     expression level of a gene
--   Use the megasampler ‘adjustable settings’ to adapt the megasampler
+-   Use the megasampler ï¿½adjustable settingsï¿½ to adapt the megasampler
     graphics
 -   The megasampler allows you to quickly get an overview of the
     selected gene expression level for all the datasets available in the
@@ -2346,13 +2346,13 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  Use “Across Datasets” in field 1 by default the ‘megasampler’ option
-    is selected in field 2 and click ‘next’.
+1.  Use ï¿½Across Datasetsï¿½ in field 1 by default the ï¿½megasamplerï¿½ option
+    is selected in field 2 and click ï¿½nextï¿½.
     [![](_static/images/MultipleDatasets_across.png)**Figure
     1: Using across
     datasets**](Image:Image:MultipleDatasets_across.png)
-2.  Leave ‘u133p2, mas5.0’ at the ‘type of data’ option and select ‘ XPO
-    sampler’ at ‘use presets’. The meaning of presets will be explained
+2.  Leave ï¿½u133p2, mas5.0ï¿½ at the ï¿½type of dataï¿½ option and select ï¿½ XPO
+    samplerï¿½ at ï¿½use presetsï¿½. The meaning of presets will be explained
     later on.
 
 +--------------------------------------------------------------------------+
@@ -2371,22 +2371,22 @@ Tutorial step 1
 |                                                                    |
 +--------------------------------------------------------------------------+
 
-1.  With the ‘selection preset’ option a pre-stored dataset collection
-    with associated settings can be selected. Select ‘XPO sampler’
+1.  With the ï¿½selection presetï¿½ option a pre-stored dataset collection
+    with associated settings can be selected. Select ï¿½XPO samplerï¿½
     (Expression Project for Oncology (expO)) to pre-select a series of
-    tumor datasets. Click ‘next’.
+    tumor datasets. Click ï¿½nextï¿½.
     [![](_static/images/MultipleDatasets_Preset.png)**Figure
     2: Select a
     preset**](Image:Image:MultipleDatasets_Preset.png)
-2.  In the previous screen the preset ‘XPOsampler’ is selected, a
+2.  In the previous screen the preset ï¿½XPOsamplerï¿½ is selected, a
     collection of datasets is already marked for the
     megasampler analyses. In Figure 3 clicking the small triangle
     unfolds the available dataset categories, notice that some of the
-    datasets in the ‘tumor’ section are already marked. In this way this
+    datasets in the ï¿½tumorï¿½ section are already marked. In this way this
     you can adapt your pre-selection of datasets. Unfold the normal and
     tumor category and select the following datasets. Normal Adrenal
-    gland - Various – 13, Normal Brain PFC - Harris – 44 and the ‘ Tumor
-    Neuroblastoma public - Versteeg – 88’ . Enter MYCN and click ‘next’.
+    gland - Various ï¿½ 13, Normal Brain PFC - Harris ï¿½ 44 and the ï¿½ Tumor
+    Neuroblastoma public - Versteeg ï¿½ 88ï¿½ . Enter MYCN and click ï¿½nextï¿½.
     [![](_static/images/Pathway_menu.png)**Figure
     3: Megasampler adjustment
     selection**](Image:Image:Pathway_menu.png)
@@ -2417,17 +2417,17 @@ Tutorial step 2
 
 
 
-1.  In the “adjustable settings” panel there are several options to
+1.  In the ï¿½adjustable settingsï¿½ panel there are several options to
     customize the megasampler graph. For every selected dataset, you can
     change the order in which they are drawn by adjusting the number in
     the selection boxes. These are processed first, followed by the
     dataset names in alphabetical order (so changing the order of 1 or 2
-    datasets should be sufficient). The pull down next to ‘dataset
-    ordering pull down menu’ enables to split one or more dataset by
+    datasets should be sufficient). The pull down next to ï¿½dataset
+    ordering pull down menuï¿½ enables to split one or more dataset by
     selecting a track , in this manner the chosen dataset(s) will be
     split according to the numbers of groups of the selected track.
 2.  For now change the color for the datasets as indicated in Figure 4
-    and click ‘next’.
+    and click ï¿½nextï¿½.
     [![](_static/images/MultipleDatasets_AdjustGraph.png)**Figure
     4: Adjusting the
     megasampler graph.**](Image:Image:MultipleDatasets_AdjustGraph.png)
@@ -2455,8 +2455,8 @@ graph.
 
 
 Additional insight can be obtained transforming the data, in this case
-transform the data to logical values (none) set ‘graphtype’ on barplot
-and click on ‘redraw at the bottom of the screen.
+transform the data to logical values (none) set ï¿½graphtypeï¿½ on barplot
+and click on ï¿½redraw at the bottom of the screen.
 
 
 
@@ -2466,9 +2466,9 @@ and click on ‘redraw at the bottom of the screen.
 
 
 
-The plotted graphs for ‘MYCN’ clearly show a high expression level
+The plotted graphs for ï¿½MYCNï¿½ clearly show a high expression level
 specifically in the Neuroblastoma data sets compared to Normal Tissue
-and other Tumor datasets. At the bottom of the page it’s possible to
+and other Tumor datasets. At the bottom of the page itï¿½s possible to
 adapt dataset coloring, change the order and split datasets in tracks
 directly.
 
@@ -2506,7 +2506,7 @@ directly.
 
 You can can use the adjustable panel to adapt the megasampler graph. In
 case you splitted one or more datasets according to a specific track in
-the previous screen, it’s now possible to skip subgroups from your
+the previous screen, itï¿½s now possible to skip subgroups from your
 dataset or more interesting, apply different colors for groups within a
 dataset (see Figure 8).
 
@@ -2525,26 +2525,26 @@ Tutorial step 3:
 
 
 
-The red arrow in the “did you know box” indicates a handy module to
+The red arrow in the ï¿½did you know boxï¿½ indicates a handy module to
 obtain a quick overview of the expression level patterns for most of the
 datasets R2 contains (providing that the normalization allows
 comparisons between datasets).
 
 
 
-1.  Click “view Expression in many datasets“ and a new screen (or Tab)
+1.  Click ï¿½view Expression in many datasetsï¿½ and a new screen (or Tab)
     appears depicting colored dots. The colored dots are representing
     the different dataset categories (cell line dataset, Tumor or Normal
     Tissue etcetera). Via this module (effectively the 2D distribution)
     you can easily detect in what way your probeset of interest is
     expressed in many other datasets. At the Y-axis the 2log transformed
     average expression level and the standard deviation is represented.
-    The X-axis ‘overlap avoider’ is simply a means to represent all
+    The X-axis ï¿½overlap avoiderï¿½ is simply a means to represent all
     datasets in the plot without overlap of the circles. Figure 9
     clearly shows that the MYCN expression is also high in other dataset
     which could be of interest and a second Neuroblastoma dataset. Next
     to the graphs 2 tables summarize dataset names and a R-value set
-    to “1. The R-value comes of use with the 2D-distrubution module
+    to ï¿½1. The R-value comes of use with the 2D-distrubution module
     where you can quickly scan the correlation between two genes for all
     datasets of the same platform in R2. This module is discussed in the
     correlate genes tutorial.
@@ -2617,7 +2617,7 @@ Tutorial step 1
     [![](_static/images/Kmeans_selecting.png)**Figure
     1: Selecting K-means clustering on the R2 main
     page**](Image:Image:Kmeans_selecting.png)
-4.  Click ‘next’
+4.  Click ï¿½nextï¿½
 
 
 
@@ -2641,7 +2641,7 @@ Tutorial step 2
     settings**](Image:Image:Kmeans_clustersettings.png)
 3.  Dependending on the size of your dataset or geneset you can enlarge
     of minimize your K-means plot by adapting te size of the retangles
-    at heatmap option. click ‘next’
+    at heatmap option. click ï¿½nextï¿½
 
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
@@ -2709,14 +2709,14 @@ Tutorial step 3
     subset of one of the two current clusters; more groups are expected.
     We're going to use a larger value for k to investigate this. In your
     browser click the back button and change the number of groups to 8.
-4.  Click ‘next’.
+4.  Click ï¿½nextï¿½.
     [![](_static/images/Kmeans_heatmap.png)**Figure
     4: The heatmap for the k-means clustering in 2 groups; it is obvious
     that the data is represented in
     the clusters.**](Image:Image:Kmeans_heatmap.png)
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
+  ![](_static/images/R2d2_logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
   Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -2727,7 +2727,7 @@ Tutorial step 3
 
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)**'Did you know that** ***some virus scanners slow drawing of these graphs??***
+  ![](_static/images/R2d2_logo.png)**'Did you know that** ***some virus scanners slow drawing of these graphs??***
   If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -2832,7 +2832,7 @@ can be calculated for all samples within a particular dataset. This
 signature score is simply defined as the average zscore of a zscore
 transformed dataset (the standard way of visualizing a heatmap) (Figure
 1). In R2, such scores are automatically generated when one generates
-heatmaps via the ‘view a geneset’ function. With the exception of some
+heatmaps via the ï¿½view a genesetï¿½ function. With the exception of some
 exceptional cases, most functional signatures will be composed of both
 upregulated genes as well as downregulated ones. Using both as a single
 list may then become problematic, as downregulated genes may counteract
@@ -2854,8 +2854,8 @@ category**](Image:Image:Genesetcorrelation_sig_score_explained_v0.png)
 -   Find correlating genesignatures with a track
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can create gene category couples***
-  R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the ‘view a geneset’ function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).
+  ![](_static/images/R2d2_logo.png)***Did you know that you can create gene category couples***
+  R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the ï¿½view a genesetï¿½ function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -2867,47 +2867,47 @@ Tutorial step 1
 
 
 
-As a start, let’s create the signature scores for a pair of gene
+As a start, letï¿½s create the signature scores for a pair of gene
 categories. In this tutorial, we will make use of a published functional
 MYCN pathway activity signature that was created on the Neuroblastoma 88
 dataset (Valentijn et al 2012). This signature is provided within R2.
 
 
 
-1.  We start at ‘Main’. Make sure that the ‘Single dataset’ option is
-    selected in ‘box 1’.
-2.  In ‘box 2’ verify that the current dataset is ‘Neuroblastoma
-    public - Versteeg - 88 - MAS5.0 - u133p2’.
-3.  In ‘box 3’ we select ‘View geneset (Heatmap)’.
-4.  Click ‘Next’ (Figure 2.1).
+1.  We start at ï¿½Mainï¿½. Make sure that the ï¿½Single datasetï¿½ option is
+    selected in ï¿½box 1ï¿½.
+2.  In ï¿½box 2ï¿½ verify that the current dataset is ï¿½Neuroblastoma
+    public - Versteeg - 88 - MAS5.0 - u133p2ï¿½.
+3.  In ï¿½box 3ï¿½ we select ï¿½View geneset (Heatmap)ï¿½.
+4.  Click ï¿½Nextï¿½ (Figure 2.1).
 5.  In the following screen we select the
-    ‘geneset\_\_r2provided\_genesets’ Gene set collection and click
-    ‘Next’ (Figure 2.2).
-6.  In the following screen we select the ‘functional genesignature’
-    subselection and click ‘Next’ (Figure 2.3).
+    ï¿½geneset\_\_r2provided\_genesetsï¿½ Gene set collection and click
+    ï¿½Nextï¿½ (Figure 2.2).
+6.  In the following screen we select the ï¿½functional genesignatureï¿½
+    subselection and click ï¿½Nextï¿½ (Figure 2.3).
 7.  We can now see the lists of genes that are represented in
     this collection. While holding the CTRL key pressed, we can select
-    the following 2 gene categories ‘r2\_imr32mycn\_dn’
-    and ‘r2\_imr32mycn\_up’. Then click ‘Next’ (Figure 2.4).
+    the following 2 gene categories ï¿½r2\_imr32mycn\_dnï¿½
+    and ï¿½r2\_imr32mycn\_upï¿½. Then click ï¿½Nextï¿½ (Figure 2.4).
 8.  R2 will now produce a hierarchical clustered heatmap image of the
     selected gene categories (Figure 2.5). Note that at the right end of
     the image the red boxes indicate in which category a particular gene
     was represented. In the bottom part of the heatmap, a blue-white-red
     colorscale is depicted for both gene categories. We can clearly see
     the opposing effects of the 2 signatures.
-9.  Scrolling down on this page, we will encounter a heading ‘Gene set
-    values’, which presents a small table. The links within this table
+9.  Scrolling down on this page, we will encounter a heading ï¿½Gene set
+    valuesï¿½, which presents a small table. The links within this table
     point to the numerical values of the geneset scores. For the 2 gene
     categories, R2 will create the scores of the 2 separate categories,
     a matched score (where up and down regulated genes are treated
     equally (50/50)), and a weighted\_matched score (where up and
     downregulated genes are treated on their contribution (percentage
-    for number of genes)). Click on ‘store’ for the ‘weighted\_matched’
+    for number of genes)). Click on ï¿½storeï¿½ for the ï¿½weighted\_matchedï¿½
     signature, so that we can perform additional analyses on it
     (Figure 2.6).
 10. R2 has now assembled the information into a prescription to generate
     a track. By default R2 will store the track for 24 hours, which is
-    fine for the current tutorial. Click on ‘Build set’ to store the new
+    fine for the current tutorial. Click on ï¿½Build setï¿½ to store the new
     track (Figure 2.7).
 
 [![](_static/images/Genesetcorrelation_mycn_signature_v1.png)**Figure
@@ -2930,19 +2930,19 @@ the mRNA level.
 
 
 
-1.  Go back to the ‘main’ page and select ‘correlate gene with track’
-    from ‘box 3’. In ‘box 4’ we provide ‘MYCN’ and click ‘Next’
+1.  Go back to the ï¿½mainï¿½ page and select ï¿½correlate gene with trackï¿½
+    from ï¿½box 3ï¿½. In ï¿½box 4ï¿½ we provide ï¿½MYCNï¿½ and click ï¿½Nextï¿½
     (Figure 3.1).
 2.  On the following page, we select our newly created track in the
-    ‘select a track’ dropdown box and click ‘Next’(Figure 3.2).
+    ï¿½select a trackï¿½ dropdown box and click ï¿½Nextï¿½(Figure 3.2).
 3.  R2 will now produce a plot where the signature score for every
     patient is related to the MYCN mRNA expression value (Figure 3.3).
 4.  We can make this look a bit prettier by adapting the color for
     patients on the basis of e.g. MYCN amplification status. To achieve
-    this, we go to the ‘adjustable settings’ at the bottom of the page
-    and select ‘Color by track’ from the ‘ColorMode’ and select
-    ‘mycn\_amp’ from the ‘Track for color’ option. Click ‘Adjust
-    Settings’ to redraw (Figure 3.4).
+    this, we go to the ï¿½adjustable settingsï¿½ at the bottom of the page
+    and select ï¿½Color by trackï¿½ from the ï¿½ColorModeï¿½ and select
+    ï¿½mycn\_ampï¿½ from the ï¿½Track for colorï¿½ option. Click ï¿½Adjust
+    Settingsï¿½ to redraw (Figure 3.4).
 5.  We can now clearly see that MYCN amplified patients have a higher
     MYCN activity score. The possibilities for numerical tracks are
     endless with some smart questions (Figure 3.5).
@@ -2966,27 +2966,27 @@ Tutorial step 3
 
 Now that we have related the signature to a particular gene, it is easy
 to envision that this can be done as an analysis as well, where the
-signature is correlated to all genes in the genome (‘correlate with a
-track ’ in ‘box3’). A lot of signatures have been designed and published
+signature is correlated to all genes in the genome (ï¿½correlate with a
+track ï¿½ in ï¿½box3ï¿½). A lot of signatures have been designed and published
 in literature over the past years. We can convert all of these into
 signature scores and start searching for relations of these meta-genes
 with our signature of interest.
 
 
 
-1.  Go back to the ‘main’ page and select ‘Geneset vs Geneset
-    correlation’ from ‘box 3’ and click ‘Next’ (Figure 4.1).
+1.  Go back to the ï¿½mainï¿½ page and select ï¿½Geneset vs Geneset
+    correlationï¿½ from ï¿½box 3ï¿½ and click ï¿½Nextï¿½ (Figure 4.1).
 2.  On the next page, select at the input Geneset -&gt; Gene set
-    Collection (source): ‘geneset\_\_r2provided\_genelists’. In the
+    Collection (source): ï¿½geneset\_\_r2provided\_genelistsï¿½. In the
     Genesets to Scan (target): select 'geneset\_broad\_2012\_oncogenic'
-    (Figure 4.2). Then click ‘next’.
+    (Figure 4.2). Then click ï¿½nextï¿½.
 3.  In the next screen select in the source pull downmenu "functional
     genesignature" and "ALL" in the target pulldown menu leave the
     remanining settings to their default and click 'next'(Figure 4.3).
 4.  The gene signature consists of two parts. one set of genes which are
     up regulated by MYCN and one set of down regulated genes. In the
     next screen select both presented gene lists by holding the Ctrl-
-    button (see Figure 4.4) and click ‘next.’
+    button (see Figure 4.4) and click ï¿½next.ï¿½
 5.  R2 has now generated all the possible correlations for the selected
     MYCN signature against all the gene lists within the broad
     oncogene category. This results in a table of geneset versus geneset
@@ -2996,13 +2996,13 @@ with our signature of interest.
     the last column. This value indicates the range of geneset scores in
     gene target signature (see Figure 4.5).
 6.  To inspect the correlation in more detail, we can click on the
-    ‘XY-plot’ link.
+    ï¿½XY-plotï¿½ link.
 7.  Now R2 has generated an XY-plot of all samples in the dataset. The
     XY values represent the signature scores for the 2 signatures for
     every sample. Below the image the overlapping genes in the 2
     signatures are listed (see Figure 4.6).
 8.  We can also inspect the target signature as a heatmap by clicking on
-    the ‘View heatmap of …’, providing gene-by-gene information (see
+    the ï¿½View heatmap of ï¿½ï¿½, providing gene-by-gene information (see
     Figure 4.7).
 
 [![](_static/images/Fig4_mycn_signature_vs_sign_v1.png)**Figure
@@ -3043,7 +3043,7 @@ Scope
     timepoint in a series has been compared to time-point zero. GCOS,
     makes use of the fact that every probe-set of an Affymetrix array is
     actually a measurement performed 11-16 times. These measurements are
-    used as ‘independent’ inputs to calculate a p-value. Due to the use
+    used as ï¿½independentï¿½ inputs to calculate a p-value. Due to the use
     of GCOS, the time series functionality is only available for the
     U133 type Affymetrix platforms. Of course, our advice would be to
     use biological replicates of all experiments.
@@ -3089,29 +3089,29 @@ Tutorial step 1
 
 
 1.  To view the expression pattern of a single gene from a time series
-    experiment we make use of the ‘Time-series’ module. Logon to R2 and
+    experiment we make use of the ï¿½Time-seriesï¿½ module. Logon to R2 and
     select Time series in left menu panel of R2.
     [![](_static/images/AnalysingTime_Select.png)**Figure
     1: Single selection in the Time-series
     module**](Image:Image:AnalysingTime_Select.png)
-2.  In field 1, select at collection ‘u133p2 (public)’. Here
-    ‘collection’ is indicated as a category of Time series experiments.
+2.  In field 1, select at collection ï¿½u133p2 (public)ï¿½. Here
+    ï¿½collectionï¿½ is indicated as a category of Time series experiments.
     For time series the analysis is limited to the Affymetrix Hu133A or
-    Hu133plus arrays. The ‘Collection’ field not only implies the
+    Hu133plus arrays. The ï¿½Collectionï¿½ field not only implies the
     platform type but may also include another subgroup , in this a case
-    a publically available Times series data. Select ‘View a gene; in
-    field 2, type *HMOX1* in field 3*,* and click ‘next’.
+    a publically available Times series data. Select ï¿½View a gene; in
+    field 2, type *HMOX1* in field 3*,* and click ï¿½nextï¿½.
 3.  In the next screen all the public available time series for the
     u133p platform R2 is hosting, is listed. In our example we make use
     of a Time series experiment published in
-    [Bioinformatics.](http://www.ncbi.nlm.nih.gov/pubmed/20007254) 2010
+    [Bioinformatics.](http://www.ncbi.nlm.nih.gov/pubmed/20007254)ï¿½2010
     Feb 15;26(4):456-63. In this Time series, the experiments are
     performed in triplo . The A549 Adenocarcinoma cellline is treated
     with TGF-beta and the expression levels where measured at
     several timepoints. In Figure 2 click on the (+) sign to unfold the
     Time-course experiments belonging to the A549 cellline and
-    click ‘next’. In the adjustable settings menu, leave all the default
-    settings and click “GO”.
+    click ï¿½nextï¿½. In the adjustable settings menu, leave all the default
+    settings and click ï¿½GOï¿½.
     [![](_static/images/AnalysingTime_SelectSeries.png)**'Figure
     2: Timeseries
     selection screen.**](Image:Image:AnalysingTime_SelectSeries.png)
@@ -3120,7 +3120,7 @@ Tutorial step 1
     with TGF-beta. Clearly the HMOX1 gene is an early responder and is
     upregulated with a maximum at 4 hours. The HMOX1 gene is presented
     by the authors of the corresponding publication as one the
-    upregulated genes after TGF-beta stimulation. It’s should be noted
+    upregulated genes after TGF-beta stimulation. Itï¿½s should be noted
     that a control experiment is missing in this experimental design.
     Hovering over the individual timepoint reveals
     additional information.
@@ -3130,7 +3130,7 @@ Tutorial step 1
 4.  Another gene the authors claim to be upregulated by TGF-beta is the
     BCL6 gene. In the same screen you can quickly generate a time series
     graph by providing the BCL6 gene in the right upper corner and click
-    ‘Search Gene’.
+    ï¿½Search Geneï¿½.
     [![](_static/images/AnalysingTime_Probeset.png)**Figure
     4: Probeset verification and
     Adjustable Settings.**](Image:Image:AnalysingTime_Probeset.png)
@@ -3140,9 +3140,9 @@ Tutorial step 1
 The probeset verification table lists in the case of BCL6 the 3
 probesets designed for the BCL6 gene. By default R2 will select the
 probeset with the highest average expression level. Clicking on the
-Tview link opens a separate application “Transcript view” to investigate
+Tview link opens a separate application ï¿½Transcript viewï¿½ to investigate
 the reporters in more detail. The Transcript view application is
-explained in tutorial 2 ”one-gene-view”.
+explained in tutorial 2 ï¿½one-gene-viewï¿½.
 
 
 
@@ -3154,7 +3154,7 @@ to your personal needs. Such as fontsize , Line width etc.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments***
   Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -3167,10 +3167,10 @@ Tutorial step 2
 
 1.  Instead of looking at one single gene, you may most likely want to
     find novel up and-down regulated genes in your cell-line experiment.
-    Go to the main screen and select in field 2 “Select type of
-    analysis, “create a list of genes” and click ‘next’.
+    Go to the main screen and select in field 2 ï¿½Select type of
+    analysis, ï¿½create a list of genesï¿½ and click ï¿½nextï¿½.
 2.  In the next screen select again all the A549 timeseries experiment
-    and click ‘next’.
+    and click ï¿½nextï¿½.
 3.  In following screen you can use the table builder to apply all kind
     of filtering options to find the novel regulated genes. Some of the
     options are already set.
@@ -3187,10 +3187,10 @@ Tutorial step 2
     above a certain level (eg background) \#:will be skipped.
     ***Min\# present calls in series***: The affymetrix MAS5.0 algorithm
     detects whether a gene is significantly detected and receive a
-    “present call”.
+    ï¿½present callï¿½.
     ***Min \#significant change in series***: Whenever the expression in
     a time series is significantly altered compared to time point 0, a
-    ‘change’ call is elevated. At least one change in expression level
+    ï¿½changeï¿½ call is elevated. At least one change in expression level
     should be \#:significant (meaning that you also would like to see
     those results where only in 1 time point a change is observed).
     ***Fold orientation***: determine the orientation here. Up / Down /
@@ -3201,11 +3201,11 @@ Tutorial step 2
     provides a p-value of the fold change, before a probeset is
     considered changed a minimal pvalue of 0.00025 should be met. Here
     you can set the pvalue to a more \#:strict level.
-    ***Force single reporter for hugo***: It’s possible to analyse all
+    ***Force single reporter for hugo***: Itï¿½s possible to analyse all
     probesets representing a single gene. As explained in another
     tutorial by default R2 will select the probeset with the highest
     average expression level.
-    Select and set the options as depicted in Figure 5 and click ‘next’.
+    Select and set the options as depicted in Figure 5 and click ï¿½nextï¿½.
     [![](_static/images/AnalysingTime_SortedTable.png)**Figure
     6: Up and down regulated genes table sorted on best fold
     change**](Image:Image:AnalysingTime_SortedTable.png)
@@ -3216,9 +3216,9 @@ Tutorial step 2
     [![](_static/images/AnalysingTime_RegulatedGene.png)**Figure
     7:
     regulated gene.**](Image:Image:AnalysingTime_RegulatedGene.png)
-5.  Clicking on the filter button will open the ‘adjustable settings’
+5.  Clicking on the filter button will open the ï¿½adjustable settingsï¿½
     panel to re-adjust the selection options. Clicking on the Venn
-    –diagram button re-direct to the automatically generated Venn
+    ï¿½diagram button re-direct to the automatically generated Venn
     Diagram representing the intersection of the genesets.
     [![](_static/images/AnalysingTime_Button.png)**Figure
     8: Top
@@ -3228,7 +3228,7 @@ Tutorial step 2
     diagram**](Image:Image:AnalysingTime_Venn.png)
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?***
+  ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?***
   In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -3243,36 +3243,36 @@ Tutorial step 3.
     analyses with other modules and datasets stored in the database. Use
     the table of up and down-regulated genes of step2 to investigate if
     this list of genes can be of relevance in other datasets. In the
-    left panel click ‘store results as gene category’. A new screen
+    left panel click ï¿½store results as gene categoryï¿½. A new screen
     appears where you can enter an informative name for your
     genecategory and add a short description. The genecategory can be
     stored for 24 hours or stored permanently in your account, after
     which it is available each time you log in to R2. For now choose the
-    Temporary option at ‘Where’ and remember the name of the stored
+    Temporary option at ï¿½Whereï¿½ and remember the name of the stored
     genecategory for the next step.
     [![](_static/images/AnalysingTime_CustomCat.png)**Figure
     10: : Store a gene
     category**](Image:Image:AnalysingTime_CustomCat.png)
 2.  It has been published that the timecourse expression data from the
     cell experiment used in this example is linked to
-    epithelial-mesenchymal transition (EMT) by TGF-beta induction. It’s
+    epithelial-mesenchymal transition (EMT) by TGF-beta induction. Itï¿½s
     also known that this process plays an important role in
     Breast cancer. We can use this generated genecategory to investigate
     whether this of any relevance or not.
-3.  Go the the main screen of R2 and select at ‘change dataset’ the
+3.  Go the the main screen of R2 and select at ï¿½change datasetï¿½ the
     following dataset . Tumor Breast - Iglehart - 123 - MAS5.0 -
-    u133p2 . In field 3 select ‘View Geneset’ at ‘Select type of
-    analyses’ and click ‘next’.
+    u133p2 . In field 3 select ï¿½View Genesetï¿½ at ï¿½Select type of
+    analysesï¿½ and click ï¿½nextï¿½.
     [![](_static/images/AnalysingTime_Geneview.png)**'Figure
     11: Geneview
     adjustable settings.**](Image:Image:AnalysingTime_Geneview.png)
-4.  At ‘Gene set Collection’ choose ‘ My 24h geneCategories’ and select
-    the generated ‘genecategory’ from step 1. Instead of an unsupervised
+4.  At ï¿½Gene set Collectionï¿½ choose ï¿½ My 24h geneCategoriesï¿½ and select
+    the generated ï¿½genecategoryï¿½ from step 1. Instead of an unsupervised
     sample clustering you can also cluster samples within a track.
-    Select at ‘Order samples’ by ‘ ordering by track and click next.
+    Select at ï¿½Order samplesï¿½ by ï¿½ ordering by track and click next.
 5.  Click next again.
 6.  Choose the temporary Genecategory generated via the Timeserie
-    experiments, the track b-r\_grade and click ‘next’.
+    experiments, the track b-r\_grade and click ï¿½nextï¿½.
     [![](_static/images/AnalysingTime_Heatmap.png)**Figure
     12: Heatmap of unsupervised clustering within a track of a
     selected geneset.**](Image:Image:AnalysingTime_Heatmap.png)
@@ -3284,7 +3284,7 @@ Tutorial step 3.
     of the selected genecategory is represented./
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
+  ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
   Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting &lt; \~400 genes.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -3295,8 +3295,8 @@ Tutorial step 3.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that with ‘sample ordering’ (Figure 11) you can manage the way the samples are clustered.***
-  By choosing ‘sample ordering ’ by ‘track’ , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).
+  ![](_static/images/R2d2_logo.png)***Did you know that with ï¿½sample orderingï¿½ (Figure 11) you can manage the way the samples are clustered.***
+  By choosing ï¿½sample ordering ï¿½ by ï¿½trackï¿½ , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3310,14 +3310,14 @@ Tutorial step 4
 
 
 
-1.  Instead view a ‘ geneset, you can also choose perform a ‘K-means’
+1.  Instead view a ï¿½ geneset, you can also choose perform a ï¿½K-meansï¿½
     clustering based on your stored genecategory described in the steps
-    ‘ above’. Go to the main menu, select ‘K-means’ at ‘ Select type of
-    analysis’ and click ‘next’.
-2.  In the ‘Adjustable settings’ panel leave most of the default
+    ï¿½ aboveï¿½. Go to the main menu, select ï¿½K-meansï¿½ at ï¿½ Select type of
+    analysisï¿½ and click ï¿½nextï¿½.
+2.  In the ï¿½Adjustable settingsï¿½ panel leave most of the default
     settings but make sure that you select the already stored
-    ‘Genecategory’ at the clustering section select '10x10’ at ‘numbers
-    of draw’ and click ‘next’.
+    ï¿½Genecategoryï¿½ at the clustering section select '10x10ï¿½ at ï¿½numbers
+    of drawï¿½ and click ï¿½nextï¿½.
     [![](_static/images/AnalysingTime_heatmap2.png)**Figure
     13: 10x10 Heatmap with the same dataset and gene category as
     depicted in
@@ -3333,8 +3333,8 @@ detail in tutorial 10.
 
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.***
-  You can use this track for further analysis with a custom made track for example by using the ‘find differential expression between groups’. This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and ‘Adapting R2 to your needs’ .
+  ![](_static/images/R2d2_logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.***
+  You can use this track for further analysis with a custom made track for example by using the ï¿½find differential expression between groupsï¿½. This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and ï¿½Adapting R2 to your needsï¿½ .
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3344,23 +3344,23 @@ detail in tutorial 10.
 Tutorial Step 5
 ---------------
 
-1.  The module ‘correlate’ the results with dataset compares the
+1.  The module ï¿½correlateï¿½ the results with dataset compares the
     resulting genelist with a dataset of interest. Clicking the
     correlate with dataset button in the left menu redirects to a
-    new screen. Choose the Igleheart – Breast in field 2, in field 3 ,
-    choose ‘relate to differential expression’ and click next.
-2.  Choose ‘er’ at select a track and click ‘next’.
+    new screen. Choose the Igleheart ï¿½ Breast in field 2, in field 3 ,
+    choose ï¿½relate to differential expressionï¿½ and click next.
+2.  Choose ï¿½erï¿½ at select a track and click ï¿½nextï¿½.
 3.  In de background R2 generates a list of genes based on the module
-    ‘Find differential expression between groups’ and presents the
-    overlay of the results with the list generated in the ‘ time
-    series module’.
+    ï¿½Find differential expression between groupsï¿½ and presents the
+    overlay of the results with the list generated in the ï¿½ time
+    series moduleï¿½.
     [![](_static/images/AnalysingTime_TableCorrelate.png)**Figure
     14: Part of correlate with
     dataset genelist.**](Image:Image:AnalysingTime_TableCorrelate.png)
 4.  In *Figure 14* the overlap is presented between the result from the
-    ‘ time series’ module and the ‘ relate to differential
-    expression’ option. The list of genes is sub-divided in a positive
-    and a negative correlation list of genes. Clicking the ‘2-view’ link
+    ï¿½ time seriesï¿½ module and the ï¿½ relate to differential
+    expressionï¿½ option. The list of genes is sub-divided in a positive
+    and a negative correlation list of genes. Clicking the ï¿½2-viewï¿½ link
     opens a new screen with a combined graph of a one-geneview and the
     time series experiment.
 
@@ -3413,7 +3413,7 @@ Scope
 
 -   In this tutorial the visualization of a set of genes will be
     explored
--   R2 provides a conventional heatmap view­­
+-   R2 provides a conventional heatmap viewï¿½ï¿½
 -   This heatmap view can be adapted to your needs by sorting the data
     along the axes according to your wishes.
 -   Generating your own genelists to analyze using the
@@ -3487,11 +3487,11 @@ Tutorial step 2
     the main page; select View Geneset (Figure 1: Select View
     a Geneset). We're not going to search for a geneset but look for
     multiple sets at once in the KEGG collection. In the next window
-    (Figure 2) leave the default collection to KEGG. Click ‘next’ in the
+    (Figure 2) leave the default collection to KEGG. Click ï¿½nextï¿½ in the
     'Adjustable Settings' box.
 2.  In the next screen a subcollection within the current collection of
     genesets has to be defined; Select 'Cellular Processes' and click
-    ‘next’ (Figure 7).
+    ï¿½nextï¿½ (Figure 7).
     [![](_static/images/UsingGenesets_Subcollection.png)**Figure
     7: Selection a subcollection from the large collection of Kegg
     pathways**](Image:Image:UsingGenesets_Subcollection.png)
@@ -3521,15 +3521,15 @@ Tutorial step 3
 1.  We're going to explore that in further detail by sorting the dataset
     according to the staging. Return to the former choice page
     (Figure 2) by clicking the back button in your browser. Choose
-    'Order samples by a track' and click ‘next’ (Figure 10). In the next
+    'Order samples by a track' and click ï¿½nextï¿½ (Figure 10). In the next
     subcollection selection window choose Cellular Processes again
-    (Figure 7) and click ‘next’.
+    (Figure 7) and click ï¿½nextï¿½.
     [![](_static/images/UsingGenesets_SelectDomain.png)**Figure
     10: Selecting the domain to order samples by: Order by a
     track**](Image:Image:UsingGenesets_SelectDomain.png)
 2.  Now select only the Cell cycle subset as GeneSet. Choose the
     Neuroblastoma staging INSS as track to order samples by and click
-    ‘next’ (Figure 11)
+    ï¿½nextï¿½ (Figure 11)
     [![](_static/images/UsingGenesets_CellCycle.png)**Figure
     11: Selecting Cell Cycle only, order samples by Neuroblastoma
     staging
@@ -3544,9 +3544,9 @@ Tutorial step 3
     subset of genes \#:of the Cell
     Cycle**](Image:Image:UsingGenesets%20HeatmapSorted.png)
 4.  In the previous example R2 offers the possibility to set a fixed
-    ordering of samples by track. It’s also possible to perform a
-    clustering and set a fixed ordering of genes. In the “adjustable
-    settings” panel, select user defined order in the geneselection
+    ordering of samples by track. Itï¿½s also possible to perform a
+    clustering and set a fixed ordering of genes. In the ï¿½adjustable
+    settingsï¿½ panel, select user defined order in the geneselection
     pulldown menu and click next two times. Here you can paste a list of
     genes sorted according to your needs.
 5.  Ifyou want to perform hierarchical clustering with a fixed
@@ -3567,13 +3567,13 @@ Tutorial step 4
 
 
 It could be that for a given dataset there is no annotation to apply the
-analysys tools R2 is offering or your’re lacking a starting point to
+analysys tools R2 is offering or yourï¿½re lacking a starting point to
 further investigated a dataset. A good starting point could be to do is
 to do a simple hierarchicl clustering
 
 
 
-1.  In chapter ‘ Error: Reference source not found’ is explained how to
+1.  In chapter ï¿½ Error: Reference source not foundï¿½ is explained how to
     generate genesets describing the difference between tracks (groups)
     from an annotated dataset. Researchers often want to investigate the
     presence of subgroups without using annotation information in their
@@ -3590,7 +3590,7 @@ to do a simple hierarchicl clustering
     62 - MAS5.0 - u133p2 and click next. In the adjustable settings
     screen all kinds of settings and filtering options can be adapted.
     We want to know which 100 genes have the highest variation in this
-    case leave ‘ which set’ at standard deviation (SD) which is the
+    case leave ï¿½ which setï¿½ at standard deviation (SD) which is the
     default settings. Click next.
 4.  R2 has generated a list of 100 genes showing the highest variation
     in gene expression.
@@ -3664,7 +3664,7 @@ Tutorial step 1
     [![](_static/images/PrincipleComponent_Select.png)**Figure
     1: Selecting Principe Component
     Analysis**](Image:Image:PrincipleComponent_Select.png)
-4.  Click ‘next’
+4.  Click ï¿½nextï¿½
 
 
 
@@ -3675,7 +3675,7 @@ Tutorial step 2
 
 1.  The next window presents a set of fields where specific settings of
     the clustering algorithm used can be set. Leave all the settings at
-    their default and click ‘next’.
+    their default and click ï¿½nextï¿½.
 2.  Click to plot the PCA result.
 3.  You now see a plot of the of the first 2 principle components. In
     the adjustable settings box, al the combinations principle
@@ -3700,15 +3700,15 @@ Tutorial step 2
     additional sample information. This example illustrated that PCA is
     powerful tool aiding to find possible subgroups in your dataset
     of interest.
-5.  Select in the adjustable settings box “Label by Track” at LabelMode.
-    A “Track for Label” pulldown menu unfolds, here select your option
-    of interest e.g “Samplenames” and click next.
+5.  Select in the adjustable settings box ï¿½Label by Trackï¿½ at LabelMode.
+    A ï¿½Track for Labelï¿½ pulldown menu unfolds, here select your option
+    of interest e.g ï¿½Samplenamesï¿½ and click next.
 
 [![](_static/images/PrincipleComponent_Label.png)**'Figure
 5: Samples are in annotated by track by using
 LabelMode.**](Image:Image:PrincipleComponent_Label.png)
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that PCA clustering is a method that reduces data dimensionality?***
+  ![](_static/images/R2d2_logo.png)***Did you know that PCA clustering is a method that reduces data dimensionality?***
   \[Principle Component Analysis is a method that reduces data dimensionality by performing co-variance analysis between factors. PCA is especially suitable for datasets with many dimensions, such as a microarray experiment where the measurement of every single gene in a dataset can be considered a dimension. It is impossible to make a visual representation of the relation between genes and their conditions in multi-dimensional matrix. One way to make sense of data is to reduce dimensionality. Several techniques can be used for this purpose and PCA is one of them. The reduction of dimensions is archived by plotting points in a multidimensional space onto a space with fewer dimensions. The reduction is accomplished by identifying directions, so called *principle components*, that describe maximal variation in the data. These principle components can then be used as surrogates to represent each sample, making it possible to visually assess similarities and differences between samples and determine whether samples can be grouped. As the principle components are uncorrelated, they may represent different aspects of the samples and is therefore a powerful tool to identify subgroups in you dataset.
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -3737,17 +3737,17 @@ internet browsers support the 3D visualization.
 +--------------------------------------------------------------------------+
 |                                               |
 |                                                                          |
-| With Firefox in some cases it’s not possible to rotate the 3D graph in   |
+| With Firefox in some cases itï¿½s not possible to rotate the 3D graph in   |
 | that case adjusts the following setting in firefox. : type about         |
-| “about:config” in the URL box, search for webgl and Enable               |
-| “webgl.force-enabled”: TRUE. The 3-D module is also working with Chrome  |
+| ï¿½about:configï¿½ in the URL box, search for webgl and Enable               |
+| ï¿½webgl.force-enabledï¿½: TRUE. The 3-D module is also working with Chrome  |
 | but not with Internet Explorer.                                          |
 |                                                                          |
 |                                                                    |
 +--------------------------------------------------------------------------+
 
-1.  In the adjustable settings menu select the “3d” option and
-    click ‘next’.
+1.  In the adjustable settings menu select the ï¿½3dï¿½ option and
+    click ï¿½nextï¿½.
 2.  Click the cube and hold the left mouse button and rotate the picture
     in order to investigate whether there are any (more)
     subgroups visible.
@@ -3821,21 +3821,21 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  In the main menu select in field 2 the default dataset “Tumor
-    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2”. In Field 3
-    choose “View a gene” at “type of analysis”. In field 4: type “MYCN”
-    and click ‘next’.
-2.  Leave all the settings at their default and click ‘next’. You have
-    now arrived at the “One Gene View”. In this tutorial the main focus
+1.  In the main menu select in field 2 the default dataset ï¿½Tumor
+    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2ï¿½. In Field 3
+    choose ï¿½View a geneï¿½ at ï¿½type of analysisï¿½. In field 4: type ï¿½MYCNï¿½
+    and click ï¿½nextï¿½.
+2.  Leave all the settings at their default and click ï¿½nextï¿½. You have
+    now arrived at the ï¿½One Gene Viewï¿½. In this tutorial the main focus
     is the evaluation of the reporters designed by manufactures such as
     Affymetrix represented in the R2 Genome browser and to a lesser
-    extent the gene expression. When you slide down on the “One gene
-    view” page of the MYCN expression, you encounter the “Probeset
-    verification” table. The Probeset verification table, displays an
+    extent the gene expression. When you slide down on the ï¿½One gene
+    viewï¿½ page of the MYCN expression, you encounter the ï¿½Probeset
+    verificationï¿½ table. The Probeset verification table, displays an
     automated analysis for U133 based Affymetrix platforms, where the
     reporter-gene relation validity has been verified by their genomic
     location (also described in more detail in the
-    tutorial one-gene-view). Click on the “R2 Tview” link of the upper
+    tutorial one-gene-view). Click on the ï¿½R2 Tviewï¿½ link of the upper
     probeset and The embedded R2 genomebrowser will open in a
     new screen. The genome browser shows the Genomic span where the MYCN
     gene is located together with the 5 MYCN probesets mapped to their
@@ -3900,12 +3900,12 @@ Tutorial step 1
     genomic location.
 3.  The properties and adjustable settings panel allows users to
     configure the graph display in various ways.. In the left properties
-    panel set in the transcriptview section “draw mode to count and in
-    the expression section “draw mode” to bars. The expression level can
+    panel set in the transcriptview section ï¿½draw mode to count and in
+    the expression section ï¿½draw modeï¿½ to bars. The expression level can
     also be investigated per sample. The one-gene-view plot shows that
     ITCC0030 has no MYCN amplification resulting in low MYCN expression
     levels to illustrate this in the genome browser select in the
-    “Adjustable Settings panel’, ITCC0030. Click redraw.
+    ï¿½Adjustable Settings panelï¿½, ITCC0030. Click redraw.
 4.  The picture now shows for one sample the expression levels for all
     MYCN probe sets in a more simplified fashion with barplots. Note the
     extra annotation tracks which were selected and hover over the
@@ -3927,17 +3927,17 @@ Tutorial step 2
 1.  The R2 Genome browser is a highly interactive application offering
     several ways to zoom and scroll the genome display. In the right
     upper corner of the screen search for the GTPBP8 gene click go and
-    in the next screen choose “GTP-binding protein 8 isoform 1” by
-    clicking on “VIEW”.
+    in the next screen choose ï¿½GTP-binding protein 8 isoform 1ï¿½ by
+    clicking on ï¿½VIEWï¿½.
 2.  At some time it could be usefull to zoom into a location such as an
     aligned probeset. To quickly zoom into a specific region of interest
-    user the browsers “drag and zoom” feature. At a desired position
+    user the browsers ï¿½drag and zoomï¿½ feature. At a desired position
     click and hold the left mouse button and drag the highlighted window
     to a second position and release the mouse button. The selected
-    ‘white’ region, can be repositioned (cross mouse indicator). A
+    ï¿½whiteï¿½ region, can be repositioned (cross mouse indicator). A
     selection can be cancelled by clicking in the dark regions (Do note
     however that the positions of the selection were already adapted
-    though ). Also in the track panel set “sequence and GC” windows
+    though ). Also in the track panel set ï¿½sequence and GCï¿½ windows
     to on. Click redraw in the middle panel.
     [![](_static/images/UsingR2genome_zoomcontrols.png)**Figure
     7: Zoom
@@ -3956,14 +3956,14 @@ Tutorial step 2
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
     to the genome browser representing the complete gene.
-4.  Click on the “GET DNA” button to retrieve the DNA sequence directly
+4.  Click on the ï¿½GET DNAï¿½ button to retrieve the DNA sequence directly
     from the UCSC database (keep in mind this option is available until
     the region of interest reaches a certain size)
 
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
 | :R2d2%20logo.png)***Did                                 |
-| you know that the additional settings can be changed in “Tracks          |
+| you know that the additional settings can be changed in ï¿½Tracks          |
 | Panel".***                                                               |
 +--------------------------------------------------------------------------+
 | [![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](Image:Image:U |
@@ -3998,8 +3998,8 @@ chromosome at a certain location.
     [![](_static/images/UsingR2genome_Clicking.png)**Figure
     10: Chromosomal
     clicking**](Image:Image:UsingR2genome_Clicking.png)
-2.  Furthermore it’s worth mentioning that in order to use the genome
-    browser it’s not necessary to do so via first selecting a dataset.
+2.  Furthermore itï¿½s worth mentioning that in order to use the genome
+    browser itï¿½s not necessary to do so via first selecting a dataset.
     The genome browser can directly be accessed from the main menu
     including many basic functionalities.
 
@@ -4027,24 +4027,24 @@ For some patients, R2 may have multiple types of measurements within the
 platform. Provided that you have access to more than one datatype (for
 public data, or when you are part of an r2 usergroup with restricted
 data), then you are able to combine these directly from within the R2
-platform. From R2’s perspective, an analysis where multiple datatypes
-will be combined is an ‘across datasets’ analysis, so we need to select
+platform. From R2ï¿½s perspective, an analysis where multiple datatypes
+will be combined is an ï¿½across datasetsï¿½ analysis, so we need to select
 this from the main page in box 1. The easiest example of a combined
 analysis would be to simply plot the contents of 2 different types
-within a single plot. To do this, we select ‘view a gene in 2 datatypes’
-and press ‘next’. Since R2 needs to be instructed that overlapping
+within a single plot. To do this, we select ï¿½view a gene in 2 datatypesï¿½
+and press ï¿½nextï¿½. Since R2 needs to be instructed that overlapping
 samples may be identified, we create so called collections, which list
 datasets with overlapping patients. In this tutorial, we will make use
 of a public cohort where both mRNA gene expression as well as Illumina
-450k methylation bead chip data is available. Select ‘’ from the
-collection and click ‘next’. Within the current screen you are able to
+450k methylation bead chip data is available. Select ï¿½ï¿½ from the
+collection and click ï¿½nextï¿½. Within the current screen you are able to
 select 2 dataypes to plot against each other. In the current example,
 only mRNA and Methylation data is available, and within these only 1
 option can be selected. Please select the 2 datasets to combine,
 indicate the gene or reporter that you would like to view for the 2
-datasets separately (behind the dataset name) and press ‘next’. We have
+datasets separately (behind the dataset name) and press ï¿½nextï¿½. We have
 now selected the 2 datasets to combine. R2 will automatically identify
-overlapping samples within the current selection and create ‘subsets’
+overlapping samples within the current selection and create ï¿½subsetsï¿½
 for both datasets to only allow the overlapping samples for the plot.
 Did you know that R2 will determine the overlap between datasets
 automatically? R2 will scan for overlapping samples on the basis of the
@@ -4055,7 +4055,7 @@ the order in which samples are represented is also accounted for. From
 the perspective of both datasets we can now select the reporter to
 represent the gene(s) that we indicated on the previous page.
 Furthermore, we can select the transformation for both datasets and
-continue to the actual plot. Press ‘next’ to advance to the image. Did
+continue to the actual plot. Press ï¿½nextï¿½ to advance to the image. Did
 you know that the annotation from both datasets is combined Within the
 resulting image, annotation from both datasets is also combined.
 Annotation is being merged on the basis of the name of a track. In a
@@ -4069,15 +4069,15 @@ between the 2 datatypes for those patients that were represented in both
 data sets. From within this view we can adapt the visualization in a
 couple of ways. When we look at the XY plot, we can annotate the graph
 with a track distinction and color all of the circles accordingly. To
-achieve this, simply select ‘color by track’ and select the annotation
+achieve this, simply select ï¿½color by trackï¿½ and select the annotation
 source to be used for the coloring. Once redrawn, this will also add
-‘boxplot’ representations on the sides of the image to represent the
+ï¿½boxplotï¿½ representations on the sides of the image to represent the
 signals from both dataset perspectives. Alternatively, we can also
-represent the image as a ‘YY’ plot, where multiple annotations will be
-represented underneath the imag. We can adapt this via the ‘graphtype’
-selection. Next to simply ‘looking’ at reporters from the different
+represent the image as a ï¿½YYï¿½ plot, where multiple annotations will be
+represented underneath the imag. We can adapt this via the ï¿½graphtypeï¿½
+selection. Next to simply ï¿½lookingï¿½ at reporters from the different
 datasets, we can also correlate 2 data types with each other. To achieve
-this, we first go back to the ‘main’ page by clicking on the upper left
+this, we first go back to the ï¿½mainï¿½ page by clicking on the upper left
 link. We would now like to identify which gene has the best association
 with its methylation status. Wherefore we need to correlate every gene
 with the methylation probes that are in the annotated to belong to a
@@ -4085,8 +4085,8 @@ gene.
 
 
 
-    Just like the previous example, we select ‘across datasets’ in box 1 and now select ‘dataset extender (within genes)’ in box 2. This will allow us to identify the best possible combinations where the expression of a gene correlates with the methylation status for the same gene.
-    Again, we need to identify the collection within which R2 will look for the overlapping samples. Select ‘’ and press ‘next’.
+    Just like the previous example, we select ï¿½across datasetsï¿½ in box 1 and now select ï¿½dataset extender (within genes)ï¿½ in box 2. This will allow us to identify the best possible combinations where the expression of a gene correlates with the methylation status for the same gene.
+    Again, we need to identify the collection within which R2 will look for the overlapping samples. Select ï¿½ï¿½ and press ï¿½nextï¿½.
 
 
 
@@ -4229,7 +4229,7 @@ Tutorial step 3
     mutated in tumors are pasted. Selecting the 'personal track' option
     guarantees that this
     set will remain available for you (for people in your community, see
-    later in this tutorial). Click ‘next’ to upload the set (Figure 7),
+    later in this tutorial). Click ï¿½nextï¿½ to upload the set (Figure 7),
     you'll receive a message when everything has succeeded. Your set of
     genes is now
     available as a Category for all analyses within R2. Go back to the
@@ -4239,7 +4239,7 @@ Tutorial step 3
     of genes.**](Image:Image:AdaptingR2_Inputbox.png)
 4.  We're going to lookup your category, an example is available in the
     GeneSet view. In the main menu in Field 3 select 'View a Geneset'
-    and click ‘next’( Figure 8)
+    and click ï¿½nextï¿½( Figure 8)
     [![](_static/images/AdaptingR2_Viewset.png)**Figure
     8: Using a category; select View
     Geneset**](Image:Image:AdaptingR2_Viewset.png)
@@ -4341,7 +4341,7 @@ Tutorial step 4
     19: Tracks are defined per dataset; keep the
     current selection.**](Image:Image:AdaptingR2_DatasetTracks.png)
 7.  In the next screen you're able to adapt the Track we just generated.
-    Of interest in here is the option “drawtrack”, which will result in
+    Of interest in here is the option ï¿½drawtrackï¿½, which will result in
     the display of the information underneath the YY-plots. The tracks
     can also be assigned to collections to make large sets of
     tracks manageable. We leave the deletion of the track to the
@@ -4416,7 +4416,7 @@ Tutorial step 5
     25: In the inss row the stage 1-2-3 tumors are selected to form
     group 1, stage 4 forms group 2 and stage 4s group 3 in a
     new track.**](Image:Image:AdaptingR2_DefineGroupsSpecs.png)
-5.  Click ‘next’, all samples appear in a table with check boxes to
+5.  Click ï¿½nextï¿½, all samples appear in a table with check boxes to
     assign them to the appropriate group. Scroll down to create the
     annotation for these groups (). Names have been adapted, show track
     is set to yes, the track is set to be stored a personal track and
@@ -4449,12 +4449,12 @@ Tutorial step 5
 9.  The expression of MYCN is plotted in the different groups of the
     track that was created (Figure 30). Note that the other track of
     mutated genes has a large overlap with the stage 4 group. There is
-    also overlap with the “recurrence\_or\_progression” Default Track
+    also overlap with the ï¿½recurrence\_or\_progressionï¿½ Default Track
     that we set to visible.
     [![](_static/images/AdaptingR2_VisualizeTracks.png)**Figure
     30: Tracks created are visualized underneath the
     graph**](Image:Image:AdaptingR2_VisualizeTracks.png)
-10. Another convenient option from the ‘custom track manager’ is the
+10. Another convenient option from the ï¿½custom track managerï¿½ is the
     export function which enables you to manipulate your tracks manually
     outside R2. This could be of use when your want to share tracks with
     other users or create new custom tracks. One reason you want to use
@@ -4465,9 +4465,9 @@ Tutorial step 5
     (Figure 21) and click next. Here select the dataset of interest ,
     only datasets which have a corresponding personalized track are
     represented in the pulldown menu. Click the
-    ‘Copy/delete/rename/export Tracks’ button. Here select the personal
-    track , ‘export’ operation and r2\_track at ‘export as’ . Click
-    execute’ and download link with the track name can be loaded by
+    ï¿½Copy/delete/rename/export Tracksï¿½ button. Here select the personal
+    track , ï¿½exportï¿½ operation and r2\_track at ï¿½export asï¿½ . Click
+    executeï¿½ and download link with the track name can be loaded by
     clicking the right mouse button.
 
 
@@ -4506,8 +4506,8 @@ Tutorial step 6
     34: The available Communities for
     this user.*'](Image:Image:AdaptingR2_Availablegroups.png)
 5.  You have to add users by their R2 username; we'll add
-    user “pietmolenaar”. He'll receive a message in the R2 startup page
-    as soon as he logs on the next time. Click ‘next’ to add the user.
+    user ï¿½pietmolenaarï¿½. He'll receive a message in the R2 startup page
+    as soon as he logs on the next time. Click ï¿½nextï¿½ to add the user.
     [![](_static/images/AdaptingR2_GroupManager.png)**'Figure
     35: Add a user by their R2 user
     name**](Image:Image:AdaptingR2_GroupManager.png)
@@ -4590,7 +4590,7 @@ tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)**
 Scope
 -----
 
--   Export expression data with the ‘Data Grabber’ functionality
+-   Export expression data with the ï¿½Data Grabberï¿½ functionality
     directly from the main menu
 -   Export expression data in R2 after an analysis.
 
@@ -4605,34 +4605,34 @@ Tutorial step 1
 
 
 
-1.  In the main menu select ‘Tools’ &gt; ‘Data Grabber’. A dropdown menu
+1.  In the main menu select ï¿½Toolsï¿½ &gt; ï¿½Data Grabberï¿½. A dropdown menu
     appears from where you can select the dataset of interest and
-    click ‘next’.
+    click ï¿½nextï¿½.
     [![](_static/images/ExportData_datagrabber.png)**Figure
-    1: In the main menu “Data
+    1: In the main menu ï¿½Data
     Grabber**](Image:Image:ExportData_datagrabber.png)
 2.  A settings menu appears where several filter options can be applied
     to the data you want to export. You may optionally select a
     track (subset) to filter the samples by the annotated groups; in
-    this example select “inss (cat)” and select one or more stage(s). Be
-    sure to click the red ‘**confirm’** link to enforce your selection
+    this example select ï¿½inss (cat)ï¿½ and select one or more stage(s). Be
+    sure to click the red ï¿½**confirmï¿½** link to enforce your selection
     before proceeding.
-3.  In the ’reporters’ section, by default, a specific set of reporters
+3.  In the ï¿½reportersï¿½ section, by default, a specific set of reporters
     (either reporter names or genesymbols) can be selected via
-    copy/paste a set of genes in the “input\_identifiers” box. Another
-    option for the reporter selection would be the ‘HugoOnce’, where
+    copy/paste a set of genes in the ï¿½input\_identifiersï¿½ box. Another
+    option for the reporter selection would be the ï¿½HugoOnceï¿½, where
     only a single reporter is chosen for all of the genes annotated
     within the dataset, and where orphan reporters are omitted. In this
     example we are interested to perform an additional analysis outside
     R2 with all reporters for several stages. In the menu select
-    “HugoOnce” and click ‘next’.
+    ï¿½HugoOnceï¿½ and click ï¿½nextï¿½.
     [![](_static/images/ExportData_filter.png)**Figure
     2: Filter options for
     exporting data.**](Image:Image:ExportData_filter.png)
 
 
 
-A “datagrabber.txt” hyperlink is generated on the fly and appears on
+A ï¿½datagrabber.txtï¿½ hyperlink is generated on the fly and appears on
 your screen. Right-click the link and store the tab delimited file with
 expression data on your hard drive. In case a dataset contains more than
 60.000 reporters, then R2 only allows up to 60.000 reporters to be
@@ -4658,30 +4658,30 @@ export the data via the right menu.
 
 
 
-1.  To illustrate this option. Select in the main screen in box 3 “Find
-    Correlated genes with a single gene”.
-2.  Type “MYCN” in box and click ‘next’, in the next screen leave all
-    the selection criteria at their default settings and click ‘next’.
+1.  To illustrate this option. Select in the main screen in box 3 ï¿½Find
+    Correlated genes with a single geneï¿½.
+2.  Type ï¿½MYCNï¿½ in box and click ï¿½nextï¿½, in the next screen leave all
+    the selection criteria at their default settings and click ï¿½nextï¿½.
 3.  A list of genes significantly correlating (up and down) with the
     MYCN gene is generated. The right menu provides you with a set of
     options to continue your analysis including exporting data.
     [![](_static/images/ExportData_menu.png)**Figure
     3: Continuing
     your analysis.**](Image:Image:ExportData_menu.png)
-4.  Click on “MakeMeATable (TMEV) ready” in a new (tab) screen you can
+4.  Click on ï¿½MakeMeATable (TMEV) readyï¿½ in a new (tab) screen you can
     download the table matrix with the corresponding annotation by using
     the right click of your mouse. The generated table can be used
     directly in external programs such as the commonly used clustering
     program as the TIGR Multi experiment viewer (TMEV) which is
     freely available.
-5.  Try also the other options listed in this menu, ‘save current ….’,
-    ‘reference for …’ and “Store results …. These are all different
+5.  Try also the other options listed in this menu, ï¿½save current ï¿½.ï¿½,
+    ï¿½reference for ï¿½ï¿½ and ï¿½Store results ï¿½. These are all different
     formats to export your results for use outside R2 or store in R2 to
     continue your analyses at a later time-point.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can export data from different types of modules?***
-  Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.
+  ![](_static/images/R2d2_logo.png)***Did you know that you can export data from different types of modules?***
+  Using a different module such as ï¿½Time Seriesï¿½ also provides the option to export the results of use outside R2 or at a later time point within R2.
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -4947,7 +4947,7 @@ use of, which will now be described.
 
 Besides providing the annotation for usage in R2, you can also specify
 how R2 makes use of these annotations, specifically in graphical
-representations. To make this known, you can prepare a ‘relate’ file for
+representations. To make this known, you can prepare a ï¿½relateï¿½ file for
 R2. This document comprises of a number of columns that can be provided
 for the different tracks. Below, you can see a section of such a relate
 file.
@@ -4961,14 +4961,14 @@ file.
 
 Please make sure that the header of the relate file is identical to the
 example, and that the tracknames match to the ones that have been
-defined in the sample annotation. The ‘istrack’ column tells R2 whether
+defined in the sample annotation. The ï¿½istrackï¿½ column tells R2 whether
 the annotation needs to be drawn as color coded information below
-YY-plots, and headers of heatmaps. The ‘isinfo’ column defines whether
+YY-plots, and headers of heatmaps. The ï¿½isinfoï¿½ column defines whether
 the information is displayed in the table once you hover over a sample
-in graphs within R2. ‘visible’ can enable/disable the use of a track.
-The ‘color’ column can preset a specific color to groups which are
+in graphs within R2. ï¿½visibleï¿½ can enable/disable the use of a track.
+The ï¿½colorï¿½ column can preset a specific color to groups which are
 defined within a track. These can be indicated by groupname:hexcolor.
-The different groups are then separated by the ‘;’ sign. It is not
+The different groups are then separated by the ï¿½;ï¿½ sign. It is not
 required to supply this information. R2 will color groupnames
 automatically if such information information is not encountered.
 Finally, you may describe the contents of a track.
@@ -4999,8 +4999,8 @@ as a header row. A survival file should contain a header line that is
 identical to the example given below, as R2 will then recognize it as
 such. How an event is defined, may differ (overall / relapsefree etc).
 This can be expressed in the name of the file that is being provided.
-For example, the file below would be named ‘overall.txt’. Subsequent
-Kaplan curves would get the name ‘overall survival’ on the y-axis.
+For example, the file below would be named ï¿½overall.txtï¿½. Subsequent
+Kaplan curves would get the name ï¿½overall survivalï¿½ on the y-axis.
 
 
 
@@ -5011,14 +5011,14 @@ Kaplan curves would get the name ‘overall survival’ on the y-axis.
 
 **Time series graphs:** When the samples are annotated with the
 appropriate tracks, then R2 can also present datasets as time series.
-When R2 encounters a column named ‘r2\_ts\_timepoint’, combined with
-either ‘r2\_ts\_profile’ and/or ‘r2\_ts\_series’, then this will enable
+When R2 encounters a column named ï¿½r2\_ts\_timepointï¿½, combined with
+either ï¿½r2\_ts\_profileï¿½ and/or ï¿½r2\_ts\_seriesï¿½, then this will enable
 the option to represent the dataset as a time series (where
 samples/groups are connected by a line following the time variable).
 Profiles are intended to connect a single experiment or the following of
 a single subject in time. Series are intended as the grouping of
 profiles (for example biological replicates of an experiment), which
-will also create error bars on the measurements. The ‘r2\_ts\_timepoint’
+will also create error bars on the measurements. The ï¿½r2\_ts\_timepointï¿½
 annotation should only contain numerical information (the time, in
 whatever scale you prefer (minutes / hours / days)). The other 1 or 2
 annotations should provide a grouping label (which would be useful for
@@ -5046,8 +5046,8 @@ Within R2, your dataset will get a name, so that you can find it back
 for analyses. For dataset naming the program makes use of a small number
 of parts (some of which can be influenced by you). For example, the
 department of oncogenomics has made its Neuroblastoma dataset available
-in R2 with the following name “Tumor Neuroblastoma public - Versteeg -
-88 - MAS5.0 - u133p2”. The naming is achieved by the following parts:
+in R2 with the following name ï¿½Tumor Neuroblastoma public - Versteeg -
+88 - MAS5.0 - u133p2ï¿½. The naming is achieved by the following parts:
 
 
 
@@ -5116,12 +5116,12 @@ classes defined in the table below.
 
 2\. **Tissue**. Depending a little on the choice of class, usually a
 description of the tissue / tumor is given in the second part. In the
-example, this was “Neuroblastoma”, but this could also be “Breast” or
-“Colon” if such a dataset was described. For experiments, the tissue or
+example, this was ï¿½Neuroblastomaï¿½, but this could also be ï¿½Breastï¿½ or
+ï¿½Colonï¿½ if such a dataset was described. For experiments, the tissue or
 tumor type is also often described, to make sure that datasets with the
 same theme are close together. If we would describe the shRNA knockdown
 of the MYCN gene in the neuroblastoma cell line IMR32 for example, then
-this would become “Exp Neuroblastoma IMR32 MYCN shRNA”.
+this would become ï¿½Exp Neuroblastoma IMR32 MYCN shRNAï¿½.
 
 
 
@@ -5138,7 +5138,7 @@ R2 will add the number of samples within the dataset, a normalization
 scheme and finally also a code representing the platform which has been
 used. If you are supplying a dataset other than Affymetrix gene
 expression arrays (Exon or U\*\*\*), then you should provide us with the
-normalization, and platform used as well. The platform, doesn’t have to
+normalization, and platform used as well. The platform, doesnï¿½t have to
 be the code that R2 uses, but can also be described by the manufacturer
 and the array ID.
 
@@ -5147,7 +5147,7 @@ and the array ID.
 
 
 Optionally, you can also describe your dataset in more detail in the
-following fields (which are also shown if you click on the ‘i’ image
+following fields (which are also shown if you click on the ï¿½iï¿½ image
 next to a dataset). **Title**: 1 line description of your dataset.
 **Summary**: free text option to describe your dataset in as much detail
 as you wish (See also GEO for examples). **Design**: free text
