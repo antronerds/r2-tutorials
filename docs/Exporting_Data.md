@@ -14,9 +14,9 @@ R2*
 Scope
 -----
 
--   Export expression data with the ‘Data Grabber’ functionality
-    directly from the main menu
--   Export expression data in R2 after an analysis.
+-   Export gene expression data with the â€˜Data Grabberâ€™ functionality
+    directly from the main menu of R2 (<http://r2platform.com> / <http://r2.amc.nl>)
+-   Export focussed gene expression data in R2 after an analysis (result).
 
 
 
@@ -29,34 +29,34 @@ Tutorial step 1
 
 
 
-1.  In the main menu select ‘Tools’ &gt; ‘Data Grabber’. A dropdown menu
+1.  In the main menu select â€˜Toolsâ€™ &gt; â€˜Data Grabberâ€™. A dropdown menu
     appears from where you can select the dataset of interest and
-    click ‘next’.
+    click â€˜nextâ€™.
     [![](_static/images/ExportData_datagrabber.png)**Figure
-    1: In the main menu “Data
+    1: In the main menu â€œData
     Grabber**](Image:Image:ExportData_datagrabber.png)
 2.  A settings menu appears where several filter options can be applied
     to the data you want to export. You may optionally select a
     track (subset) to filter the samples by the annotated groups; in
-    this example select “inss (cat)” and select one or more stage(s). Be
-    sure to click the red ‘**confirm’** link to enforce your selection
+    this example select â€œinss (cat)â€ and select one or more stage(s). Be
+    sure to click the red â€˜**confirmâ€™** link to enforce your selection
     before proceeding.
-3.  In the ’reporters’ section, by default, a specific set of reporters
+3.  In the â€™reportersâ€™ section, by default, a specific set of reporters
     (either reporter names or genesymbols) can be selected via
-    copy/paste a set of genes in the “input\_identifiers” box. Another
-    option for the reporter selection would be the ‘HugoOnce’, where
+    copy/paste a set of genes in the â€œinput\_identifiersâ€ box. Another
+    option for the reporter selection would be the â€˜HugoOnceâ€™, where
     only a single reporter is chosen for all of the genes annotated
     within the dataset, and where orphan reporters are omitted. In this
     example we are interested to perform an additional analysis outside
     R2 with all reporters for several stages. In the menu select
-    “HugoOnce” and click ‘next’.
+    â€œHugoOnceâ€ and click â€˜nextâ€™.
     [![](_static/images/ExportData_filter.png)**Figure
     2: Filter options for
     exporting data.**](Image:Image:ExportData_filter.png)
 
 
 
-A “datagrabber.txt” hyperlink is generated on the fly and appears on
+A â€œdatagrabber.txtâ€ hyperlink is generated on the fly and appears on
 your screen. Right-click the link and store the tab delimited file with
 expression data on your hard drive. In case a dataset contains more than
 60.000 reporters, then R2 only allows up to 60.000 reporters to be
@@ -82,30 +82,30 @@ export the data via the right menu.
 
 
 
-1.  To illustrate this option. Select in the main screen in box 3 “Find
-    Correlated genes with a single gene”.
-2.  Type “MYCN” in box and click ‘next’, in the next screen leave all
-    the selection criteria at their default settings and click ‘next’.
+1.  To illustrate this option. Select in the main screen in box 3 â€œFind
+    Correlated genes with a single geneâ€.
+2.  Type â€œMYCNâ€ in box and click â€˜nextâ€™, in the next screen leave all
+    the selection criteria at their default settings and click â€˜nextâ€™.
 3.  A list of genes significantly correlating (up and down) with the
     MYCN gene is generated. The right menu provides you with a set of
     options to continue your analysis including exporting data.
     [![](_static/images/ExportData_menu.png)**Figure
     3: Continuing
     your analysis.**](Image:Image:ExportData_menu.png)
-4.  Click on “MakeMeATable (TMEV) ready” in a new (tab) screen you can
+4.  Click on â€œMakeMeATable (TMEV) readyâ€ in a new (tab) screen you can
     download the table matrix with the corresponding annotation by using
     the right click of your mouse. The generated table can be used
     directly in external programs such as the commonly used clustering
     program as the TIGR Multi experiment viewer (TMEV) which is
     freely available.
-5.  Try also the other options listed in this menu, ‘save current ….’,
-    ‘reference for …’ and “Store results …. These are all different
+5.  Try also the other options listed in this menu, â€˜save current â€¦.â€™,
+    â€˜reference for â€¦â€™ and â€œStore results â€¦. These are all different
     formats to export your results for use outside R2 or store in R2 to
     continue your analyses at a later time-point.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png))***Did you know that you can export data from different types of modules?***
-  Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.
+  Using a different module such as â€œTime Seriesâ€ also provides the option to export the results of use outside R2 or at a later time point within R2.
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
