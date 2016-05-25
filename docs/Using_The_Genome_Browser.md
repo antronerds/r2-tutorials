@@ -5,7 +5,7 @@ Using the R2-Genome browser
 
 
 
-*Use the Genome browser to verify reporters*
+*Use the embedded R2 Genome browser to verify reporters*
 
 
 
@@ -15,10 +15,9 @@ Using the R2-Genome browser
 Scope
 -----
 
--   In this tutorial investigate reporters and reveal information R2 is
+-   In this tutorial we will investigate gene reporters and reveal information R2 (<http://r2platform.com> / <http://r2.amc.nl>) is
     providing based on the genome location.
--   Explore reporters in the genome browser in combination with gene
-    expression profiles (from the one-gene-view).
+-   Explore gene expression reporters in the genome browser in combination with gene expression profiles (from the one-gene-view).
 
 
 
@@ -27,21 +26,21 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  In the main menu select in field 2 the default dataset ìTumor
-    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2î. In Field 3
-    choose ìView a geneî at ìtype of analysisî. In field 4: type ìMYCNî
-    and click ënextí.
-2.  Leave all the settings at their default and click ënextí. You have
-    now arrived at the ìOne Gene Viewî. In this tutorial the main focus
+1.  In the main menu select in field 2 the default dataset ‚ÄúTumor
+    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2‚Äù. In Field 3
+    choose ‚ÄúView a gene‚Äù at ‚Äútype of analysis‚Äù. In field 4: type ‚ÄúMYCN‚Äù
+    and click ‚Äònext‚Äô.
+2.  Leave all the settings at their default and click ‚Äònext‚Äô. You have
+    now arrived at the ‚ÄúOne Gene View‚Äù. In this tutorial the main focus
     is the evaluation of the reporters designed by manufactures such as
     Affymetrix represented in the R2 Genome browser and to a lesser
-    extent the gene expression. When you slide down on the ìOne gene
-    viewî page of the MYCN expression, you encounter the ìProbeset
-    verificationî table. The Probeset verification table, displays an
+    extent the gene expression. When you slide down on the ‚ÄúOne gene
+    view‚Äù page of the MYCN expression, you encounter the ‚ÄúProbeset
+    verification‚Äù table. The Probeset verification table, displays an
     automated analysis for U133 based Affymetrix platforms, where the
     reporter-gene relation validity has been verified by their genomic
     location (also described in more detail in the
-    tutorial one-gene-view). Click on the ìR2 Tviewî link of the upper
+    tutorial one-gene-view). Click on the ‚ÄúR2 Tview‚Äù link of the upper
     probeset and The embedded R2 genomebrowser will open in a
     new screen. The genome browser shows the Genomic span where the MYCN
     gene is located together with the 5 MYCN probesets mapped to their
@@ -106,12 +105,12 @@ Tutorial step 1
     genomic location.
 3.  The properties and adjustable settings panel allows users to
     configure the graph display in various ways.. In the left properties
-    panel set in the transcriptview section ìdraw mode to count and in
-    the expression section ìdraw modeî to bars. The expression level can
+    panel set in the transcriptview section ‚Äúdraw mode to count and in
+    the expression section ‚Äúdraw mode‚Äù to bars. The expression level can
     also be investigated per sample. The one-gene-view plot shows that
     ITCC0030 has no MYCN amplification resulting in low MYCN expression
     levels to illustrate this in the genome browser select in the
-    ìAdjustable Settings panelí, ITCC0030. Click redraw.
+    ‚ÄúAdjustable Settings panel‚Äô, ITCC0030. Click redraw.
 4.  The picture now shows for one sample the expression levels for all
     MYCN probe sets in a more simplified fashion with barplots. Note the
     extra annotation tracks which were selected and hover over the
@@ -133,17 +132,17 @@ Tutorial step 2
 1.  The R2 Genome browser is a highly interactive application offering
     several ways to zoom and scroll the genome display. In the right
     upper corner of the screen search for the GTPBP8 gene click go and
-    in the next screen choose ìGTP-binding protein 8 isoform 1î by
-    clicking on ìVIEWî.
+    in the next screen choose ‚ÄúGTP-binding protein 8 isoform 1‚Äù by
+    clicking on ‚ÄúVIEW‚Äù.
 2.  At some time it could be usefull to zoom into a location such as an
     aligned probeset. To quickly zoom into a specific region of interest
-    user the browsers ìdrag and zoomî feature. At a desired position
+    user the browsers ‚Äúdrag and zoom‚Äù feature. At a desired position
     click and hold the left mouse button and drag the highlighted window
     to a second position and release the mouse button. The selected
-    ëwhiteí region, can be repositioned (cross mouse indicator). A
+    ‚Äòwhite‚Äô region, can be repositioned (cross mouse indicator). A
     selection can be cancelled by clicking in the dark regions (Do note
     however that the positions of the selection were already adapted
-    though ). Also in the track panel set ìsequence and GCî windows
+    though ). Also in the track panel set ‚Äúsequence and GC‚Äù windows
     to on. Click redraw in the middle panel.
     [![](_static/images/UsingR2genome_zoomcontrols.png)**Figure
     7: Zoom
@@ -162,14 +161,14 @@ Tutorial step 2
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
     to the genome browser representing the complete gene.
-4.  Click on the ìGET DNAî button to retrieve the DNA sequence directly
+4.  Click on the ‚ÄúGET DNA‚Äù button to retrieve the DNA sequence directly
     from the UCSC database (keep in mind this option is available until
     the region of interest reaches a certain size)
 
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
 | :R2d2%20logo.png)***Did                                 |
-| you know that the additional settings can be changed in ìTracks          |
+| you know that the additional settings can be changed in ‚ÄúTracks          |
 | Panel".***                                                               |
 +--------------------------------------------------------------------------+
 | [![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](Image:Image:U |
@@ -204,8 +203,8 @@ chromosome at a certain location.
     [![](_static/images/UsingR2genome_Clicking.png)**Figure
     10: Chromosomal
     clicking**](Image:Image:UsingR2genome_Clicking.png)
-2.  Furthermore itís worth mentioning that in order to use the genome
-    browser itís not necessary to do so via first selecting a dataset.
+2.  Furthermore it‚Äôs worth mentioning that in order to use the genome
+    browser it‚Äôs not necessary to do so via first selecting a dataset.
     The genome browser can directly be accessed from the main menu
     including many basic functionalities.
 
