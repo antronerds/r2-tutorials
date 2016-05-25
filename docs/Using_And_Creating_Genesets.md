@@ -12,13 +12,6 @@ dataset*
 
 
 
-**[Back to the list of
-tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)**
-
-
-
-
-
 Scope
 -----
 
