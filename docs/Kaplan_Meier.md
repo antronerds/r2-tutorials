@@ -13,7 +13,7 @@ Working with Kaplan Meier
 Scope
 -----
 
--   Use R2 to generate a Kaplan graph by ‘annotated parameter’. Use
+-   Use R2 to generate a Kaplan graph by ï¿½annotated parameterï¿½. Use
     tracks or combine two tracks to assign the group separation of a
     specific dataset.
 
@@ -55,7 +55,7 @@ Tutorial step 1
 
 
 
-1.  Logon the R2 homepage and select Kaplan Meier – By
+1.  Logon the R2 homepage and select Kaplan Meier ï¿½ By
     Annotated parameter. You can find this option either in the left
     menu panel on the main screen or in field 3 at the type of analysis
     pull down menu. Using the Kaplan Meier module via the left menu
@@ -63,12 +63,12 @@ Tutorial step 1
     [![](_static/images/WorkingWithKaplan_menu.png)**Figure
     1: Select a Kaplan
     Meier option.**](Image:Image:WorkingWithKaplan_menu.png)
-2.  In the adjustable settings menu choose ‘overall survival’ , select
-    ‘track’ at Separate by and select ‘inss-cat’ stage in use track pull
-    down menu . Click ‘next’ .
+2.  In the adjustable settings menu choose ï¿½overall survivalï¿½ , select
+    ï¿½trackï¿½ at Separate by and select ï¿½inss-catï¿½ stage in use track pull
+    down menu . Click ï¿½nextï¿½ .
     [![](_static/images/WorkingWithKaplan_Kaplan.png)**Figure
     2: Kaplan Meier by
-    ‘Annotated parameter.**](Image:Image:WorkingWithKaplan%20Kaplan.png)
+    ï¿½Annotated parameter.**](Image:Image:WorkingWithKaplan%20Kaplan.png)
 
 
 
@@ -79,9 +79,9 @@ agreement with the clinical outcome of the INSS stages.
 
 1.  A handy feature of the R2 kaplan module is the option to combine two
     tracks to generate subgroups for the Kaplan meier analyses. Use the
-    back-button from the browser and select at ‘ separate by ‘ , ‘
-    combination of two tracks’. Choose for example for the first track ‘
-    agegroup (cat) ‘ and for the second track ‘mycn\_amp (cat) ‘. And
+    back-button from the browser and select at ï¿½ separate by ï¿½ , ï¿½
+    combination of two tracksï¿½. Choose for example for the first track ï¿½
+    agegroup (cat) ï¿½ and for the second track ï¿½mycn\_amp (cat) ï¿½. And
     click next.
     [![](_static/images/WorkingWithKaplan_Combined.png)**Figure
     3: Kaplan Meier graph with
@@ -91,7 +91,7 @@ agreement with the clinical outcome of the INSS stages.
 
 The combined track agegroup ( &gt;=1 year) and no mycn application
 results in intermediate survival probability. Note that there are 3
-groups instead of “expected” 4 since there are no patients &lt; 1 year
+groups instead of ï¿½expectedï¿½ 4 since there are no patients &lt; 1 year
 and a mycn amplification, in this cohort.
 
 
@@ -130,23 +130,23 @@ Tutorial step 2
 
 
 1.  Select from the main screen either the left menu or in field 3,
-    Kaplan Meier – By gene expression. Make sure that “Tumor
-    Neuroblastoma public – Versteeg – 88” is selected, for analyses
-    choose ’Kaplan Scan a single gene’ fill in MYCN and use as cut-off
-    method “ scan ” and click ‘next’.
-2.  In the next screen use the prefilled settings and click ‘next’.
+    Kaplan Meier ï¿½ By gene expression. Make sure that ï¿½Tumor
+    Neuroblastoma public ï¿½ Versteeg ï¿½ 88ï¿½ is selected, for analyses
+    choose ï¿½Kaplan Scan a single geneï¿½ fill in MYCN and use as cut-off
+    method ï¿½ scan ï¿½ and click ï¿½nextï¿½.
+2.  In the next screen use the prefilled settings and click ï¿½nextï¿½.
 3.  The Kaplan scan generates a Kaplan Meier Plot based on the most
     optimal mRNA cut-off expression level to discriminate between a good
     and bad prognosis cohort.
 4.  The determined separation in groups can be stored in a track and
-    used in other analyes, click the ‘store as track’ button
+    used in other analyes, click the ï¿½store as trackï¿½ button
     [![](_static/images/WorkingWithKaplan_GroupPvalue.png)**Figure
     5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)
     Median D)
     Average**](Image:Image:WorkingWithKaplan_GroupPvalue.png)
 5.  To illustrate that with the Kaplan scan more significant biological
-    subgroups can be found, adjust the cut-off mode to ‘median’ in the
-    settings menu and click ‘redraw’graph.
+    subgroups can be found, adjust the cut-off mode to ï¿½medianï¿½ in the
+    settings menu and click ï¿½redrawï¿½graph.
     [![](_static/images/WorkingWithKaplan_Multiple.png)**Figure
     6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)
     Median D)
@@ -154,7 +154,7 @@ Tutorial step 2
 
 
 
-It’s obvious that with the Kaplan Meier scan the group separation is
+Itï¿½s obvious that with the Kaplan Meier scan the group separation is
 much more significant compared to the median cut-off modus. Try to find
 out whether this is also the case with other cut-off modi.
 
@@ -165,7 +165,7 @@ out whether this is also the case with other cut-off modi.
     of the p-value plotted against the mRNA expression level values. In
     some cases it could be useful to change the p-value cut-off level
     and for this reason this graphical p-value plot (which is clickable)
-    could be of help. Alternatively, you could use the ‘cutoff’ field to
+    could be of help. Alternatively, you could use the ï¿½cutoffï¿½ field to
     regenerate a Kaplan curve with that separation.
 
 
@@ -184,14 +184,14 @@ Tutorial step 3
 ---------------
 
 1.  Instead of using the Kaplan Scan for a single gene you can also
-    analyse a group of genes at the same time. Go to Kaplan Meier – by
-    gene expression, select at analysis ‘Kaplan Scan a group of
-    genes’and click ‘next’
+    analyse a group of genes at the same time. Go to Kaplan Meier ï¿½ by
+    gene expression, select at analysis ï¿½Kaplan Scan a group of
+    genesï¿½and click ï¿½nextï¿½
 2.  In this example select the apoptosis route at the Kegg path way
-    pulldown menu. Leave the ‘type of survival’ at overall survival. In
+    pulldown menu. Leave the ï¿½type of survivalï¿½ at overall survival. In
     the statistics panel there are several filtering options possible
     leave these options unchanged
-3.  In the graphics section select ‘yes’ at ‘Draw heatmap and
+3.  In the graphics section select ï¿½yesï¿½ at ï¿½Draw heatmap and
     click next.
 4.  In the next screen R2 had generated a list of the genes within the
     apoptosis pathway which have significant prognostic value. A heatmap
@@ -231,8 +231,8 @@ Tutorial step 4
     dataset that is not available in R2. Especially for this reason we
     have made a user defined version within R2, where you can paste your
     cohort into R2 and run the procedure. To initiate such a user
-    defined kaplanscan, select the ‘Kaplan Meier’ &gt; ‘Kaplan Meier by
-    user provide data’ option from the left hand menu.
+    defined kaplanscan, select the ï¿½Kaplan Meierï¿½ &gt; ï¿½Kaplan Meier by
+    user provide dataï¿½ option from the left hand menu.
     [![](_static/images/Kaplanscan_userdefined_1a.png)**Figure
     9: Kaplanscan with user defined
     data**](Image:Image:kaplanscan_userdefined_1a.png)
@@ -249,7 +249,7 @@ Tutorial step 4
 
 3.  One can easily prepare this information in Excel and paste the
     selected columns into the large white paste box. Do take care that
-    we use ‘.’ for decimal signs. After you pasted the dataset
+    we use ï¿½.ï¿½ for decimal signs. After you pasted the dataset
     information, you make the selection for the cutoff option and
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
@@ -260,7 +260,7 @@ Tutorial step 4
     parameters to optimize appearance of your result.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))***Did you know that The survival data used in your scan produces a unique signature***
+  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature***
   R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

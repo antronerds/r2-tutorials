@@ -36,7 +36,7 @@ Tutorial step 1
     [![](_static/images/PrincipleComponent_Select.png)**Figure
     1: Selecting Principe Component
     Analysis**](Image:Image:PrincipleComponent_Select.png)
-4.  Click ‘next’
+4.  Click ï¿½nextï¿½
 
 
 
@@ -47,7 +47,7 @@ Tutorial step 2
 
 1.  The next window presents a set of fields where specific settings of
     the clustering algorithm used can be set. Leave all the settings at
-    their default and click ‘next’.
+    their default and click ï¿½nextï¿½.
 2.  Click to plot the PCA result.
 3.  You now see a plot of the of the first 2 principle components. In
     the adjustable settings box, al the combinations principle
@@ -72,15 +72,15 @@ Tutorial step 2
     additional sample information. This example illustrated that PCA is
     powerful tool aiding to find possible subgroups in your dataset
     of interest.
-5.  Select in the adjustable settings box “Label by Track” at LabelMode.
-    A “Track for Label” pulldown menu unfolds, here select your option
-    of interest e.g “Samplenames” and click next.
+5.  Select in the adjustable settings box ï¿½Label by Trackï¿½ at LabelMode.
+    A ï¿½Track for Labelï¿½ pulldown menu unfolds, here select your option
+    of interest e.g ï¿½Samplenamesï¿½ and click next.
 
 [![](_static/images/PrincipleComponent_Label.png)**'Figure
 5: Samples are in annotated by track by using
 LabelMode.**](Image:Image:PrincipleComponent_Label.png)
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))***Did you know that PCA clustering is a method that reduces data dimensionality?***
+  ![](_static/images/R2d2_logo.png)***Did you know that PCA clustering is a method that reduces data dimensionality?***
   \[Principle Component Analysis is a method that reduces data dimensionality by performing co-variance analysis between factors. PCA is especially suitable for datasets with many dimensions, such as a microarray experiment where the measurement of every single gene in a dataset can be considered a dimension. It is impossible to make a visual representation of the relation between genes and their conditions in multi-dimensional matrix. One way to make sense of data is to reduce dimensionality. Several techniques can be used for this purpose and PCA is one of them. The reduction of dimensions is archived by plotting points in a multidimensional space onto a space with fewer dimensions. The reduction is accomplished by identifying directions, so called *principle components*, that describe maximal variation in the data. These principle components can then be used as surrogates to represent each sample, making it possible to visually assess similarities and differences between samples and determine whether samples can be grouped. As the principle components are uncorrelated, they may represent different aspects of the samples and is therefore a powerful tool to identify subgroups in you dataset.
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -109,17 +109,17 @@ internet browsers support the 3D visualization.
 +--------------------------------------------------------------------------+
 |                                               |
 |                                                                          |
-| With Firefox in some cases it’s not possible to rotate the 3D graph in   |
+| With Firefox in some cases itï¿½s not possible to rotate the 3D graph in   |
 | that case adjusts the following setting in firefox. : type about         |
-| “about:config” in the URL box, search for webgl and Enable               |
-| “webgl.force-enabled”: TRUE. The 3-D module is also working with Chrome  |
+| ï¿½about:configï¿½ in the URL box, search for webgl and Enable               |
+| ï¿½webgl.force-enabledï¿½: TRUE. The 3-D module is also working with Chrome  |
 | but not with Internet Explorer.                                          |
 |                                                                          |
 |                                                                    |
 +--------------------------------------------------------------------------+
 
-1.  In the adjustable settings menu select the “3d” option and
-    click ‘next’.
+1.  In the adjustable settings menu select the ï¿½3dï¿½ option and
+    click ï¿½nextï¿½.
 2.  Click the cube and hold the left mouse button and rotate the picture
     in order to investigate whether there are any (more)
     subgroups visible.

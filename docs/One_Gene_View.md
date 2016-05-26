@@ -125,7 +125,7 @@ Tutorial step 3
     are several other settings to adapt the graph R2 generates (like
     changing font sizes, or adding labels to the datapoints). 
    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))**Did you know that the Adjustable Settings panel is also available in the previous screen**
+  ![](_static/images/R2d2_logo.png)**Did you know that the Adjustable Settings panel is also available in the previous screen**
   
   Just scroll down the page
   
@@ -221,7 +221,7 @@ and click on the “Tview” link in the reporter table.
 
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))***Did you know that you can browse the gene expression values along the genome***
+  ![](_static/images/R2d2_logo.png)***Did you know that you can browse the gene expression values along the genome***
 
   Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.\
   What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.
@@ -257,7 +257,7 @@ dataset additions).
 
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
+  ![](_static/images/R2d2_logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
 
   The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.\
   To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.
@@ -274,7 +274,7 @@ literature mining.
 
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png))***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
+  ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
 
   In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?\
   Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.\

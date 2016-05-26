@@ -54,3 +54,8 @@ img{
     margin-left: auto;
     margin-right: auto; 
 }
+
+img[src="_images/R2d2_logo.png"]{
+	display: inline;
+	float: left;
+}
