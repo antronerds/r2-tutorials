@@ -60,7 +60,7 @@ img[src="_images/R2d2_logo.png"]{
 	float: left;
 }
 
-a.reference external{
+a.reference.external{
 	display: block;
 	text-align: center;
   	padding: 10px 20px;	
