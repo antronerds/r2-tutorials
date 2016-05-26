@@ -48,3 +48,9 @@ div.r2didyouknow th {
 	background-repeat: no-repeat; 
 	background-position: left; 
 }
+
+.imagecenter{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}

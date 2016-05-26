@@ -73,13 +73,9 @@ Tutorial step 2
     (for example a potential splice variant). Also realize that the most
     informative probeset is re-determined in every dataset, sometimes
     resulting in a different probeset as the choice of R2. The
-    expression levels are by default converted to log2 values.
-  
-![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
-    
-    
+    expression levels are by default converted to log2 values. 
+![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected"){.imagecenter}    
 **Figure 2: By default the probeset with the highest expression level is selected**
-    
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
     skip tracks, click on the Track Display section and select the
