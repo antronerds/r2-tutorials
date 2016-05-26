@@ -47,10 +47,10 @@ Tutorial step 1
     genomic position.
     [![](_static/images/UsingR2genome_probesettable.png)**Figure
     1: Genome browser and Transcript
-    view**](Image:Image:UsingR2genome_probesettable.png)
+    view**](_static/images/UsingR2genome_probesettable.png)
     [![](_static/images/UsingR2genome_Genomebrowser.png)**Figure
     2: The probeset verification
-    table**](Image:Image:UsingR2genome_Genomebrowser.png)
+    table**](_static/images/UsingR2genome_Genomebrowser.png)
     When we access the genome browser via the one-gene-view, then by
     default it has enabled a number of annotations (Tracks). At the top
     of the image,R2 is depicting all known EST and mRNA sequences
@@ -96,10 +96,10 @@ Tutorial step 1
     ****
     [![](_static/images/UsingR2genome_legend1.png)**Figure
     3: Legend of the color
-    usage**](Image:Image:UsingR2genome_legend1.png)
+    usage**](_static/images/UsingR2genome_legend1.png)
     [![](_static/images/UsingR2genome_tracks.png)**Figure
     4: Second half of the genome browser with
-    default tracks.**](Image:Image:UsingR2genome_tracks.png)
+    default tracks.**](_static/images/UsingR2genome_tracks.png)
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
     genomic location.
@@ -118,9 +118,9 @@ Tutorial step 1
 
 [![](_static/images/UsingR2genome_settingspanel.png)**Figure
 5: Adjustable settings
-panel.**](Image:Image:UsingR2genome_settingspanel.png)[![](_static/images/UsingR2genome_tracksadded.png)**Figure
+panel.**](_static/images/UsingR2genome_settingspanel.png)[![](_static/images/UsingR2genome_tracksadded.png)**Figure
 6: Annotation tracks
-added.**](Image:Image:UsingR2genome_tracksadded.png)
+added.**](_static/images/UsingR2genome_tracksadded.png)
 
 
 
@@ -146,7 +146,7 @@ Tutorial step 2
     to on. Click redraw in the middle panel.
     [![](_static/images/UsingR2genome_zoomcontrols.png)**Figure
     7: Zoom
-    controls**](Image:Image:UsingR2genome_zoomcontrols.png)
+    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 3.  At a larger magnification certain features such basepair pair
     coloring at the sequence annotation track may become visible. Note
     the black rectangles in the dark green exon region a collection of
@@ -154,10 +154,10 @@ Tutorial step 2
     zoom procedure for one probe and click redraw.
     [![](_static/images/UsingR2genome_zoomgraph.png)**Figure
     8: Zoom-in
-    graph**](Image:Image:UsingR2genome_zoomgraph.png)
+    graph**](_static/images/UsingR2genome_zoomgraph.png)
     [![](_static/images/UsingR2genome_basepair.png)**Figure
     9: Zoom revealing basepair
-    sequence**](Image:Image:UsingR2genome_basepair.png)
+    sequence**](_static/images/UsingR2genome_basepair.png)
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
     to the genome browser representing the complete gene.
@@ -171,7 +171,7 @@ Tutorial step 2
 | you know that the additional settings can be changed in “Tracks          |
 | Panel".***                                                               |
 +--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](Image:Image:U |
+| [![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U |
 | singR2genome_toolicon.png)                              |
 |                                               |
 |                                                                          |
@@ -202,7 +202,7 @@ chromosome at a certain location.
     dataset in that region.
     [![](_static/images/UsingR2genome_Clicking.png)**Figure
     10: Chromosomal
-    clicking**](Image:Image:UsingR2genome_Clicking.png)
+    clicking**](_static/images/UsingR2genome_Clicking.png)
 2.  Furthermore it’s worth mentioning that in order to use the genome
     browser it’s not necessary to do so via first selecting a dataset.
     The genome browser can directly be accessed from the main menu

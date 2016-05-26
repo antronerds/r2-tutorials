@@ -47,7 +47,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 
 [![](_static/images/Genesetcorrelation_sig_score_explained_v0.png)**Figure
 1: Signature score: one category vs up/down
-category**](Image:Image:Genesetcorrelation_sig_score_explained_v0.png)
+category**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 -   What is a genesignature
 -   Create a track using the weight scores of a genesignature
 -   Relate a weighed genesignature track to a single gene
@@ -112,7 +112,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
 
 [![](_static/images/Genesetcorrelation_mycn_signature_v1.png)**Figure
 2: Generate
-genesignature**](Image:Image:Genesetcorrelation%20mycn%20signature%20v1.png)
+genesignature**](_static/images/Genesetcorrelation%20mycn%20signature%20v1.png)
 
 
 
@@ -153,7 +153,7 @@ the mRNA level.
 
 [![](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)**Figure
 3: Add group
-colouring**](Image:Image:Genesetcorrelation_mycn_signature_group_v0.png)
+colouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
 
 
 
@@ -207,7 +207,7 @@ with our signature of interest.
 
 [![](_static/images/Fig4_mycn_signature_vs_sign_v1.png)**Figure
 4: Find
-genesignatures**](Image:Image:Fig4%20mycn%20signature%20vs%20sign%20v1.png)
+genesignatures**](_static/images/Fig4%20mycn%20signature%20vs%20sign%20v1.png)
 
 
 

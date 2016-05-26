@@ -34,7 +34,7 @@ Tutorial step 1
     click ‘next’.
     [![](_static/images/ExportData_datagrabber.png)**Figure
     1: In the main menu “Data
-    Grabber**](Image:Image:ExportData_datagrabber.png)
+    Grabber**](_static/images/ExportData_datagrabber.png)
 2.  A settings menu appears where several filter options can be applied
     to the data you want to export. You may optionally select a
     track (subset) to filter the samples by the annotated groups; in
@@ -52,7 +52,7 @@ Tutorial step 1
     “HugoOnce” and click ‘next’.
     [![](_static/images/ExportData_filter.png)**Figure
     2: Filter options for
-    exporting data.**](Image:Image:ExportData_filter.png)
+    exporting data.**](_static/images/ExportData_filter.png)
 
 
 
@@ -91,7 +91,7 @@ export the data via the right menu.
     options to continue your analysis including exporting data.
     [![](_static/images/ExportData_menu.png)**Figure
     3: Continuing
-    your analysis.**](Image:Image:ExportData_menu.png)
+    your analysis.**](_static/images/ExportData_menu.png)
 4.  Click on “MakeMeATable (TMEV) ready” in a new (tab) screen you can
     download the table matrix with the corresponding annotation by using
     the right click of your mouse. The generated table can be used
@@ -107,7 +107,7 @@ export the data via the right menu.
 <<<<<<< HEAD
   ![](_static/images/R2d2_logo.png)***Did you know that you can export data from different types of modules?***
 =======
-  [![](_static/images/R2d2_logo.png)](Image:Image:R2d2%20logo.png)***Did you know that you can export data from different types of modules?***
+  [![](_static/images/R2d2_logo.png)](_static/images/R2d2%20logo.png)***Did you know that you can export data from different types of modules?***
 >>>>>>> branch 'master' of https://github.com/antronerds/r2-tutorials.git
   Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

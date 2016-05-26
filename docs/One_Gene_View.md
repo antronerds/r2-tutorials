@@ -239,7 +239,7 @@ Tutorial step 5.
 
 [![](_static/images/OneGene_menupanel.png)**Figure
 8:Left menu panel providing additional info (including link-out) and
-analyses options**](Image:Image:OneGene_menupanel.png)
+analyses options**](_static/images/OneGene_menupanel.png)
 
 
 In the left upper menu-panel several options are available to provide
@@ -299,7 +299,7 @@ samples.
 
 [![](_static/images/OneGene_Datatable.png)**Figure
 9: Unfold the
-datatable**](Image:Image:OneGene_Datatable.png)
+datatable**](_static/images/OneGene_Datatable.png)
 
 
 The “track display selection” section can be opened by clicking on it.
@@ -314,7 +314,7 @@ including the customize track parameters are available throughout R2.
 
 [![](_static/images/OneGene_trackdisplay.png)**Figure
 10: Tick and drag
-tracks**](Image:Image:OneGene_trackdisplay.png)
+tracks**](_static/images/OneGene_trackdisplay.png)
 
 
 Other convenient options are revealed by clicking the “more settings”
@@ -327,9 +327,9 @@ selecting.
 
 [![](_static/images/OneGene_Adapting.png)**Figure
 11: the extra settings
-Panel**](Image:Image:OneGene_Adapting.png)[![](_static/images/OneGene_Extrasettings.png)**Figure
+Panel**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Extrasettings.png)**Figure
 12: Adapting a
-graph**](Image:Image:OneGene_Extrasettings.png)
+graph**](_static/images/OneGene_Extrasettings.png)
 
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
@@ -344,9 +344,9 @@ modules where a one-or two gene view is generated.
 
 
 
-[![](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](Image:Image:OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)**Figure
+[![](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)**Figure
 14: Adapting annotation
-size**](Image:Image:OneGene_Adapting2.png)
+size**](_static/images/OneGene_Adapting2.png)
 
 
 

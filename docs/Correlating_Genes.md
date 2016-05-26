@@ -56,7 +56,7 @@ Tutorial step 1
 
 [![](_static/images/FindGenes_Choiceof.png)**Figure
 1: Choice of correlation
-analysis.**](Image:Image:FindGenes%20Choiceof.png)
+analysis.**](_static/images/FindGenes%20Choiceof.png)
 
 
 
@@ -73,7 +73,7 @@ Tutorial step 2
     Expression' tutorial.
     [![](_static/images/FindGenes_OptionPage.png)**Figure
     2: Options page for correlation
-    calculation**](Image:Image:FindGenes%20OptionPage.png)
+    calculation**](_static/images/FindGenes%20OptionPage.png)
 3.  Scroll down the screen and click 'Next'
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -108,7 +108,7 @@ Tutorial step 3
     [![](_static/images/FindGenes_GeneList.png)**Figure
     3: Genes whose expression is correlating with that of the MYCN gene
     in 88 Neuroblastoma
-    tumors**](Image:Image:FindGenes%20GeneList.png)
+    tumors**](_static/images/FindGenes%20GeneList.png)
 
 
 
@@ -137,7 +137,7 @@ updates upon a new genebuild release or an affymetrix annotation update.
 
 [![](_static/images/FindGenes_GotoMain.png)**Figure
 4: Filter
-button**](Image:Image:FindGenes%20GotoMain.png)
+button**](_static/images/FindGenes%20GotoMain.png)
 
 
 
@@ -158,14 +158,14 @@ Tutorial step 4
     [![](_static/images/FindGenes_ExpressionPos.png)**Figure
     5: The expression of the MYCN gene correlates with the expression of
     the
-    APEX1 gene.**](Image:Image:FindGenes_ExpressionPos.png)
+    APEX1 gene.**](_static/images/FindGenes_ExpressionPos.png)
 2.  For an opposite example, click on one of the the top genes in the
     right column; MEAF6. This produces Figure 6. The original list of
     results is still open in another tab in your browser, return there.
     [![](_static/images/FindGenes_ExpressionNeg.png)**Figure
     6: The expression of MYCN has a negative correlation with that of
     the MEAf6
-    gene**](Image:Image:FindGenes_ExpressionNeg.png)
+    gene**](_static/images/FindGenes_ExpressionNeg.png)
 
 
 
@@ -183,7 +183,7 @@ samples in the selected dataset see Figure 7
 
 1.  [![](_static/images/FindGenes_ExpressionHis.png)**Figure
     7: Toggle Histogram
-    on/off**](Image:Image:FindGenes%20ExpressionHis.png)
+    on/off**](_static/images/FindGenes%20ExpressionHis.png)
 2.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
@@ -197,7 +197,7 @@ samples in the selected dataset see Figure 7
 [![](_static/images/FindGenes_ExpressionHeat.png)**Figure
 8: Heatmap view of the expression of all genes correlating with the
 expression of MYCN in 88 Neuroblastoma
-samples.**](Image:Image:FindGenes%20ExpressionHeat.png)
+samples.**](_static/images/FindGenes%20ExpressionHeat.png)
 
 
 
@@ -225,10 +225,10 @@ arm of) a chromosome is calculated.
 
 [![](_static/images/FindGenes_Chromosome.png)**Figure
 9: Mapping of the genes correlating with MYCN on all
-chromosomes**](Image:Image:FindGenes_Chromosome.png)[![](_static/images/FindGenes_ChromeTable.png)**Figure
+chromosomes**](_static/images/FindGenes_Chromosome.png)[![](_static/images/FindGenes_ChromeTable.png)**Figure
 10: Statistics of overrepresentation of genes that have a correlation
 with MYCN on different
-chromosomes**](Image:Image:FindGenes_ChromeTable.png)
+chromosomes**](_static/images/FindGenes_ChromeTable.png)
 1.  To further explore this set of genes return to the list: Figure 3
 
 
@@ -250,7 +250,7 @@ Tutorial step 6
     11: Gene Ontology categories that are overrepresented in the set of
     genes that correlates with MYCN expression in the current dataset,
     sorted by increasing p-value
-    of overrepresentation.**](Image:Image:FindGenes%20GeneOnto.png)
+    of overrepresentation.**](_static/images/FindGenes%20GeneOnto.png)
 3.  One of the categories where genes of our current set are
     overrepresented is 'DNA-strand elongation'; and what is also obvious
     that all genes in this process have a consistent positive
@@ -262,7 +262,7 @@ Tutorial step 6
 [![](_static/images/FindGenes_Adjust.png)**'Figure
 12: Re-do analysis with genes that are either positively or negatively
 correlated with
-MYCN.**](Image:Image:FindGenes_Adjust.png)
+MYCN.**](_static/images/FindGenes_Adjust.png)
 
 
 
@@ -276,14 +276,14 @@ Tutorial step 7
     the KEGG database. Click next.
     [![](_static/images/First_image_select_dataset.png)**Figure
     13: Choice panel for other
-    datasets**](Image:Image:First_image_select_dataset.png)
+    datasets**](_static/images/First_image_select_dataset.png)
 3.  A similar overrepresentation analysis is performed on all gene
     members of the pathways in the KEGG database. Click on the p-value
     column header again to find the most significant ones: Figure 14
     [![](_static/images/FindGenes_KeggPath.png)**Figure
     14: KEGG pathways exhibiting an overrepresentation of genes of the
     current dataset, ordered
-    by significance.**](Image:Image:FindGenes_KeggPath.png)
+    by significance.**](_static/images/FindGenes_KeggPath.png)
 4.  The DNA-replication pathway pops up as most significant. Note that
     most genes are similar to the GO process found in the
     former analysis. The pathway will be shown when the blue A in front
@@ -294,7 +294,7 @@ Tutorial step 7
 15: Mapping of the overrepresented genes (darker green) in the MYCN
 correlating set on the DNA-replication pathway\
 from the KEGG database. Hovering over the gene shows additional
-information.**](Image:Image:FindGenes%20Pathway.png)
+information.**](_static/images/FindGenes%20Pathway.png)
 
 
 MCM-genes seem to play a role. Go back to list (Figure 3) to show their
@@ -313,14 +313,14 @@ Tutorial step 8
     their relationship: Figure 16
     [![](_static/images/FindGenes_MYCNMCM2.png)**Figure
     16: MCM2 expression correlates with
-    MYCN expression.**](Image:Image:FindGenes%20MYCNMCM2.png)
+    MYCN expression.**](_static/images/FindGenes%20MYCNMCM2.png)
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
     search in the Pubmed literature database for (co-)occurrences of
     MYCN and MCM2 (and some other keywords). Click the link: Figure 17
     [![](_static/images/FindGenes_Pubsniffer.png)**Figure
     17: Pubsniffer results for gene symbols MYCN and
-    MCM2**](Image:Image:FindGenes%20Pubsniffer.png)
+    MCM2**](_static/images/FindGenes%20Pubsniffer.png)
 3.  Apparently there are some abstracts where the two genes are
     mentioned together, you can view this article directly by clicking
     the hyperlinked number in the Articles column. The outlink
@@ -329,7 +329,7 @@ Tutorial step 8
     18: The PubReminer tool web interface; the genes MCM2 and MYCN
     co-occur in one article. This versatile webtool allows you to build
     very specific
-    literature queries.**](Image:Image:FindGenes_Reminer.png)
+    literature queries.**](_static/images/FindGenes_Reminer.png)
 4.  This versatile tool offers quite some functionality to build a
     literature search query tailored to your needs. That being slightly
     out of scope of this tutorial, click the "Goto Pubmed with query"
@@ -340,7 +340,7 @@ Tutorial step 8
 [![](_static/images/FindGenes_PubReminerresult.png)**Figure
 19: The correlation between MCM genes and MYCN was proven experimentally
 in this
-article.**](Image:Image:FindGenes_PubReminerresult.png)
+article.**](_static/images/FindGenes_PubReminerresult.png)
 
 
 
@@ -378,7 +378,7 @@ Tutorial step 9
 
 [![](_static/images/FindGenes_DatasetOptions.png)**Figure
 20: Menu choices for
-Dataset**](Image:Image:FindGenes%20DatasetOptions.png)
+Dataset**](_static/images/FindGenes%20DatasetOptions.png)
 
 
 

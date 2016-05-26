@@ -62,13 +62,13 @@ Tutorial step 1
     directly shows from which datasets survival data is available.
     [![](_static/images/WorkingWithKaplan_menu.png)**Figure
     1: Select a Kaplan
-    Meier option.**](Image:Image:WorkingWithKaplan_menu.png)
+    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
 2.  In the adjustable settings menu choose �overall survival� , select
     �track� at Separate by and select �inss-cat� stage in use track pull
     down menu . Click �next� .
     [![](_static/images/WorkingWithKaplan_Kaplan.png)**Figure
     2: Kaplan Meier by
-    �Annotated parameter.**](Image:Image:WorkingWithKaplan%20Kaplan.png)
+    �Annotated parameter.**](_static/images/WorkingWithKaplan%20Kaplan.png)
 
 
 
@@ -85,7 +85,7 @@ agreement with the clinical outcome of the INSS stages.
     click next.
     [![](_static/images/WorkingWithKaplan_Combined.png)**Figure
     3: Kaplan Meier graph with
-    combined tracks.**](Image:Image:WorkingWithKaplan%20Combined.png)
+    combined tracks.**](_static/images/WorkingWithKaplan%20Combined.png)
 
 
 
@@ -102,7 +102,7 @@ and a mycn amplification, in this cohort.
 | you know that you can apply a filter to analyze a subgroup. In addition  |
 | you can also adapt the graphical representation***                       |
 +--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](Image:Image:W |
+| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W |
 | orkingWithKaplan_Adjust.png)                            |
 |                                               |
 |                                                                          |
@@ -143,14 +143,14 @@ Tutorial step 2
     [![](_static/images/WorkingWithKaplan_GroupPvalue.png)**Figure
     5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)
     Median D)
-    Average**](Image:Image:WorkingWithKaplan_GroupPvalue.png)
+    Average**](_static/images/WorkingWithKaplan_GroupPvalue.png)
 5.  To illustrate that with the Kaplan scan more significant biological
     subgroups can be found, adjust the cut-off mode to �median� in the
     settings menu and click �redraw�graph.
     [![](_static/images/WorkingWithKaplan_Multiple.png)**Figure
     6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)
     Median D)
-    Average**](Image:Image:WorkingWithKaplan_Multiple.png)
+    Average**](_static/images/WorkingWithKaplan_Multiple.png)
 
 
 
@@ -174,7 +174,7 @@ out whether this is also the case with other cut-off modi.
 
 [![](_static/images/WorkingWithKaplan_ChangePvalue.png)**Figure
 7: Adjustable settings menu: change p-vale
-cutoff.**](Image:Image:WorkingWithKaplan_ChangePvalue.png)
+cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
 
 
 
@@ -199,7 +199,7 @@ Tutorial step 3
 
 [![](_static/images/WorkingWithKaplan_Kaplanlist.png)**Figure
 7: A list of Kaplan Meier for a group of
-genes**](Image:Image:WorkingWithKaplan%20Kaplanlist.png)
+genes**](_static/images/WorkingWithKaplan%20Kaplanlist.png)
 
 
 In Figure 7, clicking on each gene name in the hugo column will result
@@ -210,7 +210,7 @@ WorkingWithKaplan Heatmap.png
 
 [![](_static/images/WorkingWithKaplan_Heatmap.png)**Figure
 8: Heatmap of the significant prognostic list of
-genes.**](Image:Image:WorkingWithKaplan_Heatmap.png)
+genes.**](_static/images/WorkingWithKaplan_Heatmap.png)
 
 
 The heatmap shows in this case that 2 or 3 possible biological relevant
@@ -235,7 +235,7 @@ Tutorial step 4
     user provide data� option from the left hand menu.
     [![](_static/images/Kaplanscan_userdefined_1a.png)**Figure
     9: Kaplanscan with user defined
-    data**](Image:Image:kaplanscan_userdefined_1a.png)
+    data**](_static/images/kaplanscan_userdefined_1a.png)
 2.  For the remaining to work as intended, we need to take into account
     a couple of things. You should prepare your data in the following
     four tab- or semicolon(;) separated columns.
@@ -255,7 +255,7 @@ Tutorial step 4
     that you selected and display the result in an interactive image.
     [![](_static/images/Kaplanscan_userdefined_2a.png)**Figure
     10: Kaplanscan with user defined data
-    result**](Image:Image:kaplanscan_userdefined_2a.png)
+    result**](_static/images/kaplanscan_userdefined_2a.png)
 4.  Once the image has been created, you are able to adapt various
     parameters to optimize appearance of your result.
 

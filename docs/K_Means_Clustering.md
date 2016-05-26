@@ -33,7 +33,7 @@ Tutorial step 1
 3.  In field 3 choose the 'K-means' option (Figure 1)
     [![](_static/images/Kmeans_selecting.png)**Figure
     1: Selecting K-means clustering on the R2 main
-    page**](Image:Image:Kmeans_selecting.png)
+    page**](_static/images/Kmeans_selecting.png)
 4.  Click ‘next’
 
 
@@ -55,7 +55,7 @@ Tutorial step 2
     (performing of the calculation) to 10x10.
     [![](_static/images/Kmeans_clustersettings.png)**Figure
     2: K-means clustering
-    settings**](Image:Image:Kmeans_clustersettings.png)
+    settings**](_static/images/Kmeans_clustersettings.png)
 3.  Dependending on the size of your dataset or geneset you can enlarge
     of minimize your K-means plot by adapting te size of the retangles
     at heatmap option. click ‘next’
@@ -65,7 +65,7 @@ Tutorial step 2
 | :R2d2%20logo.png)***Did                                 |
 | you know that K-means is a method of cluster analysis?***                |
 +--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](Image:Image:K |
+| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K |
 | means_didyouknow.png)                                   |
 |                                               |
 |                                                                          |
@@ -114,7 +114,7 @@ Tutorial step 3
     [![](_static/images/Kmeans_cluster.png)**Figure
     3: Results for the 10x10 k-means clustering in two groups; two
     consistent clusters
-    are formed.**](Image:Image:Kmeans_cluster.png)
+    are formed.**](_static/images/Kmeans_cluster.png)
 2.  For visualization of k-means clusters, R2 performs hierarchical
     clustering on the samples for every group of k. Finally a
     hierarchical clustering is performed on the genes, making use of the
@@ -131,7 +131,7 @@ Tutorial step 3
 [![](_static/images/Kmeans_heatmap.png)**Figure
     4: The heatmap for the k-means clustering in 2 groups; it is obvious
     that the data is represented in
-    the clusters.**](Image:Image:Kmeans_heatmap.png)
+    the clusters.**](_static/images/Kmeans_heatmap.png)
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
@@ -159,7 +159,7 @@ Tutorial step 4
 1.  The resulting clustering in 8 groups is depicted in Figure 5
     [![](_static/images/Kmeans_track1.png)**Figure
     5: Clustering in 8 groups produces no
-    consistent outcome.**](Image:Image:Kmeans_track1.png)
+    consistent outcome.**](_static/images/Kmeans_track1.png)
 2.  The outcome is not consistent (except for the cluster of samples
     having a bcat mutation)
 3.  Repeat the procedure for 4 groups.
@@ -175,9 +175,9 @@ Tutorial step 4
 
 [![](_static/images/Kmeans_track2.png)**Figure
 6: Consistent clustering for 4
-groups.**](Image:Image:Kmeans_track2.png)[![](_static/images/Kmeans_track3.png)**Figure
+groups.**](_static/images/Kmeans_track2.png)[![](_static/images/Kmeans_track3.png)**Figure
 7: Clustering in 5
-groups**](Image:Image:Kmeans_track3.png)
+groups**](_static/images/Kmeans_track3.png)
 
 
 

@@ -35,7 +35,7 @@ Tutorial step 1
     Reference source not found)
     [![](_static/images/PrincipleComponent_Select.png)**Figure
     1: Selecting Principe Component
-    Analysis**](Image:Image:PrincipleComponent_Select.png)
+    Analysis**](_static/images/PrincipleComponent_Select.png)
 4.  Click �next�
 
 
@@ -58,13 +58,13 @@ Tutorial step 2
     whether you can distinguish subgroups in your dataset.
     [![](_static/images/PrincipleComponent_Adjust.png)**Figure
     2: Adjusting PCA
-    settings**](Image:Image:PrincipleComponent_Adjust.png)
+    settings**](_static/images/PrincipleComponent_Adjust.png)
     [![](_static/images/PrincipleComponent_SelectTracks.png)**'Figure
     3: Selecting
-    tracks**](Image:Image:PrincipleComponent_SelectTracks.png)
+    tracks**](_static/images/PrincipleComponent_SelectTracks.png)
     [![](_static/images/PrincipleComponent_Combinations.png)**Figure
     4: All 3 PCA-component combinations plotted in
-    2-dimensional space.**](Image:Image:PrincipleComponent_Combinations.png)
+    2-dimensional space.**](_static/images/PrincipleComponent_Combinations.png)
     In this example the samples are colored by known groups and fitted
     with the PCA result. In Figure 4 a clear subgroup, the yellow wnt
     subgroup is revealed. Hovering over the data points provides the
@@ -78,7 +78,7 @@ Tutorial step 2
 
 [![](_static/images/PrincipleComponent_Label.png)**'Figure
 5: Samples are in annotated by track by using
-LabelMode.**](Image:Image:PrincipleComponent_Label.png)
+LabelMode.**](_static/images/PrincipleComponent_Label.png)
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that PCA clustering is a method that reduces data dimensionality?***
   \[Principle Component Analysis is a method that reduces data dimensionality by performing co-variance analysis between factors. PCA is especially suitable for datasets with many dimensions, such as a microarray experiment where the measurement of every single gene in a dataset can be considered a dimension. It is impossible to make a visual representation of the relation between genes and their conditions in multi-dimensional matrix. One way to make sense of data is to reduce dimensionality. Several techniques can be used for this purpose and PCA is one of them. The reduction of dimensions is archived by plotting points in a multidimensional space onto a space with fewer dimensions. The reduction is accomplished by identifying directions, so called *principle components*, that describe maximal variation in the data. These principle components can then be used as surrogates to represent each sample, making it possible to visually assess similarities and differences between samples and determine whether samples can be grouped. As the principle components are uncorrelated, they may represent different aspects of the samples and is therefore a powerful tool to identify subgroups in you dataset.
@@ -125,7 +125,7 @@ internet browsers support the 3D visualization.
     subgroups visible.
     [![](_static/images/PrincipleComponent_3D.png)**'Figure
     6: Showing a 3D PCA graph from
-    different angles.**](Image:Image:PrincipleComponent_3D.png)
+    different angles.**](_static/images/PrincipleComponent_3D.png)
 3.  By rotating the graph more subgroups could be revealed as clearly
     shown in Figure 6.
 

@@ -48,7 +48,7 @@ Tutorial step 1
 [![](_static/images/DiffentialExpression_Gene.png)**Figure
 1: Step-by-step scenario: selecting to 'View a gene in groups' on the
 main page of
-R2**](Image:Image:DiffentialExpression_Gene.png)
+R2**](_static/images/DiffentialExpression_Gene.png)
 
 
 
@@ -76,7 +76,7 @@ Tutorial step 2
 
 [![](_static/images/DiffentialExpression_Select.png)**'Figure
 2: Selecting the proper annotation track to differentiate expression
-data**](Image:Image:DiffentialExpression%20Select.png)
+data**](_static/images/DiffentialExpression%20Select.png)
 +--------------------------------------------------------------------------+
 | [![](_static/images/R2d2_logo.png)](Image:Image |
 | :R2d2%20logo.png)***Did                                 |
@@ -99,7 +99,7 @@ data**](Image:Image:DiffentialExpression%20Select.png)
 |                                                                          |
 |                                                                    |
 |                                                                          |
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](Image:Image:D |
+| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/D |
 | iffentialExpress_Adjust.png)                            |
 +--------------------------------------------------------------------------+
 
@@ -117,7 +117,7 @@ Tutorial step 3
     want to see both groups so keep the selection as is.
     [![](_static/images/DiffentialExpression_Selectgroup.png)**Figure
     3: Selecting groups for the
-    graph**](Image:Image:DiffentialExpression_Selectgroup.png)
+    graph**](_static/images/DiffentialExpression_Selectgroup.png)
 2.  Click �next�
 
 
@@ -147,7 +147,7 @@ Tutorial step 4
     settings and redrawing the graph.
     [![](_static/images/DiffentialExpress_Result.png)**Figure
     4: Result of the one-way Anova test for the Neuroblastoma
-    88 samples.**](Image:Image:DiffentialExpress_Result.png)
+    88 samples.**](_static/images/DiffentialExpress_Result.png)
 2.  Scroll down the window
 3.  Adapt the selection in the dropdown box 'Graphtype' to 'Barplot' and
     'ColorMode' to 'Color by Track'
@@ -155,7 +155,7 @@ Tutorial step 4
 
 [![](_static/images/DiffentialExpression_AdaptGraph.png)**Figure
 5: Adapting the Graphtype to BarPlot and set Color by
-Track**](Image:Image:DiffentialExpression_AdaptGraph.png)
+Track**](_static/images/DiffentialExpression_AdaptGraph.png)
 
 
 
@@ -167,7 +167,7 @@ Tutorial step 5
 1.  The resulting graph is adapted accordingly (Figure 5)
     [![](_static/images/DiffentialExpression_Barplot.png)**Figure
     6: The same data as a
-    Barplot**](Image:Image:DiffentialExpression_Barplot.png)
+    Barplot**](_static/images/DiffentialExpression_Barplot.png)
 2.  The difference can be shown more dramatically by plotting the data
     without a log2 transformation, scroll down again. Do report the test
     results based on the log transformed data though, as
@@ -178,12 +178,12 @@ Tutorial step 5
 4.  Click 'Adjust Settings'
     [![](_static/images/DiffentialExpress_BarplotAdjust.png)**Figure
     7: Adjusting data
-    transformation**](Image:Image:DiffentialExpress_BarplotAdjust.png)
+    transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
 5.  The resulting graph in Figure 8 shows the difference
     more dramatically.
     [![](_static/images/DiffentialExpress_BarplotNotransform.png)**Figure
     8: Bar plot without
-    transformation**](Image:Image:DiffentialExpress%20BarplotNotransform.png)
+    transformation**](_static/images/DiffentialExpress%20BarplotNotransform.png)
 6.  Note furthermore the menu items to the right and left of the graph.
     The left panel contains hyperlinks that provide further information
     about this gene and additional analysis options. The KaplanScanner
@@ -197,7 +197,7 @@ Tutorial step 5
     particular sample.
     [![](_static/images/DiffentialExpress_ClinAnno.png)**Figure
     9: Clinical annotation of a
-    sample**](Image:Image:DiffentialExpress%20ClinAnno.png)
+    sample**](_static/images/DiffentialExpress%20ClinAnno.png)
 
 
 
@@ -214,7 +214,7 @@ Tutorial step 6
     expression between groups' (Figure 10)
     [![](_static/images/DiffentialExpress_FindDiff.png)**Figure
     10: Selecting Find
-    Differential Expression.**](Image:Image:DiffentialExpress%20FindDiff.png)
+    Differential Expression.**](_static/images/DiffentialExpress%20FindDiff.png)
 3.  Click 'Next'
 
 
@@ -230,7 +230,7 @@ Tutorial step 7
     in red). Select the 'Alive' track again.
     [![](_static/images/DiffentialExpress_AdaptParam.png)**'Figure
     11: Differential expression
-    parameters**](Image:Image:DiffentialExpress_AdaptParam.png)
+    parameters**](_static/images/DiffentialExpress_AdaptParam.png)
 2.  Click �next�
 3.  In the next screen click next also; R2 now calculates for all genes
     (under the parameters set) a one way anova test and also corrects
@@ -239,7 +239,7 @@ Tutorial step 7
 
 [![](_static/images/DiffentialExpress_Progress.png)**Figure
 12: Progress dialog during on the fly
-calculation**](Image:Image:DiffentialExpress%20Progress.png)
+calculation**](_static/images/DiffentialExpress%20Progress.png)
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that all other parameters have a meaning?***
 
@@ -270,7 +270,7 @@ Tutorial step 8
     expression exhibits a correlation with the separation in two groups.
     [![](_static/images/DiffentialExpress_Genelist.png)**Figure
     13: Genes differentially expressed
-    between groups.**](Image:Image:DiffentialExpress%20Genelist.png)
+    between groups.**](_static/images/DiffentialExpress%20Genelist.png)
 2.  Click on the hyperlinked top gene in the list
 3.  A similar graph as produced for MYCN appears, the differential
     expression is more pronounced for this gene (Figure 14). In the
@@ -286,9 +286,9 @@ Tutorial step 8
 
 [![](_static/images/DiffentialExpress_TopGene.png)**Figure
 14: In the main screen �Change
-dataset�.**](Image:Image:DiffentialExpress_TopGene.png)[![](_static/images/DiffentialExpress_RightMenu.png)**Figure
+dataset�.**](_static/images/DiffentialExpress_TopGene.png)[![](_static/images/DiffentialExpress_RightMenu.png)**Figure
 15: Right menu in genelist windos; choosing plot all
-genes**](Image:Image:DiffentialExpress_RightMenu.png)
+genes**](_static/images/DiffentialExpress_RightMenu.png)
 
 
 
@@ -307,12 +307,12 @@ Tutorial step 9
     datapoints (&gt;5000) will have this �add hovering� button.
     [![](_static/images/DiffentialExpress_XYplot.png)**Figure
     16: XY plot of all genes differentially expressed in the current
-    track;**](Image:Image:DiffentialExpress%20XYplot.png)
+    track;**](_static/images/DiffentialExpress%20XYplot.png)
 2.  Clicking on the symbol opens up a new window showing the expression
     of the gene in the two groups as a box plot.
     [![](_static/images/DiffentialExpress_BoxdotplotCircle.png)**Figure
     17: Differential expression of
-    NTRK1**](Image:Image:DiffentialExpress_BoxdotplotCircle.png)
+    NTRK1**](_static/images/DiffentialExpress_BoxdotplotCircle.png)
 3.  R2 allows further annotation of the XY plot of all genes; in the XY
     plot window (still open in your browser) scroll down and adapt the
     settings; add a genesymbol to mark, eg AKR1C1; choose a KEGG pathway
@@ -320,7 +320,7 @@ Tutorial step 9
     option to 'yes'.
     [![](_static/images/DiffentialExpress_AdjustAllgenes.png)**Figure
     18: Adjustable settings for the all genes
-    plot**](Image:Image:DiffentialExpress_AdjustAllgenes.png)
+    plot**](_static/images/DiffentialExpress_AdjustAllgenes.png)
 4.  Click redraw image. The plot has been adapted to show the AKR1C1
     genesymbol, DNA-replication genes are highlighted in red. Fold
     change lines show the regions where differential expression is 1 and
@@ -329,7 +329,7 @@ Tutorial step 9
     [![](_static/images/DiffentialExpress_AdjustVisual.png)**Figure
     19: Adjusted visualization of gene expression,hovering over the dots
     shows the
-    gene name.**](Image:Image:DiffentialExpress_AdjustVisual.png)
+    gene name.**](_static/images/DiffentialExpress_AdjustVisual.png)
 5.  R2 can visualize the same data also as a Volcano plot or a MA plot.
     In the Adjustable Settings dialog change the Plot type to Volcano
     (Figure 20) or MA (Figure 21). Note that the distinct
@@ -345,9 +345,9 @@ Tutorial step 9
 
 [![](_static/images/DiffentialExpress_Volcano.png)**Figure
 20:Volcano
-plot**](Image:Image:DiffentialExpress_Volcano.png)[![](_static/images/DiffentialExpress_MAplot.png)**Figure
+plot**](_static/images/DiffentialExpress_Volcano.png)[![](_static/images/DiffentialExpress_MAplot.png)**Figure
 21: MA
-plot**](Image:Image:DiffentialExpress_MAplot.png)
+plot**](_static/images/DiffentialExpress_MAplot.png)
 
 
 
