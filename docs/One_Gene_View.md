@@ -217,7 +217,9 @@ and click on the “Tview” link in the reporter table.
 
 **Figure 6: Color legend**
 
-[![](_static/images/OneGene_Tview.png)**Figure 7: MYCN reporters in Transcript view**](Image:Image:OneGene_Tview.png)
+  [![](_static/images/OneGene_Tview.png)**Figure 7: MYCN reporters in Transcript view**](_static/images/OneGene_Tview.png)
+
+
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png))***Did you know that you can browse the gene expression values along the genome***
 
