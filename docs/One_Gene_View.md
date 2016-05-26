@@ -342,9 +342,7 @@ modules where a one-or two gene view is generated.
 
 
 
-[![](_static/images/OneGene_Adapting.png)**Figure
-13: Legend
-added**](Image:Image:OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)**Figure
+[![](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](Image:Image:OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)**Figure
 14: Adapting annotation
 size**](Image:Image:OneGene_Adapting2.png)
 
