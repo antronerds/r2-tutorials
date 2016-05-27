@@ -31,7 +31,8 @@ html_favicon = '_static/images/r2favicon.ico'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'a4paper',
+# Changed this to a4; we're in Europe ;-)
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
@@ -40,7 +41,9 @@ latex_elements = {
 #'preamble': '',
 
 # Latex figure (float) alignment
-#'figure_align': 'htbp',
+# default below is float; we want position as is: h
+#'figure_align': 'htbp', 
+'figure_align': 'H', 
 }
 
 latex_documents = [
