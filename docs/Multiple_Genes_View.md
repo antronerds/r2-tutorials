@@ -44,18 +44,6 @@ Tutorial step 1
 
 
 
-Test regular image
-
-
-
-[![](_static/images/MultipleGenesView_Default.png)**Figure
-1: Default multiple gene
-view.**](Image:File:MultipleGenesView_Default.png)
-
-
-Test with template
-
-
 
 [![](_static/images/MultipleGenesView_Default.png)**Figure
 1: Default multiple gene

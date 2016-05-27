@@ -58,14 +58,13 @@ the mediawiki server. Resolve all picture references in the text by hand. Provid
     <p>Figure 1: Default multiple gene view</p>
   </div>
 </div>
+   - The above is unfortunately not translated into the pdf; so for now used a regex in eclipse to  search and replace all instances as follows:
 
-The above is unfortunately not translated into the pdf; so for now used a regex in eclipse to search and replace all instances as follows:
+  - regex for images
+  (\[!\[\])(.*)(\)\*\*)(.*)(\R*)(.*)(\R*)(.*)(\*\*\])(\()(.*)(\))
 
-regex for images
-(\[!\[\])(.*)(\)\*\*)(.*)(\R*)(.*)(\R*)(.*)(\*\*\])(\()(.*)(\))
-
-replace with: 
-!\[$4$6$8\]$2 "$4$6$8"\)\R\R\*\*$4$6$8\*\*
+  - replace with: 
+  !\[$4$6$8\]$2 "$4$6$8"\)\R\R\*\*$4$6$8\*\*
 
 6. Separate UserManual.md per chapter manually. 
  
