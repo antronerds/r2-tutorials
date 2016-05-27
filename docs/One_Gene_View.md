@@ -297,12 +297,9 @@ To investigate the values R2 uses for graph generation click on
 “Datatable” to unfold a table with the expression levels for all
 samples.
 
+![Figure 9: Unfold the datatable](_static/images/OneGene_Datatable.png "Figure 9: Unfold the datatable")
 
-
-![](_static/images/OneGene_Datatable.png "**Figure
-9: Unfold the
-datatable**")(_static/images/OneGene_Datatable.png)
-
+[**Figure 9: Unfold the datatable**](_static/images/OneGene_Datatable.png)
 
 The “track display selection” section can be opened by clicking on it.
 In here, you are able to toggle which tracks to display and/or hide
@@ -313,8 +310,7 @@ is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
 
 
-[![**Figure 10: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png)]
-
+![Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png)
 [Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
 
 Other convenient options are revealed by clicking the “more settings”
@@ -325,11 +321,11 @@ selecting.
 
 
 
-[![](_static/images/OneGene_Adapting.png)**Figure
-11: the extra settings
-Panel**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Extrasettings.png)**Figure
-12: Adapting a
-graph**](_static/images/OneGene_Extrasettings.png)
+![Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
+[Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
+
+![Figure 12: Adapting a graph](_static/images/OneGene_Extrasettings.png "Figure 12: Adapting a graph")
+[Figure 12: Adapting a graph](_static/images/OneGene_Extrasettings.png)
 
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
