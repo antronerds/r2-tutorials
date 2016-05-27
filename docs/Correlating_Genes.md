@@ -113,7 +113,7 @@ Tutorial step 3
 
 
 Exact (gene-) numbers listed in the tutorial Figures such as in this
-example â€œ2208 combinationsâ€¦â€� can vary. This could be caused by database
+example â€œ2208 combinationsâ€¦â€" can vary. This could be caused by database
 updates upon a new genebuild release or an affymetrix annotation update.
 
 

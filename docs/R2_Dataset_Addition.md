@@ -230,7 +230,7 @@ use of, which will now be described.
 
 Besides providing the annotation for usage in R2, you can also specify
 how R2 makes use of these annotations, specifically in graphical
-representations. To make this known, you can prepare a �relate� file for
+representations. To make this known, you can prepare a "relate" file for
 R2. This document comprises of a number of columns that can be provided
 for the different tracks. Below, you can see a section of such a relate
 file.
@@ -244,14 +244,14 @@ file.
 
 Please make sure that the header of the relate file is identical to the
 example, and that the tracknames match to the ones that have been
-defined in the sample annotation. The �istrack� column tells R2 whether
+defined in the sample annotation. The "istrack" column tells R2 whether
 the annotation needs to be drawn as color coded information below
-YY-plots, and headers of heatmaps. The �isinfo� column defines whether
+YY-plots, and headers of heatmaps. The "isinfo" column defines whether
 the information is displayed in the table once you hover over a sample
-in graphs within R2. �visible� can enable/disable the use of a track.
-The �color� column can preset a specific color to groups which are
+in graphs within R2. "visible" can enable/disable the use of a track.
+The "color" column can preset a specific color to groups which are
 defined within a track. These can be indicated by groupname:hexcolor.
-The different groups are then separated by the �;� sign. It is not
+The different groups are then separated by the ";" sign. It is not
 required to supply this information. R2 will color groupnames
 automatically if such information information is not encountered.
 Finally, you may describe the contents of a track.
@@ -282,8 +282,8 @@ as a header row. A survival file should contain a header line that is
 identical to the example given below, as R2 will then recognize it as
 such. How an event is defined, may differ (overall / relapsefree etc).
 This can be expressed in the name of the file that is being provided.
-For example, the file below would be named �overall.txt�. Subsequent
-Kaplan curves would get the name �overall survival� on the y-axis.
+For example, the file below would be named "overall.txt". Subsequent
+Kaplan curves would get the name "overall survival" on the y-axis.
 
 
 
@@ -294,14 +294,14 @@ Kaplan curves would get the name �overall survival� on the y-axis.
 
 **Time series graphs:** When the samples are annotated with the
 appropriate tracks, then R2 can also present datasets as time series.
-When R2 encounters a column named �r2\_ts\_timepoint�, combined with
-either �r2\_ts\_profile� and/or �r2\_ts\_series�, then this will enable
+When R2 encounters a column named "r2\_ts\_timepoint", combined with
+either "r2\_ts\_profile" and/or "r2\_ts\_series", then this will enable
 the option to represent the dataset as a time series (where
 samples/groups are connected by a line following the time variable).
 Profiles are intended to connect a single experiment or the following of
 a single subject in time. Series are intended as the grouping of
 profiles (for example biological replicates of an experiment), which
-will also create error bars on the measurements. The �r2\_ts\_timepoint�
+will also create error bars on the measurements. The "r2\_ts\_timepoint"
 annotation should only contain numerical information (the time, in
 whatever scale you prefer (minutes / hours / days)). The other 1 or 2
 annotations should provide a grouping label (which would be useful for
@@ -329,8 +329,8 @@ Within R2, your dataset will get a name, so that you can find it back
 for analyses. For dataset naming the program makes use of a small number
 of parts (some of which can be influenced by you). For example, the
 department of oncogenomics has made its Neuroblastoma dataset available
-in R2 with the following name �Tumor Neuroblastoma public - Versteeg -
-88 - MAS5.0 - u133p2�. The naming is achieved by the following parts:
+in R2 with the following name "Tumor Neuroblastoma public - Versteeg -
+88 - MAS5.0 - u133p2". The naming is achieved by the following parts:
 
 
 
@@ -399,12 +399,12 @@ classes defined in the table below.
 
 2\. **Tissue**. Depending a little on the choice of class, usually a
 description of the tissue / tumor is given in the second part. In the
-example, this was �Neuroblastoma�, but this could also be �Breast� or
-�Colon� if such a dataset was described. For experiments, the tissue or
+example, this was "Neuroblastoma", but this could also be "Breast" or
+"Colon" if such a dataset was described. For experiments, the tissue or
 tumor type is also often described, to make sure that datasets with the
 same theme are close together. If we would describe the shRNA knockdown
 of the MYCN gene in the neuroblastoma cell line IMR32 for example, then
-this would become �Exp Neuroblastoma IMR32 MYCN shRNA�.
+this would become "Exp Neuroblastoma IMR32 MYCN shRNA".
 
 
 
@@ -421,7 +421,7 @@ R2 will add the number of samples within the dataset, a normalization
 scheme and finally also a code representing the platform which has been
 used. If you are supplying a dataset other than Affymetrix gene
 expression arrays (Exon or U\*\*\*), then you should provide us with the
-normalization, and platform used as well. The platform, doesn�t have to
+normalization, and platform used as well. The platform, doesn"t have to
 be the code that R2 uses, but can also be described by the manufacturer
 and the array ID.
 
@@ -430,7 +430,7 @@ and the array ID.
 
 
 Optionally, you can also describe your dataset in more detail in the
-following fields (which are also shown if you click on the �i� image
+following fields (which are also shown if you click on the "i" image
 next to a dataset). **Title**: 1 line description of your dataset.
 **Summary**: free text option to describe your dataset in as much detail
 as you wish (See also GEO for examples). **Design**: free text

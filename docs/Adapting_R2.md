@@ -120,7 +120,7 @@ Tutorial step 3
     mutated in tumors are pasted. Selecting the 'personal track' option
     guarantees that this
     set will remain available for you (for people in your community, see
-    later in this tutorial). Click �next� to upload the set (Figure 7),
+    later in this tutorial). Click "next" to upload the set (Figure 7),
     you'll receive a message when everything has succeeded. Your set of
     genes is now
     available as a Category for all analyses within R2. Go back to the
@@ -130,7 +130,7 @@ Tutorial step 3
     of genes.**](_static/images/AdaptingR2_Inputbox.png)
 4.  We're going to lookup your category, an example is available in the
     GeneSet view. In the main menu in Field 3 select 'View a Geneset'
-    and click �next�( Figure 8)
+    and click "next"( Figure 8)
     [![](_static/images/AdaptingR2_Viewset.png)**Figure
     8: Using a category; select View
     Geneset**](_static/images/AdaptingR2_Viewset.png)
@@ -232,7 +232,7 @@ Tutorial step 4
     19: Tracks are defined per dataset; keep the
     current selection.**](_static/images/AdaptingR2_DatasetTracks.png)
 7.  In the next screen you're able to adapt the Track we just generated.
-    Of interest in here is the option �drawtrack�, which will result in
+    Of interest in here is the option "drawtrack", which will result in
     the display of the information underneath the YY-plots. The tracks
     can also be assigned to collections to make large sets of
     tracks manageable. We leave the deletion of the track to the
@@ -307,7 +307,7 @@ Tutorial step 5
     25: In the inss row the stage 1-2-3 tumors are selected to form
     group 1, stage 4 forms group 2 and stage 4s group 3 in a
     new track.**](_static/images/AdaptingR2_DefineGroupsSpecs.png)
-5.  Click �next�, all samples appear in a table with check boxes to
+5.  Click "next", all samples appear in a table with check boxes to
     assign them to the appropriate group. Scroll down to create the
     annotation for these groups (). Names have been adapted, show track
     is set to yes, the track is set to be stored a personal track and
@@ -340,12 +340,12 @@ Tutorial step 5
 9.  The expression of MYCN is plotted in the different groups of the
     track that was created (Figure 30). Note that the other track of
     mutated genes has a large overlap with the stage 4 group. There is
-    also overlap with the �recurrence\_or\_progression� Default Track
+    also overlap with the "recurrence\_or\_progression" Default Track
     that we set to visible.
     [![](_static/images/AdaptingR2_VisualizeTracks.png)**Figure
     30: Tracks created are visualized underneath the
     graph**](_static/images/AdaptingR2_VisualizeTracks.png)
-10. Another convenient option from the �custom track manager� is the
+10. Another convenient option from the "custom track manager" is the
     export function which enables you to manipulate your tracks manually
     outside R2. This could be of use when your want to share tracks with
     other users or create new custom tracks. One reason you want to use
@@ -356,9 +356,9 @@ Tutorial step 5
     (Figure 21) and click next. Here select the dataset of interest ,
     only datasets which have a corresponding personalized track are
     represented in the pulldown menu. Click the
-    �Copy/delete/rename/export Tracks� button. Here select the personal
-    track , �export� operation and r2\_track at �export as� . Click
-    execute� and download link with the track name can be loaded by
+    "Copy/delete/rename/export Tracks" button. Here select the personal
+    track , "export" operation and r2\_track at "export as" . Click
+    execute" and download link with the track name can be loaded by
     clicking the right mouse button.
 
 
@@ -397,8 +397,8 @@ Tutorial step 6
     34: The available Communities for
     this user.*'](_static/images/AdaptingR2_Availablegroups.png)
 5.  You have to add users by their R2 username; we'll add
-    user �pietmolenaar�. He'll receive a message in the R2 startup page
-    as soon as he logs on the next time. Click �next� to add the user.
+    user "pietmolenaar". He'll receive a message in the R2 startup page
+    as soon as he logs on the next time. Click "next" to add the user.
     [![](_static/images/AdaptingR2_GroupManager.png)**'Figure
     35: Add a user by their R2 user
     name**](_static/images/AdaptingR2_GroupManager.png)

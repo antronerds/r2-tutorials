@@ -22,7 +22,7 @@ Scope
     differentially expressed per subgroup.
 -   Adjust several parameters in the settings panel
 -   In R2, the samples are annotated with e.g. clinical data. Each group
-    of annotated data is called a �Track� in R2. These tracks can be
+    of annotated data is called a "Track" in R2. These tracks can be
     used to split the group gene expression levels per track.
 
 
@@ -32,10 +32,10 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  Use �single dataset� in field 1 and select the �Tumor
-    Medulloblastoma PLoS One - Kool - 62 - MAS5.0 - u133p2� dataset in
+1.  Use "single dataset" in field 1 and select the "Tumor
+    Medulloblastoma PLoS One - Kool - 62 - MAS5.0 - u133p2" dataset in
     field 2.
-2.  Choose �View multiple genes � in field 3 and Click Next
+2.  Choose "View multiple genes " in field 3 and Click Next
 3.  To illustrate the possibilities of the multiple gene view. Genes
     identified as classifiers for Medulloblastoma subtypes (Kool et al,
     Plos one) will be used. In the GENE/reporter textbox type or copy
@@ -62,14 +62,14 @@ Tutorial step 2
     each track. In this manner potential relations between subgroups and
     gene expression can be visualized.
 2.  The dataset we are using is described in
-    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486)�2008
+    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486)"2008
     Aug 28;3(8), Kool M et al. Here the classification of 5
     medulloblastoma subgroups are reported and annotated as such:
     A,B,C,D and E. To investigate the expression levels of a small group
     of genes per sub-category select in the adjustable settings box
-    �subtype (cat)� at use track, �lump by group plot gene� at handle
-    groups by and �Track� at color by track. Further set transform tot
-    �none�, select �boxplot� at Plot type and click NEXT.
+    "subtype (cat)" at use track, "lump by group plot gene" at handle
+    groups by and "Track" at color by track. Further set transform tot
+    "none", select "boxplot" at Plot type and click NEXT.
 
 [![](_static/images/MultipleGenesView_perTrack.png)**Figure
 2: Multiple gene view per
@@ -79,7 +79,7 @@ track**](_static/images/MultipleGenesView_perTrack.png)
     Kool et al. These genes are overexpressed in different
     Medulloblastoma molecular subtypes a,b,c,d and e are plotted
     together with the gene names. s
-2.  Also try the �lump by gene plot group� which will produce an image
+2.  Also try the "lump by gene plot group" which will produce an image
     where the genes are shown, separated by the subtypes.
 3.  The sample filter option allows the user to generate a multiple gene
     view per track.

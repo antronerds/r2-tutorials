@@ -22,7 +22,7 @@ Scope
     database
 -   Use R2 to compose your selection of datasets to investigate the
     expression level of a gene
--   Use the megasampler �adjustable settings� to adapt the megasampler
+-   Use the megasampler "adjustable settings" to adapt the megasampler
     graphics
 -   The megasampler allows you to quickly get an overview of the
     selected gene expression level for all the datasets available in the
@@ -37,13 +37,13 @@ Scope
 Tutorial step 1
 ---------------
 
-1.  Use �Across Datasets� in field 1 by default the �megasampler� option
-    is selected in field 2 and click �next�.
+1.  Use "Across Datasets" in field 1 by default the "megasampler" option
+    is selected in field 2 and click "next".
     [![](_static/images/MultipleDatasets_across.png)**Figure
     1: Using across
     datasets**](_static/images/MultipleDatasets_across.png)
-2.  Leave �u133p2, mas5.0� at the �type of data� option and select � XPO
-    sampler� at �use presets�. The meaning of presets will be explained
+2.  Leave "u133p2, mas5.0" at the "type of data" option and select " XPO
+    sampler" at "use presets". The meaning of presets will be explained
     later on.
 
 +--------------------------------------------------------------------------+
@@ -62,22 +62,22 @@ Tutorial step 1
 |                                                                    |
 +--------------------------------------------------------------------------+
 
-1.  With the �selection preset� option a pre-stored dataset collection
-    with associated settings can be selected. Select �XPO sampler�
+1.  With the "selection preset" option a pre-stored dataset collection
+    with associated settings can be selected. Select "XPO sampler"
     (Expression Project for Oncology (expO)) to pre-select a series of
-    tumor datasets. Click �next�.
+    tumor datasets. Click "next".
     [![](_static/images/MultipleDatasets_Preset.png)**Figure
     2: Select a
     preset**](_static/images/MultipleDatasets_Preset.png)
-2.  In the previous screen the preset �XPOsampler� is selected, a
+2.  In the previous screen the preset "XPOsampler" is selected, a
     collection of datasets is already marked for the
     megasampler analyses. In Figure 3 clicking the small triangle
     unfolds the available dataset categories, notice that some of the
-    datasets in the �tumor� section are already marked. In this way this
+    datasets in the "tumor" section are already marked. In this way this
     you can adapt your pre-selection of datasets. Unfold the normal and
     tumor category and select the following datasets. Normal Adrenal
-    gland - Various � 13, Normal Brain PFC - Harris � 44 and the � Tumor
-    Neuroblastoma public - Versteeg � 88� . Enter MYCN and click �next�.
+    gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
+    Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     [![](_static/images/Pathway_menu.png)**Figure
     3: Megasampler adjustment
     selection**](_static/images/Pathway_menu.png)
@@ -108,17 +108,17 @@ Tutorial step 2
 
 
 
-1.  In the �adjustable settings� panel there are several options to
+1.  In the "adjustable settings" panel there are several options to
     customize the megasampler graph. For every selected dataset, you can
     change the order in which they are drawn by adjusting the number in
     the selection boxes. These are processed first, followed by the
     dataset names in alphabetical order (so changing the order of 1 or 2
-    datasets should be sufficient). The pull down next to �dataset
-    ordering pull down menu� enables to split one or more dataset by
+    datasets should be sufficient). The pull down next to "dataset
+    ordering pull down menu" enables to split one or more dataset by
     selecting a track , in this manner the chosen dataset(s) will be
     split according to the numbers of groups of the selected track.
 2.  For now change the color for the datasets as indicated in Figure 4
-    and click �next�.
+    and click "next".
     [![](_static/images/MultipleDatasets_AdjustGraph.png)**Figure
     4: Adjusting the
     megasampler graph.**](_static/images/MultipleDatasets_AdjustGraph.png)
@@ -146,8 +146,8 @@ graph.
 
 
 Additional insight can be obtained transforming the data, in this case
-transform the data to logical values (none) set �graphtype� on barplot
-and click on �redraw at the bottom of the screen.
+transform the data to logical values (none) set "graphtype" on barplot
+and click on "redraw at the bottom of the screen.
 
 
 
@@ -157,9 +157,9 @@ and click on �redraw at the bottom of the screen.
 
 
 
-The plotted graphs for �MYCN� clearly show a high expression level
+The plotted graphs for "MYCN" clearly show a high expression level
 specifically in the Neuroblastoma data sets compared to Normal Tissue
-and other Tumor datasets. At the bottom of the page it�s possible to
+and other Tumor datasets. At the bottom of the page it"s possible to
 adapt dataset coloring, change the order and split datasets in tracks
 directly.
 
@@ -197,7 +197,7 @@ directly.
 
 You can can use the adjustable panel to adapt the megasampler graph. In
 case you splitted one or more datasets according to a specific track in
-the previous screen, it�s now possible to skip subgroups from your
+the previous screen, it"s now possible to skip subgroups from your
 dataset or more interesting, apply different colors for groups within a
 dataset (see Figure 8).
 
@@ -216,26 +216,26 @@ Tutorial step 3:
 
 
 
-The red arrow in the �did you know box� indicates a handy module to
+The red arrow in the "did you know box" indicates a handy module to
 obtain a quick overview of the expression level patterns for most of the
 datasets R2 contains (providing that the normalization allows
 comparisons between datasets).
 
 
 
-1.  Click �view Expression in many datasets� and a new screen (or Tab)
+1.  Click "view Expression in many datasets" and a new screen (or Tab)
     appears depicting colored dots. The colored dots are representing
     the different dataset categories (cell line dataset, Tumor or Normal
     Tissue etcetera). Via this module (effectively the 2D distribution)
     you can easily detect in what way your probeset of interest is
     expressed in many other datasets. At the Y-axis the 2log transformed
     average expression level and the standard deviation is represented.
-    The X-axis �overlap avoider� is simply a means to represent all
+    The X-axis "overlap avoider" is simply a means to represent all
     datasets in the plot without overlap of the circles. Figure 9
     clearly shows that the MYCN expression is also high in other dataset
     which could be of interest and a second Neuroblastoma dataset. Next
     to the graphs 2 tables summarize dataset names and a R-value set
-    to �1. The R-value comes of use with the 2D-distrubution module
+    to "1. The R-value comes of use with the 2D-distrubution module
     where you can quickly scan the correlation between two genes for all
     datasets of the same platform in R2. This module is discussed in the
     correlate genes tutorial.

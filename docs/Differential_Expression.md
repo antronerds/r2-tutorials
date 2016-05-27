@@ -43,7 +43,7 @@ Tutorial step 1
     field 2 (For additional information on these first two steps,
     consult tutorial 1: Choose "View a gene in groups" in field 3.
 3.  Type MYCN as gene (see Figure 1) in field 4.
-4.  Click �next� in field 5.
+4.  Click "next" in field 5.
 
 [![](_static/images/DiffentialExpression_Gene.png)**Figure
 1: Step-by-step scenario: selecting to 'View a gene in groups' on the
@@ -72,7 +72,7 @@ Tutorial step 2
     (Figure 2). Note that the other fields can be kept as is, the right
     choices are already provided. Note also that the proper reporter
     probeset is already selected.
-2.  Click �next�
+2.  Click "next"
 
 [![](_static/images/DiffentialExpression_Select.png)**'Figure
 2: Selecting the proper annotation track to differentiate expression
@@ -84,14 +84,14 @@ data**](_static/images/DiffentialExpression%20Select.png)
 +--------------------------------------------------------------------------+
 |                                               |
 |                                                                          |
-| Under the sub-header �Sample Filter� you can select a specific subset of |
+| Under the sub-header "Sample Filter" you can select a specific subset of |
 | samples based on the annotation (track).\                                |
 | The analysis will only be performed on the selected subset. In Fig 2a    |
 | the track gender was selected that enables filtering on gender.\         |
 | Be sure to click the red confirm link to set the filter, or make further |
 | selections. Filtering and marking samples Keep in mind that you can      |
 | repeat the filter procedure on top of the previous one.\                 |
-| Don�t forget the red �confirm� link before switching tracks. The extra   |
+| Don"t forget the red "confirm" link before switching tracks. The extra   |
 | graph option allows the users to select different graphical              |
 | representations.\                                                        |
 | In the samples to mark section, a sample name can be entered that will   |
@@ -111,14 +111,14 @@ Tutorial step 3
 ---------------
 
 1.  In the next window a selection of the groups can be made. Only the
-    selected group will be displayed in the graph; the �one way
-    Anova�/�student T test� test will be performed for data on both
+    selected group will be displayed in the graph; the "one way
+    Anova"/"student T test" test will be performed for data on both
     groups (of course, see explanation in step 4). In this case this we
     want to see both groups so keep the selection as is.
     [![](_static/images/DiffentialExpression_Selectgroup.png)**Figure
     3: Selecting groups for the
     graph**](_static/images/DiffentialExpression_Selectgroup.png)
-2.  Click �next�
+2.  Click "next"
 
 
 
@@ -139,7 +139,7 @@ Tutorial step 4
     [](http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example)<http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example>.
     R2 shows the result by default as a graph where the mRNA expression
     of the samples is plotted over the two groups with increasing
-    expression (Figure 3Figure 4). Note that the �alive� annotation is
+    expression (Figure 3Figure 4). Note that the "alive" annotation is
     in the second row (track) beneath the graph. The actual result of
     the calculations is shown above the graph; the difference in average
     expression between the two groups is significant. These results can
@@ -190,7 +190,7 @@ Tutorial step 5
     will be explained in a separate tutorial. The right panel allows you
     to change your gene of interest immediately, while keeping all the
     changes that you have made to the graphical representation; just
-    type a gene name and click 'Change Gene'. The �sample overview�
+    type a gene name and click 'Change Gene'. The "sample overview"
     shows the clinical data associated with the samples. Click the view
     button for the first sample.
 7.  Figure 9 shows the clinical data associated with that
@@ -231,7 +231,7 @@ Tutorial step 7
     [![](_static/images/DiffentialExpress_AdaptParam.png)**'Figure
     11: Differential expression
     parameters**](_static/images/DiffentialExpress_AdaptParam.png)
-2.  Click �next�
+2.  Click "next"
 3.  In the next screen click next also; R2 now calculates for all genes
     (under the parameters set) a one way anova test and also corrects
     this for multiple testing! (Figure 12). An amazing amount of
@@ -245,7 +245,7 @@ calculation**](_static/images/DiffentialExpress%20Progress.png)
 
   **HugoOnce**:For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.\
   **Differential Expression**: R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.\
-  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) � (1/2)10 = 0.0107This is relatively unlikely, and under�statistical criteria;such as ;p-value;&lt; 0.05, one would declare that the null hypothesis should be rejected � i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.\
+  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) " (1/2)10 = 0.0107This is relatively unlikely, and under"statistical criteria;such as ;p-value;&lt; 0.05, one would declare that the null hypothesis should be rejected " i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.\
   **Gene Filters:** The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the KEGG pathway database ( [](http://www.genome.jp/kegg/pathway.html)<http://www.genome.jp/kegg/pathway.html>). Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.\
   \
   Of course: to really get familiar with these settings you have to toy around with them!
@@ -275,9 +275,9 @@ Tutorial step 8
 3.  A similar graph as produced for MYCN appears, the differential
     expression is more pronounced for this gene (Figure 14). In the
     generated picture the genes are not ordered for their gene
-    expression go to the adjustable settings menu and select �Track and
-    gene sort� in the �Extra Graph Option� pulldown menu. Click
-    �adjust settings�.
+    expression go to the adjustable settings menu and select "Track and
+    gene sort" in the "Extra Graph Option" pulldown menu. Click
+    "adjust settings".
 4.  The functionality in the right panel of Figure 15 will be explored
     in more advanced tutorials (K-Means clustering). We'll explore one
     add**i**tional data visualization however; that of all genes I this
@@ -285,8 +285,8 @@ Tutorial step 8
     volcano, etc)'.
 
 [![](_static/images/DiffentialExpress_TopGene.png)**Figure
-14: In the main screen �Change
-dataset�.**](_static/images/DiffentialExpress_TopGene.png)[![](_static/images/DiffentialExpress_RightMenu.png)**Figure
+14: In the main screen "Change
+dataset".**](_static/images/DiffentialExpress_TopGene.png)[![](_static/images/DiffentialExpress_RightMenu.png)**Figure
 15: Right menu in genelist windos; choosing plot all
 genes**](_static/images/DiffentialExpress_RightMenu.png)
 
@@ -302,9 +302,9 @@ Tutorial step 9
     differentially expressed. Hovering over the points shows the
     genesymbol, in this case the NTRK1 gene (Figure 16). To speed up the
     graph generation this information is not automatically loaded: click
-    on the �add hovering� button below the graph to add
+    on the "add hovering" button below the graph to add
     this information. Note: every plot in R2 with larger amounts of
-    datapoints (&gt;5000) will have this �add hovering� button.
+    datapoints (&gt;5000) will have this "add hovering" button.
     [![](_static/images/DiffentialExpress_XYplot.png)**Figure
     16: XY plot of all genes differentially expressed in the current
     track;**](_static/images/DiffentialExpress%20XYplot.png)

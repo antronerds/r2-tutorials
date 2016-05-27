@@ -138,7 +138,7 @@ Tutorial step 4
     [![](_static/images/Pathway_Finder.png)**Figure
     6: Selecting PathwayFinder by
     Groups**](_static/images/Pathway_Finder.png)
-2.  Click �Next�
+2.  Click "Next"
 
 
 

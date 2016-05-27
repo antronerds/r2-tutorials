@@ -36,7 +36,7 @@ Tutorial step 1
     [![](_static/images/PrincipleComponent_Select.png)**Figure
     1: Selecting Principe Component
     Analysis**](_static/images/PrincipleComponent_Select.png)
-4.  Click �next�
+4.  Click "next"
 
 
 
@@ -47,7 +47,7 @@ Tutorial step 2
 
 1.  The next window presents a set of fields where specific settings of
     the clustering algorithm used can be set. Leave all the settings at
-    their default and click �next�.
+    their default and click "next".
 2.  Click to plot the PCA result.
 3.  You now see a plot of the of the first 2 principle components. In
     the adjustable settings box, al the combinations principle
@@ -72,9 +72,9 @@ Tutorial step 2
     additional sample information. This example illustrated that PCA is
     powerful tool aiding to find possible subgroups in your dataset
     of interest.
-5.  Select in the adjustable settings box �Label by Track� at LabelMode.
-    A �Track for Label� pulldown menu unfolds, here select your option
-    of interest e.g �Samplenames� and click next.
+5.  Select in the adjustable settings box "Label by Track" at LabelMode.
+    A "Track for Label" pulldown menu unfolds, here select your option
+    of interest e.g "Samplenames" and click next.
 
 [![](_static/images/PrincipleComponent_Label.png)**'Figure
 5: Samples are in annotated by track by using
@@ -109,17 +109,17 @@ internet browsers support the 3D visualization.
 +--------------------------------------------------------------------------+
 |                                               |
 |                                                                          |
-| With Firefox in some cases it�s not possible to rotate the 3D graph in   |
+| With Firefox in some cases it"s not possible to rotate the 3D graph in   |
 | that case adjusts the following setting in firefox. : type about         |
-| �about:config� in the URL box, search for webgl and Enable               |
-| �webgl.force-enabled�: TRUE. The 3-D module is also working with Chrome  |
+| "about:config" in the URL box, search for webgl and Enable               |
+| "webgl.force-enabled": TRUE. The 3-D module is also working with Chrome  |
 | but not with Internet Explorer.                                          |
 |                                                                          |
 |                                                                    |
 +--------------------------------------------------------------------------+
 
-1.  In the adjustable settings menu select the �3d� option and
-    click �next�.
+1.  In the adjustable settings menu select the "3d" option and
+    click "next".
 2.  Click the cube and hold the left mouse button and rotate the picture
     in order to investigate whether there are any (more)
     subgroups visible.

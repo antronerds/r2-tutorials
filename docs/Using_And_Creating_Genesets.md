@@ -17,7 +17,7 @@ Scope
 
 -   In this tutorial the visualization of a set of genes will be
     explored
--   R2 provides a conventional heatmap view��
+-   R2 provides a conventional heatmap view""
 -   This heatmap view can be adapted to your needs by sorting the data
     along the axes according to your wishes.
 -   Generating your own genelists to analyze using the
@@ -91,11 +91,11 @@ Tutorial step 2
     the main page; select View Geneset (Figure 1: Select View
     a Geneset). We're not going to search for a geneset but look for
     multiple sets at once in the KEGG collection. In the next window
-    (Figure 2) leave the default collection to KEGG. Click �next� in the
+    (Figure 2) leave the default collection to KEGG. Click "next" in the
     'Adjustable Settings' box.
 2.  In the next screen a subcollection within the current collection of
     genesets has to be defined; Select 'Cellular Processes' and click
-    �next� (Figure 7).
+    "next" (Figure 7).
     [![](_static/images/UsingGenesets_Subcollection.png)**Figure
     7: Selection a subcollection from the large collection of Kegg
     pathways**](_static/images/UsingGenesets_Subcollection.png)
@@ -125,15 +125,15 @@ Tutorial step 3
 1.  We're going to explore that in further detail by sorting the dataset
     according to the staging. Return to the former choice page
     (Figure 2) by clicking the back button in your browser. Choose
-    'Order samples by a track' and click �next� (Figure 10). In the next
+    'Order samples by a track' and click "next" (Figure 10). In the next
     subcollection selection window choose Cellular Processes again
-    (Figure 7) and click �next�.
+    (Figure 7) and click "next".
     [![](_static/images/UsingGenesets_SelectDomain.png)**Figure
     10: Selecting the domain to order samples by: Order by a
     track**](_static/images/UsingGenesets_SelectDomain.png)
 2.  Now select only the Cell cycle subset as GeneSet. Choose the
     Neuroblastoma staging INSS as track to order samples by and click
-    �next� (Figure 11)
+    "next" (Figure 11)
     [![](_static/images/UsingGenesets_CellCycle.png)**Figure
     11: Selecting Cell Cycle only, order samples by Neuroblastoma
     staging
@@ -148,9 +148,9 @@ Tutorial step 3
     subset of genes \#:of the Cell
     Cycle**](_static/images/UsingGenesets%20HeatmapSorted.png)
 4.  In the previous example R2 offers the possibility to set a fixed
-    ordering of samples by track. It�s also possible to perform a
-    clustering and set a fixed ordering of genes. In the �adjustable
-    settings� panel, select user defined order in the geneselection
+    ordering of samples by track. It"s also possible to perform a
+    clustering and set a fixed ordering of genes. In the "adjustable
+    settings" panel, select user defined order in the geneselection
     pulldown menu and click next two times. Here you can paste a list of
     genes sorted according to your needs.
 5.  Ifyou want to perform hierarchical clustering with a fixed
@@ -171,13 +171,13 @@ Tutorial step 4
 
 
 It could be that for a given dataset there is no annotation to apply the
-analysys tools R2 is offering or your�re lacking a starting point to
+analysys tools R2 is offering or your"re lacking a starting point to
 further investigated a dataset. A good starting point could be to do is
 to do a simple hierarchicl clustering
 
 
 
-1.  In chapter � Error: Reference source not found� is explained how to
+1.  In chapter " Error: Reference source not found" is explained how to
     generate genesets describing the difference between tracks (groups)
     from an annotated dataset. Researchers often want to investigate the
     presence of subgroups without using annotation information in their
@@ -194,7 +194,7 @@ to do a simple hierarchicl clustering
     62 - MAS5.0 - u133p2 and click next. In the adjustable settings
     screen all kinds of settings and filtering options can be adapted.
     We want to know which 100 genes have the highest variation in this
-    case leave � which set� at standard deviation (SD) which is the
+    case leave " which set" at standard deviation (SD) which is the
     default settings. Click next.
 4.  R2 has generated a list of 100 genes showing the highest variation
     in gene expression.
