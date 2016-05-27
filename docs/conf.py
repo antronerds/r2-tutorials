@@ -10,7 +10,7 @@ copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.0.0.b'
+release = '3.0.0.c'
 language = None
 
 exclude_patterns = ['_build']
@@ -41,7 +41,7 @@ latex_elements = {
 #'preamble': '',
 
 # Latex figure (float) alignment
-# default below is float; we want position as is: h
+# default below is float; we want position as is: H
 #'figure_align': 'htbp', 
 'figure_align': 'H', 
 }

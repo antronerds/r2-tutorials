@@ -242,10 +242,7 @@ Tutorial step 5.
 1.  Close the TranscriptView TAB or go back to the MYCN 1-gene-view
     expression screen.
 
-[![](_static/images/OneGene_menupanel.png)**Figure
-8:Left menu panel providing additional info (including link-out) and
-analyses options**](_static/images/OneGene_menupanel.png)
-
+[![](_static/images/OneGene_menupanel.png)**Figure 8:Left menu panel providing additional info (including link-out) andanalyses options**](_static/images/OneGene_menupanel.png)
 
 In the left upper menu-panel several options are available to provide
 you with additional information sources of the MYCN gene and additional
@@ -302,9 +299,9 @@ samples.
 
 
 
-[![](_static/images/OneGene_Datatable.png)**Figure
+![](_static/images/OneGene_Datatable.png "**Figure
 9: Unfold the
-datatable**](_static/images/OneGene_Datatable.png)
+datatable**")(_static/images/OneGene_Datatable.png)
 
 
 The “track display selection” section can be opened by clicking on it.
@@ -316,11 +313,9 @@ is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
 
 
+[![**Figure 10: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png)]
 
-[![](_static/images/OneGene_trackdisplay.png)**Figure
-10: Tick and drag
-tracks**](_static/images/OneGene_trackdisplay.png)
-
+[Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
 
 Other convenient options are revealed by clicking the “more settings”
 section. An extra panel unfolds which allows you to adapt your graph to
