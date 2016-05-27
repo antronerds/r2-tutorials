@@ -74,7 +74,8 @@ Tutorial step 2
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
   
-![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")  
+![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
+  
 **Figure 2: By default the probeset with the highest expression level is selected** 
     
 2.  It could be that for a specific graphical representation not all
