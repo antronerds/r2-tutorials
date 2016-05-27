@@ -44,7 +44,7 @@ Tutorial step 1
     selected in field 2.
 2.  Choose “View a gene” in field 3.
 3.  Type MYCN and click ‘next’.
-   ![Figure 1: R2 Single geneselection](_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
+![Figure 1: R2 Single geneselection](_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
    **Figure 1: Single geneselection**
 
 
@@ -71,7 +71,7 @@ Tutorial step 2
     informative probeset is re-determined in every dataset, sometimes
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.     
-   ![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")  
+![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")  
    **Figure 2: By default the probeset with the highest expression level is selected**  
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
