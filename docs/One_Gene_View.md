@@ -311,7 +311,8 @@ including the customize track parameters are available throughout R2.
 
 
 ![Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png)
-[Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
+
+[**Figure 10: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
 
 Other convenient options are revealed by clicking the “more settings”
 section. An extra panel unfolds which allows you to adapt your graph to
@@ -322,10 +323,12 @@ selecting.
 
 
 ![Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
-[Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
+
+[**Figure 11: the extra settings Panel**](_static/images/OneGene_Adapting.png)
 
 ![Figure 12: Adapting a graph](_static/images/OneGene_Extrasettings.png "Figure 12: Adapting a graph")
-[Figure 12: Adapting a graph](_static/images/OneGene_Extrasettings.png)
+
+[**Figure 12: Adapting a graph**](_static/images/OneGene_Extrasettings.png)
 
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
