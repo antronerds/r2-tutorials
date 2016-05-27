@@ -22,6 +22,9 @@ Images are stored in the "docs/_static/images" directory, organized into subdire
 
 Simple tables can be represented in Markdown, but high quality formatting requires direct HTML coding. By convention, we encode tables as HTML-tagged data, but do not specify visual attributes and layout inline. Instead, we use preset table styles contained in "docs/_static/css" for formatting -- we do not use Markdown's table formatting. Note that additional CSS files can be added, but must be accounted for in "conf.py". Note that while the tables appear in the HTML document, they do not appear in the PDF version -- we're working on this.
 
+More documentation here: http://www.sphinx-doc.org/en/stable/templating.html#configuration-variables
+And here: http://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc/32079202#32079202
+
 Note that the GitHub file viewer displays Markdown files reasonably well. However, it only approximates the look of tables created via HTML. For an accurate view of a table, you must look at a document rendered by ReadTheDocs.
 
 Note that a full (browsable) link to a location has the form: "http://r2-tutorials.readthedocs.io/en/stable/Introduction.html#mylink" where "http://r2-tutorials.readthedocs.io/en/stable/" is the full URL, "Introduction" is the root name of the file containing the target link, and "mylink" is a named section (e.g., <a name="mylink">System requirements</a>). A link between chapters in the document has the form [My Link](Introduction.html#mylink), and a link within the same chapter can have the form [My Link](#mylink). For intra-document references, best to use the Introduction.html#mylink form, as ReadTheDocs will append the full URL appropriate for the build (e.g., "stable", "latest", "3.3", etc).
