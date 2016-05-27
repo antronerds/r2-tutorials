@@ -49,23 +49,26 @@ div.r2didyouknow th {
 	background-position: left; 
 }
 
-/*
-img{
-	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-*/
+
+
 
 /* 
 Images are parsed into an reference external class; we want these centered and block just
 like their annotation text in strong
 */
-a.reference.external strong, img{
+a.reference.external strong{
 	display: block;
 	text-align: center;
-  	padding: 10px 20px;	
+  	padding: 10px 10px;	
 }
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  	padding: 10px 10px;	
+}
+
 /*
 Except for the logo
 */
