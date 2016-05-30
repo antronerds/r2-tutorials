@@ -51,18 +51,22 @@ Tutorial step 1: Relating 2 (categorical) tracks
     MAS5.0 - u133p2". From the "type of analysis" dropdown select
     "relate 2 tracks", which can be found in the annotation subsection
     and press next.
-    [![](_static/images/AnnotationAnalyses_relate.png)**Figure
-    1: Figure 1: Select "relate
-    two tracks".**](_static/images/AnnotationAnalyses_relate.png)
+    
+![Figure    1: Figure 1: Select "relate    two tracks".](_static/images/AnnotationAnalyses_relate.png "Figure    1: Figure 1: Select "relate    two tracks".")
+
+[**Figure    1: Figure 1: Select "relate    two tracks".**](_static/images/AnnotationAnalyses_relate.png)
+
 2.  For the different tracks, make sure that you select a categorical
     one (which can be recognized by (cat)). Let"s investigate whether
     there is a relation between the neuroblastoma age-group
     (track=agegroup, flip point being 18 months at diagnosis) and the
     survival status (track=alive). Then press next to generate
     the result.
-    [![](_static/images/AnnotationAnalyses_adjust.png)**Figure
-    2: Select "Selecting categorical
-    tracks**](_static/images/AnnotationAnalyses_adjust.png)
+    
+![Figure    2: Select "Selecting categorical    tracks](_static/images/AnnotationAnalyses_adjust.png "Figure    2: Select "Selecting categorical    tracks")
+
+[**Figure    2: Select "Selecting categorical    tracks**](_static/images/AnnotationAnalyses_adjust.png)
+
 3.  The generated result is now displayed on the screen. As we are
     testing 2 categorical variables, R2 has tested the relation between
     the 2 tracks and finds a highly significant Fisher"s exact p-value,
@@ -78,9 +82,11 @@ Tutorial step 1: Relating 2 (categorical) tracks
     great over-representation of stage 4 patients in the group of
     diseased patients who are older than 18 months.
 
-[![](_static/images/AnnotationAnalyses_colorsamples.png)**Figure
-3: "Color samples by
-track**](_static/images/AnnotationAnalyses_colorsamples.png)
+
+![Figure3: "Color samples bytrack](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: "Color samples bytrack")
+
+[**Figure3: "Color samples bytrack**](_static/images/AnnotationAnalyses_colorsamples.png)
+
 
 
 
@@ -101,9 +107,11 @@ Tutorial step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-[![](_static/images/AnnotationAnalyse_relatetracks.png)**Figure
-4: "Output of relating numerical
-tracks**](_static/images/AnnotationAnalyse_relatetracks.png)
+
+![Figure4: "Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks.png "Figure4: "Output of relating numericaltracks")
+
+[**Figure4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks.png)
+
 
 
 
@@ -130,9 +138,11 @@ Tutorial step 3: Relating a categorical track to a numerical track
     track, and you have a nice result here, showing that the survival
     rate is significantly lower in patients of INSS stage 4.
 
-[![](_static/images/AnnotationAnalyse_relationnumcat.png)**Figure
-5: Representing the relation between categorical and numerical
-tracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
+
+![Figure5: Representing the relation between categorical and numericaltracks](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
+
+[**Figure5: Representing the relation between categorical and numericaltracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
+
 
 
 As a recap for the last 3 tutorial steps, you have used the "relate 2
@@ -146,9 +156,11 @@ r2 to your needs" chapter.
 
 
 
-[![](_static/images/AnnotationAnalyse_representation.png)**Figure
-6: "Representations of relations between different types of tracks in
-R2**](_static/images/AnnotationAnalyse_representation.png)
+
+![Figure6: "Representations of relations between different types of tracks inR2](_static/images/AnnotationAnalyse_representation.png "Figure6: "Representations of relations between different types of tracks inR2")
+
+[**Figure6: "Representations of relations between different types of tracks inR2**](_static/images/AnnotationAnalyse_representation.png)
+
 
 
 
@@ -175,9 +187,11 @@ Tutorial step 4: Annotation plotter
     the final sort. For some complicated sorts, it may be necessary to
     create a numeric track that puts the sample in the intended order.
 
-[![](_static/images/AnnotationAnalyse_plotting.png)**Figure
-7: Plotting the annotation
-tracks**](_static/images/AnnotationAnalyse_plotting.png)
+
+![Figure7: Plotting the annotationtracks](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
+
+[**Figure7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
+
 
 
 

@@ -222,7 +222,11 @@ and click on the “Tview” link in the reporter table.
 
 **Figure 6: Color legend**
 
-  [![](_static/images/OneGene_Tview.png)**Figure 7: MYCN reporters in Transcript view**](_static/images/OneGene_Tview.png)
+  
+![Figure 7: MYCN reporters in Transcript view](_static/images/OneGene_Tview.png "Figure 7: MYCN reporters in Transcript view")
+
+[**Figure 7: MYCN reporters in Transcript view**](_static/images/OneGene_Tview.png)
+
 
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -242,7 +246,11 @@ Tutorial step 5.
 1.  Close the TranscriptView TAB or go back to the MYCN 1-gene-view
     expression screen.
 
-[![](_static/images/OneGene_menupanel.png)**Figure 8:Left menu panel providing additional info (including link-out) andanalyses options**](_static/images/OneGene_menupanel.png)
+
+![Figure 8:Left menu panel providing additional info (including link-out) andanalyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
+
+[**Figure 8:Left menu panel providing additional info (including link-out) andanalyses options**](_static/images/OneGene_menupanel.png)
+
 
 In the left upper menu-panel several options are available to provide
 you with additional information sources of the MYCN gene and additional
@@ -343,9 +351,11 @@ modules where a one-or two gene view is generated.
 
 
 
-[![](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)**Figure
-14: Adapting annotation
-size**](_static/images/OneGene_Adapting2.png)
+
+![Figure14: Adapting annotationsize](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png "Figure14: Adapting annotationsize")
+
+[**Figure14: Adapting annotationsize**](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)
+
 
 
 

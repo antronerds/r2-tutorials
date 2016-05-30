@@ -45,9 +45,11 @@ they follow a specific convention (fixed prefix, followed by \_up and
 
 
 
-[![](_static/images/Genesetcorrelation_sig_score_explained_v0.png)**Figure
-1: Signature score: one category vs up/down
-category**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
+
+![Figure1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
+
+[**Figure1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
+
 -   What is a genesignature
 -   Create a track using the weight scores of a genesignature
 -   Relate a weighed genesignature track to a single gene
@@ -110,9 +112,11 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     fine for the current tutorial. Click on "Build set" to store the new
     track (Figure 2.7).
 
-[![](_static/images/Genesetcorrelation_mycn_signature_v1.png)**Figure
-2: Generate
-genesignature**](_static/images/Genesetcorrelation%20mycn%20signature%20v1.png)
+
+![Figure2: Generategenesignature](_static/images/Genesetcorrelation_mycn_signature_v1.png "Figure2: Generategenesignature")
+
+[**Figure2: Generategenesignature**](_static/images/Genesetcorrelation_mycn_signature_v1.png)
+
 
 
 
@@ -151,9 +155,11 @@ the mRNA level.
 
 
 
-[![](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)**Figure
-3: Add group
-colouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
+
+![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_v0.png "Figure3: Add groupcolouring")
+
+[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
+
 
 
 
@@ -205,9 +211,11 @@ with our signature of interest.
     the "View heatmap of "", providing gene-by-gene information (see
     Figure 4.7).
 
-[![](_static/images/Fig4_mycn_signature_vs_sign_v1.png)**Figure
-4: Find
-genesignatures**](_static/images/Fig4%20mycn%20signature%20vs%20sign%20v1.png)
+
+![Figure4: Findgenesignatures](_static/images/Fig4_mycn_signature_vs_sign_v1.png "Figure4: Findgenesignatures")
+
+[**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
+
 
 
 

@@ -22,6 +22,7 @@ Third subheader
 2.  Next item
 3.  And the third
 
+
 1.  Two enters give the next list
   1. Two spaces create a sublist
   *  They can be mixed
@@ -37,13 +38,21 @@ Note the enter between the lines; this is to guarantee proper formatting in pdf
 The Did you know box is formatted as follows
 
 ---------
-  ![](_static/images/R2d2_logo.png)**Did you know box **
+  ![](_static/images/R2d2_logo.png)**Did you know box**
 
 ```
 Three or more minusses or asterisks create a lines; three backticks create a grey block
 And more to say here.
 ```
 ---------
+
+You'll have to get used to the use of spaces in Markdown; these are used for formatting
+
+
+  Two spaces at the start of a line creates a paragraph
+Type on here below  
+
+
   
 
 

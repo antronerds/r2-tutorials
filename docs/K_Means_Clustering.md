@@ -31,9 +31,11 @@ Tutorial step 1
 2.  In field 2 locate and select the 'Tumor Medulloblastoma PLoS One-
     Kool - 62 MAS5.0 -u133p2' dataset by clicking 'Change Dataset'
 3.  In field 3 choose the 'K-means' option (Figure 1)
-    [![](_static/images/Kmeans_selecting.png)**Figure
-    1: Selecting K-means clustering on the R2 main
-    page**](_static/images/Kmeans_selecting.png)
+    
+![Figure    1: Selecting K-means clustering on the R2 main    page](_static/images/Kmeans_selecting.png "Figure    1: Selecting K-means clustering on the R2 main    page")
+
+[**Figure    1: Selecting K-means clustering on the R2 main    page**](_static/images/Kmeans_selecting.png)
+
 4.  Click ‘next’
 
 
@@ -53,9 +55,11 @@ Tutorial step 2
     with two. To see whether the outcome of the clustering is stable
     (see boxed text on K-means clustering) we set the number of draws
     (performing of the calculation) to 10x10.
-    [![](_static/images/Kmeans_clustersettings.png)**Figure
-    2: K-means clustering
-    settings**](_static/images/Kmeans_clustersettings.png)
+    
+![Figure    2: K-means clustering    settings](_static/images/Kmeans_clustersettings.png "Figure    2: K-means clustering    settings")
+
+[**Figure    2: K-means clustering    settings**](_static/images/Kmeans_clustersettings.png)
+
 3.  Dependending on the size of your dataset or geneset you can enlarge
     of minimize your K-means plot by adapting te size of the retangles
     at heatmap option. click ‘next’
@@ -111,10 +115,11 @@ Tutorial step 3
     always the same. Note that figures reproduced by yourself might
     differ slightly when weaker associations are investigated; k-means
     is non-deterministic (random initiation).
-    [![](_static/images/Kmeans_cluster.png)**Figure
-    3: Results for the 10x10 k-means clustering in two groups; two
-    consistent clusters
-    are formed.**](_static/images/Kmeans_cluster.png)
+    
+![Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.](_static/images/Kmeans_cluster.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
+
+[**Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.**](_static/images/Kmeans_cluster.png)
+
 2.  For visualization of k-means clusters, R2 performs hierarchical
     clustering on the samples for every group of k. Finally a
     hierarchical clustering is performed on the genes, making use of the
@@ -128,10 +133,11 @@ Tutorial step 3
     browser click the back button and change the number of groups to 8.
 4.  Click ‘next’.
 
-[![](_static/images/Kmeans_heatmap.png)**Figure
-    4: The heatmap for the k-means clustering in 2 groups; it is obvious
-    that the data is represented in
-    the clusters.**](_static/images/Kmeans_heatmap.png)
+
+![Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.](_static/images/Kmeans_heatmap.png "Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.")
+
+[**Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.**](_static/images/Kmeans_heatmap.png)
+
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
@@ -157,9 +163,11 @@ Tutorial step 4
 ---------------
 
 1.  The resulting clustering in 8 groups is depicted in Figure 5
-    [![](_static/images/Kmeans_track1.png)**Figure
-    5: Clustering in 8 groups produces no
-    consistent outcome.**](_static/images/Kmeans_track1.png)
+    
+![Figure    5: Clustering in 8 groups produces no    consistent outcome.](_static/images/Kmeans_track1.png "Figure    5: Clustering in 8 groups produces no    consistent outcome.")
+
+[**Figure    5: Clustering in 8 groups produces no    consistent outcome.**](_static/images/Kmeans_track1.png)
+
 2.  The outcome is not consistent (except for the cluster of samples
     having a bcat mutation)
 3.  Repeat the procedure for 4 groups.
@@ -173,9 +181,11 @@ Tutorial step 4
     determine more precisely defined groups. An example of this method
     can be found in the Adapting R2 tutorial.
 
-[![](_static/images/Kmeans_track2.png)**Figure
-6: Consistent clustering for 4
-groups.**](_static/images/Kmeans_track2.png)[![](_static/images/Kmeans_track3.png)**Figure
+
+![Figure6: Consistent clustering for 4groups.](_static/images/Kmeans_track2.png "Figure6: Consistent clustering for 4groups.")
+
+[**Figure6: Consistent clustering for 4groups.**](_static/images/Kmeans_track2.png)
+**Figure
 7: Clustering in 5
 groups**](_static/images/Kmeans_track3.png)
 

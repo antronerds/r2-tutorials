@@ -165,8 +165,11 @@ below shows an example for an Affymetrix array.
 
 
 
-[![](_static/images/DataSetAddition_table.png)**Figure
-1: Example**](_static/images/DataSetAddition_table.png)
+
+![Figure1: Example](_static/images/DataSetAddition_table.png "Figure1: Example")
+
+[**Figure1: Example**](_static/images/DataSetAddition_table.png)
+
 
 
 A number of platforms and/or normalizations not only provide a signal
@@ -223,9 +226,11 @@ use of, which will now be described.
 
 
 
-[![](_static/images/DataSetAddition_sampleanno.png)**Figure
-2: Example
-2**](_static/images/DataSetAddition_sampleanno.png)
+
+![Figure2: Example2](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
+
+[**Figure2: Example2**](_static/images/DataSetAddition_sampleanno.png)
+
 
 
 Besides providing the annotation for usage in R2, you can also specify
@@ -237,9 +242,11 @@ file.
 
 
 
-[![](_static/images/DataSetAddition_relatefile.png)**Figure
-3: Example
-2**](_static/images/DataSetAddition_relatefile.png)
+
+![Figure3: Example2](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
+
+[**Figure3: Example2**](_static/images/DataSetAddition_relatefile.png)
+
 
 
 Please make sure that the header of the relate file is identical to the
@@ -287,9 +294,11 @@ Kaplan curves would get the name "overall survival" on the y-axis.
 
 
 
-[![](_static/images/DataSetAddition_survival.png)**Figure
-3: Example
-3**](_static/images/DataSetAddition_survival.png)
+
+![Figure3: Example3](_static/images/DataSetAddition_survival.png "Figure3: Example3")
+
+[**Figure3: Example3**](_static/images/DataSetAddition_survival.png)
+
 
 
 **Time series graphs:** When the samples are annotated with the
@@ -310,9 +319,11 @@ hesitate to get in contact with us via r2-support.
 
 
 
-[![](_static/images/DataSetAddition_timeserie.png)**Figure
-4: Example
-4**](_static/images/DataSetAddition_timeserie.png)
+
+![Figure4: Example4](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
+
+[**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
+
 
 
 
