@@ -85,11 +85,12 @@ Tutorial step 2
 3.  In the adjustable settings screen use the pre-defined default
     settings and click ‘next’.
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+```
  ![](_static/images/R2d2_logo.png)**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)**      
 
  ![](_static/images/OneGene_Probeset.png)                  
-```
+
  Hovering over the exclamation mark will inform you on what may be the    
  issue with a specific reporter (probeset).Reportes with an issue will    
  not be used to represent a gene in searches where hugoonce is used.\     
@@ -98,7 +99,6 @@ Tutorial step 2
  searching with an official NCBI genesymbol, R2 will also search the      
  alternative names to find your gene of interest.                         
 ```  
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
