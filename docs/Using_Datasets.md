@@ -31,7 +31,7 @@ Tutorial step 1
     **1** select “single dataset”, in field **2** choose "change"   
 ![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
 
-[**Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png)
+[**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
 
 
 2.  A pull-down menu appears containing a large collection of datasets
@@ -66,7 +66,7 @@ Tutorial step 2
 
 ![Figure 3: Advanced selection of datasets](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
 
-![**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
+[**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
 
 2.  Click on the “Advanced” link. A new screen shows a table where the
     headers can be filled with search entries to fine tune your search
