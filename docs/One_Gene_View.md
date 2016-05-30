@@ -47,8 +47,7 @@ Tutorial step 1
 
 ![Figure 1: R2 Single geneselection](_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
 
-**Figure 1: Single geneselection**
-
+[**Figure 1: Single geneselection**](_static/images/OneGene_singleselect.png)
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)**Click on "all news" to see previous R2 updates**
@@ -75,8 +74,9 @@ Tutorial step 2
     expression levels are by default converted to log2 values.
   
 ![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
-  
-**Figure 2: By default the probeset with the highest expression level is selected** 
+
+[**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/OneGene_Adjust.png)
+ 
     
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
@@ -89,7 +89,7 @@ Tutorial step 2
  ![](_static/images/R2d2_logo.png)**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)**      
 
  ![](_static/images/OneGene_Probeset.png)                  
-
+```
  Hovering over the exclamation mark will inform you on what may be the    
  issue with a specific reporter (probeset).Reportes with an issue will    
  not be used to represent a gene in searches where hugoonce is used.\     
@@ -97,7 +97,7 @@ Tutorial step 2
  such as alternative names for the current gene. In case you are not      
  searching with an official NCBI genesymbol, R2 will also search the      
  alternative names to find your gene of interest.                         
-  
+```  
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -121,7 +121,7 @@ Tutorial step 3
     
 ![Figure 3: YY plot MYCN expression](_static/images/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
 
-**Figure 3: YY plot MYCN expression**
+[**Figure 3: YY plot MYCN expression**](_static/images/OneGene_MYCN.png)
 
 3.  Sometimes you get more insight by reviewing the expression levels
     with other transformations. Scroll down and transform the data
@@ -135,17 +135,17 @@ Tutorial step 3
   Just scroll down the page
   
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    
-  	To mark specific samples in the graph you can enter the sample ID’s in the
-    ‘adjustable settings’ field, several marking options can be selected
-    (e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
-    samples use the subset Select pulldown to select a specific group.
-    Click ‘**confirm’** and the redraw button.
+
+To mark specific samples in the graph you can enter the sample ID’s in the
+‘adjustable settings’ field, several marking options can be selected
+(e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
+samples use the subset Select pulldown to select a specific group.
+Click ‘confirm’ and the redraw button.
 
 
 ![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
 
-**Figure 4: Adjusting the graph settings**
+[**Figure 4: Adjusting the graph settings**](_static/images/OneGene_Marksample.png)
 
 --------------------------------------------------------------------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
@@ -194,7 +194,7 @@ and click on the “Tview” link in the reporter table.
 
 ![Figure 5: Probeset verification table](_static/images/OneGene_Probesettable.png "Figure 5: Probeset verification table")
 
-**Figure 5: Probeset verification table**
+[**Figure 5: Probeset verification table**](_static/images/OneGene_Probesettable.png)
 
 1.  A new screen (or TAB in the browser) appears with TranscriptView.
     The Transcript view application depicts the alignment of expressed
@@ -220,7 +220,7 @@ and click on the “Tview” link in the reporter table.
 
 ![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Color legend")
 
-**Figure 6: Color legend**
+[**Figure 6: Color legend**](_static/images/OneGene_Colorlegend.png)
 
   
 ![Figure 7: MYCN reporters in Transcript view](_static/images/OneGene_Tview.png "Figure 7: MYCN reporters in Transcript view")
@@ -247,9 +247,9 @@ Tutorial step 5.
     expression screen.
 
 
-![Figure 8:Left menu panel providing additional info (including link-out) andanalyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
+![Figure 8:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
 
-[**Figure 8:Left menu panel providing additional info (including link-out) andanalyses options**](_static/images/OneGene_menupanel.png)
+[**Figure 8:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
 
 
 In the left upper menu-panel several options are available to provide
@@ -269,7 +269,7 @@ dataset additions).
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
 
-  The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.\
+  The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.
   To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -330,13 +330,13 @@ selecting.
 
 
 
-![Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
+![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png)
 
-[**Figure 11: the extra settings Panel**](_static/images/OneGene_Adapting.png)
+[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings.png)
 
-![Figure 12: Adapting a graph](_static/images/OneGene_Extrasettings.png "Figure 12: Adapting a graph")
+![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
 
-[**Figure 12: Adapting a graph**](_static/images/OneGene_Extrasettings.png)
+[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
 
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
@@ -352,9 +352,9 @@ modules where a one-or two gene view is generated.
 
 
 
-![Figure14: Adapting annotationsize](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png "Figure14: Adapting annotationsize")
+![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2.png "Figure13: Adapting annotationsize")
 
-[**Figure14: Adapting annotationsize**](_static/images/OneGene_Adapting.png)**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)[![](_static/images/OneGene_Adapting2.png)
+[**Figure 13: Legend added**](_static/images/OneGene_Adapting2.png)
 
 
 
