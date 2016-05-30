@@ -13,6 +13,14 @@ ReadTheDocs can present versions of the tutorials for each release, as identifie
 Note that for a manual under developement, we should make "latest" non-public (configurable in ReadTheDocs) so it isn't indexed by Google.
 
 ## Editing the Manual
+
+The manual is in Markdown format; more about this readable markup format at these urls:
+
+*  [Github related](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+*  [Extensive list](https://daringfireball.net/projects/markdown/syntax#backslash)
+
+There is a [standard template](/_templates/R2_Chapter_Template.md) in the _template directory 
+
 To edit manual text, you must first check out this repository and use a text editor on your workstation. (You can use GitHub's native Markdown editor directly, too, for small edits.) 
 Another option is use the online wysiwyg editor http://dillinger.io/ It has an underwater screen and shows direct output of your actions. You'll have to create an access token though: https://github.com/joemccann/dillinger/blob/master/plugins/github/README.md
 
@@ -30,9 +38,9 @@ Note that the GitHub file viewer displays Markdown files reasonably well. Howeve
 Note that a full (browsable) link to a location has the form: "http://r2-tutorials.readthedocs.io/en/stable/Introduction.html#mylink" where "http://r2-tutorials.readthedocs.io/en/stable/" is the full URL, "Introduction" is the root name of the file containing the target link, and "mylink" is a named section (e.g., <a name="mylink">System requirements</a>). A link between chapters in the document has the form [My Link](Introduction.html#mylink), and a link within the same chapter can have the form [My Link](#mylink). For intra-document references, best to use the Introduction.html#mylink form, as ReadTheDocs will append the full URL appropriate for the build (e.g., "stable", "latest", "3.3", etc).
 
 ## Rebuilding the Manual
-The "latest" manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that I installed per http://docs.readthedocs.org/en/latest/webhooks.html). To rebuild other versions, you'll need to be in the ReadTheDocs web site on the Build page -- there should be little/no reason to ever do this.
+The "latest" manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. To rebuild other versions, you'll need to be in the ReadTheDocs web site on the Build page.
 
-The rebuild can be observed by logging into the ReadTheDocs account (see devnotes google doc for credentials) and choosing the "R2-tutorials" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed - a build can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. When the build is complete, if the status shows Passed, you can view the build result by clicking on the green View Docs button. 
+The rebuild can be observed by logging into the ReadTheDocs account (see devnotes google doc for credentials) and choosing the "R2-tutorials" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed - a build can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. When the build is complete, if the status shows Passed, you can view the build result by clicking on the green View Docs button. Note that for the fresh pdf you might have to reload your page. 
 
 Note that the "stable" version of the manual is the build for the most recent release tag (e.g., "3.3") according to semantic versioning rules. This is the version that should be reference from the R2 web site. Note, too, that for testing, we can set a tag (e.g., "3.4.0") and have ReadTheDocs build from the tagged GitHub files. It will be available at http://r2-tutorials.readthedocs.io//3.4.0 ... and as we refine the document, we can use GitHub to move the tag to the appropriate latest checkin. This is useful for testing with a candidate 3.4.0 that will eventually stop being re-tagged.
 
@@ -41,16 +49,12 @@ Note that the "stable" version of the manual is the build for the most recent re
 ## Process for Importation
 The existing R2 tutorials were ported from MediaWiki to Markdown/ReadTheDocs according to a formula laid out by Kozo Nishida. The original port is contained in the "originals" directory and are not part of the current document build. The initial instructions were:
 
-1. Export http://ogtoolbox/w/index.php/R2_Wiki_Tutorials to a xhtml format. 
-
-2. Convert R2Tutorials.xml to R2Tutorials.md with pandoc: http://pandoc.org/installing.html
+1.  Export http://ogtoolbox/w/index.php/R2_Wiki_Tutorials to a xhtml format. 
+2.  Convert R2Tutorials.xml to R2Tutorials.md with pandoc: http://pandoc.org/installing.html
 with ```pandoc -f html -t markdown -s R2Tutorials.xhtml -o R2Tutorials.md```
-
-3. Setup Github structure according to needs for ReadTheDocs
-
-4. Remove sporadic html tags 
-
-5. Get all pictures used by each chapter and put them into the Images directory. These are contained in the collection.zip on 
+3.  Setup Github structure according to needs for ReadTheDocs
+4.  Remove sporadic html tags 
+5.  Get all pictures used by each chapter and put them into the Images directory. These are contained in the collection.zip on 
 the mediawiki server. Resolve all picture references in the text by hand. Provide two links, one to read directly in github and one for readthedocs including polaroid style css layout
 <div class="noshow">
 ![ *Figure 1: Default multiple gene view.*](_static/images/UsingDatasets/MultipleGenesView_Default.png)
