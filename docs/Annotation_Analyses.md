@@ -52,9 +52,9 @@ Tutorial step 1: Relating 2 (categorical) tracks
     "relate 2 tracks", which can be found in the annotation subsection
     and press next.
     
-![Figure    1: Figure 1: Select "relate    two tracks".](_static/images/AnnotationAnalyses_relate.png "Figure    1: Figure 1: Select "relate    two tracks".")
+![Figure 1: Select relate two tracks.](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
 
-[**Figure    1: Figure 1: Select "relate    two tracks".**](_static/images/AnnotationAnalyses_relate.png)
+[**Figure 1: Select "relate two tracks".**](_static/images/AnnotationAnalyses_relate.png)
 
 2.  For the different tracks, make sure that you select a categorical
     one (which can be recognized by (cat)). Let"s investigate whether
@@ -63,9 +63,9 @@ Tutorial step 1: Relating 2 (categorical) tracks
     survival status (track=alive). Then press next to generate
     the result.
     
-![Figure    2: Select "Selecting categorical    tracks](_static/images/AnnotationAnalyses_adjust.png "Figure    2: Select "Selecting categorical    tracks")
+![Figure 2: Select Selecting categorical tracks](_static/images/AnnotationAnalyses_adjust.png "Figure 2: Select Selecting categorical tracks")
 
-[**Figure    2: Select "Selecting categorical    tracks**](_static/images/AnnotationAnalyses_adjust.png)
+[**Figure 2: Select Selecting categorical tracks**](_static/images/AnnotationAnalyses_adjust.png)
 
 3.  The generated result is now displayed on the screen. As we are
     testing 2 categorical variables, R2 has tested the relation between
@@ -83,9 +83,9 @@ Tutorial step 1: Relating 2 (categorical) tracks
     diseased patients who are older than 18 months.
 
 
-![Figure3: "Color samples bytrack](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: "Color samples bytrack")
+![Figure3: Color samples by track](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
 
-[**Figure3: "Color samples bytrack**](_static/images/AnnotationAnalyses_colorsamples.png)
+[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 
 
 
@@ -108,9 +108,9 @@ Tutorial step 2: Relating 2 (numerical) tracks
     would be appropriate.
 
 
-![Figure4: "Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks.png "Figure4: "Output of relating numericaltracks")
+![Figure 4: Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks.png "Figure 4: Output of relating numericaltracks")
 
-[**Figure4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks.png)
+[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks.png)
 
 
 
@@ -139,9 +139,9 @@ Tutorial step 3: Relating a categorical track to a numerical track
     rate is significantly lower in patients of INSS stage 4.
 
 
-![Figure5: Representing the relation between categorical and numericaltracks](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
+![Figure 5: Representing the relation between categorical and numerical tracks](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
 
-[**Figure5: Representing the relation between categorical and numericaltracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
+[**Figure 5: Representing the relation between categorical and numerical tracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
 
 
 
@@ -157,9 +157,9 @@ r2 to your needs" chapter.
 
 
 
-![Figure6: "Representations of relations between different types of tracks inR2](_static/images/AnnotationAnalyse_representation.png "Figure6: "Representations of relations between different types of tracks inR2")
+![Figure 6: Representations of relations between different types of tracks in R2](_static/images/AnnotationAnalyse_representation.png "Figure6: Representations of relations between different types of tracks in R2")
 
-[**Figure6: "Representations of relations between different types of tracks inR2**](_static/images/AnnotationAnalyse_representation.png)
+[**Figure6: "Representations of relations between different types of tracks in R2**](_static/images/AnnotationAnalyse_representation.png)
 
 
 
