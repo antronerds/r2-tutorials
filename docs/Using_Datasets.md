@@ -17,8 +17,8 @@ Scope
     individual human samples. The samples are grouped in so
     called datasets. Each dataset has its own characteristics such
     tissue type, tumor type or from cell-line experiments.
--   The “**Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
-    u133p2”** dataset will be used as an example dataset to guide you
+-   The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
+    u133p2* dataset will be used as an example dataset to guide you
     through most of the tutorial. Later on working with multiple
     datasets will be discussed.
 
@@ -28,12 +28,12 @@ Tutorial step 1
 1.  In R2 a large amount of datasets are available for analysis
     and visualization. The numbered items in the main window will guide
     you through all the steps necessary to perform a task. In field
-    **1** select “single dataset”, in field **2** choose "change"   
-![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
-
-[**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
-
-
+    **1** select “single dataset”, in field **2** choose "change"
+    
+   ![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
+   
+   [**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
+   
 2.  A pull-down menu appears containing a large collection of datasets
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
@@ -46,8 +46,7 @@ Tutorial step 1
 ----------
  ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming**      
 
-> *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author  number_of_samples - normalization - chiptype**
-Datasets are listed alphabetically*
+> *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author  number_of_samples - normalization - chiptype**. Datasets are listed alphabetically*
 
 ----------
 

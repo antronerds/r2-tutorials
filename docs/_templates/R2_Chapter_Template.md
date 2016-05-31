@@ -40,13 +40,12 @@ The Did you know box is formatted as follows
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know box**
 
-```
-Three or more minusses or asterisks create a lines; three backticks create a grey block
-And more to say here.
-```
+
+> *Three or more minusses preceded by a return create a line; the > sign in front of a paragraph indents the whole paragraph and the single asterisks put it in italic*
+
 ---------
 
-You'll have to get used to the use of spaces in Markdown; these are used for formatting
+You'll have to get used to the use of spaces and enters in Markdown; these are used for formatting
 
 
   Two spaces at the start of a line creates a paragraph
