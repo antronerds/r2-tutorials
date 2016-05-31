@@ -46,8 +46,8 @@ Tutorial step 1
 ----------
  ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming**      
 
-> Datasets have a structured naming in R2, using the following rules: *type_of_dataset - author  number_of_samples - normalization - chiptype*
-Datasets are listed alphabetically
+> *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author  number_of_samples - normalization - chiptype**
+Datasets are listed alphabetically*
 
 ----------
 
