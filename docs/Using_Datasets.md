@@ -30,7 +30,6 @@ Tutorial step 1
     you through all the steps necessary to perform a task. In field
     **1** select “single dataset”, in field **2** choose "change"
 	
-	
 	![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
 	
 	[**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
@@ -65,7 +64,6 @@ Tutorial step 2
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
 	
-	
 	![Figure 3: Advanced selection of datasets](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
 	
 	[**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
@@ -76,7 +74,6 @@ Tutorial step 2
     class column and’ 50’ in the ‘\#’ column and select ‘ greater than’
     from the pull down menu. This returns all the datasets containing
     the search term ‘Neuro’ and having more than 50 samples.
-	
 	
 	![Figure 4: Advanced selection panel](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure 4: Advanced selection panel")
 	
@@ -92,7 +89,6 @@ Tutorial step 2
     Note: Clicking on an exclamation mark also shows detailed
     dataset information.
 	
-	
 	![Figure 5: Additional Dataset Info](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure 5: Additional Dataset Info")
 	
 	[**Figure 5: Additional Dataset Info**](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
@@ -100,7 +96,6 @@ Tutorial step 2
 4.  Select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
     dataset” option.
-	
 	
 	![Figure 6: Selecting across datasets](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
 	

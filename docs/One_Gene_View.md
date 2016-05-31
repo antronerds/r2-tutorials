@@ -70,8 +70,7 @@ Tutorial step 2
     informative probeset is re-determined in every dataset, sometimes
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
-	  
-	
+	  	
 	![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
 	
 	[**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/OneGene_Adjust.png) 
@@ -116,7 +115,6 @@ Tutorial step 3
     defined for the dataset. It is also possible to define your own
     custom made tracks, or disable/adapt the settings for default tracks
     (further explained in “Adapting R2 to your needs")
-	    
 	
 	![Figure 3: YY plot MYCN expression](_static/images/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
 	
@@ -141,7 +139,6 @@ To mark specific samples in the graph you can enter the sample ID’s in the
 (e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
 samples use the subset Select pulldown to select a specific group.
 Click ‘confirm’ and the redraw button.
-
 
 
 ![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
@@ -243,7 +240,6 @@ Tutorial step 5.
 1.  Close the TranscriptView TAB or go back to the MYCN 1-gene-view
     expression screen.
 	
-	
 	![Figure 8:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
 	
 	[**Figure 8:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
@@ -294,7 +290,6 @@ Tutorial step 6
 “Datatable” to unfold a table with the expression levels for all
 samples.
 	
-	
 	![Figure 9: Unfold the datatable](_static/images/OneGene_Datatable.png "Figure 9: Unfold the datatable")
 	
 	[**Figure 9: Unfold the datatable**](_static/images/OneGene_Datatable.png)
@@ -306,7 +301,6 @@ and will be forgotten as soon as you leave the xgeneview. Persistent,
 changes to the tracks can be made via the ‘my settings’ menu item, which
 is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
-	
 	
 	![Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png)
 	
