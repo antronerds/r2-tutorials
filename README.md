@@ -73,6 +73,9 @@ the mediawiki server. Resolve all picture references in the text by hand. Provid
   - replace with: 
   !\[$4$6$8\]$2 "$4$6$8"\)\R\R\*\*$4$6$8\*\*
 
+  - changing that to having all tabs: (!\[)(.*)(\])(\()(.*)(\))(\R)(\R)(\[)(.*)(\])(\()(.*)(\))(\R)(\R)
+  - into: \t$1$2$3$4$5$6$7\t$8\t$9$10$11$12$13$14$15\t$16
+
 6. Separate UserManual.md per chapter manually. 
  
 7. Create a new project in ReadTheDocs, a WebHook was generated automatically from GitHub to ReadTheDocs via http://docs.readthedocs.org/en/latest/webhooks.html
