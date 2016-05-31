@@ -31,17 +31,27 @@ instructions guide you through an analysis, which you can perform online
 within R2 yourself. During these steps, also features related to the
 respective chapter, such as additional analyses or visualizations will
 be introduced, thereby conveying the ease of using the interconnected R2
-interface. Chapters 1-6 demonstrate a great number of core
+interface.
+
+The steps will be interspersed with additional information in **Did you know** boxes: 
+
+---------
+  ![](_static/images/R2d2_logo.png)**Did you know box**
+
+
+> *These provide additional information not directly related to the tutorial steps*
+
+---------
+
+Chapters 2-10 demonstrate a great number of core
 functionalities, which you will encounter often and from different
-angles when working within the platform. The next set of chapters (7-14)
+angles when working within the platform. The next set of chapters (11-16)
 dive more into specialized functions, that some of you may be interested
-in. Chapter 15 demonstrates how users can adapt R2 to their needs by
+in. Chapters 17-19 demonstrates how users can adapt R2 to their needs by
 explaining how you can generate your own grouping variables or store
-personal lists of genes. This chapter also explains how you can start
+personal lists of genes. These also explain how you can start
 your own user group and share information with specific other users for
-collaborative work. The last two chapters further elaborate on this by
-explaining how to add your own data and how to export data from R2 for
-use in other tools.
+collaborative work. In the next two chapters it is further elaborated how to add your own data and how to export data from R2 for use in other tools. In the last chapters more advanced integrated analyses are shown.
 
 
 We hope that these tutorials will be helpful. If you have any comments
