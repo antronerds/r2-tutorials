@@ -41,8 +41,8 @@ Tutorial step 1
 
 1. one
 2. two
-
- three
+	
+	three
 3. four
 
 ![Figure 2: Selecting datasets from the pull down menu on the main screen](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
