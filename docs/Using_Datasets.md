@@ -29,11 +29,11 @@ Tutorial step 1
     and visualization. The numbered items in the main window will guide
     you through all the steps necessary to perform a task. In field
     **1** select “single dataset”, in field **2** choose "change"
-
- ![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
-
- [**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
-
+	
+	![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
+	
+	[**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
+	
 2.  A pull-down menu appears containing a large collection of datasets
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
