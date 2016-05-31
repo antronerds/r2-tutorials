@@ -24,10 +24,9 @@ Third subheader
 	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
 	
 3.  And the third continues
+ 
 
-
-
-1.  Three enters give the next list
+1.  Any space or tab between enters give the next list
   1. Two spaces create a sublist
   *  They can be mixed
 
