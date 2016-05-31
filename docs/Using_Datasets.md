@@ -107,9 +107,9 @@ datasets”.
 -------------
  ![](_static/images/R2d2_logo.png)**Did you know that clicking on an exclamation balloon provides additional info?**      
 
-> Clicking on the GEO ID link redirects to the GEO repository database  
+> *Clicking on the GEO ID link redirects to the GEO repository database  
 where RAW data files are available. A Pubmed link is listed in case the
-dataset is linked to a publication listed in PubMed
+dataset is linked to a publication listed in PubMed.*
 
 ![](_static/images/UsingDatasets_LinksToRawDataInR2.png)
 
@@ -119,8 +119,9 @@ dataset is linked to a publication listed in PubMed
 ----------
  ![](_static/images/R2d2_logo.png)**Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis**      
 
-> In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl
-Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to ***<r2-support@amc.nl>***
+> *In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl
+Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to* ***<r2-support@amc.nl>***
+
 ---------------
 
 

@@ -4,11 +4,7 @@ One Gene View
 =============
 
 
-
 *Analyze the expression levels of a single gene within a dataset*
-
-
-
 
 
 Scope
@@ -49,10 +45,11 @@ Tutorial step 1
 
 [**Figure 1: Single geneselection**](_static/images/OneGene_singleselect.png)
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)**Click on "all news" to see previous R2 updates**
+
+ ---------------
+ ![](_static/images/R2d2_logo.png)**Click on "all news" to see previous R2 updates**
   
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ---------------
 
 
 
@@ -72,12 +69,11 @@ Tutorial step 2
     informative probeset is re-determined in every dataset, sometimes
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
-  
-![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
-
-[**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/OneGene_Adjust.png)
- 
-    
+	  
+	![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
+	
+	[**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/OneGene_Adjust.png) 
+	    
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
     skip tracks, click on the Track Display section and select the
@@ -89,15 +85,16 @@ Tutorial step 2
  ![](_static/images/R2d2_logo.png)**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)**      
 
  ![](_static/images/OneGene_Probeset.png)                  
-```
- Hovering over the exclamation mark will inform you on what may be the    
+
+> *Hovering over the exclamation mark will inform you on what may be the    
  issue with a specific reporter (probeset).Reportes with an issue will    
- not be used to represent a gene in searches where hugoonce is used.\     
+ not be used to represent a gene in searches where hugoonce is used.     
  Hovering over the name of a gene will display concise gene information,  
  such as alternative names for the current gene. In case you are not      
  searching with an official NCBI genesymbol, R2 will also search the      
- alternative names to find your gene of interest.                         
-```  
+ alternative names to find your gene of interest.*  
+
+----------
 
 
 
@@ -117,23 +114,24 @@ Tutorial step 3
     defined for the dataset. It is also possible to define your own
     custom made tracks, or disable/adapt the settings for default tracks
     (further explained in “Adapting R2 to your needs")
-    
-![Figure 3: YY plot MYCN expression](_static/images/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
-
-[**Figure 3: YY plot MYCN expression**](_static/images/OneGene_MYCN.png)
-
+	    
+	![Figure 3: YY plot MYCN expression](_static/images/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
+	
+	[**Figure 3: YY plot MYCN expression**](_static/images/OneGene_MYCN.png)
+	
 3.  Sometimes you get more insight by reviewing the expression levels
     with other transformations. Scroll down and transform the data
     (Figure 4), choosing “none”, in the ‘transformation’ pulldown menu
     and click adjust settings. In the “adjustable settings” panel, there
     are several other settings to adapt the graph R2 generates (like
     changing font sizes, or adding labels to the datapoints). 
-   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------
   ![](_static/images/R2d2_logo.png)**Did you know that the Adjustable Settings panel is also available in the previous screen**
   
-  Just scroll down the page
+> *Just scroll down the page*
   
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------
 
 To mark specific samples in the graph you can enter the sample ID’s in the
 ‘adjustable settings’ field, several marking options can be selected
@@ -146,10 +144,10 @@ Click ‘confirm’ and the redraw button.
 
 [**Figure 4: Adjusting the graph settings**](_static/images/OneGene_Marksample.png)
 
---------------------------------------------------------------------------
+---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
 
- There are several data transformations available                         
+> *There are several data transformations available                         
  -   “none”: Raw untransformed expression values, as they are represented 
      in the R2 database.                                                  
  -   “2log”: logarithmic values with base of 2. Every increment           
@@ -170,17 +168,13 @@ Click ‘confirm’ and the redraw button.
  -   “zcore\_group”: Coverts the expression levels from the zscore within 
      a group (track). Applicable when e.g technical variation in          
      expression levels is expected. A possible reason could be when       
-     samples from the same dataset originate from different centers.      
+     samples from the same dataset originate from different centers.*      
      
---------------------------------------------------------------------------
-
-
-
+---------------
 
 
 Tutorial step 4
 ---------------
-
 
 
 Figure 5 lists for the various reporters of MYCN whether they are in
@@ -228,15 +222,13 @@ and click on the “Tview” link in the reporter table.
 
 
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can browse the gene expression values along the genome***
 
-  Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.\
-  What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.\
+  What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
 
-
-
+---------------
 
 
 Tutorial step 5.
@@ -244,13 +236,11 @@ Tutorial step 5.
 
 1.  Close the TranscriptView TAB or go back to the MYCN 1-gene-view
     expression screen.
-
-
-![Figure 8:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
-
-[**Figure 8:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
-
-
+	
+	![Figure 8:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
+	
+	[**Figure 8:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
+	
 In the left upper menu-panel several options are available to provide
 you with additional information sources of the MYCN gene and additional
 analyses. KaplanScan and Time Series analyses will be discussed in
@@ -263,15 +253,13 @@ of the gene of interest within all datasets of the same
 platform/normalization scheme (provided that the normalization supports
 dataset additions).
 
-
-
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------
   ![](_static/images/R2d2_logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
 
-  The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.
-  To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> *The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.
+To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.*
 
+----------
 
 
 Clicking on pubsniffer opens a new screen showing a list of how times
@@ -280,65 +268,57 @@ combination with dataset keywords. Clicking on “outlink” redirects you
 **to Pubmed Pub-reminer** which is a tool for PubMed query building and
 literature mining.
 
-
-
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
 
-  In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?\
-  Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.\
-  Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.\
-  Next to building efficient queries, Pub re-miner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> *In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?
+ Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.
+ Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.
+ Next to building efficient queries, Pub re-miner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author*
 
-
-
+--------------------
 
 
 Tutorial step 6
 ---------------
 
 
-
-To investigate the values R2 uses for graph generation click on
+1. To investigate the values R2 uses for graph generation click on
 “Datatable” to unfold a table with the expression levels for all
 samples.
-
-![Figure 9: Unfold the datatable](_static/images/OneGene_Datatable.png "Figure 9: Unfold the datatable")
-
-[**Figure 9: Unfold the datatable**](_static/images/OneGene_Datatable.png)
-
-The “track display selection” section can be opened by clicking on it.
+	
+	![Figure 9: Unfold the datatable](_static/images/OneGene_Datatable.png "Figure 9: Unfold the datatable")
+	
+	[**Figure 9: Unfold the datatable**](_static/images/OneGene_Datatable.png)
+	
+2. The “track display selection” section can be opened by clicking on it.
 In here, you are able to toggle which tracks to display and/or hide
 within the YY-plots. Do note that these selections are non-persistent
 and will be forgotten as soon as you leave the xgeneview. Persistent,
 changes to the tracks can be made via the ‘my settings’ menu item, which
 is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
-
-
-![Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png)
-
-[**Figure 10: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
-
-Other convenient options are revealed by clicking the “more settings”
+	
+	![Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png)
+	
+	[**Figure 10: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
+	
+3. Other convenient options are revealed by clicking the “more settings”
 section. An extra panel unfolds which allows you to adapt your graph to
 meet for example the requirements of a journal. The appearance of this
 section will change depending on the kind of graph that you are
 selecting.
-
-
-
-![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png)
-
-[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings.png)
-
-![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
-
-[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
-
-
-In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
+	
+	![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png)
+	
+	[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings.png)
+	
+	
+	![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
+	
+	[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
+	
+4. In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
 selected track to the YY-plot. This can be helpful for the addition of
 Sample labels, or cell line names etc. Annotations can be shown in 3
@@ -349,13 +329,9 @@ dotsize.The adjustable settings menu is available in most of the R2
 modules where a one-or two gene view is generated.
 
 
-
-
 ![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2.png "Figure13: Adapting annotationsize")
 
 [**Figure 13: Legend added**](_static/images/OneGene_Adapting2.png)
-
-
 
 
 
