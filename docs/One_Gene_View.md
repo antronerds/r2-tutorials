@@ -41,6 +41,7 @@ Tutorial step 1
 2.  Choose “View a gene” in field 3.
 3.  Type MYCN and click ‘next’.
 
+
 ![Figure 1: R2 Single geneselection](_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
 
 [**Figure 1: Single geneselection**](_static/images/OneGene_singleselect.png)
@@ -70,10 +71,11 @@ Tutorial step 2
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
 	  
+	
 	![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
 	
 	[**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/OneGene_Adjust.png) 
-	    
+    
 2.  It could be that for a specific graphical representation not all
     the (default) tracks need to be represented in a graph. To add or
     skip tracks, click on the Track Display section and select the
@@ -115,10 +117,11 @@ Tutorial step 3
     custom made tracks, or disable/adapt the settings for default tracks
     (further explained in “Adapting R2 to your needs")
 	    
+	
 	![Figure 3: YY plot MYCN expression](_static/images/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
 	
 	[**Figure 3: YY plot MYCN expression**](_static/images/OneGene_MYCN.png)
-	
+
 3.  Sometimes you get more insight by reviewing the expression levels
     with other transformations. Scroll down and transform the data
     (Figure 4), choosing “none”, in the ‘transformation’ pulldown menu
@@ -138,6 +141,7 @@ To mark specific samples in the graph you can enter the sample ID’s in the
 (e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
 samples use the subset Select pulldown to select a specific group.
 Click ‘confirm’ and the redraw button.
+
 
 
 ![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
@@ -185,6 +189,7 @@ indications indicate there may be an issue with it. Scroll down the page
 and click on the “Tview” link in the reporter table.
 
 
+
 ![Figure 5: Probeset verification table](_static/images/OneGene_Probesettable.png "Figure 5: Probeset verification table")
 
 [**Figure 5: Probeset verification table**](_static/images/OneGene_Probesettable.png)
@@ -211,6 +216,7 @@ and click on the “Tview” link in the reporter table.
     NB: Currently probeset verification is only provided for various
     human Affymetrix array types.
 
+
 ![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Color legend")
 
 [**Figure 6: Color legend**](_static/images/OneGene_Colorlegend.png)
@@ -236,6 +242,7 @@ Tutorial step 5.
 
 1.  Close the TranscriptView TAB or go back to the MYCN 1-gene-view
     expression screen.
+	
 	
 	![Figure 8:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
 	
@@ -287,6 +294,7 @@ Tutorial step 6
 “Datatable” to unfold a table with the expression levels for all
 samples.
 	
+	
 	![Figure 9: Unfold the datatable](_static/images/OneGene_Datatable.png "Figure 9: Unfold the datatable")
 	
 	[**Figure 9: Unfold the datatable**](_static/images/OneGene_Datatable.png)
@@ -299,6 +307,7 @@ changes to the tracks can be made via the ‘my settings’ menu item, which
 is present in the main screen. Note that the adjustable settings panel
 including the customize track parameters are available throughout R2.
 	
+	
 	![Figure 10: Tick and drag tracks](_static/images/OneGene_trackdisplay.png)
 	
 	[**Figure 10: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png "Figure 10: Tick and drag tracks")
@@ -308,6 +317,7 @@ section. An extra panel unfolds which allows you to adapt your graph to
 meet for example the requirements of a journal. The appearance of this
 section will change depending on the kind of graph that you are
 selecting.
+
 
 ![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png "Figure 11: the extra settings Panel")
 
@@ -328,6 +338,7 @@ annotation tracks or at the values for those samples that haven been
 marked. The size of the annotation scales with the setting of the
 dotsize.The adjustable settings menu is available in most of the R2
 modules where a one-or two gene view is generated.
+
 
 
 ![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2.png "Figure13: Adapting annotationsize")
