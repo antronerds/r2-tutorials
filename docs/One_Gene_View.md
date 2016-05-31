@@ -308,17 +308,17 @@ section. An extra panel unfolds which allows you to adapt your graph to
 meet for example the requirements of a journal. The appearance of this
 section will change depending on the kind of graph that you are
 selecting.
-	
-	![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png)
-	
-	[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings.png)
-	
-	
-	![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
-	
-	[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
-	
-4. In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
+
+![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png)
+
+[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings.png)
+
+
+![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
+
+[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
+
+In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
 selected track to the YY-plot. This can be helpful for the addition of
 Sample labels, or cell line names etc. Annotations can be shown in 3
