@@ -26,7 +26,8 @@ Third subheader
 3.  And the third continues
 
 
-1.  Two enters give the next list
+
+1.  Three enters give the next list
   1. Two spaces create a sublist
   *  They can be mixed
 
