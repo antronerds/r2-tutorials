@@ -20,7 +20,10 @@ Third subheader
 
 1.  This will give a numbered list
 2.  Next item
-3.  And the third
+	
+	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
+	
+3.  And the third continues
 
 
 1.  Two enters give the next list

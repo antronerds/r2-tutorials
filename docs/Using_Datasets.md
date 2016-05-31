@@ -38,13 +38,6 @@ Tutorial step 1
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
 
-
-1. one
-2. two
-	
-	three
-3. four
-
 ![Figure 2: Selecting datasets from the pull down menu on the main screen](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
 
 [**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
@@ -68,22 +61,22 @@ Tutorial step 2
     was published etc. An example search would be finding all colon
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
-
-![Figure 3: Advanced selection of datasets](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
-
-[**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
-
+	
+	![Figure 3: Advanced selection of datasets](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
+	
+	[**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
+	
 2.  Click on the “Advanced” link. A new screen shows a table where the
     headers can be filled with search entries to fine tune your search
     for a dataset meeting your search criteria. Enter ‘Neuro’ in the
     class column and’ 50’ in the ‘\#’ column and select ‘ greater than’
     from the pull down menu. This returns all the datasets containing
     the search term ‘Neuro’ and having more than 50 samples.
-
-![Figure 4: Advanced selection panel](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure 4: Advanced selection panel")
-
-[**Figure 4: Advanced selection panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
-
+	
+	![Figure 4: Advanced selection panel](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure 4: Advanced selection panel")
+	
+	[**Figure 4: Advanced selection panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
+	
 3.  Clicking on ‘Neuroblastoma’ in the class 3 column containing 88
     samples reveals a detailed info box containing additional dataset
     information from the R2 database. When the dataset is publicly
@@ -93,19 +86,19 @@ Tutorial step 2
     in PubMed.
     Note: Clicking on an exclamation mark also shows detailed
     dataset information.
-
-![Figure 5: Additional Dataset Info](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure 5: Additional Dataset Info")
-
-[**Figure 5: Additional Dataset Info**](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
-
+	
+	![Figure 5: Additional Dataset Info](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure 5: Additional Dataset Info")
+	
+	[**Figure 5: Additional Dataset Info**](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
+	
 4.  Select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
     dataset” option.
-
-![Figure 6: Selecting across datasets](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
-
-[**Figure 6: Selecting across datasets**](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
-
+	
+	![Figure 6: Selecting across datasets](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
+	
+	[**Figure 6: Selecting across datasets**](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
+	
 
 Analysis methods following selecting the “Across Datasets” option in
 field **1** will be discussed in tutorial “Working with multiple
