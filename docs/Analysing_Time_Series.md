@@ -70,10 +70,10 @@ Tutorial step 1
     experiment we make use of the "Time-series" module. Logon to R2 and
     select Time series in left menu panel of R2.
     
-![Figure    1: Single selection in the Time-series    module](_static/images/AnalysingTime_Select.png "Figure    1: Single selection in the Time-series    module")
-
-[**Figure    1: Single selection in the Time-series    module**](_static/images/AnalysingTime_Select.png)
-
+	![Figure 1: Single selection in the Time-series    module](_static/images/AnalysingTime_Select.png "Figure    1: Single selection in the Time-series    module")
+	
+	[**Figure    1: Single selection in the Time-series    module**](_static/images/AnalysingTime_Select.png)
+	
 2.  In field 1, select at collection "u133p2 (public)". Here
     "collection" is indicated as a category of Time series experiments.
     For time series the analysis is limited to the Affymetrix Hu133A or
@@ -93,33 +93,33 @@ Tutorial step 1
     click "next". In the adjustable settings menu, leave all the default
     settings and click "GO".
     
-!['Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "'Figure    2: Timeseries    selection screen.")
-
-[**'Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
-
-    In Figure 3 the expression levels of the HMOX1 gene are represented
-    in a triplicate Time course experiment after stimulation
-    with TGF-beta. Clearly the HMOX1 gene is an early responder and is
-    upregulated with a maximum at 4 hours. The HMOX1 gene is presented
-    by the authors of the corresponding publication as one the
-    upregulated genes after TGF-beta stimulation. It"s should be noted
-    that a control experiment is missing in this experimental design.
-    Hovering over the individual timepoint reveals
-    additional information.
+	!['Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "'Figure    2: Timeseries    selection screen.")
+	
+	[**'Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
+	
+In Figure 3 the expression levels of the HMOX1 gene are represented
+in a triplicate Time course experiment after stimulation
+with TGF-beta. Clearly the HMOX1 gene is an early responder and is
+upregulated with a maximum at 4 hours. The HMOX1 gene is presented
+by the authors of the corresponding publication as one the
+upregulated genes after TGF-beta stimulation. It"s should be noted
+that a control experiment is missing in this experimental design.
+Hovering over the individual timepoint reveals
+additional information.
     
-![Figure    3: Expression levels of the HMOX1 gene during a time course    experiment](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
-
-[**Figure    3: Expression levels of the HMOX1 gene during a time course    experiment**](_static/images/AnalysingTime_HMOX1.png)
-
+	![Figure    3: Expression levels of the HMOX1 gene during a time course    experiment](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
+	
+	[**Figure    3: Expression levels of the HMOX1 gene during a time course    experiment**](_static/images/AnalysingTime_HMOX1.png)
+	
 4.  Another gene the authors claim to be upregulated by TGF-beta is the
     BCL6 gene. In the same screen you can quickly generate a time series
     graph by providing the BCL6 gene in the right upper corner and click
     "Search Gene".
     
-![Figure    4: Probeset verification and    Adjustable Settings.](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
-
-[**Figure    4: Probeset verification and    Adjustable Settings.**](_static/images/AnalysingTime_Probeset.png)
-
+	![Figure    4: Probeset verification and    Adjustable Settings.](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
+	
+	[**Figure    4: Probeset verification and    Adjustable Settings.**](_static/images/AnalysingTime_Probeset.png)
+	
 
 
 
@@ -161,10 +161,10 @@ Tutorial step 2
     of filtering options to find the novel regulated genes. Some of the
     options are already set.
     
-![Figure    5: The time series    table builder.](_static/images/AnalysingTime_Tablebuild.png "Figure    5: The time series    table builder.")
-
-[**Figure    5: The time series    table builder.**](_static/images/AnalysingTime_Tablebuild.png)
-
+	![Figure    5: The time series    table builder.](_static/images/AnalysingTime_Tablebuild.png "Figure    5: The time series    table builder.")
+	
+	[**Figure    5: The time series    table builder.**](_static/images/AnalysingTime_Tablebuild.png)
+	
     An explanation of some of the options follows below:
     ***Min \#experiments***: Depending on your experimental design
     select in how many experiments your gene should be regulated
@@ -195,33 +195,33 @@ Tutorial step 2
     average expression level.
     Select and set the options as depicted in Figure 5 and click "next".
     
-![Figure    6: Up and down regulated genes table sorted on best fold    change](_static/images/AnalysingTime_SortedTable.png "Figure    6: Up and down regulated genes table sorted on best fold    change")
-
-[**Figure    6: Up and down regulated genes table sorted on best fold    change**](_static/images/AnalysingTime_SortedTable.png)
-
+	![Figure    6: Up and down regulated genes table sorted on best fold    change](_static/images/AnalysingTime_SortedTable.png "Figure    6: Up and down regulated genes table sorted on best fold    change")
+	
+	[**Figure    6: Up and down regulated genes table sorted on best fold    change**](_static/images/AnalysingTime_SortedTable.png)
+	
 4.  In Figure 6 a part of the up and down regulated genes are shown,
     listing the fold change and highest expression level for each Time
     series experiment. Clicking on a probeset link generates a single
     gene time series plot as shown in Figure 7.
     
-![Figure    7:    regulated gene.](_static/images/AnalysingTime_RegulatedGene.png "Figure    7:    regulated gene.")
-
-[**Figure    7:    regulated gene.**](_static/images/AnalysingTime_RegulatedGene.png)
-
+	![Figure    7:    regulated gene.](_static/images/AnalysingTime_RegulatedGene.png "Figure    7:    regulated gene.")
+	
+	[**Figure    7:    regulated gene.**](_static/images/AnalysingTime_RegulatedGene.png)
+	
 5.  Clicking on the filter button will open the "adjustable settings"
     panel to re-adjust the selection options. Clicking on the Venn
     "diagram button re-direct to the automatically generated Venn
     Diagram representing the intersection of the genesets.
     
-![Figure    8: Top    buttons](_static/images/AnalysingTime_Button.png "Figure    8: Top    buttons")
-
-[**Figure    8: Top    buttons**](_static/images/AnalysingTime_Button.png)
-
+	![Figure    8: Top    buttons](_static/images/AnalysingTime_Button.png "Figure    8: Top    buttons")
+	
+	[**Figure    8: Top    buttons**](_static/images/AnalysingTime_Button.png)
+	
     
-![Figure    9: Time series Venn    diagram](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
-
-[**Figure    9: Time series Venn    diagram**](_static/images/AnalysingTime_Venn.png)
-
+	![Figure    9: Time series Venn    diagram](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
+	
+	[**Figure    9: Time series Venn    diagram**](_static/images/AnalysingTime_Venn.png)
+	
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?***
@@ -247,10 +247,10 @@ Tutorial step 3.
     Temporary option at "Where" and remember the name of the stored
     genecategory for the next step.
     
-![Figure    10: : Store a gene    category](_static/images/AnalysingTime_CustomCat.png "Figure    10: : Store a gene    category")
-
-[**Figure    10: : Store a gene    category**](_static/images/AnalysingTime_CustomCat.png)
-
+	![Figure    10: : Store a gene    category](_static/images/AnalysingTime_CustomCat.png "Figure    10: : Store a gene    category")
+	
+	[**Figure    10: : Store a gene    category**](_static/images/AnalysingTime_CustomCat.png)
+	
 2.  It has been published that the timecourse expression data from the
     cell experiment used in this example is linked to
     epithelial-mesenchymal transition (EMT) by TGF-beta induction. It"s
@@ -262,10 +262,10 @@ Tutorial step 3.
     u133p2 . In field 3 select "View Geneset" at "Select type of
     analyses" and click "next".
     
-!['Figure    11: Geneview    adjustable settings.](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
-
-[**'Figure    11: Geneview    adjustable settings.**](_static/images/AnalysingTime_Geneview.png)
-
+	!['Figure    11: Geneview    adjustable settings.](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
+	
+	[**'Figure    11: Geneview    adjustable settings.**](_static/images/AnalysingTime_Geneview.png)
+	
 4.  At "Gene set Collection" choose " My 24h geneCategories" and select
     the generated "genecategory" from step 1. Instead of an unsupervised
     sample clustering you can also cluster samples within a track.
@@ -274,10 +274,10 @@ Tutorial step 3.
 6.  Choose the temporary Genecategory generated via the Timeserie
     experiments, the track b-r\_grade and click "next".
     
-![Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.](_static/images/AnalysingTime_Heatmap.png "Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.")
-
-[**Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.**](_static/images/AnalysingTime_Heatmap.png)
-
+	![Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.](_static/images/AnalysingTime_Heatmap.png "Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.")
+	
+	[**Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.**](_static/images/AnalysingTime_Heatmap.png)
+	
 7.  The samples are unsupervised hierarchically clustered within each
     group of the selected track and presented in a heatmap. The selected
     genecategory resulting from the timeserie experiment could be of
@@ -321,10 +321,10 @@ Tutorial step 4
     "Genecategory" at the clustering section select '10x10" at "numbers
     of draw" and click "next".
     
-![Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.](_static/images/AnalysingTime_heatmap2.png "Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.")
-
-[**Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.**](_static/images/AnalysingTime_heatmap2.png)
-
+	![Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.](_static/images/AnalysingTime_heatmap2.png "Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.")
+	
+	[**Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.**](_static/images/AnalysingTime_heatmap2.png)
+	
 
 
 
@@ -358,10 +358,10 @@ Tutorial Step 5
     overlay of the results with the list generated in the " time
     series module".
     
-![Figure    14: Part of correlate with    dataset genelist.](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
-
-[**Figure    14: Part of correlate with    dataset genelist.**](_static/images/AnalysingTime_TableCorrelate.png)
-
+	![Figure    14: Part of correlate with    dataset genelist.](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
+	
+	[**Figure    14: Part of correlate with    dataset genelist.**](_static/images/AnalysingTime_TableCorrelate.png)
+	
 4.  In *Figure 14* the overlap is presented between the result from the
     " time series" module and the " relate to differential
     expression" option. The list of genes is sub-divided in a positive

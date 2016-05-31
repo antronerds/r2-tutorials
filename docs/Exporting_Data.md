@@ -33,10 +33,10 @@ Tutorial step 1
     appears from where you can select the dataset of interest and
     click ‘next’.
     
-![Figure    1: In the main menu “Data    Grabber](_static/images/ExportData_datagrabber.png "Figure    1: In the main menu “Data    Grabber")
-
-[**Figure    1: In the main menu “Data    Grabber**](_static/images/ExportData_datagrabber.png)
-
+	![Figure    1: In the main menu “Data    Grabber](_static/images/ExportData_datagrabber.png "Figure    1: In the main menu “Data    Grabber")
+	
+	[**Figure    1: In the main menu “Data    Grabber**](_static/images/ExportData_datagrabber.png)
+	
 2.  A settings menu appears where several filter options can be applied
     to the data you want to export. You may optionally select a
     track (subset) to filter the samples by the annotated groups; in
@@ -53,10 +53,10 @@ Tutorial step 1
     R2 with all reporters for several stages. In the menu select
     “HugoOnce” and click ‘next’.
     
-![Figure    2: Filter options for    exporting data.](_static/images/ExportData_filter.png "Figure    2: Filter options for    exporting data.")
-
-[**Figure    2: Filter options for    exporting data.**](_static/images/ExportData_filter.png)
-
+	![Figure    2: Filter options for    exporting data.](_static/images/ExportData_filter.png "Figure    2: Filter options for    exporting data.")
+	
+	[**Figure    2: Filter options for    exporting data.**](_static/images/ExportData_filter.png)
+	
 
 
 
@@ -94,10 +94,10 @@ export the data via the right menu.
     MYCN gene is generated. The right menu provides you with a set of
     options to continue your analysis including exporting data.
     
-![Figure    3: Continuing    your analysis.](_static/images/ExportData_menu.png "Figure    3: Continuing    your analysis.")
-
-[**Figure    3: Continuing    your analysis.**](_static/images/ExportData_menu.png)
-
+	![Figure    3: Continuing    your analysis.](_static/images/ExportData_menu.png "Figure    3: Continuing    your analysis.")
+	
+	[**Figure    3: Continuing    your analysis.**](_static/images/ExportData_menu.png)
+	
 4.  Click on “MakeMeATable (TMEV) ready” in a new (tab) screen you can
     download the table matrix with the corresponding annotation by using
     the right click of your mouse. The generated table can be used

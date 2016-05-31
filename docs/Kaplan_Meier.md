@@ -61,18 +61,18 @@ Tutorial step 1
     pull down menu. Using the Kaplan Meier module via the left menu
     directly shows from which datasets survival data is available.
     
-![Figure    1: Select a Kaplan    Meier option.](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
-
-[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
-
+	![Figure    1: Select a Kaplan    Meier option.](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
+	
+	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
+	
 2.  In the adjustable settings menu choose "overall survival" , select
     "track" at Separate by and select "inss-cat" stage in use track pull
     down menu . Click "next" .
     
-![Figure    2: Kaplan Meier by    "Annotated parameter.](_static/images/WorkingWithKaplan_Kaplan.png "Figure    2: Kaplan Meier by    "Annotated parameter.")
-
-[**Figure    2: Kaplan Meier by    "Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
-
+	![Figure    2: Kaplan Meier by    "Annotated parameter.](_static/images/WorkingWithKaplan_Kaplan.png "Figure    2: Kaplan Meier by    "Annotated parameter.")
+	
+	[**Figure    2: Kaplan Meier by    "Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
+	
 
 
 
@@ -88,10 +88,10 @@ agreement with the clinical outcome of the INSS stages.
     agegroup (cat) " and for the second track "mycn\_amp (cat) ". And
     click next.
     
-![Figure    3: Kaplan Meier graph with    combined tracks.](_static/images/WorkingWithKaplan_Combined.png "Figure    3: Kaplan Meier graph with    combined tracks.")
-
-[**Figure    3: Kaplan Meier graph with    combined tracks.**](_static/images/WorkingWithKaplan_Combined.png)
-
+	![Figure    3: Kaplan Meier graph with    combined tracks.](_static/images/WorkingWithKaplan_Combined.png "Figure    3: Kaplan Meier graph with    combined tracks.")
+	
+	[**Figure    3: Kaplan Meier graph with    combined tracks.**](_static/images/WorkingWithKaplan_Combined.png)
+	
 
 
 
@@ -147,18 +147,18 @@ Tutorial step 2
 4.  The determined separation in groups can be stored in a track and
     used in other analyes, click the "store as track" button
     
-![Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_GroupPvalue.png "Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
-
-[**Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_GroupPvalue.png)
-
+	![Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_GroupPvalue.png "Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
+	
+	[**Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_GroupPvalue.png)
+	
 5.  To illustrate that with the Kaplan scan more significant biological
     subgroups can be found, adjust the cut-off mode to "median" in the
     settings menu and click "redraw"graph.
     
-![Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
-
-[**Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
-
+	![Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
+	
+	[**Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
+	
 
 
 
@@ -181,10 +181,10 @@ out whether this is also the case with other cut-off modi.
 
 
 
-![Figure7: Adjustable settings menu: change p-valecutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-valecutoff.")
-
-[**Figure7: Adjustable settings menu: change p-valecutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
-
+	![Figure7: Adjustable settings menu: change p-valecutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-valecutoff.")
+	
+	[**Figure7: Adjustable settings menu: change p-valecutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
+	
 
 
 
@@ -208,10 +208,10 @@ Tutorial step 3
     for this list of genes is generated as well.
 
 
-![Figure7: A list of Kaplan Meier for a group ofgenes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group ofgenes")
-
-[**Figure7: A list of Kaplan Meier for a group ofgenes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
-
+	![Figure7: A list of Kaplan Meier for a group ofgenes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group ofgenes")
+	
+	[**Figure7: A list of Kaplan Meier for a group ofgenes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
+	
 
 
 In Figure 7, clicking on each gene name in the hugo column will result
@@ -221,10 +221,10 @@ WorkingWithKaplan Heatmap.png
 
 
 
-![Figure8: Heatmap of the significant prognostic list ofgenes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list ofgenes.")
-
-[**Figure8: Heatmap of the significant prognostic list ofgenes.**](_static/images/WorkingWithKaplan_Heatmap.png)
-
+	![Figure8: Heatmap of the significant prognostic list ofgenes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list ofgenes.")
+	
+	[**Figure8: Heatmap of the significant prognostic list ofgenes.**](_static/images/WorkingWithKaplan_Heatmap.png)
+	
 
 
 The heatmap shows in this case that 2 or 3 possible biological relevant
@@ -248,10 +248,10 @@ Tutorial step 4
     defined kaplanscan, select the "Kaplan Meier" &gt; "Kaplan Meier by
     user provide data" option from the left hand menu.
     
-![Figure    9: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")
-
-[**Figure    9: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
-
+	![Figure    9: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")
+	
+	[**Figure    9: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
+	
 2.  For the remaining to work as intended, we need to take into account
     a couple of things. You should prepare your data in the following
     four tab- or semicolon(;) separated columns.
@@ -270,10 +270,10 @@ Tutorial step 4
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
     
-![Figure    10: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    10: Kaplanscan with user defined data    result")
-
-[**Figure    10: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
-
+	![Figure    10: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    10: Kaplanscan with user defined data    result")
+	
+	[**Figure    10: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
+	
 4.  Once the image has been created, you are able to adapt various
     parameters to optimize appearance of your result.
 

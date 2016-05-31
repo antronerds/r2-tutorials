@@ -52,10 +52,10 @@ Tutorial step 1
 5.  Click 'Next'
 
 
-![Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin](_static/images/Pathway_menu.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
-
-[**Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin**](_static/images/Pathway_menu.png)
-
+	![Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin](_static/images/Pathway_menu.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
+	
+	[**Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin**](_static/images/Pathway_menu.png)
+	
 
 
 
@@ -70,10 +70,10 @@ Tutorial step 2
     average expression, this is most likely the probeset that best
     represents mRNA concentration.
     
-![Figure    2: Options for alternative name catenin: choose    CTNNB1](_static/images/Pathway_list.png "Figure    2: Options for alternative name catenin: choose    CTNNB1")
-
-[**Figure    2: Options for alternative name catenin: choose    CTNNB1**](_static/images/Pathway_list.png)
-
+	![Figure    2: Options for alternative name catenin: choose    CTNNB1](_static/images/Pathway_list.png "Figure    2: Options for alternative name catenin: choose    CTNNB1")
+	
+	[**Figure    2: Options for alternative name catenin: choose    CTNNB1**](_static/images/Pathway_list.png)
+	
 2.  Scroll down, leave the other options as they are, and
     click 'Submit'.
 
@@ -92,10 +92,10 @@ Tutorial step 3
     Tutorial; Find genes correlating with your gene of interest. The
     result is returned as a list of pathways; Figure 3.
     
-![Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset](_static/images/Pathway_Kegg.png "Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset")
-
-[**Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset**](_static/images/Pathway_Kegg.png)
-
+	![Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset](_static/images/Pathway_Kegg.png "Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset")
+	
+	[**Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset**](_static/images/Pathway_Kegg.png)
+	
 2.  An overall explanation is printed above the list; of all genes
     present in all KEGG pathways, \~ 540 correlate with CTNNB1 with a p
     value &lt; 0.05. In the table the KEGG pathways are listed ranked by
@@ -108,10 +108,10 @@ Tutorial step 3
     the pathway. We'll discuss the first two later, now click on the A
     in front of the 'SNARE interactions in vesicular transport'-pathway.
     
-![Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1](_static/images/Pathway_SNARE.png "Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1")
-
-[**Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1**](_static/images/Pathway_SNARE.png)
-
+	![Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1](_static/images/Pathway_SNARE.png "Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1")
+	
+	[**Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1**](_static/images/Pathway_SNARE.png)
+	
 3.  R2 opens a new window in your browser (Figure 4). In darker green
     the genes that have a positive correlation with CTNNB1 and in red
     those having a negative correlation. Hovering over the genes with
@@ -129,10 +129,10 @@ Tutorial step 3
     of the screen.
 
 
-![Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.](_static/images/Pathway_Zoom.png "Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.")
-
-[**Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.**](_static/images/Pathway_Zoom.png)
-
+	![Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.](_static/images/Pathway_Zoom.png "Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.")
+	
+	[**Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.**](_static/images/Pathway_Zoom.png)
+	
 
 
 
@@ -144,10 +144,10 @@ Tutorial step 4
 1.  In field 3 on the R2 start page select 'KEGG PathwayFinder by
     Groups';
     
-![Figure    6: Selecting PathwayFinder by    Groups](_static/images/Pathway_Finder.png "Figure    6: Selecting PathwayFinder by    Groups")
-
-[**Figure    6: Selecting PathwayFinder by    Groups**](_static/images/Pathway_Finder.png)
-
+	![Figure    6: Selecting PathwayFinder by    Groups](_static/images/Pathway_Finder.png "Figure    6: Selecting PathwayFinder by    Groups")
+	
+	[**Figure    6: Selecting PathwayFinder by    Groups**](_static/images/Pathway_Finder.png)
+	
 2.  Click "Next"
 
 
@@ -162,10 +162,10 @@ Tutorial step 5
     of a beta catenin mutation; bcat mutation. Select this; Figure 7.
     Pathway\_Select
     
-!['Figure    7: Selecting the bcat    mutation track.](_static/images/Pathway_Select.png "'Figure    7: Selecting the bcat    mutation track.")
-
-[**'Figure    7: Selecting the bcat    mutation track.**](_static/images/Pathway_Select.png)
-
+	!['Figure    7: Selecting the bcat    mutation track.](_static/images/Pathway_Select.png "'Figure    7: Selecting the bcat    mutation track.")
+	
+	[**'Figure    7: Selecting the bcat    mutation track.**](_static/images/Pathway_Select.png)
+	
 2.  Click "Submit"
 
 
@@ -200,10 +200,10 @@ Tutorial step 7
 1.  A list of hyperlinked genes is returned, sort them by descending
     R-value by clicking on the R-column-header twice;
     
-![Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.](_static/images/Pathway_correlate.png "Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.")
-
-[**Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.**](_static/images/Pathway_correlate.png)
-
+	![Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.](_static/images/Pathway_correlate.png "Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.")
+	
+	[**Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.**](_static/images/Pathway_correlate.png)
+	
 2.  Each gene-symbol is hyperlinked to a graph representing the specific
     results; click the top gene in the list: AXIN2.
 
@@ -221,10 +221,10 @@ Tutorial step 8
     Wnt-subtype in the Medulloblastoma field.
 
 
-![Figure10:AXIN2 expression correlates with Beta Cateninmutations](_static/images/Pathway_Axin.png "Figure10:AXIN2 expression correlates with Beta Cateninmutations")
-
-[**Figure10:AXIN2 expression correlates with Beta Cateninmutations**](_static/images/Pathway_Axin.png)
-
+	![Figure10:AXIN2 expression correlates with Beta Cateninmutations](_static/images/Pathway_Axin.png "Figure10:AXIN2 expression correlates with Beta Cateninmutations")
+	
+	[**Figure10:AXIN2 expression correlates with Beta Cateninmutations**](_static/images/Pathway_Axin.png)
+	
 
 
 

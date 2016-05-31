@@ -33,10 +33,10 @@ Tutorial step 1
 1.  Use "Across Datasets" in field 1 by default the "megasampler" option
     is selected in field 2 and click "next".
     
-![Figure 1: Using across datasets](_static/images/MultipleDatasets_across.png "Figure 1: Using across datasets")
-
-[**Figure 1: Using across datasets**](_static/images/MultipleDatasets_across.png)
-
+	![Figure 1: Using across datasets](_static/images/MultipleDatasets_across.png "Figure 1: Using across datasets")
+	
+	[**Figure 1: Using across datasets**](_static/images/MultipleDatasets_across.png)
+	
 2.  Leave "u133p2, mas5.0" at the "type of data" option and select " XPO
     sampler" at "use presets". The meaning of presets will be explained
     later on.
@@ -53,10 +53,10 @@ Megasampler only allows you to query multiple datasets if they are of the same c
     (Expression Project for Oncology (expO)) to pre-select a series of
     tumor datasets. Click "next".
     
-![Figure 2: Select a preset](_static/images/MultipleDatasets_Preset.png "Figure 2: Select a preset")
-
-[**Figure 2: Select a preset**](_static/images/MultipleDatasets_Preset.png)
-
+	![Figure 2: Select a preset](_static/images/MultipleDatasets_Preset.png "Figure 2: Select a preset")
+	
+	[**Figure 2: Select a preset**](_static/images/MultipleDatasets_Preset.png)
+	
 2.  In the previous screen the preset "XPOsampler" is selected, a
     collection of datasets is already marked for the
     megasampler analyses. In Figure 3 clicking the small triangle
@@ -67,10 +67,10 @@ Megasampler only allows you to query multiple datasets if they are of the same c
     gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
     Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     
-![Figure3: Megasampler adjustment selection](_static/images/Pathway_menu.png "Figure3: Megasampler adjustment selection")
-
-[**Figure 3: Megasampler adjustment selection**](_static/images/Pathway_menu.png)
-
+	![Figure3: Megasampler adjustment selection](_static/images/Pathway_menu.png "Figure3: Megasampler adjustment selection")
+	
+	[**Figure 3: Megasampler adjustment selection**](_static/images/Pathway_menu.png)
+	
 
 --------------------------------------------------------------------------
 ![](_static/images/R2d2_logo.png)]()**Did you know that private datasets linked to a specific user are indicated with a green background color**
@@ -99,38 +99,38 @@ Tutorial step 2
 2.  For now change the color for the datasets as indicated in Figure 4
     and click "next".
     
-![Figure 4: Adjusting the megasampler graph.](_static/images/MultipleDatasets_AdjustGraph.png "Figure 4: Adjusting the megasampler graph.")
-
-[**Figure 4: Adjusting the megasampler graph.**](_static/images/MultipleDatasets_AdjustGraph.png)
-
+	![Figure 4: Adjusting the megasampler graph.](_static/images/MultipleDatasets_AdjustGraph.png "Figure 4: Adjusting the megasampler graph.")
+	
+	[**Figure 4: Adjusting the megasampler graph.**](_static/images/MultipleDatasets_AdjustGraph.png)
+	
 3.  R2 now performs a one-way Anova statistical test on the fly. This
     **AN**alyis **O**f **VA**riance is a statistical test that
     calculates whether the means of the expression levels between the
     selected datasets are significant different.
 
-![Figure 5: Anova test for the selected datasets.](_static/images/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
-
-[**Figure 5: Anova test for the selected datasets.**](_static/images/MultipleDatasets_Anova.png)
-
+	![Figure 5: Anova test for the selected datasets.](_static/images/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
+	
+	[**Figure 5: Anova test for the selected datasets.**](_static/images/MultipleDatasets_Anova.png)
+	
 
 By default de megasampler graph is plotted in a so called Boxdotplot
 representation. The Boxdotplot shows a combined boxplot, on top of which
 the signals of the separate samples are plotted; a quickly interpretable
 graph.
 
-![Figure 6: YCC expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
-
-[**Figure 6: YCC expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
-
+	![Figure 6: YCC expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
+	
+	[**Figure 6: YCC expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
+	
 
 Additional insight can be obtained transforming the data, in this case
 transform the data to logical values (none) set "graphtype" on barplot
 and click on "redraw at the bottom of the screen.
 
-![Figure 7: Different Megasampler graphical representations](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
-
-[**Figure 7: Different Megasampler graphical representations**](_static/images/MultipleDatasets_Representations.png)
-
+	![Figure 7: Different Megasampler graphical representations](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
+	
+	[**Figure 7: Different Megasampler graphical representations**](_static/images/MultipleDatasets_Representations.png)
+	
 
 The plotted graphs for "MYCN" clearly show a high expression level
 specifically in the Neuroblastoma data sets compared to Normal Tissue
@@ -163,10 +163,10 @@ dataset (see Figure 8).
 
 
 
-![Figure8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
-
-[**Figure8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
-
+	![Figure8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
+	
+	[**Figure8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
+	
 
 
 
@@ -201,10 +201,10 @@ comparisons between datasets).
     datasets of the same platform in R2. This module is discussed in the
     correlate genes tutorial.
     
-![Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.](_static/images/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
-
-[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
-
+	![Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.](_static/images/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+	
+	[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
+	
 2.  Via the the probeset distribution view you can easily investigate a
     specific dataset in more detail.Click a preferred colored dataset
     dot and R2 will generate an one-gene-view graph. The one-gene-view

@@ -46,15 +46,15 @@ Tutorial step 1
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
-![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
-
-[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
-
+	![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
+	
+	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
+	
     
-![Figure    2: The probeset verification    table](_static/images/UsingR2genome_Genomebrowser.png "Figure    2: The probeset verification    table")
-
-[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
-
+	![Figure    2: The probeset verification    table](_static/images/UsingR2genome_Genomebrowser.png "Figure    2: The probeset verification    table")
+	
+	[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
+	
     When we access the genome browser via the one-gene-view, then by
     default it has enabled a number of annotations (Tracks). At the top
     of the image,R2 is depicting all known EST and mRNA sequences
@@ -99,15 +99,15 @@ Tutorial step 1
     regions are indicated in the reporter track by very dark shades.
     ****
     
-![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
-
-[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
-
+	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
+	
+	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
+	
     
-![Figure    4: Second half of the genome browser with    default tracks.](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
-
-[**Figure    4: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_tracks.png)
-
+	![Figure    4: Second half of the genome browser with    default tracks.](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
+	
+	[**Figure    4: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_tracks.png)
+	
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
     genomic location.
@@ -155,25 +155,25 @@ Tutorial step 2
     though ). Also in the track panel set “sequence and GC” windows
     to on. Click redraw in the middle panel.
     
-![Figure    7: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
-
-[**Figure    7: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
-
+	![Figure    7: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
+	
+	[**Figure    7: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
+	
 3.  At a larger magnification certain features such basepair pair
     coloring at the sequence annotation track may become visible. Note
     the black rectangles in the dark green exon region a collection of
     the probes which form together a probeset . Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
-![Figure    8: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
-
-[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)
-
+	![Figure    8: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
+	
+	[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)
+	
     
-![Figure    9: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
-
-[**Figure    9: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
-
+	![Figure    9: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
+	
+	[**Figure    9: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
+	
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
     to the genome browser representing the complete gene.
@@ -217,10 +217,10 @@ chromosome at a certain location.
     generated with average gene expression levels for the selected
     dataset in that region.
     
-![Figure    10: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
-
-[**Figure    10: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
-
+	![Figure    10: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
+	
+	[**Figure    10: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
+	
 2.  Furthermore it’s worth mentioning that in order to use the genome
     browser it’s not necessary to do so via first selecting a dataset.
     The genome browser can directly be accessed from the main menu

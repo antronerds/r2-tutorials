@@ -46,10 +46,10 @@ Tutorial step 1
 
 
 
-![Figure1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
-
-[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
-
+	![Figure1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
+	
+	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
+	
 
 
 
@@ -74,10 +74,10 @@ Tutorial step 2
     "none", select "boxplot" at Plot type and click NEXT.
 
 
-![Figure2: Multiple gene view pertrack](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
-
-[**Figure2: Multiple gene view pertrack**](_static/images/MultipleGenesView_perTrack.png)
-
+	![Figure2: Multiple gene view pertrack](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
+	
+	[**Figure2: Multiple gene view pertrack**](_static/images/MultipleGenesView_perTrack.png)
+	
 1.  Most of the used genes are part of the WNT (subgroup A) and de SHH
     (subgroup B) signaling pathway overexpressed per subtype as shown by
     Kool et al. These genes are overexpressed in different

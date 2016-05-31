@@ -55,10 +55,10 @@ Tutorial step 1
 5.  Click 'Next'
 
 
-![Figure1: Choice of correlationanalysis.](_static/images/FindGenes_Choiceof.png "Figure1: Choice of correlationanalysis.")
-
-[**Figure1: Choice of correlationanalysis.**](_static/images/FindGenes_Choiceof.png)
-
+	![Figure1: Choice of correlationanalysis.](_static/images/FindGenes_Choiceof.png "Figure1: Choice of correlationanalysis.")
+	
+	[**Figure1: Choice of correlationanalysis.**](_static/images/FindGenes_Choiceof.png)
+	
 
 
 
@@ -74,10 +74,10 @@ Tutorial step 2
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
     
-![Figure    2: Options page for correlation    calculation](_static/images/FindGenes_OptionPage.png "Figure    2: Options page for correlation    calculation")
-
-[**Figure    2: Options page for correlation    calculation**](_static/images/FindGenes_OptionPage.png)
-
+	![Figure    2: Options page for correlation    calculation](_static/images/FindGenes_OptionPage.png "Figure    2: Options page for correlation    calculation")
+	
+	[**Figure    2: Options page for correlation    calculation**](_static/images/FindGenes_OptionPage.png)
+	
 3.  Scroll down the screen and click 'Next'
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -110,10 +110,10 @@ Tutorial step 3
     description of their meaning, consult the 'Differential
     Expression' tutorial).
     
-![Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors](_static/images/FindGenes_GeneList.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
-
-[**Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors**](_static/images/FindGenes_GeneList.png)
-
+	![Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors](_static/images/FindGenes_GeneList.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
+	
+	[**Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors**](_static/images/FindGenes_GeneList.png)
+	
 
 
 
@@ -141,10 +141,10 @@ updates upon a new genebuild release or an affymetrix annotation update.
 
 
 
-![Figure4: Filterbutton](_static/images/FindGenes_GotoMain.png "Figure4: Filterbutton")
-
-[**Figure4: Filterbutton**](_static/images/FindGenes_GotoMain.png)
-
+	![Figure4: Filterbutton](_static/images/FindGenes_GotoMain.png "Figure4: Filterbutton")
+	
+	[**Figure4: Filterbutton**](_static/images/FindGenes_GotoMain.png)
+	
 
 
 
@@ -163,18 +163,18 @@ Tutorial step 4
     expression of MYCN quite good! This is reflected in the R and
     p-values that are quite significant.
     
-![Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.](_static/images/FindGenes_ExpressionPos.png "Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
-
-[**Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/FindGenes_ExpressionPos.png)
-
+	![Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.](_static/images/FindGenes_ExpressionPos.png "Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
+	
+	[**Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/FindGenes_ExpressionPos.png)
+	
 2.  For an opposite example, click on one of the the top genes in the
     right column; MEAF6. This produces Figure 6. The original list of
     results is still open in another tab in your browser, return there.
     
-![Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene](_static/images/FindGenes_ExpressionNeg.png "Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
-
-[**Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/FindGenes_ExpressionNeg.png)
-
+	![Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene](_static/images/FindGenes_ExpressionNeg.png "Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
+	
+	[**Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/FindGenes_ExpressionNeg.png)
+	
 
 
 
@@ -191,10 +191,10 @@ samples in the selected dataset see Figure 7
 
 
 1.  
-![Figure    7: Toggle Histogram    on/off](_static/images/FindGenes_ExpressionHis.png "Figure    7: Toggle Histogram    on/off")
-
-[**Figure    7: Toggle Histogram    on/off**](_static/images/FindGenes_ExpressionHis.png)
-
+	![Figure    7: Toggle Histogram    on/off](_static/images/FindGenes_ExpressionHis.png "Figure    7: Toggle Histogram    on/off")
+	
+	[**Figure    7: Toggle Histogram    on/off**](_static/images/FindGenes_ExpressionHis.png)
+	
 2.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
@@ -206,10 +206,10 @@ samples in the selected dataset see Figure 7
 
 
 
-![Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.")
-
-[**Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.**](_static/images/FindGenes_ExpressionHeat.png)
-
+	![Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.")
+	
+	[**Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.**](_static/images/FindGenes_ExpressionHeat.png)
+	
 
 
 
@@ -274,10 +274,10 @@ Tutorial step 6
     gene-ontology analysis with the up or down regulated genes only.
 
 
-!['Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
-
-[**'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
-
+	!['Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
+	
+	[**'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
+	
 
 
 
@@ -290,18 +290,18 @@ Tutorial step 7
 2.  In the next screen a choice can be made for other datasets; we use
     the KEGG database. Click next.
     
-![Figure    13: Choice panel for other    datasets](_static/images/First_image_select_dataset.png "Figure    13: Choice panel for other    datasets")
-
-[**Figure    13: Choice panel for other    datasets**](_static/images/First_image_select_dataset.png)
-
+	![Figure    13: Choice panel for other    datasets](_static/images/First_image_select_dataset.png "Figure    13: Choice panel for other    datasets")
+	
+	[**Figure    13: Choice panel for other    datasets**](_static/images/First_image_select_dataset.png)
+	
 3.  A similar overrepresentation analysis is performed on all gene
     members of the pathways in the KEGG database. Click on the p-value
     column header again to find the most significant ones: Figure 14
     
-![Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/FindGenes_KeggPath.png "Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
-
-[**Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/FindGenes_KeggPath.png)
-
+	![Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/FindGenes_KeggPath.png "Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
+	
+	[**Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/FindGenes_KeggPath.png)
+	
 4.  The DNA-replication pathway pops up as most significant. Note that
     most genes are similar to the GO process found in the
     former analysis. The pathway will be shown when the blue A in front
@@ -330,19 +330,19 @@ Tutorial step 8
 1.  Scroll down and look for the MCM2 gene, click on the link to show
     their relationship: Figure 16
     
-![Figure    16: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
-
-[**Figure    16: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
-
+	![Figure    16: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
+	
+	[**Figure    16: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
+	
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
     search in the Pubmed literature database for (co-)occurrences of
     MYCN and MCM2 (and some other keywords). Click the link: Figure 17
     
-![Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2](_static/images/FindGenes_Pubsniffer.png "Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2")
-
-[**Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2**](_static/images/FindGenes_Pubsniffer.png)
-
+	![Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2](_static/images/FindGenes_Pubsniffer.png "Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2")
+	
+	[**Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2**](_static/images/FindGenes_Pubsniffer.png)
+	
 3.  Apparently there are some abstracts where the two genes are
     mentioned together, you can view this article directly by clicking
     the hyperlinked number in the Articles column. The outlink
@@ -360,10 +360,10 @@ Tutorial step 8
     relation between the MCM genes and MYCN was proven experimentally.
 
 
-![Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
-
-[**Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
-
+	![Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
+	
+	[**Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
+	
 
 
 
@@ -400,10 +400,10 @@ Tutorial step 9
     "Adapting R2 to your own needs".
 
 
-![Figure20: Menu choices forDataset](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
-
-[**Figure20: Menu choices forDataset**](_static/images/FindGenes_DatasetOptions.png)
-
+	![Figure20: Menu choices forDataset](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
+	
+	[**Figure20: Menu choices forDataset**](_static/images/FindGenes_DatasetOptions.png)
+	
 
 
 

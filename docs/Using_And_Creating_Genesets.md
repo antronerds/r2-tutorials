@@ -33,10 +33,10 @@ Tutorial step 1
 1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
     Click 'Next'.
     
-![Figure    1: Select View a    Geneset](_static/images/UsingGenesets_Select.png "Figure    1: Select View a    Geneset")
-
-[**Figure    1: Select View a    Geneset**](_static/images/UsingGenesets_Select.png)
-
+	![Figure    1: Select View a    Geneset](_static/images/UsingGenesets_Select.png "Figure    1: Select View a    Geneset")
+	
+	[**Figure    1: Select View a    Geneset**](_static/images/UsingGenesets_Select.png)
+	
 2.  In the subsequent window three choices are available to customize
     the way the GeneSet data will be presented (Figure 2). The first
     field asks for a collection of genesets (Figure 3); R2 harbors
@@ -58,23 +58,23 @@ Tutorial step 1
     the selection. We're now going to search for Cell Cycle gene
     sets**](_static/images/UsingGenesets%20Settings.png)
     
-![Figure    3: Available collections of Genesets in    R2](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
-
-[**Figure    3: Available collections of Genesets in    R2**](_static/images/UsingGenesets_Collections.png)
-
+	![Figure    3: Available collections of Genesets in    R2](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
+	
+	[**Figure    3: Available collections of Genesets in    R2**](_static/images/UsingGenesets_Collections.png)
+	
     
-![Figure    4: Available ordering domains for    samples](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
-
-[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
-
+	![Figure    4: Available ordering domains for    samples](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
+	
+	[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
+	
 3.  In the next window all genesets containing the words Cell Cycle in
     their description are shown. Choose the KEGG Cell Cycle (in the
     collection of Cellular Processes) by clicking the 'View' hyperlink.
     
-![Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.](_static/images/UsingGenesets_Selecting.png "Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.")
-
-[**Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.**](_static/images/UsingGenesets_Selecting.png)
-
+	![Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.](_static/images/UsingGenesets_Selecting.png "Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.")
+	
+	[**Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.**](_static/images/UsingGenesets_Selecting.png)
+	
 4.  The Affymetrix data for the Neuroblastoma 88 dataset is shown for
     the genes in the Cell Cycle as a clustered heatmap. Hovering over
     the heatmap rectangles reveals the sample information stored in the
@@ -83,10 +83,10 @@ Tutorial step 1
     This limitation can be adapted in the \`my settings\`.
 
 
-![Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.](_static/images/UsingGenesets_Heatmap.png "Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
-
-[**Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
-
+	![Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.](_static/images/UsingGenesets_Heatmap.png "Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
+	
+	[**Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
+	
 
 
 
@@ -105,17 +105,17 @@ Tutorial step 2
     genesets has to be defined; Select 'Cellular Processes' and click
     "next" (Figure 7).
     
-![Figure    7: Selection a subcollection from the large collection of Kegg    pathways](_static/images/UsingGenesets_Subcollection.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
-
-[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images/UsingGenesets_Subcollection.png)
-
+	![Figure    7: Selection a subcollection from the large collection of Kegg    pathways](_static/images/UsingGenesets_Subcollection.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
+	
+	[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images/UsingGenesets_Subcollection.png)
+	
 3.  R2 allows selection of multiple genesets at the same time; CTRL+
     select Cell Cycle and Apoptosis and click 'Next'.
     
-!['Figure    8: Selecting multiple    genesets](_static/images/UsingGenesets_Doubleselect.png "'Figure    8: Selecting multiple    genesets")
-
-[**'Figure    8: Selecting multiple    genesets**](_static/images/UsingGenesets_Doubleselect.png)
-
+	!['Figure    8: Selecting multiple    genesets](_static/images/UsingGenesets_Doubleselect.png "'Figure    8: Selecting multiple    genesets")
+	
+	[**'Figure    8: Selecting multiple    genesets**](_static/images/UsingGenesets_Doubleselect.png)
+	
 4.  The resulting heatmap (Figure 9) has the samples ordered by the
     result of the clustering of the dataset. On the y-axis the genes are
     annotated with their membership to both pathways; the upper bar is
@@ -123,10 +123,10 @@ Tutorial step 2
     genes are clustering together.
 
 
-![Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
-
-[**Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.**](_static/images/UsingGenesets_Heatmap2.png)
-
+	![Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
+	
+	[**Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.**](_static/images/UsingGenesets_Heatmap2.png)
+	
 
 
 
@@ -142,18 +142,18 @@ Tutorial step 3
     subcollection selection window choose Cellular Processes again
     (Figure 7) and click "next".
     
-![Figure    10: Selecting the domain to order samples by: Order by a    track](_static/images/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
-
-[**Figure    10: Selecting the domain to order samples by: Order by a    track**](_static/images/UsingGenesets_SelectDomain.png)
-
+	![Figure    10: Selecting the domain to order samples by: Order by a    track](_static/images/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
+	
+	[**Figure    10: Selecting the domain to order samples by: Order by a    track**](_static/images/UsingGenesets_SelectDomain.png)
+	
 2.  Now select only the Cell cycle subset as GeneSet. Choose the
     Neuroblastoma staging INSS as track to order samples by and click
     "next" (Figure 11)
     
-![Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track](_static/images/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
-
-[**Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track**](_static/images/UsingGenesets_CellCycle.png)
-
+	![Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track](_static/images/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
+	
+	[**Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track**](_static/images/UsingGenesets_CellCycle.png)
+	
 3.  In the resulting heatmap it is clear that there is a segment of
     genes in the Cell Cycle pathway cluster that is consistently
     upregulated in the stage 4 Neuroblastoma samples (in red in the
@@ -222,10 +222,10 @@ to do a simple hierarchicl clustering
     Kool e.a. (2008).
 
 
-!['Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
-
-[**'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.**](_static/images/UsingGenesets_Unsupervised.png)
-
+	!['Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
+	
+	[**'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.**](_static/images/UsingGenesets_Unsupervised.png)
+	
 
 
 
