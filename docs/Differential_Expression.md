@@ -45,7 +45,6 @@ Tutorial step 1
 3.  Type MYCN as gene (see Figure 1) in field 4.
 4.  Click "next" in field 5.
 
-
 	![Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2](_static/images/DiffentialExpression_Gene.png "Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2")
 	
 	[**Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2**](_static/images/DiffentialExpression_Gene.png)
@@ -74,7 +73,6 @@ Tutorial step 2
     choices are already provided. Note also that the proper reporter
     probeset is already selected.
 2.  Click "next"
-
 
 	!['Figure2: Selecting the proper annotation track to differentiate expressiondata](_static/images/DiffentialExpression_Select.png "'Figure2: Selecting the proper annotation track to differentiate expressiondata")
 	
@@ -159,7 +157,6 @@ Tutorial step 4
 3.  Adapt the selection in the dropdown box 'Graphtype' to 'Barplot' and
     'ColorMode' to 'Color by Track'
 4.  Click 'Adjust Settings' (Figure 5)
-
 
 	![Figure5: Adapting the Graphtype to BarPlot and set Color byTrack](_static/images/DiffentialExpression_AdaptGraph.png "Figure5: Adapting the Graphtype to BarPlot and set Color byTrack")
 	
@@ -258,7 +255,6 @@ Tutorial step 7
     this for multiple testing! (Figure 12). An amazing amount of
     calculations! R2 performs this on the fly.
 
-
 	![Figure12: Progress dialog during on the flycalculation](_static/images/DiffentialExpress_Progress.png "Figure12: Progress dialog during on the flycalculation")
 	
 	[**Figure12: Progress dialog during on the flycalculation**](_static/images/DiffentialExpress_Progress.png)
@@ -309,14 +305,13 @@ Tutorial step 8
     dataset; in the right menu click 'Plot all genes (xy,
     volcano, etc)'.
 
+![Figure14: In the main screen "Changedataset](_static/images/DiffentialExpress_TopGene.png "Figure14: In the main screen *Changedataset*.")
 
-![Figure14: In the main screen "Changedataset".](_static/images/DiffentialExpress_TopGene.png "Figure14: In the main screen "Changedataset".")
+[**Figure14: In the main screen *Changedataset*.**](_static/images/DiffentialExpress_TopGene.png)
 
-[**Figure14: In the main screen "Changedataset".**](_static/images/DiffentialExpress_TopGene.png)
-**Figure
-15: Right menu in genelist windos; choosing plot all
-genes**](_static/images/DiffentialExpress_RightMenu.png)
+![Figure 15: Right menu in genelist windos; choosing plot all genes](_static/images/DiffentialExpress_RightMenu.png)
 
+[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DiffentialExpress_RightMenu.png)
 
 
 

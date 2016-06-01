@@ -151,13 +151,10 @@ data" tracks that you can assemble either within, but also outside of R2
 via the uploading of a track option that will be shown in the "adapting
 r2 to your needs" chapter.
 
-	![Figure 6: Representations of relations between different types of tracks in R2](_static/images/AnnotationAnalyse_representation.png "Figure6: Representations of relations between different types of tracks in R2")
+![Figure 6: Representations of relations between different types of tracks in R2](_static/images/AnnotationAnalyse_representation.png "Figure6: Representations of relations between different types of tracks in R2")
+
+[**Figure6: "Representations of relations between different types of tracks in R2**](_static/images/AnnotationAnalyse_representation.png)
 	
-	[**Figure6: "Representations of relations between different types of tracks in R2**](_static/images/AnnotationAnalyse_representation.png)
-	
-
-
-
 
 
 Step 4: Annotation plotter
