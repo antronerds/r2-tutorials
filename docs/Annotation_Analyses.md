@@ -43,7 +43,7 @@ cases, R2 contains the Annotation modules; "relate 2 tracks" and
 
 
 
-Tutorial step 1: Relating 2 (categorical) tracks
+Step 1: Relating 2 (categorical) tracks
 ------------------------------------------------
 
 1.  Make sure that you are on the "main" page of R2, and that the
@@ -82,7 +82,6 @@ Tutorial step 1: Relating 2 (categorical) tracks
     great over-representation of stage 4 patients in the group of
     diseased patients who are older than 18 months.
 
-
 	![Figure3: Color samples by track](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
 	
 	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
@@ -92,7 +91,7 @@ Tutorial step 1: Relating 2 (categorical) tracks
 
 
 
-Tutorial step 2: Relating 2 (numerical) tracks
+Step 2: Relating 2 (numerical) tracks
 ----------------------------------------------
 
 1.  Just as in the previous example, we select the "relate 2 tracks"
@@ -107,7 +106,6 @@ Tutorial step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-
 	![Figure 4: Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks.png "Figure 4: Output of relating numericaltracks")
 	
 	[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks.png)
@@ -117,7 +115,7 @@ Tutorial step 2: Relating 2 (numerical) tracks
 
 
 
-Tutorial step 3: Relating a categorical track to a numerical track
+Step 3: Relating a categorical track to a numerical track
 ------------------------------------------------------------------
 
 1.  The last example for relating 2 tracks, involves the combination of
@@ -138,7 +136,6 @@ Tutorial step 3: Relating a categorical track to a numerical track
     track, and you have a nice result here, showing that the survival
     rate is significantly lower in patients of INSS stage 4.
 
-
 	![Figure 5: Representing the relation between categorical and numerical tracks](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
 	
 	[**Figure 5: Representing the relation between categorical and numerical tracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
@@ -154,9 +151,6 @@ data" tracks that you can assemble either within, but also outside of R2
 via the uploading of a track option that will be shown in the "adapting
 r2 to your needs" chapter.
 
-
-
-
 	![Figure 6: Representations of relations between different types of tracks in R2](_static/images/AnnotationAnalyse_representation.png "Figure6: Representations of relations between different types of tracks in R2")
 	
 	[**Figure6: "Representations of relations between different types of tracks in R2**](_static/images/AnnotationAnalyse_representation.png)
@@ -166,7 +160,7 @@ r2 to your needs" chapter.
 
 
 
-Tutorial step 4: Annotation plotter
+Step 4: Annotation plotter
 -----------------------------------
 
 1.  In some publications, patient data is represented in slick looking
@@ -186,7 +180,6 @@ Tutorial step 4: Annotation plotter
     order in which tracks are selected for ordering will also dictate
     the final sort. For some complicated sorts, it may be necessary to
     create a numeric track that puts the sample in the intended order.
-
 
 	![Figure7: Plotting the annotationtracks](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
 	
