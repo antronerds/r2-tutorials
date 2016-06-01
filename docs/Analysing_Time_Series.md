@@ -40,18 +40,13 @@ Scope
     perhaps a better alternative would be to make use of the
     functionalities that are available for regular datasets.
 
-<!-- -->
 
 -   Use the time series module to investigate the expression level of a
     single gene.
 -   Use the time series module to generate a list of regulated genes.
 
-<!-- -->
-
 -   Use a list of regulated genes to analyze a dataset by using the
     geneset view.
-
-<!-- -->
 
 -   Use correlate with dataset to optimize your genecategory.
 
@@ -61,9 +56,6 @@ Scope
 
 Tutorial step 1
 ---------------
-
-
-
 
 
 1.  To view the expression pattern of a single gene from a time series

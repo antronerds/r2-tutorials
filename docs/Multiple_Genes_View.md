@@ -9,9 +9,6 @@ Multiple Genes View
 
 
 
-
-
-
 Scope
 -----
 
@@ -29,7 +26,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Viewing multiple genes
 ---------------
 
 1.  Use "single dataset" in field 1 and select the "Tumor
@@ -55,7 +52,7 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Viewing multiple genes through track annotation
 ---------------
 
 1.  In Figure 1 a selection of gene expression profiles are depicted in

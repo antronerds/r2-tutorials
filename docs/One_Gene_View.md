@@ -32,7 +32,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Selecting a gene
 ---------------
 
 1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
@@ -56,7 +56,7 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Probesets for a gene
 ---------------
 
 1.  In many cases more than one probeset is reported for each gene. In
@@ -99,7 +99,7 @@ Tutorial step 2
 
 
 
-Tutorial step 3
+Step 3: Plotting Gene expression 
 ---------------
 
 1.  R2 generates a YY-graph Figure 3 from the MYCN expression levels of
@@ -148,25 +148,23 @@ Click ‘confirm’ and the redraw button.
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
 
-> *There are several data transformations available                         
- -   “none”: Raw untransformed expression values, as they are represented 
-     in the R2 database.                                                  
- -   “2log”: logarithmic values with base of 2. Every increment           
-     constitutes twice the amount.                                        
- -   “rank”: Data transformation in which numerical or ordinal values are 
+> *There are several data transformations available*                         
+ -   *“none”: Raw untransformed expression values, as they are represented 
+     in the R2 database.*                                                  
+ -   *“2log”: logarithmic values with base of 2. Every increment           
+     constitutes twice the amount.*                                        
+ -   *“rank”: Data transformation in which numerical or ordinal values are 
      replaced by their rank when the data are sorted by expression. This  
-     transformation is useful for non-parametric statistical tests.       
- -   “zscore”: 2log transformed data, centered around the average and     
-     expressed as the number of standard deviations from the average.     
- -   “zscore\_nonlog”: raw intensity values, centered around the average  
-     and expressed as the number of standard deviations from the average. 
-     This transformation is useful when the intensities in R2 are not     
-     raw, but for example logfolds as is often the case for aCGH data.    
- -   “mad/mad2log”: Median absolute deviation (on raw values, or log2     
-     transformed values).                                                 
- -   “center/log2center”: Expression values centered around 0 (on raw     
-     values, or log2 transformed values).                                 
- -   “zcore\_group”: Coverts the expression levels from the zscore within 
+     transformation is useful for non-parametric statistical tests.*       
+ -   *“zscore”: 2log transformed data, centered around the average and     
+     expressed as the number of standard deviations from the average.*     
+ -   *“zscore\_nonlog”: raw intensity values, centered around the average  
+     and expressed as the number of standard deviations from the average. This transformation is 	 useful when the intensities in R2 are not raw, but for example logfolds as is often the 	 	 case for aCGH data.*    
+ -   *“mad/mad2log”: Median absolute deviation (on raw values, or log2     
+     transformed values).*                                                 
+ -   *“center/log2center”: Expression values centered around 0 (on raw     
+     values, or log2 transformed values).*                                 
+ -   *“zcore\_group”: Coverts the expression levels from the zscore within 
      a group (track). Applicable when e.g technical variation in          
      expression levels is expected. A possible reason could be when       
      samples from the same dataset originate from different centers.*      
@@ -174,7 +172,7 @@ Click ‘confirm’ and the redraw button.
 ---------------
 
 
-Tutorial step 4
+Step 4: Probeset verification
 ---------------
 
 
@@ -234,7 +232,7 @@ and click on the “Tview” link in the reporter table.
 ---------------
 
 
-Tutorial step 5.
+Step 5: TranscriptView
 ----------------
 
 1.  Close the TranscriptView TAB or go back to the MYCN 1-gene-view
@@ -282,7 +280,7 @@ literature mining.
 --------------------
 
 
-Tutorial step 6
+Step 6: Adapting plot
 ---------------
 
 

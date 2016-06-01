@@ -22,7 +22,7 @@ Scope
     through most of the tutorial. Later on working with multiple
     datasets will be discussed.
 
-Tutorial step 1
+Step 1: Selecting a dataset
 ---------------
 
 1.  In R2 a large amount of datasets are available for analysis
@@ -53,7 +53,7 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Advanced selection of datasets
 ---------------
 
 1.  Next to the pull down menu you can also choose for the “advanced
