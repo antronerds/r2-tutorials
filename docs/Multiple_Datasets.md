@@ -42,7 +42,7 @@ Step 1: Selecting multiple datasets
     later on.
 
 --------------------------------------------------------------------------
-![](_static/images/R2d2_logo.png)]**Did you know that R2 harbours different types of microarray platforms**
+![](_static/images/R2d2_logo.png)**Did you know that R2 harbours different types of microarray platforms**
 
 ![Multiple dataset selectiong](_static/images/MultipleDatasets_Select.png)             
                                                                           

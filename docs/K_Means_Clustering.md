@@ -65,7 +65,7 @@ Step 2: Adapting settings
     at heatmap option. click ‘next’
 
 ----------
-![](_static/images/R2d2_logo.png)]**Did you know that K-means is a method of cluster analysis?**               
+![](_static/images/R2d2_logo.png)**Did you know that K-means is a method of cluster analysis?**               
 
 ![](_static/images/Kmeans_didyouknow.png)                                  
                                              
@@ -145,7 +145,7 @@ Step 3: Examining resulting clusters
 ------------
   ![](_static/images/R2d2_logo.png)**Did you know that some virus scanners slow drawing of these graphs??**
   
->*If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.
+>*If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.*
 
 --------------
 

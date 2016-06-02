@@ -44,27 +44,25 @@ they follow a specific convention (fixed prefix, followed by \_up and
 \_down; e.g. mycn\_up and mycn\_down).
 
 
+![Figure1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
 
+[**Figure1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 
-	![Figure1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
-	
-	[**Figure1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 	
 -   What is a genesignature
 -   Create a track using the weight scores of a genesignature
 -   Relate a weighed genesignature track to a single gene
 -   Find correlating genesignatures with a track
 
-  --------------------------------------------------------------------------------------------------------------------------------------------
+------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can create gene category couples**
->*R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the "view a geneset" function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).
-  --------------------------------------------------------------------------------------------------------------------------------------------
+>*R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the "view a geneset" function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).*
+
+------------------
 
 
 
-
-
-Tutorial step 1
+Step 1: Creating a geneset signature; a category within R2
 ---------------
 
 
@@ -113,16 +111,16 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 2.7).
 
 
-	![Figure2: Generategenesignature](_static/images/Genesetcorrelation_mycn_signature_v1.png "Figure2: Generategenesignature")
+![Figure2: Generategenesignature](_static/images/Genesetcorrelation_mycn_signature_v1.png "Figure2: Generategenesignature")
 	
-	[**Figure2: Generategenesignature**](_static/images/Genesetcorrelation_mycn_signature_v1.png)
+[**Figure2: Generategenesignature**](_static/images/Genesetcorrelation_mycn_signature_v1.png)
 	
 
 
 
 
 
-Tutorial step 2
+Step 2: Determine the activity of a signature
 ---------------
 
 
@@ -152,20 +150,16 @@ the mRNA level.
     endless with some smart questions (Figure 3.5).
 
 
-
-
-
-
-	![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_v0.png "Figure3: Add groupcolouring")
+![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_v0.png "Figure3: Add groupcolouring")
 	
-	[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
+[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
 	
 
 
 
 
 
-Tutorial step 3
+Step 3: Using signature scores
 ---------------
 
 
@@ -211,10 +205,9 @@ with our signature of interest.
     the "View heatmap of "", providing gene-by-gene information (see
     Figure 4.7).
 
-
-	![Figure4: Findgenesignatures](_static/images/Fig4_mycn_signature_vs_sign_v1.png "Figure4: Findgenesignatures")
+![Figure4: Findgenesignatures](_static/images/Fig4_mycn_signature_vs_sign_v1.png "Figure4: Findgenesignatures")
 	
-	[**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
+[**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
 	
 
 
