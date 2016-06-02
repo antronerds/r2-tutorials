@@ -88,17 +88,17 @@ Step 1: Choosing the time series module and data
 	![Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "Figure    2: Timeseries    selection screen.")
 	
 	[**Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
-	
-In Figure 3 the expression levels of the HMOX1 gene are represented
-in a triplicate Time course experiment after stimulation
-with TGF-beta. Clearly the HMOX1 gene is an early responder and is
-upregulated with a maximum at 4 hours. The HMOX1 gene is presented
-by the authors of the corresponding publication as one the
-upregulated genes after TGF-beta stimulation. It"s should be noted
-that a control experiment is missing in this experimental design.
-Hovering over the individual timepoint reveals
-additional information.
-    
+		
+	In Figure 3 the expression levels of the HMOX1 gene are represented
+	in a triplicate Time course experiment after stimulation
+	with TGF-beta. Clearly the HMOX1 gene is an early responder and is
+	upregulated with a maximum at 4 hours. The HMOX1 gene is presented
+	by the authors of the corresponding publication as one the
+	upregulated genes after TGF-beta stimulation. It"s should be noted
+	that a control experiment is missing in this experimental design.
+	Hovering over the individual timepoint reveals
+	additional information.
+	    
 	![Figure    3: Expression levels of the HMOX1 gene during a time course    experiment](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
 	
 	[**Figure    3: Expression levels of the HMOX1 gene during a time course    experiment**](_static/images/AnalysingTime_HMOX1.png)

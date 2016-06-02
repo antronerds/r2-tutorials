@@ -62,7 +62,6 @@ Step 1: Selecting data and modules; creating a Heatmap
 	
 	[**Figure    3: Available collections of Genesets in    R2**](_static/images/UsingGenesets_Collections.png)
 	
-    
 	![Figure    4: Available ordering domains for    samples](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
 	
 	[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
