@@ -354,6 +354,13 @@ Step 7: View a gene in groups
 
 [**Figure 15: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
 
+-----------
+  ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
+
+> *If you view a gene in groups within the one-gene-view view page and the number of sub-groups are greater than 2, then R2 will automatically perform a brute-force t-testing to identify the combination of 2 groups that have the most significant difference. Just click on the ‘T-test on combinations’ link underneath the image and gain insight into all the tested combinations. When the number of performed tests exceeds XX, R2 will list the XX most significant tests.*
+
+----------
+
 Step 8: Find best track separation with CliniSnitch
 ---------------
 
