@@ -278,8 +278,8 @@ Tutorial step 4
     parameters to optimize appearance of your result.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature***
-  R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
+  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature**
+>*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

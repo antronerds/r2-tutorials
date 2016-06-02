@@ -40,20 +40,19 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Selecting data
 ---------------
 
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" field is selected in field 1 of the R2 step-by-step
     guide
-2.  Make sure the â€˜Tumor Neuroblastoma public datasetâ€™ is selected in
+2.  Make sure the "Tumor Neuroblastoma public dataset" is selected in
     field 2 (For additional information on these first two steps,
     consult tutorial : Working with datasets
 3.  In field 3 select 'Find Correlated genes with a single gene'
     (Figure 1).
 4.  In field 4 type 'MYCN' as gene name
 5.  Click 'Next'
-
 
 	![Figure1: Choice of correlationanalysis.](_static/images/FindGenes_Choiceof.png "Figure1: Choice of correlationanalysis.")
 	
@@ -62,34 +61,31 @@ Tutorial step 1
 
 
 
-
-
-Tutorial step 2
+Step 2: Verifying settings
 ---------------
 
 1.  Further information on the statistics choices and the meaning of the
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
-2.  Further information on the statistics choices and the meaning of the
-    HugoOnce mode you can find in the 'Differential
-    Expression' tutorial.
     
-	![Figure    2: Options page for correlation    calculation](_static/images/FindGenes_OptionPage.png "Figure    2: Options page for correlation    calculation")
+	![Figure 2: Options page for correlation calculation](_static/images/FindGenes_OptionPage.png "Figure 2: Options page for correlation    calculation")
 	
-	[**Figure    2: Options page for correlation    calculation**](_static/images/FindGenes_OptionPage.png)
+	[**Figure 2: Options page for correlation calculation**](_static/images/FindGenes_OptionPage.png)
 	
-3.  Scroll down the screen and click 'Next'
+2.  Scroll down the screen and click 'Next'
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can find the correlation between two genes directly?***
-  Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------
+  ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
+  
+>  *Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.*
+
+------------------
 
 
 
 
 
-Tutorial step 3
+Step 3: Inspecting correlating genes
 ---------------
 
 
@@ -118,7 +114,7 @@ Tutorial step 3
 
 
 Exact (gene-) numbers listed in the tutorial Figures such as in this
-example â€œ2208 combinationsâ€¦â€" can vary. This could be caused by database
+example (2208 combinations) can vary. This is caused by database
 updates upon a new genebuild release or an affymetrix annotation update.
 
 
@@ -132,29 +128,17 @@ updates upon a new genebuild release or an affymetrix annotation update.
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
 3.  In the left upper corner the filter icon is located , this links
-    directly to the â€˜adjustable settings panel â€˜ where you adapt the
+    directly to the "adjustable settings panel " where you adapt the
     filtering conditions . The filter button is accessible in many
     analysis modules of R2.
-
-
-
-
-
 
 	![Figure4: Filterbutton](_static/images/FindGenes_GotoMain.png "Figure4: Filterbutton")
 	
 	[**Figure4: Filterbutton**](_static/images/FindGenes_GotoMain.png)
 	
 
-
-
-
-
-Tutorial step 4
+Step 4: Inspecting correlation between specific genes
 ---------------
-
-
-
 
 
 1.  The resulting graph depicts the expression of both genes in this
@@ -174,48 +158,33 @@ Tutorial step 4
 	![Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene](_static/images/FindGenes_ExpressionNeg.png "Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
 	
 	[**Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/FindGenes_ExpressionNeg.png)
-	
-
-
 
 To generate a correlation plot where the negative relation between MYCN
-and MEAF6 gene is more clearly visualized select â€˜XY-plotâ€™ as graph type
+and MEAF6 gene is more clearly visualized select "XY-plot" as graph type
 in the graphics section in the Adjustable Settings box and click the
-Adjust Settings button. In this correlation plot itâ€™s also still
+Adjust Settings button. In this correlation plot it"s also still
 possible to show expression levels for the samples are distributed. In
 order to do so click on more settings in the Adjustable Settings box and
 set Histogram to yes, click Adjust Settings button. Now the histogram
 boxes in the x and y axes show expression levels are distributed for the
 samples in the selected dataset see Figure 7
-
-
-
-1.  
+ 
 	![Figure    7: Toggle Histogram    on/off](_static/images/FindGenes_ExpressionHis.png "Figure    7: Toggle Histogram    on/off")
 	
 	[**Figure    7: Toggle Histogram    on/off**](_static/images/FindGenes_ExpressionHis.png)
 	
-2.  Through the menu to the right several additional dataviews and
+3.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
     sample names on the x-axis. Return to the genelist view (Figure 3)
-
-
-
-
-
 
 	![Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.")
 	
 	[**Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
 
-
-
-
-
-Tutorial step 5
+Step 5: Relation with Chromosome position
 ---------------
 
 
@@ -230,26 +199,28 @@ arm of) a chromosome is calculated.
 
 
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that over-representation is explained here?***
-  Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)**Did you know that over-representation is explained here?**
+>*Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant*
+
+-------------------------------------------------------------------------------
 
 
 ![Figure9: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on allchromosomes")
 
 [**Figure9: Mapping of the genes correlating with MYCN on allchromosomes**](_static/images/FindGenes_Chromosome.png)
-**Figure
-10: Statistics of overrepresentation of genes that have a correlation
-with MYCN on different
-chromosomes**](_static/images/FindGenes_ChromeTable.png)
+
+![Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes](_static/images/FindGenes_ChromeTable.png "Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
+
+[**Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/FindGenes_ChromeTable.png)
+
 1.  To further explore this set of genes return to the list: Figure 3
 
 
 
 
 
-Tutorial step 6
+Step 6: Establishing overrepresentation in other domains 
 ---------------
 
 1.  Further overrepresentation analyses in other domains can give a
@@ -260,11 +231,11 @@ Tutorial step 6
     locations and functions in biology. Click 'Gene Ontology analysis'
 2.  The resulting categories are presented in a sortable table (Figure
     11), sort on p-value by clicking on the column header.
-    [![](_static/images/FindGenes_GeneOnto.png)**Figure
-    11: Gene Ontology categories that are overrepresented in the set of
-    genes that correlates with MYCN expression in the current dataset,
-    sorted by increasing p-value
-    of overrepresentation.**](_static/images/FindGenes%20GeneOnto.png)
+	    
+	![Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.](_static/images/FindGenes_GeneOnto.png "Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.")
+	
+	[**Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.**](_static/images/FindGenes_GeneOnto.png)
+	
 3.  One of the categories where genes of our current set are
     overrepresented is 'DNA-strand elongation'; and what is also obvious
     that all genes in this process have a consistent positive
@@ -273,17 +244,16 @@ Tutorial step 6
 4.  The adjustable panel settings menu allows you to redo the
     gene-ontology analysis with the up or down regulated genes only.
 
-
-	!['Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
+	![Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
 	
-	[**'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
+	[**Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
 	
 
 
 
 
 
-Tutorial step 7
+Step 7: Gene list in pathway context
 ---------------
 
 1.  Return to the gene list Figure 3 and click 'Map on pathway image'
@@ -307,24 +277,21 @@ Tutorial step 7
     former analysis. The pathway will be shown when the blue A in front
     of the pathway name is clicked.
 5.  A hyperlinked KEGG pathway appears: Figure 15
-
-[![](_static/images/FindGenes_Pathway.png)**Figure
-15: Mapping of the overrepresented genes (darker green) in the MYCN
-correlating set on the DNA-replication pathway\
-from the KEGG database. Hovering over the gene shows additional
-information.**](_static/images/FindGenes%20Pathway.png)
-
-
+	
+	![Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
+	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information](_static/images/FindGenes_Pathway.png "Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
+	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information")
+	
+	[**Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
+	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information.**](_static/images/FindGenes_Pathway.png)
+	
 MCM-genes seem to play a role. Go back to list (Figure 3) to show their
 individual relation with MYCN.
 
 
 
 
-
-
-
-Tutorial step 8
+Step 8: Further pathways analysis
 ---------------
 
 1.  Scroll down and look for the MCM2 gene, click on the link to show
@@ -359,7 +326,6 @@ Tutorial step 8
 5.  This article is actually published work by our group where the
     relation between the MCM genes and MYCN was proven experimentally.
 
-
 	![Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
 	
 	[**Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
@@ -369,7 +335,7 @@ Tutorial step 8
 
 
 
-Tutorial step 9
+Step 9: Gene set analysis
 ---------------
 
 1.  The genelist produced in the beginning of this tutorial (Figure 3)
@@ -385,8 +351,7 @@ Tutorial step 9
 -   "Map on pathway image", "Chromosome map", "Gene Ontology analysis",
     "Heatmap" have been explored in this tutorial.
 -   "MakeMeATable" produces a txt file that is formatted for direct
-    input into the data analysis tool TM4
-    (<http://www.tm4.org/mev.html)>
+    input into the data analysis tool [TM4](http://www.tm4.org/mev.html)
 -   "Save current selection as TXT file" produces a tab separated file
     containing the current analysis. In the header of such file all
     information is stored to be able to redo the analyses in the future.
@@ -394,11 +359,10 @@ Tutorial step 9
     genenames that are considered to be expressed in the
     current dataset. This is a suitable background set for eg. the DAVID
     tool
-    ([](http://david.abcc.ncifcrf.gov/)<http://david.abcc.ncifcrf.gov/>)
+    [DAVID](http://david.abcc.ncifcrf.gov/)
 -   Last but not least the data can be stored as a personal
     genecategory; this is further explored in the advanced tutorial
     "Adapting R2 to your own needs".
-
 
 	![Figure20: Menu choices forDataset](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
 	

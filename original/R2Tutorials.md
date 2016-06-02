@@ -231,9 +231,9 @@ dataset is linked to a publication listed in PubMed
 
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis.In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl***
-  Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to ***<r2-support@amc.nl>***
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)***Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis.In case you want to see a dataset added to R2 please send an email to r2-support@amc.nl**
+>*Such an email should contain a link to the publicly accessible files, such as a Gene Expression Omnibus number (GSE\*\*\*\*\*). Your own private datasets can also be added to R2 with user/group restricted access. please send an email to ***<r2-support@amc.nl>**
+>*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -315,8 +315,8 @@ Tutorial step 1
 3.  Type MYCN and click "next".
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can find the latest R2 updates in the right panel in the R2 main screen***
-  Click on "all news" to see previous R2 updates
+  ![](_static/images/R2d2_logo.png)***Did you know that you can find the latest R2 updates in the right panel in the R2 main screen**
+>*Click on "all news" to see previous R2 updates
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -415,8 +415,8 @@ Tutorial step 3
     Click "**confirm"** and the redraw button.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that the Adjustable Settings panel is also available in the previous screen***
-  Just scroll down
+  ![](_static/images/R2d2_logo.png)***Did you know that the Adjustable Settings panel is also available in the previous screen**
+>*Just scroll down
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  
@@ -1312,7 +1312,7 @@ Tutorial step 7
 	
 	[**Figure12: Progress dialog during on the flycalculation**](_static/images/DiffentialExpress_Progress.png)
 	
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that all other parameters have a meaning?***
 
   **HugoOnce**:For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.
@@ -1321,7 +1321,7 @@ Tutorial step 7
   **Gene Filters:** The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the KEGG pathway database ( [](http://www.genome.jp/kegg/pathway.html)<http://www.genome.jp/kegg/pathway.html>). Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.
   \
   Of course: to really get familiar with these settings you have to toy around with them!
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -1330,10 +1330,10 @@ Tutorial step 7
 Tutorial step 8
 ---------------
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that what those R and p-values were again?***
-  R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2^=0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)***Did you know that what those R and p-values were again?**
+>*R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2^=0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
+  ----------------------------------------------------------------------------------------------------------------
 
 1.  The result is a list of genes that is ordered for having the most
     significant differential expression between the groups you chose
@@ -1421,10 +1421,10 @@ Tutorial step 9
     will be explored in more detail in the 'Find genes correlating with
     your gene of interest'-tutorial
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can tailor visualization of specific genes in one go?***
-  You can annotate genenames by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply. First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\* for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------
+  ![](_static/images/R2d2_logo.png)***Did you know that you can tailor visualization of specific genes in one go?**
+>*You can annotate genenames by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply. First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\* for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"
+  -----------------
 
 
 ![Figure20:Volcanoplot](_static/images/DiffentialExpress_Volcano.png "Figure20:Volcanoplot")
@@ -1548,10 +1548,10 @@ Tutorial step 2
 	
 3.  Scroll down the screen and click 'Next'
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can find the correlation between two genes directly?***
-  Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------
+  ![](_static/images/R2d2_logo.png)***Did you know that you can find the correlation between two genes directly?**
+>*Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.
+  ------------------
 
 
 
@@ -1698,10 +1698,10 @@ arm of) a chromosome is calculated.
 
 
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that over-representation is explained here?***
-  Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)***Did you know that over-representation is explained here?**
+>*Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant
+  -------------------------------------------------------------------------------
 
 
 ![Figure9: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on allchromosomes")
@@ -2185,8 +2185,8 @@ Tutorial step 4
     parameters to optimize appearance of your result.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature***
-  R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
+  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature**
+>*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -2889,8 +2889,8 @@ Tutorial step 3
 	
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?***
-  Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.
+  ![](_static/images/R2d2_logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?**
+>*Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -2900,8 +2900,8 @@ Tutorial step 3
 
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)**'Did you know that** ***some virus scanners slow drawing of these graphs??***
-  If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.
+  ![](_static/images/R2d2_logo.png)**'Did you know that** ***some virus scanners slow drawing of these graphs??**
+>*If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3032,10 +3032,10 @@ they follow a specific convention (fixed prefix, followed by \_up and
 -   Relate a weighed genesignature track to a single gene
 -   Find correlating genesignatures with a track
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can create gene category couples***
-  R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the "view a geneset" function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)***Did you know that you can create gene category couples**
+>*R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the "view a geneset" function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).
+  --------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -3347,8 +3347,8 @@ to your personal needs. Such as fontsize , Line width etc.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments***
-  Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.
+  ![](_static/images/R2d2_logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments**
+>*Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3431,8 +3431,8 @@ Tutorial step 2
 	
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?***
-  In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.
+  ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?**
+>*In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3493,8 +3493,8 @@ Tutorial step 3.
     of the selected genecategory is represented./
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
-  Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.
+  ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info**
+>*Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3504,8 +3504,8 @@ Tutorial step 3.
 
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that with "sample ordering" (Figure 11) you can manage the way the samples are clustered.***
-  By choosing "sample ordering " by "track" , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).
+  ![](_static/images/R2d2_logo.png)***Did you know that with "sample ordering" (Figure 11) you can manage the way the samples are clustered.**
+>*By choosing "sample ordering " by "track" , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3543,8 +3543,8 @@ detail in tutorial 10.
 
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.***
-  You can use this track for further analysis with a custom made track for example by using the "find differential expression between groups". This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and "Adapting R2 to your needs" .
+  ![](_static/images/R2d2_logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.**
+>*You can use this track for further analysis with a custom made track for example by using the "find differential expression between groups". This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and "Adapting R2 to your needs" .
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3946,10 +3946,10 @@ Tutorial step 2
 	
 	[**'Figure5: Samples are in annotated by track by usingLabelMode.**](_static/images/PrincipleComponent_Label.png)
 	
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that PCA clustering is a method that reduces data dimensionality?***
-  \[Principle Component Analysis is a method that reduces data dimensionality by performing co-variance analysis between factors. PCA is especially suitable for datasets with many dimensions, such as a microarray experiment where the measurement of every single gene in a dataset can be considered a dimension. It is impossible to make a visual representation of the relation between genes and their conditions in multi-dimensional matrix. One way to make sense of data is to reduce dimensionality. Several techniques can be used for this purpose and PCA is one of them. The reduction of dimensions is archived by plotting points in a multidimensional space onto a space with fewer dimensions. The reduction is accomplished by identifying directions, so called *principle components*, that describe maximal variation in the data. These principle components can then be used as surrogates to represent each sample, making it possible to visually assess similarities and differences between samples and determine whether samples can be grouped. As the principle components are uncorrelated, they may represent different aspects of the samples and is therefore a powerful tool to identify subgroups in you dataset.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)***Did you know that PCA clustering is a method that reduces data dimensionality?**
+>*\[Principle Component Analysis is a method that reduces data dimensionality by performing co-variance analysis between factors. PCA is especially suitable for datasets with many dimensions, such as a microarray experiment where the measurement of every single gene in a dataset can be considered a dimension. It is impossible to make a visual representation of the relation between genes and their conditions in multi-dimensional matrix. One way to make sense of data is to reduce dimensionality. Several techniques can be used for this purpose and PCA is one of them. The reduction of dimensions is archived by plotting points in a multidimensional space onto a space with fewer dimensions. The reduction is accomplished by identifying directions, so called *principle components*, that describe maximal variation in the data. These principle components can then be used as surrogates to represent each sample, making it possible to visually assess similarities and differences between samples and determine whether samples can be grouped. As the principle components are uncorrelated, they may represent different aspects of the samples and is therefore a powerful tool to identify subgroups in you dataset.
+  -------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -4133,8 +4133,8 @@ Tutorial step 1
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured
     regions are indicated in the reporter track by very dark shades.
-    ****
-    
+    ***
+>*  
 	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
 	
 	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
@@ -5012,8 +5012,8 @@ export the data via the right menu.
     continue your analyses at a later time-point.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can export data from different types of modules?***
-  Using a different module such as "Time Series" also provides the option to export the results of use outside R2 or at a later time point within R2.
+  ![](_static/images/R2d2_logo.png)***Did you know that you can export data from different types of modules?**
+>*Using a different module such as "Time Series" also provides the option to export the results of use outside R2 or at a later time point within R2.
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

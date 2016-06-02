@@ -97,8 +97,8 @@ Tutorial step 1
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured
     regions are indicated in the reporter track by very dark shades.
-    ****
-    
+    ***
+>*  
 	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
 	
 	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
