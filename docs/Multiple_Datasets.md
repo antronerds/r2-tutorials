@@ -27,7 +27,7 @@ Scope
     detail the expression level in a single dataset.
 
 
-Tutorial step 1
+Step 1: Selecting multiple datasets
 ---------------
 
 1.  Use "Across Datasets" in field 1 by default the "megasampler" option
@@ -42,11 +42,12 @@ Tutorial step 1
     later on.
 
 --------------------------------------------------------------------------
-[![](_static/images/R2d2_logo.png)]**Did you know that R2 harbours different types of microarray platforms**
+![](_static/images/R2d2_logo.png)]**Did you know that R2 harbours different types of microarray platforms**
 
-[![](_static/images/MultipleDatasets_Select.png)](_static/images/MultipleDatasets_Select.png)             
+![Multiple dataset selectiong](_static/images/MultipleDatasets_Select.png)             
                                                                           
-Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm and of certain normalizations.                                                          --------------------------------------------------------------------------
+> *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm and of certain normalizations.*
+                                                          --------------------------------------------------------------------------
 
 1.  With the "selection preset" option a pre-stored dataset collection
     with associated settings can be selected. Select "XPO sampler"
@@ -73,16 +74,16 @@ Megasampler only allows you to query multiple datasets if they are of the same c
 	
 
 --------------------------------------------------------------------------
-![](_static/images/R2d2_logo.png)]()**Did you know that private datasets linked to a specific user are indicated with a green background color**
+![](_static/images/R2d2_logo.png)]**Did you know that private datasets linked to a specific user are indicated with a green background color**
 
-![](_static/images/MultipleDatasets_Didyou1.png)
+![Add a private dataset](_static/images/MultipleDatasets_Didyou1.png)
 
-Add a private dataset to the (pre) selected datasets.
+> *Add a private dataset to the (pre) selected datasets.*
 
 --------------------------------------------------------------------------
 
 
-Tutorial step 2
+Step 2: Viewing a gene in multiple datasets
 ---------------
 
 
@@ -118,18 +119,20 @@ representation. The Boxdotplot shows a combined boxplot, on top of which
 the signals of the separate samples are plotted; a quickly interpretable
 graph.
 
-	![Figure 6: YCC expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
-	
-	[**Figure 6: YCC expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
-	
+
+![Figure 6: YCC expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
+
+[**Figure 6: YCC expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
+
 
 Additional insight can be obtained transforming the data, in this case
 transform the data to logical values (none) set "graphtype" on barplot
 and click on "redraw at the bottom of the screen.
 
-	![Figure 7: Different Megasampler graphical representations](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
+
+![Figure 7: Different Megasampler graphical representations](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
 	
-	[**Figure 7: Different Megasampler graphical representations**](_static/images/MultipleDatasets_Representations.png)
+[**Figure 7: Different Megasampler graphical representations**](_static/images/MultipleDatasets_Representations.png)
 	
 
 The plotted graphs for "MYCN" clearly show a high expression level
@@ -147,8 +150,8 @@ directly.
 
 ![](_static/images/UsingDatasets_LinksToRawDataInR2.png)
                          
-Storing a preset not only stores the selection of datasets for future use, but will also remember all of the other settings such as order,
-colors, plot type etc. In essence you can generate the same visual representation for any other gene in this way.
+> *Storing a preset not only stores the selection of datasets for future use, but will also remember all of the other settings such as order,
+colors, plot type etc. In essence you can generate the same visual representation for any other gene in this way.*
 
 --------------------------------------------------------------------------
 
@@ -160,19 +163,16 @@ the previous screen, it"s now possible to skip subgroups from your
 dataset or more interesting, apply different colors for groups within a
 dataset (see Figure 8).
 
-
-
-
-	![Figure8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
+![Figure8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
 	
-	[**Figure8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
+[**Figure8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
 	
 
 
 
 
 
-Tutorial step 3:
+Step 3: Expression distribution over many datasets
 ----------------
 
 
