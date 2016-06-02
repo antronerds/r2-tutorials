@@ -159,27 +159,27 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/FindGenes_ExpressionNeg.png)
 
-To generate a correlation plot where the negative relation between MYCN
-and MEAF6 gene is more clearly visualized select "XY-plot" as graph type
-in the graphics section in the Adjustable Settings box and click the
-Adjust Settings button. In this correlation plot it"s also still
-possible to show expression levels for the samples are distributed. In
-order to do so click on more settings in the Adjustable Settings box and
-set Histogram to yes, click Adjust Settings button. Now the histogram
-boxes in the x and y axes show expression levels are distributed for the
-samples in the selected dataset see Figure 7
+3.  To generate a correlation plot where the negative relation between MYCN
+	and MEAF6 gene is more clearly visualized select "XY-plot" as graph type
+	in the graphics section in the Adjustable Settings box and click the
+	Adjust Settings button. In this correlation plot it"s also still
+	possible to show expression levels for the samples are distributed. In
+	order to do so click on more settings in the Adjustable Settings box and
+	set Histogram to yes, click Adjust Settings button. Now the histogram
+	boxes in the x and y axes show expression levels are distributed for the
+	samples in the selected dataset see Figure 7.
 	
-	![Figure 7: Toggle Histogram on-off](_static/images/FindGenes_ExpressionHis.png "Figure 7: Toggle Histogram    on-off")
+	![Figure 7: Toggle Histogram](_static/images/FindGenes_ExpressionHis.png "Figure 7: Toggle Histogram")
 	
-	[**Figure 7: Toggle Histogram on-off**](_static/images/FindGenes_ExpressionHis.png)
+	[**Figure 7: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
 	
-3.  Through the menu to the right several additional dataviews and
+4.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
     sample names on the x-axis. Return to the genelist view (Figure 3)
 
-	![Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.")
+	![Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
 	
 	[**Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
