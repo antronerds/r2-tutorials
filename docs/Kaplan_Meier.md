@@ -85,7 +85,7 @@ and a mycn amplification, in this cohort.
 ----------
 ![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to analyze a subgroup. In addition you can also adapt the graphical representation***                      
 
-[Adjusting Kaplan graphics](_static/images/WorkingWithKaplan_Adjust.png)                           
+![Adjusting Kaplan graphics](_static/images/WorkingWithKaplan_Adjust.png)                           
 
 > *When you are defining a subsection of the samples, you can execute      
 multiple selections after each other. To use the selection (subset), you
@@ -146,9 +146,9 @@ out whether this is also the case with other cut-off modi.
     could be of help. Alternatively, you could use the "cutoff" field to
     regenerate a Kaplan curve with that separation.
 
-	![Figure7: Adjustable settings menu: change p-value cutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-value cutoff.")
+	![Figure6-a: Adjustable settings menu: change p-value cutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-value cutoff.")
 	
-	[**Figure7: Adjustable settings menu: change p-value cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
+	[**Figure6-a: Adjustable settings menu: change p-value cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
 	
 
 
@@ -180,11 +180,9 @@ Step 3: Kaplan scan for a group of genes
 In Figure 7, clicking on each gene name in the hugo column will result
 in a new screen or tab with the corresponding Kaplan plot.
 
-	![Figure8: Heatmap of the significant prognostic list ofgenes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list ofgenes.")
-	
-	[**Figure8: Heatmap of the significant prognostic list ofgenes.**](_static/images/WorkingWithKaplan_Heatmap.png)
-	
+![Figure8: Heatmap of the significant prognostic list of genes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list of genes.")
 
+[**Figure8: Heatmap of the significant prognostic list of genes.**](_static/images/WorkingWithKaplan_Heatmap.png)
 
 The heatmap shows in this case that 2 or 3 possible biological relevant
 clusters based on this set of genes. Clicking a spot in the heatmap will

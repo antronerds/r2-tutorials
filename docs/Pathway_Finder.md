@@ -38,7 +38,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Selecting data
 ---------------
 
 1.  Make sure that the Single Dataset option is selected in field 1 of
@@ -51,7 +51,6 @@ Tutorial step 1
     Figure 1.
 5.  Click 'Next'
 
-
 	![Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin](_static/images/Pathway_menu.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
 	
 	[**Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin**](_static/images/Pathway_menu.png)
@@ -61,7 +60,7 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Choose the right gene
 ---------------
 
 1.  R2 has found several suggestions with the word catenin, hovering
@@ -81,7 +80,7 @@ Tutorial step 2
 
 
 
-Tutorial step 3
+Step 3: Correlating pathways with a gene
 ---------------
 
 1.  R2 calculates for all genes in the KEGG pathways whether their
@@ -128,7 +127,6 @@ Tutorial step 3
     go to the R2 main page by clicking the link in the upper left corner
     of the screen.
 
-
 	![Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.](_static/images/Pathway_Zoom.png "Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.")
 	
 	[**Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.**](_static/images/Pathway_Zoom.png)
@@ -138,7 +136,7 @@ Tutorial step 3
 
 
 
-Tutorial step 4
+Step 4: Finding pathways relevant in groups of genes
 ---------------
 
 1.  In field 3 on the R2 start page select 'KEGG PathwayFinder by
@@ -154,7 +152,7 @@ Tutorial step 4
 
 
 
-Tutorial step 5
+Step 5: Relating to data annotation
 ---------------
 
 1.  This set of tumors is annotated with several clinical and molecular
@@ -172,7 +170,7 @@ Tutorial step 5
 
 
 
-Tutorial step 6
+Step 6: Determining differentially expressed pathways
 ---------------
 
 1.  R2 calculates for all genes in the KEGG pathways whether they are
@@ -194,7 +192,7 @@ mutation.**](_static/images/Pathway_Wnt.png)
 
 
 
-Tutorial step 7
+Step 7: Verifying a pathway
 ---------------
 
 1.  A list of hyperlinked genes is returned, sort them by descending
@@ -211,7 +209,7 @@ Tutorial step 7
 
 
 
-Tutorial step 8
+Step 8: Correlating with the expression of a gene
 ---------------
 
 1.  The graph shows an excellent correlation of the expression of the
@@ -219,7 +217,6 @@ Tutorial step 8
     The same goes for a significantly overrepresented set of genes in
     this pathway. This specific group of tumors is also known as the
     Wnt-subtype in the Medulloblastoma field.
-
 
 	![Figure10:AXIN2 expression correlates with Beta Cateninmutations](_static/images/Pathway_Axin.png "Figure10:AXIN2 expression correlates with Beta Cateninmutations")
 	
