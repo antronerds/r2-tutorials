@@ -333,7 +333,7 @@ in R2 with the following name "Tumor Neuroblastoma public - Versteeg -
 classes defined in the table below.
 
 | **Class** | **Description** |                     
-------------|-----------------|                                                                         
+|-----------|-----------------|                                                                         
 | **Cellline** | Usually used for cell line panels, where no intervention was applied |                         
 | **Disease**  | Datasets, where a specific disease has been investigated, other than cancer |                             
 | **Exp**      | Experiment datasets. Usually cell line models in which interventions have been applied (Gene transfection, rna interference etc) | 
