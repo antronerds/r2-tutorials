@@ -22,7 +22,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Using Data Grabber
 ---------------
 
 
@@ -74,7 +74,7 @@ amounts, and we will dispatch those via other means.
 
 
 
-Tutorial step 2.
+Step 2: Other formats: TMEV, tab separated, etc
 ----------------
 
 
@@ -109,12 +109,12 @@ export the data via the right menu.
     formats to export your results for use outside R2 or store in R2 to
     continue your analyses at a later time-point.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------
+  ![](_static/images/R2d2_logo.png)]**Did you know that you can export data from different types of modules?**
 
-  [![](_static/images/R2d2_logo.png)](_static/images/R2d2%20logo.png)***Did you know that you can export data from different types of modules?***
-
-  Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>*  Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.*
+  
+------------------
 
 
 

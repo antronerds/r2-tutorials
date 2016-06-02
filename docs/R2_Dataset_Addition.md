@@ -164,14 +164,10 @@ expression data, if provided in a non-transformed fashion. The figure
 below shows an example for an Affymetrix array.
 
 
-
-
-	![Figure1: Example](_static/images/DataSetAddition_table.png "Figure1: Example")
+![Figure1: Example](_static/images/DataSetAddition_table.png "Figure1: Example")
 	
-	[**Figure1: Example**](_static/images/DataSetAddition_table.png)
+[**Figure1: Example**](_static/images/DataSetAddition_table.png)
 	
-
-
 A number of platforms and/or normalizations not only provide a signal
 intensity, but can also express the likelihood that a reporter is
 considered expressed (like present calls or detection p-values for
@@ -225,14 +221,10 @@ find useful. There are a number of special tracks, which you can make
 use of, which will now be described.
 
 
-
-
-	![Figure2: Example2](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
+![Figure2: Example2](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
 	
-	[**Figure2: Example2**](_static/images/DataSetAddition_sampleanno.png)
+[**Figure2: Example2**](_static/images/DataSetAddition_sampleanno.png)
 	
-
-
 Besides providing the annotation for usage in R2, you can also specify
 how R2 makes use of these annotations, specifically in graphical
 representations. To make this known, you can prepare a "relate" file for
@@ -241,14 +233,10 @@ for the different tracks. Below, you can see a section of such a relate
 file.
 
 
-
-
-	![Figure3: Example2](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
+![Figure3: Example2](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
 	
-	[**Figure3: Example2**](_static/images/DataSetAddition_relatefile.png)
+[**Figure3: Example2**](_static/images/DataSetAddition_relatefile.png)
 	
-
-
 Please make sure that the header of the relate file is identical to the
 example, and that the tracknames match to the ones that have been
 defined in the sample annotation. The "istrack" column tells R2 whether
@@ -293,13 +281,9 @@ For example, the file below would be named "overall.txt". Subsequent
 Kaplan curves would get the name "overall survival" on the y-axis.
 
 
-
-
-	![Figure3: Example3](_static/images/DataSetAddition_survival.png "Figure3: Example3")
+![Figure3: Example3](_static/images/DataSetAddition_survival.png "Figure3: Example3")
 	
-	[**Figure3: Example3**](_static/images/DataSetAddition_survival.png)
-	
-
+[**Figure3: Example3**](_static/images/DataSetAddition_survival.png)
 
 **Time series graphs:** When the samples are annotated with the
 appropriate tracks, then R2 can also present datasets as time series.
@@ -318,11 +302,9 @@ you). In case of doubt on the usage of these annotations, do not
 hesitate to get in contact with us via r2-support.
 
 
-
-
-	![Figure4: Example4](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
+![Figure4: Example4](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
 	
-	[**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
+[**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
 	
 
 
@@ -350,62 +332,14 @@ in R2 with the following name "Tumor Neuroblastoma public - Versteeg -
 1\. **Dataset Class**. For Human datasets, one can choose from the
 classes defined in the table below.
 
-
-
-+--------------------------------------+--------------------------------------+
-**Class**                                     
-                                                                         
-                                     **Description**                     
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-**Cellline**                                  
-                                                                         
-                                     Usually used for cell line panels,  
-                                     where no intervention was applied   
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-**Disease**                                   
-                                                                         
-                                     Datasets, where a specific disease  
-                                     has been investigated, other than   
-                                     cancer                              
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-**Exp**                                       
-                                                                         
-                                     Experiment datasets. Usually cell   
-                                     line models in which interventions  
-                                     have been applied (Gene             
-                                     transfection, rna interference etc) 
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-**Mixed**                                     
-                                                                         
-                                     If a dataset makes used of multiple 
-                                     items, then it becomes a mixed set  
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-**Normal**                                    
-                                                                         
-                                     The profiling of healthy normal     
-                                     material                            
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-**Tumor**                                     
-                                                                         
-                                     Datasets which are composed of a    
-                                     specific tumor type belong in this  
-                                     category                            
-                                                                         
-                                                                   
-+--------------------------------------+--------------------------------------+
-
+| **Class** | **Description** |                     
+------------|-----------------|                                                                         
+| **Cellline** | Usually used for cell line panels, where no intervention was applied |                         
+| **Disease**  | Datasets, where a specific disease has been investigated, other than cancer |                             
+| **Exp**      | Experiment datasets. Usually cell line models in which interventions have been applied (Gene transfection, rna interference etc) | 
+| **Mixed**    | If a dataset makes used of multiple items, then it becomes a mixed set | 
+| **Normal**   | The profiling of healthy normal material |                            
+| **Tumor**    | Datasets which are composed of a specific tumor type belong in this category |                            
 
 
 2\. **Tissue**. Depending a little on the choice of class, usually a

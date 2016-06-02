@@ -17,7 +17,7 @@ Note that for a manual under developement, we should make "latest" non-public (c
 The manual is in Markdown format; more about this readable markup format at these urls:
 
 *  [Github related](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-*  [Extensive list](https://daringfireball.net/projects/markdown/syntax#backslash)
+*  [Extensive list](https://daringfireball.net/projects/markdown/syntax)
 
 There is a [standard template](/docs/_templates/R2_Chapter_Template.md) in the _template directory 
 
