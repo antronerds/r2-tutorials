@@ -44,7 +44,7 @@ Step 1: Selecting data and modules
 
 
 
-Tutorial step 2
+Step 2: Exploring the principle components
 ---------------
 
 1.  The next window presents a set of fields where specific settings of

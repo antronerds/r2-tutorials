@@ -152,7 +152,7 @@ Step 3: Examining resulting clusters
 
 
 
-Tutorial step 4
+Step 4: Creating consistent clusters
 ---------------
 
 1.  The resulting clustering in 8 groups is depicted in Figure 5
