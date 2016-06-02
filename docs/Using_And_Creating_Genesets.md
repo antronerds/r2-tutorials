@@ -27,7 +27,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Selecting data and modules; creating a Heatmap
 ---------------
 
 1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
@@ -83,16 +83,16 @@ Tutorial step 1
     This limitation can be adapted in the \`my settings\`.
 
 
-	![Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.](_static/images/UsingGenesets_Heatmap.png "Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
+![Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.](_static/images/UsingGenesets_Heatmap.png "Figure 6:Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
 	
-	[**Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
+[**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
 	
 
 
 
 
 
-Tutorial step 2
+Step 2: Using multiple GeneSets
 ---------------
 
 1.  R2 also allows for multiple genesets to be shown at once; return to
@@ -123,16 +123,16 @@ Tutorial step 2
     genes are clustering together.
 
 
-	![Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
+![Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
 	
-	[**Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.**](_static/images/UsingGenesets_Heatmap2.png)
+[**Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.**](_static/images/UsingGenesets_Heatmap2.png)
 	
 
 
 
 
 
-Tutorial step 3
+Step 3: Relating genesets with data annotation
 ---------------
 
 1.  We're going to explore that in further detail by sorting the dataset
@@ -181,19 +181,19 @@ Tutorial step 3
 
 
 
-Tutorial step 4
+Step 4: Unsupervised hierarchical clusterin with a geneset
 ---------------
 
 
 
 It could be that for a given dataset there is no annotation to apply the
-analysys tools R2 is offering or your"re lacking a starting point to
+analysis tools R2 is offering or your"re lacking a starting point to
 further investigated a dataset. A good starting point could be to do is
-to do a simple hierarchicl clustering
+to do a simple hierarchical clustering
 
 
 
-1.  In chapter " Error: Reference source not found" is explained how to
+1.  In chapter "Differential expression" is explained how to
     generate genesets describing the difference between tracks (groups)
     from an annotated dataset. Researchers often want to investigate the
     presence of subgroups without using annotation information in their
@@ -222,9 +222,9 @@ to do a simple hierarchicl clustering
     Kool e.a. (2008).
 
 
-	!['Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
+![Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
 	
-	[**'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.**](_static/images/UsingGenesets_Unsupervised.png)
+[**Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.**](_static/images/UsingGenesets_Unsupervised.png)
 	
 
 
