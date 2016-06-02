@@ -17,12 +17,8 @@ Scope
     tracks or combine two tracks to assign the group separation of a
     specific dataset.
 
-<!-- -->
-
 -   R2 supports any type of survival data, such as overall survival and
     relapse free survival.
-
-<!-- -->
 
 -   An often used feature of R2 is the Kaplan Scan, where an optimum
     survival cut-off is established based on statistical testing instead
@@ -40,23 +36,15 @@ Scope
     analysis id only possible for datasets where survival data
     is present.
 
-<!-- -->
-
 -   Use the Kaplan Scan for a group of genes.
 
 
-
-
-
-Tutorial step 1
+Step 1: Selecting the Kaplan Meier module
 ---------------
 
 
-
-
-
-1.  Logon the R2 homepage and select Kaplan Meier " By
-    Annotated parameter. You can find this option either in the left
+1.  Logon the R2 homepage and select *Kaplan Meier By
+    Annotated parameter*. You can find this option either in the left
     menu panel on the main screen or in field 3 at the type of analysis
     pull down menu. Using the Kaplan Meier module via the left menu
     directly shows from which datasets survival data is available.
@@ -67,21 +55,13 @@ Tutorial step 1
 	
 2.  In the adjustable settings menu choose "overall survival" , select
     "track" at Separate by and select "inss-cat" stage in use track pull
-    down menu . Click "next" .
+    down menu . Click "next". Note that stage st4s en st1 survival curves are overlapping which 	is in agreement with the clinical outcome of the INSS stages.
     
-	![Figure    2: Kaplan Meier by    "Annotated parameter.](_static/images/WorkingWithKaplan_Kaplan.png "Figure    2: Kaplan Meier by    "Annotated parameter.")
+	![Figure 2: Kaplan Meier by Annotated parameter.](_static/images/WorkingWithKaplan_Kaplan.png "Figure 2: Kaplan Meier by Annotated parameter.")
 	
-	[**Figure    2: Kaplan Meier by    "Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
-	
+	[**Figure 2: Kaplan Meier by Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
 
-
-
-Note that stage st4s en st1 survival curves are overlapping which is in
-agreement with the clinical outcome of the INSS stages.
-
-
-
-1.  A handy feature of the R2 kaplan module is the option to combine two
+3.  A handy feature of the R2 kaplan module is the option to combine two
     tracks to generate subgroups for the Kaplan meier analyses. Use the
     back-button from the browser and select at " separate by " , "
     combination of two tracks". Choose for example for the first track "
@@ -103,24 +83,17 @@ and a mycn amplification, in this cohort.
 
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
-:R2d2%20logo.png)***Did                                
-you know that you can apply a filter to analyze a subgroup. In addition 
-you can also adapt the graphical representation***                      
-----------
-[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W
-orkingWithKaplan_Adjust.png)                           
-                                             
-                                                                        
-\                                                                       
-When you are defining a subsection of the samples, you can execute      
+![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to analyze a subgroup. In addition you can also adapt the graphical representation***                      
+
+[Adjusting Kaplan graphics](_static/images/WorkingWithKaplan_Adjust.png)                           
+
+> *When you are defining a subsection of the samples, you can execute      
 multiple selections after each other. To use the selection (subset), you
 need to click on **confirm** to finalize it. A successful subset        
 selection will be shown as a small message indicating the used          
 trackname, groups and the final number of samples between brackets.    
 Nb. If you use the 'back' button in your webbroswer, then this selection
-will be lost and needs to be defined again.                             
-                                                                        
+will be lost and needs to be defined again.*                          
                                                                   
 ----------
 
@@ -128,10 +101,8 @@ will be lost and needs to be defined again.
 
 
 
-Tutorial step 2
+Step 2: Adapting Kaplan Meier settings; the Kaplan scan
 ---------------
-
-
 
 
 
@@ -161,8 +132,7 @@ Tutorial step 2
 	
 
 
-
-It"s obvious that with the Kaplan Meier scan the group separation is
+It is obvious that with the Kaplan Meier scan the group separation is
 much more significant compared to the median cut-off modus. Try to find
 out whether this is also the case with other cut-off modi.
 
@@ -176,21 +146,16 @@ out whether this is also the case with other cut-off modi.
     could be of help. Alternatively, you could use the "cutoff" field to
     regenerate a Kaplan curve with that separation.
 
-
-
-
-
-
-	![Figure7: Adjustable settings menu: change p-valecutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-valecutoff.")
+	![Figure7: Adjustable settings menu: change p-value cutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-value cutoff.")
 	
-	[**Figure7: Adjustable settings menu: change p-valecutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
+	[**Figure7: Adjustable settings menu: change p-value cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
 	
 
 
 
 
 
-Tutorial step 3
+Step 3: Kaplan scan for a group of genes
 ---------------
 
 1.  Instead of using the Kaplan Scan for a single gene you can also
@@ -207,19 +172,13 @@ Tutorial step 3
     apoptosis pathway which have significant prognostic value. A heatmap
     for this list of genes is generated as well.
 
-
-	![Figure7: A list of Kaplan Meier for a group ofgenes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group ofgenes")
+	![Figure7: A list of Kaplan Meier for a group of genes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group of genes")
 	
-	[**Figure7: A list of Kaplan Meier for a group ofgenes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
+	[**Figure7: A list of Kaplan Meier for a group of genes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
 	
-
 
 In Figure 7, clicking on each gene name in the hugo column will result
 in a new screen or tab with the corresponding Kaplan plot.
-WorkingWithKaplan Heatmap.png
-
-
-
 
 	![Figure8: Heatmap of the significant prognostic list ofgenes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list ofgenes.")
 	
@@ -238,7 +197,7 @@ one-gene-view screen.
 
 
 
-Tutorial step 4
+Step 4: Kaplan scan on your own cohort
 ---------------
 
 1.  It may happen that you would like to use the KaplanScan method on a
@@ -277,12 +236,11 @@ Tutorial step 4
 4.  Once the image has been created, you are able to adapt various
     parameters to optimize appearance of your result.
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that The survival data used in your scan produces a unique signature**
->*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain idenitical).
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+-----------------------
+  ![](_static/images/R2d2_logo.png)**Did you know that The survival data used in your scan produces a unique signature**
+>*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain identical).*
+  
+-----------------------
 
 
 
