@@ -29,7 +29,7 @@ Tutorial step 1
 
 
 
-1.  In the main menu select ‘Tools’ &gt; ‘Data Grabber’. A dropdown menu
+1.  In the main menu select ‘Tools’ > ‘Data Grabber’. A dropdown menu
     appears from where you can select the dataset of interest and
     click ‘next’.
     

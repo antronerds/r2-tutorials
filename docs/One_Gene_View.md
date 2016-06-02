@@ -226,7 +226,7 @@ and click on the “Tview” link in the reporter table.
 ---------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can browse the gene expression values along the genome***
 
-> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.\
+> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
   What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
 
 ---------------
@@ -248,7 +248,7 @@ analyses. KaplanScan and Time Series analyses will be discussed in
 separate tutorials. GeneCards will redirect you to an overview on your
 gene of interest composed of many different resources. ProbePlus, will
 provide the sequences probed by the U133 Affymetrix platforms (Will not
-be shown in other platforms).\
+be shown in other platforms).
 Across datasets will generate an overview showing the average expression
 of the gene of interest within all datasets of the same
 platform/normalization scheme (provided that the normalization supports

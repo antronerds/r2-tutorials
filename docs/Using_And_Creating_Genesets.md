@@ -205,7 +205,7 @@ to do a simple hierarchicl clustering
     of genes using a filter. By using this filter you can select groups
     of genes with the highest, lowest or most variable genes etc etc.
 3.  To use the toplister tool go to the main menu and select
-    tools&gt;small tools &gt; Toplister. Make sure Data Type is set to
+    tools>small tools > Toplister. Make sure Data Type is set to
     Expression data and select Tumor Medulloblastoma PLoS One - Kool -
     62 - MAS5.0 - u133p2 and click next. In the adjustable settings
     screen all kinds of settings and filtering options can be adapted.

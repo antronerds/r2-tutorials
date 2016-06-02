@@ -95,34 +95,34 @@ agreement with the clinical outcome of the INSS stages.
 
 
 
-The combined track agegroup ( &gt;=1 year) and no mycn application
+The combined track agegroup ( >=1 year) and no mycn application
 results in intermediate survival probability. Note that there are 3
-groups instead of "expected" 4 since there are no patients &lt; 1 year
+groups instead of "expected" 4 since there are no patients < 1 year
 and a mycn amplification, in this cohort.
 
 
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that you can apply a filter to analyze a subgroup. In addition  |
-| you can also adapt the graphical representation***                       |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W |
-| orkingWithKaplan_Adjust.png)                            |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| When you are defining a subsection of the samples, you can execute       |
-| multiple selections after each other. To use the selection (subset), you |
-| need to click on **confirm** to finalize it. A successful subset         |
-| selection will be shown as a small message indicating the used           |
-| trackname, groups and the final number of samples between brackets.\     |
-| Nb. If you use the 'back' button in your webbroswer, then this selection |
-| will be lost and needs to be defined again.                              |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that you can apply a filter to analyze a subgroup. In addition 
+you can also adapt the graphical representation***                      
+----------
+[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W
+orkingWithKaplan_Adjust.png)                           
+                                             
+                                                                        
+\                                                                       
+When you are defining a subsection of the samples, you can execute      
+multiple selections after each other. To use the selection (subset), you
+need to click on **confirm** to finalize it. A successful subset        
+selection will be shown as a small message indicating the used          
+trackname, groups and the final number of samples between brackets.    
+Nb. If you use the 'back' button in your webbroswer, then this selection
+will be lost and needs to be defined again.                             
+                                                                        
+                                                                  
+----------
 
 
 
@@ -245,7 +245,7 @@ Tutorial step 4
     dataset that is not available in R2. Especially for this reason we
     have made a user defined version within R2, where you can paste your
     cohort into R2 and run the procedure. To initiate such a user
-    defined kaplanscan, select the "Kaplan Meier" &gt; "Kaplan Meier by
+    defined kaplanscan, select the "Kaplan Meier" > "Kaplan Meier by
     user provide data" option from the left hand menu.
     
 	![Figure    9: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")

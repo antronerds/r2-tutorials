@@ -279,7 +279,7 @@ Tutorial step 3.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
-  Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting &lt; \~400 genes.
+  Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

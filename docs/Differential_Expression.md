@@ -33,7 +33,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Selecting data and gene
 ---------------
 
 1.  Logon to the R2 homepage using your credentials and make sure the
@@ -54,15 +54,16 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Choose annotation track as grouping variable
 ---------------
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can create your own tracks?***
 
-  This is explained in a separate tutorial "Adapting R2 to your needs"\
-  Datasets are listed alphabetically
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  *This is explained in a separate tutorial [Adapting R2 to your needs](DiffentialExpression_Select.png)
+  Datasets are listed alphabetically*
+  
+------------------
 
 1.  In the next screen you will decide which grouping variable to use to
     establish the differential expression of your gene of interest. In
@@ -78,37 +79,30 @@ Tutorial step 2
 	
 	[**'Figure2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/DiffentialExpression_Select.png)
 	
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that samples can be filtered and/or marked?***                  |
-+--------------------------------------------------------------------------+
-|                                               |
-|                                                                          |
-| Under the sub-header "Sample Filter" you can select a specific subset of |
-| samples based on the annotation (track).\                                |
-| The analysis will only be performed on the selected subset. In Fig 2a    |
-| the track gender was selected that enables filtering on gender.\         |
-| Be sure to click the red confirm link to set the filter, or make further |
-| selections. Filtering and marking samples Keep in mind that you can      |
-| repeat the filter procedure on top of the previous one.\                 |
-| Don"t forget the red "confirm" link before switching tracks. The extra   |
-| graph option allows the users to select different graphical              |
-| representations.\                                                        |
-| In the samples to mark section, a sample name can be entered that will   |
-| be highlighted resulting graph; ideal for publication purposes.          |
-|                                                                          |
-|                                                                    |
-|                                                                          |
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/D |
-| iffentialExpress_Adjust.png)                            |
-+--------------------------------------------------------------------------+
+------------------
+![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
+
+> *Under the sub-header "Sample Filter" you can select a specific subset of
+samples based on the annotation (track).                               
+The analysis will only be performed on the selected subset. In Fig 2a   
+the track gender was selected that enables filtering on gender.        
+Be sure to click the red confirm link to set the filter, or make further
+selections. Filtering and marking samples Keep in mind that you can     
+repeat the filter procedure on top of the previous one.                
+Don"t forget the red "confirm" link before switching tracks. The extra  
+graph option allows the users to select different graphical             
+representations.                                                       
+In the samples to mark section, a sample name can be entered that will  
+be highlighted resulting graph; ideal for publication purposes.*         
+                                                                                                                                          
+                                                                        
+![Adjusting differential expression](_static/images/DiffentialExpress_Adjust.png)
+                           
+----------
 
 
 
-
-
-Tutorial step 3
+Step 3: Defining groups
 ---------------
 
 1.  In the next window a selection of the groups can be made. Only the
@@ -127,7 +121,7 @@ Tutorial step 3
 
 
 
-Tutorial step 4
+Step 4: Anova results
 ---------------
 
 1.  R2 now performs a one-way Anova statistical test on the fly. This
@@ -167,7 +161,7 @@ Tutorial step 4
 
 
 
-Tutorial step 5
+Step 5: Adapting plots
 ---------------
 
 1.  The resulting graph is adapted accordingly (Figure 5)
@@ -217,7 +211,7 @@ Tutorial step 5
 
 
 
-Tutorial step 6
+Step 6: Finding all differentially expressed genes 
 ---------------
 
 1.  It would be a pretty tedious job to look for all genes whether they
@@ -237,7 +231,7 @@ Tutorial step 6
 
 
 
-Tutorial step 7
+Step 7: Setting parameters
 ---------------
 
 1.  In the next window there appear quite a few choices for setting the
@@ -259,28 +253,26 @@ Tutorial step 7
 	
 	[**Figure12: Progress dialog during on the flycalculation**](_static/images/DiffentialExpress_Progress.png)
 	
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------
   ![](_static/images/R2d2_logo.png)***Did you know that all other parameters have a meaning?***
 
-  **HugoOnce**:For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.\
-  **Differential Expression**: R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.\
-  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) " (1/2)10 = 0.0107This is relatively unlikely, and under"statistical criteria;such as ;p-value;&lt; 0.05, one would declare that the null hypothesis should be rejected " i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.\
-  **Gene Filters:** The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the KEGG pathway database ( [](http://www.genome.jp/kegg/pathway.html)<http://www.genome.jp/kegg/pathway.html>). Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.\
-  \
-  Of course: to really get familiar with these settings you have to toy around with them!
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>  **HugoOnce**:*For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.*
+>  **Differential Expression**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
+>  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1)x(1/2)^ 10 = 0.0107 This is relatively unlikely, and under statistical criteria; such as p-value < 0.05, one would declare that the null hypothesis should be rejected i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)^100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.*
+>  **Gene Filters:** *The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the [KEGG pathway database](http://www.genome.jp/kegg/pathway.html) . Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.*
+*Of course: to really get familiar with these settings you have to toy around with them!*
+-----------------
 
 
 
-
-
-Tutorial step 8
+Step 8: Inspecting single gene
 ---------------
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that what those R and p-values were again?***
-  R is the correlation coefficient; it ranges from -1 to +1, if R &gt; 0 the value of two variables tends to increase or decrease together. If R &lt; 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2^=0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
+  ![](_static/images/R2d2_logo.png)***What were those R and p-values again?***>
+>  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.*
+
+---------------------
 
 1.  The result is a list of genes that is ordered for having the most
     significant differential expression between the groups you chose
@@ -301,7 +293,7 @@ Tutorial step 8
     "adjust settings".
 4.  The functionality in the right panel of Figure 15 will be explored
     in more advanced tutorials (K-Means clustering). We'll explore one
-    add**i**tional data visualization however; that of all genes I this
+    additional data visualization however; that of all genes I this
     dataset; in the right menu click 'Plot all genes (xy,
     volcano, etc)'.
 
@@ -316,7 +308,7 @@ Tutorial step 8
 
 
 
-Tutorial step 9
+Step 9: Adapting visualization: Volcano plot etc
 ---------------
 
 1.  The resulting plot shows all genes in the list in a XY-plot;
@@ -326,7 +318,7 @@ Tutorial step 9
     graph generation this information is not automatically loaded: click
     on the "add hovering" button below the graph to add
     this information. Note: every plot in R2 with larger amounts of
-    datapoints (&gt;5000) will have this "add hovering" button.
+    datapoints (>5000) will have this "add hovering" button.
     
 	![Figure    16: XY plot of all genes differentially expressed in the current    track;](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
 	
@@ -367,10 +359,11 @@ Tutorial step 9
     will be explored in more detail in the 'Find genes correlating with
     your gene of interest'-tutorial
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can tailor visualization of specific genes in one go?***
-  You can annotate genenames by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply. First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\* for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------
+  ![](_static/images/R2d2_logo.png)**Did you know that you can tailor visualization of specific genes in one go?**
+>  *You can annotate genenames by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply. First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\* for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"*
+
+----------------
 
 
 ![Figure20:Volcanoplot](_static/images/DiffentialExpress_Volcano.png "Figure20:Volcanoplot")

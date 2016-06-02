@@ -116,17 +116,17 @@ internet browsers support the 3D visualization.
 
 
 
-+--------------------------------------------------------------------------+
-|                                               |
-|                                                                          |
-| With Firefox in some cases it"s not possible to rotate the 3D graph in   |
-| that case adjusts the following setting in firefox. : type about         |
-| "about:config" in the URL box, search for webgl and Enable               |
-| "webgl.force-enabled": TRUE. The 3-D module is also working with Chrome  |
-| but not with Internet Explorer.                                          |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+                                             
+                                                                        
+With Firefox in some cases it"s not possible to rotate the 3D graph in  
+that case adjusts the following setting in firefox. : type about        
+"about:config" in the URL box, search for webgl and Enable              
+"webgl.force-enabled": TRUE. The 3-D module is also working with Chrome 
+but not with Internet Explorer.                                         
+                                                                        
+                                                                  
+----------
 
 1.  In the adjustable settings menu select the "3d" option and
     click "next".

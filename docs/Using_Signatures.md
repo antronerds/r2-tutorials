@@ -182,7 +182,7 @@ with our signature of interest.
 
 1.  Go back to the "main" page and select "Geneset vs Geneset
     correlation" from "box 3" and click "Next" (Figure 4.1).
-2.  On the next page, select at the input Geneset -&gt; Gene set
+2.  On the next page, select at the input Geneset -> Gene set
     Collection (source): "geneset\_\_r2provided\_genelists". In the
     Genesets to Scan (target): select 'geneset\_broad\_2012\_oncogenic'
     (Figure 4.2). Then click "next".

@@ -64,14 +64,14 @@ Tutorial step 1
     Genbank database. The EST and mRNA sequences are colored by the
     orientation \#: of alignments, as determined by exon-intron
     junctions and poly-A signals to the genome. Here, green alignments
-    indicate a 5\`-&gt; 3\` mapping on the positive strand of the
-    genome, while a red mapping represents a \#: 5\`-&gt;3\`mapping on
+    indicate a 5\`-> 3\` mapping on the positive strand of the
+    genome, while a red mapping represents a \#: 5\`->3\`mapping on
     the negative strand of the genome (reverse complement orientation).
     In sequences where no information on the orientation is encountered,
     the alignment becomes blue. In this MYCN example, the gene, as \#:
     represented by the refseq \#: track, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
-    be read 5\`-&gt;3\`from left to right. The shadings in green, for
+    be read 5\`->3\`from left to right. The shadings in green, for
     the separate EST and mRNA \#: mappings, indicate exon (darker) and
     intronic (lighter) regions (Figure 3 shows a legend to all the
     different color shades). If we look at the reporters underneath the
@@ -181,21 +181,21 @@ Tutorial step 2
     from the UCSC database (keep in mind this option is available until
     the region of interest reaches a certain size)
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that the additional settings can be changed in “Tracks          |
-| Panel".***                                                               |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U |
-| singR2genome_toolicon.png)                              |
-|                                               |
-|                                                                          |
-| . Clicking on the tool icon unfolds extra options to configure your      |
-| graph                                                                    |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that the additional settings can be changed in “Tracks         
+Panel".***                                                              
+----------
+[![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U
+singR2genome_toolicon.png)                             
+                                             
+                                                                        
+. Clicking on the tool icon unfolds extra options to configure your     
+graph                                                                   
+                                                                        
+                                                                  
+----------
 
 
 

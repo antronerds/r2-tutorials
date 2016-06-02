@@ -98,7 +98,7 @@ Tutorial step 3
 	
 2.  An overall explanation is printed above the list; of all genes
     present in all KEGG pathways, \~ 540 correlate with CTNNB1 with a p
-    value &lt; 0.05. In the table the KEGG pathways are listed ranked by
+    value < 0.05. In the table the KEGG pathways are listed ranked by
     their p-value for overrepresentation (background in red) or
     under-representation (in green) of these genes. The brightly colored
     letters in front of the pathway-name are hyperlinked. **R** links to

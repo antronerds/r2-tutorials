@@ -64,40 +64,40 @@ Tutorial step 2
     of minimize your K-means plot by adapting te size of the retangles
     at heatmap option. click ‘next’
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that K-means is a method of cluster analysis?***                |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K |
-| means_didyouknow.png)                                   |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| In data mining, k-means clustering is a method of cluster analysis which |
-| aims to partition n observations into k clusters in which each           |
-| observation belongs to the cluster with the nearest mean. This might     |
-| sound complicated but is easily illustrated: suppose we have a set of 12 |
-| patients where we observe the expression of two genes; expression of     |
-| gene 1 along the x-axis, gene 2 on the y-axis (in our situation we have  |
-| much more genes; the calculation will then be done in more dimensions).  |
-| We're now going to try to cluster this set of n patients observed in     |
-| three groups; k = 3. The following steps illustrate the algorithm (1-4   |
-| from left to right) \# k = 3 initial "means" are randomly selected in    |
-| the data set (shown in color) \# k clusters are created by associating   |
-| every observation with the nearest mean. This partitions 2-D plane (the  |
-| so called dataspace) in three areas. \# The initial means are moved to   |
-| the centers of the three areas; the centroids. \# Steps 2 and 3 are      |
-| repeated until convergence has been reached. As is obvious from the end  |
-| point from this calculation this is a heuristic algorithm, there is no   |
-| guarantee that it will converge to the global optimum, and the result    |
-| may depend on the initial, randomly assigned clusters. As the algorithm  |
-| is usually very fast, it is common to run it multiple times with         |
-| different starting conditions and compare the outcome. R2 visualizes     |
-| this in the end result of the calculation.                               |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that K-means is a method of cluster analysis?***               
+----------
+[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K
+means_didyouknow.png)                                  
+                                             
+                                                                        
+\                                                                       
+In data mining, k-means clustering is a method of cluster analysis which
+aims to partition n observations into k clusters in which each          
+observation belongs to the cluster with the nearest mean. This might    
+sound complicated but is easily illustrated: suppose we have a set of 12
+patients where we observe the expression of two genes; expression of    
+gene 1 along the x-axis, gene 2 on the y-axis (in our situation we have 
+much more genes; the calculation will then be done in more dimensions). 
+We're now going to try to cluster this set of n patients observed in    
+three groups; k = 3. The following steps illustrate the algorithm (1-4  
+from left to right) \# k = 3 initial "means" are randomly selected in   
+the data set (shown in color) \# k clusters are created by associating  
+every observation with the nearest mean. This partitions 2-D plane (the 
+so called dataspace) in three areas. \# The initial means are moved to  
+the centers of the three areas; the centroids. \# Steps 2 and 3 are     
+repeated until convergence has been reached. As is obvious from the end 
+point from this calculation this is a heuristic algorithm, there is no  
+guarantee that it will converge to the global optimum, and the result   
+may depend on the initial, randomly assigned clusters. As the algorithm 
+is usually very fast, it is common to run it multiple times with        
+different starting conditions and compare the outcome. R2 visualizes    
+this in the end result of the calculation.                              
+                                                                        
+                                                                  
+----------
 
 
 

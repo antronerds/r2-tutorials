@@ -198,31 +198,31 @@ datasets".
 
 
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that clicking on an exclamation balloon provides additional     |
-| info***                                                                  |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/U |
-| singDatasets_ClickExclamationMarkForInfoInR2.png)       |
-|                                               |
-|                                                                          |
-| \                                                                        |
-|                                                                          |
-|                                                                    |
-|                                                                          |
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/U |
-| singDatasets_LinksToRawDataInR2.png)                    |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| Clicking on the GEO ID link redirects to the GEO repository database     |
-| where RAW data files are available. A Pubmed link is listed in case the  |
-| dataset is linked to a publication listed in PubMed                      |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that clicking on an exclamation balloon provides additional    
+info***                                                                 
+----------
+[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/U
+singDatasets_ClickExclamationMarkForInfoInR2.png)      
+                                             
+                                                                        
+\                                                                       
+                                                                        
+                                                                  
+                                                                        
+[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/U
+singDatasets_LinksToRawDataInR2.png)                   
+                                             
+                                                                        
+\                                                                       
+Clicking on the GEO ID link redirects to the GEO repository database    
+where RAW data files are available. A Pubmed link is listed in case the 
+dataset is linked to a publication listed in PubMed                     
+                                                                        
+                                                                  
+----------
 
 
 
@@ -355,27 +355,27 @@ Tutorial step 2
 3.  In the adjustable settings screen use the pre-defined default
     settings and click "next".
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that a reporter with an exclamation marks is an indication      |
-| there may be something wrong with the reporter (e.g. bad design)***      |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/O |
-| neGene_Probeset.png)                                    |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| Hovering over the exclamation mark will inform you on what may be the    |
-| issue with a specific reporter (probeset).Reportes with an issue will    |
-| not be used to represent a gene in searches where hugoonce is used.\     |
-| Hovering over the name of a gene will display concise gene information,  |
-| such as alternative names for the current gene. In case you are not      |
-| searching with an official NCBI genesymbol, R2 will also search the      |
-| alternative names to find your gene of interest.                         |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that a reporter with an exclamation marks is an indication     
+there may be something wrong with the reporter (e.g. bad design)***     
+----------
+[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/O
+neGene_Probeset.png)                                   
+                                             
+                                                                        
+\                                                                       
+Hovering over the exclamation mark will inform you on what may be the   
+issue with a specific reporter (probeset).Reportes with an issue will   
+not be used to represent a gene in searches where hugoonce is used.    
+Hovering over the name of a gene will display concise gene information, 
+such as alternative names for the current gene. In case you are not     
+searching with an official NCBI genesymbol, R2 will also search the     
+alternative names to find your gene of interest.                        
+                                                                        
+                                                                  
+----------
 
 
 
@@ -425,35 +425,35 @@ Tutorial step 3
 	[**Figure    4: Adjusting the graph    settings**](_static/images/OneGene_Marksample.png)
 	
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that converting expression levels using the "transform" option  |
-| can help you to gain additional insight.***                              |
-+--------------------------------------------------------------------------+
-| There are several data transformations available                         |
-| -   "none": Raw untransformed expression values, as they are represented |
-|     in the R2 database.                                                  |
-| -   "2log": logarithmic values with base of 2. Every increment           |
-|     constitutes twice the amount.                                        |
-| -   "rank": Data transformation in which numerical or ordinal values are |
-|     replaced by their rank when the data are sorted by expression. This  |
-|     transformation is useful for non-parametric statistical tests.       |
-| -   "zscore": 2log transformed data, centered around the average and     |
-|     expressed as the number of standard deviations from the average.     |
-| -   "zscore\_nonlog": raw intensity values, centered around the average  |
-|     and expressed as the number of standard deviations from the average. |
-|     This transformation is useful when the intensities in R2 are not     |
-|     raw, but for example logfolds as is often the case for aCGH data.    |
-| -   "mad/mad2log": Median absolute deviation (on raw values, or log2     |
-|     transformed values).                                                 |
-| -   "center/log2center": Expression values centered around 0 (on raw     |
-|     values, or log2 transformed values).                                 |
-| -   "zcore\_group": Coverts the expression levels from the zscore within |
-|     a group (track). Applicable when e.g technical variation in          |
-|     expression levels is expected. A possible reason could be when       |
-|     samples from the same dataset originate from different centers.      |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that converting expression levels using the "transform" option 
+can help you to gain additional insight.***                             
+----------
+There are several data transformations available                        
+-   "none": Raw untransformed expression values, as they are represented
+    in the R2 database.                                                 
+-   "2log": logarithmic values with base of 2. Every increment          
+    constitutes twice the amount.                                       
+-   "rank": Data transformation in which numerical or ordinal values are
+    replaced by their rank when the data are sorted by expression. This 
+    transformation is useful for non-parametric statistical tests.      
+-   "zscore": 2log transformed data, centered around the average and    
+    expressed as the number of standard deviations from the average.    
+-   "zscore\_nonlog": raw intensity values, centered around the average 
+    and expressed as the number of standard deviations from the average.
+    This transformation is useful when the intensities in R2 are not    
+    raw, but for example logfolds as is often the case for aCGH data.   
+-   "mad/mad2log": Median absolute deviation (on raw values, or log2    
+    transformed values).                                                
+-   "center/log2center": Expression values centered around 0 (on raw    
+    values, or log2 transformed values).                                
+-   "zcore\_group": Coverts the expression levels from the zscore within
+    a group (track). Applicable when e.g technical variation in         
+    expression levels is expected. A possible reason could be when      
+    samples from the same dataset originate from different centers.     
+----------
 
 
 
@@ -510,7 +510,7 @@ view**](_static/images/OneGene_Tview.png)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can browse the gene expression values along the genome***
 
-  Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.\
+  Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
   What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -537,7 +537,7 @@ analyses. KaplanScan and Time Series analyses will be discussed in
 separate tutorials. GeneCards will redirect you to an overview on your
 gene of interest composed of many different resources. ProbePlus, will
 provide the sequences probed by the U133 Affymetrix platforms (Will not
-be shown in other platforms).\
+be shown in other platforms).
 Across datasets will generate an overview showing the average expression
 of the gene of interest within all datasets of the same
 platform/normalization scheme (provided that the normalization supports
@@ -548,7 +548,7 @@ dataset additions).
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
 
-  The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.\
+  The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.
   To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -566,8 +566,8 @@ literature mining.
   ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
 
   In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?\
-  Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.\
-  Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.\
+  Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.
+  Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.
   Next to building efficient queries, Pub re-miner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1129,31 +1129,31 @@ Tutorial step 2
 	
 	[**'Figure2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/DiffentialExpression_Select.png)
 	
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that samples can be filtered and/or marked?***                  |
-+--------------------------------------------------------------------------+
-|                                               |
-|                                                                          |
-| Under the sub-header "Sample Filter" you can select a specific subset of |
-| samples based on the annotation (track).\                                |
-| The analysis will only be performed on the selected subset. In Fig 2a    |
-| the track gender was selected that enables filtering on gender.\         |
-| Be sure to click the red confirm link to set the filter, or make further |
-| selections. Filtering and marking samples Keep in mind that you can      |
-| repeat the filter procedure on top of the previous one.\                 |
-| Don"t forget the red "confirm" link before switching tracks. The extra   |
-| graph option allows the users to select different graphical              |
-| representations.\                                                        |
-| In the samples to mark section, a sample name can be entered that will   |
-| be highlighted resulting graph; ideal for publication purposes.          |
-|                                                                          |
-|                                                                    |
-|                                                                          |
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/D |
-| iffentialExpress_Adjust.png)                            |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that samples can be filtered and/or marked?***                 
+----------
+                                             
+                                                                        
+Under the sub-header "Sample Filter" you can select a specific subset of
+samples based on the annotation (track).                               
+The analysis will only be performed on the selected subset. In Fig 2a   
+the track gender was selected that enables filtering on gender.        
+Be sure to click the red confirm link to set the filter, or make further
+selections. Filtering and marking samples Keep in mind that you can     
+repeat the filter procedure on top of the previous one.                
+Don"t forget the red "confirm" link before switching tracks. The extra  
+graph option allows the users to select different graphical             
+representations.                                                       
+In the samples to mark section, a sample name can be entered that will  
+be highlighted resulting graph; ideal for publication purposes.         
+                                                                        
+                                                                  
+                                                                        
+[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/D
+iffentialExpress_Adjust.png)                           
+----------
 
 
 
@@ -1315,10 +1315,10 @@ Tutorial step 7
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that all other parameters have a meaning?***
 
-  **HugoOnce**:For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.\
-  **Differential Expression**: R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.\
-  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) " (1/2)10 = 0.0107This is relatively unlikely, and under"statistical criteria;such as ;p-value;&lt; 0.05, one would declare that the null hypothesis should be rejected " i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.\
-  **Gene Filters:** The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the KEGG pathway database ( [](http://www.genome.jp/kegg/pathway.html)<http://www.genome.jp/kegg/pathway.html>). Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.\
+  **HugoOnce**:For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called HugoOnce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used.
+  **Differential Expression**: R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.
+  **Multiple Testing:** We are testing a lot of genes here; so we have to correct for Multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a;null hypothesis ;that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1) " (1/2)10 = 0.0107This is relatively unlikely, and under"statistical criteria;such as ;p-value;< 0.05, one would declare that the null hypothesis should be rejected " i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.
+  **Gene Filters:** The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from. A specific chromosome can be chosen, note when a chromosome is chosen a specific position range can be defined also. Under GeneCategory some predefined categories can be selected, some examples are known transcription factors or drugtargets Here you'll find the categories you've defined yourself also. \#\# Kegg pathway selects a set of genes present in the KEGG pathway database ( [](http://www.genome.jp/kegg/pathway.html)<http://www.genome.jp/kegg/pathway.html>). Gene ontology select a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled \#\# Genesets are publicly defined sets or sets you've constructed yourself yourself (see also: tutorial adapting R2 to your needs). A convenient search functionality is available to find what you're looking for. Combinations are also possible; this enables you for example to find the developmental genes on chromosome 1.
   \
   Of course: to really get familiar with these settings you have to toy around with them!
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1332,7 +1332,7 @@ Tutorial step 8
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that what those R and p-values were again?***
-  R is the correlation coefficient; it ranges from -1 to +1, if R &gt; 0 the value of two variables tends to increase or decrease together. If R &lt; 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2^=0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
+  R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2^=0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  The result is a list of genes that is ordered for having the most
@@ -1380,7 +1380,7 @@ Tutorial step 9
     graph generation this information is not automatically loaded: click
     on the "add hovering" button below the graph to add
     this information. Note: every plot in R2 with larger amounts of
-    datapoints (&gt;5000) will have this "add hovering" button.
+    datapoints (>5000) will have this "add hovering" button.
     
 	![Figure    16: XY plot of all genes differentially expressed in the current    track;](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
 	
@@ -1569,7 +1569,7 @@ Tutorial step 3
     of calculations! The result is presented as two tables (Figure 3 )
     In the header a summary is given: \~ 2200 combinations of MYCN and
     another gene met the criteria, i.e. having a significant correlation
-    (p &lt; 0.01) with the expression of MYCN, \~ 15000 genes did not
+    (p < 0.01) with the expression of MYCN, \~ 15000 genes did not
     obey these criteria. The left table represents the genes whose
     expression correlates positively, or is similar, with that of MYCN
     in this dataset. Of course MYCN has a perfect correlation
@@ -2002,34 +2002,34 @@ agreement with the clinical outcome of the INSS stages.
 
 
 
-The combined track agegroup ( &gt;=1 year) and no mycn application
+The combined track agegroup ( >=1 year) and no mycn application
 results in intermediate survival probability. Note that there are 3
-groups instead of "expected" 4 since there are no patients &lt; 1 year
+groups instead of "expected" 4 since there are no patients < 1 year
 and a mycn amplification, in this cohort.
 
 
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that you can apply a filter to analyze a subgroup. In addition  |
-| you can also adapt the graphical representation***                       |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W |
-| orkingWithKaplan_Adjust.png)                            |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| When you are defining a subsection of the samples, you can execute       |
-| multiple selections after each other. To use the selection (subset), you |
-| need to click on **confirm** to finalize it. A successful subset         |
-| selection will be shown as a small message indicating the used           |
-| trackname, groups and the final number of samples between brackets.\     |
-| Nb. If you use the 'back' button in your webbroswer, then this selection |
-| will be lost and needs to be defined again.                              |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that you can apply a filter to analyze a subgroup. In addition 
+you can also adapt the graphical representation***                      
+----------
+[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W
+orkingWithKaplan_Adjust.png)                           
+                                             
+                                                                        
+\                                                                       
+When you are defining a subsection of the samples, you can execute      
+multiple selections after each other. To use the selection (subset), you
+need to click on **confirm** to finalize it. A successful subset        
+selection will be shown as a small message indicating the used          
+trackname, groups and the final number of samples between brackets.    
+Nb. If you use the 'back' button in your webbroswer, then this selection
+will be lost and needs to be defined again.                             
+                                                                        
+                                                                  
+----------
 
 
 
@@ -2152,7 +2152,7 @@ Tutorial step 4
     dataset that is not available in R2. Especially for this reason we
     have made a user defined version within R2, where you can paste your
     cohort into R2 and run the procedure. To initiate such a user
-    defined kaplanscan, select the "Kaplan Meier" &gt; "Kaplan Meier by
+    defined kaplanscan, select the "Kaplan Meier" > "Kaplan Meier by
     user provide data" option from the left hand menu.
     
 	![Figure    9: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")
@@ -2310,7 +2310,7 @@ Tutorial step 3
 	
 2.  An overall explanation is printed above the list; of all genes
     present in all KEGG pathways, \~ 540 correlate with CTNNB1 with a p
-    value &lt; 0.05. In the table the KEGG pathways are listed ranked by
+    value < 0.05. In the table the KEGG pathways are listed ranked by
     their p-value for overrepresentation (background in red) or
     under-representation (in green) of these genes. The brightly colored
     letters in front of the pathway-name are hyperlinked. **R** links to
@@ -2506,21 +2506,21 @@ Tutorial step 1
     sampler" at "use presets". The meaning of presets will be explained
     later on.
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that R2 harbours different types of microarray platforms***     |
-+--------------------------------------------------------------------------+
-| [![](_static/images/MultipleDatasets_Select.png |
-| )](_static/images/MultipleDatasets_Select.png)             |
-|                                               |
-|                                                                          |
-| Megasampler only allows you to query multiple datasets if they are of    |
-| the same chiptype and normalized by the same algorithm and of certain    |
-| normalizations.                                                          |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that R2 harbours different types of microarray platforms***    
+----------
+[![](_static/images/MultipleDatasets_Select.png
+)](_static/images/MultipleDatasets_Select.png)            
+                                             
+                                                                        
+Megasampler only allows you to query multiple datasets if they are of   
+the same chiptype and normalized by the same algorithm and of certain   
+normalizations.                                                         
+                                                                        
+                                                                  
+----------
 
 1.  With the "selection preset" option a pre-stored dataset collection
     with associated settings can be selected. Select "XPO sampler"
@@ -2546,20 +2546,20 @@ Tutorial step 1
 	[**Figure    3: Megasampler adjustment    selection**](_static/images/Pathway_menu.png)
 	
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that private datasets linked to a specific user are indicated   |
-| with a green background color***                                         |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/M |
-| ultipleDatasets_Didyou1.png)                            |
-|                                               |
-|                                                                          |
-| Add a private dataset to the (pre) selected datasets.                    |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that private datasets linked to a specific user are indicated  
+with a green background color***                                        
+----------
+[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/M
+ultipleDatasets_Didyou1.png)                           
+                                             
+                                                                        
+Add a private dataset to the (pre) selected datasets.                   
+                                                                        
+                                                                  
+----------
 
 
 
@@ -2637,33 +2637,33 @@ directly.
 
 
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that you can save your selection of datasets and select your    |
-| stored dataset the next time you login to R2.***                         |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/M |
-| ultipleDatasets_Didyou2.png)                            |
-|                                               |
-|                                                                          |
-| \                                                                        |
-|                                                                          |
-|                                                                    |
-|                                                                          |
-| [![](_static/images/UsingDatasets_LinksToRawDat |
-| aInR2.png)](_static/images/UsingDatasets_LinksToRawDataInR2.png){.mwx.link. |
-| image}                                                                   |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| Storing a preset not only stores the selection of datasets for future    |
-| use, but will also remember all of the other settings such as order,     |
-| colors, plot type etc. In essence you can generate the same visual       |
-| representation for any other gene in this way.                           |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that you can save your selection of datasets and select your   
+stored dataset the next time you login to R2.***                        
+----------
+[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/M
+ultipleDatasets_Didyou2.png)                           
+                                             
+                                                                        
+\                                                                       
+                                                                        
+                                                                  
+                                                                        
+[![](_static/images/UsingDatasets_LinksToRawDat
+aInR2.png)](_static/images/UsingDatasets_LinksToRawDataInR2.png){.mwx.link.
+image}                                                                  
+                                             
+                                                                        
+\                                                                       
+Storing a preset not only stores the selection of datasets for future   
+use, but will also remember all of the other settings such as order,    
+colors, plot type etc. In essence you can generate the same visual      
+representation for any other gene in this way.                          
+                                                                        
+                                                                  
+----------
 
 
 
@@ -2814,40 +2814,40 @@ Tutorial step 2
     of minimize your K-means plot by adapting te size of the retangles
     at heatmap option. click "next"
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that K-means is a method of cluster analysis?***                |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K |
-| means_didyouknow.png)                                   |
-|                                               |
-|                                                                          |
-| \                                                                        |
-| In data mining, k-means clustering is a method of cluster analysis which |
-| aims to partition n observations into k clusters in which each           |
-| observation belongs to the cluster with the nearest mean. This might     |
-| sound complicated but is easily illustrated: suppose we have a set of 12 |
-| patients where we observe the expression of two genes; expression of     |
-| gene 1 along the x-axis, gene 2 on the y-axis (in our situation we have  |
-| much more genes; the calculation will then be done in more dimensions).  |
-| We're now going to try to cluster this set of n patients observed in     |
-| three groups; k = 3. The following steps illustrate the algorithm (1-4   |
-| from left to right) \# k = 3 initial "means" are randomly selected in    |
-| the data set (shown in color) \# k clusters are created by associating   |
-| every observation with the nearest mean. This partitions 2-D plane (the  |
-| so called dataspace) in three areas. \# The initial means are moved to   |
-| the centers of the three areas; the centroids. \# Steps 2 and 3 are      |
-| repeated until convergence has been reached. As is obvious from the end  |
-| point from this calculation this is a heuristic algorithm, there is no   |
-| guarantee that it will converge to the global optimum, and the result    |
-| may depend on the initial, randomly assigned clusters. As the algorithm  |
-| is usually very fast, it is common to run it multiple times with         |
-| different starting conditions and compare the outcome. R2 visualizes     |
-| this in the end result of the calculation.                               |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that K-means is a method of cluster analysis?***               
+----------
+[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K
+means_didyouknow.png)                                  
+                                             
+                                                                        
+\                                                                       
+In data mining, k-means clustering is a method of cluster analysis which
+aims to partition n observations into k clusters in which each          
+observation belongs to the cluster with the nearest mean. This might    
+sound complicated but is easily illustrated: suppose we have a set of 12
+patients where we observe the expression of two genes; expression of    
+gene 1 along the x-axis, gene 2 on the y-axis (in our situation we have 
+much more genes; the calculation will then be done in more dimensions). 
+We're now going to try to cluster this set of n patients observed in    
+three groups; k = 3. The following steps illustrate the algorithm (1-4  
+from left to right) \# k = 3 initial "means" are randomly selected in   
+the data set (shown in color) \# k clusters are created by associating  
+every observation with the nearest mean. This partitions 2-D plane (the 
+so called dataspace) in three areas. \# The initial means are moved to  
+the centers of the three areas; the centroids. \# Steps 2 and 3 are     
+repeated until convergence has been reached. As is obvious from the end 
+point from this calculation this is a heuristic algorithm, there is no  
+guarantee that it will converge to the global optimum, and the result   
+may depend on the initial, randomly assigned clusters. As the algorithm 
+is usually very fast, it is common to run it multiple times with        
+different starting conditions and compare the outcome. R2 visualizes    
+this in the end result of the calculation.                              
+                                                                        
+                                                                  
+----------
 
 
 
@@ -3159,7 +3159,7 @@ with our signature of interest.
 
 1.  Go back to the "main" page and select "Geneset vs Geneset
     correlation" from "box 3" and click "Next" (Figure 4.1).
-2.  On the next page, select at the input Geneset -&gt; Gene set
+2.  On the next page, select at the input Geneset -> Gene set
     Collection (source): "geneset\_\_r2provided\_genelists". In the
     Genesets to Scan (target): select 'geneset\_broad\_2012\_oncogenic'
     (Figure 4.2). Then click "next".
@@ -3494,7 +3494,7 @@ Tutorial step 3.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info***
-  Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting &lt; \~400 genes.
+  Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -3813,7 +3813,7 @@ to do a simple hierarchicl clustering
     of genes using a filter. By using this filter you can select groups
     of genes with the highest, lowest or most variable genes etc etc.
 3.  To use the toplister tool go to the main menu and select
-    tools&gt;small tools &gt; Toplister. Make sure Data Type is set to
+    tools>small tools > Toplister. Make sure Data Type is set to
     Expression data and select Tumor Medulloblastoma PLoS One - Kool -
     62 - MAS5.0 - u133p2 and click next. In the adjustable settings
     screen all kinds of settings and filtering options can be adapted.
@@ -3973,17 +3973,17 @@ internet browsers support the 3D visualization.
 
 
 
-+--------------------------------------------------------------------------+
-|                                               |
-|                                                                          |
-| With Firefox in some cases it"s not possible to rotate the 3D graph in   |
-| that case adjusts the following setting in firefox. : type about         |
-| "about:config" in the URL box, search for webgl and Enable               |
-| "webgl.force-enabled": TRUE. The 3-D module is also working with Chrome  |
-| but not with Internet Explorer.                                          |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+                                             
+                                                                        
+With Firefox in some cases it"s not possible to rotate the 3D graph in  
+that case adjusts the following setting in firefox. : type about        
+"about:config" in the URL box, search for webgl and Enable              
+"webgl.force-enabled": TRUE. The 3-D module is also working with Chrome 
+but not with Internet Explorer.                                         
+                                                                        
+                                                                  
+----------
 
 1.  In the adjustable settings menu select the "3d" option and
     click "next".
@@ -4100,14 +4100,14 @@ Tutorial step 1
     Genbank database. The EST and mRNA sequences are colored by the
     orientation \#: of alignments, as determined by exon-intron
     junctions and poly-A signals to the genome. Here, green alignments
-    indicate a 5\`-&gt; 3\` mapping on the positive strand of the
-    genome, while a red mapping represents a \#: 5\`-&gt;3\`mapping on
+    indicate a 5\`-> 3\` mapping on the positive strand of the
+    genome, while a red mapping represents a \#: 5\`->3\`mapping on
     the negative strand of the genome (reverse complement orientation).
     In sequences where no information on the orientation is encountered,
     the alignment becomes blue. In this MYCN example, the gene, as \#:
     represented by the refseq \#: track, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
-    be read 5\`-&gt;3\`from left to right. The shadings in green, for
+    be read 5\`->3\`from left to right. The shadings in green, for
     the separate EST and mRNA \#: mappings, indicate exon (darker) and
     intronic (lighter) regions (Figure 3 shows a legend to all the
     different color shades). If we look at the reporters underneath the
@@ -4217,21 +4217,21 @@ Tutorial step 2
     from the UCSC database (keep in mind this option is available until
     the region of interest reaches a certain size)
 
-+--------------------------------------------------------------------------+
-| [![](_static/images/R2d2_logo.png)](Image:Image |
-| :R2d2%20logo.png)***Did                                 |
-| you know that the additional settings can be changed in "Tracks          |
-| Panel".***                                                               |
-+--------------------------------------------------------------------------+
-| [![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U |
-| singR2genome_toolicon.png)                              |
-|                                               |
-|                                                                          |
-| . Clicking on the tool icon unfolds extra options to configure your      |
-| graph                                                                    |
-|                                                                          |
-|                                                                    |
-+--------------------------------------------------------------------------+
+----------
+[![](_static/images/R2d2_logo.png)](Image:Image
+:R2d2%20logo.png)***Did                                
+you know that the additional settings can be changed in "Tracks         
+Panel".***                                                              
+----------
+[![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U
+singR2genome_toolicon.png)                             
+                                             
+                                                                        
+. Clicking on the tool icon unfolds extra options to configure your     
+graph                                                                   
+                                                                        
+                                                                  
+----------
 
 
 
@@ -4931,7 +4931,7 @@ Tutorial step 1
 
 
 
-1.  In the main menu select "Tools" &gt; "Data Grabber". A dropdown menu
+1.  In the main menu select "Tools" > "Data Grabber". A dropdown menu
     appears from where you can select the dataset of interest and
     click "next".
     
@@ -5402,57 +5402,57 @@ classes defined in the table below.
 
 
 +--------------------------------------+--------------------------------------+
-| **Class**                            |           |
-|                                      |                                      |
-|                                      | **Description**                      |
-|                                      |                                      |
-|                                      |                                |
+**Class**                                     
+                                                                         
+                                     **Description**                     
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Cellline**                         |           |
-|                                      |                                      |
-|                                      | Usually used for cell line panels,   |
-|                                      | where no intervention was applied    |
-|                                      |                                      |
-|                                      |                                |
+**Cellline**                                  
+                                                                         
+                                     Usually used for cell line panels,  
+                                     where no intervention was applied   
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Disease**                          |           |
-|                                      |                                      |
-|                                      | Datasets, where a specific disease   |
-|                                      | has been investigated, other than    |
-|                                      | cancer                               |
-|                                      |                                      |
-|                                      |                                |
+**Disease**                                   
+                                                                         
+                                     Datasets, where a specific disease  
+                                     has been investigated, other than   
+                                     cancer                              
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Exp**                              |           |
-|                                      |                                      |
-|                                      | Experiment datasets. Usually cell    |
-|                                      | line models in which interventions   |
-|                                      | have been applied (Gene              |
-|                                      | transfection, rna interference etc)  |
-|                                      |                                      |
-|                                      |                                |
+**Exp**                                       
+                                                                         
+                                     Experiment datasets. Usually cell   
+                                     line models in which interventions  
+                                     have been applied (Gene             
+                                     transfection, rna interference etc) 
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Mixed**                            |           |
-|                                      |                                      |
-|                                      | If a dataset makes used of multiple  |
-|                                      | items, then it becomes a mixed set   |
-|                                      |                                      |
-|                                      |                                |
+**Mixed**                                     
+                                                                         
+                                     If a dataset makes used of multiple 
+                                     items, then it becomes a mixed set  
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Normal**                           |           |
-|                                      |                                      |
-|                                      | The profiling of healthy normal      |
-|                                      | material                             |
-|                                      |                                      |
-|                                      |                                |
+**Normal**                                    
+                                                                         
+                                     The profiling of healthy normal     
+                                     material                            
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Tumor**                            |           |
-|                                      |                                      |
-|                                      | Datasets which are composed of a     |
-|                                      | specific tumor type belong in this   |
-|                                      | category                             |
-|                                      |                                      |
-|                                      |                                |
+**Tumor**                                     
+                                                                         
+                                     Datasets which are composed of a    
+                                     specific tumor type belong in this  
+                                     category                            
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
 
 

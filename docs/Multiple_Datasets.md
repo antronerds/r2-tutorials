@@ -42,7 +42,7 @@ Tutorial step 1
     later on.
 
 --------------------------------------------------------------------------
-| [![](_static/images/R2d2_logo.png)]**Did you know that R2 harbours different types of microarray platforms**
+[![](_static/images/R2d2_logo.png)]**Did you know that R2 harbours different types of microarray platforms**
 
 [![](_static/images/MultipleDatasets_Select.png)](_static/images/MultipleDatasets_Select.png)             
                                                                           
@@ -146,7 +146,7 @@ directly.
 ![](_static/images/MultipleDatasets_Didyou2.png)
 
 ![](_static/images/UsingDatasets_LinksToRawDataInR2.png)
-                          |
+                         
 Storing a preset not only stores the selection of datasets for future use, but will also remember all of the other settings such as order,
 colors, plot type etc. In essence you can generate the same visual representation for any other gene in this way.
 

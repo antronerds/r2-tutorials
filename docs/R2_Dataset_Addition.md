@@ -353,57 +353,57 @@ classes defined in the table below.
 
 
 +--------------------------------------+--------------------------------------+
-| **Class**                            |           |
-|                                      |                                      |
-|                                      | **Description**                      |
-|                                      |                                      |
-|                                      |                                |
+**Class**                                     
+                                                                         
+                                     **Description**                     
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Cellline**                         |           |
-|                                      |                                      |
-|                                      | Usually used for cell line panels,   |
-|                                      | where no intervention was applied    |
-|                                      |                                      |
-|                                      |                                |
+**Cellline**                                  
+                                                                         
+                                     Usually used for cell line panels,  
+                                     where no intervention was applied   
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Disease**                          |           |
-|                                      |                                      |
-|                                      | Datasets, where a specific disease   |
-|                                      | has been investigated, other than    |
-|                                      | cancer                               |
-|                                      |                                      |
-|                                      |                                |
+**Disease**                                   
+                                                                         
+                                     Datasets, where a specific disease  
+                                     has been investigated, other than   
+                                     cancer                              
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Exp**                              |           |
-|                                      |                                      |
-|                                      | Experiment datasets. Usually cell    |
-|                                      | line models in which interventions   |
-|                                      | have been applied (Gene              |
-|                                      | transfection, rna interference etc)  |
-|                                      |                                      |
-|                                      |                                |
+**Exp**                                       
+                                                                         
+                                     Experiment datasets. Usually cell   
+                                     line models in which interventions  
+                                     have been applied (Gene             
+                                     transfection, rna interference etc) 
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Mixed**                            |           |
-|                                      |                                      |
-|                                      | If a dataset makes used of multiple  |
-|                                      | items, then it becomes a mixed set   |
-|                                      |                                      |
-|                                      |                                |
+**Mixed**                                     
+                                                                         
+                                     If a dataset makes used of multiple 
+                                     items, then it becomes a mixed set  
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Normal**                           |           |
-|                                      |                                      |
-|                                      | The profiling of healthy normal      |
-|                                      | material                             |
-|                                      |                                      |
-|                                      |                                |
+**Normal**                                    
+                                                                         
+                                     The profiling of healthy normal     
+                                     material                            
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
-| **Tumor**                            |           |
-|                                      |                                      |
-|                                      | Datasets which are composed of a     |
-|                                      | specific tumor type belong in this   |
-|                                      | category                             |
-|                                      |                                      |
-|                                      |                                |
+**Tumor**                                     
+                                                                         
+                                     Datasets which are composed of a    
+                                     specific tumor type belong in this  
+                                     category                            
+                                                                         
+                                                                   
 +--------------------------------------+--------------------------------------+
 
 
