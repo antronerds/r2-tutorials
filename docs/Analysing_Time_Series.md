@@ -54,7 +54,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Choosing the time series module and data
 ---------------
 
 
@@ -85,9 +85,9 @@ Tutorial step 1
     click "next". In the adjustable settings menu, leave all the default
     settings and click "GO".
     
-	!['Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "'Figure    2: Timeseries    selection screen.")
+	![Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "Figure    2: Timeseries    selection screen.")
 	
-	[**'Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
+	[**Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
 	
 In Figure 3 the expression levels of the HMOX1 gene are represented
 in a triplicate Time course experiment after stimulation
@@ -108,9 +108,9 @@ additional information.
     graph by providing the BCL6 gene in the right upper corner and click
     "Search Gene".
     
-	![Figure    4: Probeset verification and    Adjustable Settings.](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
+![Figure    4: Probeset verification and    Adjustable Settings.](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
 	
-	[**Figure    4: Probeset verification and    Adjustable Settings.**](_static/images/AnalysingTime_Probeset.png)
+[**Figure    4: Probeset verification and    Adjustable Settings.**](_static/images/AnalysingTime_Probeset.png)
 	
 
 
@@ -130,17 +130,16 @@ In the adjustable settings menu you can customize the Time series graph
 to your personal needs. Such as fontsize , Line width etc.
 
 
+----------------
+ ![](_static/images/R2d2_logo.png)**Did you know that you can contact the R2-support team to add your Time-series experiments**
+ 
+>*Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.*
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can contact the R2-support team to add your Time-series experiments**
->*Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
+--------------
 
 
-Tutorial step 2
+
+Step 2: Finding regulated genes in a time series experiment
 ---------------
 
 1.  Instead of looking at one single gene, you may most likely want to
@@ -210,21 +209,22 @@ Tutorial step 2
 	[**Figure    8: Top    buttons**](_static/images/AnalysingTime_Button.png)
 	
     
-	![Figure    9: Time series Venn    diagram](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
+![Figure    9: Time series Venn    diagram](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
 	
-	[**Figure    9: Time series Venn    diagram**](_static/images/AnalysingTime_Venn.png)
+[**Figure    9: Time series Venn    diagram**](_static/images/AnalysingTime_Venn.png)
 	
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------
   ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?**
->*In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+>*In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.*
+  
+--------------
 
 
 
 
-
-Tutorial step 3.
+Step 3: Using the regulated genes in further analyses
 ----------------
 
 1.  One of the strong points of R2 is that it supports directly further
@@ -275,29 +275,28 @@ Tutorial step 3.
     genecategory resulting from the timeserie experiment could be of
     clinical relevance since the clustering correlates with the
     Oestrogen Recepter track. At the bottom of the heatmap the z-scores
-    of the selected genecategory is represented./
-
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that clicking a spot in the heatmap reveals more info**
->*Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    of the selected genecategory is represented.
 
 
+--------------
+  ![](_static/images/R2d2_logo.png)**Did you know that clicking a spot in the heatmap reveals more info**
 
-\
+>*Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.*
 
-
-
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that with "sample ordering" (Figure 11) you can manage the way the samples are clustered.**
->*By choosing "sample ordering " by "track" , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------
 
 
+  --------------
+  ![](_static/images/R2d2_logo.png)**Did you know that with "sample ordering" (Figure 11) you can manage the way the samples are clustered.**
+  
+>*By choosing "sample ordering " by "track" , the unsupervised clustering of the samples is applied within the groups of a track. It is even possible to customize the way the samples are ordered by yourself (user defined order).*
+
+--------------
 
 
 
-Tutorial step 4
+
+Step 4: In a K-means analysis
 ---------------
 
 
@@ -327,16 +326,17 @@ detail in tutorial 10.
 
 
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.**
->*You can use this track for further analysis with a custom made track for example by using the "find differential expression between groups". This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and "Adapting R2 to your needs" .
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+>*You can use this track for further analysis with a custom made track for example by using the "find differential expression between groups". This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and "Adapting R2 to your needs"*
+
+---------------
 
 
 
 
-
-Tutorial Step 5
+Step 5: Correlate with other datasets
 ---------------
 
 1.  The module "correlate" the results with dataset compares the
