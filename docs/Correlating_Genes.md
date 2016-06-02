@@ -168,10 +168,10 @@ order to do so click on more settings in the Adjustable Settings box and
 set Histogram to yes, click Adjust Settings button. Now the histogram
 boxes in the x and y axes show expression levels are distributed for the
 samples in the selected dataset see Figure 7
- 
-	![Figure    7: Toggle Histogram    on/off](_static/images/FindGenes_ExpressionHis.png "Figure    7: Toggle Histogram    on/off")
 	
-	[**Figure    7: Toggle Histogram    on/off**](_static/images/FindGenes_ExpressionHis.png)
+	![Figure 7: Toggle Histogram on-off](_static/images/FindGenes_ExpressionHis.png "Figure 7: Toggle Histogram    on-off")
+	
+	[**Figure 7: Toggle Histogram on-off**](_static/images/FindGenes_ExpressionHis.png)
 	
 3.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
