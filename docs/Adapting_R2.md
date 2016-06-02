@@ -10,14 +10,6 @@ Adapting R2 to your needs
 
 
 
-
-**[Back to the list of
-tutorials](http://ogtoolbox/w/index.php?title=R2_Wiki_Tutorials)**
-
-
-
-
-
 Scope
 -----
 
@@ -35,7 +27,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Adapt your settings
 ---------------
 
 1.  Personalizing R2 starts with selecting the My Settings menu item
@@ -64,7 +56,6 @@ Tutorial step 1
     this tutorial. The 'Timeseries colors' allows you to set the colors
     for the graphs of specific experiments in a series (Figure 3).
 
-
 	![Figure3: Setting time seriescolors](_static/images/AdaptingR2_SettingsTime.png "Figure3: Setting time seriescolors")
 	
 	[**Figure3: Setting time seriescolors**](_static/images/AdaptingR2_SettingsTime.png)
@@ -74,7 +65,7 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Upload your data
 ---------------
 
 1.  The extensive functionality of R2 can be best experienced when you
@@ -92,7 +83,6 @@ Tutorial step 2
     Expression Omnibus dataset, the GSE\*\*\*\* identifier, and we will
     take care of the rest and send a notification email.
 
-
 	![Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.](_static/images/AdaptingR2_DatasetUpload.png "Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.")
 	
 	[**Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.**](_static/images/AdaptingR2_DatasetUpload.png)
@@ -102,7 +92,7 @@ Tutorial step 2
 
 
 
-Tutorial step 3
+Step 3: Create your own genesets; a.k.a. categories
 ---------------
 
 1.  Another way in which R2 can be adapted to your specific needs is by
@@ -203,7 +193,7 @@ Tutorial step 3
 
 
 
-Tutorial step 4
+Step 4: Tracks in R2: create your own data annotation
 ---------------
 
 1.  Another important feature in R2 that can be adapted to your needs is
@@ -303,7 +293,7 @@ Tutorial step 4
 
 
 
-Tutorial step 5
+Step 5: Upload your own tracks
 ---------------
 
 1.  R2 also allows you to build your own tracks from scratch. You'll be
@@ -418,7 +408,7 @@ Tutorial step 5
 
 
 
-Tutorial step 6
+Step 6: Cooperate through R2: sharing tracks, creating communities
 ---------------
 
 1.  Cooperation is of great importance in scientific research. You
