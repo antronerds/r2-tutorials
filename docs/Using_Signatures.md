@@ -55,7 +55,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 -   Find correlating genesignatures with a track
 
 ------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can create gene category couples**
+  ![](_static/images/R2d2_logo.png)**Did you know that you can create gene category couples**
 >*R2 can treat particular gene categories in a special way if you follow a simple naming convention. Especially helpful for signature scores are up/down regulated gene couples. Within the "view a geneset" function, you can select multiple gene categories to be used in for the heatmap. If you select 2 categories that contain a fixed prefix, coupled to \_up and \_down (or \_dn), then R2 will treat them as a couple, and will subtract the downregulated signals from the upregulated ones (effectively creating a signature score). We can weigh the 2 separate lists of genes either equally, or weighted as a percentage of the number of genes (the weighted\_match / \_wm signatures).*
 
 ------------------

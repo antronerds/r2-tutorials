@@ -23,7 +23,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Exploring the genome browser
 ---------------
 
 1.  In the main menu select in field 2 the default dataset “Tumor
@@ -49,8 +49,7 @@ Tutorial step 1
 	![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
 	
 	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
-	
-    
+	 
 	![Figure    2: The probeset verification    table](_static/images/UsingR2genome_Genomebrowser.png "Figure    2: The probeset verification    table")
 	
 	[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
@@ -96,13 +95,11 @@ Tutorial step 1
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured
-    regions are indicated in the reporter track by very dark shades.
-    ***
->*  
+	 regions are indicated in the reporter track by very dark shades.
+  
 	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
 	
 	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
-	
     
 	![Figure    4: Second half of the genome browser with    default tracks.](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
 	
@@ -124,7 +121,6 @@ Tutorial step 1
     extra annotation tracks which were selected and hover over the
     tracks to reveal extra information.
 
-
 ![Figure5: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
 
 [**Figure5: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
@@ -136,7 +132,7 @@ added.**](_static/images/UsingR2genome_tracksadded.png)
 
 
 
-Tutorial step 2
+Step 2: Zooming and panning
 ---------------
 
 1.  The R2 Genome browser is a highly interactive application offering
@@ -144,7 +140,7 @@ Tutorial step 2
     upper corner of the screen search for the GTPBP8 gene click go and
     in the next screen choose “GTP-binding protein 8 isoform 1” by
     clicking on “VIEW”.
-2.  At some time it could be usefull to zoom into a location such as an
+2.  At some time it could be useful to zoom into a location such as an
     aligned probeset. To quickly zoom into a specific region of interest
     user the browsers “drag and zoom” feature. At a desired position
     click and hold the left mouse button and drag the highlighted window
@@ -167,8 +163,7 @@ Tutorial step 2
     
 	![Figure    8: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
 	
-	[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)
-	
+	[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
     
 	![Figure    9: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
 	
@@ -182,17 +177,12 @@ Tutorial step 2
     the region of interest reaches a certain size)
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
-:R2d2%20logo.png)***Did                                
+![](_static/images/R2d2_logo.png)**Did                                
 you know that the additional settings can be changed in “Tracks         
-Panel".***                                                              
-----------
-[![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U
-singR2genome_toolicon.png)                             
-                                             
-                                                                        
-. Clicking on the tool icon unfolds extra options to configure your     
-graph                                                                   
+Panel".**
+                                                              
+![](_static/images/UsingR2genome_toolicon.png)                             
+                                                                                                                     > *Clicking on the tool icon unfolds extra options to configure your graph*                                                                   
                                                                         
                                                                   
 ----------
@@ -201,7 +191,7 @@ graph
 
 
 
-Tutorial step 3
+Step 3: Looking up chromosome regions
 ---------------
 
 
