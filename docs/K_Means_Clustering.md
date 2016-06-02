@@ -23,7 +23,7 @@ Scope
 
 
 
-Tutorial step 1
+Step 1: Selecting data and module
 ---------------
 
 1.  Make sure that the Single Dataset option is selected in field 1 of
@@ -42,7 +42,7 @@ Tutorial step 1
 
 
 
-Tutorial step 2
+Step 2: Adapting settings
 ---------------
 
 1.  The next window presents a set of fields where specific settings of
@@ -65,16 +65,11 @@ Tutorial step 2
     at heatmap option. click ‘next’
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
-:R2d2%20logo.png)***Did                                
-you know that K-means is a method of cluster analysis?***               
-----------
-[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K
-means_didyouknow.png)                                  
+![](_static/images/R2d2_logo.png)]**Did you know that K-means is a method of cluster analysis?**               
+
+![](_static/images/Kmeans_didyouknow.png)                                  
                                              
-                                                                        
-\                                                                       
-In data mining, k-means clustering is a method of cluster analysis which
+> *In data mining, k-means clustering is a method of cluster analysis which
 aims to partition n observations into k clusters in which each          
 observation belongs to the cluster with the nearest mean. This might    
 sound complicated but is easily illustrated: suppose we have a set of 12
@@ -94,16 +89,15 @@ guarantee that it will converge to the global optimum, and the result
 may depend on the initial, randomly assigned clusters. As the algorithm 
 is usually very fast, it is common to run it multiple times with        
 different starting conditions and compare the outcome. R2 visualizes    
-this in the end result of the calculation.                              
+this in the end result of the calculation.*                           
                                                                         
-                                                                  
 ----------
 
 
 
 
 
-Tutorial step 3
+Step 3: Examining resulting clusters
 ---------------
 
 1.  R2 clusters the samples using the expression of 1500 genes
@@ -133,28 +127,27 @@ Tutorial step 3
     browser click the back button and change the number of groups to 8.
 4.  Click ‘next’.
 
-
 	![Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.](_static/images/Kmeans_heatmap.png "Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.")
 	
 	[**Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.**](_static/images/Kmeans_heatmap.png)
 	
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?**
->*Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
+  ![](_static/images/R2d2_logo.png)**Did you know that 'the \# highest SD genes is the number of genes with highest Standard Deviation?**
+  
+>*Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.*
+
+------------
 
 
 
-\
 
-
-
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)**'Did you know that** ***some virus scanners slow drawing of these graphs??**
+------------
+  ![](_static/images/R2d2_logo.png)**Did you know that some virus scanners slow drawing of these graphs??**
+  
 >*If R2 takes a long time to draw images like these this might have to do with your virus scanner. The graphs are interactive and contain a lot of scripts that are usually scanned by a virus-scanner like McAffee. You can avoid this by disabling Script scanning.
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+--------------
 
 
 
@@ -181,14 +174,13 @@ Tutorial step 4
     determine more precisely defined groups. An example of this method
     can be found in the Adapting R2 tutorial.
 
-
 ![Figure6: Consistent clustering for 4groups.](_static/images/Kmeans_track2.png "Figure6: Consistent clustering for 4groups.")
 
 [**Figure6: Consistent clustering for 4groups.**](_static/images/Kmeans_track2.png)
-**Figure
-7: Clustering in 5
-groups**](_static/images/Kmeans_track3.png)
 
+![Figure 7: Clustering in 5 groups](_static/images/Kmeans_track3.png "Figure 7: Clustering in 5 groups")
+
+[**Figure 7: Clustering in 5 groups**](_static/images/Kmeans_track3.png)
 
 
 
