@@ -254,14 +254,6 @@ of the gene of interest within all datasets of the same
 platform/normalization scheme (provided that the normalization supports
 dataset additions).
 
------------
-  ![](_static/images/R2d2_logo.png)***Did you know that the CliniSnitch reveals possible clinical relevance with a chosen gene***
-
-> *The CliniSnitch module assesses whether your gene of interest displays differential expression in any of the annotated parameters provided for a dataset.
-To determine the best association, brute force T-testing is employed between every possible subset which can be defined in a track. Ps. When you add tracks of your own, then these are also tested.*
-
-----------
-
 
 Clicking on pubsniffer opens a new screen showing a list of how times
 your gene of interest is found within the NCBI Pubmed database in
