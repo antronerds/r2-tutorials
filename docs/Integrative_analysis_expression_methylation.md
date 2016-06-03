@@ -64,13 +64,14 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 
 	[**Figure 5:Table of Correlations**](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
 
-Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal tmore details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6b).
-	![Figure 6: Genomebrowser](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
+	Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal more details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6b).
 
+	![Figure 6: Genomebrowser](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
+	
 	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
 
 
-Next to the YY-plot,  more insight will into the results can be  generated to use the explore and search options for more regions by using the interactive genome browser.   Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
+	Next to the YY-plot,  more insight will into the results can be  generated to use the explore and search options for more regions by using the interactive genome browser.   Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
 
 8. In the correlation plot there is clearly a high correlation visible between the expression and methylation reporters located at chromosome 2.  By clicking on the chromosome 2 area will R2 will regenerate a correlation plot zoomed into chromosome 2.   In order to investigate even more zoom in to this particular region. Press and hold the left mouse button in the designated area (Figure xxx) mark the area by dragging the pointer , release de mouse button and click ‘redraw’.
 
