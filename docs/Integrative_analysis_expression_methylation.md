@@ -70,6 +70,8 @@ Further the green dots and red dots indicate respectively a positive correlation
 	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
 
 
+Next to the YY-plot,  more insight will into the results can be  generated to use the explore and search options for more regions by using the interactive genome browser.   Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
+
 
 Any text between restarts numbering
 
