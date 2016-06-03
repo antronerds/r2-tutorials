@@ -80,15 +80,22 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 	[**Figure 7:Explore chromosomal regions**](_static/images/IntgrAnalysis_methexpr_zoom.png)
 
 
-On this zoom - level more known information is automatically plotted  in the  genome browser.   In this example it is shown that the DDX1 is located near to the MYCN gene on the the genome.  This could explained the high inverse correlation of the MYNC methylation reporters and expression reporteres.
+On this zoom - level more known information is automatically plotted  in the  genome browser.   In this example it is shown that the DDX1 is located near to the MYCN gene on the the genome.  This could explain the high inverse correlation of the MYNC methylation reporters and expression reporteres.
 
-The Did you know box is formatted as follows
 
 ---------
-  ![](_static/images/R2d2_logo.png)**Did you know box**
+  ![](_static/images/R2d2_logo.png)**Did you know that R2 will determine the overlap between datasets automatically?**
 
 
-> *Three or more minusses preceded by a return create a line; the > sign in front of a paragraph indents the whole paragraph and the single asterisks put it in italic*
+> *R2 will scan for overlapping samples on the basis of the r2_samplename. Overlap is automatically determined and therefore can also use cohorts that are not completely overlapping. R2 will simply exclude samples that are only found in 1 of the datasets. In addition, the order in which samples are represented is also accounted for.*
+
+---------
+  ![](_static/images/R2d2_logo.png)**Did you know that the annotation from both datasets is combined?**
+
+
+> *on the sides of the image to represent the signals from both dataset perspectives.The image displays the correlation between the 2 datatypes for those patients that were represented in both data sets. From within this view we can adapt the visualization in a couple of ways. When we look at the XY plot, we can annotate the graph with a track distinction and color all of the circles accordingly. To achieve this, simply select ‘color by track’ and select the annotation source to be used for the coloring. Once redrawn, this will also add ‘boxplot’ representations*
+
+
 
 ---------
 
