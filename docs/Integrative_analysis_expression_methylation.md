@@ -73,22 +73,14 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 
 	Next to the YY-plot,  more insight will into the results can be  generated to use the explore and search options for more regions by using the interactive genome browser.   Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
 
-8. In the correlation plot there is clearly a high correlation visible between the expression and methylation reporters located at chromosome 2.  By clicking on the chromosome 2 area will R2 will regenerate a correlation plot zoomed into chromosome 2.   In order to investigate even more zoom in to this particular region. Press and hold the left mouse button in the designated area (Figure xxx) mark the area by dragging the pointer , release de mouse button and click ‘redraw’.
+8. In the correlation plot there is clearly a high correlation visible between the expression and methylation reporters located at chromosome 2.  By clicking on the chromosome 2 area will R2 will regenerate a correlation plot zoomed into chromosome 2.   In order to investigate even more zoom in to this particular region. Press and hold the left mouse button in the designated area (Figure 8) mark the area by dragging the pointer , release de mouse button and click ‘redraw’.
+
+	![Figure 7: Explore chromosomal regions](_static/images/IntgrAnalysis_methexpr_zoom.png)
+	
+	[**Figure 7:Explore chromosomal regions**](_static/images/IntgrAnalysis_methexpr_zoom.png)
 
 
-Any text between restarts numbering
-
-4.  Next list
-  1. Two spaces create a sublist
-  *  They can be mixed
-	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
-Images are formatted as follows:
-
-![Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
-
-[**Figure 11: the extra settings Panel**](_static/images/OneGene_Adapting.png)
-
-Note the enter between the lines; this is to guarantee proper formatting in pdf
+On this zoom - level more known information is automatically plotted  in the  genome browser.   In this example it is shown that the DDX1 is located near to the MYCN gene on the the genome.  This could explained the high inverse correlation of the MYNC methylation reporters and expression reporteres.
 
 The Did you know box is formatted as follows
 
@@ -99,12 +91,6 @@ The Did you know box is formatted as follows
 > *Three or more minusses preceded by a return create a line; the > sign in front of a paragraph indents the whole paragraph and the single asterisks put it in italic*
 
 ---------
-
-You'll have to get used to the use of spaces and enters in Markdown; these are used for formatting
-
-
-  Two spaces at the start of a line creates a paragraph
-Type on here below  
 
 
   
