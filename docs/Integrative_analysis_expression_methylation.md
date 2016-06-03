@@ -38,7 +38,13 @@ Tutorial Step 1
 
 	[**Figure 2: XY-plot Methylation versus expression**](_static/images/IntgrAnalysis_methexpr_YY.png)
 
-IntgrAnalysis_methexpr_YY.png
+8.	As is customary more reporters are designed against a gene, it could be of interest to inspect the methylation values for the other reporters of a gene. To do so , right mouse click on  ‘Go to main’  ,  in panel  3 click ‘change dataset’ , select methylation data  and the Tumor neuroblastoma  Lavarino dataset.  (Figure xx). Type ‘DDX1’ in box 4 click next. Leave the settings at their default and click next. 
+
+	![Figure 3: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
+	
+        [**Figure 3: Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
+
+
 
 Any text between restarts numbering
 
