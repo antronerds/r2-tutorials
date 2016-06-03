@@ -62,9 +62,6 @@ Beneath the heatmap the R2 genome browser is plotted with all the methylation re
 6.	R2 will now perform the search for you. Do keep in mind that the across dataset searches can be quite intensive as all genes are being correlated to all methylation probes. For a simple setup like the current one, more than 2 minutes will be needed to obtain the result. To reduce the strain on the servers and speed up the serving of results, R2 will store the results of an analysis for a couple of days. If you are lucky that someone else has performed the exact analysis that you are interested in in the past few days, then R2 will serve those for you (which reduces the search from 2 min to a mere couple of seconds). This routine is used at multiple places within the platform.
 7.	Now R2 has generated a list of significant correlations for all the DNA-methylation reporters with the expression value of the corresponding gene (Figure 5). In Figure 5 a chromosomal overview of the significant p-value correlations are plotted,  beneath the graph a table is generated divided  in a list of genes which  have a positive or inverse correlation selected gene expression probesets and their methylation reporter counter parts. 
 
-	![Figure 5: Heatmap methylation reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
-	
-	[**Figure 5:Heatmap methylation reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 
 
 
