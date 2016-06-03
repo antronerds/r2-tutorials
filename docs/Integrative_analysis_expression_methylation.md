@@ -18,7 +18,7 @@ Scope
 
 
 
-Third subheader 
+Tutorial Step 1
 -----
 
 1.	From R2’s perspective, an analysis where multiple datatypes will be combined is an ‘across datasets’ analysis, so we need to select this from the main page in box 1.
@@ -27,9 +27,9 @@ Third subheader
 4.	Within the current screen you are able to select 2 datatypes to plot against each other. In the current example, only mRNA (Tumor Neuroblastoma - Lavarino - 23 - rma_sketch - u219) and Methylation (Tumor Neuroblastoma - Lavarino - 41 - custom - ilmnhm450) data is available, and within this collection only 1 option can be selected. Select the 2 datasets to combine in the pulldowns and type behind the dataset names   ‘DDX1’ in the methylation data box and ‘MYCN’ in the expression data box and click next. R2 will automatically identify overlapping samples within the current selection and create ‘subsets’ for both datasets to only allow the overlapping samples for the plot.   From the perspective of both datasets we can now select the reporter to represent the gene(s) that we indicated on the previous page.  For now we will keep the preselected reporters. Furthermore, we can select the transformation for both datasets and continue to the actual plot. Click ‘next’ to advance to the image.
 5.	R2 has generated  a XY-plot with the MYCN expression values on the Y-axis against  the methylation ratios on the the X-axis (Figure 1) with the combined annotation of both datasets
 
-![Figure 1: XY-plot Methylation versrs expression](_static/images/IntgrAnalysis_methexpr_viewagene.png)
+![Figure 1: XY-plot Methylation versus expression](_static/images/IntgrAnalysis_methexpr_viewagene.png)
 
-[**Figure 1: XY-plot Methylation versrs expression**](_static/images/IntgrAnalysis_methexpr_viewagene.png)
+[**Figure 1: XY-plot Methylation versus expression**](_static/images/IntgrAnalysis_methexpr_viewagene.png)
 	
 
 	
