@@ -59,10 +59,12 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 5.	Leave all settings in the adjustable settings box and click ‘next’.
 6.	R2 will now perform the search for you. Do keep in mind that the across dataset searches can be quite intensive as all genes are being correlated to all methylation probes. For a simple setup like the current one, more than 2 minutes will be needed to obtain the result. To reduce the strain on the servers and speed up the serving of results, R2 will store the results of an analysis for a couple of days. If you are lucky that someone else has performed the exact analysis that you are interested in in the past few days, then R2 will serve those for you (which reduces the search from 2 min to a mere couple of seconds). This routine is used at multiple places within the platform.
 7.	Now R2 has generated a list of significant correlations for all the DNA-methylation reporters with the expression value of the corresponding gene (Figure 5). In Figure 5 a chromosomal overview of the significant p-value correlations are plotted,  beneath the graph a table is generated divided  in a list of genes which  have a positive or inverse correlation selected gene expression probesets and their methylation reporter counter parts. 
+8.	
 
 	![Figure 5: Table of Correlations](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
 
 	[**Figure 5:Table of Correlations**](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
+
 Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal tmore details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6b)
 
 
