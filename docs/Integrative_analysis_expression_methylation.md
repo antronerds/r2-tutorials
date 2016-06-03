@@ -46,9 +46,9 @@ Tutorial Step 1
 
 Now click on, ‘ view’  all below de gene name.  In a new screen (Figure 4) a heat map is generated with the methylation pattern for all samples of a given dataset. 
 
-	![Figure 4: Heatmap methylation reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
+	![Figure 4: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 	
-	[**Figure 4:Heatmap methylation reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
+	[**Figure 4:Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 
 Beneath the heatmap the R2 genome browser is plotted with all the methylation reporters for the DDX1 gene plottend against there location on the genome.
 
