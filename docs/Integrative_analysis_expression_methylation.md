@@ -38,12 +38,11 @@ Tutorial Step 1
 
 	[**Figure 2: XY-plot Methylation versus expression**](_static/images/IntgrAnalysis_methexpr_YY.png)
 
-8.	As is customary more reporters are designed against a gene, it could be of interest to inspect the methylation pattern for the other reporters of a gene. To do so , right mouse click on  ‘Go to main’  ,  in panel  3 click ‘change dataset’ , select methylation data  and the Tumor neuroblastoma  Lavarino dataset.  (Figure 3). Type ‘DDX1’ in box 4 click next. Leave the settings at their default and click next. 
+8.	As is customary more reporters are designed against a gene, it could be of interest to inspect the methylation pattern for the other reporters of a gene. We leave this analyse, right mouse click on  ‘Go to main’  ,  in panel  3 click ‘change dataset’ , select methylation data  and the Tumor neuroblastoma  Lavarino dataset.  (Figure 3). Type ‘DDX1’ in box 4 click next. Leave the settings at their default and click next. 
 
 	![Figure 3: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
 	
 	[**Figure 3:Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
-
 Now click on, view  all below de gene name. In a new screen (Figure 4) a heat map is generated with the methylation pattern for all samples of a given dataset. Beneath the heatmap the R2 genome browser is plotted with all the methylation reporters for the DDX1 gene plottend against there location on the genome.
 
 	![Figure 4: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
@@ -67,9 +66,9 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal tmore details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6b)
 
 
-	![Figure 6: Table of Correlations](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
+	![Figure 6: Genomebrowser](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
 
-	[**Figure 6:Table of Correlations**](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
+	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
 
 
 
