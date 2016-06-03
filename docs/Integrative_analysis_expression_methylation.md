@@ -5,7 +5,7 @@
 Integrative Analysis
 ===========================================
 
-*Across platform: Methylation data and expression data*
+*Across platforms: Methylation data and expression data*
 
 
 Scope
