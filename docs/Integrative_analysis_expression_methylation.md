@@ -49,7 +49,7 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 	![Figure 4: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 
 	[**Figure 4:Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
-
+## Figure 4 not plotten cant see why help !
 
 ## Tutorial Step 2
 
