@@ -2,10 +2,10 @@
 <a id="integrative_analysis_methylation"> </a>
 
 
-This is the header (H1) that will appear as title in the TOC
+Integrative Analysis
 ===========================================
 
-*Subtitle between asterisk creates italic style*
+*A across platform: Metylation data and expression data*
 
 
 Subheader (H2) also appears in TOC
