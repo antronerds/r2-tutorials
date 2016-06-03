@@ -42,7 +42,29 @@ Tutorial Step 1
 
 	![Figure 3: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
 	
-	[**Figure 3: XY-plot Methylation versus expression**](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
+	[**Figure 3:Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
+
+Now click on, ‘ view’  all below de gene name.  In a new screen (Figure 4) a heat map is generated with the methylation pattern for all samples of a given dataset. 
+
+	![Figure 4: Heatmap methylation reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
+	
+	[**Figure 4:Heatmap methylation reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
+
+Beneath the heatmap the R2 genome browser is plotted with all the methylation reporters for the DDX1 gene plottend against there location on the genome.
+
+## Tutorial Step 2
+
+1.	Next to simply ‘looking’ at reporters from the different datasets, we can also correlate 2 data types with each other. To achieve this, we first go back to the ‘main’ page by clicking on the upper left link.
+2.	We would now like to identify which gene has the best association with its methylation status. Wherefore we need to correlate every gene with the methylation reporters that are in the annotated (for the the same gene) to belong to a gene.
+3.	Just like the previous example, we select ‘across datasets’ in box 1 and now select ‘dataset extender (within genes)’ in box 2. This will allow us to identify the best possible combinations where the expression of a gene correlates with the methylation status for the same gene.
+4.	Again, we need to identify the collection within which R2 will look for the overlapping samples. Select ‘’ and click ‘next’.
+5.	Leave all settings in the adjustable settings box and click ‘next’.
+6.	R2 will now perform the search for you. Do keep in mind that the across dataset searches can be quite intensive as all genes are being correlated to all methylation probes. For a simple setup like the current one, more than 2 minutes will be needed to obtain the result. To reduce the strain on the servers and speed up the serving of results, R2 will store the results of an analysis for a couple of days. If you are lucky that someone else has performed the exact analysis that you are interested in in the past few days, then R2 will serve those for you (which reduces the search from 2 min to a mere couple of seconds). This routine is used at multiple places within the platform.
+7.	Now R2 has generated a list of significant correlations for all the DNA-methylation reporters with the expression value of the corresponding gene (Figure 5). In Figure 5 a chromosomal overview of the significant p-value correlations are plotted,  beneath the graph a table is generated divided  in a list of genes which  have a positive or inverse correlation selected gene expression probesets and their methylation reporter counter parts. 
+
+	![Figure 5: Heatmap methylation reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
+	
+	[**Figure 5:Heatmap methylation reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 
 
 
