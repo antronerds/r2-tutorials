@@ -65,7 +65,12 @@ Now click on, view  all below de gene name. In a new screen (Figure 4) a heat ma
 
 	[**Figure 5:Table of Correlations**](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
 
+Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal tmore details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6b)
 
+
+	![Figure 6: Table of Correlations](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
+
+	[**Figure 6:Table of Correlations**](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
 
 
 
