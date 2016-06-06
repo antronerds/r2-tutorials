@@ -96,7 +96,7 @@ On this zoom - level more known information is automatically plotted  in the  ge
 > *on the sides of the image to represent the signals from both dataset perspectives.The image displays the correlation between the 2 datatypes for those patients that were represented in both data sets. From within this view we can adapt the visualization in a couple of ways. When we look at the XY plot, we can annotate the graph with a track distinction and color all of the circles accordingly. To achieve this, simply select ‘color by track’ and select the annotation source to be used for the coloring. Once redrawn, this will also add ‘boxplot’ representations*
 
 
-## Optional Tutorial Step 4
+## Optional Tutorial Step 3
 
 - Select Genecat from article
 - use PCA module
