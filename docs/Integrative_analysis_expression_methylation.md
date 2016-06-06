@@ -2,10 +2,10 @@
 <a id="integrative_analysis_methylation"> </a>
 
 
-Integrative Analysis
+Integrative Analysis : Across Platform1
 ===========================================
 
-*Across platforms: Methylation data and expression data*
+*Datatypes: Methylation data and expression data*
 
 
 Scope
