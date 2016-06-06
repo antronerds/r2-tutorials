@@ -98,14 +98,13 @@ On this zoom - level more known information is automatically plotted  in the  ge
 
 ## Optional Tutorial Step 3
 
-	- Select Genecat from article
-	- use PCA module
-
+- Select Genecat from article
+- use PCA module
 
 	![Figure 8: PCA CpG vs Non-CpG](_static/images/IntgrAnalysis_PCA_article.png)
 	
 	[**Figure 8:PCA CpG vs Non-CpG**](_static/images/IntgrAnalysis_PCA_article.png)
-
+	
 ---------
 
 
