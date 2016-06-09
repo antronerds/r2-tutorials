@@ -41,9 +41,9 @@ Now that these concepts have been explained we're going to see how R2 actually r
 1. In R2 the ChIP-Seq data visualization is under development, any suggestions are welcome. Since the annotation for ChIPSeq experiments is based on the HG19 build of the genome, make sure you've selected HG19 under *Change species>Human(HG19)* 
 2. To enter the ChIP-Seq analysis module in R2 select *ChIPSeq data* in Box 3 (Fig 3).
 	
-	![Figure 2: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ModificationTypes.png)
+	![Figure 2: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
 	
-	[**Figure 2: Choose the ChIPSeq module **](_static/images/IntAnalysis_ChIPSeq_ModificationTypes.png)
+	[**Figure 2: Choose the ChIPSeq module **](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
 	
 3. See fig4 Several analysis paths start here; we're first going to explore binding around the Transcription Start Sites (TSS) of lists of genes. This  
 	
