@@ -23,7 +23,7 @@ With **C**hromatine **I**mmuno **P**recipitation binding of elements to the geno
 
 ![Figure 1: Transcription](_static/images/IntAnalysis_ChIPSeq_Transcription.png)
 
-[**Figure 1: Transcription; taken from Nature Reviews Genetics 12, 283-293 (April 2011) **](_static/images/IntAnalysis_ChIPSeq_Transcription.png)
+[**Figure 1: Transcription; taken from Nature Reviews Genetics 12, 283-293 (April 2011)**](_static/images/IntAnalysis_ChIPSeq_Transcription.png)
 
 
 When a specific antibody is used in the pulldown that recognizes these chemically modified regions, these specific regions can be studied. Regions with H3K27Ac acetylation mark active enhancers and active transcription, H3K4Me3 methylation marks active and poised transcription (Figure 2). Studying the relative contributions of both types of modifications allows a researcher to discern enhancer regions from active transcription sites.
@@ -31,7 +31,7 @@ When a specific antibody is used in the pulldown that recognizes these chemicall
 
 ![Figure 2: Specific chemical modifications mark specific states of cis-regulatory elements](_static/images/IntAnalysis_ChIPSeq_ModificationTypes.png)
 
-[**Figure 2: Specific chemical modifications mark specific states of cis-regulatory elements; taken from doi:10.1016/j.molcel.2013.01.038 **](_static/images/IntAnalysis_ChIPSeq_ModificationTypes.png)
+[**Figure 2: Specific chemical modifications mark specific states of cis-regulatory elements; taken from doi:10.1016/j.molcel.2013.01.038**](_static/images/IntAnalysis_ChIPSeq_ModificationTypes.png)
 
 
 The assembly of the billions of fragments that result from a ChIPSeq experiment is a challenge. Algorithms to combine and map the reads into a consistent representation are under development. R2 allows you to study the outcome of these computationally intensive calculations through an intuitive visualization. Most default settings are suitable for a first impression of your data, to adapt certain parameters requires some knowledge about the actual computation, so we'll explain some of the concepts used below.
@@ -41,7 +41,7 @@ The assembly of the billions of fragments that result from a ChIPSeq experiment 
 R2 provides two algorithms to assess significant enrichment ChIP between experiment and control.  
 First is the MACS algorithm; this is often used in ChIP-seq data analyses and publications. In R2 it is used to study the binding of transcription factors. It's drawback is that it is not very suitable for broad signals.
 
-The other is RSEG; an algorithm especially designed for histone modification detection. In R2 this used to analyse the histone modification patterns. To distinguish between specific histone modifications (e.g. acetylation vs methylation), R2 allows you to assess the same region in two profiles. 
+The other algorithm is RSEG; it is especially designed for histone modification detection. In R2 this used to analyse the histone modification patterns. To distinguish between specific histone modifications (e.g. acetylation vs methylation), R2 allows you to assess the same region in two profiles. 
   
 #### Super enhancers
 An *enhancer* is a short (50-1500 bp) region of DNA that can be bound by proteins (activators) to increase the likelihood transcription will occur at a gene. They can be located up to 1 Mbp (1,000,000 bp) away from the gene, either upstream or downstream from the start site, and either in the forward or backward direction.  A *super-enhancer* is a region of the mammalian genome comprising multiple of these enhancers, collectively bound by an array of transcription factor proteins to drive transcription of genes, often involved in regulation of cell identity. 
@@ -52,7 +52,7 @@ For identification of super enhancers R2 uses the *R*ank *O*rdering of *S*uper-*
 
 ![Figure 3: Result of a typical ROSE analysis. Above the inflection point, marked in red, are super-enhancer regions.](_static/images/IntAnalysis_ChIPSeq_InflectionPoint.png)
 
-[**Figure 3: Result of a typical ROSE analysis. Above the inflection point, marked in red, are super-enhancer regions.**](_static/images/IntAnalysis_ChIPSeq_InflectionPoint.png)
+[**Figure 3: Result of a typical ROSE analysis. Above the inflection point, marked in red, are super-enhancer regions**](_static/images/IntAnalysis_ChIPSeq_InflectionPoint.png)
 
 
 
@@ -64,23 +64,25 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 	
 	![Figure 4: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
 	
-	[**Figure 4: Choose the ChIPSeq module **](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
+	[**Figure 4: Choose the ChIPSeq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
 	
 2. See figure 5. Several analysis paths start here. First we're going to explore regular Transcription Factor binding using MACS on a public dataset.   
 	
 	![Figure 5: ChIPSeq Menu in R2](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu.png)
 	
-	[**Figure 5: ChIPSeq Menu in R2 **](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu.png)
+	[**Figure 5: ChIPSeq Menu in R2**](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu.png)
 	
 
 ## Step 2: Exploring Transcription Factor data
 
-1.  We're going to explore a list of genes in the context of a set of ChIPSeq datasets. We'll use a list of differentially expressed genes as was determined in [the chapter on differentially expressed genes](/Differential_Expression.html#step-6-finding-all-differentially-expressed-genes). To further trim that list we'll only use genes marked as cancer related. 
+1.  We're going to explore a list of genes in the context of a set of ChIPSeq datasets. We'll use a list of differentially expressed genes as was determined in [the chapter on differentially expressed genes](Differential_Expression.html#step-6-finding-all-differentially-expressed-genes). To further trim that list we'll only use genes marked as cancer related. 
+
+
 2.  
 
 ## Step 3: Finding active super-enhancers
 
-1.
+1. R2 provides easy access to potential enhancer regions for specific datasets
 
 ## Final remarks
 
