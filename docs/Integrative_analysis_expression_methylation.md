@@ -71,7 +71,7 @@ Tutorial Step 1
 	
 	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
 
-	Next to the YY-plot,  more insight will into the results can be  generated to use the explore and search options for more regions by using the interactive genome browser.   Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
+	Next to the YY-plot,  more insight can be obtained by using  using the interactive genome browser. The genome browser is equiped with extended search options to find and explore more regions. The genome browser is core module within R2  and will be discussed in a separate chapter of this tutorial.    Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
 
 8. In the correlation plot there is clearly a high correlation visible between the expression and methylation reporters located at chromosome 2.  By clicking on the chromosome 2 area will R2 will regenerate a correlation plot zoomed into chromosome 2.   In order to investigate even more zoom in to this particular region. Press and hold the left mouse button in the designated area (Figure 8) mark the area by dragging the pointer , release de mouse button and click ‘redraw’.
 
