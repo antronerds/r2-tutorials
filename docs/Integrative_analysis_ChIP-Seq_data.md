@@ -44,10 +44,10 @@ First is the MACS algorithm; this is often used in ChIP-seq data analyses and pu
 The other algorithm is RSEG; it is especially designed for histone modification detection. In R2 this used to analyse the histone modification patterns. To distinguish between specific histone modifications (e.g. acetylation vs methylation), R2 allows you to assess the same region in two profiles. 
   
 #### Super enhancers
-An *enhancer* is a short (50-1500 bp) region of DNA that can be bound by proteins (activators) to increase the likelihood transcription will occur at a gene. They can be located up to 1 Mbp (1,000,000 bp) away from the gene, either upstream or downstream from the start site, and either in the forward or backward direction.  A *super-enhancer* is a region of the mammalian genome comprising multiple of these enhancers, collectively bound by an array of transcription factor proteins to drive transcription of genes, often involved in regulation of cell identity. 
+An *enhancer* is a short (50-1500 bp) region of DNA that can be bound by proteins (activators) to increase the likelihood transcription will occur at a gene. They can be located up to 1 Mbp (1,000,000 bp) away from the gene, either upstream or downstream from the start site, and either in the forward or backward direction.  A *super-enhancer* is a region of the mammalian genome comprising multiple of these enhancers, collectively bound by an array of transcription factor proteins to drive transcription of genes, often involved in regulation of cell identity. They can be up to 20 times the size of an enhancer.
 
 
-For identification of super enhancers R2 uses the *R*ank *O*rdering of *S*uper-*E*nhancers algorithm (ROSE; [more on the algorithm here](http://www.cell.com/abstract/S0092-8674(13)00392-9)). This takes the peaks called by RSEG for acetylation and calculates the distances in-between to judge whether they can be considered super-enhancers. The ranked values can be plotted and by locating the infliction point in the resulting graph, super-enhancers can be assigned. It can also be used with the MACS calculated data (figure 3).
+For identification of super enhancers R2 uses the *R*ank *O*rdering of *S*uper-*E*nhancers algorithm (ROSE; [more on the algorithm here](http://www.cell.com/abstract/S0092-8674(13)00392-9)). This takes the peaks called by RSEG for acetylation and calculates the distances in-between to judge whether they can be considered super-enhancers. The ranked values can be plotted and by locating the inflection point in the resulting graph, super-enhancers can be assigned. It can also be used with the MACS calculated data (figure 3).
 
 
 ![Figure 3: Result of a typical ROSE analysis. Above the inflection point, marked in red, are super-enhancer regions.](_static/images/IntAnalysis_ChIPSeq_InflectionPoint.png)
@@ -75,7 +75,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 2: Exploring genes in a transcriptional context
 
-1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. In the ChIP-seq menu choose the ChIP-chip Genome Browser
+1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. In the ChIP-seq menu choose the *ChIP-chip Genome Browser*
 
 2. In the next screen type the name of your gene in the refseq field (that's what's being used to map the annotation) and click next.
 
@@ -109,14 +109,55 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 	
 ## Step 3: Exploring histone modification patterns
 
-1. Within R2 the regions of histone modification are calculated with the RSEG algorithm.
+1. Within R2 the regions of histone modification are calculated with the RSEG algorithm. The relative contributions of acetylation and methylation can be used to determine whether a region can be considered to be actively transcribed or as having enhancer functionality. This assignment can be further corroborated by including actual Transcription Factor binding data. To perform such analyses go back to the ChIP-seq choice menu. Again choose the *ChIPseq TSS Peak Plotter* 
 
+2. Choose *ROSE_se_pub_rseg_m2_s0_t0_v1* as algorithm in the Adjustable Settings dialog. This denotes that the RSEG peaks will be additionally scored by ROSE. Click next.
+
+3. In the next screen we choose a dataset, for this example take the SY5Y cellline that was profiled by Oldridge e.a. for acetylation. Indicate the region to show on either side of the TSS; a commonly used value is 50 KB up and downstream; so 100.000. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions; 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Additionally we're going to color the genebodies of genes of interest; in our case ALK. Set the gene order to *by_row_signal* ; this will make sure the gene with most enhancers in this region will top the list. 
+	
+---------
+  ![](_static/images/R2d2_logo.png)**Did you know that you can provide arbitrary locations on the genome?**
+
+
+> *Other than GeneSymbols (where R2 will find the most downstream TSS for you), you can also provide genome positions in the form of 'chr1:10020035:-' or 'chr1:10020035' where +/- indicates the strand and thus orientation. If no strand information is provided, R2 assumes +.*
+
+---------
+	
+4. R2 now shows for all provided genes a 100 Kb region up and downstream of the TSS. Note that the genebody of ALK is colored green. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 10). Each stretch is clickable and will open a new tab. Click the topmost gene.
+	
+	![Figure 10: Histone acetylation around the TSS of a set of genes](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_set.png)
+	
+	[**Figure 10: Histone acetylation around the TSS of a set of genes**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_set.png)
+	
+5. For the topmost gene the acetylation data is shown on the chosen stretch. To further analyze what's going on we'll add GATA3 binding data and methylation data for the same cellline by checking the appropriate boxes. Click redraw. Note especially the region to the right where a super-enhancer is located, methylation signal is lower and there is not much GATA binding (Figure 11).
+	
+	![Figure 11: ChIPseq signals around the TSS of a single gene](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene.png)
+	
+	[**Figure 11: ChIPseq signals around the TSS of a single gene**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene.png)
+	
 ## Step 4: Finding active super-enhancers
 
-1. R2 provides easy access to potential enhancer regions for specific datasets. In the
+1. We're now going to explore the ChIPseq data the other way around, from the super-enhancer perspective. The selection of histone modified stretches on the genome are judged as super-enhancers by the ROSE algorithm. In R2 the most active regions can be explored through an interactive ROSE plot. Go back to the ChIPseq choice menu, this time choose *ROSE Super Enhancer Plot*
 
+2. In the next screen the same algorithm as above is chosen: *ROSE_se_pub_rseg_m2_s0_t0_v1*
+
+3. Select the same SY5Y dataset from Oldridge in the next panel
+	
+	![Figure 12: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_SuperEnhancer_from_ROSE_plot.png)
+	
+	[**Figure 12: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_SuperEnhancer_from_ROSE_plot.png)
+	
+4. R2 shows an interactive ROSE plot (figure 12); dots in red are clickable and represent areas on the genome that ROSE has assigned as super-enhancer. Click one of them. In this example the 5th ranked enhancer was chosen.
+
+5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 13). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
+	
+	![Figure 13: The genomic context of a top-ranking super-enhancer](_static/images/IntAnalysis_ChIPSeq_TopRanking_SuperEnhancer.png)
+	
+	[**Figure 13: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq_TopRanking_SuperEnhancer.png)
+	
 ## Final remarks
 
-In R2 the ChIP-Seq data visualization is under development, so any suggestions are welcome.
+Any ChIPseq dataset can profit from the visualizations provided by R2, just contact us if you want your data added.
+In R2 the ChIP-Seq data visualization is still under development, so any suggestions for improvements are welcome.
 Mail us at r2-support@amc.nl , also if you have any questions or remarks.
 
