@@ -19,3 +19,4 @@ Scope
 	
 	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
+	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
