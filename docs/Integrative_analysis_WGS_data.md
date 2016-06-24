@@ -7,7 +7,7 @@ Integrative Analysis : WGS/NGS data
 
 Scope
 -----
-- In this part R2 is used to provide information about how Whole Genome Sequencing (WGS) data can be viewed, shared and analyzed.
+- In this part R2 is used to provide information about how Whole Genome Sequencing (WGS) data can be viewed, shared and analysed.
   This is a specialized topic for with most likely close collaboration is needed to tailor your own data to your needs.
 - ...
 
@@ -20,3 +20,10 @@ Scope
 	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
+	
+2. Select a subset of samples by using the menu on the top.
+	
+	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_SelectSubset.png)
+	
+	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_SelectSubset.png)
+	
