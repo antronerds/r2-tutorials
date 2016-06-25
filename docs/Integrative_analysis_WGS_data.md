@@ -38,7 +38,8 @@ Scope
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
 	
-3. Here we entered the detailed view of the circos plot section. On the right side you can open different tabs with informatio
+3. Here we entered the detailed view of the circos plot section.
+   On the right side you can open different information tabs.
 	1.	Sample annotation.
 	2.	Somatic structural variants.
 	3.	Somatic structural variants of a limited size inside or close to genes that could be affected by them.
@@ -49,4 +50,28 @@ Scope
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_CircosDetailView.png)
 	
+	- When you open the *Gene Affecting Structural Variants (of limited size)* tab you can now see two variants listed and not one as shown in the circos plot.
+	  For the cicos plot a higher threshold was used for the read pair mates. For the table we show more but less accurate data.
+	- Click on *view* inside the *link* column.
+	- This opens a double genomebrowser view showing both sides of the selected structural variation.
+
+	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_StucVarDuoPlot.png)
+	
+	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_StucVarDuoPlot.png)
+
+4. When the link under a genomebrowser location view is clicked the same location is shown insede te full genomebrowser view.
+   Here you will be able to use the zoom buttons and select extra data to plot with the cgh-like scatterplot and junction information.
+   For this sample there is also affymetrix gene expression data available. Here the zscore is shown above the cgh-like plot.
+
+	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
+	
+	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
+	
+5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you wil be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series.
+
+	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
+	
+	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
+	
+	  
 	
