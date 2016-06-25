@@ -38,9 +38,15 @@ Scope
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
 	
-IntAnalysis_WGS_CircosDetailView
+3. Here we entered the detailed view of the circos plot section. On the right side you can open different tabs with informatio
+	1.	Sample annotation.
+	2.	Somatic structural variants.
+	3.	Somatic structural variants of a limited size inside or close to genes that could be affected by them.
+	4.	Hight quality non structural somatic variants.
+	5.	A link out to the genome browsers showing a cgh-like plot of the sequencing data of a region of interest.
 
 	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_CircosDetailView.png)
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_CircosDetailView.png)
+	
 	
