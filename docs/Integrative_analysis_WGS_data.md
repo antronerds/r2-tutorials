@@ -59,7 +59,7 @@ Scope
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_StucVarDuoPlot.png)
 
-4. When the link under a genomebrowser location view is clicked the same location is shown insede te full genomebrowser view.
+4. When the link under a genomebrowser location view is clicked the same location is shown inside te full genomebrowser view.
    Here you will be able to use the zoom buttons and select extra data to plot with the cgh-like scatterplot and junction information.
    For this sample there is also affymetrix gene expression data available. Here the zscore is shown above the cgh-like plot.
 
@@ -68,6 +68,7 @@ Scope
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
 	
 5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you wil be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series.
+   
 
 	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 	
