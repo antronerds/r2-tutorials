@@ -22,8 +22,18 @@ Scope
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
 2. Select a subset of samples by using the menu on the top.
+	- Select *inss (cat 5)* from the select a track (subset) selection box.
+	- Select *st2 (19)*, click <font color="red">confirm</font> and *update*.
 	
 	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_SelectSubset.png)
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_SelectSubset.png)
 	
+2. In Neuroblatoma whole chromosome and partial gains and losses are frequent. Indicated by the red and green colouring cgh-like scatterplots.
+	- One sample apears to have no large structural defects (N482TL).
+	- N482 indicates the sample_id, TL indecates that the circos plot shows data of the **T**umor compared to the **L**ymphosites DNA.
+	- Click on the N482TL tile and go to the newly opened tab of your browser.
+
+	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
+	
+	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
