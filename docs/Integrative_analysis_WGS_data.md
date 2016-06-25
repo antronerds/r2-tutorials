@@ -67,8 +67,7 @@ Scope
 	
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
 	
-5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you wil be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series.
-   
+5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you wil be taken into the one gene view of r2      showing the expression of this gene inside a Neuroblastoma tumor series.
 
 	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 	
