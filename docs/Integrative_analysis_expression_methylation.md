@@ -18,7 +18,7 @@ Scope
 
 
 
-Tutorial Step 1
+Step 1: Choosing a combined dataset.
 -----
 
 1.	From R2’s perspective, an analysis where multiple datatypes will be combined is an ‘across datasets’ analysis, so we need to select this from the main page in box 1.
@@ -51,7 +51,7 @@ Tutorial Step 1
 	[**Figure 4:Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 
 
-## Tutorial Step 2
+## Correlate two datatypes
 
 1.	Next to simply ‘looking’ at reporters from the different datasets, we can also correlate 2 data types with each other. To achieve this, we first go back to the 'main page' by clicking on the upper left link.
 2.	We would now like to identify which gene has the best association with its methylation status. Therefore we need to correlate every gene with the methylation reporters that are in the annotated (for the the same gene) to belong to a gene.
