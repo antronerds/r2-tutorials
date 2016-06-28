@@ -11,10 +11,10 @@ Integrative Analysis : Across Platforms
 Scope
 -----
 
-- Analyzing data with different datatypes this tutorial will focus on using methylation data and expression data.
-- For some patients, R2 may have multiple types of measurements within the platform. Assumed  that you have access to more than one datatype (for public data, or when you are part of an r2 
+- For some patients (samples)  R2 is hosting multiple types of measurements within the platform.
+- Merging gene expression and methylation data.
 - The Tumor Neuroblastoma - Lavarino - 23 - rma_sketch - u219 and Tumor Neuroblastoma - Lavarino - 41 - custom - ilmnhm450 datasets will be used for this tutorial.
-- Find correlation between methylated sites within a gene and gene expression
+- Find correlations between methylated sites within a gene and gene expression
 
 
 
