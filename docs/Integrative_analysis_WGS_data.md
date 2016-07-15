@@ -8,8 +8,7 @@ Integrative Analysis : WGS/NGS data
 Scope
 -----
 - In this part R2 is used to provide information about how Whole Genome Sequencing (WGS) data can be viewed, shared and analysed.
-  This is a specialized topic for which most likely close collaboration is needed to tailor your own data to your needs.
-- ...
+  This is a specialized topic for which you need access to a dataset having such information. Most likely close collaboration is needed to tailor your own data to your needs.
 
 
 
@@ -72,4 +71,6 @@ Scope
 	![Figure 7: FOXR1 in the tumorseries](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 	
 	[**Figure 7: FOXR1 in the tumorseries**](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
+
+Using the MegaSampler tool from within R2 you can also show that the FOXR1 gene is only expressed in a hand full of samples out out thousands, and that these mostly are neuroblastoma cases. Out of the samples that could be checked, all appear to have created in-frame fusions with FOXR1. All of these findings, and additional experiments proving that FOXR1 can serve as an oncogene in neuroblastoma have been published by Santo et al in Oncogene (2012).
 
