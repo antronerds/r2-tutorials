@@ -180,7 +180,7 @@ Step 2: Zooming and panning
 ![](_static/images/R2d2_logo.png)**Did you know that the additional settings can be changed in “Tracks Panel".**
                                                               
 ![](_static/images/UsingR2genome_toolicon.png)                             
-                                                                                                                     > *Clicking on the tool icon unfolds extra options to configure your graph*                                                                   
+                                                                                                                     > *Clicking on the tool icon unfolds extra options to configure your graph. For many tracks, this will allow you to increase the size, but the settings may also include options that are specific to a particular analysis*                                                                 
                                                                         
                                                                   
 ----------
