@@ -215,6 +215,7 @@ chromosome at a certain location.
     including many basic functionalities.
 
 
+The R2 Genome Browser can be used with different genome builds (versions). Depending on the build, different annotation tracks can become accessible. In addition, depending on your access, additional track may be at your disposal. 
 
 
 
