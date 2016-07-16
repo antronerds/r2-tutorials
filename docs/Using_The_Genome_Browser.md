@@ -177,9 +177,7 @@ Step 2: Zooming and panning
     the region of interest reaches a certain size)
 
 ----------
-![](_static/images/R2d2_logo.png)**Did                                
-you know that the additional settings can be changed in “Tracks         
-Panel".**
+![](_static/images/R2d2_logo.png)**Did you know that the additional settings can be changed in “Tracks Panel".**
                                                               
 ![](_static/images/UsingR2genome_toolicon.png)                             
                                                                                                                      > *Clicking on the tool icon unfolds extra options to configure your graph*                                                                   
