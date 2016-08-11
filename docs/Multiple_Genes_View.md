@@ -51,7 +51,6 @@ Step 1: Viewing multiple genes
 
 
 
-
 Step 2: Viewing multiple genes through track annotation
 ---------------
 
