@@ -62,9 +62,9 @@ Step 2: Viewing multiple genes through track annotation
     groups by and "Track" at color by track. Further set transform tot
     "none", select "boxplot" at Plot type and click NEXT.
 
-	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure    1: Default multiple geneview.")
+	![Figure    2: Multiple gene view pertrack.](_static/images/MultipleGenesView_perTrack.png "Figure    2: Multiple gene view pertrack.")
 	
-	[**Figure    1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
+	[**Figure    2: Multiple gene view pertrack.**](_static/images/MultipleGenesView_perTrack.png)
 	
 
 
