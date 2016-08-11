@@ -41,7 +41,7 @@ Step 1: Viewing multiple genes
 
 	![Figure    1: Select a Kaplan    Meier option.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
-	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
+	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 
 
 	
