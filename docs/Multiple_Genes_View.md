@@ -39,16 +39,13 @@ Step 1: Viewing multiple genes
     the following genes: AXIN2, BOC, dkk2, GABRA5, PTCH1, SMARCD3, WIF1
     and click next.
 
-
-
-
-
 	![Figure1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
 	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 	
 
 
+	
 
 
 Step 2: Viewing multiple genes through track annotation
