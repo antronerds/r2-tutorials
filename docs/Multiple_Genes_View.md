@@ -70,11 +70,6 @@ Step 2: Viewing multiple genes through track annotation
 	
 	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
 
-
-	![Figure    2:  Multiple gene view pertrack.](_static/images/MultipleGenesView_perTrack.png "Figure    2:  Multiple gene view pertrack.")
-	
-	[**Figure    2:  Multiple gene view pertrack.**](_static/images/MultipleGenesView_perTrack.png)
-	
 1.  Most of the used genes are part of the WNT (subgroup A) and de SHH
     (subgroup B) signaling pathway overexpressed per subtype as shown by
     Kool et al. These genes are overexpressed in different
