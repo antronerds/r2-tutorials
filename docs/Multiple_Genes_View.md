@@ -67,9 +67,9 @@ Step 2: Viewing multiple genes through track annotation
     "none", select "boxplot" at Plot type and click NEXT.
 
     
-	![Figure    1: Select a Kaplan    Meier option.](_static/images/WorkingWithKaplan_menu.png "Figure 1: Select a Kaplan Meier option.")
+	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
-	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
+	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 
 
 1.  Most of the used genes are part of the WNT (subgroup A) and de SHH
