@@ -63,9 +63,10 @@ Step 2: Viewing multiple genes through track annotation
     "none", select "boxplot" at Plot type and click NEXT.
 
 	
-	![Figure2: Multiple gene view pertrack](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
+	![Figure 2: Multiple gene view pertrack](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
 	
-	[**Figure2: Multiple gene view pertrack**](_static/images/MultipleGenesView_perTrack.png)
+	[**Figure 2 : Multiple gene view pertrack**](_static/images/MultipleGenesView_perTrack.png)
+	
 	
 
 
