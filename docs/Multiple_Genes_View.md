@@ -39,7 +39,7 @@ Step 1: Viewing multiple genes
     the following genes: AXIN2, BOC, dkk2, GABRA5, PTCH1, SMARCD3, WIF1
     and click next.
 
-	![Figure    1: Select a Kaplan    Meier option.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
+	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
 	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 
