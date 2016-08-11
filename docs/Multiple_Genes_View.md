@@ -38,15 +38,10 @@ Step 1: Viewing multiple genes
     Plos one) will be used. In the GENE/reporter textbox type or copy
     the following genes: AXIN2, BOC, dkk2, GABRA5, PTCH1, SMARCD3, WIF1
     and click next.
-
-
-	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
+    
+	![Figure    1: Select a Kaplan    Meier option.](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
 	
-	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
-
-
-	
-
+	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
 
 Step 2: Viewing multiple genes through track annotation
 ---------------
