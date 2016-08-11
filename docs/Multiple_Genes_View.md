@@ -62,10 +62,11 @@ Step 2: Viewing multiple genes through track annotation
     groups by and "Track" at color by track. Further set transform tot
     "none", select "boxplot" at Plot type and click NEXT.
 
-    
-	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
-	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
+	![Figure2: Multiple gene view pertrack](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
+	
+	[**Figure2: Multiple gene view pertrack**](_static/images/MultipleGenesView_perTrack.png)
+	
 
 
 1.  Most of the used genes are part of the WNT (subgroup A) and de SHH
