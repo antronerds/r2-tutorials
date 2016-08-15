@@ -6,8 +6,6 @@ For citations, please include the following webcite: 'R2: Genomics Analysis and 
 
 Copyright (c) 2006-2016 Jan Koster
 
-.. rubric:: Table of Contents
-
 .. toctree::
    :maxdepth: 2
    :numbered: 2
