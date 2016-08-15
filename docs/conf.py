@@ -29,6 +29,8 @@ htmlhelp_basename = 'Testdoc'
 html_logo = '_static/images/r2_logo_128.png'
 html_favicon = '_static/images/r2favicon.ico'
 
+latex_logo = '_static/images/r2_logo.png'
+
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # Changed this to a4; we're in Europe ;-)
