@@ -42,7 +42,12 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 # According to this link: http://tex.stackexchange.com/questions/23078/how-can-i-automatically-center-an-image?rq=1
 # all images should become centered using this package
-'preamble': '\usepackage{floatrow}',
+'preamble': '''
+\usepackage{floatrow}
+\usepackage{float}
+\floatstyle{boxed} 
+\restylefloat{figure}
+''',
 
 # Latex figure (float) alignment
 # default below is float; we want position as is: H
