@@ -33,9 +33,7 @@ latex_logo = '_static/images/r2_logo.png'
 
 LATEX_PREAMBLE = r'''
 \usepackage{floatrow}
-\usepackage{float}
-\floatstyle{boxed} 
-\restylefloat{figure}
+\floatsetup[figure]{style=Boxed}
 '''
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
