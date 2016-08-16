@@ -10,7 +10,7 @@ copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.0.0.e'
+release = '3.0.0.f'
 language = None
 
 exclude_patterns = ['_build']
@@ -31,7 +31,7 @@ html_favicon = '_static/images/r2favicon.ico'
 
 latex_logo = '_static/images/r2_logo.png'
 
-LATEX_PREAMBLE = r"""
+LATEX_PREAMBLE = ur"""
 \usepackage{floatrow}
 \usepackage{float}
 \floatstyle{boxed} 
