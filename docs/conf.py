@@ -31,6 +31,12 @@ html_favicon = '_static/images/r2favicon.ico'
 
 latex_logo = '_static/images/r2_logo.png'
 
+LATEX_PREAMBLE = r"""
+\usepackage{floatrow}
+\usepackage{float}
+\floatstyle{boxed} 
+\restylefloat{figure}
+"""
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # Changed this to a4; we're in Europe ;-)
@@ -42,12 +48,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 # According to this link: http://tex.stackexchange.com/questions/23078/how-can-i-automatically-center-an-image?rq=1
 # all images should become centered using this package
-'preamble': '''
-\usepackage{floatrow}
-\usepackage{float}
-\floatstyle{boxed} 
-\restylefloat{figure}
-''',
+'preamble': LATEX_PREAMBLE,
 
 # Latex figure (float) alignment
 # default below is float; we want position as is: H
