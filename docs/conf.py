@@ -31,12 +31,12 @@ html_favicon = '_static/images/r2favicon.ico'
 
 latex_logo = '_static/images/r2_logo.png'
 
-LATEX_PREAMBLE = ur"""
+LATEX_PREAMBLE = r'''
 \usepackage{floatrow}
 \usepackage{float}
 \floatstyle{boxed} 
 \restylefloat{figure}
-"""
+'''
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # Changed this to a4; we're in Europe ;-)
