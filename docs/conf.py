@@ -10,7 +10,7 @@ copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.0.0.h'
+release = '3.0.0.i'
 language = None
 
 exclude_patterns = ['_build']
@@ -31,10 +31,6 @@ html_favicon = '_static/images/r2favicon.ico'
 
 latex_logo = '_static/images/r2_logo.png'
 
-LATEX_PREAMBLE = r'''
-\usepackage{floatrow}
-\floatsetup[figure]{style=Boxed}
-'''
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # Changed this to a4; we're in Europe ;-)
@@ -46,7 +42,10 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 # According to this link: http://tex.stackexchange.com/questions/23078/how-can-i-automatically-center-an-image?rq=1
 # all images should become centered using this package
-'preamble': LATEX_PREAMBLE,
+"preamble": r"""
+	\usepackage{floatrow}
+	\floatsetup[figure]{style=Boxed}
+""",
 
 # Latex figure (float) alignment
 # default below is float; we want position as is: H
