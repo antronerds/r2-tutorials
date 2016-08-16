@@ -45,7 +45,7 @@ Step 1: Selecting a dataset
 [**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
 ----------
- ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming**      
+ ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**      
 
 > *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author  number_of_samples - normalization - chiptype**. Datasets are listed alphabetically*
 
