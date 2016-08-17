@@ -212,7 +212,7 @@ and click on the “Tview” link in the reporter table.
     human Affymetrix array types.
 
 
-![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Color legend")
+![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Colora ")
 
 [**Figure 6: Color legend**](_static/images/OneGene_Colorlegend.png)
 
