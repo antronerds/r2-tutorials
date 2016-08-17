@@ -212,9 +212,9 @@ and click on the “Tview” link in the reporter table.
     human Affymetrix array types.
 
 
-![Figure 6: Color legenda](_static/images/OneGene_Colorlegend.png "Figure 6: Colorc ")
+![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Color ")
 
-[**Figure 6: Color legendb**](_static/images/OneGene_Colorlegend.png)
+[**Figure 6: Coloring represents type of transcript**](_static/images/OneGene_Colorlegend.png)
 
   
 ![Figure 7: MYCN reporters in Transcript view](_static/images/OneGene_Tview.png "Figure 7: MYCN reporters in Transcript view")
