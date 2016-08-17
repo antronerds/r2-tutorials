@@ -10,7 +10,7 @@ copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.0.0.u'
+release = '3.0.0.v'
 language = None
 
 exclude_patterns = ['_build']
@@ -43,7 +43,9 @@ latex_elements = {
 # According to this link: http://tex.stackexchange.com/questions/23078/how-can-i-automatically-center-an-image?rq=1
 # all images should become centered using this package
 # 'preamble': '\\usepackage{floatrow}\\usepackage{caption}',
-'preamble': '\\usepackage{float}\\floatstyle{boxed}\\restylefloat*{figure}',
+# 'preamble': '\\usepackage{float}\\floatstyle{boxed}\\restylefloat*{figure}',
+
+'preamble': '\\makeatletter\\g@addto@macro\\@floatboxreset\\centering\\makeatother',
 
 # Latex figure (float) alignment
 # default below is float; we want position as is: H
