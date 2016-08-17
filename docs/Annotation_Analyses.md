@@ -106,9 +106,9 @@ Step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-	![Figure 4: Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks.png "Figure 4: Output of relating numericaltracks")
+	![Figure 4: Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numericaltracks")
 	
-	[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks.png)
+	[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks_v1.png)
 	
 
 
