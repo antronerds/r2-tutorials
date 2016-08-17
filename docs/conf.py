@@ -10,7 +10,7 @@ copyright = u'2016, Jan Koster'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.0.0.l'
+release = '3.0.0.m'
 language = None
 
 exclude_patterns = ['_build']
