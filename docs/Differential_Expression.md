@@ -350,9 +350,9 @@ Step 9: Adapting visualization: Volcano plot etc
     2 fold (Figure 19). Note that most genes of the DNA replication
     pathway seem to be located below the diagonal.
     
-	![Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.](_static/images/DiffentialExpress_AdjustVisual.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+	![Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.](_static/images/DiffentialExpres_graphtypes.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 	
-	[**Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpress_AdjustVisual.png)
+	[**Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpres_graphtypes.png)
 	
 5.  R2 can visualize the same data also as a Volcano plot or a MA plot.
     In the Adjustable Settings dialog change the Plot type to Volcano
