@@ -42,8 +42,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 # According to this link: http://tex.stackexchange.com/questions/23078/how-can-i-automatically-center-an-image?rq=1
 # all images should become centered using this package
-'preamble': '\\usepackage{floatrow}
-	     \\usepackage{caption}',
+'preamble': '\\usepackage{floatrow}\\usepackage{caption}',
 #'preamble': '\\renewcommand{\\title}{TesttitelPiet}',
 
 # Latex figure (float) alignment
