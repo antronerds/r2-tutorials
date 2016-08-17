@@ -64,9 +64,8 @@ a.reference.external strong{
 
 img{
 	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-  	padding: 10px 10px;	
+    	margin: auto;
+  	padding: 10px;	
 }
 
 /*
