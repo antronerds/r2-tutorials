@@ -356,7 +356,7 @@ Step 9: Adapting visualization: Volcano plot etc
 	
 5.  R2 can visualize the same data also as a Volcano plot or a MA plot.
     In the Adjustable Settings dialog change the Plot type to Volcano
-    (Figure 20) or MA (Figure 21). Note that the distinct
+    MA (Figure 19). Note that the distinct
     characteristics of the AKR1C1 gene and the DNA replication are more
     obvious in the Volcano plot. The DNA replication pathway statistics
     will be explored in more detail in the 'Find genes correlating with
