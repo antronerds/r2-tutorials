@@ -186,7 +186,7 @@ Step 5: Adapting plots
 5.  The resulting graph in Figure 8 shows the difference
     more dramatically.
     
-	![Figure    8: Bar plot without    transformation](_static/images/DiffentialExpress_BarplotNotransform.png "Figure    8: Bar plot without    transformation")
+	![Figure    8: Bar plot without    transformation](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure    8: Bar plot without    transformation")
 	
 	[**Figure    8: Bar plot without    transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
 	
