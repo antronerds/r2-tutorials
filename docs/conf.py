@@ -47,8 +47,6 @@ latex_elements = {
 
 'preamble': '\\makeatletter\\g@addto@macro\\@floatboxreset\\centering\\makeatother',
 
-'maketitle': 'R2_tutorials_frontpage.pdf',
-
 # Latex figure (float) alignment
 # default below is float; we want position as is: H
 #'figure_align': 'htbp', 
@@ -59,8 +57,6 @@ latex_documents = [
   (master_doc, 'Test.tex', u'R2 Tutorials',
    u'The R2 support team', 'manual'),
 ]
-
-latex_additional_files = ["_static/files/R2_tutorials_frontpage.pdf"]
 
 man_pages = [
     (master_doc, 'test', u'R2 Tutorials',
