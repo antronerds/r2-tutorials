@@ -47,7 +47,7 @@ latex_elements = {
 
 'preamble': '\\makeatletter\\g@addto@macro\\@floatboxreset\\centering\\makeatother',
 
-'maketitle': 'R2_tutorials_frontpage.pdf'
+'maketitle': 'R2_tutorials_frontpage.pdf',
 
 # Latex figure (float) alignment
 # default below is float; we want position as is: H
