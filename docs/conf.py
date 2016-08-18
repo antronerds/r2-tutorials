@@ -58,6 +58,8 @@ latex_documents = [
    u'The R2 support team', 'manual'),
 ]
 
+latex_additional_files = ["_static/images/R2_tutorials_frontpage.pdf"]
+
 man_pages = [
     (master_doc, 'test', u'R2 Tutorials',
      [author], 1)
