@@ -133,7 +133,7 @@ to your personal needs. Such as fontsize , Line width etc.
 ----------------
  ![](_static/images/R2d2_logo.png)**Did you know that you can contact the R2-support team to add your Time-series experiments**
  
->*Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files.*
+>*Your Time series experiments will be listed as a separate collection and for private analyses only. The R2-support team requires the CEL datafiles provided by your Microarray facility, to generate the result files. (see chapter 20) *
 
 --------------
 
