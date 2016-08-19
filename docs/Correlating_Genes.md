@@ -230,7 +230,7 @@ Step 6: Establishing overrepresentation in other domains
     controlled vocabulary that systematically describes processes,
     locations and functions in biology. Click 'Gene Ontology analysis'
 2.  The resulting categories are presented in a sortable table (Figure
-    11), sort on p-value by clicking on the column header.
+    11), sort on p-value by clicking on the column header. Clickin on a pathway ID will open a new screen or tab with the heatmap of the selected pathway.
 	    
 	![Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.](_static/images/Findgenes_onto_v1.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 	
@@ -296,6 +296,7 @@ Step 8: Further pathways analysis
 
 1.  Scroll down and look for the MCM2 gene, click on the link to show
     their relationship: Figure 16
+
     
 	![Figure    16: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
 	
@@ -313,12 +314,14 @@ Step 8: Further pathways analysis
 3.  Apparently there are some abstracts where the two genes are
     mentioned together, you can view this article directly by clicking
     the hyperlinked number in the Articles column. The outlink
-    Pubreminer column directs to the PubReminer tool: Figure 18
-    [![](_static/images/FindGenes_Reminer.png)**Figure
-    18: The PubReminer tool web interface; the genes MCM2 and MYCN
-    co-occur in one article. This versatile webtool allows you to build
-    very specific
-    literature queries.**](_static/images/FindGenes_Reminer.png)
+    Pubreminer column directs to the PubReminer tool:
+
+	![Figure    18: The PubReminder tool ](_static/images/FindGenes_Reminer.png "Figure18: The PubReminer tool web interface; the genes MCM2 and MYCN co-occur in one article.")
+
+        [**Figure    18: The PubReminer tool web interface **](_static/images/FindGenes_Pubsniffer.png)
+    
+
+
 4.  This versatile tool offers quite some functionality to build a
     literature search query tailored to your needs. That being slightly
     out of scope of this tutorial, click the "Goto Pubmed with query"
