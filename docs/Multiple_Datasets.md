@@ -210,8 +210,9 @@ comparisons between datasets).
     dot and R2 will generate an one-gene-view graph. The one-gene-view
     representation is explained in more details in tutorial 2.
 
-
-
+---------------
+ ![](_static/images/R2d2_logo.png)** Did you know that the megasamples can also be used to look through the methylation datasets **     
+---------------
 
 
 
