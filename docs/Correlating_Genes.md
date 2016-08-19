@@ -329,7 +329,7 @@ Step 8: Further pathways analysis
 5.  This article is actually published work by our group where the
     relation between the MCM genes and MYCN was proven experimentally.
 
-	![Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
+	![Figure19: The correlation between MCM genes and MYCN was proven experimentally in this article.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
 	
 	[**Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
 	
