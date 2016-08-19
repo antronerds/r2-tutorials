@@ -213,7 +213,7 @@ comparisons between datasets).
 
 
 ---------------
-  ![](_static/images/R2d2_logo.png)**Did you know that the megasamples can also be used to look through the methylation datasets**
+  ![](_static/images/R2d2_logo.png)**Did you know that the Megasampler can also be used to look through the methylation datasets**
 
 
 ---------------
