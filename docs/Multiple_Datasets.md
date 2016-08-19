@@ -41,13 +41,13 @@ Step 1: Selecting multiple datasets
     sampler" at "use presets". The meaning of presets will be explained
     later on.
 
---------------------------------------------------------------------------
+---------------
 ![](_static/images/R2d2_logo.png)**Did you know that R2 harbours different types of microarray platforms**
 
 ![Multiple dataset selectiong](_static/images/MultipleDatasets_Select.png)             
                                                                           
 > *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm and of certain normalizations.*
-                                                          --------------------------------------------------------------------------
+ ----------------
 
 1.  With the "selection preset" option a pre-stored dataset collection
     with associated settings can be selected. Select "XPO sampler"
