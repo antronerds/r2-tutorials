@@ -232,9 +232,9 @@ Step 6: Establishing overrepresentation in other domains
 2.  The resulting categories are presented in a sortable table (Figure
     11), sort on p-value by clicking on the column header.
 	    
-	![Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.](_static/images/FindGenes_GeneOnto.png "Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.")
+	![Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.](_static/images/Findgenes_onto_v1.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 	
-	[**Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.**](_static/images/FindGenes_GeneOnto.png)
+	[**Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.**](_static/images/FindGenes_GeneOnto_v1.png)
 	
 3.  One of the categories where genes of our current set are
     overrepresented is 'DNA-strand elongation'; and what is also obvious
@@ -268,7 +268,7 @@ Step 7: Gene list in pathway context
     members of the pathways in the KEGG database. Click on the p-value
     column header again to find the most significant ones: Figure 14
     
-	![Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/Findgenes_onto_v1.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
+	![Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/FindGenes_KeggPath.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 	
 	[**Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/FindGenes_KeggPath.png)
 	
