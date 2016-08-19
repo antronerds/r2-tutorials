@@ -214,6 +214,13 @@ comparisons between datasets).
  ![](_static/images/R2d2_logo.png)**Did you know that the megasamples can also be used to look through the methylation datasets**     
 ---------------
 
+---------------
+  ![](_static/images/R2d2_logo.png)**Did you know that the megasamples can also be used to look through the methylation datasets**
+
+> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
+  What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
+
+---------------
 
 
 
