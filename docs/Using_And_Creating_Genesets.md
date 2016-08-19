@@ -53,12 +53,9 @@ Step 1: Selecting data and modules; creating a Heatmap
     containing Cell Cycle genes. Type Cell Cycle in the 'Search a
     geneset' box and click 'Search'.
 
-    ![Figure 2:  Geneset selection ] (_static/images/UsingGenesets_Settings.png "Figure 2: Geneset view settings )
-    
-    [**Figure    2: The R2 Gene Set view settings; A set can be selected, filtered
-    for subsets and the clustering results will be ordered according to
-    the selection We're now going to search for Cell Cycle gene **]
-    sets**](_static/images/UsingGenesets%20Settings.png)
+	![Figure 2:  Geneset selection](_static/images/UsingGenesets_Settings.png "Figure 2: Geneset view settings")
+	
+	[**Figure    2: The R2 Gene Set view settings; A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection We're now going to search for Cell Cycle gene**](_static/images/UsingGenesets_Settings.png)
     
 	![Figure    3: Available collections of Genesets in    R2](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
 	
