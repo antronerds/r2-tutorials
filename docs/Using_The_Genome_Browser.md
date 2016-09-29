@@ -215,7 +215,13 @@ chromosome at a certain location.
     including many basic functionalities.
 
 
-The R2 Genome Browser can be used with different genome builds (versions). Depending on the build, different annotation tracks can become accessible. In addition, depending on your access, additional track may be at your disposal. 
+Step 4: Working with multiple samples listed within a track
+---------------
+
+In some instances, genome tracks may list a whole array of samples, that can individually be selected for display. If R2 has the ability to also display multiple samples for that specific track, then the items 'all' and 'custom' will be represented in the sample dropdown list as well. The first does not require further explanation, however the 'custom' option probably does.
+
+
+The R2 Genome Browser can be used with different genome builds (versions). Depending on the build, different annotation tracks can become accessible. In addition, depending on your access, additional tracks may be at your disposal. 
 
 
 
