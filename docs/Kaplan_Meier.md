@@ -20,7 +20,7 @@ Scope
 -   R2 supports any type of survival data, such as overall survival and
     relapse free survival.
 
--   An often used feature of R2 is the Kaplan Scan, where an optimum
+-   An often used feature of R2 is the Kaplan Scan (KaplanScan), where an optimum
     survival cut-off is established based on statistical testing instead
     of for example just taking the average of median. The Kaplan scanner
     separates the samples of a dataset into two groups based on the gene
@@ -83,7 +83,7 @@ and a mycn amplification, in this cohort.
 
 
 ----------
-![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to analyze a subgroup. In addition you can also adapt the graphical representation***                      
+![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to KaplanScan analyze a subgroup of patients for survival. In addition you can also adapt the graphical representation***                      
 
 ![Adjusting Kaplan graphics](_static/images/WorkingWithKaplan_Adjust.png)                           
 
@@ -101,7 +101,7 @@ will be lost and needs to be defined again.*
 
 
 
-Step 2: Adapting Kaplan Meier settings; the Kaplan scan
+Step 2: Adapting Kaplan Meier settings; the Kaplan Scan
 ---------------
 
 
@@ -220,7 +220,7 @@ Step 4: Kaplan scan on your own cohort
     -   Column4 contains the expression value of the gene of interest
         for the kaplanscan
 
-3.  One can easily prepare this information in Excel and paste the
+3.  One can easily prepare this information in Microsoft Excel and paste the
     selected columns into the large white paste box. Do take care that
     we use "." for decimal signs. After you pasted the dataset
     information, you make the selection for the cutoff option and
