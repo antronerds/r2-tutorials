@@ -61,7 +61,7 @@ Step 2: Adapting settings
 	[**Figure    2: K-means clustering    settings**](_static/images/Kmeans_clustersettings.png)
 	
 3.  Dependending on the size of your dataset or geneset you can enlarge
-    of minimize your K-means plot by adapting te size of the retangles
+    of minimize your K-means plot by adapting the size of the rectangles
     at heatmap option. click ‘next’
 
 ----------
@@ -118,7 +118,14 @@ Step 3: Examining resulting clusters
     clustering on the samples for every group of k. Finally a
     hierarchical clustering is performed on the genes, making use of the
     information present in all samples. Because this is a large set only
-    part of the map is shown in Figure 4
+    part of the map is shown in Figure 4.
+    Below the heatmap, R2 will automatically test the the association 
+    between the newly created kmeans separation and all of the tracks that
+    are available for the current dataset (Fisher's Exact Tests). This allows for quick discovery
+    of interesting correlations that may yield biological insights.
+    Depending on the availability of survival information, also a Kaplan 
+    Meier analyses can be added to the analysis (and for example be compared
+    to KaplanScan results for exemplar genes). 
 3.  This dataset has a clinical annotation for BCAT mutations; the upper
     bar or track in Figure 3. The subgroup having this annotation seems
     to cluster together in one of the two groups; this is however a
