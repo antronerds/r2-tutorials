@@ -134,11 +134,11 @@ Step 3: Plotting Gene expression
   
 ----------
 
-To mark specific samples in the graph you can enter the sample ID’s in the
-‘adjustable settings’ field, several marking options can be selected
-(e.g: ‘epicenter’ and ‘arrow’). To generate a graph of a subgroup of
-samples use the subset Select pulldown to select a specific group.
-Click ‘confirm’ and the redraw button.
+To hilight / mark specific samples in the graph you can enter the r2 sample ID’s in the field 'samples to mark' from the
+‘adjustable settings’ box. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
+
+To generate a graph of a subgroup of samples use the 'Select a track(subset)' Select pulldown from the 'sample filter' tab to select a specific group. These selections can be repeated a couple of times to build your ultimate selection. Once done, you have to 
+click the red ‘confirm’ link to fix the selection followed by the redraw button to commit your settings.
 
 
 ![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
