@@ -63,10 +63,9 @@ Step 1: Using Data Grabber
 A “datagrabber.txt” hyperlink is generated on the fly and appears on
 your screen. Right-click the link and store the tab delimited file with
 expression data on your hard drive. In case a dataset contains more than
-60.000 reporters, then R2 only allows up to 60.000 reporters to be
-exported, due to the large file-sizes which would have to be created.
-You may always drop r2-support a note, if you require these large
-amounts, and we will dispatch those via other means.
+60.000 reporters and/or exceeds 300mb in size, then R2 only allows up to 60.000 reporters to be
+exported. This restriction is imposed due to the large file-sizes which would have to be created.
+You can always drop r2-support a note, if you require these large datasets as a whole.We will then dispatch those via other means (via a file transfer service).
 
 
 
