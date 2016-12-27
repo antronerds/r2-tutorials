@@ -118,6 +118,13 @@ dataset is linked to a publication listed in PubMed.*
 -------------
 
 
+Step 3: Data Scopes
+---------------
+
+1.  R2 can also be forced to only display a sub selection of all the datasets that are available. These are called data scopes and can be selected from within R2 by the left hand menu items 'change data scope'. From here you can use one of the preset scopes. This is also the place where you can remove a scope that has been set. One obvious reason why scopes can be handy, is the focussed view on the available data.
+
+2. Data scopes can be used directly from the internet address line, which can be handy when a referral needs to be made to R2 from a manuscript. For now, you do need to provide a link directly to the server (usually hgserver1.amc.nl/cgi-bin/r2/main.cgi?&dscope=NRBL).
+
 ----------
  ![](_static/images/R2d2_logo.png)**Did you know that the R2-support team is scanning public repositories for interesting datasets to expand the R2-database on a regular basis**      
 
