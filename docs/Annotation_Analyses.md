@@ -80,7 +80,7 @@ Step 1: Relating 2 (categorical) tracks
     select the "inss\_stage" as track. Press the adapt settings to
     create an updated image. Now we can clearly see that there is a
     great over-representation of stage 4 patients in the group of
-    diseased patients who are older than 18 months.
+    diseased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
 
 	![Figure3: Color samples by track](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
 	
