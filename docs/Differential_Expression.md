@@ -366,7 +366,15 @@ Step 9: Adapting visualization: Volcano plot etc
 
 -------------------------------------------
   ![](_static/images/R2d2_logo.png)**Did you know that you can tailor visualization of specific genes in one go?**
->  *You can annotate genenames by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply. First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\* for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"*
+>  *You can annotate gene names (gene symbols) by providing them in this box. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups. 
+
+Please take note of the following rules: \# \#\* mark groups of genes for which the same criteria apply.
+
+First type the genes (comma separated), followed by :s=size, followed by :c=r,g,b \#\*
+
+for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0 \#\* 
+
+for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"*
 
 
 
