@@ -181,7 +181,7 @@ Step 4: Inspecting correlation between specific genes
 
 	![Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
 	
-	[**Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.**](_static/images/FindGenes_ExpressionHeat.png)
+	[**Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
 
 Step 5: Relation with Chromosome position
@@ -195,7 +195,7 @@ an overview. Sometimes, eyeballing already suggests that some regions
 seem to be affected. R2 provides a table where the statistics behind
 this analysis are given: Figure 10. The overrepresentation of genes that
 correlate with MYCN expression with respect to all genes present on (an
-arm of) a chromosome is calculated.
+arm of) a chromosome is calculated. You can also explore the results in the interactive R2 genome browser, where you can zoom into the results and locate individual genes. To enter this mode, just press the 'View in R2 genomebrowser' button.
 
 
 
@@ -206,7 +206,7 @@ arm of) a chromosome is calculated.
 -------------------------------------------------------------------------------
 
 
-![Figure9: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on allchromosomes")
+![Figure9: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on all chromosomes")
 
 [**Figure9: Mapping of the genes correlating with MYCN on allchromosomes**](_static/images/FindGenes_Chromosome.png)
 
