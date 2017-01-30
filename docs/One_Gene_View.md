@@ -356,6 +356,7 @@ Step 7: View a gene in groups
 Step 8: XY-plot: Coloring by Gene
 ---------------
 
+1. If you want to see the direct relation between the expression levels of two genes , you can select the XY plot option graphical representation type. 
 
 Step 9: Find best track separation with CliniSnitch
 ---------------
