@@ -179,7 +179,7 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
 	
-5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you select a corresponding probeset as well and click "Adjust Settings". In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently  colored by a  MYCN expression levels of course you can als0 enter a third gene to use for coloring the dots.
+5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you select a corresponding probeset as well and click "Adjust Settings". In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently colored by the MYCN expression levels of course you can also enter a third gene for coloring the dots.
 	
 	
 	![Figure 9: Select color by Gene ](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
