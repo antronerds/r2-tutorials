@@ -353,12 +353,10 @@ Step 7: View a gene in groups
 
 ----------
 
-Step 8: XY-plot: Coloring by Gene
----------------
 
-1. If you want to see the direct relation between the expression levels of two genes , you can select the XY plot option graphical representation type. 
 
-Step 9: Find best track separation with CliniSnitch
+
+Step 8: Find best track separation with CliniSnitch
 ---------------
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for the current dataset (like e.g. age group) than the example in the previous section. For such an analysis R2 has the CliniSnitch function. Within this functionality a brute force T-test is performed on every possible combination of subgroups within every annotation track. We can run a CliniSnitch analysis directly from the one-gene-view page by clicking on the Gene name under CliniSnitch in the left panel. Click on the ‘MYCN’ gene. 
