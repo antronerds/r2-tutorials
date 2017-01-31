@@ -185,7 +185,10 @@ Step 4: Inspecting correlation between specific genes
 	![Figure 9: Select color by Gene ](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
 	
 	[**Figure 9: Select Color by gene**](_static/imagesFindgenes_XYplotGeneColor.png)
-
+	
+	![Figure 8: Select Color by gene ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
+	
+	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
 	
 
 
