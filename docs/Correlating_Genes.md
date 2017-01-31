@@ -189,7 +189,7 @@ Step 4: Inspecting correlation between specific genes
 
 
 
-5.  Through the menu to the right several additional dataviews and
+6.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
@@ -199,6 +199,7 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 10 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
+
 
 Step 5: Relation with Chromosome position
 ---------------
