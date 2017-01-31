@@ -173,7 +173,17 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 7: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
 	
-4.  Through the menu to the right several additional dataviews and
+4. Another nice way to visualize the gradient in gene expression levels in the XY-plot representation is the use the "Color by Gene" option by Color mode in Adjustable settins box. 
+
+	![Figure 8: Select ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
+	
+	[**Figure 7: Toggle Histogram**](_static/images/Findgenes_ColorbyGene.png)
+	
+	
+
+
+
+5.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
