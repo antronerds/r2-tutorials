@@ -179,16 +179,14 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
 	
-5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you select a corresponding probeset as well and click "Adjust Settings".
+5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you select a corresponding probeset as well and click "Adjust Settings". In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently  colored by a  MYCN expression levels of course you can als0 enter a third gene to use for coloring the dots.
 	
 	
 	![Figure 9: Select color by Gene ](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
 	
 	[**Figure 9: Select Color by gene**](_static/imagesFindgenes_XYplotGeneColor.png)
 	
-	![Figure 8: Select Color by gene ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
-	
-	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
+
 	
 
 
@@ -226,13 +224,13 @@ arm of) a chromosome is calculated. You can also explore the results in the inte
 -------------------------------------------------------------------------------
 
 
-![Figure9: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on all chromosomes")
+![Figure10: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on all chromosomes")
 
-[**Figure9: Mapping of the genes correlating with MYCN on allchromosomes**](_static/images/FindGenes_Chromosome.png)
+[**Figure10: Mapping of the genes correlating with MYCN on allchromosomes**](_static/images/FindGenes_Chromosome.png)
 
-![Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes](_static/images/FindGenes_ChromeTable.png "Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
+![Figure11: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes](_static/images/FindGenes_ChromeTable.png "Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
 
-[**Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/FindGenes_ChromeTable.png)
+[**Figure11: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/FindGenes_ChromeTable.png)
 
 1.  To further explore this set of genes return to the list: Figure 3
 
@@ -252,9 +250,9 @@ Step 6: Establishing overrepresentation in other domains
 2.  The resulting categories are presented in a sortable table (Figure
     11), sort on p-value by clicking on the column header. Clickin on a pathway ID will open a new screen or tab with the heatmap of the selected pathway.
 	    
-	![Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.](_static/images/Findgenes_onto_v1.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
+	![Figure 12: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.](_static/images/Findgenes_onto_v1.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 	
-	[**Figure 11: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.**](_static/images/FindGenes_GeneOnto_v1.png)
+	[**Figure 12: Gene Ontology categories that are overrepresented in the set of genes that correlates with MYCN expression in the current dataset, sorted by increasing p-value of overrepresentation.**](_static/images/FindGenes_GeneOnto_v1.png)
 	
 3.  One of the categories where genes of our current set are
     overrepresented is 'DNA-strand elongation'; and what is also obvious
@@ -264,9 +262,9 @@ Step 6: Establishing overrepresentation in other domains
 4.  The adjustable panel settings menu allows you to redo the
     gene-ontology analysis with the up or down regulated genes only.
 
-	![Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
+	![Figure13: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
 	
-	[**Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
+	[**Figure13: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
 	
 
 
@@ -280,17 +278,17 @@ Step 7: Gene list in pathway context
 2.  In the next screen a choice can be made for other datasets; we use
     the KEGG database. Click next.
     
-	![Figure    13: Choice panel for other    datasets](_static/images/First_image_select_dataset.png "Figure    13: Choice panel for other    datasets")
+	![Figure    14: Choice panel for other    datasets](_static/images/First_image_select_dataset.png "Figure    13: Choice panel for other    datasets")
 	
-	[**Figure    13: Choice panel for other    datasets**](_static/images/First_image_select_dataset.png)
+	[**Figure    14: Choice panel for other    datasets**](_static/images/First_image_select_dataset.png)
 	
 3.  A similar overrepresentation analysis is performed on all gene
     members of the pathways in the KEGG database. Click on the p-value
     column header again to find the most significant ones: Figure 14
     
-	![Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/FindGenes_KeggPath.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
+	![Figure    15: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/FindGenes_KeggPath.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 	
-	[**Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/FindGenes_KeggPath.png)
+	[**Figure    15: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/FindGenes_KeggPath.png)
 	
 4.  The DNA-replication pathway pops up as most significant. Note that
     most genes are similar to the GO process found in the
@@ -298,11 +296,11 @@ Step 7: Gene list in pathway context
     of the pathway name is clicked.
 5.  A hyperlinked KEGG pathway appears: Figure 15
 	
-	![Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
+	![Figure 16: Mapping of the overrepresented genes (darker green) in the MYCN
 	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information](_static/images/FindGenes_Pathway.png "Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
 	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information")
 	
-	[**Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
+	[**Figure 16: Mapping of the overrepresented genes (darker green) in the MYCN
 	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information.**](_static/images/FindGenes_Pathway.png)
 	
 MCM-genes seem to play a role. Go back to list (Figure 3) to show their
@@ -318,27 +316,27 @@ Step 8: Further pathways analysis
     their relationship: Figure 16
 
     
-	![Figure    16: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
+	![Figure    17: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
 	
-	[**Figure    16: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
+	[**Figure    17: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
 	
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
     search in the Pubmed literature database for (co-)occurrences of
     MYCN and MCM2 (and some other keywords). Click the link: Figure 17
     
-	![Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2](_static/images/FindGenes_Pubsniffer.png "Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2")
+	![Figure    18: Pubsniffer results for gene symbols MYCN and    MCM2](_static/images/FindGenes_Pubsniffer.png "Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2")
 	
-	[**Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2**](_static/images/FindGenes_Pubsniffer.png)
+	[**Figure    18: Pubsniffer results for gene symbols MYCN and    MCM2**](_static/images/FindGenes_Pubsniffer.png)
 	
 3.  Apparently there are some abstracts where the two genes are
     mentioned together, you can view this article directly by clicking
     the hyperlinked number in the Articles column. The outlink
     Pubreminer column directs to the PubReminer tool:
 
-	![Figure    18: The PubReminder tool ](_static/images/FindGenes_Reminer.png "Figure18: The PubReminer tool web interface; the genes MCM2 and MYCN co-occur in one article.")
+	![Figure    19: The PubReminder tool ](_static/images/FindGenes_Reminer.png "Figure18: The PubReminer tool web interface; the genes MCM2 and MYCN co-occur in one article.")
 
-        [**Figure    18: The PubReminer tool web interface **](_static/images/FindGenes_Pubsniffer.png)
+        [**Figure    19: The PubReminer tool web interface **](_static/images/FindGenes_Pubsniffer.png)
     
 
 
@@ -349,9 +347,9 @@ Step 8: Further pathways analysis
 5.  This article is actually published work by our group where the
     relation between the MCM genes and MYCN was proven experimentally.
 
-	![Figure19: The correlation between MCM genes and MYCN was proven experimentally in this article.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
+	![Figure 20: The correlation between MCM genes and MYCN was proven experimentally in this article.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
 	
-	[**Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
+	[**Figure 20: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
 	
 
 
@@ -387,9 +385,9 @@ Step 9: Gene set analysis
     genecategory; this is further explored in the advanced tutorial
     "Adapting R2 to your own needs".
 
-	![Figure20: Menu choices forDataset](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
+	![Figure 21: Menu choices forDataset](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
 	
-	[**Figure20: Menu choices forDataset**](_static/images/FindGenes_DatasetOptions.png)
+	[**Figure 21: Menu choices forDataset**](_static/images/FindGenes_DatasetOptions.png)
 	
 
 
