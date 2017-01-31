@@ -173,7 +173,7 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 7: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
 	
-4. Another nice way to adjust the graphical representation of  XY plot is using the gene expression levels and apply these to a color gradient.
+4. Another nice way to adjust the graphical representation of a XY plot is using the gene expression levels and apply these to a color gradient.
 
 	![Figure 8: Select Color by gene ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
 	
