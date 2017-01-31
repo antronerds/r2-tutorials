@@ -173,13 +173,14 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 7: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
 	
-4. Another nice way to visualize the gradient in gene expression levels in the XY-plot representation is the use the "Color by Gene" option by Color mode in Adjustable settins box. 
+4. Another nice way to visualize the gradient in gene expression levels in the XY-plot representation is to use the "Color by Gene" 		option by Color mode in Adjustable settings box. 
 
 	![Figure 8: Select ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
 	
-	[**Figure 7: Toggle Histogram**](_static/images/Findgenes_ColorbyGene.png)
+	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
 	
-	
+	Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots reflecting the expression levels according to a gradient.
+
 
 
 
