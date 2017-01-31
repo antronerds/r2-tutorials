@@ -187,8 +187,6 @@ Step 4: Inspecting correlation between specific genes
 	[**Figure 9: Select Color by gene**](_static/imagesFindgenes_XYplotGeneColor.png)
 	
 
-	
-
 
 
 5.  Through the menu to the right several additional dataviews and
