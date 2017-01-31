@@ -179,7 +179,7 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
 	
-	Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you select a corresponding probeset as well and click "Adjust Settings".
+5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you select a corresponding probeset as well and click "Adjust Settings".
 	
 	
 	![Figure 9: Select color by Gene ](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
@@ -190,6 +190,7 @@ Step 4: Inspecting correlation between specific genes
 	
 	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
 	
+
 
 
 5.  Through the menu to the right several additional dataviews and
