@@ -175,11 +175,19 @@ Step 4: Inspecting correlation between specific genes
 	
 4. Another nice way to adjust the graphical representation of a XY plot is using the gene expression levels and apply these to a color gradient.
 
-	![Figure 8: Select Color by gene ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
+	![Figure 8: Select Color by gene ](_static/images/DiffentialExpress_Colorbygeneprobeset.png "Figure 8: Select Color by gene")
 	
-	[**Figure 8: Select Color by gene**](_static/images/Findgenes_ColorbyGene.png)
+	[**Figure 8: Select Color by gene**](_static/imagesDiffentialExpress_Colorbygeneprobeset.png)
 	
-5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings". In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently colored by the MYCN expression levels of course you can also enter a third gene for coloring the dots.
+5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings".
+
+	![Figure 9: Select probeset ](_static/images/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
+	
+	[**Figure 9: Select probeset**](_static/images/Findgenes_ColorbyGene.png)
+
+
+
+In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently colored by the MYCN expression levels of course you can also enter a third gene for coloring the dots.
 		
 	![Figure 9: Select color by Gene ](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
 	
@@ -192,9 +200,9 @@ Step 4: Inspecting correlation between specific genes
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
     sample names on the x-axis. Return to the genelist view (Figure 3)
 
-	![Figure 10 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
+	![Figure 11 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
 	
-	[**Figure 10 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/FindGenes_ExpressionHeat.png)
+	[**Figure 11 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
 
 
