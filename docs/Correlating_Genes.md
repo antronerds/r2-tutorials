@@ -184,7 +184,12 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 		
 	![Figure 9: Select color by Gene ](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
 	
-	[**Figure 9: Select Color by gene**](_static/imagesFindgenes_XYplotGeneColor.png)
+	[**Figure 9: Select Color by gene**](_static/images/Findgenes_XYplotGeneColor.png)
+	
+			
+	![Figure 9: Select color by Gene ](_static/images/FindGenes_linearFitAdjust.png "Figure 9: Colored by expression")
+	
+	[**Figure 9: Select Color by gene**](_static/images/FindGenes_linearFitAdjust.png)
 	
 
 6.  Through the menu to the right several additional dataviews and
