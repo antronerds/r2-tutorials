@@ -189,17 +189,17 @@ clusters based on this set of genes. Clicking a spot in the heatmap will
 show directly the gene expression level for all samples via a new
 one-gene-view screen.
 
-5.  To generate a binary heatmap based on the GOOD versus BAD prognosisn select in the adjustable settings table "good_bad_binary"  in athe heatmap data pulldown menu.
+5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, select in the adjustable settings table "good_bad_binary"  in the heatmap data pulldown menu.
 
-![Figure 9: Heatmap of the significant prognostic list of genes.](_static/images/Workingwithkaplan_heatmapadjust.png "Figure8: Heatmap of the significant prognostic list of genes.")
+![Figure 9: Select binary heatmap.](_static/images/Workingwithkaplan_heatmapadjust.png "Figure8: Heatmap of the significant prognostic list of genes.")
 
-[**Figure 9: Heatmap of the significant prognostic list of genes.**](_static/imagesWorkingwithkaplan_heatmapadjust.png)
+[**Figure 9: Select binary heatmap.**](_static/imagesWorkingwithkaplan_heatmapadjust.png)
 
  The  heatmap shows this case a clustering based on the GOOD vs BAD prognoses.
  
- ![Figure 10: Heatmap of the significant prognostic list of genes.](_static/images/Workingwithkaplan_heatmapbadgood.png "Figure8: Heatmap of the significant prognostic list of genes.")
+ ![Figure 10: Binary heatmap.](_static/images/Workingwithkaplan_heatmapbadgood.png "Figure8: Heatmap of the significant prognostic list of genes.")
 
-[**Figure 10 : Heatmap of the significant prognostic list of genes.**](_static/Workingwithkaplan_heatmapbadgood.png)
+[**Figure 10 : Binary heatmap.**](_static/Workingwithkaplan_heatmapbadgood.png)
  
 
 
