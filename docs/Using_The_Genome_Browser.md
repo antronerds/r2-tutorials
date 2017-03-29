@@ -136,7 +136,7 @@ Step 2: Zooming and panning
 ---------------
 
 1.  The R2 Genome browser is a highly interactive application offering
-    several ways to zoom and scroll the genome display. In the right
+    several ways to zoom and scroll the genome display. In the left
     upper corner of the screen search for the GTPBP8 gene click go and
     in the next screen choose “GTP-binding protein 8 isoform 1” by
     clicking on “VIEW”.
