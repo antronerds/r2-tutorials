@@ -186,15 +186,15 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	
 	[**Figure 9: Select Color by gene**](_static/images/Findgenes_XYplotGeneColor.png)
 	
-6. Linear Fit option. 
+6. Another option to visualize the relation for the correlation of expressions in XY plot is to switch on the linear fit option. In the "More settings section". Turn on "lienar fit".
 			
-	![Figure 10: Select color by Gene ](_static/images/FindGenes_linearFitAdjust.png "Figure 9: Colored by expression")
+	![Figure 10: linear fit option  ](_static/images/FindGenes_linearFitAdjust.png "Figure 9: Colored by expression")
 	
-	[**Figure 10: Select Color by gene**](_static/images/FindGenes_linearFitAdjust.png)
+	[**Figure 10: linear fit**](_static/images/FindGenes_linearFitAdjust.png)
 	
-	![Figure 11: Select color by Gene ](_static/images/FindGenes_linearFitFig.png "Figure 9: Colored by expression")
+	![Figure 11: Select color by Gene ](_static/images/FindGenes_linearFitFigOnegroup.png "Figure 9: Colored by expression")
 	
-	[**Figure 11: Select Color by gene**](_static/images/FindGenes_linearFitFig.png)
+	[**Figure 11: Select Color by gene**](_static/images/FindGenes_linearFitFigOnegroup.png)
 	
 
 7.  Through the menu to the right several additional dataviews and
