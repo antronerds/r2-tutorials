@@ -186,7 +186,7 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	
 	[**Figure 9: Select Color by gene**](_static/images/Findgenes_XYplotGeneColor.png)
 	
-6. Another option to visualize the relation for the correlation of expressions in XY plot is to switch on the linear fit option. In the "More settings section". Turn on "lienar fit".
+6. Another option to visualize the relation for the correlation of expressions in XY plot is to switch on the linear fit option. In the "More settings section". Turn on "linear fit".
 			
 	![Figure 10: linear fit option  ](_static/images/FindGenes_linearFitAdjust.png "Figure 9: Colored by expression")
 	
@@ -196,6 +196,19 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	
 	[**Figure 11: Select Color by gene**](_static/images/FindGenes_linearFitFigOnegroup.png)
 	
+Sometimes it could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second clusters seems to have an inverse correlation. An example which is not directly listed in previous list of correlating genes is for example the relation between MYCN and GATA2. In the right upper corner enter MYCN and the GATA2 gene and click 'Change Genes'.  Further change the color mode in color by track , select the MYCN track in the graphics section and turn on the linear fit option at 'More settings' as indicated below, click redraw.
+
+	![Figure 12: Select color by Gene ](_static/images/FindGenes_linearFitFigOnegroup.png "Figure 9: Colored by expression")
+	
+	[**Figure 12: Select Color by gene**](_static/images/FindGenes_linearFitFigOnegroup.png)
+
+
+In de next figure the trend line clearly shows there is postive correaltion for the MYCN amplified a
+
+	![Figure 12: Select color by Gene ](_static/images/FindGenes_LinearFittwogroups.png "Figure 9: Colored by expression")
+	
+	[**Figure 12: Select Color by gene**](_static/imagesFindGenes_LinearFittwogroups.png)
+
 
 7.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
