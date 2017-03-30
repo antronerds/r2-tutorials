@@ -204,7 +204,7 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	[**Figure 12: Select Color by gene**](_static/images/FindGenes_linearFittwogroupsadapt.png)
 
 
-In de next figure the trend line clearly shows there is postive correaltion for the MYCN amplified a
+ In de next figure the trend line clearly shows there is postive correaltion for the MYCN amplified a
 
 	![Figure 13: Select color by Gene ](_static/images/FindGenes_LinearFittwogroups.png "Figure 9: Colored by expression")
 	
