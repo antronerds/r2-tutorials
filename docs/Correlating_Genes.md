@@ -204,7 +204,7 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	[**Figure 12: Select Color by gene**](_static/images/FindGenes_linearFittwogroupsadapt.png)
 
 
-8. In de next figure the trend line clearly shows there is postive correlation for the MYCN non-amplified a
+8. In de next figure the trend line clearly illustrates there is positive correlation for the MYCN non-amplified group and a negative correlation for the MYCN amplified group.
 
 	![Figure 13: Select color by Gene ](_static/images/FindGenes_LinearFittwogroups.png "Figure 13: Two groups")
 	
