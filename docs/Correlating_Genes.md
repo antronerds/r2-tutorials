@@ -204,14 +204,14 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	[**Figure 12: Select Color by gene**](_static/images/FindGenes_linearFittwogroupsadapt.png)
 
 
- In de next figure the trend line clearly shows there is postive correaltion for the MYCN amplified a
+ In de next figure the trend line clearly shows there is postive correlation for the MYCN amplified a
 
-	![Figure 13: Select color by Gene ](_static/images/FindGenes_LinearFittwogroups.png "Figure 9: Colored by expression")
+	![Figure 13: Select color by Gene ](_static/images/FindGenes_LinearFittwogroups.png "Figure 13: Two groups")
 	
-	[**Figure 12: Select Color by gene**](_static/imagesFindGenes_LinearFittwogroups.png)
+	[**Figure 13: Select Color by gene**](_static/imagesFindGenes_LinearFittwogroups.png)
 
 
-7.  Through the menu to the right several additional dataviews and
+8.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
