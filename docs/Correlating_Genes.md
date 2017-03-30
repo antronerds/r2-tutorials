@@ -204,22 +204,22 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	[**Figure 12: Select Color by gene**](_static/images/FindGenes_linearFittwogroupsadapt.png)
 
 
- In de next figure the trend line clearly shows there is postive correlation for the MYCN amplified a
+8. In de next figure the trend line clearly shows there is postive correlation for the MYCN non-amplified a
 
 	![Figure 13: Select color by Gene ](_static/images/FindGenes_LinearFittwogroups.png "Figure 13: Two groups")
 	
 	[**Figure 13: Select Color by gene**](_static/imagesFindGenes_LinearFittwogroups.png)
 
 
-8.  Through the menu to the right several additional dataviews and
+9.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
     sample names on the x-axis. Return to the genelist view (Figure 3)
 
-	![Figure 12 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
+	![Figure 14 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
 	
-	[**Figure 12 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/FindGenes_ExpressionHeat.png)
+	[**Figure 14 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
 
 
