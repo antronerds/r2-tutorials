@@ -198,7 +198,6 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	
 7. Sometimes it could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second clusters seems to have an inverse correlation. An example which is not directly listed in previous list of correlating genes is for example the relation between MYCN and GATA2. In the right upper corner enter MYCN and the GATA2 gene and click 'Change Genes'.  Further change the color mode in color by track , select the MYCN track in the graphics section and turn on the linear fit option at 'More settings' as indicated below, click redraw.
 
-
 	![Figure 12: Linear fit adjust ](_static/images/FindGenes_linearFittwogroupsadapt.png "Figure 12: Colored by expression")
 	
 	[**Figure 12: Linear fit adjust **](_static/images/FindGenes_linearFittwogroupsadapt.png)
