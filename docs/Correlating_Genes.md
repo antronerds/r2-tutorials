@@ -210,8 +210,7 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	
 	[**Figure 13: Linear fit per track**](_static/imagesFindGenes_LinearFittwogroups.png)
 
-
-1.  Through the menu to the right several additional dataviews and
+9.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
