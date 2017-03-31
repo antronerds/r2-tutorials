@@ -192,14 +192,14 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	
 	[**Figure 10: linear fit**](_static/images/FindGenes_linearFitAdjust.png)
 	
-	![Figure 11: Linear fit ](_static/images/FindGenes_linearFitFigOnegroup.png "Figure 9: Colored by expression")
+	![Figure 11: Linear fit ](_static/images/FindGenes_linearFitFigOnegroup.png "Figure 9: Linear fit")
 	
 	[**Figure 11: Linear fit**](_static/images/FindGenes_linearFitFigOnegroup.png)
 	
 7. Sometimes it could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second clusters seems to have an inverse correlation. An example which is not directly listed in previous list of correlating genes is for example the relation between MYCN and GATA2. In the right upper corner enter MYCN and the GATA2 gene and click 'Change Genes'.  Further change the color mode in color by track , select the MYCN track in the graphics section and turn on the linear fit option at 'More settings' as indicated below, click redraw.
 
 
-	![Figure 12: Linear fit adjust ](_static/images/FindGenes_linearFittwogroupsadapt.png "Figure 9: Colored by expression")
+	![Figure 12: Linear fit adjust ](_static/images/FindGenes_linearFittwogroupsadapt.png "Figure 12: Colored by expression")
 	
 	[**Figure 12: Linear fit adjust **](_static/images/FindGenes_linearFittwogroupsadapt.png)
 
@@ -211,7 +211,7 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	[**Figure 13: Linear fit per track**](_static/imagesFindGenes_LinearFittwogroups.png)
 
 
-9.  Through the menu to the right several additional dataviews and
+1.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
     able to produce heatmaps of this analysis. Click on the 'Heatmap
     (zscore)' menu item Figure 8. The gene names are on the y-axis,
@@ -225,7 +225,6 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 
 Step 5: Relation with Chromosome position
 ---------------
-
 
 
 Another view is the mapping of these genes on all chromosomes. Click on
