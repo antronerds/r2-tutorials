@@ -5,14 +5,15 @@ t-SNE: high dimensionality reduction in R2
 ========================================
 
 
-*How to find grouos in your dataset using t-SNE.*
+*How to find groups in your dataset using t-SNE.*
 
 
 Scope
 -----
 
 -  In this tutorial several expression datasets will be used.
--  t-SNE will be used to find sub groups in several datasets.
+-  t-SNE will be used to find sub groups in datasets.
+-  t-SNE maps will be annotated with tracks and the expression of genes
 
 
 
