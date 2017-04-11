@@ -77,13 +77,13 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 	[**Figure 5: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
 
-Step 4: Perplexity sweeps for t-SNE maps
+Step 3: Perplexity sweeps for t-SNE maps
 ----------------------------
 
 Which perplexity value is the best oe for your dataset of interest depends on the embedded structure (the subgroups), and even a bit on taste (the way the samples are layed out). To assess the robustness of the layout as well as the effect that the perplexity parameter has, the R2 platform performs a perplexity sweep. The analysis will be ran repeatedly, starting with a value of 5, and stopping at a perplexity value of 50 if the size of the dataset permits (n/3-1). By choosing the perplexity values 'all', miniature tiles will be generated for all perplexities, while still displaying the 'color by' setting.
 
 
-Step 3: Creating t-SNE maps
+Step 4: Creating t-SNE maps
 ----------------------------
 
 Depending on your access level in R2, you are also able to create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module will be located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
