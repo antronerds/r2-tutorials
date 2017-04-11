@@ -41,6 +41,15 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
 4.  Click "next"
 
 
+Step 1: Selecting t-SNE maps
+----------------------------
+
+In this screen the t-SNE result is plotted with the highest perplexity, or a preset value that has been selected upon manual curation. There is no strict rule to select the ‘best’ perplexity. In most cases the highest perplexity is not the best choice to investigate the cluster further.  If the perplexity result is something other than 23, then select this perplexity value. We can see structure in the location of the various cell lines. We would like to look at the annotations that are available for the cell lines. 
+
+
+1. In the 'adjustable settinsg box' set "perplexity' to the value of 23
+2. Select ‘color by track’ from the ‘colormode’ and choose ‘primary ite’. Press ‘next to redraw the image.’
+
 
 
 
