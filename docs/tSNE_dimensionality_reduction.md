@@ -50,7 +50,9 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 1. In the 'adjustable settinsg box' set "perplexity' to the value of 23
 2. Select ‘color by track’ from the ‘colormode’ and choose ‘primary ite’. Press ‘next to redraw the image.’
 
-
+	![Figure    2: t-SNE preprocessed t-SNE maps](_static/images/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
+  
+	[**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_cellbroad_primsite.png)
 
 
 
