@@ -32,8 +32,13 @@ Step 1: Selecting t-SNE maps
 Let’s have a look at a t-SNE result to see what we can learn from this dimensionality reduction algorithm. The analysis is most informative with the larger datasets, and actually requires more than 16 samples as an absolute minimum (in R2). We will first have a look at the CCLE (cancer cell line encyclopedia) dataset which is comprised of more than 900 cell lines from various cancers.
 
 1.  In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2
-2. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2
-'Click next'.
+2. R2 will assess will collect the result and provide a button to start exploring the result. Click on the button
+
+	![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_selectmaps.png "Figure 1:Selecting t-SNE maps")
+  
+	[**Figure    1: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_selectmaps.png.png)
+	
+4.  Click "next"
 
 
 
