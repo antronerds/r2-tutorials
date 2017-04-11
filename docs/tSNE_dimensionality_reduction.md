@@ -57,18 +57,19 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the ‘colormode’ to ‘color by expression’.
 
-1. In the 'adjustable settings box'  select 'Color by Gene'  at Color mode and subsequently type 'CLDN3' at Gene for color ,  corresponding reporter will automatically pop-up (Figure 3 ) Again click ‘next’ to refresh the view.’
-
-
-	![Figure    2: t-SNE preprocessed t-SNE maps](_static/images/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
-  
-	[**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_cellbroad_primsite.png)
+1. In the 'adjustable settings box'  select 'Color by Gene'  at Color mode and subsequently type 'CLDN3' at Gene for color ,  corresponding reporter will automatically pop-up (Figure 3 ) 
 
 	![Figure    3: t-SNE_select_probeset](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
 	[**Figure 3: Tsne_select_probeset**](_static/images/Tsne_select_probeset.png)
 
 	
+2. Again click ‘next’ to refresh the view.’  
+
+	![Figure    3: t-SNE_select_probeset](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 3: Select  A probeset")
+	
+	[**Figure 3: Tsne_select_probeset**](_static/images/Tsne_cellbroad_colorbygeneCLDN3)
+
 
 
 
