@@ -72,7 +72,7 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 
 
 
-	![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1 "Figure 4: Select  A probeset")
+	![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
 	
 	[**Figure 4: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
