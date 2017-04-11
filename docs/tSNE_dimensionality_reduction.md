@@ -34,9 +34,9 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
 1.  In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2
 2. R2 will assess will collect the result and provide a button to start exploring the result. Click on the button
 
-	![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_selectmaps.png "Figure 1:Selecting t-SNE maps")
+	![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_select_preprocessed.png "Figure 1:Selecting t-SNE maps")
   
-	[**Figure    1: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_selectmaps.png.png)
+	[**Figure    1: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_select_preprocessed)
 	
 4.  Click "next"
 
