@@ -25,7 +25,7 @@ Copyright (c) 2006-2016 Jan Koster
    Analysing_Time_Series
    Using_And_Creating_Genesets
    Principle_Components_Analysis
-   t-SNE_dimensionality_reduction
+   tSNE_dimensionality_reduction
    Using_The_Genome_Browser
    Integrative_analysis_ChIP-Seq_data
    Integrative_analysis_expression_methylation
