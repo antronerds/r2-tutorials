@@ -41,7 +41,7 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
 4.  Click "next"
 
 
-Step 1: Annotating t-SNE maps
+Step 2: Annotating t-SNE maps
 ----------------------------
 
 In this screen the t-SNE result is plotted with the highest perplexity, or a preset value that has been selected upon manual curation. There is no strict rule to select the ‘best’ perplexity. In most cases the highest perplexity is not the best choice to investigate the cluster further.  If the perplexity result is something other than 23, then select this perplexity value. We can see structure in the location of the various cell lines. We would like to look at the annotations that are available for the cell lines. 
@@ -77,12 +77,14 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 	[**Figure 5: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
 
+Step 3: Creating t-SNE maps
+----------------------------
 
+Depending on your access level in R2, you are also able to create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module will be located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
 
+If the 'default' map has already been calculated, a shortcut button will also appear, that will immediately take you to the result.
 
-
-
-
+A note on the execution times of t-SNE. The generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close that window and return to the analysis at a later time. The process will keep on running in the background.
 
 
 
