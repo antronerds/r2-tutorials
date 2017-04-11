@@ -1,10 +1,12 @@
 
 <a id="tSNE_dimensionality_reduction"></a>
 
-Principle Components Analysis in R2
-==================================
+t-SNE high dimensionalty reduction in R2
+========================================
 
 
+*How to find grouos in your dataset using t-SNE.*
 
-*How to identify patterns or groups in your dataset using Principle
-Component Analysis.*
+
+Scope
+-----
