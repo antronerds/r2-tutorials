@@ -16,9 +16,9 @@ Scope
 
 
 
-TSNE 
+t-SNE 
 
-A clustering tool which gaining more and more popularity in the research world is the so called t-SNE algorithm.  t-SNE stands for t-Distributed Stochastic Neighbor EMbedding and is  a machine learning dimensionality reduction algorithm that is well suited for the reduction of high dimensional datasets to 2 or three dimensions. 
+A clustering tool which gaining more and more popularity in biomedical research, is the so called t-SNE algorithm.  t-SNE stands for t-Distributed Stochastic Neighbor EMbedding and is a machine learning dimensionality reduction algorithm that is well suited for the reduction of high dimensional datasets to 2 or three dimensions. 
 
 Most researchers are already familiar with another dimensionality reduction algorithm  called PCA also supported by R2 and explained  in more detail in this tutorial. Both PCA and the t-SNE both reduces the dimension and captures the structure of high dimensional data. However,  PCA can only captures linear structures where the t-SNE algorithm captures non-linear relations and preserves local distances in high dimensions while reducing the information to 2 dimensions (an XY plot).
 
@@ -41,7 +41,7 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
 4.  Click "next"
 
 
-Step 1: Selecting t-SNE maps
+Step 1: Annotating t-SNE maps
 ----------------------------
 
 In this screen the t-SNE result is plotted with the highest perplexity, or a preset value that has been selected upon manual curation. There is no strict rule to select the ‘best’ perplexity. In most cases the highest perplexity is not the best choice to investigate the cluster further.  If the perplexity result is something other than 23, then select this perplexity value. We can see structure in the location of the various cell lines. We would like to look at the annotations that are available for the cell lines. 
@@ -57,7 +57,7 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the ‘colormode’ to ‘color by expression’.
 
-1. In the 'adjustable settings box'  select 'Color by Gene'  at Color mode and subsequently type 'CLDN3' at Gene for color ,  corresponding reporter will automatically pop-up (Figure 3 ) 
+1. In the 'adjustable settings box'  select 'Color by Gene'  at Color mode and subsequently type 'CLDN3' as Gene for color ,  corresponding reporter will automatically pop-up (Figure 3 ).It can take a little bit of time before the gene selection box appears. 
 
 	![Figure    3: t-SNE_select_probeset](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
@@ -70,7 +70,7 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 	
 	[**Figure 4: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
 
-3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu.  It appears that the subgroup which was striking by the color gradient are mostly adenocarcinoma' another gene which emphasizes the observation in the previoius example  is the NR3c1 gene showing an inverse gradient pattern for this subgroup.
+3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu.  It appears that the subgroup which was striking by the color gradient are mostly adenocarcinoma' another gene which emphasizes the observation in the previous example is the NR3c1 gene showing an inverse gradient pattern for this subgroup.
 
 	![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
 	
