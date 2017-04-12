@@ -68,7 +68,7 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 2. Again click ‘next’ to refresh the view.’  In this view the samples are not colored by a group annotation (track) but by their gene expression using a color gradient.  In this sample you can observe  a subgroup of the carcinoma samples which have higher level in contrast to the (carcinoma) samples. 
 
 	![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
-	
+
 	[**Figure 4: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
 
 3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu.  It appears that the subgroup which was striking by the color gradient are mostly adenocarcinoma' another gene which emphasizes the observation in the previous example is the NR3c1 gene showing an inverse gradient pattern for this subgroup.
@@ -105,9 +105,9 @@ Lets take a look at some other nice examples of R2 generated t-SNE maps. Such as
 
 1. In main menu select  Normal tissues - GTEX - 2921 - RPKM - ensgtexv4 en box2 and select T-SNE. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' you can adjust severall settings such as sample filtering ,specific gene categories and expression level restrictions.  
 
-	![Figure   7: t-SNE: all perplexities ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
+	![Figure   7: t-SNE: Menu ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
 	
-	[**Figure 7: t-SNE: all perplexities **](_static/images/Tnse_shortcutPlot.png)
+	[**Figure 7: t-SNE: Menu **](_static/images/Tnse_shortcutPlot.png)
 
 Keep in mind that when adjusting input settings the t-SNE algorithm will be runned again in case  a t-SNE map has been generated with default settings. A note on the execution times of t-SNE. The generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close that window and return to the analysis at a later time. The process will keep on running in the background. 
 
