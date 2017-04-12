@@ -90,9 +90,6 @@ Which perplexity value is the best option for your dataset of interest depends o
 	
 	[**Figure 6: t-SNE: all perplexities **](_static/images/Tnse_cellbroad_allperplexity.png)
 	
-	![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
-	
-	[**Figure 5: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
 	
 By choosing the perplexity values 'All', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode.
@@ -104,11 +101,17 @@ Step 4: Creating t-SNE maps
 
 Depending on your access level in R2, you are also able to create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module will be located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
 
-Lets take a look at some ot
+Lets take a look at some other nice examples of R2 generated t-SNE maps. Such as very large dataset of normal tissue expression profiles
 
-If the 'default' map has already been calculated, a shortcut button will also appear, that will immediately take you to the result.
+1. In main menu select  Normal tissues - GTEX - 2921 - RPKM - ensgtexv4 en box2 and select T-SNE. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' you can adjust severall settings such as sample filtering ,specific gene categories and expression level restrictions.  
 
-A note on the execution times of t-SNE. The generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close that window and return to the analysis at a later time. The process will keep on running in the background.
+	![Figure   7: t-SNE: all perplexities ](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
+	
+	[**Figure 7: t-SNE: all perplexities **](_static/images/Tnse_cellbroad_allperplexity.png)
+
+Keep in mind that when adjusting this kind of settings the t-SNE algorithm will  be runned again if only a t-SNE map has been generated with defaukt settings. A note on the execution times of t-SNE. The generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close that window and return to the analysis at a later time. The process will keep on running in the background.
+
+
 
 
 
