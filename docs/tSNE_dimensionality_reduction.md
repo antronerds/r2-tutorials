@@ -115,7 +115,6 @@ Keep in mind that when adjusting input settings the t-SNE algorithm will be runn
 
 3. In the Adjusting settings set the color by track om Tissue and click next.
 
-
 	![Figure   8: t-SNE: Colored by track ](_static/images/Tsne_normaltissuetrackcolored.png "Figure 8:  Colored by track")
 	
 	[**Figure 8: t-SNE: Colored by track **](_static/images/Tsne_normaltissuetrackcolored.png)
