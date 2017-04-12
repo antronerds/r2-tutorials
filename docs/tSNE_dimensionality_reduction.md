@@ -90,8 +90,9 @@ Which perplexity value is the best option for your dataset of interest depends o
 	![Figure    6: t-SNE: all perplexities](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
 	
 	[**Figure 6: t-SNE: all perplexities **](_static/images/Tnse_cellbroad_allperplexity.png)
+	
 
-By choosing the perplexity values 'all', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode.
+By choosing the perplexity values 'All', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode.
 
 
 
@@ -99,6 +100,8 @@ Step 4: Creating t-SNE maps
 ----------------------------
 
 Depending on your access level in R2, you are also able to create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module will be located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
+
+Lets take a look at some ot
 
 If the 'default' map has already been calculated, a shortcut button will also appear, that will immediately take you to the result.
 
