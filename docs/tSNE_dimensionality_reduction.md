@@ -105,16 +105,28 @@ Lets take a look at some other nice examples of R2 generated t-SNE maps. Such as
 
 1. In main menu select  Normal tissues - GTEX - 2921 - RPKM - ensgtexv4 en box2 and select T-SNE. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' you can adjust severall settings such as sample filtering ,specific gene categories and expression level restrictions.  
 
-	![Figure   7: t-SNE: all perplexities ](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
+	![Figure   7: t-SNE: all perplexities ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
 	
-	[**Figure 7: t-SNE: all perplexities **](_static/images/Tnse_cellbroad_allperplexity.png)
+	[**Figure 7: t-SNE: all perplexities **](_static/images/Tnse_shortcutPlot.png)
 
-Keep in mind that when adjusting this kind of settings the t-SNE algorithm will  be runned again if only a t-SNE map has been generated with defaukt settings. A note on the execution times of t-SNE. The generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close that window and return to the analysis at a later time. The process will keep on running in the background.
+Keep in mind that when adjusting input settings the t-SNE algorithm will be runned again in case  a t-SNE map has been generated with default settings. A note on the execution times of t-SNE. The generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close that window and return to the analysis at a later time. The process will keep on running in the background. 
+
+2. click Next
+
+3. In the Adjusting settings set the color by track om Tissue and click next.
+
+
+	![Figure   8: t-SNE: Colored by track ](_static/images/Tsne_normaltissuetrackcolored.png "Figure 8:  Colored by track")
+	
+	[**Figure 8: t-SNE: Colored by track **](_static/images/Tsne_normaltissuetrackcolored.png)
 
 
 
+Final remarks
+----------------------------
 
 
+We hope that this tutorial has been helpful,The R2 support team.
 
 
 
