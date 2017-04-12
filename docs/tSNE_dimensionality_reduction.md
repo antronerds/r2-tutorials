@@ -86,12 +86,15 @@ Which perplexity value is the best option for your dataset of interest depends o
 
 1. In order to generate an overview of all possible perplexities  set in the "Adjustable Settings" the number of perplexities to "ALL" and for a  more clear  set the color by track modus to eg: histology.
 
-
-	![Figure    6: t-SNE: all perplexities](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
+	![Figure   6: t-SNE: all perplexities ](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
 	
 	[**Figure 6: t-SNE: all perplexities **](_static/images/Tnse_cellbroad_allperplexity.png)
 	
+	![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
+	
+	[**Figure 5: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
+	
 By choosing the perplexity values 'All', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode.
 
 
