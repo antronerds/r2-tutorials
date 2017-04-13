@@ -190,17 +190,17 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 			
 	![Figure 10: linear fit option  ](_static/images/FindGenes_linearFitAdjust.png "Figure 9: Colored by expression")
 	
-	[**Figure 10: linear fit**](_static/images/FindGenes_linearFitAdjust.png)
+	[**Figure 10: Linear fit**](_static/images/FindGenes_linearFitAdjust.png)
 	
 	![Figure 11: Linear fit ](_static/images/FindGenes_linearFitFigOnegroup.png "Figure 9: Linear fit")
 	
 	[**Figure 11: Linear fit**](_static/images/FindGenes_linearFitFigOnegroup.png)
 	
-7. Sometimes it could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second clusters seems to have an inverse correlation. An example which is not directly listed in previous list of correlating genes is for example the relation between MYCN and GATA2. In the right upper corner enter MYCN and the GATA2 gene and click 'Change Genes'.  Further change the color mode in color by track , select the MYCN track in the graphics section and turn on the linear fit option at 'More settings' as indicated below, click redraw.
+7. Sometimes it could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second cluster seems to have an inverse correlation. An example which is not directly listed in previous list of correlating genes is for example the relation between MYCN and GATA2. In the right upper corner enter MYCN and the GATA2 gene and click 'Change Genes'.  Further change the color mode in color by track , select the MYCN track in the graphics section and turn on the linear fit option at 'More settings' as indicated below, click redraw.
 
 	![Figure 12: Linear fit adjust ](_static/images/FindGenes_linearFittwogroupsadapt.png "Figure 12: Colored by expression")
 	
-	[**Figure 12: Linear fit adjust **](_static/images/FindGenes_linearFittwogroupsadapt.png)
+	[**Figure 12: Linear fit adjust**](_static/images/FindGenes_linearFittwogroupsadapt.png)
 
 
 8. In de next figure the trend line clearly illustrates there is positive correlation for the MYCN non-amplified group and a negative correlation for the MYCN amplified group.
@@ -226,10 +226,10 @@ Step 5: Relation with Chromosome position
 
 
 Another view is the mapping of these genes on all chromosomes. Click on
-the 'Chromosome Map' menu item. In Figure 9 this mapping is depicted in
+the 'Chromosome Map' menu item. In Figure 13 this mapping is depicted in
 an overview. Sometimes, eyeballing already suggests that some regions
 seem to be affected. R2 provides a table where the statistics behind
-this analysis are given: Figure 10. The overrepresentation of genes that
+this analysis are given: Figure 14. The overrepresentation of genes that
 correlate with MYCN expression with respect to all genes present on (an
 arm of) a chromosome is calculated. You can also explore the results in the interactive R2 genome browser, where you can zoom into the results and locate individual genes. To enter this mode, just press the 'View in R2 genomebrowser' button.
 
@@ -248,7 +248,7 @@ arm of) a chromosome is calculated. You can also explore the results in the inte
 
 ![Figure14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes](_static/images/FindGenes_ChromeTable.png "Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
 
-[**Figure14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/FindGenes_ChromeTable.png)
+[**Figure 14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/FindGenes_ChromeTable.png)
 
 1.  To further explore this set of genes return to the list: Figure 3
 
@@ -333,9 +333,9 @@ Step 8: Further pathways analysis
     their relationship: Figure 16
 
     
-	![Figure    20: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
+	![Figure 20: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 		expression correlates with    MYCN expression.")
 	
-	[**Figure    20: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
+	[**Figure 20: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
 	
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
@@ -351,9 +351,9 @@ Step 8: Further pathways analysis
     the hyperlinked number in the Articles column. The outlink
     Pubreminer column directs to the PubReminer tool:
 
-	![Figure    22: The PubReminder tool ](_static/images/FindGenes_Reminer.png "Figure18: The PubReminer tool web interface; the genes MCM2 and MYCN co-occur in one article.")
+	![Figure    22: The PubReminder tool ](_static/images/FindGenes_Reminer.png "Figure18: The PubReminer tool web interface; the 		genes MCM2 and MYCN co-occur in one article.")
 
-        [**Figure   22: The PubReminer tool web interface **](_static/images/FindGenes_Pubsniffer.png)
+       [**Figure   22: The PubReminer tool web interface**](_static/images/FindGenes_Pubsniffer.png)
     
 
 
