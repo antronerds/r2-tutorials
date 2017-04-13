@@ -184,7 +184,7 @@ Step 6: Determining differentially expressed pathways
 
 	[!['Figure    8: pathway finder:Wnt ](_static/images/Pathway_Wnt.png)
 	
-	[**'Figure    8: The Wnt pathway has a strong overrepresentation of genes that aredifferentially expressed between the groups of  	tumors that have anddon't have a beta catenin.**](_static/images/Pathway_Wnt.png)
+	[**'Figure    8: The Wnt pathway has a strong overrepresentation of genes that aredifferentially expressed between the groups of  	tumors that have and don't have a beta catenin.**](_static/images/Pathway_Wnt.png)
 
 
 
