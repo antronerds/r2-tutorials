@@ -67,7 +67,7 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 
 	![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
 
-	[**Figure 4: t-SNE_Color by Gene **](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
+	[**Figure 4: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
 
 3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient are mostly adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NRC1 gene showing an inverse gradient pattern for this subgroup.
 
