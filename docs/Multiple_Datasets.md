@@ -120,9 +120,9 @@ the signals of the separate samples are plotted; a quickly interpretable
 graph.
 
 
-![Figure 6: YCC expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
+![Figure 6: MYCN expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
 
-[**Figure 6: YCC expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
+[**Figure 6: MYCN expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
 
 
 Additional insight can be obtained transforming the data, in this case
