@@ -179,16 +179,12 @@ Step 6: Determining differentially expressed pathways
     the overrepresentation of these genes in the individual pathways
     is determined. From the resulting list it is obvious that the Wnt
     pathway has a strong overrepresentation of genes that are
-    differentially expressed between the two groups. \[\[Image:\]\]
+    differentially expressed between the two groups. 
 2.  Click on the R link to let R2 create a list of these genes.
 
-[![](_static/images/Pathway_Wnt.png)**Figure
-8:The Wnt pathway has a strong overrepresentation of genes that are
-differentially expressed between the groups of tumors that have and
-don't have a beta catenin
-mutation.**](_static/images/Pathway_Wnt.png)
-
-
+	[!['Figure    8: pathway finder:Wnt ](_static/images/Pathway_Wnt.png)
+	
+	[**'Figure    8: The Wnt pathway has a strong overrepresentation of genes that aredifferentially expressed between the groups of  	tumors that have anddon't have a beta catenin.**](_static/images/Pathway_Wnt.png)
 
 
 
