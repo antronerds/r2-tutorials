@@ -183,7 +183,7 @@ Step 4: Creating consistent clusters
 
 ![Figure6: Consistent clustering for 4groups.](_static/images/Kmeans_track2.png "Figure6: Consistent clustering for 4groups.")
 
-[**Figure6: Consistent clustering for 4groups.**](_static/images/Kmeans_track2.png)
+[**Figure 6: Consistent clustering for 4groups.**](_static/images/Kmeans_track2.png)
 
 ![Figure 7: Clustering in 5 groups](_static/images/Kmeans_track3.png "Figure 7: Clustering in 5 groups")
 
