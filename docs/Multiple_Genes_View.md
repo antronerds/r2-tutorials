@@ -36,7 +36,7 @@ Step 1: Viewing multiple genes
 3.  To illustrate the possibilities of the multiple gene view. Genes
     identified as classifiers for Medulloblastoma subtypes (Kool et al,
     Plos one) will be used. In the GENE/reporter textbox type or copy
-    the following genes: AXIN2, BOC, dkk2, GABRA5, PTCH1, SMARCD3, WIF1
+    the following genes: AXIN2,BOC,dkk2,GABRA5,PTCH1,SMARCD3,WIF1
     and click next.
     
 	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure    1: Default multiple geneview.")
