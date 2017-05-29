@@ -303,9 +303,9 @@ section will change depending on the kind of graph that you are
 selecting.
 
 
-![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings.png "Figure 11: the extra settings Panel")
+![Figure 11: the extra settings Panel](_static/images/OneGene_Extrasettings_v1.png "Figure 11: the extra settings Panel")
 
-[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings.png)
+[**Figure 11: the extra settings Panel**](_static/images/OneGene_Extrasettings_v1.png)
 
 
 
