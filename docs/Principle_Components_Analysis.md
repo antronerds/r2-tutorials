@@ -31,7 +31,7 @@ Step 1: Selecting data and modules
     the step by step guide.
 2.  In field 2 locate and select the 'Tumor Medulloblastoma PLoS One-
     Kool - 62 MAS5.0 -u133p2' dataset by clicking 'Change Dataset'
-3.  In field 3 choose the 'Principle Component Option' option (Error:
+3.  In field 3 select the 'Principle Component Option' option (Error:
     Reference source not found)
     
 	![Figure    1: Selecting Principe Component    Analysis](_static/images/PrincipleComponent_Select.png "Figure    1: Selecting Principe Component    Analysis")
@@ -47,7 +47,7 @@ Step 1: Selecting data and modules
 Step 2: Exploring the principle components
 ---------------
 
-1.  The next window presents a set of fields where specific settings of
+1.  The next window displays a set of fields where specific settings of
     the clustering algorithm used can be set. Leave all the settings at
     their default and click "next".
 2.  Click to plot the PCA result.
@@ -81,8 +81,8 @@ additional sample information. This example illustrated that PCA is
 powerful tool aiding to find possible subgroups in your dataset
 of interest.
     
-5).  Select in the adjustable settings box "Label by Track" at LabelMode.
-    A "Track for Label" pulldown menu unfolds, here select your option
+5).  Select in the adjustable settings box "Label by Track" under LabelMode.
+    A "Track for Label" pulldown menu unfolds, here you select your track
     of interest e.g "Samplenames" and click next.
 
 
@@ -118,10 +118,8 @@ internet browsers support the 3D visualization.
 ----------
   ![](_static/images/R2d2_logo.png)**Did you know that browser settings might have to be adapted?**                                             
                                                                         
->*In Firefox in some cases it"s not possible to rotate the 3D graph in  
-that case adjusts the following setting in firefox. : type about        
-"about:config" in the URL box, search for webgl and Enable              
-"webgl.force-enabled": TRUE. The 3-D module is also working with Chrome 
+>*In Firefox in some cases it's not possible to rotate the 3D graph in that case adjust the following setting in firefox. : type  "about:config" in the URL box, search for webgl and Enable              
+"webgl.force-enabled": TRUE. The 3-D module also works with Chrome 
 but not with Internet Explorer.*                                         
                                                                         
                                                                   
@@ -131,7 +129,7 @@ but not with Internet Explorer.*
     click "next".
 2.  Click the cube and hold the left mouse button and rotate the picture
     in order to investigate whether there are any (more)
-    subgroups visible.
+    subgroups that become visible.
     
 	!['Figure    6: Showing a 3D PCA graph from    different angles.](_static/images/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
 	
