@@ -118,6 +118,14 @@ Keep in mind that after adjusting input settings the t-SNE algorithm will  re-ru
 	[**Figure 8: t-SNE: Colored by track**](_static/images/Tsne_normaltissuetrackcolored.png)
 
 
+Step 4: Creating groups with the t-SNE lasso tool
+----------------------------
+
+After applying the t-SNE algorithm to a dataset of interest some novel clusters are revealed  and could be worthwhile to investigate in more depth. In order to do so you want to use the clusters to continue with your analysis to gain more insight in the genetic background of the clusters.
+
+1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2 and color by the maps by using "primary site" with the track for color option.
+
+
 
 Final remarks
 ----------------------------
