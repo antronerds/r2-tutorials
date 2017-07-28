@@ -125,13 +125,17 @@ After applying the t-SNE algorithm to a dataset of interest some novel clusters 
 
 1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding T-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in 3 sub groups which can be used to investigate these found separation in more detail.
 
-![Figure   9: t-SNE: Colored by track ](_static/images/Tsne_lassoselection.png "Figure 9: Colored by track")
+![Figure 9: t-SNE: Colored by track ](_static/images/Tsne_lassoselection.png "Figure 9: Colored by track")
 
 [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
-2. Click on select subset below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape arround the samples you want to cluster. After releasing the mouse button you  the samples are listed left to the t-SNE map annotated subsqeuently with the g1...n for eacht lasso selection action.
+2. Click on select subset below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape arround the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After yp finisched the selection click 
 
+3. 
 
+![Figure 10: t-SNE: Colored by track ](_static/images/Tsne_subgroups.png "Figure 10: Colored by track")
+
+[**Figure 10: t-SNE: Colored by track**](_static/images/Tsne_subgroups.png)
 
 
 
