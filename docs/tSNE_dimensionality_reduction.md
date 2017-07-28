@@ -129,6 +129,8 @@ After applying the t-SNE algorithm to a dataset of interest some novel clusters 
 
 [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
+2. Click on select subset below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape arround the samples you want to cluster. After releasing the mouse button you  the samples are listed left to the t-SNE map annotated subsqeuently with the g1...n for eacht lasso selection action.
+
 
 
 
