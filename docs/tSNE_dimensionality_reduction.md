@@ -123,7 +123,13 @@ Step 4: Creating groups with the t-SNE lasso tool
 
 After applying the t-SNE algorithm to a dataset of interest some novel clusters are revealed  and could be worthwhile to investigate in more depth. In order to do so you want to use the clusters to continue with your analysis to gain more insight in the genetic background of the clusters.
 
-1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding T-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in 3 sub groups which can be used to investigate these found separation in more
+1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding T-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in 3 sub groups which can be used to investigate these found separation in more detail.
+
+![Figure   9: t-SNE: Colored by track ](_static/images/Tsne_lassoselection.png.png "Figure 9: Colored by track")
+
+[**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
+
+
 
 
 
