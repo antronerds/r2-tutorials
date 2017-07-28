@@ -129,16 +129,16 @@ After applying the t-SNE algorithm to a dataset of interest some novel clusters 
 
 [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
-2. Click on select subset below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape arround the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After you finisched the selection click 
+2. Click on select subset below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape arround the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After you finisched the selection click below the groups "build tracks for subset". 
 
-3. 
+3. In the new opened window first all the samples are listed which where are omitted and at the bottom in the "Adustable settings menu" you can remame the groups , select a color and store in them in your personlized tracks or as a temporay track. Now you can continue with further analysis for example  by using the module "Find diffential expression between groups"  where you can find your new created tracks in the selection criteria menu. 
 
 ![Figure 10: t-SNE: Using the lasso selection tool ](_static/images/Tsne_subgroups.png "Figure 10: Colored by track")
 
 [**Figure 10: t-SNE: Using the lasso selection **](_static/images/Tsne_subgroups.png)
 
 
-
+For now the lasso selection is tool is only available in for t-SNE maps implementation for usage with other modules such as PCA clustering will be released soon.
 
 
 
