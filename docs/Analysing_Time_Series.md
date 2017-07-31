@@ -249,7 +249,7 @@ Step 3: Using the regulated genes in further analyses
     also known that this process plays an important role in
     Breast cancer. We can use this generated genecategory to investigate
     whether this of any relevance or not.
-3.  To keep the list of found genes for later usage, right click with the mouse on "Go to main" inm the left upper corner and  re-open  the main screen of R2 in other tab/screen
+3.  To keep the list of found genes for later usage, right click with the mouse on "Go to main" in the left upper corner and  re-open  the main screen of R2 in other tab/screen
      select at "change dataset" the following dataset . Tumor Breast - Iglehart - 123 - MAS5.0 -
     u133p2 . In field 3 select "View Geneset" at "Select type of
     analyses" and click "next".
@@ -293,14 +293,34 @@ Step 3: Using the regulated genes in further analyses
 
 --------------
 
-
-
-
-Step 4: In a K-means analysis
+Step 4: Correlate with other datasets
 ---------------
 
+1.  The module "correlate" the results with dataset compares the
+    resulting genelist with a dataset of interest. Go back to the screen/tab where of the generated gene-list (see figure 6.)
+    Clicking the correlate with dataset button in the left menu redirects to a
+    new screen. Choose the Tumor Breast - Iglehart - 123 - MAS5.0 - u133p2 in field 2, in field 3 ,
+    choose "relate to differential expression" and click next.
+2.  Choose "er" at select a track and click "next".
+3.  In de background R2 generates a list of genes based on the module
+    "Find differential expression between groups" and presents the
+    overlay of the results with the list generated in the " time
+    series module".
+    
+	![Figure    14: Part of correlate with    dataset genelist.](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
+	
+	[**Figure    14: Part of correlate with    dataset genelist.**](_static/images/AnalysingTime_TableCorrelate.png)
+	
+4.  In *Figure 14* the overlap is presented between the result from the
+    " time series" module and the " relate to differential
+    expression" option. The list of genes is sub-divided in a positive
+    and a negative correlation list of genes. Clicking the "2-view" link
+    opens a new screen with a combined graph of a one-geneview and the
+    time series experiment.
 
 
+Step 5: In a K-means analysis
+---------------
 
 
 1.  Instead view a " geneset, you can also choose perform a "K-means"
@@ -336,30 +356,7 @@ detail in tutorial 10.
 
 
 
-Step 5: Correlate with other datasets
----------------
 
-1.  The module "correlate" the results with dataset compares the
-    resulting genelist with a dataset of interest. Clicking the
-    correlate with dataset button in the left menu redirects to a
-    new screen. Choose the Igleheart " Breast in field 2, in field 3 ,
-    choose "relate to differential expression" and click next.
-2.  Choose "er" at select a track and click "next".
-3.  In de background R2 generates a list of genes based on the module
-    "Find differential expression between groups" and presents the
-    overlay of the results with the list generated in the " time
-    series module".
-    
-	![Figure    14: Part of correlate with    dataset genelist.](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
-	
-	[**Figure    14: Part of correlate with    dataset genelist.**](_static/images/AnalysingTime_TableCorrelate.png)
-	
-4.  In *Figure 14* the overlap is presented between the result from the
-    " time series" module and the " relate to differential
-    expression" option. The list of genes is sub-divided in a positive
-    and a negative correlation list of genes. Clicking the "2-view" link
-    opens a new screen with a combined graph of a one-geneview and the
-    time series experiment.
 
 
 
