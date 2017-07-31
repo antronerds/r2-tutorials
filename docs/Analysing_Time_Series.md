@@ -297,7 +297,7 @@ Step 4: Correlate with other datasets
 ---------------
 
 1.  The module "correlate" the results with dataset compares the
-    resulting genelist with a dataset of interest. Go back to the screen/tab where of the generated gene-list (see figure 6.)
+    resulting genelist with a dataset of interest. Go back to the screen/tab of the generated gene-list (see figure 6.)
     Clicking the correlate with dataset button in the left menu redirects to a
     new screen. Choose the Tumor Breast - Iglehart - 123 - MAS5.0 - u133p2 in field 2, in field 3 ,
     choose "relate to differential expression" and click next.
