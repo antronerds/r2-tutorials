@@ -249,8 +249,8 @@ Step 3: Using the regulated genes in further analyses
     also known that this process plays an important role in
     Breast cancer. We can use this generated genecategory to investigate
     whether this of any relevance or not.
-3.  Go the the main screen of R2 and select at "change dataset" the
-    following dataset . Tumor Breast - Iglehart - 123 - MAS5.0 -
+3.  To keep the list of found genes for later usage, right click with the mouse on "Go to main" inm the left upper corner and  re-open  the main screen of R2 in other tab/screen
+     select at "change dataset" the following dataset . Tumor Breast - Iglehart - 123 - MAS5.0 -
     u133p2 . In field 3 select "View Geneset" at "Select type of
     analyses" and click "next".
     
