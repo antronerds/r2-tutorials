@@ -10,7 +10,7 @@ copyright = u'2016, Jan Koster, http://r2.amc.nl - http://r2platform.com'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.1.1'
+release = '3.1.2'
 language = None
 
 exclude_patterns = ['_build']
