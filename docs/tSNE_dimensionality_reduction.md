@@ -121,7 +121,7 @@ Keep in mind that after adjusting input settings the t-SNE algorithm will  re-ru
 Step 5: Creating groups with the t-SNE lasso tool
 ----------------------------
 
-Suppose the tSNE algorithtm produced some interesting clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the tSNE map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
+Suppose the t-SNE algorithtm produced some interesting clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the tSNE map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
 
 1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in more groups which can be used to investigate these sub clusters in more detail.
 
@@ -129,7 +129,7 @@ Suppose the tSNE algorithtm produced some interesting clusters that you want to 
 
 [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
-2. Click on select subset below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
+2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
 
 3. In the new opened window first all the samples are listed which where are omitted and at the bottom in the "Adustable settings menu" you can rename the groups , select a color and store in them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find diffential expression between groups"  where you can find your new created tracks in the selection criteria menu. 
 
