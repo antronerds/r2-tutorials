@@ -119,8 +119,7 @@ internet browsers support the 3D visualization.
   ![](_static/images/R2d2_logo.png)**Did you know that browser settings might have to be adapted?**                                             
                                                                         
 >*In Firefox in some cases it's not possible to rotate the 3D graph in that case adjust the following setting in firefox. : type  "about:config" in the URL box, search for webgl and Enable              
-"webgl.force-enabled": TRUE. The 3-D module also works with Chrome 
-but not with Internet Explorer.*                                         
+"webgl.force-enabled": TRUE. The 3-D module also works with Chrome.*                                         
                                                                         
                                                                   
 ----------
