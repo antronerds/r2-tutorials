@@ -147,6 +147,8 @@ Final remarks / future directions
 
 
 The identification of medulloblastoma subtypes has been published here:
+
+
 Kool M, Koster J, Bunt J, Hasselt NE, Lakeman A, van Sluis P, Troost D,
 Meeteren NS, Caron HN, Cloos J, Mrsic A, Ylstra B, Grajkowska W,
 Hartmann W, Pietsch T, Ellison D, Clifford SC, Versteeg R.; Integrated
@@ -155,7 +157,7 @@ profiles, pathway signatures and clinicopathological features. PLoS One.
 2008 Aug 28;3(8):e3088.
 
 
-
+Everything described in ths chapter can be performed in the R2: genomics analysis and visaulization platform (http://r2platform.com / http://r2.amc.nl) 
 
 
 We hope that this tutorial has been helpful,The R2 support team.
