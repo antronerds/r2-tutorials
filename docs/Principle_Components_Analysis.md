@@ -157,7 +157,7 @@ profiles, pathway signatures and clinicopathological features. PLoS One.
 2008 Aug 28;3(8):e3088.
 
 
-Everything described in ths chapter can be performed in the R2: genomics analysis and visaulization platform (http://r2platform.com / http://r2.amc.nl) 
+Everything described in ths chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
 
 
 We hope that this tutorial has been helpful,The R2 support team.
