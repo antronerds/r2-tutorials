@@ -135,20 +135,18 @@ Such an email should contain a link to the publicly accessible files, such as a 
 
 
 
-
 Final remarks / future directions
 ---------------------------------
 
 
+Everything described in ths chapter can be performed in the R2: genomics analysis and visaulization platform (http://r2platform.com / http://r2.amc.nl) 
 
-Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact r2 support
+
+If you run into any quirks or annoyances don't hesitate to contact r2 support
 (r2-support@amc.uva.nl).
 
 
-
-
-
 We hope that this tutorial has been helpful,The R2 support team.
+
 
 
