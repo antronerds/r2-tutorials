@@ -229,7 +229,10 @@ The R2 Genome Browser can be used with different genome builds (versions). Depen
 Final remarks / future directions
 ---------------------------------
 
-We hope that this tutorial has been helpful,The R2 support team.
 
+Everything described in ths chapter can be performed in the R2: genomics analysis and visaulization platform (http://r2platform.com / http://r2.amc.nl) 
+
+
+We hope that this tutorial has been helpful,The R2 support team.
 
 
