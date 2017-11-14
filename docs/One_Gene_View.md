@@ -152,6 +152,17 @@ Also multiple colors and different markings can be applied to the individual sam
 
 [**Figure 5: Adjusting the sample mark layout**](_static/images/one_gene_view_samplesmark.png)
 
+>*R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
+ - *'dot': places a thick border around the sample*
+ - *'circle': Places a ring around the sample (diameter 9)*
+ - *'circle_2': Places a ring around the sample (diameter 4)*
+ - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
+ - *'epicenter': Places a set of 3 rings descending in width around a sample*
+ - *'arrow': Places a block arrow pointing to the sample*
+ - *'triangle': Places a filled triangle under the sample*
+
+>*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
+
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
 
