@@ -134,7 +134,7 @@ Step 3: Plotting Gene expression
   
 ----------
 
-To hilight / mark specific samples in the graph you can enter the r2 sample ID’s in the field 'samples to mark' from the
+To highlight / mark specific samples in the graph you can enter the r2 sample ID’s in the field 'samples to mark' from the
 ‘adjustable settings’ box. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
 
 To generate a graph of a subgroup of samples use the 'Select a track(subset)' Select pulldown from the 'sample filter' tab to select a specific group. These selections can be repeated a couple of times to build your ultimate selection. After every selection, you have to 
@@ -144,6 +144,13 @@ click the red ‘confirm’ link to fix the selection.
 ![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
 
 [**Figure 4: Adjusting the graph settings**](_static/images/OneGene_Marksample.png)
+
+Also multiple colors and different markings can be applied to the individual samples you want to highlight. Next to only indicate the samples you want to mark also the color and the type of marking can be adapted. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:0000ff:dot;itcc0021:ff00ff:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure.
+
+
+![Figure 5: Adjusting the sample mark layout](_static/images/one_gene_view_samplesmark.png "Figure 4: Adjusting the graph settings")
+
+[**Figure 5: Adjusting the sample mark layout**](_static/images/one_gene_view_samplesmark.png)
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
