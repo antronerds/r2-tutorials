@@ -145,7 +145,7 @@ click the red ‘confirm’ link to fix the selection.
 
 [**Figure 4: Adjusting the graph settings**](_static/images/OneGene_Marksample.png)
 
-Also multiple colors and different markings can be applied to the individual samples you want to highlight. Next to only indicate the samples you want to mark also the color and the type of marking can be adapted. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:0000ff:dot;itcc0021:ff00ff:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure.
+Also multiple colors and different markings can be applied to the individual samples you want to highlight. Next to only indicate the samples, you maybe want to use multiple colors and the type of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:0000ff:dot;itcc0021:ff00ff:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure.
 
 
 ![Figure 5: Adjusting the sample mark layout](_static/images/one_gene_view_samplesmark.png "Figure 4: Adjusting the graph settings")
