@@ -214,7 +214,8 @@ with our signature of interest.
 Step 4:  Plot signature scores using the relate 2-tracks module
 
 
-
+![Figure 5: Findgenesignatures](_static/images/Genesig_score_line.png "Figure 5: Findgenesignatures")
+[**Figure 5: Findgenesignatures**](_static/images/Genesig_score_line.png)
 
 
 
