@@ -209,6 +209,8 @@ with our signature of interest.
 	
 [**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
 	
+Step 3: Using signature scores
+---------------
 
 
 
