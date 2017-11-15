@@ -174,6 +174,7 @@ with our signature of interest.
 
 
 
+
 1.  Go back to the "main" page and select "Geneset vs Geneset
     correlation" from "box 3" and click "Next" (Figure 4.1).
 2.  On the next page, select at the input Geneset -> Gene set
@@ -209,8 +210,30 @@ with our signature of interest.
 	
 [**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
 	
-Step 3: Using signature scores
+
+Step 4:  Plot signature scores using the relate 2-tracks module
+
+
+
+
+
+
+
+
+
+
+
+
+Step 5:  Drawing lines between samples in an XY plot
 ---------------
+
+Sometimes it can be useful to  indicate a relation between different samples within a dataset
+it can sometimes be informative to add a line between samples. One can think of a pair for example,
+or perhaps a temporal relationship such as an on-off state or a time series. 
+
+![Figure 5: Findgenesignatures](_static/images/Genesig_score_line.png "Figure 5: Findgenesignatures")
+[**Figure 5: Findgenesignatures**](_static/images/Genesig_score_line.png)
+
 
 
 
