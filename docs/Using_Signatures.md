@@ -223,7 +223,7 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
 1. Go back to the "main" page and select the dataset Mixed Neuroblastoma (MES-ADRN-Crest-Exp) - Versteeg - 52 - MAS5.0 - u133p2
     in box 2.
 2. In Box 3, select the "Relate two tracks" module and click next.
-3. In the next screen select in the pulldown menu at X-track , adrn_score (#) and at Y-track
+3. In the next screen select in the pull down menu at X-track , adrn_score (#) and at Y-track
    Y-track the  mes_score (#)  and click next. Now a XY- plot is generated representing the correlation of the
    two signature scores. However, a clear significant correlation between the two signatures is shown the
    biological relevance is less prominent.
@@ -234,10 +234,10 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
 ![Figure 6: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 6: Color by track")
 [**Figure 6: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
 
-5. In this new plot, mes defined cell lines cluster together with the neural crest derrived lines in the left upper part of the plot
+5. In this new plot, mes defined cell lines cluster together with the neural crest derived lines in the left upper part of the plot
 (orange and green respectively) and the ADRN lines in blue in the right lower part of the plot. The purple dots
-represent  a time-series experiment where PRRX1 overexpession induces in time a transition towards MES defined cell lines.
-This is clearly shown bij the dark purple coloured dots where the light purple coloured dots are controls or early time points.
+represent a time-series experiment where PRRX1 overexpession induces in time a transition towards MES defined cell lines.
+This is clearly shown by the dark purple colored dots where the light purple colored dots are controls or early time points.
 
 
 Step 5:  Drawing lines between samples in a XY plot
@@ -252,8 +252,8 @@ and a linewidth. The recipe for these adaptations makes use of ':' and works as 
 sample1,sample2:colorcode:width.
 In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
  gsm2413254, gsm2413255, gsm2413256:#222222' and click adjust Settings
- ![Figure 6: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 5: Findgenesinnnnnnnnnnnatures")
-[**Figure 6: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
+ ![Figure 7: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 5: Findgenesinnnnnnnnnnnatures")
+[**Figure 7: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
 2. In figure 6 now the samples of the time series are connected in follow the transition to the MES defined cell lines
  in the this dataset.
 
