@@ -224,15 +224,15 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
     in box 2.
 2. In Box 3, select the "Relate two tracks" module and click next.
 3. In the next screen select in the pulldown menu at X-track , adrn_score (#) and at Y-track
-   Y-track the  mes_score (#)  and click next. Now a XY- plot is generated representing the correlation the
-   two signature scores. However a clear significant correlation between the two signatures is shown the
+   Y-track the  mes_score (#)  and click next. Now a XY- plot is generated representing the correlation of the
+   two signature scores. However, a clear significant correlation between the two signatures is shown the
    biological relevance is less prominent.
-![Figure 5: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Findgenesignatures")
+![Figure 5: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
 [**Figure 5: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
-4. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track
+4. In order to visualise the biological relavance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track
    in the pulldown menu, click adjust settings.
-![Figure 5: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 5: Findgenesignatures")
-[**Figure 5: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
+![Figure 6: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 6: Color by track")
+[**Figure 6: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
 
 5. In this new plot, mes defined cell lines cluster together with the neural crest derrived lines in the left upper part of the plot
 (orange and green respectively) and the ADRN lines in blue in the right lower part of the plot. The purple dots
