@@ -252,7 +252,7 @@ and a linewidth. The recipe for these adaptations makes use of ':' and works as 
 sample1,sample2:colorcode:width.
 In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
  gsm2413254, gsm2413255, gsm2413256:#222222' and click adjust Settings
- ![Figure 7: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 5: Findgenesinnnnnnnnnnnatures")
+ ![Figure 7: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 7: Connection samples")
 [**Figure 7: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
 2. In figure 6 now the samples of the time series are connected in follow the transition to the MES defined cell lines
  in the this dataset.
