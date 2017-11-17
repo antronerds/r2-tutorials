@@ -211,13 +211,12 @@ with our signature of interest.
 [**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
 	
 
-Step 4:  Plot signature scores using the relate 2-tracks module
+Step 4:  Plot signature scores using the relate 2-tracks module.
 ---------------
-start under contruction (2017-11-15)
 
 In the previous steps we have plotted the genesignature scores directly from a list of of geneset vs
 geneset correlations. We can also select and use genesignature scores to plot a XY-plot in the relate 2 track
-module from R2.  In this example we will use MES and ADRN genesignature scores generated on a combined dataset
+module from R2.  In this example we will use MES and ADRN (mesenchymal, adrenergic) genesignature scores generated on a combined dataset
 of neuroblastoma cell lines and 5 neural crest derrived cell lines published by (Groningen , Koster  et al 2017).
 
 
@@ -226,30 +225,53 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
 2. In Box 3, select the "Relate two tracks" module and click next.
 3. In the next screen select in the pulldown menu at X-track , adrn_score (#) and at Y-track
    Y-track the  mes_score (#)  and click next. Now a XY- plot is generated representing the correlation the
-   two signature scores.
+   two signature scores. However a clear significant correlation between the two signatures is shown the
+   biological relevance is less prominent.
+![Figure 5: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Findgenesignatures")
+[**Figure 5: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
+4. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track
+   in the pulldown menu, click adjust settings.
+![Figure 5: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 5: Findgenesignatures")
+[**Figure 5: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
 
-![Figure 5: Findgenesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Findgenesignatures")
-[**Figure 5: Findgenesignatures**](_static/images/Genesig_score_line.png)
-
-4.  
-
-
-![Figure 5: Findgenesignatures](_static/images/genesignature_mixed52_trackcolor.png "Figure 5: Findgenesignatures")
-[**Figure 5: Findgenesignatures**](_static/images/genesignature_mixed52_trackcolor.png)
+5. In this new plot, mes defined cell lines cluster together with the neural crest derrived lines in the left upper part of the plot
+(orange and green respectively) and the ADRN lines in blue in the right lower part of the plot. The purple dots
+represent  a time-series experiment where PRRX1 overexpession induces in time a transition towards MES defined cell lines.
+This is clearly shown bij the dark purple coloured dots where the light purple coloured dots are controls or early time points.
 
 
 Step 5:  Drawing lines between samples in a XY plot
 ---------------
 
-Sometimes it can be useful to  indicate a relation between different samples within a dataset
-it can sometimes be informative to add a line between samples. One can think of a pair for example,
-or perhaps a temporal relationship such as an on-off state or a time series. 
+Sometimes it can be useful to  indicate a relation between different samples within a dataset. In this case
+it could  be informative to add a line between samples such as in this case connect the shifting samples in time.
+Lets give this a try by defining  the time series samples within this dataset.
 
-![Figure 5: Findgenesignatures](_static/images/Genesig_score_line.png "Figure 5: Findgenesignatures")
-[**Figure 5: Findgenesignatures**](_static/images/Genesig_score_line.png)
+1. Path properties: The appearance of the line can be influenced by providing a color (hex number)
+and a linewidth. The recipe for these adaptations makes use of ':' and works as follows.
+sample1,sample2:colorcode:width.
+In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
+ gsm2413254, gsm2413255, gsm2413256:#222222' and click adjust Settings
+ ![Figure 6: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 5: Findgenesinnnnnnnnnnnatures")
+[**Figure 6: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
+2. In figure 6 now the samples of the time series are connected in follow the transition to the MES defined cell lines
+ in the this dataset.
+
+![](_static/images/R2d2_logo.png)**Did you know box**
+  
+
+>*R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
+ - *'dot': places a thick border around the sample*
+ - *'circle': Places a ring around the sample (diameter 9)*
+ - *'circle_2': Places a ring around the sample (diameter 4)*
+ - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
+ - *'epicenter': Places a set of 3 rings descending in width around a sample*
+ - *'arrow': Places a block arrow pointing to the sample*
+ - *'triangle': Places a filled triangle under the sample*
+
+>*Note: The dotsize does not scale with 'arrow' and 'triangle' met
 
 
-end under contruction
 
 Final remarks / future directions
 ---------------------------------
