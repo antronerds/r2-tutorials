@@ -254,8 +254,8 @@ In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gs
  gsm2413254, gsm2413255, gsm2413256:#222222' and click adjust Settings
  ![Figure 7: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 7: Connection samples")
 [**Figure 7: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
-2. In figure 6 now the samples of the time series are connected in follow the transition to the MES defined cell lines
- in the this dataset.
+2. In figure 7 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines
+ in this dataset.
 
 ![](_static/images/R2d2_logo.png)**Did you know box**
   
