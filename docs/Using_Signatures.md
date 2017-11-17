@@ -215,20 +215,30 @@ Step 4:  Plot signature scores using the relate 2-tracks module
 ---------------
 start under contruction (2017-11-15)
 
+In the previous steps we have plotted the genesignature scores directly from a list of of geneset vs
+geneset correlations. We can also select and use genesignature scores to plot a XY-plot in the relate 2 track
+module from R2.  In this example we will use MES and ADRN genesignature scores generated on a combined dataset
+of neuroblastoma cell lines and 5 neural crest derrived cell lines published by (Groningen , Koster  et al 2017).
 
 
-![Figure 5: Findgenesignatures](_static/images/Genesig_score_line.png "Figure 5: Findgenesignatures")
+1. Go back to the "main" page and select the dataset Mixed Neuroblastoma (MES-ADRN-Crest-Exp) - Versteeg - 52 - MAS5.0 - u133p2
+    in box 2.
+2. In Box 3, select the "Relate two tracks" module and click next.
+3. In the next screen select in the pulldown menu at X-track , adrn_score (#) and at Y-track
+   Y-track the  mes_score (#)  and click next. Now a XY- plot is generated representing the correlation the
+   two signature scores.
+
+![Figure 5: Findgenesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Findgenesignatures")
 [**Figure 5: Findgenesignatures**](_static/images/Genesig_score_line.png)
 
+4.  
 
 
+![Figure 5: Findgenesignatures](_static/images/genesignature_mixed52_trackcolor.png "Figure 5: Findgenesignatures")
+[**Figure 5: Findgenesignatures**](_static/images/genesignature_mixed52_trackcolor.png)
 
 
-
-
-
-
-Step 5:  Drawing lines between samples in an XY plot
+Step 5:  Drawing lines between samples in a XY plot
 ---------------
 
 Sometimes it can be useful to  indicate a relation between different samples within a dataset
