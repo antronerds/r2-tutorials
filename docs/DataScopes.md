@@ -55,13 +55,10 @@ group in the Data Scopes menu.
 
 2.	We can go to the 'landing page' for this data scope by either clicking on the button 'Goto Medulloblastoma 500 Home'
 in Box 0, or click on the 'About Medulloblastoma 500' item near the end in the left menu.
-
 	![Figure    3: Landing Page for Medulloblastoma 500.](_static/images/DataScope_mb500_1.png "Figure    3: Landing Page for Medulloblastoma 500.")
 	
 	[**Figure    3: Landing Page for Medulloblastoma 500.**](_static/images/DataScope_mb500_1.png)
 	
-
-
 3.  Within a landing page 'tiles' are defined that will quickly bring you to specific analyses and or visualizations in R2.
 These 'hotlinks' can be associated with advanced settings, and a such make the usage much easier. In the current Data Scope
 you can eplore the genomics data for the 500 samples by investigating the annotation in the 'cohort overview', or check somatic
