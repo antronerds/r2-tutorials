@@ -65,7 +65,7 @@ you can eplore the genomics data for the 500 samples by investigating the annota
 mutation status in the 'somatic variants' tile, etc. Most of these analyses can also be found / accessed via the main interface
 while very specific ones may only be provided in the scope. Here the 'tSNE manuscript' would be an example of the latter. 
 
-This chapter only serves to explain the basic usage of a data scope. As you may realize, every scope can have many different options
+This chapter only serves to explain the basic usage of a data s cope. As you may realize, every scope can have many different options
 and analyses associated with it, which goes beyond what we can document here. Just have a look at the available scopes once in a while
 to discover what has been added, or make sure to follow our facebook page whare we make announcements on this as well.
 
