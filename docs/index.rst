@@ -28,7 +28,7 @@ Copyright (c) 2006-2016 Jan Koster
    tSNE_dimensionality_reduction
    Using_The_Genome_Browser
    DataScopes
-	 Integrative_analysis_ChIP-Seq_data
+   Integrative_analysis_ChIP-Seq_data
    Integrative_analysis_expression_methylation
    Integrative_analysis_WGS_data
    Adapting_R2
