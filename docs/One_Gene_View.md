@@ -217,7 +217,7 @@ and click on the “Tview” link in the reporter table.
     aligned the sequences used to generate the reporters on the array
     (in the case of Affymetrix microarrays). This view can be used to
     inspect the quality of a reporter. Note that the reporter
-    “242046\_at” is aligned to the genomic region of the MYCN reference
+    “242026\_at” is aligned to the genomic region of the MYCN reference
     sequence, but that it’s color is different from the rest (colored
     in red). In addition in this particular case the reporter is also
     located in the intronic (light shaded color) region which is also a
