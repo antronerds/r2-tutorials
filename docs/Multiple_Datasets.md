@@ -211,6 +211,20 @@ comparisons between datasets).
     representation is explained in more details in tutorial 2.
 
 
+Step 3: Megasearch
+----------------
+
+We have already discussed the find differential expression module for a single dataset to find differentially expressed genes.
+In the across dataset section  we can also apply a similar approach not between groups for a 
+single dataset but for a user defined selection of multiple datasets. However keep in mind that you can only
+select dataset of the same platform  the most abundant datasets are  the u133 platforms as explained
+before not every platform can be used for the megasearch due to the normalisation procedure which has been applied.
+
+
+
+
+
+
 
 ---------------
   ![](_static/images/R2d2_logo.png)**Did you know that the Megasampler can also be used to look through the methylation datasets**
