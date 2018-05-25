@@ -221,6 +221,14 @@ select dataset of the same platform  the most abundant datasets are  the u133 pl
 before not every platform can be used for the megasearch due to the normalisation procedure which has been applied.
 
 
+	![Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.](_static/images/megasampler_select.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+	
+	[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler_select.png.png)
+	
+
+
+At step 1 select the platform you want to use the most common is the u133p2 platform and click next. 
+
 
 
 
