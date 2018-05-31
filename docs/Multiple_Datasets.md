@@ -209,34 +209,32 @@ comparisons between datasets).
     specific dataset in more detail.Click a preferred colored dataset
     dot and R2 will generate an one-gene-view graph. The one-gene-view
     representation is explained in more details in tutorial 2.
-
-
-Step 3: Megasearch
+       
+Step 4: Megasearch
 ----------------
 
 We have already discussed the find differential expression module for a single dataset to find differentially expressed genes.
-In the across dataset section  we can also apply a similar approach not between groups for a 
-single dataset but for a user defined selection of multiple datasets. However keep in mind that you can only
-select dataset of the same platform  the most abundant datasets are  the u133 platforms as explained
-before not every platform can be used for the megasearch due to the normalisation procedure which has been applied.
+In the across dataset section  we can also apply a similar approach, not between groups within 
+single dataset but for a user defined selection of multiple datasets. However, keep in mind that you can only
+select datasets of the same platform,  the most abundant datasets are  the u133 platforms. As explained
+before not every platform can be used for the megasearch due to the normalisation procedure which has been used.
 
-
-	![Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.](_static/images/megasampler_select.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+ ![Figure 10: Select the megasearch option.](_static/images/Megasampler_Select1.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
 	
-	[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler_select.png.png)
+ [**Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/Megasampler_Select1.png)
 	
+ 
+ 
+1. At step 1 select the platform you want to use the most common is the u133p2 platform and click next. 
 
+2. Select type of data (platform) and click next.
 
-At step 1 select the platform you want to use the most common is the u133p2 platform and click next. 
+3. In the next step select the datasets of interest and click next
 
-
-
-
-
+4. 
 
 ---------------
   ![](_static/images/R2d2_logo.png)**Did you know that the Megasampler can also be used to look through the methylation datasets**
-
 
 ---------------
 
