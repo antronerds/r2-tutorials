@@ -226,33 +226,28 @@ before not every platform can be used for the megasearch due to the normalisatio
 	
  
  
-1. At step 1 select the platform you want to use the most common is the u133p2 platform and click next. 
+1. At step 1 you can select the platform you want to use for now select the default (u133p2).
 
-2. Select type of platform and click next.
+2. In the next step select the datasets of interest.
 
-3. In the next step select the datasets of interest and click next.
-
-4. Select the datasets you want to use  for the analyses in this example we have selected  some Normal brain , AML and Medulloblastoma datasets
-, click next.
+3. Select the datasets you want to use  for the analyses, in this example we have selected some Normal Brain , AML and Medulloblastoma datasets, click next.
 
  ![Figure 11: Select the megasearch option.](_static/images/megasampler_selectsdatasets.png "Figure 11: Selecting datasets for analyses in R2.")
 
  [**Figure 11:  Dataset selection **](_static/images/megasampler_selectsdatasets.png)
  
 
-5. For the megasearch two groups only can be applied to find the statistical difference between the groups.  In the settings box assign the proper group parameters (1 or 2) leave the pulldowen menu at their default settings for the datasets and click
+4. For the megasearch module only two groups can be used to find the statistical differently expressed genes between the groups.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at their default settings for the datasets and click
 next. 
 
  ![Figure 12: Select the megasearch option.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
 
  [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler_selectsdatasetsgroups.png)
  
-6. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for filtering.  In the 'Hugoonce Dataset' the first selected dataset will be used as target dataset for probeset usage.
-This needs some explanation, for the most platforms each gene has multiple probesets for many analysis in R2 the probeset with the highest average signal is used.  For the megasearch you can not use for
-each dataset an different probeset for a particular gene. In the 'Hugooce Dataset' pulldown menu you can change the target dataset in case you already familar with one of the selected datasets
-to make sure that probesets from single datasets analysis are used. In case of OTX2 which is a marker gene for Medulloblastoma two probesets are designed (242128_at and 231731_at) in
-Medulloblastoma dataset 242128_at has the highest expression level and will be picked by R2 however in other type of cancers/tissues there is hardly any expression of the OTX2 gene
-in that case the other probeset could easily be selected.
+5. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for filtering.  In the 'Hugoonce Dataset' pulldown menu the first selected dataset will be used as target dataset for probeset usage.
+This probably needs some explanation, for the most platforms each gene has multiple probesets, many   analysis modules in R2 use the probeset with the highest average signal.  For the megasearch you can not use for
+each dataset a different probeset for a particular gene. In the 'Hugooce Dataset' pulldown menu you can change the target dataset in case you already familar with one of the selected datasets to make sure that probesets from single datasets analysis are used. In case of OTX2 which is a marker gene for Medulloblastoma two probesets are designed (242128_at and 231731_at) in the most 
+Medulloblastoma datasets depending of the subgroups 242128_at has the highest expression level and will be picked by R2 however in other type of cancers/tissues there is hardly any expression of the OTX2 gene and in that case the other probeset could easily be selected.
  At the statictics pulldown  menu you can select fdr_modarate_t_statistics ([Limma](http://bioconductor.org/packages/release/bioc/html/limma.html "Limma") ,
 [Limma-git]( http://genomicsclass.github.io/book/pages/using_limma.html)) 
 or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the  analysis of gene expression data , leave the statistics at moderatte_t_statistics and click next.
