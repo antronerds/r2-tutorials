@@ -232,12 +232,13 @@ before not every platform can be used for the megasearch due to the normalisatio
 
 3. In the next step select the datasets of interest and click next.
 
-4. Select the datasets you want to use  for the analyses in this example we selected  some \Normal brain , AML and Medulloblastoma datasets
+4. Select the datasets you want to use  for the analyses in this example we have selected  some Normal brain , AML and Medulloblastoma datasets
 , click next.
 
  ![Figure 11: Select the megasearch option.](_static/images/megasampler_selectsdatasets.png "Figure 11: Selecting datasets for analyses in R2.")
 
  [**Figure 11:  Dataset selection **](_static/images/megasampler_selectsdatasets.png)
+ 
 5. For the megasearch two groups only can be applied to find the statistical difference between the groups.  In the settings box assign the proper group parameters (1 or 2) leave the pulldowen menu at their default settings for the datasets and click
 next. 
 
@@ -251,6 +252,32 @@ each dataset an different probeset for a particular gene. In the 'Hugooce Datase
 to make sure that probesets from single datasets analysis are used. In case of OTX2 which is a marker gene for Medulloblastoma two probesets are designed (242128_at and 231731_at) in
 Medulloblastoma dataset 242128_at has the highest expression level and will be picked by R2 however in other type of cancers/tissues there is hardly any expression of the OTX2 gene
 in that case the other probeset could easily be selected.
+
+At the statictics pulldown  menu you can select fdr_modarate_t_statistics ([Limma](http://bioconductor.org/packages/release/bioc/html/limma.html "Limma") ,
+[Limma-git]( http://genomicsclass.github.io/book/pages/using_limma.html)) 
+or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the  analysis of gene expression data , leave the statistics at moderatte_t_statistics and click next.
+Two tables of genes are generated with the highest significant expressed genes for group 1 and group 2. In the left genelist (group 2) in this case we find in the top 10 ,
+the OTX2 gene which is accociated with medulloblastoma.
+
+ ![Figure 13: OTX2 BoxDotplot.](_static/images/megasampler_otx2fig.png "Figure 12: Assign the statistical group for testing.")
+
+ [**Figure 13: OTX2 BoxDotplot**](_static/images/megasampler_otx2fig.png)
+
+7. In the previous Adjustable settings box where the groupiong are assinged  you can also spit datasets based on their subgoups (tracks) and and
+incorparate the subgroups in different groups before testin as illustrated in Figure 14.
+
+![Figure 14: Select the megasearch option.](_static/images/megasampler_subgroup.png "Figure 12: Assign the statistical group for testing.")
+
+ [**Figure 14: Assign the statistical group for testing**](_static/images/megasampler_subgroup.png)
+
+
+
+
+
+
+
+
+
 
 
 
