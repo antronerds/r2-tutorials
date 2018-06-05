@@ -41,13 +41,14 @@ Step 1: Selecting multiple datasets
     sampler" at "use presets". The meaning of presets will be explained
     later on.
 
----------------
+--------------------------------------------------------------------------
 ![](_static/images/R2d2_logo.png)**Did you know that R2 harbours different types of microarray platforms**
 
 ![Multiple dataset selectiong](_static/images/MultipleDatasets_Select.png)             
                                                                           
 > *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm and of certain normalizations.*
- ----------------
+
+--------------------------------------------------------------------------
 
 1.  With the "selection preset" option a pre-stored dataset collection
     with associated settings can be selected. Select "XPO sampler"
@@ -216,10 +217,10 @@ Step 4: Megasearch
 We have already discussed the find differential expression module for a single dataset to find differentially expressed genes.
 In the across dataset section  we can also apply a similar approach, not between groups within 
 single dataset but for a user defined selection of multiple datasets. However, keep in mind that you can only
-select datasets of the same platform,  the most abundant datasets are  the u133 platforms. As explained
+select datasets of the same platform,  the most abundant datasets are of the Affymetrix u133p2 platform. As explained
 before not every platform can be used for the megasearch due to the normalisation procedure which has been used.
 
- ![Figure 10: Select the megasearch option.](_static/images/Megasampler_Select1.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+ ![Figure 10: Select the megasearch option.](_static/images/Megasampler_Select1.png "Figure 10: Megasearch select.")
 	
  [**Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/Megasampler_Select1.png)
 	
@@ -227,11 +228,38 @@ before not every platform can be used for the megasearch due to the normalisatio
  
 1. At step 1 select the platform you want to use the most common is the u133p2 platform and click next. 
 
-2. Select type of data (platform) and click next.
+2. Select type of platform and click next.
 
-3. In the next step select the datasets of interest and click next
+3. In the next step select the datasets of interest and click next.
 
-4. 
+4. Select the datasets you want to use  for the analyses in this example we selected  some \Normal brain , AML and Medulloblastoma datasets
+, click next.
+
+ ![Figure 11: Select the megasearch option.](_static/images/megasampler_selectsdatasets.png "Figure 11: Selecting datasets for analyses in R2.")
+
+ [**Figure 11:  Dataset selection **](_static/images/megasampler_selectsdatasets.png)
+5. For the megasearch two groups only can be applied to find the statistical difference between the groups.  In the settings box assign the proper group parameters (1 or 2) leave the pulldowen menu at their default settings for the datasets and click
+next. 
+
+ ![Figure 12: Select the megasearch option.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
+
+ [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler_selectsdatasetsgroups.png)
+ 
+6. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for filtering.  In the 'Hugoonce Dataset' the first selected dataset will be used as target dataset for probeset usage.
+This needs some explanation, for the most platforms each gene has multiple probesets for many analysis in R2 the probeset with the highest average signal is used.  For the megasearch you can not use for
+each dataset an different probeset for a particular gene. In the 'Hugooce Dataset' pulldown menu you can change the target dataset in case you already familar with one of the selected datasets
+to make sure that probesets from single datasets analysis are used. In case of OTX2 which is a marker gene for Medulloblastoma two probesets are designed (242128_at and 231731_at) in
+Medulloblastoma dataset 242128_at has the highest expression level and will be picked by R2 however in other type of cancers/tissues there is hardly any expression of the OTX2 gene
+in that case the other probeset could easily be selected.
+
+
+
+
+
+
+
+
+
 
 ---------------
   ![](_static/images/R2d2_logo.png)**Did you know that the Megasampler can also be used to look through the methylation datasets**
