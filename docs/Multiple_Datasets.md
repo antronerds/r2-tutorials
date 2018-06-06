@@ -214,7 +214,7 @@ comparisons between datasets).
 Step 4: Megasearch
 ----------------
 
-We have already discussed the find differential expression module for a single dataset to find differentially expressed genes.
+We have already discussed the 'find differential expression' module for a single dataset to find differentially expressed genes.
 In the across dataset section  we can also apply a similar approach, not between groups within 
 single dataset but for a user defined selection of multiple datasets. However, keep in mind that you can only
 select datasets of the same platform,  the most abundant datasets are of the Affymetrix u133p2 platform. As explained
@@ -236,33 +236,32 @@ before not every platform can be used for the megasearch due to the normalisatio
 
  [**Figure 11:  Dataset selection **](_static/images/megasampler_selectsdatasets.png)
  
-
-4. For the megasearch module only two groups can be used to find the statistical differently expressed genes between the groups.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at their default settings for the datasets and click
+4. For the megasearch module only two groups can be used to find the statistical differently expressed.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at the default setting ('NO') for the datasets and click
 next. 
 
  ![Figure 12: Select the megasearch option.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
 
  [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler_selectsdatasetsgroups.png)
  
-5. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for filtering.  In the 'Hugoonce Dataset' pulldown menu the first selected dataset will be used as target dataset for probeset usage.
+5. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for gene filtering.  In the 'Hugoonce Dataset' pulldown menu the first selected dataset will be used as target dataset for probeset usage.
 This probably needs some explanation, for the most platforms each gene has multiple probesets, many   analysis modules in R2 use the probeset with the highest average signal.  For the megasearch you can not use for
 each dataset a different probeset for a particular gene. In the 'Hugooce Dataset' pulldown menu you can change the target dataset in case you already familar with one of the selected datasets to make sure that probesets from single datasets analysis are used. In case of OTX2 which is a marker gene for Medulloblastoma two probesets are designed (242128_at and 231731_at) in the most 
 Medulloblastoma datasets depending of the subgroups 242128_at has the highest expression level and will be picked by R2 however in other type of cancers/tissues there is hardly any expression of the OTX2 gene and in that case the other probeset could easily be selected.
  At the statictics pulldown  menu you can select fdr_modarate_t_statistics ([Limma](http://bioconductor.org/packages/release/bioc/html/limma.html "Limma") ,
 [Limma-git]( http://genomicsclass.github.io/book/pages/using_limma.html)) 
-or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the  analysis of gene expression data , leave the statistics at moderatte_t_statistics and click next.
+or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the  analysis of gene expression data , leave the statistics at moderate_t_statistics and click next.
 Two tables of genes are generated with the highest significant expressed genes for group 1 and group 2. In the left genelist (group 2) in this case we find in the top 10 ,
 the OTX2 gene which is accociated with medulloblastoma.
  ![Figure 13: OTX2 BoxDotplot.](_static/images/megasampler_otx2fig.png "Figure 12: Assign the statistical group for testing.")
 
  [**Figure 13: OTX2 BoxDotplot**](_static/images/megasampler_otx2fig.png)
 
-7. In the previous Adjustable settings box where the groupiong are assinged  you can also spit datasets based on their subgoups (tracks) and and
-incorparate the subgroups in different groups before testin as illustrated in Figure 14.
+7. In the previous Adjustable settings box where the grouping parameters were assinged  you can also split datasets based on their subgoups (tracks) and and
+incorparate the subgroups in different test groups before as illustrated in Figure 14.
 
 ![Figure 14: Select the megasearch option.](_static/images/megasampler_subgroup.png "Figure 12: Assign the statistical group for testing.")
 
- [**Figure 14: Assign the statistical group for testing**](_static/images/megasampler_subgroup.png)
+ [**Figure 14: Assign the statisticalsub group for testing**](_static/images/megasampler_subgroup.png)
 
 
 
