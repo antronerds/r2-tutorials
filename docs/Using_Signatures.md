@@ -44,9 +44,9 @@ they follow a specific convention (fixed prefix, followed by \_up and
 \_down; e.g. mycn\_up and mycn\_down).
 
 
-![Figure1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
+![Figure 1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
 
-[**Figure1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
+[**Figure : Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 
 	
 -   What is a genesignature
@@ -78,24 +78,27 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     selected in "box 1".
 2.  In "box 2" verify that the current dataset is "Neuroblastoma
     public - Versteeg - 88 - MAS5.0 - u133p2".
-3.  In "box 3" we select "View geneset (Heatmap)".
-4.  Click "Next" (Figure 2.1).
-5.  In the following screen we select the
+3.  In "box 3" we select "View geneset (Heatmap)". Click "Next".
+4.  In the following screen we select the
     "geneset\_\_r2provided\_genesets" Gene set collection and click
-    "Next" (Figure 2.2).
-6.  In the following screen we select the "functional genesignature"
-    subselection and click "Next" (Figure 2.3).
-7.  We can now see the lists of genes that are represented in
+    "Next".
+5.  In the following screen we select the "functional genesignature"
+    subselection and click "Next".
+  ![Figure 2: Generating Geneset signatures A](_static/images/genesetcorrelation_selectheatmap.png "Figure1: Signature score: one category vs up/downcategory")
+
+  [**Figure 2 : Generating Geneset signatures**](_static/imagesgenesetcorrelation_selectheatmap.png)
+	     
+6.  We can now see the lists of genes that are represented in
     this collection. While holding the CTRL key pressed, we can select
     the following 2 gene categories "r2\_imr32mycn\_dn"
-    and "r2\_imr32mycn\_up". Then click "Next" (Figure 2.4).
-8.  R2 will now produce a hierarchical clustered heatmap image of the
-    selected gene categories (Figure 2.5). Note that at the right end of
+    and "r2\_imr32mycn\_up". Then click "Next" (Figure 2).
+7.  R2 will now produce a hierarchical clustered heatmap image of the
+    selected gene categories. Note that at the right end of
     the image the red boxes indicate in which category a particular gene
     was represented. In the bottom part of the heatmap, a blue-white-red
     colorscale is depicted for both gene categories. We can clearly see
     the opposing effects of the 2 signatures.
-9.  Scrolling down on this page, we will encounter a heading "Gene set
+8.  Scrolling down on this page, we will encounter a heading "Gene set
     values", which presents a small table. The links within this table
     point to the numerical values of the geneset scores. For the 2 gene
     categories, R2 will create the scores of the 2 separate categories,
@@ -103,17 +106,16 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     equally (50/50)), and a weighted\_matched score (where up and
     downregulated genes are treated on their contribution (percentage
     for number of genes)). Click on "store" for the "weighted\_matched"
-    signature, so that we can perform additional analyses on it
-    (Figure 2.6).
-10. R2 has now assembled the information into a prescription to generate
+    signature, so that we can perform additional analyses on it.
+9. R2 has now assembled the information into a prescription to generate
     a track. By default R2 will store the track for 24 hours, which is
     fine for the current tutorial. Click on "Build set" to store the new
-    track (Figure 2.7).
+    track (Figure 3 ).
 
 
-![Figure2: Generategenesignature](_static/images/Genesetcorrelation_mycn_signature_v1.png "Figure2: Generategenesignature")
+![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscore.png "Figure2: Generategenesignature")
 	
-[**Figure2: Generategenesignature**](_static/images/Genesetcorrelation_mycn_signature_v1.png)
+[**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscore.png)
 	
 
 
