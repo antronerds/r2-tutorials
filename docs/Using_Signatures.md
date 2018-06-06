@@ -113,9 +113,9 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 3 ).
 
 
-![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscore.png "Figure2: Generategenesignature")
+  ![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscore.png "Figure2: Generategenesignature")
 	
-[**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscore.png)
+  [**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscore.png)
 	
 
 
