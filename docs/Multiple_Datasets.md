@@ -5,7 +5,7 @@ Multiple datasets overview with Megasampler
 ===========================================
 
 
-*Create an overview of the expression level of a single gene in multiple
+*Create an overview of the expression level of genes in multiple
 datasets*
 
 
@@ -30,8 +30,8 @@ Scope
 Step 1: Selecting multiple datasets
 ---------------
 
-1.  Use "Across Datasets" in field 1 by default the "megasampler" option
-    is selected in field 2 and click "next".
+1.  Select "Across Datasets" in field 1, by default the "megasampler" option
+    will be selected in field 2 and click "next".
     
 	![Figure 1: Using across datasets](_static/images/MultipleDatasets_across.png "Figure 1: Using across datasets")
 	
@@ -46,7 +46,7 @@ Step 1: Selecting multiple datasets
 
 ![Multiple dataset selectiong](_static/images/MultipleDatasets_Select.png)             
                                                                           
-> *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm and of certain normalizations.*
+> *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm.*
 
 --------------------------------------------------------------------------
 
@@ -69,9 +69,9 @@ Step 1: Selecting multiple datasets
     gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
     Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     
-	![Figure3: Megasampler adjustment selection](_static/images/Pathway_menu.png "Figure3: Megasampler adjustment selection")
+	![Figure3: Megasampler adjustment selection](_static/images/megasampler_selectsdatasetsgroups.png "Figure3: Megasampler adjustment selection")
 	
-	[**Figure 3: Megasampler adjustment selection**](_static/images/Pathway_menu.png)
+	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler_selectsdatasetsgroups.png)
 	
 
 --------------------------------------------------------------------------
@@ -96,7 +96,7 @@ Step 2: Viewing a gene in multiple datasets
     dataset names in alphabetical order (so changing the order of 1 or 2
     datasets should be sufficient). The pull down next to "dataset
     ordering pull down menu" enables to split one or more dataset by
-    selecting a track , in this manner the chosen dataset(s) will be
+    selecting a track , in this way the chosen dataset(s) will be
     split according to the numbers of groups of the selected track.
 2.  For now change the color for the datasets as indicated in Figure 4
     and click "next".
@@ -108,7 +108,7 @@ Step 2: Viewing a gene in multiple datasets
 3.  R2 now performs a one-way Anova statistical test on the fly. This
     **AN**alyis **O**f **VA**riance is a statistical test that
     calculates whether the means of the expression levels between the
-    selected datasets are significant different.
+    selected datasets are significantly different.
 
 	![Figure 5: Anova test for the selected datasets.](_static/images/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
 	
@@ -138,7 +138,7 @@ and click on "redraw at the bottom of the screen.
 
 The plotted graphs for "MYCN" clearly show a high expression level
 specifically in the Neuroblastoma data sets compared to Normal Tissue
-and other Tumor datasets. At the bottom of the page it"s possible to
+and other Tumor datasets. At the bottom of the page it's possible to
 adapt dataset coloring, change the order and split datasets in tracks
 directly.
 
@@ -151,22 +151,22 @@ directly.
 
 ![](_static/images/UsingDatasets_LinksToRawDataInR2.png)
                          
-> *Storing a preset not only stores the selection of datasets for future use, but will also remember all of the other settings such as order,
-colors, plot type etc. In essence you can generate the same visual representation for any other gene in this way.*
+> *Storing a preset not only stores the selection of datasets for future use, but will also keep all of the other settings such as order,
+colors, plot type etc. The same visual representation for any other gene can be generated in this way.*
 
 --------------------------------------------------------------------------
 
 
 
 You can can use the adjustable panel to adapt the megasampler graph. In
-case you splitted one or more datasets according to a specific track in
-the previous screen, it"s now possible to skip subgroups from your
-dataset or more interesting, apply different colors for groups within a
+case you split one or more datasets according to a specific track in
+the previous screen, it's now possible to skip subgroups from your
+dataset or, more interestingly, apply different colors for groups within a
 dataset (see Figure 8).
 
-![Figure8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
+![Figure 8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
 	
-[**Figure8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
+[**Figure 8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
 	
 
 
@@ -178,36 +178,36 @@ Step 3: Expression distribution over many datasets
 
 
 
-The red arrow in the "did you know box" indicates a handy module to
+The red arrow in the "did you know box" brings you to a handy module to
 obtain a quick overview of the expression level patterns for most of the
 datasets R2 contains (providing that the normalization allows
-comparisons between datasets).
+comparison).
 
 
 
-1.  Click "view Expression in many datasets" and a new screen (or Tab)
-    appears depicting colored dots. The colored dots are representing
+1.  Click "view Expression in many datasets" and a new screen (or tab)
+    appears containing a Probeset distribution graph. The color of the dots represent
     the different dataset categories (cell line dataset, Tumor or Normal
-    Tissue etcetera). Via this module (effectively the 2D distribution)
+    Tissue etcetera). Via this 2D distribution module 
     you can easily detect in what way your probeset of interest is
     expressed in many other datasets. At the Y-axis the 2log transformed
     average expression level and the standard deviation is represented.
-    The X-axis "overlap avoider" is simply a means to represent all
+    The X-axis "overlap avoider" is simply a way to represent all
     datasets in the plot without overlap of the circles. Figure 9
     clearly shows that the MYCN expression is also high in other dataset
     which could be of interest and a second Neuroblastoma dataset. Next
-    to the graphs 2 tables summarize dataset names and a R-value set
-    to "1. The R-value comes of use with the 2D-distrubution module
+    to the graph 2 tables summarize dataset names and a R-value set
+    to "1. This has no specific meaning in this context but comes of use with the 2D-distrubution module
     where you can quickly scan the correlation between two genes for all
     datasets of the same platform in R2. This module is discussed in the
-    correlate genes tutorial.
+    Correlate Genes tutorial.
     
 	![Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.](_static/images/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
 	
 	[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
 	
 2.  Via the the probeset distribution view you can easily investigate a
-    specific dataset in more detail.Click a preferred colored dataset
+    specific dataset in more detail. Click a preferred colored dataset
     dot and R2 will generate an one-gene-view graph. The one-gene-view
     representation is explained in more details in tutorial 2.
        
@@ -225,71 +225,52 @@ before not every platform can be used for the megasearch due to the normalisatio
  [**Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/Megasampler_Select1.png)
 	
  
-1. Select 'Megasearch in Box 2'
+1. Select 'Megasearch' in Box 2 and click next
  
-2. At step 1 select the platform you want to use for now select the default (u133p2).
+2. At step 1 select the platform you want to use, for now select the default (u133p2).
 
-3. Select the datasets you want to use  for the analyses, in this example we have selected Normal Brain , AML and Medulloblastoma datasets, click next.
+3. Select the datasets you want to use for the analyses, in this example we have selected Normal Brain , AML and Medulloblastoma datasets, click next.
+
  ![Figure 11: Select the megasearch option.](_static/images/megasampler_selectsdatasets.png "Figure 11: Selecting datasets for analyses in R2.")
 
  [**Figure 11:  Dataset selection **](_static/images/megasampler_selectsdatasets.png)
  
 4. For the megasearch module only two groups can be used to find the statistical differently expressed genes.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at the default setting ('NO') for the datasets and click
 next. 
- ![Figure 12: Select the megasearch option.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
+ ![Figure 12: Assign the statistical group for testing.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
 
  [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler_selectsdatasetsgroups.png)
  5. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for gene filtering.  In the 'Hugoonce Dataset' pulldown menu the first selected dataset will be used as target dataset for probeset usage.
-This probably needs some explanation, for the most platforms each gene has multiple probesets, many   analysis modules in R2 use the probeset with the highest average signal.  For the megasearch you can not use for
+For most platforms each gene has multiple probesets, when using this option R2 takes the probeset with the highest average signal.  For the megasearch you can not use for
 each dataset a different probeset for a particular gene. In the 'Hugooce Dataset' pulldown menu you can change the target dataset in case you already familar with one of the selected datasets to make sure that probesets from single datasets analysis are used. In case of OTX2 which is a marker gene for Medulloblastoma two probesets are designed (242128_at and 231731_at) in the most 
 Medulloblastoma datasets depending of the subgroups 242128_at has the highest expression level and will be picked by R2 however in other type of cancers/tissues there is hardly any expression of the OTX2 gene and in that case the other probeset could easily be selected.
  At the statictics pulldown  menu you can select fdr_modarate_t_statistics ([Limma](http://bioconductor.org/packages/release/bioc/html/limma.html "Limma") ,
 [Limma-git]( http://genomicsclass.github.io/book/pages/using_limma.html)) 
-or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the  analysis of gene expression data , leave the statistics at moderate_t_statistics and click next.
-Two tables of genes are generated with the highest significant expressed genes for group 1 and group 2. In the left genelist (group 2) we find in the top 10 ,
+or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the analysis of gene expression data , leave the statistics at moderate_t_statistics and click next.
+Two tables of genes are generated with the highest significantly expressed genes for group 1 and group 2. In the left genelist (group 2) we find in the top 10 ,
 the OTX2 gene which is accociated with medulloblastoma.
- ![Figure 13: OTX2 BoxDotplot.](_static/images/megasampler_otx2fig.png "Figure 12: Assign the statistical group for testing.")
+ ![Figure 13: OTX2 BoxDotplot.](_static/images/megasampler_otx2fig.png "Figure 12: Figure 13: OTX2 BoxDotplot.")
 
  [**Figure 13: OTX2 BoxDotplot**](_static/images/megasampler_otx2fig.png)
 
-6. In the previous Adjustable settings box where the grouping parameters were assinged  you can also split datasets based on their subgoups (tracks) and 
-incorparate the subgroups in different test groups  as illustrated in Figure 14.
+6. In the previous Adjustable settings box, where the grouping parameters were assigned,  you can also split datasets based on their subgoups (tracks) and 
+incorparate the subgroups in different test groups as illustrated in Figure 14.
 
-![Figure 14: Select the megasearch option.](_static/images/megasampler_subgroup.png "Figure 12: Assign the statistical group for testing.")
+![Figure 14: Assign the statistical subgroup for testing.](_static/images/megasampler_subgroup.png "Figure 14: Assign the statistical subgroup for testing.")
 
- [**Figure 14: Assign the statisticalsub group for testing**](_static/images/megasampler_subgroup.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ [**Figure 14: Assign the statistical subgroup for testing**](_static/images/megasampler_subgroup.png)
 
 
 ---------------
-  ![](_static/images/R2d2_logo.png)**Did you know that the Megasampler can also be used to look through the methylation datasets**
+  ![](_static/images/R2d2_logo.png)**Did you know that the Megasampler can also be used to investigate through the methylation datasets**
 
 ---------------
-
-
-
 
 
 Final remarks / future directions
 ---------------------------------
 
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
 
 
 
