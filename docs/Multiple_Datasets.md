@@ -231,10 +231,11 @@ before not every platform can be used for the megasearch due to the normalisatio
 
 3. Select the datasets you want to use for the analyses, in this example we have selected Normal Brain , AML and Medulloblastoma datasets, click next.
 
- ![Figure 11: Select the megasearch option.](_static/images/megasampler_selectsdatasets.png "Figure 11: Selecting datasets for analyses in R2.")
+ ![Figure 11: Dataset selection.](_static/images/megasampler_selectsdatasets.png "Dataset selection.")
 
- [**Figure 11:  Dataset selection **](_static/images/megasampler_selectsdatasets.png)
- 
+ [**Figure 11:  Dataset selection.**](_static/images/megasampler_selectsdatasets.png)
+
+
 4. For the megasearch module only two groups can be used to find the statistical differently expressed genes.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at the default setting ('NO') for the datasets and click
 next. 
  ![Figure 12: Assign the statistical group for testing.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
