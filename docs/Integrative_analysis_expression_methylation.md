@@ -67,17 +67,17 @@ Step 1: Choosing a combined dataset.
 
 	Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal more details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6).
 
-	![Figure 6: Genomebrowser](_static/images/IntgrAnalysis_methexpr_withingenegenbr.png)
+	![Figure 6: YY from table](_static/images/IntgrAnalysis_methexpr_withingeneYY.png)
 	
-	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenegenbr.png)
+	[**Figure 6:YY from table**](_static/imagesIntgrAnalysis_methexpr_withingeneYY.png)
 
 	Next to the YY-plot,  more insight can be obtained by using  using the interactive genome browser. The genome browser is equiped with extended search options to find and explore more regions. The genome browser is a core module within R2  and will be discussed in a separate chapter of this tutorial.    Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
 
 8. In the correlation plot there is clearly a high correlation visible between the expression and methylation reporters located at chromosome 2.  By clicking on the chromosome 2 area R2 will regenerate a correlation plot zoomed into chromosome 2.   In order to investigate the area in more detail you can zoom into this particular region. Press and hold the left mouse button in the designated area (Figure 8) mark the area by dragging the pointer , release de mouse button and click ‘redraw’.
 
-	![Figure 7: Explore chromosomal regions](_static/images/IntgrAnalysis_methexpr_zoom.png)
+	![Figure 7: Explore chromosomal regions](_static/images/IntgrAnalysis_methexpr_withingenegenbr.png)
 	
-	[**Figure 7:Explore chromosomal regions**](_static/images/IntgrAnalysis_methexpr_zoom.png)
+	[**Figure 7:Explore chromosomal regions**](_static/images/IntgrAnalysis_methexpr_withingenegenbr.png)
 
 
 On this zoom - level more known information is automatically plotted  in the  genome browser.   In this example it is shown that the DDX1 is located near to the MYCN gene on the the genome.  This could explain the high inverse correlation of the MYNC methylation reporters and expression reporteres.
