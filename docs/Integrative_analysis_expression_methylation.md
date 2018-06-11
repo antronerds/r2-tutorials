@@ -65,11 +65,11 @@ Step 1: Choosing a combined dataset.
 
 	[**Figure 5:Table of Correlations**](_static/images/IntgrAnalysis_methexpr_withingenetable.png)
 
-	Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal more details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6b).
+	Further the green dots and red dots indicate respectively a positive correlation and negative correlation between the methylation and expression reporters for the same gene. Hoovering over the dots will reveal more details such as  the correlation values. Here you can investigate further the correlation between gene or methylation by clicking on the gene name. This will generate a YY plot of the gene expression and methylation correlation. (Figure 6).
 
-	![Figure 6: Genomebrowser](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
+	![Figure 6: Genomebrowser](_static/images/IntgrAnalysis_methexpr_withingenegenbr.png)
 	
-	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenechoose.png)
+	[**Figure 6:Genomebrowser**](_static/images/IntgrAnalysis_methexpr_withingenegenbr.png)
 
 	Next to the YY-plot,  more insight can be obtained by using  using the interactive genome browser. The genome browser is equiped with extended search options to find and explore more regions. The genome browser is a core module within R2  and will be discussed in a separate chapter of this tutorial.    Click on the R2 – genome browser button. The genome browser graph is re-generated together with a complete panel of tools to adjust and / or annotate your visualization of the genome region where you are interested in. 
 
