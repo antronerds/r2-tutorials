@@ -352,18 +352,25 @@ modules where a one-or two gene view is generated.
 Step 7: View a gene in groups
 ---------------
 
- 1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the current location, we can also inspect the MYCN expression sub divided in groups. To achieve this, we simply scroll to the end of the page and locate the dropdown box in the 'group separations section of the 'adjustable settings''. Here we can select a track to separate the cohort accordingly. Select 'inss' as a track and press the 'adjust' button at the end of the page. R2 has now separated the patients on the basis of the inss staging track in alphabetical order. 
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the current location, we can also inspect the MYCN expression sub divided in groups. To achieve this, we simply scroll to the end of the page and locate the dropdown box in the 'group separations section of the 'adjustable settings''. Here we can select a track to separate the cohort accordingly. Select 'inss' as a track and press the 'adjust' button at the end of the page. R2 has now separated the patients on the basis of the inss staging track in alphabetical order. 
 
 ![Figure14: View in Groups](_static/images/OneGene_ViewInGroups1.png "Figure14: Viewing a gene in groups")
 
 [**Figure 14: View a gene in groups**](_static/images/OneGene_ViewInGroups1.png)
 
- 2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. press the 'adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
+2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. press the 'adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
 
 ![Figure15: View in Groups boxplot](_static/images/OneGene_ViewInGroups2.png "Figure15: Viewing a gene in groups by boxplot")
 
 [**Figure 15: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
 
+3. You can also sort the groups by their average or median gene expression.
+ 
+ ![Figure 16: View in Groups boxplot](_static/images/one_gene_view_avgsorted.png "Figure 16: Viewing a gene in groups by boxplot")
+
+[**Figure 16: View a gene in groups by boxplot**](_static/images/one_gene_view_avgsorted.png)
+
+ 
 -----------
   ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
 
