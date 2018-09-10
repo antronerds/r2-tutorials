@@ -109,7 +109,7 @@ Step 1: Exploring the genome browser
     expression signal per probeset for a chosen dataset with their
     genomic location.
 3.  The properties and adjustable settings panel allows users to
-    configure the graph display in various ways.. In the left properties
+    configure the graph display in various ways. In the left properties
     panel set in the transcriptview section “draw mode to count and in
     the expression section “draw mode” to bars. The expression level can
     also be investigated per sample. The one-gene-view plot shows that
@@ -124,9 +124,10 @@ Step 1: Exploring the genome browser
 ![Figure5: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
 
 [**Figure5: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
-**Figure
-6: Annotation tracks
-added.**](_static/images/UsingR2genome_tracksadded.png)
+
+![Figure 6 Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
+
+[**Figure 6: Annotation tracksadded.**](_static/images/UsingR2genome_tracksadded.png)
 
 
 
