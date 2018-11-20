@@ -79,7 +79,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 2: Exploring genes in a transcriptional context
 
-1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. In the ChIP-seq menu choose the *ChIP-chip Genome Browser*
+1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. In the ChIP-seq menu choose the *ChIP-chip Genome Browser*.
 
 2. In the next screen type the name of your gene in left upper corner in find shield field (that's what's being used to map the annotation) and click "Go". For now the MYCN gene is already pre-selected accordingly. 
 
@@ -99,13 +99,13 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 *-use the grid properties to  filter and select an experiment,type LAN and ATRX*  
 *-click update in figure 7*  
 *-next figure  select the proper tracks in the right panel,superenhancers,NIH epi superenhancer NB george*
-*- zoom 20x*
+*-zoom 20x*
 
 You're now in the R2 genome browser in ChIP-seq context (Figure 8). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area.[See chapter 16 for more on this](Using_The_Genome_Browser.html#step-2-zooming-and-panning). The lower left panel contains ChIP-seq datasets that can be added to the center view. The right panel has additional public data available to show there as so called tracks. In the center panel you control what is being drawn. In Fig 8 a dataset on ATRX binding in the cell line LAN is selected. Also two genome annotation tracks have been selected before re-drawing: the dbsuper enhancer and Neuroblastoma super enhancer sets. In the resulting picture these are drawn as colored blocks underneath the genome strand. Also added, above the genome strand, are the ATRX ChIP-seq binding peaks. Zooming out reveals that there is more binding in front of the MYCN gene.
 
--	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
+![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
 	
-	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
+[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
 
 
 5. Of course this would be a tedious job for a list of genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. [You can find the list here](_static/files/DiffExprCancerGenesList.txt), as additional requirement we selected for genes having a known cancer association. Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak Plotter* 
