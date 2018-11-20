@@ -72,9 +72,9 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 	
 2. See figure 5. Several analysis paths start here. First we're going to explore the genomic environment of some genes in context of ChIP-seq data.   
 	
-	![Figure 5: ChIPSeq Menu in R2](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu.png)
+	![Figure 5: ChIPSeq Menu in R2](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu_a.png)
 	
-	[**Figure 5: ChIPSeq Menu in R2**](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu.png)
+	[**Figure 5: ChIPSeq Menu in R2**](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu_a.png)
 	
 
 ## Step 2: Exploring genes in a transcriptional context
