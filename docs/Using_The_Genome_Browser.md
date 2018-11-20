@@ -127,7 +127,7 @@ Step 1: Exploring the genome browser
 
 ![Figure 6 Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
 
-[**Figure 6: Annotation tracksadded.**](_static/images/UsingR2genome_tracksadded.png)
+[**Figure 6: Annotation tracks added.**](_static/images/UsingR2genome_tracksadded.png)
 
 
 
