@@ -64,7 +64,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 1: Choosing data and modules
 
-1. To enter the ChIP-Seq analysis module in R2 select *ChIPSeq data* in Box 3 (Fig 4).
+1. To enter the ChIP-Seq analysis module in R2 select *ChIP data* in Box 3 (Fig 4) and click "Next".
 	
 	![Figure 4: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
 	
