@@ -91,8 +91,8 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 	
 4. You have now selected the mycn of another gene as starting point top to select a chipseq experiment of interest. In the left corner at the bottom .........
 
-- click update
-- select the proper tracks in the left panel
+[- click update in figure 7] 
+[- next figure  select the proper tracks in the left panel] .
 
 	![Figure 7: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
