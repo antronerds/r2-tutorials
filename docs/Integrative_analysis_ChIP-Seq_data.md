@@ -70,7 +70,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 	
 	[**Figure 4: Choose the ChIPSeq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
 	
-2. See figure 5. Several analysis paths start here. First we're going to explore the genomic environment of some genes in context of ChIP-seq data.   
+2. See figure 5. Several analysis paths start from here. First we're going to explore the genomic environment of some genes in context of ChIP-seq data. In the ChIP-seq menu choose the *ChIP-chip Genome Browser* 
 	
 	![Figure 5: ChIPSeq Menu in R2](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu_a.png)
 	
@@ -79,22 +79,25 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 2: Exploring genes in a transcriptional context
 
-1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. In the ChIP-seq menu choose the *ChIP-chip Genome Browser*
+1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. Type the name of your gene in the text field of the "Find gene" textbox located in the upper-left corner and click "Go". The genomic location of the gene will be used to map the annotation.
 
-2. In the next screen type the name of your gene in left upper corner in find shield field (that's what's being used to map the annotation) and click "Go". For now the MYCN gene is already pre-selected accordingly. 
-
-3. You can select the proper transcript in the next screen; click view on the link in front.
+3. To select the proper transcript in the next screen, click the "View" button.
 	
 	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png)
 	
 	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png)
 
-4. You have now selected the mycn of another gene as starting point top to select a chipseq experiment of interest.
+
+You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area.[See chapter 16 for more on this](Using_The_Genome_Browser.html#step-2-zooming-and-panning). The Properties panel on the left provides access to ChIP-seq datasets that can be added to the center view. Options in the Tracks panel on the right allow additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn.
+
+4. To select a ChIPSeq Dataset in the Properties panel on the left, click "Select/Adapt ChIP-Experiments". As an example we write "lan" in the text field of the 'chip_celline' column and "atr" in the field of 'chip_target'. Check the box in front of the preferred experiment. 
+
 
 	![Figure 7: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
 	[**Figure 7: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 
+XXXX
 *-In the left corner at the bottom*  
 *-use the grid properties to  filter and select an experiment,type LAN and ATRX*  
 *-click update in figure 7*  
@@ -102,7 +105,9 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 *- zoom 20x*
 *-no
 
-You're now in the R2 genome browser in ChIP-seq context (Figure 8). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area.[See chapter 16 for more on this](Using_The_Genome_Browser.html#step-2-zooming-and-panning). The lower left panel contains ChIP-seq datasets that can be added to the center view. The right panel has additional public data available to show there as so called tracks. In the center panel you control what is being drawn. In Fig 8 a dataset on ATRX binding in the cell line LAN is selected. Also two genome annotation tracks have been selected before re-drawing: the dbsuper enhancer and Neuroblastoma super enhancer sets. In the resulting picture these are drawn as colored blocks underneath the genome strand. Also added, above the genome strand, are the ATRX ChIP-seq binding peaks. Zooming out reveals that there is more binding in front of the MYCN gene.
+
+In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two genome annotation tracks have been selected before re-drawing: the dbsuper enhancer and Neuroblastoma super enhancer sets. In the resulting picture these are drawn as colored blocks underneath the genome strand. Also added, above the genome strand, are the ATRX ChIP-seq binding peaks. Zooming out reveals that there is more binding in front of the MYCN gene.
+
 
 -	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
 	
