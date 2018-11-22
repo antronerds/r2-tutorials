@@ -81,23 +81,20 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. Type the name of your gene in the text field of the "Find gene" textbox located in the upper-left corner and click "Go". The genomic location of the gene will be used to map the annotation.
 
-3. To select the proper transcript in the next screen, click the "View" button.
+2. To select the proper transcript in the next screen, click the "View" button.
 	
 	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png)
 	
-	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png)
-
-
+	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png).
 You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area.[See chapter 16 for more on this](Using_The_Genome_Browser.html#step-2-zooming-and-panning). The Properties panel on the left provides access to ChIP-seq datasets that can be added to the center view. Options in the Tracks panel on the right allow additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn.
 
-4. To select a ChIPSeq Dataset in the Properties panel on the left, click "Select/Adapt ChIP-Experiments". As an example we write "lan" in the text field of the 'chip_celline' column and "atr" in the field of 'chip_target'. Check the box in front of the preferred experiment. 
-
+3. To select a ChIPSeq Dataset in the Properties panel on the left, click "Select/Adapt ChIP-Experiments". As an example we write "lan" in the text field of the 'chip_celline' column and "atr" in the field of 'chip_target'. Check the box in front of the preferred experiment. 
 
 	![Figure 7: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
 	[**Figure 7: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 
-XXXX
+
 *-In the left corner at the bottom*  
 *-use the grid properties to  filter and select an experiment,type LAN and ATRX*  
 *-click update in figure 7*  
@@ -109,9 +106,9 @@ XXXX
 In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two genome annotation tracks have been selected before re-drawing: the dbsuper enhancer and Neuroblastoma super enhancer sets. In the resulting picture these are drawn as colored blocks underneath the genome strand. Also added, above the genome strand, are the ATRX ChIP-seq binding peaks. Zooming out reveals that there is more binding in front of the MYCN gene.
 
 
--	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
+-	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks_a.png)
 	
-	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks.png)
+	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks_a.png)
 
 
 5. Of course this would be a tedious job for a list of genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. [You can find the list here](_static/files/DiffExprCancerGenesList.txt), as additional requirement we selected for genes having a known cancer association. Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak/Coverage Plotter*
