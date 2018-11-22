@@ -158,11 +158,21 @@ In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two gen
 
 ## Step 3: Exploring histone modification patterns
 
-1. Within R2 the regions of histone modification are calculated with the RSEG algorithm. The relative contributions of acetylation and methylation can be used to determine whether a region can be considered to be actively transcribed or as having enhancer functionality. This assignment can be further corroborated by including actual Transcription Factor binding data. To perform such analyses go back to the ChIP-seq choice menu. ~~Again choose the *ChIPseq TSS Peak/Coverage Plotter*~~. Click  "RSEG plot", change genome build to hg19 and click "next".
+1. Within R2 the regions of histone modification are calculated with the RSEG algorithm. The relative contributions of acetylation and methylation can be used to determine whether a region can be considered to be actively transcribed or as having enhancer functionality. This assignment can be further corroborated by including actual Transcription Factor binding data. To perform such analyses go back to the ChIP-seq choice menu. Again choose the *ChIPseq TSS Peak/Coverage Plotter*. 
 
-2. Choose *ROSE_se_pub_rseg_m2_s0_t0_v1* as algorithm in the Adjustable Settings dialog. This denotes that the RSEG peaks will be additionally scored by ROSE. Click "next".
 
-3. In the next screen we choose a dataset, for this example take the SY5Y cellline that was profiled by Oldridge e.a. for acetylation. Indicate the region to show on either side of the TSS; a commonly used value is 50 KB up and downstream; so 100.000. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions; 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Additionally we're going to color the genebodies of genes of interest; in our case ALK. Set the gene order to *by_row_signal* ; this will make sure the gene with most enhancers in this region will top the list. 
+
+*Here use the grid to filter for the experiment used in this example: Sy5Y and rose_se-> Use this experiment*
+*10000-1000-100o in Settings*
+*Copy paste list of genes from online tut version, dont click get gene locations*
+*list order by row_signal*
+*draw gene bodies -> selected genes onlu*
+*In genebodies copy/pasteALK;3BAA3B
+BRD4;AA0000
+
+
+2. ~~ROSE_se_pub_rseg_m2_s0_t0_v1* as algorithm in the Adjustable Settings dialog. This denotes that the RSEG peaks will be additionally scored by ROSE. Click "next"
+In the next screen we choose a dataset, for this example take the SY5Y cellline that was profiled by Oldridge e.a. for acetylation. Indicate the region to show on either side of the TSS; a commonly used value is 50 KB up and downstream; so 100.000. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions; 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Additionally we're going to color the genebodies of genes of interest; in our case ALK. Set the gene order to *by_row_signal* ; this will make sure the gene with most enhancers in this region will top the list.~~ 
 	
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know that you can provide arbitrary locations on the genome?**
@@ -174,15 +184,15 @@ In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two gen
 	
 4. R2 now shows for all provided genes a 100 Kb region up and downstream of the TSS. Note that the genebody of ALK is colored green. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 10). Each stretch is clickable and will open a new tab. Click the topmost gene.
 	
-	![Figure 14: Histone acetylation around the TSS of a set of genes](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_set.png)
+	![Figure 14: Histone acetylation around the TSS of a set of genes](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
-	[**Figure 14: Histone acetylation around the TSS of a set of genes**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_set.png)
+	[**Figure 14: Histone acetylation around the TSS of a set of genes**](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
-5. For the topmost gene the acetylation data is shown on the chosen stretch. To further analyze what's going on we'll add GATA3 binding data and methylation data for the same cellline by checking the appropriate boxes. Click redraw. Note especially the region to the right where a super-enhancer is located, methylation signal is lower and there is not much GATA binding (Figure 11).
+5. For the topmost gene the acetylation data is shown on the chosen stretch. To further analyze what's going on we'll add GATA3 binding data and methylation data for the same cellline by checking the appropriate boxes. Click redraw. Note especially the region to the right where a super-enhancer is located, methylation signal is lower and there is not much GATA binding (Figure 15).
 	
-	![Figure 11: ChIPseq signals around the TSS of a single gene](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene.png)
+	![Figure 15: ChIPseq signals around the TSS of a single gene](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
 	
-	[**Figure 11: ChIPseq signals around the TSS of a single gene**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene.png)
+	[**Figure 15: ChIPseq signals around the TSS of a single gene**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
 	
 ## Step 4: Finding active super-enhancers
 
