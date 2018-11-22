@@ -198,21 +198,28 @@ In the next screen we choose a dataset, for this example take the SY5Y cellline 
 
 1. We're now going to explore the ChIPseq data the other way around, from the super-enhancer perspective. The selection of histone modified stretches on the genome are judged as super-enhancers by the ROSE algorithm. In R2 the most active regions can be explored through an interactive ROSE plot. Go back to the ChIPseq choice menu, this time choose *ROSE Super Enhancer Plot*
 
+
 2. In the next screen the same algorithm as above is chosen: *ROSE_se_pub_rseg_m2_s0_t0_v1*
 
 3. Select the same SY5Y dataset from Oldridge in the next panel
 	
-	![Figure 12: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_SuperEnhancer_from_ROSE_plot.png)
+	![Figure 16: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
 	
-	[**Figure 12: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_SuperEnhancer_from_ROSE_plot.png)
+	[**Figure 16: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
+	
+	![Figure 17: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
+	
+	[**Figure 17: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
+	
+
 	
 4. R2 shows an interactive ROSE plot (figure 12); dots in red are clickable and represent areas on the genome that ROSE has assigned as super-enhancer. Click one of them. In this example the 5th ranked enhancer was chosen.
 
 5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 13). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
 	
-	![Figure 13: The genomic context of a top-ranking super-enhancer](_static/images/IntAnalysis_ChIPSeq_TopRanking_SuperEnhancer.png)
+	![Figure 18: The genomic context of a top-ranking super-enhancer](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 	
-	[**Figure 13: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq_TopRanking_SuperEnhancer.png)
+	[**Figure 18: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 	
 ## Final remarks
 
