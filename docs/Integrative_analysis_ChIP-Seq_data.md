@@ -83,16 +83,16 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 2. To select the proper transcript in the next screen, click the "View" button.
 	
-	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png)
+	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png)
 	
-	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png).
+	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png).
 You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area.[See chapter 16 for more on this](Using_The_Genome_Browser.html#step-2-zooming-and-panning). The Properties panel on the left provides access to ChIP-seq datasets that can be added to the center view. Options in the Tracks panel on the right allow additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn.
 
 3. To select a ChIPSeq Dataset in the Properties panel on the left, click "Select/Adapt ChIP-Experiments". As an example we write "lan" in the text field of the 'chip_celline' column and "atr" in the field of 'chip_target'. Check the box in front of the preferred experiment. 
 
-	![Figure 7: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
-	[**Figure 7: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	[**Figure 7: Selecting experiments by using grid filteringt**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 
 
 *-In the left corner at the bottom*  
@@ -118,10 +118,6 @@ In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two gen
 
 7. On the next page you can add the list of genes; or type genes you're interested in. In the *Gene Order* selection box select *by_row_signal* and make sure all gene bodies will be drawn. Click next (Figure 8).
 
-	![Figure 9: Selecting GATA binding data for a set of genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect.png)
-	
-	[**Figure 9: Selecting GATA binding data for a set of genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect.png)
-	
 	![Figure 10: Gata binding site arround genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
 	[**Figure 10: Gata binding site arround genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
@@ -140,8 +136,6 @@ In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two gen
 
 8. In an overview all GATA ChIP binding around the genes in the selection is shown. Since the ordering puts the gene with the highest signal we'll select that gene; ALK. In a new tab the resulting view of the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted to easily distinguish them. Additional zooming in produces Figure 9 from which it is apparent that in some specific cell lines there is binding of ~~ATRX~~ GATA3 near the Transcription Start Site of ALK.
 
-	![Figure 9: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_GATA_binding_for_ALK.png)
-	
 	[**Figure 9 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_GATA_binding_for_ALK.png)
 	
 	![Figure 13: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
