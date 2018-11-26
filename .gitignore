@@ -1,3 +1,5 @@
 /.project
 *.komodoproject
 /.pydevproject
+*.xml
+*.iml
