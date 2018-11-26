@@ -105,7 +105,7 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
   
  The buttons at the top of the page allow for a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  Also a nice feature is that de z-scores can be split for each track group parameter in this example for each INSS - stage.
 
-	![Figure 8: Histon modification profiles arround GATA3 location ](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+	![Figure 8: Histon modification profiles arround GATA3 locatio](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 	
 	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
 
