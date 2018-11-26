@@ -82,7 +82,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area. [See chapter 16 for a more detailed explanation](Using_The_Genome_Browser.html#step-2-zooming-and-panning).  
 The *Properties* panel on the left provides access to ChIP-seq datasets that can be added to the genome browser view. Options in the *Tracks* panel on the right allow for additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn. Remember to always click the "redraw" button in the center panel for any changed settings to take effect. 
 
-1. As a first toe in the water we'll explore our favorite gene. We'll use the MYCN gene, but you can choose your own. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". The genomic location of the gene will be used to map the annotation.
+1. As a first toe in the water we'll explore our favorite gene. We'll use the GATA3 gene, but you can choose your own. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". The genomic location of the gene will be used to map the annotation.
 
 2. To select the proper transcript in the next screen, click the "View" button.
 	
@@ -97,7 +97,7 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 
 	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
-	[**Figure 7: Selecting experiments by using grid filteringt**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	[**Figure 7: Selecting experiments by using grid filtering**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 
 
 4. Before redrawing the graph, we can change some settings in the *Tracks* panel for additional information. In Fig 8 we adjusted the TranscriptView Annotation settings: The dropdown menu under *SuperEnhancers (dbsuper)* was set to 'on', the *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Now we click on the "redraw" button in the center panel for the changes to take effect. 
