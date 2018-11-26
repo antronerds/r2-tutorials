@@ -92,7 +92,7 @@ You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in 
 
 	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
-	[**Figure 7: Selecting experiments by using grid filteringt**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	[**Figure 7: Selecting experiments by using grid filtering**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 
 
 *-In the left corner at the bottom*  
@@ -106,9 +106,9 @@ You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in 
 In Fig 8 the dataset on ATRX binding in the cell line LAN is shown. Also two genome annotation tracks have been selected before re-drawing: the dbsuper enhancer and Neuroblastoma super enhancer sets. In the resulting picture these are drawn as colored blocks underneath the genome strand. Also added, above the genome strand, are the ATRX ChIP-seq binding peaks. Zooming out reveals that there is more binding in front of the MYCN gene.
 
 
--	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks_a.png)
+-	![Figure 8: The GATA3 gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
 	
-	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_tracks_a.png)
+	[**Figure 8: The GATA3 gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
 
 
 5. Of course this would be a tedious job for a list of genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. [You can find the list here](_static/files/DiffExprCancerGenesList.txt), as additional requirement we selected for genes having a known cancer association. Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak/Coverage Plotter*
