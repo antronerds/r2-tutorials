@@ -102,12 +102,10 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 
 4. Before redrawing the graph, we can change some settings in the *Tracks* panel for additional information. In Fig 8 we adjusted the TranscriptView Annotation settings: The dropdown menu under *SuperEnhancers (dbsuper)* was set to 'on', the *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Now we click on the "redraw" button in the center panel for the changes to take effect. 
 
-In the resulting figure the dataset of ATRX binding in the cell line LAN is shown. Above the genome strand the ATRX ChIP-seq binding peaks are depicted. The superenhancer annotations of the dbsuper enhancer and Neuroblastoma super enhancer sets are drawn as colored blocks underneath the genome strand. Furthermore, the epigenetic profiles of the NIH Epigenome Roadmap project are shown color coded for the chosen cell lines. Next to the dropdown menus a toolset icon gives access to alternative displays of the information (e.g. a more detailed display for multiple cell lines can be chosen for the Epigenome Roadmap setting).  
-The buttons at the top of the page allow for  a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  
+	In the resulting figure the dataset of ATRX binding in the cell line LAN is shown. Above the genome strand the ATRX ChIP-seq binding peaks are depicted. The superenhancer annotations of the dbsuper enhancer and Neuroblastoma super enhancer sets are drawn as colored blocks underneath the genome strand. Furthermore, the epigenetic profiles of the NIH Epigenome Roadmap project are shown color coded for the chosen cell lines. Next to the dropdown menus a toolset icon gives access to alternative displays of the information (e.g. a more detailed display for multiple cell lines can be chosen for the Epigenome Roadmap setting).  
+	The buttons at the top of the page allow for  a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.
 
-
--	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
-	
+	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
 	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
 
 
