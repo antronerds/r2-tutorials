@@ -105,9 +105,9 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
   
  The buttons at the top of the page allow for a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  A nice feature is that the z-scores for each track group parameters can be split which is illusttaed in this example by the separate z-scores for each INSS-stage.
 
-	![Figure 8: Histon modification profiles arround GATA3 locatio](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+  ![Figure 8: Histon modification profiles arround GATA3 location](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 	
-	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
+  [**Figure 8: Histon modification profiles arround GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 
 
 5. Of course this would be a tedious job if you wish to inspect a list of genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. [You can find the list here](_static/files/DiffExprCancerGenesList.txt), as additional requirement we selected for genes with a known cancer association. Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak/Coverage Plotter*
