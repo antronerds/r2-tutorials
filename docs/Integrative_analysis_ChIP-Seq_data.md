@@ -86,15 +86,18 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 
 2. To select the proper transcript in the next screen, click the "View" button.
 	
-	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png)
+	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png)
 	
-	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_SingleGene_a.png).  
+
+	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png).
+ 
 	
 3. To select a ChIPSeq Dataset, click "Select/Adapt ChIP-Experiments" in the *Properties* panel on the left. As an example we write "lan" in the text field of the *chip_celline* column and "atr" in the field of *chip_target*. Check the box in front of the preferred experiment and click "Update" at the bottom. 
 
-	![Figure 7: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+
+	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 	
-	[**Figure 7: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	[**Figure 7: Selecting experiments by using grid filteringt**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
 
 
 4. Before redrawing the graph, we can change some settings in the *Tracks* panel for additional information. In Fig 8 we adjusted the TranscriptView Annotation settings: The dropdown menu under *SuperEnhancers (dbsuper)* was set to 'on', the *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Now we click on the "redraw" button in the center panel for the changes to take effect. 
@@ -114,10 +117,6 @@ The buttons at the top of the page allow for  a further exploration around the g
 
 7. Copy paste the genes obtained in step 5 or type genes of your interest into the *Enter genesymbols / genome positions* textbox.  In the *Gene Order* selection box select 'by_row_signal' and 'peaks' as setting for *Perspective*. Click Next (Figure 8). The Gata binding sites around the genes in the list are shown. 
 
-	![Figure 9: Selecting GATA binding data for a set of genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect.png)
-	
-	[**Figure 9: Selecting GATA binding data for a set of genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect.png)
-	
 	![Figure 10: Gata binding site arround genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
 	[**Figure 10: Gata binding site arround genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
@@ -138,8 +137,6 @@ The buttons at the top of the page allow for  a further exploration around the g
 	Zooming out produces Figure 12 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK.
 
 
-	![Figure 9: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_GATA_binding_for_ALK.png)
-	
 	[**Figure 9 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_GATA_binding_for_ALK.png)
 	
 	![Figure 13: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
