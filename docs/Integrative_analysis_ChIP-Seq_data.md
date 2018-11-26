@@ -66,9 +66,9 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 1. To enter the ChIP-Seq analysis module in R2 select *ChIP data* in Box 3 (Fig 4).
 	
-	![Figure 4: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
+	![Figure 4: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
 	
-	[**Figure 4: Choose the ChIPSeq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3.png)
+	[**Figure 4: Choose the ChIPSeq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
 	
 2. See figure 5. Several analysis paths start from here. First we're going to explore the genomic environment of some genes in context of ChIP-seq data. In the ChIP-seq menu choose the *ChIP-chip Genome Browser* 
 	
