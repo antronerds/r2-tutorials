@@ -88,7 +88,6 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	
 	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png)
 	
-
 	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png).
  
 	
@@ -128,23 +127,16 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	
 	[**Figure 12: Plotting more experiments with tracks**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_plots.png)
 
-*- clicking on ALK11*
-*-in figuur 12 , Transcript view annotation section , turn on, superenhancers, NIH epigenome roadmap en bijv enhancers George.*
 
 
 8. Since the ordering of the ChipSeq Peak Plotter lists the genes with the highest signals on top, we'll select one of the first listed genes; ALK. In a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
-	Zooming out produces Figure 12 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK.
+	Zooming out produces Figure 13 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *x-as to 120 and  slider on average 5.*  
 
-
-	[**Figure 9 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_GATA_binding_for_ALK.png)
-	
 	![Figure 13: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
-	
+
 	[**Figure 13 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
-*-delete figure 9*  
-*-settings figure 12 in properties, adapt x-as to 120, put slider on average 5 .*  
-*-richard-quit rseg plot figure 14 cannot repoduce*
+
 
 
 ## Step 3: Exploring histone modification patterns
