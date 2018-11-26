@@ -94,10 +94,9 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	
 3. To select a ChIPSeq Dataset, click "Select/Adapt ChIP-Experiments" in the *Properties* panel on the left. As an example we write "lan" in the text field of the *chip_celline* column and "atr" in the field of *chip_target*. Check the box in front of the preferred experiment and click "Update" at the bottom. 
 
-
-	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_SelectLan1_profiles.png)
 	
-	[**Figure 7: Selecting experiments by using grid filtering**](_static/images/IntAnalysis_ChIPSeq_MYCN_a.png)
+	[**Figure 7: Selecting experiments by using grid filtering**](_static/images/IntAnalysis_ChIPSeq_SelectLan1_profiles.png)
 
 
 4. Before redrawing the graph, we can change some settings in the *Tracks* panel for additional information. In Fig 8 we adjusted the TranscriptView Annotation settings: The dropdown menu under *SuperEnhancers (dbsuper)* was set to 'on', the *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Now we click on the "redraw" button in the center panel for the changes to take effect. 
