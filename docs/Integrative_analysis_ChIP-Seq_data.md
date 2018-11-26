@@ -106,6 +106,7 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	The buttons at the top of the page allow for  a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.
 
 	![Figure 8: The MYCN gene in ChIP-seq context](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
+	
 	[**Figure 8: The MYCN gene in ChIP-seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3.png)
 
 
