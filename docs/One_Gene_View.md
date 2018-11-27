@@ -390,7 +390,7 @@ Go to the adjustable settings menu and select in the pull down the INSS stage. N
  
  [**Figure 17:Selecting subgroups**](_static/images/one_gene_view_avgsorted.png)
 
-In the picture below all stages are depicted and only the lower risk stages.
+ In the picture below all stages are depicted and only the lower risk stages.
 
  ![Figure 18: All stages versus lower risk only](_static/images/OneGene_subgroupSelection.png "Figure 17: Selecting subgroups")
  
