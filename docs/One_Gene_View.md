@@ -380,7 +380,7 @@ Step 7: View a gene in groups
 Step 8: Selecting subsets
 ---------------
 
-To generate a graph of a subgroup of samples use the 'Select a track(subset) 'Select pulldown from the 'sample filter' tab to select a specific group. 
+To generate a graph of a subgroup of samples use the  'Select a track' pulldown from the 'sample filter' section to select a specific group. 
 
 In the neuroblastoma field it is well known that the mync expression is strongly correlated with stage 4. But maybe you are also interested in the mycn expression for the lower risk stages.
 
