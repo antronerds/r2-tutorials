@@ -64,7 +64,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 1: Choosing data and modules
 
-1. To enter the ChIP-Seq analysis module in R2 select *ChIP data* in Box 3 (Fig 4).
+1. To enter the ChIP-Seq analysis module in R2 select *ChIP data* in Box 3 (Fig 4) and click "Next".
 	
 	![Figure 4: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
 	
@@ -79,62 +79,63 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 2: Exploring genes in a transcriptional context
 
-You're now in the R2 genome browser in ChIP-seq context (Figure 7). Centered in view is the stretch on the genome where your gene is located. Zooming and panning is enabled through buttons or by selecting an area. [See chapter 16 for a more detailed explanation](Using_The_Genome_Browser.html#step-2-zooming-and-panning).  
-The *Properties* panel on the left provides access to ChIP-seq datasets that can be added to the genome browser view. Options in the *Tracks* panel on the right allow for additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn. Remember to always click the "redraw" button in the center panel for any changed settings to take effect. 
+You're now in the R2 genome browser in ChIP-seq context. By default the browser display shows a stretch on the genome around the location of the MYCN gene.  Encoding regions of genes are drawn at the bottom of the graph. When in red they’re encoded in the reverse direction, coding exons are colored darker. Zooming and panning is enabled through buttons at the top of the page or by selecting an area. See [chapter 17](Using_The_Genome_Browser.html#step-2-zooming-and-panning) for a more detailed explanation.  
+The *Properties* panel on the left provides access to ChIP-seq datasets that can be added to the genome browser view. Options in the *Tracks* panel on the right allow for additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn. Always click the "redraw" button in the center panel for any changed settings to take effect. 
 
-1. As a first toe in the water we'll explore our favorite gene. We'll use the GATA3 gene, but you can choose your own. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". The genomic location of the gene will be used to map the annotation.
+1. As a first toe in the water we'll explore use the GATA3 gene, but you can choose your own. The genomic location of the gene will be used to map the annotation. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". 
 
-2. To select the proper transcript in the next screen, click the "View" button.
+2. To select the proper transcript in the next screen, click the "View" button. 
 	
 	![Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png)
 	
 	[**Figure 6: Looking up a single gene in the R2 Genome Browser in ChIP-Seq context**](_static/images/IntAnalysis_ChIPSeq_GATA3_select.png).
  
 	
-3. To select a ChIPSeq Dataset, click "Select/Adapt ChIP-Experiments" in the *Properties* panel on the left. As an example we write "lan" in the text field of the *chip_celline* column and "atr" in the field of *chip_target*. Check the box in front of the preferred experiment and click "Update" at the bottom. 
+3. To select one or more ChIPSeq datasets, click "Select/Adapt ChIP-Experiments" in the *Properties* panel on the left. As an example we write "lan1" in the text field of the *chip_celline* column. Check the box in front of the preferred experiment(s), optionally change the display colors using the "c.c." buttons on the right and click "Update" at the bottom. Before we redraw the display, we adjust some additional settings in step 4.  
 
 	![Figure 7: Selecting experiments by using grid filtering](_static/images/IntAnalysis_ChIPSeq_SelectLan1_profiles.png)
 	
 	[**Figure 7: Selecting experiments by using grid filtering**](_static/images/IntAnalysis_ChIPSeq_SelectLan1_profiles.png)
 
 
-4. Before redrawing the graph, we can change some settings in the *Tracks* panel for additional information. In Fig 8 we adjusted the TranscriptView Annotation settings:  The *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Now we click on the "redraw" button in the center panel for the changes to take effect. 
+4. In the *Tracks* panel on the right different annotation settings can be chosen. In Fig 8 we first adjusted the TranscriptView Annotation settings:  The *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Next to the dropdown menus a toolset icon gives access to alternative displays of the information (e.g. a more detailed display for multiple cell lines can be chosen for the Epigenome Roadmap setting).  
+	An interesting feature of the center panel is the option to show the z-score for each subgroup of a certain annotation track. This is illusrated in our example by the separate z-scores for each INSS-stage: in the center panel, choose "dataset_track" in the *sample* drop-down menu and set *Select_a_express_track* to inss (5cat). Now click on the "redraw" button in the center panel for the changes to take effect.	The buttons at the top of the page allow for a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  
 
- In the resulting figure the H3K4me3,H3K27me3 and H3K27ac profiles for the GATA3 location in the LAN neuroblastoma cell line are shown. Above the genome strand the different histon modification are depicted. The superenhancer annotations of the Neuroblastoma superenhancer reported by  George  et al are drawn as colored blocks underneath the genome strand. Furthermore, the epigenetic profiles of the NIH Epigenome Roadmap project are shown color coded for the chosen cell lines. Next to the dropdown menus a toolset icon gives access to alternative displays of the information (e.g. a more detailed display for multiple cell lines can be chosen for the Epigenome Roadmap setting). In this ADRN type cell line it is clearly shown that active GATA3 is associated with a H3K4me3 and H3K27Ac profile and no profile for H3K27me3 for this location.
+	In the resulting figure the H3K4me3,H3K27me3 and H3K27ac profiles for the GATA3 location in LAN1 neuroblastoma cell lines are shown. Above the genome strand the different histone modifications are depicted. The annotated locations of the Neuroblastoma superenhancer reported by George et al are drawn as colored blocks underneath the genome strand. Furthermore, the epigenetic profiles of the NIH Epigenome Roadmap project are shown color coded for the chosen cell lines. 
   
- The buttons at the top of the page allow for a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  A nice feature is that the z-scores for each track group parameters can be split which is illusttaed in this example by the separate z-scores for each INSS-stage.
-
-  ![Figure 8: Histon modification profiles arround GATA3 location](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+	In this ADRN type cell line it is clearly shown that active GATA3 is associated with an enrichment of H3K4me3 and H3K27Ac, but not of H3K27me3.
 	
-  [**Figure 8: Histon modification profiles arround GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+	![Figure 8: Histon modification profiles arround GATA3 location](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+	
+ 	[**Figure 8: Histon modification profiles arround GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 
 
-5. Of course this would be a tedious job if you wish to inspect a list of genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. [You can find the list here](_static/files/DiffExprCancerGenesList.txt), as additional requirement we selected for genes with a known cancer association. Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak/Coverage Plotter*
+5. Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. As an additional requirement we selected for genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak/Coverage Plotter*
 
 6. We're going to inspect Transcription Factor binding; Click on "Select a ChIP profile" and filter the grid by typing 'BE' in the *name* textbox, click somewhere in the table row of the BE2 cell line to select the data collected by Oldridge et al. and confirm by a click on the button "Use this experiment".  
 
-7. Copy paste the genes obtained in step 5 or type genes of your interest into the *Enter genesymbols / genome positions* textbox.  In the *Gene Order* selection box select 'by_row_signal' and 'peaks' as setting for *Perspective*. Click Next (Figure 8). The Gata binding sites around the genes in the list are shown. 
+7. Copy paste the genes obtained in step 5 or type genes of your interest into the *Enter genesymbols / genome positions* textbox.  In the *Gene Order* selection box select 'by_row_signal' and 'peaks' as setting for *Perspective*, click "Next". The Gata binding sites around the genes in the list are shown (Figure 9). 
 
-	![Figure 10: Gata binding site arround genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
+	![Figure 9: Gata binding site arround genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
-	[**Figure 10: Gata binding site arround genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
+	[**Figure 9: Gata binding site arround genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
-	![Figure 11: Selecting more chipseq experiments](_static/images/IntAnalysis_ChIPSeq_ExpSelect_more.png)
+	![Figure 10: Selecting more chipseq experiments](_static/images/IntAnalysis_ChIPSeq_ExpSelect_more.png)
 	
-	[**Figure 11: Selecting more chipseq experiments**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_more.png)
+	[**Figure 10: Selecting more chipseq experiments**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_more.png)
 	
-	![Figure 12: Plotting more experiments with tracks](_static/images/IntAnalysis_ChIPSeq_ExpSelect_plots.png)
+	![Figure 11: Plotting more experiments with tracks](_static/images/IntAnalysis_ChIPSeq_ExpSelect_plots.png)
 	
-	[**Figure 12: Plotting more experiments with tracks**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_plots.png)
+	[**Figure 11: Plotting more experiments with tracks**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_plots.png)
 
 
 
-8. Since the ordering of the ChipSeq Peak Plotter lists the genes with the highest signals on top  (due to *gene Order* by 'by_row_signal'), we'll select one of the first listed genes; ALK. In a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
-	Zooming out produces Figure 13 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *x-as to 120 and  slider on average 5.*  
+8. Since the ordering of the ChipSeq Peak Plotter lists the genes with the highest signals on top  (due to *Gene order* set to 'by_row_signal'), we'll select one of the first listed genes; click on ALK. In a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
+	Zooming out produces Figure 12 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *x-as to 120 and  slider on average 5.*  
 
-	![Figure 13: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
+	![Figure 12: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 
-	[**Figure 13 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
+	[**Figure 12 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
 
 
