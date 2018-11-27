@@ -39,7 +39,7 @@ The assembly of the billions of fragments that result from a ChIPSeq experiment 
 #### Peak calling 
 
 R2 provides a couple of algorithms to assess significant enrichment ChIP between experiment and control.  
-First is the MACS algorithm; this is often used in ChIP-seq data analyses and publications. In R2 it is used to study the binding of transcription factors. It's drawback is that it is not very suitable for broad signals.
+First is the MACS algorithm; this is often used in ChIPSeq data analyses and publications. In R2 it is used to study the binding of transcription factors. It's drawback is that it is not very suitable for broad signals.
 
 Some experiments can also be analyzed with the MACS2 algorithm. This version can detect narrow (like transcription factors) or broad (like histone modifications). 
 
@@ -64,13 +64,13 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 1: Choosing data and modules
 
-1. To enter the ChIP-Seq analysis module in R2 select *ChIP data* in Box 3 (Fig 4) and click "Next".
+1. To enter the ChIPSeq analysis module in R2 select *ChIP data* in Box 3 (Fig 4) and click "Next".
 	
 	![Figure 4: Choose the ChIPSeq module](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
 	
 	[**Figure 4: Choose the ChIPSeq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
 	
-2. See figure 5. Several analysis paths start from here. First we're going to explore the genomic environment of some genes in context of ChIP-seq data. In the ChIP-seq menu choose the *ChIP-chip Genome Browser* 
+2. See figure 5. Several analysis paths start from here. First we're going to explore the genomic environment of some genes in context of ChIPSeq data. In the ChIPSeq menu choose the *ChIP-chip Genome Browser* 
 	
 	![Figure 5: ChIPSeq Menu in R2](_static/images/IntAnalysis_ChIPSeq_ChIPSeqMenu_a.png)
 	
@@ -80,7 +80,7 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 ## Step 2: Exploring genes in a transcriptional context
 
 You're now in the R2 genome browser in ChIP-seq context. By default the browser display shows a stretch on the genome around the location of the MYCN gene.  Encoding regions of genes are drawn at the bottom of the graph. When in red they’re encoded in the reverse direction, coding exons are colored darker. Zooming and panning is enabled through buttons at the top of the page or by selecting an area. See [chapter 17](Using_The_Genome_Browser.html#step-2-zooming-and-panning) for a more detailed explanation.  
-The *Properties* panel on the left provides access to ChIP-seq datasets that can be added to the genome browser view. Options in the *Tracks* panel on the right allow for additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn. Always click the "redraw" button in the center panel for any changed settings to take effect. 
+The *Properties* panel on the left provides access to ChIPSeq datasets that can be added to the genome browser view. Options in the *Tracks* panel on the right allow for additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn. Always click the "redraw" button in the center panel for any changed settings to take effect. 
 
 1. As a first toe in the water we'll explore use the GATA3 gene, but you can choose your own. The genomic location of the gene will be used to map the annotation. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". 
 
@@ -110,7 +110,7 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
  	[**Figure 8: Histon modification profiles arround GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 
 
-5. Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. As an additional requirement we selected for genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). Go back to the ChIP-seq choice menu. Now choose the *ChIPseq TSS Peak/Coverage Plotter*
+5. Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. As an additional requirement we selected for genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). Go back to the ChIP-seq choice menu. Now choose the *ChIPSeq TSS Peak/Coverage Plotter*
 
 6. We're going to inspect Transcription Factor binding; Click on "Select a ChIP profile" and filter the grid by typing 'BE' in the *name* textbox, click somewhere in the table row of the BE2 cell line to select the data collected by Oldridge et al. and confirm by a click on the button "Use this experiment".  
 
@@ -121,8 +121,8 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	[**Figure 9: Gata binding site arround genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
 
-8. Since the ordering of the ChipSeq Peak Plotter lists the genes with the highest signals on top  (due to *Gene order* set to 'by_row_signal'), we'll select one of the first listed genes; click on ALK. In a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
-	Zooming out produces Figure 12 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *x-as to 120 and  slider on average 5.*  
+8. Since the ordering of the ChIPSeq Peak Plotter lists the genes with the highest signals on top  (due to *Gene order* set to 'by_row_signal'), we'll select one of the first listed genes; click on ALK. In a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
+	Zooming out produces Figure 10 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *Range* 'a to 120' and *Slider* on 'average' 5.  
 
 	![Figure 10: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 
@@ -137,7 +137,7 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 
 1. To perform such analyses go back to the ChIP-seq choice menu. Again choose the *ChIPseq TSS Peak/Coverage Plotter*. Use the grid to filter for the experiment used in this example: the SY5Y cellline that was profiled by Oldridge et al. for H3K27 acetylation, the RSEG peaks of this experiment are additionally scored by ROSE.
 
-2. On the next page indicate the region to show on either side of the TSS; a commonly used value is 50 KB up and downstream; that makes 100000 distance an appropiate setting. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions, 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Set the *Gene order* to 'by_row_signal'; this will make sure the gene with most enhancers in this region will top the list. Additionally we're going to color the genebodies of ALK and BRD4: copy-paste "ALK;3BAA3B" and on the next line "BRD4;AA0000" in the *color genebodies* textbox and choose 'Selected genes only' for the setting *Draw Gene Bodies*. 
+2. On the next page indicate the region to show on either side of the TSS; a commonly used value is 50 KB up and downstream; that makes 100000 distance an appropiate setting. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions, 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Set the *Gene order* to 'by_row_signal'; this will make sure the gene with most enhancers in this region will top the list. Additionally we're going to color the genebodies of ALK and BRD4: copy-paste without quotation marks "ALK;3BAA3B" and on the next line "BRD4;AA0000" in the *color genebodies* textbox and choose 'Selected genes only' for the setting *Draw Gene Bodies*. 
 	
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know that you can provide arbitrary locations on the genome?**
@@ -147,45 +147,45 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 
 ---------
 	
-3. R2 now shows for all provided genes a 100 Kb region up and downstream of the TSS. Note that the genebody of ALK and BRD4 are colored green and red respectively. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 10). Each stretch is clickable and will open a new tab. Click the topmost gene.
+3. R2 now shows for all provided genes a 50 Kb region up and downstream of the TSS. Note that the genebody of ALK and BRD4 are colored green and red respectively. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 11). Each stretch is clickable and will open a new tab. Click the topmost gene.
 	
-	![Figure 14: Histone acetylation around the TSS of a set of genes](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
+	![Figure 11: Histone acetylation around the TSS of a set of genes](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
-	[**Figure 14: Histone acetylation around the TSS of a set of genes**](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
+	[**Figure 11: Histone acetylation around the TSS of a set of genes**](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
-4. For the topmost gene the acetylation data is shown on the chosen stretch. To further analyze what's going on we'll add GATA3 binding data and methylation data for the same cell line by checking the appropriate boxes. Click "redraw". Note especially the region to the right where a super-enhancer is located, methylation signal is lower and there is not much GATA binding (Figure 15).
+4. For the topmost gene the acetylation data is shown on the chosen stretch. To further analyze what's going on we'll add GATA3 binding data and methylation data for the same cell line by checking the appropriate boxes. Click "redraw". Note especially the region to the right where a super-enhancer is located, methylation signal is lower and there is not much GATA binding (Figure 12).
 	
-	![Figure 15: ChIPseq signals around the TSS of a single gene](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
+	![Figure 12: ChIPseq signals around the TSS of a single gene](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
 	
-	[**Figure 15: ChIPseq signals around the TSS of a single gene**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
+	[**Figure 12: ChIPseq signals around the TSS of a single gene**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
 	
 ## Step 4: Finding active super-enhancers
 
-1. We're now going to explore the ChIPseq data the other way around, from the super-enhancer perspective. The selection of histone modified stretches on the genome are judged as super-enhancers by the ROSE algorithm. In R2 the most active regions can be explored through an interactive ROSE plot. Go back to the ChIPseq choice menu, this time choose *ROSE Super Enhancer Plot*
+1. We're now going to explore the ChIPSeq data the other way around, from the super-enhancer perspective. The selection of histone modified stretches on the genome are judged as super-enhancers by the ROSE algorithm. In R2 the most active regions can be explored through an interactive ROSE plot. Go back to the ChIPSeq choice menu, this time choose *ROSE Super Enhancer Plot*
 
-
-2. In the next screen, change the *GenomeBuild* to hg19''; the same algorithm as above is chosen: *rose_se_pub_rseg_m2_s0_t0_v1*
+2. In the next screen, change the *GenomeBuild* to 'hg19' and click "Next"; The same algorithm as above is chosen: *rose_se_pub_rseg_m2_s0_t0_v1*
 
 3. Again select the SY5Y dataset from Oldridge in the next panel
 	
-	![Figure 16: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
+	![Figure 13: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
 	
-	[**Figure 16: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
-	
-	![Figure 17: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
-	
-	[**Figure 17: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
+	[**Figure 13: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
 	
 
-	
-4. R2 shows an interactive ROSE plot (Figure 17); dots in red are clickable and represent areas on the genome that ROSE has assigned as super-enhancer. Click one of them. In this example the 5th ranked enhancer was chosen.
+4. R2 shows an interactive ROSE plot (Figure 14); dots in red are clickable and represent areas on the genome that ROSE has assigned as super-enhancer. Click one of them. In this example the 5th ranked enhancer was chosen.
 
-5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 18). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
+	![Figure 14: Selecting super-enhancers from an interactive ROSE plot](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
 	
-	![Figure 18: The genomic context of a top-ranking super-enhancer](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
+	[**Figure 14: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
+
+5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 (*Range*) and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 15). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
 	
-	[**Figure 18: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
+	![Figure 15: The genomic context of a top-ranking super-enhancer](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 	
+	[**Figure 15: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
+
+Note the "Load/ Store Profile" button in the upper-right corner of the page. With this button your chosen settings can be stored as a profile. Such a profile can be retrieved later on, and function as a template to wander on the genome using the same settings.  
+
 ## Final remarks
 
 Any ChIPseq dataset can profit from the visualizations provided by R2, just contact us if you want your data added.
