@@ -49,16 +49,18 @@ Step 1: Exploring the genome browser
 	![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
 	
 	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
-	 
-	![Figure 2: The probeset verification table](_static/images/UsingR2genome_Genomebrowser_a.png"Figure    2: The probeset verification    table")
-	
-	[**Figure 2: The probeset verification table**](_static/images/UsingR2genome_Genomebrowser_a.png)
-	
+		
     When we access the genome browser via the one-gene-view, then by
     default it has enabled a number of annotations (Tracks). At the top
     of the image,R2 is depicting all known EST and mRNA sequences
     aligned to the genome (synchronized with the USCS
-    database regularly). These mappings serve as evidence for the
+    database regularly).
+    
+    ![Figure 2: Genome browser and average mycn expression](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 2: The probeset verification    table")
+	
+    [**Figure 2: Genome browser and average mycn expression **](_static/images/UsingR2genome_Genomebrowser_a.png) 
+    
+    These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
     Genbank database. The EST and mRNA sequences are colored by the
     orientation of alignments, as determined by exon-intron
