@@ -129,9 +129,9 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	[**Figure 10: ALK profile within GATA3 ChIP-seq experiment**](_static/images/IntAnalysis_ChIPSeq_GATA3_ALKprofile.png)
 	
 	
-	![Figure 11: GATA binding data around the ALK gene in multiple datasets](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
+	![Figure 11: GATA3 binding data around the ALK gene in multiple datasets](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
-	[**Figure 11: GATA binding data around the ALK gene in multiple datasets**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
+	[**Figure 11: GATA3 binding data around the ALK gene in multiple datasets**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
 
 
