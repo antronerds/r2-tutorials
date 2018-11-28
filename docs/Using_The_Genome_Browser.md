@@ -46,7 +46,7 @@ Step 1: Exploring the genome browser
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
-	![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
+    ![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
 	
 	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
 		
@@ -59,7 +59,7 @@ Step 1: Exploring the genome browser
     ![Figure 2: Genome browser and average mycn expression](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 2: The probeset verification    table")
 	
     [**Figure 2: Genome browser and average mycn expression **](_static/images/UsingR2genome_Genomebrowser_a.png) 
-    
+
     These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
     Genbank database. The EST and mRNA sequences are colored by the
