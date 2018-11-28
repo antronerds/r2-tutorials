@@ -137,8 +137,7 @@ Step 3: Plotting Gene expression
 To highlight / mark specific samples in the graph you can enter the r2 sample ID’s in the field 'samples to mark' from the
 ‘adjustable settings’ box. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
 
-To generate a graph of a subgroup of samples use the 'Select a track(subset)' Select pulldown from the 'sample filter' tab to select a specific group. These selections can be repeated a couple of times to build your ultimate selection. After every selection, you have to 
-click the red ‘confirm’ link to fix the selection.
+
 
 
 ![Figure 4: Adjusting the graph settings](_static/images/OneGene_Marksample.png "Figure 4: Adjusting the graph settings")
@@ -213,17 +212,15 @@ and click on the “Tview” link in the reporter table.
     sequence (Fig 5). The strand orientation of these sequences are
     indicated by a color (green = positive strand, red = negative
     strand, blue = strand information is missing). The structure of the
-    reference sequence has also been indicated. Furtermore, it has also
-    aligned the sequences used to generate the reporters on the array
-    (in the case of Affymetrix microarrays). This view can be used to
-    inspect the quality of a reporter. Note that the reporter
+    reference sequence has also been indicated. Furtermore, the browser shows the alignement of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
+    This view can be used to inspect the quality of a reporter. Note, for instance, that the reporter
     “242026\_at” is aligned to the genomic region of the MYCN reference
     sequence, but that it’s color is different from the rest (colored
-    in red). In addition in this particular case the reporter is also
-    located in the intronic (light shaded color) region which is also a
+    in red). In addition, in this particular case the reporter is 
+    located in the intronic (light shaded color) region which is another
     reason not to pick a certain probeset. Indeed, if we compare the
     gene expression values of this reporter, then its expression is 60
-    fold lower than R2's standard pick (22 vs 1,369). Below the ESTs the
+    fold lower than R2's standard pick (22 vs 1369). Below the ESTs the
     average gene expression of the individual probesets is illustrating
     that for this example the correct probeset is selected for analysis.
     NB: Currently probeset verification is only provided for various
@@ -327,9 +324,9 @@ selecting.
 
 
 
-![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
+![Figure 12: Legend add](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
 
-[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
+[**Figure 12: Legend added**](_static/images/OneGene_Adapting.png)
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
@@ -343,9 +340,9 @@ modules where a one-or two gene view is generated.
 
 
 
-![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2.png "Figure13: Adapting annotationsize")
+![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2a.png "Figure13: Fonts and Color changed")
 
-[**Figure 13: Legend added**](_static/images/OneGene_Adapting2.png)
+[**Figure 13: Fonts and Color changed**](_static/images/OneGene_Adapting2a.png)
 
 
 
@@ -378,18 +375,37 @@ Step 7: View a gene in groups
 
 ----------
 
+Step 8: Selecting subsets
+---------------
+
+To generate a graph of a subgroup of samples use the  'Select a track' pulldown from the 'sample filter' section to select a specific group. 
+
+In the neuroblastoma field it is well known that the mync expression is strongly correlated with stage 4. But maybe you are also interested in the mycn expression for the lower risk stages.
+
+Go to the adjustable settings menu and select in the pull down the INSS stage. Next select the lower risk stages  st1,st2,st3 and st4s. Do not forget to **CLICK CONFIRM** in red which is often forgotten to fix your selection and select the adjust settings button. These selections can be repeated a couple of times to build your ultimate selection. After every selection, you have to click the red ‘confirm’ link.
+
+ ![Figure 17: Selecting subgroups](_static/images/OneGene_groupFilter.png "Figure 17: Selecting subgroups")
+ 
+ [**Figure 17:Selecting subgroups**](_static/images/one_gene_view_avgsorted.png)
+
+ In the picture below all stages are depicted and only the lower risk stages.
+
+ ![Figure 18: All stages versus lower risk only](_static/images/OneGene_subgroupSelection.png "Figure 17: Selecting subgroups")
+ 
+ [**Figure 18:All stages versus lower risk only **](_static/images/OneGene_subgroupSelection.pngg)
+
+You will encounter the filter option in the adjustable settings box in many modules, so do not forget to **click confirm**.
 
 
-
-Step 8: Find best track separation with CliniSnitch
+Step 9: Find best track separation with CliniSnitch
 ---------------
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for the current dataset (like e.g. age group) than the example in the previous section. For such an analysis R2 has the CliniSnitch function. Within this functionality a brute force T-test is performed on every possible combination of subgroups within every annotation track. We can run a CliniSnitch analysis directly from the one-gene-view page by clicking on the Gene name under CliniSnitch in the left panel. Click on the ‘MYCN’ gene. 
 
 
-![Figure16: CliniSnitch](_static/images/OneGene_CliniSnitch1.png "Figure16: CliniSnitch representation")
+![Figure 19: CliniSnitch](_static/images/OneGene_CliniSnitch1.png "Figure16: CliniSnitch representation")
 
-[**Figure 16: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
+[**Figure 19: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
 
  2. For every track, the most significant test will be highlighted. Every test can also be visualized by clicking on the combination label. Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. If we look at the ‘inss’ track, we can also see that nearly every test containing ‘st4’ has a significant value. Click on ‘st2 vs st4’ to inspect this further.
  3. We are now back in the 'one gene view', but our dataset has been restricted to only those patients that belong to either st2 or st4.
