@@ -212,17 +212,16 @@ and click on the “Tview” link in the reporter table.
     sequence (Fig 5). The strand orientation of these sequences are
     indicated by a color (green = positive strand, red = negative
     strand, blue = strand information is missing). The structure of the
-    reference sequence has also been indicated. Furtermore, it has also
-    aligned the sequences used to generate the reporters on the array
+    reference sequence has also been indicated. Furtermore, the sequences used to generate the reporters on the array
     (in the case of Affymetrix microarrays). This view can be used to
-    inspect the quality of a reporter. Note that the reporter
+    inspect the quality of a reporter. Note, for instance, that the reporter
     “242026\_at” is aligned to the genomic region of the MYCN reference
     sequence, but that it’s color is different from the rest (colored
-    in red). In addition in this particular case the reporter is also
+    in red). In addition, in this particular case the reporter is also
     located in the intronic (light shaded color) region which is also a
     reason not to pick a certain probeset. Indeed, if we compare the
     gene expression values of this reporter, then its expression is 60
-    fold lower than R2's standard pick (22 vs 1,369). Below the ESTs the
+    fold lower than R2's standard pick (22 vs 1369). Below the ESTs the
     average gene expression of the individual probesets is illustrating
     that for this example the correct probeset is selected for analysis.
     NB: Currently probeset verification is only provided for various
