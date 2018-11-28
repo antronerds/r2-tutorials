@@ -55,9 +55,9 @@ Step 1: Exploring the genome browser
 	
 	[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
 	
-    When we access the genome browser via the One Gene View, by
+    When we access the genome browser via the One Gene View page, by
     default R2 has enabled a number of annotations (Tracks). At the top
-    of the Transcript View display, R2 depicts all known EST and mRNA sequences
+    of the Transcript View display, R2 depicts all known expressed sequence tag (EST) and mRNA sequences
     aligned to the genome (synchronized with the USCS
     database regularly). These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
@@ -69,13 +69,14 @@ Step 1: Exploring the genome browser
     the negative strand of the genome (reverse complement orientation).
     In sequences where no information on the orientation is encountered,
     the alignment becomes blue.  
-    Underneath the In this MYCN example, the gene, as represented by the refseq track, is green. This tells us that
+    Underneath the plot the NCBI curated records for transcripts for the gene of interest are shown as reference sequences (RefSeq). The structure of the reference sequence has been indicated. In this MYCN example, the gene as represented by the different isoform refseqs, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
     be read 5\`->3\`from left to right. The shadings in green, for
     the separate EST and mRNA mappings, indicate exon (darker) and
     intronic (lighter) regions (Figure 3 shows a legend to all the
-    different color shades). If we look at the reporters underneath the
-    refseq track, then we see that most of them are green as well
+    different color shades).  
+    If we look at the reporters underneath the
+    refseq tracks, we see that most of them are green as well
     (thus mapping to the same strand as the MYCN gene). However, the
     242026\_at reporter appears in red (thus mapping to the negative
     strand), and thus cannot measure MYCN expression. Furthermore, this
@@ -83,11 +84,11 @@ Step 1: Exploring the genome browser
     reporter is annotated to measure MYCN by the Affymetrix company.  
     Below the EST and mRNA mappings, you can see the average gene
     expression for the reporters in the neuroblastoma dataset that we
-    are investigating. This panel can be handy, to see which reporter
+    are investigating. This panel can be handy to check which reporter
     shows the highest
     expression (and often is the preferred reporter to use). Since the
     U133 platforms of Affymetrix are 3\`based, you can nicely see that
-    the reporter signals are higher as the 3\`end of the gene. The
+    the reporter signals are higher at the 3\`end of the gene. The
     209757\_at reporter is the
     most informative here, and was also picked by the hugoonce
     algorithm, embedded in R2.  
@@ -109,12 +110,12 @@ Step 1: Exploring the genome browser
     genomic location.
 3.  The properties and adjustable settings panel allows users to
     configure the graph display in various ways. In the left properties
-    panel set in the transcriptview section “draw mode to count and in
+    panel set in the transcriptview section "draw mode" to count and in
     the expression section “draw mode” to bars. The expression level can
     also be investigated per sample. The one-gene-view plot shows that
     ITCC0030 has no MYCN amplification resulting in low MYCN expression
     levels to illustrate this in the genome browser select in the
-    “Adjustable Settings panel’, ITCC0030. Click redraw.
+    Adjustable Settings panel, ITCC0030. Click redraw.
 4.  The picture now shows for one sample the expression levels for all
     MYCN probe sets in a more simplified fashion with barplots. Note the
     extra annotation tracks which were selected and hover over the
@@ -137,12 +138,10 @@ Step 2: Zooming and panning
 
 1.  The R2 Genome browser is a highly interactive application offering
     several ways to zoom and scroll the genome display. In the left
-    upper corner of the screen search for the GTPBP8 gene click go and
-    in the next screen choose “GTP-binding protein 8 isoform 1” by
+    upper corner of the screen, type GTPBP8 gene, click go. In the next screen choose “GTP-binding protein 8 isoform 1” by
     clicking on “VIEW”.
-2.  At some time it could be useful to zoom into a location such as an
-    aligned probeset. To quickly zoom into a specific region of interest
-    user the browsers “drag and zoom” feature. At a desired position
+2.  Sometimes it could be useful to zoom into a location such as an
+    aligned probeset. To quickly zoom into a specific region of interest, use the browsers “drag and zoom” feature. At a desired position
     click and hold the left mouse button and drag the highlighted window
     to a second position and release the mouse button. The selected
     ‘white’ region, can be repositioned (cross mouse indicator). A
