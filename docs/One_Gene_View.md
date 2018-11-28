@@ -326,9 +326,9 @@ selecting.
 
 
 
-![Figure 12: Adapting a graph](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
+![Figure 12: Legend add](_static/images/OneGene_Adapting.png "Figure 12: Adapting a graph")
 
-[**Figure 12: Adapting a graph**](_static/images/OneGene_Adapting.png)
+[**Figure 12: Legend added**](_static/images/OneGene_Adapting.png)
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
@@ -342,9 +342,9 @@ modules where a one-or two gene view is generated.
 
 
 
-![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2.png "Figure13: Adapting annotationsize")
+![Figure13: Adapting annotationsize](_static/images/OneGene_Adapting2a.png "Figure13: Fonts and Color changed")
 
-[**Figure 13: Legend added**](_static/images/OneGene_Adapting2.png)
+[**Figure 13: Fonts and Color changed**](_static/images/OneGene_Adapting2a.png)
 
 
 
