@@ -108,7 +108,6 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	
 	![Figure 8: Histone modification profiles around GATA3 location](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 	
-
  	[**Figure 8: Histone modification profiles around GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 
 5. Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. As an additional requirement we selected for genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). Go back to the ChIP-seq choice menu. Now choose the *ChIPSeq TSS Peak/Coverage Plotter*
@@ -131,7 +130,6 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 	
 	
 	![Figure 11: GATA binding data around the ALK gene in multiple datasets](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
-
 	[**Figure 11 GATA binding data around the ALK gene in multiple datasets**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
 
