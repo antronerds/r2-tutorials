@@ -57,32 +57,30 @@ Step 1: Exploring the genome browser
     When we access the genome browser via the one-gene-view, then by
     default it has enabled a number of annotations (Tracks). At the top
     of the image,R2 is depicting all known EST and mRNA sequences
-    aligned to the genome ( \#: synchronized with the USCS
+    aligned to the genome (synchronized with the USCS
     database regularly). These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
     Genbank database. The EST and mRNA sequences are colored by the
-    orientation \#: of alignments, as determined by exon-intron
+    orientation of alignments, as determined by exon-intron
     junctions and poly-A signals to the genome. Here, green alignments
     indicate a 5\`-> 3\` mapping on the positive strand of the
-    genome, while a red mapping represents a \#: 5\`->3\`mapping on
+    genome, while a red mapping represents a 5\`->3\`mapping on
     the negative strand of the genome (reverse complement orientation).
     In sequences where no information on the orientation is encountered,
-    the alignment becomes blue. In this MYCN example, the gene, as \#:
-    represented by the refseq \#: track, is green. This tells us that
+    the alignment becomes blue. In this MYCN example, the gene, as represented by the refseq track, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
     be read 5\`->3\`from left to right. The shadings in green, for
-    the separate EST and mRNA \#: mappings, indicate exon (darker) and
+    the separate EST and mRNA mappings, indicate exon (darker) and
     intronic (lighter) regions (Figure 3 shows a legend to all the
     different color shades). If we look at the reporters underneath the
-    refseq track, then we see that most of them are green \#: as well
+    refseq track, then we see that most of them are green as well
     (thus mapping to the same strand as the MYCN gene). However, the
     242026\_at reporter appears in red (thus mapping to the negative
     strand), and thus cannot measure MYCN expression. Furthermore, this
-    reporter also maps \#: at the intronic region, another reason why
-    you should not use this reporter to represent MYCN. Still, this
-    reporter is annotated to measure MYCN by the Affymetrix company.
+    reporter maps at the intronic region, which is another reason not to use this reporter to represent MYCN. Still, this
+    reporter is annotated to measure MYCN by the Affymetrix company.  
     Below the EST and mRNA mappings, you can see the average gene
-    expression for the reporters in the neuroblastoma dataset, which we
+    expression for the reporters in the neuroblastoma dataset that we
     are investigating. This panel can be handy, to see which reporter
     shows the highest
     expression (and often is the preferred reporter to use). Since the
@@ -90,12 +88,11 @@ Step 1: Exploring the genome browser
     the reporter signals are higher as the 3\`end of the gene. The
     209757\_at reporter is the
     most informative here, and was also picked by the hugoonce
-    algorithm, embedded in R2.
+    algorithm, embedded in R2.  
     For Affymetrix arrays a probeset by itself is a collection of
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
-    of basepairs. These measured
-	 regions are indicated in the reporter track by very dark shades.
+    of basepairs. These measured regions are indicated in the reporter track by very dark shades.
   
 	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
 	
