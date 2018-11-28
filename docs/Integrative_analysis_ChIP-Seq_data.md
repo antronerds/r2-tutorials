@@ -124,13 +124,14 @@ The *Properties* panel on the left provides access to ChIP-seq datasets that can
 8. Since the ordering of the ChIPSeq Peak Plotter lists the genes with the highest signals on top  (due to *Gene order* set to 'by_row_signal'), we'll select one of the first listed genes; click on ALK, in a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser (Figure 10). The view can be adapted by ticking additional datasets; e.g. GATA ChIP-seq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
 	Zooming out produces Figure 11 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *Range* 'a to 120' and *Slider* on 'average' 5.  
 	
-	![Figure 10: ALK profile within GATA3 chipseq experiment](_static/images/IntAnalysis_ChIPSeq_GATA3_ALKprofile.png)
+	![Figure 10: ALK profile within GATA3 ChIP-seq experiment](_static/images/IntAnalysis_ChIPSeq_GATA3_ALKprofile.png)
 	
-	[**Figure 10: ALK profile within GATA3 chipseq experiment**](_static/images/IntAnalysis_ChIPSeq_GATA3_ALKprofile.png)
+	[**Figure 10: ALK profile within GATA3 ChIP-seq experiment**](_static/images/IntAnalysis_ChIPSeq_GATA3_ALKprofile.png)
 	
-	![Figure 11: Selecting GATA binding data around the ALK gene](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
+	
+	![Figure 11: GATA binding data around the ALK gene in multiple datasets](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 
-	[**Figure 11 Selecting GATA binding data around the ALK gene**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
+	[**Figure 11 GATA binding data around the ALK gene in multiple datasets**](_static/images/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
 
 
