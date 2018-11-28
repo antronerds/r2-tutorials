@@ -33,16 +33,17 @@ Step 1: Exploring the genome browser
 2.  Leave all the settings at their default and click ‘next’. You have
     now arrived at the “One Gene View”. In this tutorial the main focus
     is the evaluation of the reporters designed by manufactures such as
-    Affymetrix represented in the R2 Genome browser and to a lesser
-    extent the gene expression. When you slide down on the “One gene
+    Affymetrix represented in the R2 Genome browser. To a lesser
+    extent gene expression wprofiles will be looked at as well.  
+    When you slide down on the “One gene
     view” page of the MYCN expression, you encounter the “Probeset
     verification” table. The Probeset verification table, displays an
     automated analysis for U133 based Affymetrix platforms, where the
     reporter-gene relation validity has been verified by their genomic
     location (also described in more detail in the
-    tutorial one-gene-view). Click on the “R2 Tview” link of the upper
-    probeset and The embedded R2 genomebrowser will open in a
-    new screen. The genome browser shows the Genomic span where the MYCN
+    tutorial on One Gene View). Click on the “R2 Tview” link of the upper
+    probeset and the embedded R2 genome browser will open in a
+    new screen. The genome browser shows the genomic span where the MYCN
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
@@ -54,9 +55,9 @@ Step 1: Exploring the genome browser
 	
 	[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
 	
-    When we access the genome browser via the one-gene-view, then by
-    default it has enabled a number of annotations (Tracks). At the top
-    of the image,R2 is depicting all known EST and mRNA sequences
+    When we access the genome browser via the One Gene View, by
+    default R2 has enabled a number of annotations (Tracks). At the top
+    of the Transcript View display, R2 depicts all known EST and mRNA sequences
     aligned to the genome (synchronized with the USCS
     database regularly). These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
@@ -67,7 +68,8 @@ Step 1: Exploring the genome browser
     genome, while a red mapping represents a 5\`->3\`mapping on
     the negative strand of the genome (reverse complement orientation).
     In sequences where no information on the orientation is encountered,
-    the alignment becomes blue. In this MYCN example, the gene, as represented by the refseq track, is green. This tells us that
+    the alignment becomes blue.  
+    Underneath the In this MYCN example, the gene, as represented by the refseq track, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
     be read 5\`->3\`from left to right. The shadings in green, for
     the separate EST and mRNA mappings, indicate exon (darker) and
