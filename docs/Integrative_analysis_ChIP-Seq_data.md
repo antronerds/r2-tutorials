@@ -79,10 +79,10 @@ Now that these concepts have been explained we're going to see how the ChIPSeq d
 
 ## Step 2: Exploring genes in a transcriptional context
 
-You're now in the R2 genome browser in ChIP-seq context. By default the browser display shows a stretch on the genome around the location of the MYCN gene.  Encoding regions of genes are drawn at the bottom of the graph. When in red they’re encoded in the reverse direction, coding exons are colored darker. Zooming and panning is enabled through buttons at the top of the page or by selecting an area. See [chapter 17](Using_The_Genome_Browser.html#step-2-zooming-and-panning) for a more detailed explanation.  
+You're now in the R2 genome browser in ChIPSeq context. By default the browser display shows a stretch on the genome around the location of the MYCN gene.  Encoding regions of genes are drawn at the bottom of the graph. When in red they’re encoded in the reverse direction, coding exons are colored darker. Zooming and panning is enabled through buttons at the top of the page or by selecting an area. See [chapter 17](Using_The_Genome_Browser.html#step-2-zooming-and-panning) for a more detailed explanation.  
 The *Properties* panel on the left provides access to ChIPSeq datasets that can be added to the genome browser view. Options in the *Tracks* panel on the right allow for additional public data to be added to the genome browser as so called tracks. In the center panel you control what is being drawn. Always click the "redraw" button in the center panel for any changed settings to take effect. 
 
-1. As a first toe in the water we'll explore use the GATA3 gene, but you can choose your own. The genomic location of the gene will be used to map the annotation. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". 
+1. As a first toe in the water we'll explore the GATA3 gene, but you can choose your own. The genomic location of the gene will be used to map the annotation. Type the name of your gene in the text field of the *Find gene* textbox located in the upper-left corner and click "Go". 
 
 2. To select the proper transcript in the next screen, click the "View" button. 
 	
@@ -99,15 +99,15 @@ The *Properties* panel on the left provides access to ChIPSeq datasets that can 
 
 
 4. In the *Tracks* panel on the right different annotation settings can be chosen. In Fig 8 we first adjusted the TranscriptView Annotation settings:  The *NIH Epigenome Roadmap* to 'all' and the *SuperEnhancers NB (George)* to 'on'. Next to the dropdown menus a toolset icon gives access to alternative displays of the information (e.g. a more detailed display for multiple cell lines can be chosen for the Epigenome Roadmap setting).  
-	An interesting feature of the center panel is the option to show the z-score for each subgroup of a certain annotation track. This is illusrated in our example by the separate z-scores for each INSS-stage: in the center panel, choose "dataset_track" in the *sample* drop-down menu and set *Select_a_express_track* to inss (5cat). Now click on the "redraw" button in the center panel for the changes to take effect.	The buttons at the top of the page allow for a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  
+	An interesting feature of the center panel is the option to show the z-score of the expression data for each subgroup of a certain annotation track. This is illusrated in our example by the separate z-scores for each INSS-stage: in the center panel, choose "dataset_track" in the *sample* drop-down menu and set *Select_a_express_track* to inss (5cat). Now click on the "redraw" button in the center panel for the changes to take effect.	The buttons at the top of the page allow for a further exploration around the gene. Clicking three times the "zoom out 2x" button reveals more binding in front of the MYCN gene.  
 
 	In the resulting figure the H3K4me3,H3K27me3 and H3K27ac profiles for the GATA3 location in LAN1 neuroblastoma cell lines are shown. Above the genome strand the different histone modifications are depicted. The annotated locations of the Neuroblastoma superenhancer reported by George et al are drawn as colored blocks underneath the genome strand. Furthermore, the epigenetic profiles of the NIH Epigenome Roadmap project are shown color coded for the chosen cell lines. 
   
 	In this ADRN type cell line it is clearly shown that active GATA3 is associated with an enrichment of H3K4me3 and H3K27Ac, but not of H3K27me3.
 	
-	![Figure 8: Histon modification profiles arround GATA3 location](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+	![Figure 8: Histone modification profiles around GATA3 location](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 	
- 	[**Figure 8: Histon modification profiles arround GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
+ 	[**Figure 8: Histone modification profiles around GATA3 location**](_static/images/IntAnalysis_ChIPSeq_GATA3_b.png)
 
 
 5. Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. As an additional requirement we selected for genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). Go back to the ChIP-seq choice menu. Now choose the *ChIPSeq TSS Peak/Coverage Plotter*
@@ -116,9 +116,9 @@ The *Properties* panel on the left provides access to ChIPSeq datasets that can 
 
 7. Copy paste the genes obtained in step 5 or type genes of your interest into the *Enter genesymbols / genome positions* textbox.  In the *Gene Order* selection box select 'by_row_signal' and 'peaks' as setting for *Perspective*, click "Next". The Gata binding sites around the genes in the list are shown (Figure 9). 
 
-	![Figure 9: Gata binding site arround genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
+	![Figure 9: Gata binding site around genes](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
-	[**Figure 9: Gata binding site arround genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
+	[**Figure 9: Gata binding site around genes**](_static/images/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
 
 8. Since the ordering of the ChIPSeq Peak Plotter lists the genes with the highest signals on top  (due to *Gene order* set to 'by_row_signal'), we'll select one of the first listed genes; click on ALK. In a new tab the GATA3 binding signal at the gene location is plotted in the R2 Genome Browser. The view can be adapted by ticking additional datasets; e.g. GATA ChIPseq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  
@@ -137,17 +137,17 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 
 1. To perform such analyses go back to the ChIP-seq choice menu. Again choose the *ChIPseq TSS Peak/Coverage Plotter*. Use the grid to filter for the experiment used in this example: the SY5Y cellline that was profiled by Oldridge et al. for H3K27 acetylation, the RSEG peaks of this experiment are additionally scored by ROSE.
 
-2. On the next page indicate the region to show on either side of the TSS; a commonly used value is 50 KB up and downstream; that makes 100000 distance an appropiate setting. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions, 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Set the *Gene order* to 'by_row_signal'; this will make sure the gene with most enhancers in this region will top the list. Additionally we're going to color the genebodies of ALK and BRD4: copy-paste without quotation marks "ALK;3BAA3B" and on the next line "BRD4;AA0000" in the *color genebodies* textbox and choose 'Selected genes only' for the setting *Draw Gene Bodies*. 
+2. On the next page indicate the region to show on either side of the TSS; a commonly used value is 100 KB up and downstream; that makes 100000 for *Distance (flank)* an appropiate setting. Also indicate how many bases are to be collected within a bin. Do note that images are getting very large with small bin-sizes in combination with large regions, 1000 is a proper value in this case. Paste the same set of genes as used above in the genesymbols box. Set the *Gene order* to 'by_row_signal'; this will make sure the gene with most enhancers in this region will top the list. Additionally we're going to color the genebodies of ALK and BRD4: copy-paste without quotation marks "ALK;3BAA3B" and on the next line "BRD4;AA0000" in the *color genebodies* textbox and choose 'Selected genes only' for the setting *Draw Gene Bodies*. 
 	
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know that you can provide arbitrary locations on the genome?**
 
 
-> *Other than GeneSymbols (where R2 will find the most downstream TSS for you), you can also provide genome positions in the form of 'chr1:10020035:-' or 'chr1:10020035' where +/- indicates the strand and thus orientation. If no strand information is provided, R2 assumes +.*
+> *Other than GeneSymbols (where R2 will find the most downstream TSS for you) to jump to a different location on the genome, you can also provide genome positions in the center panel, e.g. *Chromosome* 'chr1', *Start* '10020035', *End* 'chr1:10020035'. Or try clicking on a different part of the chromosome strand above the graph section.*
 
 ---------
 	
-3. R2 now shows for all provided genes a 50 Kb region up and downstream of the TSS. Note that the genebody of ALK and BRD4 are colored green and red respectively. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 11). Each stretch is clickable and will open a new tab. Click the topmost gene.
+3. R2 now shows for all provided genes a 100 Kb region up and downstream of the TSS. Note that the genebody of ALK and BRD4 are colored green and red respectively. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 11). Each stretch is clickable and will open a new tab. Click the topmost gene.
 	
 	![Figure 11: Histone acetylation around the TSS of a set of genes](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
@@ -178,7 +178,7 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 	
 	[**Figure 14: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
 
-5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 (*Range*) and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 15). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
+5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 (*Range*), put *Slider* to 'median' with value 5 and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 15). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
 	
 	![Figure 15: The genomic context of a top-ranking super-enhancer](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 	
