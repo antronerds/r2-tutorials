@@ -93,13 +93,13 @@ Step 1: Exploring the genome browser
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
 
-    ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
+    ![Figure 2: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
 	
-    [**Figure    3: Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
+    [**Figure 2 : Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
   
-    ![Figure    4: Legend of the color usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
+    ![Figure 3: Legend of the color usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
 	
-    [**Figure    4: Legend of the color usage**](_static/images/UsingR2genome_legend1.png)
+    [**Figure 3: Legend of the color usage**](_static/images/UsingR2genome_legend1.png)
     
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
@@ -117,13 +117,13 @@ Step 1: Exploring the genome browser
     extra annotation tracks which were selected and hover over the
     tracks to reveal extra information.
 
-![Figure5: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
+![Figure 4: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
 
-[**Figure5: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
+[**Figure 4: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 
-![Figure 6 Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
+![Figure 5: Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
 
-[**Figure 6: Annotation tracks added.**](_static/images/UsingR2genome_tracksadded.png)
+[**Figure 5: Annotation tracks added.**](_static/images/UsingR2genome_tracksadded.png)
 
 
 
@@ -148,9 +148,9 @@ Step 2: Zooming and panning
     though ). Also in the track panel set “sequence and GC” windows
     to on. Click redraw in the middle panel.
     
-	![Figure    7: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
+	![Figure 6: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
 	
-	[**Figure    7: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
+	[**Figure 6: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 	
 3.  At a larger magnification certain features such basepair pair
     coloring at the sequence annotation track may become visible. Note
@@ -158,13 +158,13 @@ Step 2: Zooming and panning
     the probes which form together a probeset . Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
-	![Figure    8: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
+	![Figure 7: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
 	
-	[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
+	[**Figure 7: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
     
-	![Figure    9: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
+	![Figure 8: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
 	
-	[**Figure    9: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
+	[**Figure 8: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
 	
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
@@ -202,9 +202,9 @@ chromosome at a certain location.
     generated with average gene expression levels for the selected
     dataset in that region.
     
-	![Figure    10: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
+	![Figure 9: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
 	
-	[**Figure    10: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
+	[**Figure 9: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
 	
 2.  Furthermore it’s worth mentioning that in order to use the genome
     browser it’s not necessary to do so via first selecting a dataset.
