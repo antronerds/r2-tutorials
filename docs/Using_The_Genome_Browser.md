@@ -137,11 +137,8 @@ Step 2: Zooming and panning
 ---------------
 
 1.  The R2 Genome browser is a highly interactive application offering
-    several ways to zoom and scroll the genome display. In the left
-    upper corner of the screen, type GTPBP8 gene, click go. In the next screen choose “GTP-binding protein 8 isoform 1” by
-    clicking on “VIEW”.
-2.  Sometimes it could be useful to zoom into a location such as an
-    aligned probeset. To quickly zoom into a specific region of interest, use the browsers “drag and zoom” feature. At a desired position
+    several ways to zoom and scroll the genome display. Sometimes it could be useful to zoom into a location such as an
+    aligned probeset. To quickly zoom into a specific region of interest, use the browser's “drag and zoom” feature. At a desired position
     click and hold the left mouse button and drag the highlighted window
     to a second position and release the mouse button. The selected
     ‘white’ region, can be repositioned (cross mouse indicator). A
@@ -154,7 +151,7 @@ Step 2: Zooming and panning
 	
 	[**Figure    7: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 	
-3.  At a larger magnification certain features such basepair pair
+3.  At a larger magnification certain features such as basepair pair
     coloring at the sequence annotation track may become visible. Note
     the black rectangles in the dark green exon region a collection of
     the probes which form together a probeset . Repeat the same drag and
