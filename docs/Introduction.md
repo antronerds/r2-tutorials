@@ -45,8 +45,8 @@ The steps will be interspersed with additional information in **Did you know** b
 
 Chapters 2-10 demonstrate a great number of core
 functionalities, which you will encounter often and from different
-angles when working within the platform. The next set of chapters (11-16) dive more into specialized functions and in chapters 17-19 more advanced integrated analyses are shown, that some of you may be interested
-in. Chapters 21-22 demonstrates how users can adapt R2 to their needs by
+angles when working within the platform. The next set of chapters (11-18) dive more into specialized functions and in chapters 19-21 more advanced integrated analyses are shown, that some of you may be interested
+in. Chapters 22-24 demonstrates how users can adapt R2 to their needs by
 explaining how you can generate your own grouping variables or store
 personal lists of genes. These also explain how you can start
 your own user group and share information with specific other users for
