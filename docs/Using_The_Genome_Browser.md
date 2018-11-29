@@ -67,7 +67,8 @@ Step 1: Exploring the genome browser
     In sequences where no information on the orientation is encountered,
     the alignment becomes blue. In this MYCN example, the gene, as represented by the refseq track, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
-    be read 5\`->3\`from left to right. The shadings in green, for
+    be read 5\`->3\`from left to right.  
+    The shadings in green, for
     the separate EST and mRNA mappings, indicate exon (darker) and
     intronic (lighter) regions (Figure 3 shows a legend to all the
     different color shades). If we look at the reporters underneath the
@@ -91,18 +92,15 @@ Step 1: Exploring the genome browser
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
-    
-    
-   ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure    4: Second half of the genome browser with    default tracks.")
+     
+   ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
 	
 [**Figure    3: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
   
-![Figure    4: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
+![Figure    4: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
 	
 [**Figure    4: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
     
-
-	
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
     genomic location.
