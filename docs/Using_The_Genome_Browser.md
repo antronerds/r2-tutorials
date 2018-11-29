@@ -47,11 +47,11 @@ Step 1: Exploring the genome browser
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
-    ![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
+    ![Figure    1: Probeset Verification table](_static/images/UsingR2genome_probesettable.png "Figure    1: Probeset Verification table")
 	
-	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
+	[**Figure    1: Probeset Verification table**](_static/images/UsingR2genome_probesettable.png)
 
-	     When we access the genome browser via the One Gene View page, by
+	When we access the genome browser via the One Gene View page, by
     default R2 has enabled a number of annotations (Tracks). At the top
     of the Transcript View display, R2 depicts all known expressed sequence tag (EST) and mRNA sequences aligned to the genome (synchronized with the USCS
     database regularly).
@@ -123,13 +123,6 @@ Step 1: Exploring the genome browser
 
 [**Figure 4: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 
-![Figure 5: Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
-
-[**Figure 5: Annotation tracks added.**](_static/images/UsingR2genome_tracksadded.png)
-
-
-
-
 
 Step 2: Zooming and panning
 ---------------
@@ -145,9 +138,9 @@ Step 2: Zooming and panning
     though ). Also in the track panel set “sequence and GC” windows
     to on. Click redraw in the middle panel.
     
-	![Figure 6: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
+	![Figure 5: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    5: Zoom    controls")
 	
-	[**Figure 6: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
+	[**Figure 5: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 	
 3.  At a larger magnification certain features such as basepair pair
     coloring at the sequence annotation track may become visible. Note
@@ -155,13 +148,13 @@ Step 2: Zooming and panning
     the probes which form together a probeset . Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
-	![Figure 7: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
+	![Figure 6: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    6: Zoom-in    graph")
 	
-	[**Figure 7: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
+	[**Figure 6: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
     
-	![Figure 8: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
+	![Figure 7: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    7: Zoom revealing basepair    sequence")
 	
-	[**Figure 8: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
+	[**Figure 7: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
 	
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
@@ -200,9 +193,9 @@ chromosome at a certain location.
     generated with average gene expression levels for the selected
     dataset in that region.
     
-	![Figure 9: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
+	![Figure 8: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    8: Chromosomal    clicking")
 	
-	[**Figure 9: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
+	[**Figure 8: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
 	
 2.  Furthermore it’s worth mentioning that in order to use the genome
     browser it’s not necessary to do so via first selecting a dataset.
