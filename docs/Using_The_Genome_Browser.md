@@ -92,8 +92,8 @@ Step 1: Exploring the genome browser
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
-     
-   ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
+
+    ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
 	
     [**Figure    3: Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
   
