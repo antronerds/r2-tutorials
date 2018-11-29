@@ -55,10 +55,6 @@ Step 1: Exploring the genome browser
     of the image,R2 is depicting all known EST and mRNA sequences
     aligned to the genome (synchronized with the USCS
     database regularly).
-    
-    ![Figure 2: Genome browser and average mycn expression](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 2: The probeset verification    table")
-	
-    [**Figure 2: Genome browser and average mycn expression **](_static/images/UsingR2genome_Genomebrowser_a.png) 
 
     These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
@@ -95,14 +91,17 @@ Step 1: Exploring the genome browser
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
-  
-	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
-	
-	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
     
-	![Figure    4: Second half of the genome browser with    default tracks.](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
+    
+   ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure    4: Second half of the genome browser with    default tracks.")
 	
-	[**Figure    4: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_tracks.png)
+[**Figure    3: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
+  
+![Figure    4: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
+	
+[**Figure    4: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
+    
+
 	
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
