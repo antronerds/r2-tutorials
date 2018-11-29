@@ -95,11 +95,11 @@ Step 1: Exploring the genome browser
      
    ![Figure    3: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
 	
-[**Figure    3: Genome browser with genome browser with    default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
+    [**Figure    3: Genome browser with genome browser with    default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
   
-![Figure    4: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
+    ![Figure    4: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
 	
-[**Figure    4: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
+    [**Figure    4: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
     
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
