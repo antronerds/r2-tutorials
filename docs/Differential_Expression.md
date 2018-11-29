@@ -274,7 +274,7 @@ Step 8: Inspecting single gene
 ---------------
 
 --------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***What were those R and p-values again?***>
+  ![](_static/images/R2d2_logo.png)***What were those R and p-values again?***
 >  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.*
 
 ---------------------
