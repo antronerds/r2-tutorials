@@ -47,19 +47,16 @@ Step 1: Exploring the genome browser
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
-	![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
+    ![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
 	
 	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
-	 
-	![Figure    2: The probeset verification    table](_static/images/UsingR2genome_Genomebrowser.png "Figure    2: The probeset verification    table")
-	
-	[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
-	
-    When we access the genome browser via the One Gene View page, by
+
+	     When we access the genome browser via the One Gene View page, by
     default R2 has enabled a number of annotations (Tracks). At the top
-    of the Transcript View display, R2 depicts all known expressed sequence tag (EST) and mRNA sequences
-    aligned to the genome (synchronized with the USCS
-    database regularly). These mappings serve as evidence for the
+    of the Transcript View display, R2 depicts all known expressed sequence tag (EST) and mRNA sequences aligned to the genome (synchronized with the USCS
+    database regularly).
+
+    These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
     Genbank database. The EST and mRNA sequences are colored by the
     orientation of alignments, as determined by exon-intron
@@ -71,7 +68,8 @@ Step 1: Exploring the genome browser
     the alignment becomes blue.  
     Underneath the plot the NCBI curated records for transcripts for the gene of interest are shown as reference sequences (RefSeq). The structure of the reference sequence has been indicated. In this MYCN example, the gene as represented by the different isoform refseqs, is green. This tells us that
     the MYCN gene maps to the positive strand of the genome, and should
-    be read 5\`->3\`from left to right. The shadings in green, for
+    be read 5\`->3\`from left to right.  
+    The shadings in green, for
     the separate EST and mRNA mappings, indicate exon (darker) and
     intronic (lighter) regions (Figure 3 shows a legend to all the
     different color shades).  
@@ -96,15 +94,15 @@ Step 1: Exploring the genome browser
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
+
+    ![Figure 2: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
+	
+    [**Figure 2 : Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
   
-	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
+    ![Figure 3: Legend of the color usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
 	
-	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
+    [**Figure 3: Legend of the color usage**](_static/images/UsingR2genome_legend1.png)
     
-	![Figure    4: Second half of the genome browser with    default tracks.](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
-	
-	[**Figure    4: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_tracks.png)
-	
     With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
     genomic location.
@@ -121,13 +119,13 @@ Step 1: Exploring the genome browser
     extra annotation tracks which were selected and hover over the
     tracks to reveal extra information.
 
-![Figure5: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
+![Figure 4: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
 
-[**Figure5: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
+[**Figure 4: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 
-![Figure 6 Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
+![Figure 5: Annotation tracksadded.](_static/images/UsingR2genome_tracksadded.png "Figure5: Adjustable settingspanel.")
 
-[**Figure 6: Annotation tracks added.**](_static/images/UsingR2genome_tracksadded.png)
+[**Figure 5: Annotation tracks added.**](_static/images/UsingR2genome_tracksadded.png)
 
 
 
@@ -147,9 +145,9 @@ Step 2: Zooming and panning
     though ). Also in the track panel set “sequence and GC” windows
     to on. Click redraw in the middle panel.
     
-	![Figure    7: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
+	![Figure 6: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
 	
-	[**Figure    7: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
+	[**Figure 6: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 	
 3.  At a larger magnification certain features such as basepair pair
     coloring at the sequence annotation track may become visible. Note
@@ -157,13 +155,13 @@ Step 2: Zooming and panning
     the probes which form together a probeset . Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
-	![Figure    8: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
+	![Figure 7: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
 	
-	[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
+	[**Figure 7: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
     
-	![Figure    9: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
+	![Figure 8: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
 	
-	[**Figure    9: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
+	[**Figure 8: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
 	
     Now the actual sequence is revealed a single affymetrix probe
     is matching. Clicking on the refseq bar will automatically zoom out
@@ -175,8 +173,9 @@ Step 2: Zooming and panning
 ----------
 ![](_static/images/R2d2_logo.png)**Did you know that the additional settings can be changed in “Tracks Panel".**
                                                               
-![](_static/images/UsingR2genome_toolicon.png)                             
-                                                                                                                     > *Clicking on the tool icon unfolds extra options to configure your graph. For many tracks, this will allow you to increase the size, but the settings may also include options that are specific to a particular analysis*                                                                 
+![](_static/images/UsingR2genome_toolicon.png) 
+
+> *Clicking on the tool icon unfolds extra options to configure your graph. For many tracks, this will allow you to increase the size, but the settings may also include options that are specific to a particular analysis*                                                                 
                                                                         
                                                                   
 ----------
@@ -201,9 +200,9 @@ chromosome at a certain location.
     generated with average gene expression levels for the selected
     dataset in that region.
     
-	![Figure    10: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
+	![Figure 9: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
 	
-	[**Figure    10: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
+	[**Figure 9: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
 	
 2.  Furthermore it’s worth mentioning that in order to use the genome
     browser it’s not necessary to do so via first selecting a dataset.
