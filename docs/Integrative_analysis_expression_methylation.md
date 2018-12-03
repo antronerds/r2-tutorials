@@ -44,7 +44,7 @@ Step 1: Choosing a combined dataset
 	
 	[**Figure 3:Heatmap select all reporters**](_static/images/IntgrAnalysis_methexpr_heatmapa.png)
 	
-	Now click on, 'view all' below de gene name. In a new screen (Figure 4) a heat map is generated with the methylation pattern for all samples of a given dataset. Beneath the heatmap the R2 genome browser is plotted with all the methylation reporters for the DDX1 gene plottend against there location on the genome. An alternative route, to the same heatmap representation would be to select 'view all reporters for a gene' in box 3 of the 'Main page'.
+	Now click on, 'view all' below de gene name. In a new screen (Figure 4) a heat map is generated with the methylation pattern for all samples of a given dataset. Beneath the heatmap the R2 genome browser is plotted with all the methylation reporters for the DDX1 gene plottend against their location on the genome. An alternative route, to the same heatmap representation would be to select 'view all reporters for a gene' in box 3 of the 'Main page'.
 
 	![Figure 4: Heatmap select all reporters](_static/images/IntgrAnalysis_methexpr_heatmapb.png)
 
@@ -87,13 +87,13 @@ On this zoom - level more known information is automatically plotted  in the  ge
   ![](_static/images/R2d2_logo.png)**Did you know that R2 will determine the overlap between datasets automatically?**
 
 
-> *R2 will scan for overlapping samples on the basis of the r2_samplename. Overlap is automatically determined and therefore can also use cohorts that are not completely overlapping. R2 will simply exclude samples that are only found in 1 of the datasets. In addition, the order in which samples are represented is also accounted for.*
+> *R2 will scan for overlapping samples on the basis of the r2_samplename. Overlap is automatically determined and therefore it can also use cohorts that are not completely overlapping. R2 will simply exclude samples that are only found in 1 of the datasets. In addition, the order in which samples are represented is also accounted for.*
 
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know that the annotation from both datasets is combined?**
 
 
-> *on the sides of the image to represent the signals from both dataset perspectives.The image displays the correlation between the 2 datatypes for those patients that were represented in both data sets. From within this view we can adapt the visualization in a couple of ways. When we look at the XY plot, we can annotate the graph with a track distinction and color all of the circles accordingly. To achieve this, simply select ‘color by track’ and select the annotation source to be used for the coloring. Once redrawn, this will also add ‘boxplot’ representations*
+> * On the sides of the image, the combined annotation represents the signals from both dataset perspectives. The image displays the correlation between the 2 datatypes for those patients that were represented in both data sets. From within this view we can adapt the visualization in a couple of ways. When we look at the XY plot, we can annotate the graph with a track distinction and color all of the circles accordingly. To achieve this, simply select ‘color by track’ and select the annotation source to be used for the coloring. Once redrawn, this will also add ‘boxplot’ representations*
 
 
 
