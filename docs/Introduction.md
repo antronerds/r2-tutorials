@@ -5,7 +5,7 @@ Preface
 
 *Why these tutorials?*
 
-The R2 platform (<http://r2platform.com> / <http://r2.amc.nl>) is a
+The R2 platform (<http://r2platform.com> or <http://r2.amc.nl>) is a
 genomics analysis and visualization platform that tries to provide a
 biologist friendly interface to high throughput data. It has been
 developed within the department of Oncogenomics at the AMC in the
