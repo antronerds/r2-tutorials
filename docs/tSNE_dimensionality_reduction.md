@@ -133,7 +133,7 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
 
-3. In the new opened window all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled with not_defined. At the bottom in the "Adjustable settings menu" you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find diffential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
+3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable settings menu" you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find diffential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
 	![Figure 10: t-SNE: Using the lasso selection tool ](_static/images/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
 	
@@ -142,6 +142,23 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 For now the lasso selection tool is only available for t-SNE maps module; implementation for usage with other modules such as PCA clustering will be released soon.
 
+### Creating groups with the DBSCAN
+
+Next to the manual lasso tool for sample grouping on the t-SNE map, R2 provides an automated tool as well: the **DBSCAN** (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
+
+Starting with an arbitrary point in the plot, the algorithm recursively groups together all the points that are located close to that point and the points within that group. If no more points can be found close to the group, another point on the plot will randomly be chosen and the process repeats itself.  
+With two parameters you can influence the definition of groups: *Epsilon* and *Min pts*. Epsilon sets the maximal distance allowed between points to be considered close. Min pts determines the minimal amount of points that are needed in order to be called a group. It is recommended to set the minimal amount of points to 3 or higher. 
+If a point is not within the epsilon distance of any cluster, it's considered a "noise point". 
+
+Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2. 
+
+1. Go back to the tab with the t-SNE scan map which was generated in step 1 with the lasso functionality. 
+
+2. Click on "DBSCAN select subset" below the t-SNE map.  An interactive the t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
+
+3. Click 'Build Track for subset' to create subtracks of these groups, in the same way as described in step 3 of the lasso tool above. 
+
+ 
 
 Final remarks
 ----------------------------
