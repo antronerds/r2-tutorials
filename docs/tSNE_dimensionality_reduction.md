@@ -1,4 +1,3 @@
-
 <a id="tSNE_dimensionality_reduction"></a>
 
 t-SNE: high dimensionality reduction in R2
@@ -20,7 +19,7 @@ A clustering method that is gaining more and more popularity in biomedical resea
 
 Most researchers are already familiar with another dimensionality reduction algorithm, Principle Components Analysis (PCA) also available in R2 and explained in more detail in the Principle Components Analysis tutorial. Both PCA and t-SNE reduce the dimension while maintaining the structure of high dimensional data, however, PCA can only capture linear structures. t-SNE on the other hand  captures both linear and non-linear relations and preserves local distances in high dimensions while reducing the information to 2 dimensions (an XY plot).
 
-An important parameter within t-SNE is the vairable known as *perplexity*. This tunable parameter is in a sense an estimation of how many neighbors each point has. The robustness of the visible clusters identified by the t-SNE algorithm can be validated by studying the clusters in a range of perplexities. Recommended values for perplexity range between 5-50. Once you have selected a dataset and applied the t-SNE algorithm, R2 will calculate all t-SNE clusters for 5 to 50 perplexities,  in case of smaller dataset the number of perplixities will be less. Which perplexity is the best depends on the structure of the dataset, and is also a matter of what you would like to display (how the samples are placed). Before you start analyzing and interpreting the results, it is highly recommended to read about the power and pitfalls of t-SNE in [this blog-post](http://distill.pub/2016/misread-tsne/). Two important recommendations in this blog are that both *size of*, and *distance between* clusters do not have a well defined meaning. The fact that there *are* clusters has meaning.
+An important parameter within t-SNE is the variable known as *perplexity*. This tunable parameter is in a sense an estimation of how many neighbors each point has. The robustness of the visible clusters identified by the t-SNE algorithm can be validated by studying the clusters in a range of perplexities. Recommended values for perplexity range between 5-50. Once you have selected a dataset and applied the t-SNE algorithm, R2 will calculate all t-SNE clusters for 5 to 50 perplexities,  in case of smaller dataset the number of perplexities will be less. Which perplexity is the best depends on the structure of the dataset, and is also a matter of what you would like to display (how the samples are placed). Before you start analyzing and interpreting the results, it is highly recommended to read about the power and pitfalls of t-SNE in [this blog-post](http://distill.pub/2016/misread-tsne/). Two important recommendations in this blog are that both *size of*, and *distance between* clusters do not have a well defined meaning. The fact that there *are* clusters has meaning.
 
 Since running the t-SNE algorithm is a time consuming task and can take up to hours of processing time for large datasets, R2 stores the results for every dataset where the t-SNE has been completed. All users of R2 can explore generated t-SNE maps by coloring for tracks or expression values of a particular gene. Furthermore, the perplexity sweeps can be visualized. These options can be accessed via the left menu structure in R2. Users with collaborator, or higher access level are also able to initiate the generation of maps for datasets or subsets within a dataset. These additional options will be available via ‘box 3’ on the main page of R2.
 
@@ -29,14 +28,14 @@ Step 1: Selecting t-SNE maps
 
 Let’s have a look at a t-SNE result to see what we can learn from this dimensionality reduction algorithm. The analysis is most informative with large datasets, and actually requires more than 16 samples as an absolute minimum (in R2). We will first have a look at the CCLE (cancer cell line encyclopedia) dataset which is comprised of more than 900 cell lines from various cancers.
 
-1.  In the left menu click on t-SNE maps and select in the pull down menu , 'Cellline CCLE Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2'
+1. In the left menu click on t-SNE maps and select in the pull down menu , 'Cellline CCLE Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2'
 2. R2 will assess the result and provide a button to start exploring the result. 
 
-	![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_select_preprocessed.png "Figure 1:Selecting t-SNE maps")
-  
-	[**Figure    1: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_select_preprocessed)
-	
-3.  Click "next"
+  ![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_select_preprocessed.png "Figure 1:Selecting t-SNE maps")
+
+  [**Figure    1: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_select_preprocessed)
+
+3. Click "next"
 
 
 Step 2: Annotating t-SNE maps
@@ -49,31 +48,30 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 2. Select ‘color by track’ from the ‘colormode’ and choose ‘primary site’. Press 'next' to redraw the image.
 
-	![Figure    2: t-SNE preprocessed t-SNE maps](_static/images/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
-  
-	[**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_cellbroad_primsite.png)
+  ![Figure    2: t-SNE preprocessed t-SNE maps](_static/images/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
+
+  [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_cellbroad_primsite.png)
 
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the ‘colormode’ to ‘color by expression’.
 
 1. In the 'adjustable settings box'  select 'Color by Gene' under Color mode and subsequently type 'CLDN3' under Gene for color. The  corresponding reporter will automatically pop-up (Figure 3 ). The gene selection box autocompletes selection the proper reporter probeset, but this can take a little bit of time before the gene selection box appears. 
 
-	![Figure    3: t-SNE select probeset](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
+  ![Figure    3: t-SNE select probeset](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
-	[**Figure 3: t-SNE select probeset**](_static/images/Tsne_select_probeset.png)
+  [**Figure 3: t-SNE select probeset**](_static/images/Tsne_select_probeset.png)
 
-	
 2. Again click ‘next’ to refresh the view.  In this view the samples are not colored by a group annotation (track) but by applying a color gradient which reflects the gene expression level according to a log2 scale.  In this sample you can observe  a subgroup of the carcinoma samples which have higher level in contrast to the (other) samples. 
 
-	![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
+  ![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
 
-	[**Figure 4: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
+  [**Figure 4: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
 
 3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup.
 
-	![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
-	
-	[**Figure 5: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
+  ![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
+
+  [**Figure 5: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
 
 Step 3: Perplexity sweeps for t-SNE maps
@@ -84,12 +82,13 @@ What perplexity value is the best option for your dataset of interest? This depe
 
 1. In order to generate an overview of all possible perplexities you have to set the number of perplexities to "ALL" and color by track modus to eg: histology in the "Adjustable Settings".
 
-	![Figure   6: t-SNE: all perplexities ](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
-	
-	[**Figure 6: t-SNE: all perplexities**](_static/images/Tnse_cellbroad_allperplexity.png)
-	
+  ![Figure   6: t-SNE: all perplexities ](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
 
-	
+  [**Figure 6: t-SNE: all perplexities**](_static/images/Tnse_cellbroad_allperplexity.png)
+
+  
+
+
 By choosing the perplexity values 'All', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode.
 
 
@@ -103,9 +102,9 @@ Let's take a look at some other nice example of a R2 generated t-SNE maps: the l
 
 1. In main menu select  Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 inn box2 and select t-SNE in box3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. Under the 'Adjustable settings' you can adjust several settings such as sample filtering, specific gene categories and expression level restrictions.  
 
-	![Figure   7: t-SNE: Menu ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
-	
-	[**Figure 7: t-SNE: Menu**](_static/images/Tnse_shortcutPlot.png)
+  ![Figure   7: t-SNE: Menu ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
+
+  [**Figure 7: t-SNE: Menu**](_static/images/Tnse_shortcutPlot.png)
 
 Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window and return to the analysis at a later time. The process will keep on running in the background. 
 
@@ -113,9 +112,9 @@ Keep in mind that after adjusting input settings the t-SNE algorithm will  re-ru
 
 3. In the Adjustable settings box set the color by track on 'Tissue'  and click next.
 
-	![Figure   8: t-SNE: Colored by track ](_static/images/Tsne_normaltissuetrackcolored.png "Figure 8: Colored by track")
+  ![Figure   8: t-SNE: Colored by track ](_static/images/Tsne_normaltissuetrackcolored.png "Figure 8: Colored by track")
 
-	[**Figure 8: t-SNE: Colored by track**](_static/images/Tsne_normaltissuetrackcolored.png)
+  [**Figure 8: t-SNE: Colored by track**](_static/images/Tsne_normaltissuetrackcolored.png)
 
 
 Step 5: Creating groups 
@@ -131,20 +130,20 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
-2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsqeuently with a group id for eacht lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
+2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsequently with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
 
-3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable settings menu" you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find diffential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
+3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable settings menu" you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
-	![Figure 10: t-SNE: Using the lasso selection tool ](_static/images/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
-	
-	[**Figure 10: t-SNE: Using the lasso selection**](_static/images/Tsne_subgroups.png)
+  ![Figure 10: t-SNE: Using the lasso selection tool ](_static/images/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
+
+  [**Figure 10: t-SNE: Using the lasso selection**](_static/images/Tsne_subgroups.png)
 
 
 For now the lasso selection tool is only available for t-SNE maps module; implementation for usage with other modules such as PCA clustering will be released soon.
 
 ### Creating groups with the DBSCAN
 
-Next to the manual lasso tool for sample grouping on the t-SNE map, R2 provides an automated tool as well: the **DBSCAN** (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
+Next to the manual lasso tool for sample grouping on the t-SNE map, R2 provides an automated tool as well: the DBSCAN (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
 
 Starting with an arbitrary point in the plot, the algorithm recursively groups together all the points that are located close to that point and the points within that group. If no more points can be found close to the group, another point on the plot will randomly be chosen and the process repeats itself.  
 With two parameters you can influence the definition of groups: *Epsilon* and *Min pts*. Epsilon sets the maximal distance allowed between points to be considered close. Min pts determines the minimal amount of points that are needed in order to be called a group. It is recommended to set the minimal amount of points to 3 or higher. 
@@ -154,18 +153,19 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
 1. Go back to the tab with the t-SNE scan map which was generated in step 1 with the lasso functionality. 
 
-2. Click on "DBSCAN select subset" below the t-SNE map.  An interactive the t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
+2. Click on "DBSCAN select subset" below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
 
-3. Click 'Build Track for subset' to create subtracks of these groups, in the same way as described in step 3 of the lasso tool above. 
+  ![Figure 11: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_DBSCANsubgroups.png "Figure 10: Using the DBSCAN selection tool")
+
+  [**Figure 11: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_DBSCANsubgroups.png)
+
+3. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. 
 
  
 
 Final remarks
 ----------------------------
 
-Everything described in ths chapter can be performed in the R2: genomics analysis and visaulization platform (http://r2platform.com / http://r2.amc.nl) 
+Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
 
 We hope that this tutorial has been helpful,The R2 support team.
-
-
-
