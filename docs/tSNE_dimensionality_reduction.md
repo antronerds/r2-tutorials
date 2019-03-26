@@ -160,8 +160,17 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
   [**Figure 11: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_default.png)
 
-3. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. 
+3.  In this example the DB scan tool identifies two clusters which were also quite clear by just observing the T-sne map. However, adapting the parameters epsilon and min-pst described above can also aid you to identify less clear subgroups
 
+Tsne_dbscan_param.png
+4. 
+
+
+Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. 
+
+  ![Figure 12: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
+
+  [**Figure 12: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_param.png)
  
 
 Final remarks
