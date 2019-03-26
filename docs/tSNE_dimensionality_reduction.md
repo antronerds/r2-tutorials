@@ -154,24 +154,19 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
 1. Go back to the tab with the t-SNE scan map which was generated in step 1 with the lasso functionality. 
 
-2. Click on "DBSCAN select subset" below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
+2. Click on "DBSCAN select subset" below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. 
 
   ![Figure 11: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_default.png "Figure 11: Using the DBSCAN selection tool")
 
   [**Figure 11: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_default.png)
 
-3.  In this example the DB scan tool identifies two clusters which were also quite clear by just observing the T-sne map. However, adapting the parameters epsilon and min-pst described above can also aid you to identify less clear subgroups
+3.  In this example the DB scan tool identifies two clusters which were also quite clear by just observing the T-sne map. However, adapting the parameters epsilon and min-pst described above can also aid you to identify less clear subgroups. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
 
-Tsne_dbscan_param.png
-4. 
-
-
-Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. 
-
-  ![Figure 12: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
+ ![Figure 12: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
 
   [**Figure 12: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_param.png)
  
+4. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. The created tracks are stored and can be used as group parameters for further usage. Just as the lasso tool the DB-scan tool is only available for T-sne maps but will be implemented in other R2 modules.
 
 Final remarks
 ----------------------------
