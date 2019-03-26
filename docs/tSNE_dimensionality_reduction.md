@@ -141,7 +141,8 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 For now the lasso selection tool is only available for t-SNE maps module; implementation for usage with other modules such as PCA clustering will be released soon.
 
-### Creating groups with the DBSCAN
+Step 6: Creating t-SNE maps
+----------------------------
 
 Next to the manual lasso tool for sample grouping on the t-SNE map, R2 provides an automated tool as well: the DBSCAN (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
 
@@ -155,9 +156,9 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
 2. Click on "DBSCAN select subset" below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
 
-  ![Figure 11: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_DBSCANsubgroups.png "Figure 10: Using the DBSCAN selection tool")
+  ![Figure 11: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_default.png "Figure 11: Using the DBSCAN selection tool")
 
-  [**Figure 11: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_DBSCANsubgroups.png)
+  [**Figure 11: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_default.png)
 
 3. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. 
 
