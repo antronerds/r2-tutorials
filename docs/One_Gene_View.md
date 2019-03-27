@@ -144,9 +144,9 @@ Also multiple colors and different markings can be applied to the individual sam
 
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 
-![Figure 5: Adjusting the sample mark layout](_static/images/one_gene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
+![Figure 5: Adjusting the sample mark layout](_static/images/OneGene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
 
-[**Figure 5: Adjusting the sample mark layout**](_static/images/one_gene_view_samplesmark.png)
+[**Figure 5: Adjusting the sample mark layout**](_static/images/OneGene_view_samplesmark.png)
   
  
 ---------------
