@@ -71,12 +71,12 @@ Step 2: Probesets for a gene
    
 
 ----------
- ![](_static/images/R2d2_logo.png)**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)**      
+ ![](_static/images/R2d2_logo.png)**Did you know that a reporter with an exclamation marks is an indication there may be something wrong with the reporter (e.g. bad design)?**      
 
  ![](_static/images/OneGene_warningprobeset.png)                  
 
 > *Hovering over the exclamation mark will inform you on what may be the    
->  issue with a specific reporter (probeset).Reportes with an issue will    
+>  issue with a specific reporter (probeset). Reporters with an issue will    
 >  not be used to represent a gene in searches where hugoonce is used.     
 >  Hovering over the name of a gene will display concise gene information,  
 >  such as alternative names for the current gene. In case you are not      
@@ -133,12 +133,7 @@ To highlight / mark specific samples in the graph you can enter the r2 sample ID
 
 Also multiple colors and different markings can be applied to the individual samples you want to highlight. Next to only indicate the samples, you maybe want to use multiple colors and the type of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure.
 
-
-![Figure 5: Adjusting the sample mark layout](_static/images/one_gene_view_samplesmark.png "Figure 4: Adjusting the graph settings")
-
-[**Figure 5: Adjusting the sample mark layout**](_static/images/one_gene_view_samplesmark.png)
-
->*R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
+> *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
  - *'dot': places a thick border around the sample*
  - *'circle': Places a ring around the sample (diameter 9)*
  - *'circle_2': Places a ring around the sample (diameter 4)*
@@ -149,8 +144,13 @@ Also multiple colors and different markings can be applied to the individual sam
 
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 
+![Figure 6: Adjusting the sample mark layout](_static/images/one_gene_view_samplesmark.png "Figure 6: Adjusting the graph settings")
+
+[**Figure 6: Adjusting the sample mark layout**](_static/images/one_gene_view_samplesmark.png)
+  
+ 
 ---------------
- ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight.**                              
+ ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight?**                              
 
 > *There are several data transformations available*                         
 >  -   *“none”: Raw untransformed expression values, as they are represented 
@@ -180,23 +180,21 @@ Step 4: Probeset verification
 ---------------
 
 
-Figure 5 lists for the various reporters of MYCN whether they are in
+Figure 7 lists for the various reporters of MYCN whether they are in
 agreement with the genome position of MYCN reference sequence (RefSeq).
 If all are stating “YES” then everything appears alright (from the
 perspective of an automated assessment). For the MYCN reporters “NO”
 indications indicate there may be an issue with it. Scroll down the page
 and click on the “Tview” link in the reporter table.
 
+![Figure 7: Probeset verification table](_static/images/OneGene_Probesettable.png "Figure 7: Probeset verification table")
 
+[**Figure 7: Probeset verification table**](_static/images/OneGene_Probesettable.png)
 
-![Figure 5: Probeset verification table](_static/images/OneGene_Probesettable.png "Figure 5: Probeset verification table")
-
-[**Figure 5: Probeset verification table**](_static/images/OneGene_Probesettable.png)
-
-1.  A new screen (or TAB in the browser) appears with TranscriptView.
-    The Transcript view application depicts the alignment of expressed
+1.  A new screen (or tab in the browser) appears with TranscriptView.
+    The TranscriptView application depicts the alignment of expressed
     sequence tags (EST) and mRNA sequences to the human reference genome
-    sequence (Fig 5). The strand orientation of these sequences are
+    sequence (Fig 9. The strand orientation of these sequences are
     indicated by a color (green = positive strand, red = negative
     strand, blue = strand information is missing). The structure of the
     reference sequence has also been indicated. Furtermore, the browser shows the alignement of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
@@ -214,35 +212,35 @@ and click on the “Tview” link in the reporter table.
     human Affymetrix array types.
 
 
-![Figure 6: Color legend](_static/images/OneGene_Colorlegend.png "Figure 6: Color ")
+![Figure 8: Color legend](_static/images/OneGene_Colorlegend.png "Figure 8Color ")
 
-[**Figure 6: Coloring represents type of transcript**](_static/images/OneGene_Colorlegend.png)
+[**Figure 8: Coloring represents type of transcript**](_static/images/OneGene_Colorlegend.png)
 
 
-![Figure 7: MYCN reporters in Transcript view](_static/images/OneGene_Tview.png "Figure 7: MYCN reporters in Transcript view")
+![Figure 9: MYCN reporters in Transcript view](_static/images/OneGene_Tview.png "Figure 9 MYCN reporters in Transcript view")
 
-[**Figure 7: MYCN reporters in Transcript view**](_static/images/OneGene_Tview.png)
+[**Figure 9: MYCN reporters in Transcript view**](_static/images/OneGene_Tview.png)
 
 
 
 ---------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can browse the gene expression values along the genome***
+  ![](_static/images/R2d2_logo.png)**Did you know that you can browse the gene expression values along the genome?**
 
 > *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
->   What can also be informative is the ability to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
+>   It can be informative to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
 
 ---------------
 
 
-Step 5: TranscriptView
+Step 5: Sources for additional information on the selected gene 
 ----------------
 
-1. Close the TranscriptView TAB or go back to the MYCN 1-gene-view
+1. Close the Genome Browsser tab or go back to the MYCN 1-gene-view
    expression screen.
 
-   ![Figure 8:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 8:Left menu panel providing additional info (including link-out) andanalyses options")
+   ![Figure 10:Left menu panel providing additional info (including link-out) and analyses options](_static/images/OneGene_menupanel.png "Figure 10:Left menu panel providing additional info (including link-out) andanalyses options")
 
-   [**Figure 8:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
+   [**Figure 10:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
 
 
 In the left upper menu-panel several options are available to provide
@@ -258,14 +256,13 @@ platform/normalization scheme (provided that the normalization supports
 dataset additions).
 
 
-Clicking on pubsniffer opens a new screen showing a list of how times
-your gene of interest is found within the NCBI Pubmed database in
-combination with dataset keywords. Clicking on “outlink” redirects you
+When you click on the link (the name of the gene) under the PubSniffer header in the left menu, a new screen opens thats lists the number of times your gene of interest is found within the NCBI Pubmed database in
+combination with dataset keywords. Clicking on one of the "Pubreminder" links redirects you
 **to Pubmed Pub-reminer** which is a tool for PubMed query building and
 literature mining.
 
 ---------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
+  ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining?***
 
 > *In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?
 >  Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.
