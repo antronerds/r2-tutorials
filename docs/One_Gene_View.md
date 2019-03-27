@@ -63,22 +63,11 @@ Step 2: Probesets for a gene
    expression levels are by default converted to log2 values.
 
    ![Figure 2: By default the probeset with the highest expression level is selected](_static/images/OneGene_multipleprobesets.png "Figure 2: By default the probeset with the highest expression level is selected")
-
-2. In the adjustable settings screen use the pre-defined default
-   settings and click ‘Next’.
-
-3.   It could be that for a specific graphical representation not all
-   the (default) tracks need to be represented in a graph. To add or
-   skip tracks, click on the Track Display section and select the
-   appropriate tracks.  
-
-
-   ![Figure 3: By default the probeset with the highest expression level is selected](_static/images/OneGene_Adjust.png "Figure 2: By default the probeset with the highest expression level is selected")
-
-[**Figure 3: By default the probeset with the highest expression level is selected**](_static/images/OneGene_Adjust.png) 
-
    
+   [**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/OneGene_multipleprobesets.png)
 
+2. In the adjustable settings screen, use the pre-defined default
+   settings and click ‘Next’.
    
 
 ----------
@@ -137,9 +126,6 @@ Step 3: Plotting Gene expression
 
 To highlight / mark specific samples in the graph you can enter the r2 sample ID’s in the field 'samples to mark' from the
 ‘adjustable settings’ box. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
-
-
-
 
 ![Figure 5: Adjusting the graph settings](_static/images/OneGene_adjustablesettings.png "Figure 4: Adjusting the graph settings")
 
