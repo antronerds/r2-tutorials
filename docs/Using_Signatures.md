@@ -215,9 +215,9 @@ with our signature of interest.
 [**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
 
 
-![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_vb.png "Figure4: Findgenesignatures")
+![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure4: Findgenesignatures")
 	
-[**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_vb.png)
+[**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
 	
 
 Step 4:  Plot signature scores using the relate 2-tracks module.
