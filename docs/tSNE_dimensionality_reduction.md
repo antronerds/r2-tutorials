@@ -69,7 +69,7 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 
 3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup.
 
-  ![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 4: Select  A probeset")
+  ![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 5: Select  A probeset")
 
   [**Figure 5: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
@@ -100,15 +100,15 @@ Depending on your access level in R2, you can create t-SNE maps from any dataset
 
 Let's take a look at some other nice example of a R2 generated t-SNE maps: the large dataset of normal tissue expression profiles
 
-1. In main menu select  Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 inn box2 and select t-SNE in box3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. Under the 'Adjustable settings' you can adjust several settings such as sample filtering, specific gene categories and expression level restrictions.  
+1. In main menu select  Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 and select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering, specific gene categories and expression level restrictions.  
 
   ![Figure   7: t-SNE: Menu ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
 
   [**Figure 7: t-SNE: Menu**](_static/images/Tnse_shortcutPlot.png)
 
-Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window and return to the analysis at a later time. The process will keep on running in the background. 
+Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
 
-2. Click Next
+2. In our case we just click next
 
 3. In the Adjustable settings box set the color by track on 'Tissue'  and click next.
 
@@ -130,7 +130,7 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsequently with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
 
-3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable settings menu" you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
+3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
   ![Figure 10: t-SNE: Using the lasso selection tool ](_static/images/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
 
@@ -169,6 +169,6 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 Final remarks
 ----------------------------
 
-Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
+Everything described in this chapter can be performed in R2: the genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
 
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
