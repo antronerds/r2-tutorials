@@ -152,11 +152,13 @@ the mRNA level.
     endless with some smart questions (Figure 3.5).
 
 
-![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_v0.png "Figure3: Add groupcolouring")
+![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure3: Add groupcolouring")
 	
-[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
+[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
 	
-
+![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure3: Add groupcolouring")
+	
+[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
 
 
 
