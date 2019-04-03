@@ -41,7 +41,7 @@ Step 1: Selecting data and gene
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" field is selected in field 1
 2.  Make sure the Tumor Neuroblastoma public dataset is selected in
-    field 2 (see chapter 1 of the tutorial fr more information about the selection of a dataset)
+    field 2 (see chapter 1 of the tutorial for more information about the selection of a dataset)
 3.	Choose "View a Gene in groups" in field 3.
 4.  Type MYCN as gene (see Figure 1) in field 4.
 5.  Click "next" in field 5.
