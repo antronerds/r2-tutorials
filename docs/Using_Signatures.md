@@ -210,12 +210,12 @@ with our signature of interest.
     the "View heatmap of "", providing gene-by-gene information (see
     Figure 4.7).
 
-![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va "Figure4: Findgenesignatures")
+![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure4: Findgenesignatures")
 	
 [**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
 
 
-![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_vb "Figure4: Findgenesignatures")
+![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_vb.png "Figure4: Findgenesignatures")
 	
 [**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_vb.png)
 	
