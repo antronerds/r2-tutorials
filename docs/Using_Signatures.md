@@ -84,9 +84,9 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     "Next".
 5.  In the following screen we select the "functional genesignature"
     subselection and click "Next".
-  ![Figure 2: Generating Geneset signatures A](_static/images/genesetcorrelation_selectheatmap.png "Figure1: Signature score: one category vs up/downcategory")
+  ![Figure 2: Generating Geneset signatures A](_static/images/genesetcorrelation_selectheatmapa.png "Figure1: Signature score: one category vs up/downcategory")
 
-  [**Figure 2 : Generating Geneset signatures**](_static/imagesgenesetcorrelation_selectheatmap.png)
+  [**Figure 2 : Generating Geneset signatures**](_static/images/genesetcorrelation_selectheatmapa.png)
 	     
 6.  We can now see the lists of genes that are represented in
     this collection. While holding the CTRL key pressed, we can select
@@ -113,9 +113,9 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 3 ).
 
 
-  ![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscore.png "Figure2: Generategenesignature")
+  ![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscorea.png "Figure2: Generategenesignature")
 	
-  [**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscore.png)
+  [**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscorea.png)
 	
 
 
