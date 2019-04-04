@@ -352,31 +352,43 @@ Step 5: Upload your own tracks
     
 	![Figure    26: Setting the custom    track properties.](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
 	
-	[**Figure    26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)
+	[**Figure    26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)	
+
+6. A frequently used approach is using a track based on bins of value.  To avoid labour intensive excel usage you can also the 	expression treshhold option from the pulldown menu. Each time an expression level has been entered, a new box is generated for the next value. Click next to save the tracks.
+
+![Figure    27: Setting the custom    track properties.](_static/images/AAdaptingR2_Trackdescribed_bin.png"Figure    27: Setting the custom    track properties.")
 	
+[**Figure    27: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackdescribed_bin.png)
+
+
+
+
+
+
+
 6.  Select View a gene in groups in Field 3 of the main page, type MYCN
     as gene name in Field 4 (Figure 27). Click 'next'.
     
-	![Figure    27: Selecting a gene to view in the newly    created tracks.](_static/images/AdaptingR2_ViewTrack.png "Figure    27: Selecting a gene to view in the newly    created tracks.")
+	![Figure    28: Selecting a gene to view in the newly    created tracks.](_static/images/AdaptingR2_ViewTrack.png "Figure    28: Selecting a gene to view in the newly    created tracks.")
 	
-	[**Figure    27: Selecting a gene to view in the newly    created tracks.**](_static/images/AdaptingR2_ViewTrack.png)
+	[**Figure    28: Selecting a gene to view in the newly    created tracks.**](_static/images/AdaptingR2_ViewTrack.png)
 	
 7.  The track created in the Custom Track manager is available for
     selection: u-lowgradvs4vs4s. Note that the other Track created in
     the K-means analysis, is also available here. Choose it and
     click 'Next'.
     
-	![Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s](_static/images/AdaptingR2_Selectowntrack.png "Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s")
+	![Figure    29: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s](_static/images/AdaptingR2_Selectowntrack.png "Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s")
 	
-	[**Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s**](_static/images/AdaptingR2_Selectowntrack.png)
+	[**Figure    29: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s**](_static/images/AdaptingR2_Selectowntrack.png)
 	
 8.  The different groups we created as part of our track in the previous
     steps are available for selection. We want to see them all, keep the
     settings and click 'Next'.
     
-	![Figure    29: The groups created in the track are available for    selection](_static/images/AdaptingR2_Trackgroups.png "Figure    29: The groups created in the track are available for    selection")
+	![Figure    30: The groups created in the track are available for    selection](_static/images/AdaptingR2_Trackgroups.png "Figure    29: The groups created in the track are available for    selection")
 	
-	[**Figure    29: The groups created in the track are available for    selection**](_static/images/AdaptingR2_Trackgroups.png)
+	[**Figure    30: The groups created in the track are available for    selection**](_static/images/AdaptingR2_Trackgroups.png)
 	
 9.  The expression of MYCN is plotted in the different groups of the
     track that was created (Figure 30). Note that the other track of
@@ -384,9 +396,9 @@ Step 5: Upload your own tracks
     also overlap with the "recurrence\_or\_progression" Default Track
     that we set to visible.
     
-	![Figure    30: Tracks created are visualized underneath the    graph](_static/images/AdaptingR2_VisualizeTracks.png "Figure    30: Tracks created are visualized underneath the    graph")
+	![Figure    31: Tracks created are visualized underneath the    graph](_static/images/AdaptingR2_VisualizeTracks.png "Figure    30: Tracks created are visualized underneath the    graph")
 	
-	[**Figure    30: Tracks created are visualized underneath the    graph**](_static/images/AdaptingR2_VisualizeTracks.png)
+	[**Figure    31: Tracks created are visualized underneath the    graph**](_static/images/AdaptingR2_VisualizeTracks.png)
 	
 10. Another convenient option from the "custom track manager" is the
     export function which enables you to manipulate your tracks manually
@@ -417,64 +429,66 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
     community is done by clicking 'Community' in the 'My Settings' menu
     (Figure 31).
     
-	![Figure    31: Community in the My Settings    menu](_static/images/AdaptingR2_Community.png "Figure    31: Community in the My Settings    menu")
+	![Figure    32: Community in the My Settings    menu](_static/images/AdaptingR2_Community.png "Figure    32: Community in the My Settings    menu")
 	
-	[**Figure    31: Community in the My Settings    menu**](_static/images/AdaptingR2_Community.png)
+	[**Figure    32: Community in the My Settings    menu**](_static/images/AdaptingR2_Community.png)
 	
 2.  Since this will be the first time in the community section, there
     are no communities yet; click the 'Start a new Community' link
     (Figure 32).
     
-	![Figure    32: Starting a    community](_static/images/AdaptingR2_StartCommunity.png "Figure    32: Starting a    community")
+	![Figure    33: Starting a    community](_static/images/AdaptingR2_StartCommunity.png "Figure    33: Starting a    community")
 	
-	[**Figure    32: Starting a    community**](_static/images/AdaptingR2_StartCommunity.png)
+	[**Figure    33: Starting a    community**](_static/images/AdaptingR2_StartCommunity.png)
 	
 3.  In the Community window a name has to be set and a short description
     for people invited as members for this group (Figure 33). Through a
     community you can share GeneCategories, Tracks and Settings.
     
-	![Figure    33: Setting the Community group name    and description.](_static/images/AdaptingR2_SettingCommunitygroup.png "Figure    33: Setting the Community group name    and description.")
+	![Figure    34: Setting the Community group name    and description.](_static/images/AdaptingR2_SettingCommunitygroup.png "Figure    33: Setting the Community group name    and description.")
 	
-	[**Figure    33: Setting the Community group name    and description.**](_static/images/AdaptingR2_SettingCommunitygroup.png)
+	[**Figure    34: Setting the Community group name    and description.**](_static/images/AdaptingR2_SettingCommunitygroup.png)
 	
 4.  Click 'Next'; you'll be notified that the group has been created;
     return to the Communities Center by clicking the Community link
-    again in the My Settings menu (Figure 31). The TestGroup has been
+    again in the My Settings menu (Figure 32). The TestGroup has been
     created (next to the already existing MyTestGroup for this user).
-    Click the link to start adding users (Figure 34).
+    Click the link to start adding users (Figure 35).
+    
     [![](_static/images/AdaptingR2_Availablegroups.png)*Figure
-    34: The available Communities for
+    35: The available Communities for
     this user.*'](_static/images/AdaptingR2_Availablegroups.png)
+    
 5.  You have to add users by their R2 username; we'll add
     user "pietmolenaar". He'll receive a message in the R2 startup page
     as soon as he logs on the next time. Click "next" to add the user.
     
-	!['Figure    35: Add a user by their R2 user    name](_static/images/AdaptingR2_GroupManager.png "'Figure    35: Add a user by their R2 user    name")
+	!['Figure    36: Add a user by their R2 user    name](_static/images/AdaptingR2_GroupManager.png "'Figure    36: Add a user by their R2 user    name")
 	
-	[**'Figure    35: Add a user by their R2 user    name**](_static/images/AdaptingR2_GroupManager.png)
+	[**'Figure    36: Add a user by their R2 user    name**](_static/images/AdaptingR2_GroupManager.png)
 	
 6.  R2 returns with a message that the user has been invited, he or she
     has to accept your invitation first before he will see what you
     are sharing.
     
-	![Figure    36: R2 return message; user is invited; but not yet    visible](_static/images/AdaptingR2_Managegroups.png "Figure    36: R2 return message; user is invited; but not yet    visible")
+	![Figure    37: R2 return message; user is invited; but not yet    visible](_static/images/AdaptingR2_Managegroups.png "Figure    37: R2 return message; user is invited; but not yet    visible")
 	
-	[**Figure    36: R2 return message; user is invited; but not yet    visible**](_static/images/AdaptingR2_Managegroups.png)
+	[**Figure    37: R2 return message; user is invited; but not yet    visible**](_static/images/AdaptingR2_Managegroups.png)
 	
 7.  The perspective of the invited user after logon; he or she can
     accept the invitation (Figure 37).
     
-	!['Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group](_static/images/AdaptingR2_GroupInvitation.png "'Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+	!['Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group](_static/images/AdaptingR2_GroupInvitation.png "'Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 	
-	[**'Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group**](_static/images/AdaptingR2_GroupInvitation.png)
+	[**'Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group**](_static/images/AdaptingR2_GroupInvitation.png)
 	
 8.  When the invitation has been accepted the user is available in
     this community. When we add a category, track or preset the next
     time, it is possible to make this available to this community.
     
-	![Figure    38: The user is available in    the TestGroup.](_static/images/AdaptingR2_CommunityUsers.png "Figure    38: The user is available in    the TestGroup.")
+	![Figure    39: The user is available in    the TestGroup.](_static/images/AdaptingR2_CommunityUsers.png "Figure    38: The user is available in    the TestGroup.")
 	
-	[**Figure    38: The user is available in    the TestGroup.**](_static/images/AdaptingR2_CommunityUsers.png)
+	[**Figure    39: The user is available in    the TestGroup.**](_static/images/AdaptingR2_CommunityUsers.png)
 	
 9.  When a Category is created there is now a possibility to make it
     available to a Community (Figure 39)
@@ -484,9 +498,9 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
     member of this group, can manage the tracks that have been shared
     with him via his default track manager
     
-	![Figure    39: As an example here the creation of a category and the assignment    to    a Community.](_static/images/AdaptingR2_CommunityCategory.png "Figure    39: As an example here the creation of a category and the assignment    to    a Community.")
+	![Figure    40: As an example here the creation of a category and the assignment    to    a Community.](_static/images/AdaptingR2_CommunityCategory.png "Figure    40: As an example here the creation of a category and the assignment    to    a Community.")
 	
-	[**Figure    39: As an example here the creation of a category and the assignment    to    a Community.**](_static/images/AdaptingR2_CommunityCategory.png)
+	[**Figure    40: As an example here the creation of a category and the assignment    to    a Community.**](_static/images/AdaptingR2_CommunityCategory.png)
 	
 
 
