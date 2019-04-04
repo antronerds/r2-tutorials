@@ -141,15 +141,15 @@ the mRNA level.
     this, we go to the "adjustable settings" at the bottom of the page
     and select "Color by track" from the "ColorMode" and select
     "mycn\_amp" from the "Track for color" option. Click "Adjust
-    Settings" to redraw (Figure 3.4).
+    Settings" to redraw (Figure 5).
 5.  We can now clearly see that MYCN amplified patients have a higher
     MYCN activity score. The possibilities for numerical tracks are
-    endless with some smart questions (Figure 3.5).
+    endless with some smart questions (Figure 5).
 
 
-![Figure 4: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
+![Figure 4: mycn vs signature score](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
 	
-[**Figure 4: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
+[**Figure 4: mycn vs signature score**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
 	
 ![Figure 5: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
 	
