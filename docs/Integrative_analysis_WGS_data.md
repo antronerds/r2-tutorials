@@ -21,12 +21,12 @@ Scope
 	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
 2. Select a subset of samples by using the menu on the top.
-	- Select *inss (cat 5)* from the select a track (subset) selection box.
-	- Select *st2 (19)*, click <font color="red">confirm</font> and *update*.
+	- Select *inss (cat 3)* from the select a track (subset) selection box.
+	- Select *st2 (1)*, from the pop-up selecttion window and click 'OK'.
 	
-	![Figure 2: Select a subset of samples](_static/images/IntAnalysis_WGS_SelectSubset.png)
+	![Figure 2: Select a subset of samples](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
 	
-	[**Figure 2: Select a subset of samples**](_static/images/IntAnalysis_WGS_SelectSubset.png)
+	[**Figure 2: Select a subset of samples**](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
 	
 2. In Neuroblastoma whole and partial chromosome gains and losses are frequent. This is indicated by the red and green colouring of the cgh-like scatterplots.
 	- One sample doesn't appear to have large structural defects (N482TL).
