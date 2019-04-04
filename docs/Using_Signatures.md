@@ -173,18 +173,18 @@ with our signature of interest.
 
 
 1.  Go back to the "main" page and select "Geneset vs Geneset
-    correlation" from "box 3" and click "Next" (Figure 4.1).
+    correlation" from "box 3" and click "Next".
 2.  On the next page, select at the input Geneset -> Gene set
     Collection (source): "geneset\_\_r2provided\_genelists". In the
     Genesets to Scan (target): select 'geneset\_broad\_2012\_oncogenic'
-    (Figure 4.2). Then click "next".
+    (Figure 6). Then click "next".
 3.  In the next screen select in the source pull downmenu "functional
     genesignature" and "ALL" in the target pulldown menu leave the
-    remanining settings to their default and click 'next'(Figure 4.3).
+    remanining settings to their default and click 'next'.
 4.  The gene signature consists of two parts. One set of genes which are
     up regulated by MYCN and one set of down regulated genes. In the
     next screen select both presented gene lists by holding the Ctrl-
-    button (see Figure 4.4) and click "next."
+    button (see Figure 6) and click "next."
 5.  R2 has now generated all the possible correlations for the selected
     MYCN signature against all the gene lists within the broad
     oncogene category. This results in a table of geneset versus geneset
@@ -192,25 +192,25 @@ with our signature of interest.
     column provides insight in overlapping genes between two gene lists.
     Another informative parameter in the table is the range parameter in
     the last column. This value indicates the range of geneset scores in
-    gene target signature (see Figure 4.5).
+    gene target signature (see Figure 6).
 6.  To inspect the correlation in more detail, we can click on the
     "XY-plot" link.
 7.  Now R2 has generated an XY-plot of all samples in the dataset. The
     XY values represent the signature scores for the 2 signatures for
     every sample. Below the image the overlapping genes in the 2
-    signatures are listed (see Figure 4.6).
+    signatures are listed (see Figure 7).
 8.  We can also inspect the target signature as a heatmap by clicking on
     the "View heatmap of "", providing gene-by-gene information (see
-    Figure 4.7).
+    Figure 7).
 
-![Figure 4: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure 4: Find genesignatures")
+![Figure 6: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure 4: Find genesignatures")
 	
-[**Figure 4: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
+[**Figure 6: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
 
 
-![Figure 4: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure 4: Find genesignatures")
+![Figure 7: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure 4: Find genesignatures")
 	
-[**Figure 4: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
+[**Figure 7: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
 	
 
 Step 4:  Plot signature scores using the relate 2-tracks module.
@@ -229,12 +229,14 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
    Y-track the  mes_score (#)  and click next. Now a XY- plot is generated representing the correlation of the
    two signature scores. However, a clear significant correlation between the two signatures is shown the
    biological relevance is less prominent.
-![Figure 5: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
-[**Figure 5: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
-4. In order to visualise the biological relavance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track
-   in the pulldown menu, click adjust settings.
-![Figure 6: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 6: Color by track")
-[**Figure 6: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
+   
+![Figure 8: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
+[**Figure 8: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
+
+4. In order to visualise the biological relavance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click adjust settings.
+
+![Figure 9: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 6: Color by track")
+[**Figure 9: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
 
 5. In this new plot, mes defined cell lines cluster together with the neural crest derived lines in the left upper part of the plot
 (orange and green respectively) and the ADRN lines in blue in the right lower part of the plot. The purple dots
@@ -254,10 +256,9 @@ and a linewidth. The recipe for these adaptations makes use of ':' and works as 
 sample1,sample2:colorcode:width.
 In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
  gsm2413254, gsm2413255, gsm2413256:#222222' and click adjust Settings
- ![Figure 7: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 7: Connection samples")
-[**Figure 7: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
-2. In figure 7 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines
- in this dataset.
+ ![Figure 10: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 7: Connection samples")
+[**Figure 10: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
+2. In figure 10 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines in this dataset.
 
 ![](_static/images/R2d2_logo.png)**Did you know box**
   
