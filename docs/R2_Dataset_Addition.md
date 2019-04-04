@@ -233,9 +233,9 @@ for the different tracks. Below, you can see a section of such a relate
 file.
 
 
-![Figure3: Example2](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
+
 	
-[**Figure3: Example2**](_static/images/DataSetAddition_relatefile.png)
+[**Figure 3: Example2**](_static/images/DataSetAddition_relatefile.png)
 	
 Please make sure that the header of the relate file is identical to the
 example, and that the tracknames match to the ones that have been
@@ -281,9 +281,8 @@ For example, the file below would be named "overall.txt". Subsequent
 Kaplan curves would get the name "overall survival" on the y-axis.
 
 
-![Figure3: Example3](_static/images/DataSetAddition_survival.png "Figure3: Example3")
 	
-[**Figure3: Example3**](_static/images/DataSetAddition_survival.png)
+[**Figure 4: Example3**](_static/images/DataSetAddition_survival.png)
 
 **Time series graphs:** When the samples are annotated with the
 appropriate tracks, then R2 can also present datasets as time series.
@@ -301,9 +300,6 @@ annotations should provide a grouping label (which would be useful for
 you). In case of doubt on the usage of these annotations, do not
 hesitate to get in contact with us via r2-support.
 
-
-![Figure4: Example4](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
-	
 [**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
 	
 
