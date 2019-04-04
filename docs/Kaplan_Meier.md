@@ -20,22 +20,6 @@ Scope
 -   R2 supports any type of survival data, such as overall survival and
     relapse free survival.
 
--   An often used feature of R2 is the Kaplan Scan (KaplanScan), where an optimum
-    survival cut-off is established based on statistical testing instead
-    of for example just taking the average of median. The Kaplan scanner
-    separates the samples of a dataset into two groups based on the gene
-    expression of one gene. In the order of expression, it will use
-    every increasing expression value as a cutoff to create 2 groups and
-    test the p-value in a logrank test. The highest value is then
-    reported, accompanied by a kaplan meier picture. So in short, it
-    will find the most significant expression cutoff for
-    survival analysis. The best possible Kaplan Meier curve is based on
-    the logrank test. However, R2 does also allow you to use median,
-    average and more as a cutoff in assessing whether a gene of interest
-    has the potential to separate patient survival.Of course, such
-    analysis id only possible for datasets where survival data
-    is present.
-
 -   Use the Kaplan Scan for a group of genes.
 
 
@@ -47,13 +31,14 @@ Step 1: Selecting the Kaplan Meier module
     Annotated parameter*. You can find this option either in the left
     menu panel on the main screen or in field 3 at the type of analysis
     pull down menu. Using the Kaplan Meier module via the left menu
-    directly shows from which datasets survival data is available.
+    directly shows from which datasets survival data is available.  
+    Make sure that "Tumor Neuroblastoma public " Versteeg " 88" is selected and click next.
     
 	![Figure    1: Select a Kaplan    Meier option.](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
 	
 	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
 	
-2.  In the adjustable settings menu choose "overall survival" , select
+2.  In the adjustable settings menu choose overall survival "overall-c1103", select
     "track" at Separate by and select "inss-cat" stage in use track pull
     down menu . Click "next". Note that stage st4s en st1 survival curves are overlapping which 	is in agreement with the clinical outcome of the INSS stages.
     
@@ -62,7 +47,7 @@ Step 1: Selecting the Kaplan Meier module
 	[**Figure 2: Kaplan Meier by Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
 
 3.  A handy feature of the R2 kaplan module is the option to combine two
-    tracks to generate subgroups for the Kaplan meier analyses. Use the
+    tracks to generate subgroups for the Kaplan Meier analyses. Use the
     back-button from the browser and select at " separate by " , "
     combination of two tracks". Choose for example for the first track "
     agegroup (cat) " and for the second track "mycn\_amp (cat) ". And
@@ -75,23 +60,24 @@ Step 1: Selecting the Kaplan Meier module
 
 
 
-The combined track agegroup ( >=1 year) and no mycn application
+The combined track agegroup ( >18 year) and no mycn application
 results in intermediate survival probability. Note that there are 3
-groups instead of "expected" 4 since there are no patients < 1 year
+groups instead of "expected" 4 since there are no patients <= 18 year
 and a mycn amplification, in this cohort.
 
 
 
 ----------
-![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to KaplanScan analyze a subgroup of patients for survival. In addition you can also adapt the graphical representation***                      
+![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to KaplanScan analyze a subgroup of patients for survival? In addition you can also adapt the graphical representation***                      
 
 ![Adjusting Kaplan graphics](_static/images/WorkingWithKaplan_Adjust.png)                           
 
 > *When you are defining a subsection of the samples, you can execute      
 multiple selections after each other. To use the selection (subset), you
-need to click on **confirm** to finalize it. A successful subset        
+need to select the subset in the popup. A successful subset        
 selection will be shown as a small message indicating the used          
-trackname, groups and the final number of samples between brackets.    
+trackname, groups and the final number of samples between brackets.  
+>If you want to further narrow down your selection with a different track, click on the same pulldown menu. Select the next track that you are interested in and in the pupup check the subset from that track. Don't forget to click on "Redraw Graph"    
 Nb. If you use the 'back' button in your webbroswer, then this selection
 will be lost and needs to be defined again.*                          
                                                                   
@@ -101,16 +87,31 @@ will be lost and needs to be defined again.*
 
 
 
-Step 2: Adapting Kaplan Meier settings; the Kaplan Scan
+Step 2: Kaplan Meier by gene expression; the Kaplan Scan
 ---------------
-
+An often used feature of R2 is the Kaplan Scan (KaplanScan), where an optimum 
+survival cut-off is established based on statistical testing instead 
+of for example just taking the average or median. The Kaplan scanner 
+separates the samples of a dataset into two groups based on the gene 
+expression of one gene. In the order of expression, it will use 
+every increasing expression value as a cutoff to create 2 groups and 
+test the p-value in a logrank test. The highest value is then 
+reported, accompanied by a Kaplan Meier picture. So in short, it 
+will find the most significant expression cutoff for 
+survival analysis. The best possible Kaplan Meier curve is based on 
+the logrank test. However, R2 does also allow you to use median, 
+average and more as a cutoff in assessing whether a gene of interest 
+has the potential to separate patient survival.Of course, such 
+analysis id only possible for datasets where survival data 
+is present.  
+  
 
 
 1.  Select from the main screen either the left menu or in field 3,
     Kaplan Meier " By gene expression. Make sure that "Tumor
     Neuroblastoma public " Versteeg " 88" is selected, for analyses
     choose "Kaplan Scan a single gene" fill in MYCN and use as cut-off
-    method " scan " and click "next".
+    method "scan" and click "Next".
 2.  In the next screen use the prefilled settings and click "next".
 3.  The Kaplan scan generates a Kaplan Meier Plot based on the most
     optimal mRNA cut-off expression level to discriminate between a good
@@ -118,21 +119,22 @@ Step 2: Adapting Kaplan Meier settings; the Kaplan Scan
 4.  The determined separation in groups can be stored in a track and
     used in other analyes, click the "store as track" button
     
-	![Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_GroupPvalue.png "Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
+	![Figure    5: Kaplan Scan for a single gene]
+	(_static/images/KaplanScanASingleGene.png "Figure    5: Kaplan Scan for a single gene")
 	
-	[**Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_GroupPvalue.png)
+	[**Figure    5: Kaplan Scan for a single gene**](_static/images/KaplanScanASingleGene.png)
 	
-5.  To illustrate that with the Kaplan scan more significant biological
+5.  To illustrate that with the Kaplan Scan more significant biological
     subgroups can be found, adjust the cut-off mode to "median" in the
-    settings menu and click "redraw"graph.
+    settings menu and click "Redraw Graph".
     
-	![Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
+	![Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average")
 	
-	[**Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
+	[**Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
 	
 
 
-It is obvious that with the Kaplan Meier scan the group separation is
+It is obvious that with the Kaplan Meier "scan modus" the sample grouping is
 much more significant compared to the median cut-off modus. Try to find
 out whether this is also the case with other cut-off modi.
 
@@ -146,9 +148,9 @@ out whether this is also the case with other cut-off modi.
     could be of help. Alternatively, you could use the "cutoff" field to
     regenerate a Kaplan curve with that separation.
 
-	![Figure6-a: Adjustable settings menu: change p-value cutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-value cutoff.")
+	![Figure 7: Adjustable settings menu: change p-value cutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure 7: Adjustable settings menu: change p-value cutoff.")
 	
-	[**Figure6-a: Adjustable settings menu: change p-value cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
+	[**Figure 7: Adjustable settings menu: change p-value cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
 	
 
 
@@ -159,47 +161,49 @@ Step 3: Kaplan scan for a group of genes
 ---------------
 
 1.  Instead of using the Kaplan Scan for a single gene you can also
-    analyse a group of genes at the same time. Go to Kaplan Meier " by
-    gene expression, select at analysis "Kaplan Scan a group of
-    genes"and click "next"
+    analyse a group of genes at the same time. Go back to the main page ("Go to Main" , upperleft corner), choose Kaplan Meier "by
+    gene expression", select at analysis "Kaplan Scan a group of
+    genes" and click "Next".
 2.  In this example select the apoptosis route at the Kegg path way
     pulldown menu. Leave the "type of survival" at overall survival. In
-    the statistics panel there are several filtering options possible
-    leave these options unchanged
-3.  In the graphics section select "yes" at "Draw heatmap and
+    the statistics panel there are several filtering options possible,
+    leave these options unchanged.
+3.  In the graphics section select "yes" at "Draw heatmap" and
     click next.
-4.  In the next screen R2 had generated a list of the genes within the
+4.  In the next screen R2 has generated a list of the genes within the
     apoptosis pathway which have significant prognostic value. A heatmap
     for this list of genes is generated as well.
 
-	![Figure 7: A list of Kaplan Meier for a group of genes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group of genes")
+	![Figure 8: A list of Kaplan Meier for a group of genes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure 8: A list of Kaplan Meier for a group of genes")
 	
-	[**Figure 7: A list of Kaplan Meier for a group of genes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
+	[**Figure 8: A list of Kaplan Meier for a group of genes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
 	
 
-In Figure 7, clicking on each gene name in the hugo column will result
+In Figure 8, clicking on each gene name in the hugo column will result
 in a new screen or tab with the corresponding Kaplan plot.
 
-![Figure8: Heatmap of the significant prognostic list of genes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list of genes.")
+![Figure 9: Heatmap of the significant prognostic list of genes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure 9: Heatmap of the significant prognostic list of genes.")
 
-[**Figure8: Heatmap of the significant prognostic list of genes.**](_static/images/WorkingWithKaplan_Heatmap.png)
+[**Figure 9: Heatmap of the significant prognostic list of genes.**](_static/images/WorkingWithKaplan_Heatmap.png)
 
-The heatmap shows in this case that 2 or 3 possible biological relevant
+In this case, the heatmap shows 2 or 3 possible biologically relevant
 clusters based on this set of genes. Clicking a spot in the heatmap will
 show directly the gene expression level for all samples via a new
 one-gene-view screen.
 
-5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, select in the adjustable settings table "good_bad_binary"  in the heatmap data pulldown menu.
+5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, click on the go back arrow of your browser and in the Adjustable Settings table set the Kegg Pathway under Gene Filters back to "All". 
 
-![Figure 9: Select binary heatmap.](_static/images/Workingwithkaplan_heatmapadjust.png "Figure8: Heatmap of the significant prognostic list of genes.")
+6. Select in the Graphics panel next to Heatmap data "good_bad (binary)" from the pull down menu. Click Next.
 
-[**Figure 9: Select binary heatmap.**](_static/imagesWorkingwithkaplan_heatmapadjust.png)
+![Figure 10: Select binary heatmap](_static/images/Workingwithkaplan_heatmapadjust.png "Figure 10: Select binary heatmap")
 
- The  heatmap shows this case a clustering based on the GOOD vs BAD prognoses.
+[**Figure 10: Select binary heatmap.**](_static/imagesWorkingwithkaplan_heatmapadjust.png)
+
+ Now the heatmap shows a clustering based on the GOOD vs BAD prognoses.
  
- ![Figure 10: Binary heatmap.](_static/images/Workingwithkaplan_heatmapbadgood.png "Figure8: Heatmap of the significant prognostic list of genes.")
+ ![Figure 11: Binary heatmap](_static/images/Workingwithkaplan_heatmapbadgood.png "Figure 11: Binary heatmap")
 
-[**Figure 10 : Binary heatmap.**](_static/Workingwithkaplan_heatmapbadgood.png)
+[**Figure 11 : Binary heatmap.**](_static/Workingwithkaplan_heatmapbadgood.png)
  
 
 
@@ -210,41 +214,41 @@ Step 4: Kaplan scan on your own cohort
 1.  It may happen that you would like to use the KaplanScan method on a
     dataset that is not available in R2. Especially for this reason we
     have made a user defined version within R2, where you can paste your
-    cohort into R2 and run the procedure. To initiate such a user
-    defined kaplanscan, select the "Kaplan Meier" > "Kaplan Meier by
+    cohort into R2 from e.g. a textfile and run the procedure. To initiate such a user
+    defined Kaplan Scan, select the "Kaplan Meier" > "Kaplan Meier by
     user provide data" option from the left hand menu.
     
-	![Figure    9: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")
+	![Figure    11: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    11: Kaplanscan with user defined    data")
 	
-	[**Figure    9: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
+	[**Figure    11: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
 	
-2.  For the remaining to work as intended, we need to take into account
+2.  For the remaining steps to work as intended, we need to take into account
     a couple of things. You should prepare your data in the following
     four tab- or semicolon(;) separated columns.
-    -   Column1 contains a sample identifiers (without spaces)
-    -   Column2 contains the survival time in days (R2 will convert
-        these )
-    -   Column3 contains the censoring information (Event) and can be
+    -   Column 1 contains a sample identifiers (without spaces)
+    -   Column 2 contains the survival time in days (R2 will convert
+        these)
+    -   Column 3 contains the censoring information (event) and can be
         yes/no or 1/0
-    -   Column4 contains the expression value of the gene of interest
+    -   Column 4 contains the expression value of the gene of interest
         for the kaplanscan
 
 3.  One can easily prepare this information in Microsoft Excel and paste the
     selected columns into the large white paste box. Do take care that
-    we use "." for decimal signs. After you pasted the dataset
-    information, you make the selection for the cutoff option and
+    we use "." for decimal signs.  
+4.  After you pasted the dataset information, you make the selection for the cutoff option and
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
     
-	![Figure    10: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    10: Kaplanscan with user defined data    result")
+	![Figure    12: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    12: Kaplanscan with user defined data    result")
 	
-	[**Figure    10: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
+	[**Figure    12: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
 	
-4.  Once the image has been created, you are able to adapt various
+5.  Once the image has been created, you are able to adapt various
     parameters to optimize appearance of your result.
 
 -----------------------
-  ![](_static/images/R2d2_logo.png)**Did you know that The survival data used in your scan produces a unique signature**
+  ![](_static/images/R2d2_logo.png)**Did you know that the survival data used in your scan produces a unique signature**
 >*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain identical).*
   
 -----------------------
@@ -254,8 +258,8 @@ Step 4: Kaplan scan on your own cohort
 Final remarks / future directions
 ---------------------------------
 
-Everything described in ths chapter can be performed in the R2: genomics analysis and visaulization platform (http://r2platform.com / http://r2.amc.nl) 
+Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
 
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
 
 
