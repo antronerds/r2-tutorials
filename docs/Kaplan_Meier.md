@@ -136,7 +136,7 @@ out whether this is also the case with other cut-off modi.
 
 
 
-1.  Next to the Kaplan plot Figure 4, a small sub-plot is
+6.  Next to the Kaplan plot in Figure 5, a small sub-plot is
     generated (underlined) which represents a graphical representation
     of the p-value plotted against the mRNA expression level values. In
     some cases it could be useful to change the p-value cut-off level
