@@ -7,8 +7,8 @@ Integrative Analysis : WGS/NGS data
 
 Scope
 -----
-- In this part R2 is used to provide information about how Whole Genome Sequencing (WGS) data can be viewed, shared and analysed.
-  This is a specialized topic for which you need access to a dataset having such information. Most likely close collaboration is needed to tailor your own data to your needs.
+- In this part R2 is used to provide information about how Whole Genome Sequencing (WGS) data can be viewed, shared and analyzed.
+  This is a specialized topic for which you need access to a dataset containing such information. Most likely close collaboration is needed to tailor your own data to your needs.
 
 
 
@@ -16,13 +16,13 @@ Scope
 
 1. To view circos plots of the sequenced genomes in R2, select *Static circos files (v3)* in Box 3 (Fig 1).
 	
-	![Figure 1: Choose the ChIPSeq module](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
+	![Figure 1: Choose the Circos plot module](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
-	[**Figure 1: Choose the ChIPSeq module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
+	[**Figure 1: Choose the Circos plot module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
 2. Select a subset of samples by using the menu on the top.
 	- Select *inss (cat 3)* from the select a track (subset) selection box.
-	- Select *st2 (1)*, from the pop-up selecttion window and click 'OK'.
+	- Select *st2 (1)* from the pop-up selection window and click 'OK'.
 	
 	![Figure 2: Select a subset of samples](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
 	
