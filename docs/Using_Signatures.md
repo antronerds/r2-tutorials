@@ -113,18 +113,15 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 3 ).
 
 
-  ![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscorea.png "Figure 3: Generating Geneset signatures B")
+  ![Figure 3: Generating Geneset signatures](_static/images/genesetcorrelation_createscorea.png "Figure 3: Generating Geneset signatures B")
 	
-  [**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscorea.png)
+  [**Figure 3: Generating Geneset signatures**](_static/images/genesetcorrelation_createscorea.png)
 	
-
-
 
 
 
 Step 2: Determine the activity of a signature
 ---------------
-
 
 
 Now that we have created a signature from our 2 lists of genes, we can
@@ -133,14 +130,12 @@ how the MYCN pathway activity signature correlates to the MYCN gene at
 the mRNA level.
 
 
-
 1.  Go back to the "main" page and select "correlate gene with track"
-    from "box 3". In "box 4" we provide "MYCN" and click "Next"
-    (Figure 3.1).
+    from "box 3". In "box 4" we provide "MYCN" and click "Next".
 2.  On the following page, we select our newly created track in the
-    "select a track" dropdown box and click "Next"(Figure 3.2).
+    "select a track" dropdown box and click "Next".
 3.  R2 will now produce a plot where the signature score for every
-    patient is related to the MYCN mRNA expression value (Figure 3.3).
+    patient is related to the MYCN mRNA expression value (Figure 4).
 4.  We can make this look a bit prettier by adapting the color for
     patients on the basis of e.g. MYCN amplification status. To achieve
     this, we go to the "adjustable settings" at the bottom of the page
@@ -152,13 +147,13 @@ the mRNA level.
     endless with some smart questions (Figure 3.5).
 
 
-![Figure 3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
+![Figure 4: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
 	
-[**Figure 3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
+[**Figure 4: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
 	
-![Figure 3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
+![Figure 5: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
 	
-[**Figure 3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
+[**Figure 5: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
 
 
 
