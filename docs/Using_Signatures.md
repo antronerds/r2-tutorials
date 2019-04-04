@@ -46,7 +46,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 
 ![Figure 1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure 1: Signature score: one category vs up/downcategory")
 
-[**Figure : Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
+[**Figure 1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 
 	
 -   What is a genesignature
