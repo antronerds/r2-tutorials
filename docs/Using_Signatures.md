@@ -230,8 +230,8 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
    two signature scores. However, a clear significant correlation between the two signatures is shown the
    biological relevance is less prominent.
    
-![Figure 8: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
-[**Figure 8: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
+ ![Figure 8: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
+ [**Figure 8: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
 
 4. In order to visualise the biological relavance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click adjust settings.
 
