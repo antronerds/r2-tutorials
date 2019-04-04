@@ -233,7 +233,7 @@ for the different tracks. Below, you can see a section of such a relate
 file.
 
 
-
+![Figure 3: Example2](_static/images/DataSetAddition_relatefile.png "Figure2: Example2")
 	
 [**Figure 3: Example2**](_static/images/DataSetAddition_relatefile.png)
 	
