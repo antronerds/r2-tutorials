@@ -44,7 +44,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 \_down; e.g. mycn\_up and mycn\_down).
 
 
-![Figure 1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
+![Figure 1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure 1: Signature score: one category vs up/downcategory")
 
 [**Figure : Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 
@@ -84,9 +84,9 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     "Next".
 5.  In the following screen we select the "functional genesignature"
     subselection and click "Next".
-  ![Figure 2: Generating Geneset signatures A](_static/images/genesetcorrelation_selectheatmapa.png "Figure1: Signature score: one category vs up/downcategory")
+  ![Figure 2: Generating Geneset signatures A](_static/images/genesetcorrelation_selectheatmapa.png "Figure 2: Generating Geneset signatures A")
 
-  [**Figure 2 : Generating Geneset signatures**](_static/images/genesetcorrelation_selectheatmapa.png)
+  [**Figure 2 : Generating Geneset signatures A**](_static/images/genesetcorrelation_selectheatmapa.png)
 	     
 6.  We can now see the lists of genes that are represented in
     this collection. While holding the CTRL key pressed, we can select
@@ -113,7 +113,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 3 ).
 
 
-  ![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscorea.png "Figure2: Generategenesignature")
+  ![Figure 3: Generating Geneset signatures B ](_static/images/genesetcorrelation_createscorea.png "Figure 3: Generating Geneset signatures B")
 	
   [**Figure 3: Generating Geneset signatures B **](_static/images/genesetcorrelation_createscorea.png)
 	
@@ -152,13 +152,13 @@ the mRNA level.
     endless with some smart questions (Figure 3.5).
 
 
-![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure3: Add groupcolouring")
+![Figure 3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
 	
-[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
+[**Figure 3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
 	
-![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure3: Add groupcolouring")
+![Figure 3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
 	
-[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
+[**Figure 3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
 
 
 
@@ -210,14 +210,14 @@ with our signature of interest.
     the "View heatmap of "", providing gene-by-gene information (see
     Figure 4.7).
 
-![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure4: Findgenesignatures")
+![Figure 4: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure 4: Find genesignatures")
 	
-[**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
+[**Figure 4: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
 
 
-![Figure4: Findgenesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure4: Findgenesignatures")
+![Figure 4: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure 4: Find genesignatures")
 	
-[**Figure4: Findgenesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
+[**Figure 4: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
 	
 
 Step 4:  Plot signature scores using the relate 2-tracks module.
