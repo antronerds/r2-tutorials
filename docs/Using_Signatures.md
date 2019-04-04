@@ -188,7 +188,7 @@ with our signature of interest.
 3.  In the next screen select in the source pull downmenu "functional
     genesignature" and "ALL" in the target pulldown menu leave the
     remanining settings to their default and click 'next'(Figure 4.3).
-4.  The gene signature consists of two parts. one set of genes which are
+4.  The gene signature consists of two parts. One set of genes which are
     up regulated by MYCN and one set of down regulated genes. In the
     next screen select both presented gene lists by holding the Ctrl-
     button (see Figure 4.4) and click "next."
@@ -252,9 +252,9 @@ This is clearly shown by the dark purple colored dots where the light purple col
 Step 5:  Drawing lines between samples in a XY plot
 ---------------
 
-Sometimes it can be useful to  indicate a relation between different samples within a dataset. In this case
-it could  be informative to add a line between samples such as in this case connect the shifting samples in time.
-Lets give this a try by defining  the time series samples within this dataset.
+Sometimes it can be useful to indicate a relation between different samples within a dataset. In this case
+it could  be informative to add a line between samples connecting the shifting samples in time.
+Let's give this a try by defining the time series samples within this dataset.
 
 1. Path properties: The appearance of the line can be influenced by providing a color (hex number)
 and a linewidth. The recipe for these adaptations makes use of ':' and works as follows.
@@ -269,7 +269,7 @@ In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gs
 ![](_static/images/R2d2_logo.png)**Did you know box**
   
 
->*R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
+>*R2 uses a couple of markup options for points in a graph, you can enable these in the advanced prescriptions:* 
  - *'dot': places a thick border around the sample*
  - *'circle': Places a ring around the sample (diameter 9)*
  - *'circle_2': Places a ring around the sample (diameter 4)*
