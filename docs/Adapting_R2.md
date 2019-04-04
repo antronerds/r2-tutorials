@@ -356,9 +356,9 @@ Step 5: Upload your own tracks
 
 6. A frequently used approach is using a track based on bins of values.  To avoid labour intensive excel usage you can also use the 	expression treshhold option from the pulldown menu. Each time an expression level has been entered, a new box is generated for the next value. Click next to save the track.
 
-![Figure    27: Setting the custom    track properties.](_static/images/AdaptingR2_Trackdescribed_bin.png "Figure    27: Setting the custom    track properties.")
+![Figure    27: Creating bins.](_static/images/AdaptingR2_Trackdescribed_bin.png "Figure    27: Setting the custom    track properties.")
 	
-[**Figure    27: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackdescribed_bin.png)
+[**Figure    27: Creating bins.**](_static/images/AdaptingR2_Trackdescribed_bin.png)
 
 
 
