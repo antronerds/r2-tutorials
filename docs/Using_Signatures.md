@@ -133,19 +133,18 @@ the mRNA level.
 1.  Go back to the "main" page and select "correlate gene with track"
     from "box 3". In "box 4" we provide "MYCN" and click "Next".
 2.  On the following page, we select our newly created track in the
-    "select a track" dropdown box and click "Next".
+    "select a track" dropdown box and click "Next" (figure 4).
 3.  R2 will now produce a plot where the signature score for every
-    patient is related to the MYCN mRNA expression value (Figure 4).
+    patient is related to the MYCN mRNA expression value (Figure 5).
 4.  We can make this look a bit prettier by adapting the color for
     patients on the basis of e.g. MYCN amplification status. To achieve
     this, we go to the "adjustable settings" at the bottom of the page
     and select "Color by track" from the "ColorMode" and select
     "mycn\_amp" from the "Track for color" option. Click "Adjust
-    Settings" to redraw (Figure 5).
+    Settings" to redraw.
 5.  We can now clearly see that MYCN amplified patients have a higher
     MYCN activity score. The possibilities for numerical tracks are
     endless with some smart questions (Figure 5).
-
 
 ![Figure 4: mycn vs signature score](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
 	
@@ -154,7 +153,6 @@ the mRNA level.
 ![Figure 5: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
 	
 [**Figure 5: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
-
 
 
 
