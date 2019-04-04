@@ -350,13 +350,13 @@ Step 5: Upload your own tracks
     actual graph. Go to the R2 main page again to see how the data of a
     gene will be plotted using the new tracks.
     
-	![Figure    26: Setting the custom    track properties.](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
+ ![Figure    26: Setting the custom    track properties.](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
 	
 	[**Figure    26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)	
 
 6. A frequently used approach is using a track based on bins of value.  To avoid labour intensive excel usage you can also the 	expression treshhold option from the pulldown menu. Each time an expression level has been entered, a new box is generated for the next value. Click next to save the tracks.
 
-![Figure    27: Setting the custom    track properties.](_static/images/AAdaptingR2_Trackdescribed_bin.png"Figure    27: Setting the custom    track properties.")
+![Figure    27: Setting the custom    track properties.](_static/images/AdaptingR2_Trackdescribed_bin.png"Figure    27: Setting the custom    track properties.")
 	
 [**Figure    27: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackdescribed_bin.png)
 
