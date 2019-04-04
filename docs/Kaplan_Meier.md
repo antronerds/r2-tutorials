@@ -72,14 +72,11 @@ and a mycn amplification, in this cohort.
 
 ![Adjusting Kaplan graphics](_static/images/WorkingWithKaplan_Adjust.png)                           
 
-> *When you are defining a subsection of the samples, you can execute      
-multiple selections after each other. To use the selection (subset), you
-need to select the subset in the popup. A successful subset        
-selection will be shown as a small message indicating the used          
-trackname, groups and the final number of samples between brackets.  
->If you want to further narrow down your selection with a different track, click on the same pulldown menu. Select the next track that you are interested in and in the pupup check the subset from that track. Don't forget to click on "Redraw Graph"    
-Nb. If you use the 'back' button in your webbroswer, then this selection
-will be lost and needs to be defined again.*                          
+>*You can select a subset from your samples by one or more tracks. Click on the pulldown of 'Select a track (subset)' and click on the track by which you want to define the subset. In the popup you need to check the box of your preferred subset(s). A successful subset selection will be shown as a small message indicating the used trackname, groups and the final number of samples between brackets.*  
+>
+>*If you want to further narrow down your selection with a different track, click on the same pulldown menu. Select the next track that you are interested in and in the popdown, check the preferred subset(s) from that track. Don't forget to click on "Redraw Graph" after you made your final selection to redraw the Kaplan Meijer curve.*  
+>
+>*Nb. If you use the 'back' button in your webbroswer, then this selection will be lost and needs to be defined again.*                          
                                                                   
 ----------
 
@@ -108,9 +105,9 @@ is present.
 
 
 1.  Select from the main screen either the left menu or in field 3,
-    Kaplan Meier " By gene expression. Make sure that "Tumor
-    Neuroblastoma public " Versteeg " 88" is selected, for analyses
-    choose "Kaplan Scan a single gene" fill in MYCN and use as cut-off
+    Kaplan Meier "by gene expression". Make sure that "Tumor
+    Neuroblastoma public Versteeg 88" is selected, for analysis
+    choose "Kaplan Scan a single gene", fill in MYCN and use as cut-off
     method "scan" and click "Next".
 2.  In the next screen use the prefilled settings and click "next".
 3.  The Kaplan scan generates a Kaplan Meier Plot based on the most
@@ -119,8 +116,7 @@ is present.
 4.  The determined separation in groups can be stored in a track and
     used in other analyes, click the "store as track" button
     
-	![Figure    5: Kaplan Scan for a single gene]
-	(_static/images/KaplanScanASingleGene.png "Figure    5: Kaplan Scan for a single gene")
+	![Figure    5: Kaplan Scan for a single gene](_static/images/KaplanScanASingleGene.png "Figure    5: Kaplan Scan for a single gene")
 	
 	[**Figure    5: Kaplan Scan for a single gene**](_static/images/KaplanScanASingleGene.png)
 	
@@ -128,9 +124,9 @@ is present.
     subgroups can be found, adjust the cut-off mode to "median" in the
     settings menu and click "Redraw Graph".
     
-	![Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average")
+	![Figure    6: Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average")
 	
-	[**Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
+	[**Figure    6: Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
 	
 
 
@@ -191,7 +187,7 @@ clusters based on this set of genes. Clicking a spot in the heatmap will
 show directly the gene expression level for all samples via a new
 one-gene-view screen.
 
-5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, click on the go back arrow of your browser and in the Adjustable Settings table set the Kegg Pathway under Gene Filters back to "All". 
+5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, click on the back arrow of your browser and in the Adjustable Settings table set the Kegg Pathway under Gene Filters back to "All". 
 
 6. Select in the Graphics panel next to Heatmap data "good_bad (binary)" from the pull down menu. Click Next.
 
@@ -216,7 +212,7 @@ Step 4: Kaplan scan on your own cohort
     have made a user defined version within R2, where you can paste your
     cohort into R2 from e.g. a textfile and run the procedure. To initiate such a user
     defined Kaplan Scan, select the "Kaplan Meier" > "Kaplan Meier by
-    user provide data" option from the left hand menu.
+    user provided data" option from the left hand menu.
     
 	![Figure    11: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    11: Kaplanscan with user defined    data")
 	
