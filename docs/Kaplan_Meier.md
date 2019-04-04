@@ -244,7 +244,7 @@ Step 4: Kaplan scan on your own cohort
     parameters to optimize appearance of your result.
 
 -----------------------
-  ![](_static/images/R2d2_logo.png)**Did you know that the survival data used in your scan produces a unique signature**
+  ![](_static/images/R2d2_logo.png)**Did you know that the survival data used in your scan produces a unique signature?**
 >*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain identical).*
   
 -----------------------
@@ -254,7 +254,7 @@ Step 4: Kaplan scan on your own cohort
 Final remarks / future directions
 ---------------------------------
 
-Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
+Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com or http://r2.amc.nl) 
 
 We hope that this tutorial has been helpful, the R2 support team.
 
