@@ -80,21 +80,6 @@ Step 2: Choose annotation track as grouping variable
 	
 	[**Figure 2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/DiffentialExpression_Select.png)
 	
-------------------
-![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
-
-> *Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation (track). The analysis will only be performed on the selected subset. In Fig 2 the track gender was selected that enables filtering on gender. Be sure to click the red confirm link to set the filter, or make further
-> selections. 
->
-> Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one. Don't forget the red "confirm" link before switching tracks. The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*         
-
-
-![Adjusting differential expression](_static/images/DiffentialExpress_Adjust.png)
-                           
-----------
-
-
-
 3.  In the next window a selection of the groups can be made. Only the
     selected group(s) will be displayed in the graph; the "one way
     Anova"/"student T test" test will be performed for data on the selected
@@ -116,7 +101,7 @@ Step 3: Anova results
 
 R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **O**f **VA**riance is a statistical test that calculates whether the means of variables differ between two or more groups. In the case of 2 groups, this is identical to the student T-test. ANOVA can be considered a sound test when the variables are normally distributed and samples are independent. More information can be found here: [](http://en.wikipedia.org/wiki/One-way_ANOVA)<http://en.wikipedia.org/wiki/One-way_ANOVA>. A simple example calculation can be found here: [](http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example)<http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example>.  
 
-1. Check the graph and the information that is displayed above in the resulting window. R2 displays by default the mRNA expression of the samples in a splitted plot in which per group the samples are ordered  with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
+1. Check the graph and the information that is displayed above in the resulting window. For a nicely ordered graph, you can adjust the settings in the menu below to "Track and Gene Sort" (Don't forget to click on Adjust Settings afterwards!). R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
    
 
 	![Figure  4: Result of the one-way Anova test for the Neuroblastoma 88 samples.](_static/images/DiffentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
@@ -128,9 +113,9 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
     'ColorMode' to 'Color by Track'
 4.  Click 'Adjust Settings' (Figure 5). The resulting graph is adapted accordingly 
 
-	![Figure 5: Adapting the Graphtype to BarPlot and set Color byTrack](_static/images/DiffentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color byTrack")
+	![Figure 5: Adapting the Graphtype to BarPlot and set Color by Track](_static/images/DiffentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
 	
-	[**Figure 5: Adapting the Graphtype to BarPlot and set Color byTrack**](_static/images/DiffentialExpression_AdaptGraph.png)
+	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DiffentialExpression_AdaptGraph.png)
 	
 
  ![Figure    6: The same data as a    Barplot](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
@@ -138,6 +123,18 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 	[**Figure    6: The same data as a    Barplot**](_static/images/DiffentialExpression_Barplot.png)
 
 
+------------------
+![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
+
+> *Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation (track). The analysis will only be performed on the selected subset. In the figu the track gender was selected that enables filtering on gender. Be sure to click the red confirm link to set the filter, or make further
+> selections. 
+>
+> Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one. Don't forget the red "confirm" link before switching tracks. The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*         
+
+
+![Adjusting differential expression](_static/images/DiffentialExpress_Adjust.png)
+                           
+----------
 
 
 Step 4: Adapting grouped plots
