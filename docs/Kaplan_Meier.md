@@ -214,9 +214,9 @@ Step 4: Kaplan scan on your own cohort
     defined Kaplan Scan, select the "Kaplan Meier" > "Kaplan Meier by
     user provided data" option from the left hand menu.
     
-	![Figure    11: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    11: Kaplanscan with user defined    data")
+	![Figure    12: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    12: Kaplanscan with user defined    data")
 	
-	[**Figure    11: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
+	[**Figure    12: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
 	
 2.  For the remaining steps to work as intended, we need to take into account
     a couple of things. You should prepare your data in the following
@@ -236,9 +236,9 @@ Step 4: Kaplan scan on your own cohort
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
     
-	![Figure    12: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    12: Kaplanscan with user defined data    result")
+	![Figure    13: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    13: Kaplanscan with user defined data    result")
 	
-	[**Figure    12: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
+	[**Figure    13: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
 	
 5.  Once the image has been created, you are able to adapt various
     parameters to optimize appearance of your result.
