@@ -28,7 +28,7 @@ Step 1: Selecting t-SNE maps
 
 Let’s have a look at a t-SNE result to see what we can learn from this dimensionality reduction algorithm. The analysis is most informative with large datasets, and actually requires more than 16 samples as an absolute minimum (in R2). We will first have a look at the CCLE (cancer cell line encyclopedia) dataset which is comprised of more than 900 cell lines from various cancers.
 
-1. In the left menu click on t-SNE maps and select in the pull down menu , 'Cellline CCLE Cancer Encyclopedia - Broad - 917 - MAS5.0 - u133p2'
+1. In the left menu click on t-SNE maps and select in the pull down menu , 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2 '
 2. R2 will assess the result and provide a button to start exploring the result. 
 
   ![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_select_preprocessed.png "Figure 1:Selecting t-SNE maps")
@@ -44,7 +44,7 @@ Step 2: Annotating t-SNE maps
 In this screen the t-SNE result is plotted with the highest perplexity, or a preset value that has been selected upon manual curation. There is no strict rule to select the ‘best’ perplexity. In most cases the highest perplexity is not the best choice to investigate the cluster further.  If the perplexity result is something other than 23, then select this perplexity value. We can see structure in the location of the various cell lines. Now we would like to look at the annotations that are available for the cell lines. 
 
 
-1. In the 'adjustable settins box' set "perplexity' to the value of 23.
+1. In the 'adjustable settings box' set "perplexity' to the value of 23.
 
 2. Select ‘color by track’ from the ‘colormode’ and choose ‘primary site’. Press 'next' to redraw the image.
 
