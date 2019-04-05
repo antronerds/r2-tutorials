@@ -193,20 +193,12 @@ Final remarks / future directions
 
 
 Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact r2 support
-(r2-support@amc.uva.nl).
-
-
-
-
-
-We hope that this tutorial has been helpful,
-
-
-
-
-
-The R2 support team.
+into any quirks or annoyances don't hesitate to contact R2 support
+(r2-support@amc.uva.nl).  
+  
+  
+We hope that this tutorial has been helpful,  
+the R2 support team.
 
 
 
