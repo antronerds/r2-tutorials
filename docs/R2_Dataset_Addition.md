@@ -329,17 +329,14 @@ in R2 with the following name "Tumor Neuroblastoma public - Versteeg -
 
 
 1\. **Dataset Class**. For Human datasets, one can choose from the
-classes defined in the table below.
+*classes* defined below in italic:
 
-
-|  **Class**  | **Description**  |
-| ----------- | ---------------- |
-| *Cellline* | Usually used for cell line panels, where no intervention was applied |
-| *Disease*  | Datasets, where a specific disease has been investigated, other than cancer |
-| *Exp*      | Experiment datasets. Usually cell line models in which interventions have been applied (Gene transfection, rna interference etc) |
-| *Mixed*    | If a dataset makes used of multiple items, then it becomes a mixed set |
-| *Normal*   | The profiling of healthy normal material |
-| *Tumor*    | Datasets which are composed of a specific tumor type belong in this category |
+* *Cellline*: Usually used for cell line panels, where no intervention was applied
+* *Disease*: Datasets, where a specific disease has been investigated, other than cancer
+* *Exp*: Experiment datasets. Usually cell line models in which interventions have been applied (Gene transfection, rna interference etc)
+* *Mixed*: If a dataset makes used of multiple items, then it becomes a mixed set
+* *Normal*: The profiling of healthy normal material
+* *Tumor*: Datasets which are composed of a specific tumor type belong in this category
 
 
 2\. **Tissue**. Depending a little on the choice of class, usually a
