@@ -281,8 +281,8 @@ For example, the file below would be named "overall.txt". Subsequent
 Kaplan curves would get the name "overall survival" on the y-axis.
 
 
-	
-[**Figure 4: Example3**](_static/images/DataSetAddition_survival.png)
+![](_static/images/DataSetAddition_survival.png "Figure 3: Example 3")
+[**Figure 3: Example3**](_static/images/DataSetAddition_survival.png)
 
 **Time series graphs:** When the samples are annotated with the
 appropriate tracks, then R2 can also present datasets as time series.
@@ -300,7 +300,7 @@ annotations should provide a grouping label (which would be useful for
 you). In case of doubt on the usage of these annotations, do not
 hesitate to get in contact with us via r2-support.
 
-![](_static/images/DataSetAddition_timeserie.png "Figure2: Example2")
+![](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
 [**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
 	
 
