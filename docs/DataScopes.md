@@ -84,6 +84,6 @@ then also please get in contact with us via the support address.
 
 
 
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
 
 
