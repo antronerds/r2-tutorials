@@ -62,7 +62,7 @@ Step 1: Choosing the time series module and data
     experiment we make use of the "Time-series" module. Logon to R2 and
     select Time series in left menu panel of R2.
     
-	![Figure 1: Single selection in the Time-series    module](_static/images/AnalysingTime_Select.png "Figure    1: Single selection in the Time-series    module")
+	![](_static/images/AnalysingTime_Select.png "Figure    1: Single selection in the Time-series    module")
 	
 	[**Figure    1: Single selection in the Time-series    module**](_static/images/AnalysingTime_Select.png)
 	
@@ -85,7 +85,7 @@ Step 1: Choosing the time series module and data
     click "next". In the adjustable settings menu, leave all the default
     settings and click "GO".
     
-	![Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "Figure    2: Timeseries    selection screen.")
+	![](_static/images/AnalysingTime_SelectSeries.png "Figure    2: Timeseries    selection screen.")
 	
 	[**Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
 		
@@ -99,7 +99,7 @@ Step 1: Choosing the time series module and data
 	Hovering over the individual timepoint reveals
 	additional information.
 	    
-	![Figure    3: Expression levels of the HMOX1 gene during a time course    experiment](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
+	![](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
 	
 	[**Figure    3: Expression levels of the HMOX1 gene during a time course    experiment**](_static/images/AnalysingTime_HMOX1.png)
 	
@@ -108,7 +108,7 @@ Step 1: Choosing the time series module and data
     graph by providing the BCL6 gene in the right upper corner and click
     "Search Gene".
     
-![Figure    4: Probeset verification and    Adjustable Settings.](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
+![](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
 	
 [**Figure    4: Probeset verification and    Adjustable Settings.**](_static/images/AnalysingTime_Probeset.png)
 	
@@ -152,7 +152,7 @@ Step 2: Finding regulated genes in a time series experiment
     of filtering options to find the novel regulated genes. Some of the
     options are already set.
     
-	![Figure    5: The time series    table builder.](_static/images/AnalysingTime_Tablebuild.png "Figure    5: The time series    table builder.")
+	![](_static/images/AnalysingTime_Tablebuild.png "Figure    5: The time series    table builder.")
 	
 	[**Figure    5: The time series    table builder.**](_static/images/AnalysingTime_Tablebuild.png)
 	
@@ -186,7 +186,7 @@ Step 2: Finding regulated genes in a time series experiment
     average expression level.
     Select and set the options as depicted in Figure 5 and click "next".
     
-	![Figure    6: Up and down regulated genes table sorted on best fold    change](_static/images/AnalysingTime_SortedTable.png "Figure    6: Up and down regulated genes table sorted on best fold    change")
+	![](_static/images/AnalysingTime_SortedTable.png "Figure    6: Up and down regulated genes table sorted on best fold    change")
 	
 	[**Figure    6: Up and down regulated genes table sorted on best fold    change**](_static/images/AnalysingTime_SortedTable.png)
 	
@@ -195,7 +195,7 @@ Step 2: Finding regulated genes in a time series experiment
     series experiment. Clicking on a probeset link generates a single
     gene time series plot as shown in Figure 7.
     
-	![Figure    7:    regulated gene.](_static/images/AnalysingTime_RegulatedGene.png "Figure    7:    regulated gene.")
+	![](_static/images/AnalysingTime_RegulatedGene.png "Figure    7:    regulated gene.")
 	
 	[**Figure    7:    regulated gene.**](_static/images/AnalysingTime_RegulatedGene.png)
 	
@@ -204,12 +204,12 @@ Step 2: Finding regulated genes in a time series experiment
     "diagram button re-direct to the automatically generated Venn
     Diagram representing the intersection of the genesets.
     
-	![Figure    8: Top    buttons](_static/images/AnalysingTime_Button.png "Figure    8: Top    buttons")
+	![](_static/images/AnalysingTime_Button.png "Figure    8: Top    buttons")
 	
 	[**Figure    8: Top    buttons**](_static/images/AnalysingTime_Button.png)
 	
     
-![Figure    9: Time series Venn    diagram](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
+![](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
 	
 [**Figure    9: Time series Venn    diagram**](_static/images/AnalysingTime_Venn.png)
 	
@@ -239,7 +239,7 @@ Step 3: Using the regulated genes in further analyses
     Temporary option at "Where" and remember the name of the stored
     genecategory for the next step.
     
-	![Figure    10: : Store a gene    category](_static/images/AnalysingTime_CustomCat.png "Figure    10: : Store a gene    category")
+	![](_static/images/AnalysingTime_CustomCat.png "Figure    10: : Store a gene    category")
 	
 	[**Figure    10: : Store a gene    category**](_static/images/AnalysingTime_CustomCat.png)
 	
@@ -254,7 +254,7 @@ Step 3: Using the regulated genes in further analyses
     u133p2 . In field 3 select "View Geneset" at "Select type of
     analyses" and click "next".
     
-	!['Figure    11: Geneview    adjustable settings.](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
+	![](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
 	
 	[**'Figure    11: Geneview    adjustable settings.**](_static/images/AnalysingTime_Geneview.png)
 	
@@ -266,7 +266,7 @@ Step 3: Using the regulated genes in further analyses
 6.  Choose the temporary Genecategory generated via the Timeserie
     experiments, the track b-r\_grade and click "next".
     
-	![Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.](_static/images/AnalysingTime_Heatmap.png "Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.")
+	![](_static/images/AnalysingTime_Heatmap.png "Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.")
 	
 	[**Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.**](_static/images/AnalysingTime_Heatmap.png)
 	
@@ -307,7 +307,7 @@ Step 4: Correlate with other datasets
     overlay of the results with the list generated in the " time
     series module".
     
-	![Figure    14: Part of correlate with    dataset genelist.](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
+	![](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
 	
 	[**Figure    14: Part of correlate with    dataset genelist.**](_static/images/AnalysingTime_TableCorrelate.png)
 	
@@ -332,7 +332,7 @@ Step 5: In a K-means analysis
     "Genecategory" at the clustering section select '10x10" at "numbers
     of draw" and click "next".
     
-	![Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.](_static/images/AnalysingTime_heatmap2.png "Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.")
+	![](_static/images/AnalysingTime_heatmap2.png "Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.")
 	
 	[**Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.**](_static/images/AnalysingTime_heatmap2.png)
 	

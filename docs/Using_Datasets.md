@@ -30,7 +30,7 @@ Step 1: Selecting a dataset
     you through all the steps necessary to perform a task. In field
     **1** select “single dataset”, in field **2** choose "change"
 	
-	![Figure 1: In the main screen: Change dataset](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
+	![](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
 	
 	[**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
 	
@@ -40,7 +40,7 @@ Step 1: Selecting a dataset
 
 
 
-![Figure 2: Selecting datasets from the pull down menu on the main screen](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
+![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
 
 [**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
@@ -64,7 +64,7 @@ Step 2: Advanced selection of datasets
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
 	
-	![Figure 3: Advanced selection of datasets](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
+	![](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
 	
 	[**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
 	
@@ -75,7 +75,7 @@ Step 2: Advanced selection of datasets
     from the pull down menu. This returns all the datasets containing
     the search term ‘Neuro’ and having more than 50 samples.
 	
-	![Figure 4: Advanced selection panel](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure 4: Advanced selection panel")
+	![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure 4: Advanced selection panel")
 	
 	[**Figure 4: Advanced selection panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
 	
@@ -89,7 +89,7 @@ Step 2: Advanced selection of datasets
     Note: Clicking on an exclamation mark also shows detailed
     dataset information.
 	
-	![Figure 5: Additional Dataset Info](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure 5: Additional Dataset Info")
+	![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure 5: Additional Dataset Info")
 	
 	[**Figure 5: Additional Dataset Info**](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
 	
@@ -97,7 +97,7 @@ Step 2: Advanced selection of datasets
     different options become available compared to the “single
     dataset” option.
 	
-	![Figure 6: Selecting across datasets](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
+	![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
 	
 	[**Figure 6: Selecting across datasets**](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
 	

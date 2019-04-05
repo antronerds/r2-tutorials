@@ -16,7 +16,7 @@ Scope
 
 1. To view circos plots of the sequenced genomes in R2, select *Static circos files (v3)* in Box 3 (Fig 1).
 	
-	![Figure 1: Choose the Circos plot module](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
+	![](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
 	[**Figure 1: Choose the Circos plot module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
 	
@@ -24,7 +24,7 @@ Scope
 	- Select *inss (cat 3)* from the select a track (subset) selection box.
 	- Select *st2 (1)* from the pop-up selection window and click 'OK'.
 	
-	![Figure 2: Select a subset of samples](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
+	![](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
 	
 	[**Figure 2: Select a subset of samples**](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
 	
@@ -33,7 +33,7 @@ Scope
 	- N482 indicates the sample_id, TL indicates that the circos plot shows data of the **T**umor compared to the **L**ymphocytes DNA sequence data.
 	- Click on the N482TL tile and go to the newly opened tab of your browser.
 
-	![Figure 3: Circos plot](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
+	![](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
 	
 	[**Figure 3: Circos plot**](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
 	
@@ -45,7 +45,7 @@ Scope
 	4.	Hight quality non structural somatic variants.
 	5.	A link out to the genome browsers showing a cgh-like plot of the sequencing data of a region of interest.
 
-	![Figure 4: Cgh-like plot in the Genome Browser](_static/images/IntAnalysis_WGS_CircosDetailView.png)
+	![](_static/images/IntAnalysis_WGS_CircosDetailView.png)
 	
 	[**Figure 4: Cgh-like plot in the Genome Browser**](_static/images/IntAnalysis_WGS_CircosDetailView.png)
 	
@@ -54,7 +54,7 @@ Scope
 	- Click on *view* inside the *link* column.
 	- This opens a double genomebrowser view showing both sides of the selected structural variation.
 
-	![Figure 5: Structural variant in Genome Browser](_static/images/IntAnalysis_WGS_StucVarDuoPlot.png)
+	![](_static/images/IntAnalysis_WGS_StucVarDuoPlot.png)
 	
 	[**Figure 5: Structural variant in Genome Browser**](_static/images/IntAnalysis_WGS_StucVarDuoPlot.png)
 
@@ -62,13 +62,13 @@ Scope
    Here you will be able to use the zoom buttons and select extra data to plot with the cgh-like scatterplot and junction information.
    For this sample there is also affymetrix gene expression data available. Here the zscore is shown above the cgh-like plot.
 
-	![Figure 6: Including Array data in the scatterplot](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
+	![](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
 	
 	[**Figure 6: Including Array data in the scatterplot**](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
 	
 5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you wil be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series. The investigated tumor is highlighted with a red circle.
 
-	![Figure 7: FOXR1 in the tumorseries](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
+	![](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 	
 	[**Figure 7: FOXR1 in the tumorseries**](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 

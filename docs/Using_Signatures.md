@@ -44,7 +44,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 \_down; e.g. mycn\_up and mycn\_down).
 
 
-![Figure 1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure 1: Signature score: one category vs up/downcategory")
+![](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure 1: Signature score: one category vs up/downcategory")
 
 [**Figure 1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 
@@ -84,7 +84,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     "Next".
 5.  In the following screen we select the "functional genesignature"
     subselection and click "Next".
-  ![Figure 2: Generating Geneset signatures A](_static/images/genesetcorrelation_selectheatmapa.png "Figure 2: Generating Geneset signatures A")
+  ![](_static/images/genesetcorrelation_selectheatmapa.png "Figure 2: Generating Geneset signatures A")
 
   [**Figure 2 : Generating Geneset signatures A**](_static/images/genesetcorrelation_selectheatmapa.png)
 	     
@@ -113,7 +113,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 3 ).
 
 
-  ![Figure 3: Generating Geneset signatures](_static/images/genesetcorrelation_createscorea.png "Figure 3: Generating Geneset signatures B")
+  ![](_static/images/genesetcorrelation_createscorea.png "Figure 3: Generating Geneset signatures B")
 	
   [**Figure 3: Generating Geneset signatures**](_static/images/genesetcorrelation_createscorea.png)
 	
@@ -146,11 +146,11 @@ the mRNA level.
     MYCN activity score. The possibilities for numerical tracks are
     endless with some smart questions (Figure 5).
 
-![Figure 4: mycn vs signature score](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
+![](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 3: Add groupcolouring")
 	
 [**Figure 4: mycn vs signature score**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
 	
-![Figure 5: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
+![](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 3: Add groupcolouring")
 	
 [**Figure 5: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
 
@@ -203,12 +203,12 @@ with our signature of interest.
     the "View heatmap of "", providing gene-by-gene information (see
     Figure 7).
 
-![Figure 6: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure 4: Find genesignatures")
+![](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png "Figure 4: Find genesignatures")
 	
 [**Figure 6: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va.png)
 
 
-![Figure 7: Find genesignatures](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure 4: Find genesignatures")
+![](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure 4: Find genesignatures")
 	
 [**Figure 7: Find genesignatures**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
 	
@@ -230,12 +230,12 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
    two signature scores. However, a clear significant correlation between the two signatures is shown the
    biological relevance is less prominent.
    
- ![Figure 8: Relate 2 tracks using genesignatures](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
+ ![](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
  [**Figure 8: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
 
 4. In order to visualise the biological relavance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click adjust settings.
 
-![Figure 9: Relate 2 tracks using genesignatures color by track](_static/images/genesignature_mixed52_trackcolor.png "Figure 6: Color by track")
+![](_static/images/genesignature_mixed52_trackcolor.png "Figure 6: Color by track")
 [**Figure 9: Relate 2 tracks using genesignatures color by track **](_static/images/genesignature_mixed52_trackcolor.png)
 
 5. In this new plot, mes defined cell lines cluster together with the neural crest derived lines in the left upper part of the plot
@@ -256,7 +256,7 @@ and a linewidth. The recipe for these adaptations makes use of ':' and works as 
 sample1,sample2:colorcode:width.
 In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
  gsm2413254, gsm2413255, gsm2413256:#222222' and click adjust Settings
- ![Figure 10: Connecting samples](_static/images/genesignature_mixed52_sample_lines.png "Figure 7: Connection samples")
+ ![](_static/images/genesignature_mixed52_sample_lines.png "Figure 7: Connection samples")
 [**Figure 10: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
 2. In figure 10 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines in this dataset.
 

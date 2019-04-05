@@ -33,7 +33,7 @@ Step 1: Selecting multiple datasets
 1.  Select "Across Datasets" in field 1, by default the "megasampler" option
     will be selected in field 2 and click "next".
     
-	![Figure 1: Using across datasets](_static/images/MultipleDatasets_across.png "Figure 1: Using across datasets")
+	![](_static/images/MultipleDatasets_across.png "Figure 1: Using across datasets")
 	
 	[**Figure 1: Using across datasets**](_static/images/MultipleDatasets_across.png)
 	
@@ -44,7 +44,7 @@ Step 1: Selecting multiple datasets
 --------------------------------------------------------------------------
 ![](_static/images/R2d2_logo.png)**Did you know that R2 harbours different types of microarray platforms**
 
-![Multiple dataset selectiong](_static/images/MultipleDatasets_Select.png)             
+![](_static/images/MultipleDatasets_Select.png)             
                                                                           
 > *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm.*
 
@@ -55,7 +55,7 @@ Step 1: Selecting multiple datasets
     (Expression Project for Oncology (expO)) to pre-select a series of
     tumor datasets. Click "next".
     
-	![Figure 2: Select a preset](_static/images/MultipleDatasets_Preset.png "Figure 2: Select a preset")
+	![](_static/images/MultipleDatasets_Preset.png "Figure 2: Select a preset")
 	
 	[**Figure 2: Select a preset**](_static/images/MultipleDatasets_Preset.png)
 	
@@ -69,15 +69,15 @@ Step 1: Selecting multiple datasets
     gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
     Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     
-	![Figure3: Megasampler adjustment selection](_static/images/megasampler_selectsdatasetsgroups.png "Figure3: Megasampler adjustment selection")
+	![](_static/images/megasampler_selectsdatasetsgroups.png "Figure3: Megasampler adjustment selection")
 	
 	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler_selectsdatasetsgroups.png)
 	
 
 --------------------------------------------------------------------------
-![](_static/images/R2d2_logo.png)]**Did you know that private datasets linked to a specific user are indicated with a green background color**
+![]**Did you know that private datasets linked to a specific user are indicated with a green background color**
 
-![Add a private dataset](_static/images/MultipleDatasets_Didyou1.png)
+![](_static/images/MultipleDatasets_Didyou1.png)
 
 > *Add a private dataset to the (pre) selected datasets.*
 
@@ -101,7 +101,7 @@ Step 2: Viewing a gene in multiple datasets
 2.  For now change the color for the datasets as indicated in Figure 4
     and click "next".
     
-	![Figure 4: Adjusting the megasampler graph.](_static/images/MultipleDatasets_AdjustGraph.png "Figure 4: Adjusting the megasampler graph.")
+	![](_static/images/MultipleDatasets_AdjustGraph.png "Figure 4: Adjusting the megasampler graph.")
 	
 	[**Figure 4: Adjusting the megasampler graph.**](_static/images/MultipleDatasets_AdjustGraph.png)
 	
@@ -110,7 +110,7 @@ Step 2: Viewing a gene in multiple datasets
     calculates whether the means of the expression levels between the
     selected datasets are significantly different.
 
-	![Figure 5: Anova test for the selected datasets.](_static/images/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
+	![](_static/images/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
 	
 	[**Figure 5: Anova test for the selected datasets.**](_static/images/MultipleDatasets_Anova.png)
 	
@@ -121,7 +121,7 @@ the signals of the separate samples are plotted; a quickly interpretable
 graph.
 
 
-![Figure 6: MYCN expression levels in 15 datasets covering 2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
+![](_static/images/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
 
 [**Figure 6: MYCN expression levels in 15 datasets covering 2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
 
@@ -131,7 +131,7 @@ transform the data to logical values (none) set "graphtype" on barplot
 and click on "redraw at the bottom of the screen.
 
 
-![Figure 7: Different Megasampler graphical representations](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
+![](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
 	
 [**Figure 7: Different Megasampler graphical representations**](_static/images/MultipleDatasets_Representations.png)
 	
@@ -164,7 +164,7 @@ the previous screen, it's now possible to skip subgroups from your
 dataset or, more interestingly, apply different colors for groups within a
 dataset (see Figure 8).
 
-![Figure 8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
+![](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
 	
 [**Figure 8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
 	
@@ -202,7 +202,7 @@ comparison).
     datasets of the same platform in R2. This module is discussed in the
     Correlate Genes tutorial.
     
-	![Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.](_static/images/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+	![](_static/images/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
 	
 	[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
 	
@@ -220,7 +220,7 @@ single dataset but for a user defined selection of multiple datasets. However, k
 select datasets of the same platform,  the most abundant datasets are of the Affymetrix u133p2 platform. As explained
 before not every platform can be used for the megasearch due to the normalisation procedure which has been used.
 
- ![Figure 10: Select the megasearch option.](_static/images/Megasampler_Select1.png "Figure 10: Megasearch select.")
+ ![](_static/images/Megasampler_Select1.png "Figure 10: Megasearch select.")
 	
  [**Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/Megasampler_Select1.png)
 	
@@ -231,14 +231,14 @@ before not every platform can be used for the megasearch due to the normalisatio
 
 3. Select the datasets you want to use for the analyses, in this example we have selected Normal Brain , AML and Medulloblastoma datasets, click next.
 
- ![Figure 11: Dataset selection.](_static/images/megasampler_selectsdatasets.png "Dataset selection.")
+ ![](_static/images/megasampler_selectsdatasets.png "Dataset selection.")
 
  [**Figure 11:  Dataset selection.**](_static/images/megasampler_selectsdatasets.png)
 
 
 4. For the megasearch module only two groups can be used to find the statistical differently expressed genes.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at the default setting ('NO') for the datasets and click
 next. 
- ![Figure 12: Assign the statistical group for testing.](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
+ ![](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
 
  [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler_selectsdatasetsgroups.png)
  5. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for gene filtering.  In the 'Hugoonce Dataset' pulldown menu the first selected dataset will be used as target dataset for probeset usage.
@@ -250,14 +250,14 @@ Medulloblastoma datasets depending of the subgroups 242128_at has the highest ex
 or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the analysis of gene expression data , leave the statistics at moderate_t_statistics and click next.
 Two tables of genes are generated with the highest significantly expressed genes for group 1 and group 2. In the left genelist (group 2) we find in the top 10 ,
 the OTX2 gene which is accociated with medulloblastoma.
- ![Figure 13: OTX2 BoxDotplot.](_static/images/megasampler_otx2fig.png "Figure 12: Figure 13: OTX2 BoxDotplot.")
+ ![](_static/images/megasampler_otx2fig.png "Figure 12: Figure 13: OTX2 BoxDotplot.")
 
  [**Figure 13: OTX2 BoxDotplot**](_static/images/megasampler_otx2fig.png)
 
 6. In the previous Adjustable settings box, where the grouping parameters were assigned,  you can also split datasets based on their subgoups (tracks) and 
 incorparate the subgroups in different test groups as illustrated in Figure 14.
 
-![Figure 14: Assign the statistical subgroup for testing.](_static/images/megasampler_subgroup.png "Figure 14: Assign the statistical subgroup for testing.")
+![](_static/images/megasampler_subgroup.png "Figure 14: Assign the statistical subgroup for testing.")
 
  [**Figure 14: Assign the statistical subgroup for testing**](_static/images/megasampler_subgroup.png)
 

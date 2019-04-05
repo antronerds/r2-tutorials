@@ -27,7 +27,7 @@ Scopes can be grouped by different 'types' like 'paper' or 'tumor type'. Dependi
 more restricted scopes can be represented in your account. We will start by selecting a 'dataset'
 restriction Scope by clicking on 'tumor' > 'neuroblastoma'.
     
-	![Figure    1: Selecting a Data Scope.](_static/images/DataScope_select_a_datascope.png "Figure    1: Selecting a Data Scope.")
+	![](_static/images/DataScope_select_a_datascope.png "Figure    1: Selecting a Data Scope.")
 	
 	[**Figure    1: Selecting a Data Scope.**](_static/images/DataScope_select_a_datascope.png)
 	
@@ -39,7 +39,7 @@ sets of a specific entity (that we have also defined). If you now want to select
 will note that you can only select neuroblastoma assets. In analyses like '2D distribution', a restrictive
 data scope will also be applicable there.
     
-	![Figure    2: This Data Scope restricts the resources to Neuroblastoma only.](_static/images/DataScope_resources.png "Figure    2: Neuroblastoma Data Scope.")
+	![](_static/images/DataScope_resources.png "Figure    2: Neuroblastoma Data Scope.")
 	
 	[**Figure    2: This Data Scope restricts the resources to Neuroblastoma only.**](_static/images/DataScope_resources.png)
 	
@@ -55,7 +55,7 @@ group in the Data Scopes menu.
 
 2.	We can go to the 'landing page' for this data scope by either clicking on the button 'Goto Medulloblastoma 500 Home'
 in Box 0, or click on the 'About Medulloblastoma 500' item near the end in the left menu.
-	![Figure    3: Landing Page for Medulloblastoma 500.](_static/images/DataScope_mb500_1.png "Figure    3: Landing Page for Medulloblastoma 500.")
+	![](_static/images/DataScope_mb500_1.png "Figure    3: Landing Page for Medulloblastoma 500.")
 	
 	[**Figure    3: Landing Page for Medulloblastoma 500.**](_static/images/DataScope_mb500_1.png)
 	

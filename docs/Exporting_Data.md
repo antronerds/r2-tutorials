@@ -33,7 +33,7 @@ Step 1: Using Data Grabber
     appears from where you can select the dataset of interest and
     click ‘next’.
     
-	![Figure    1: In the main menu “Data    Grabber](_static/images/ExportData_datagrabber.png "Figure    1: In the main menu “Data    Grabber")
+	![](_static/images/ExportData_datagrabber.png "Figure    1: In the main menu “Data    Grabber")
 	
 	[**Figure    1: In the main menu “Data    Grabber**](_static/images/ExportData_datagrabber.png)
 	
@@ -53,7 +53,7 @@ Step 1: Using Data Grabber
     R2 with all reporters for several stages. In the menu select
     “HugoOnce” and click ‘next’.
     
-	![Figure    2: Filter options for    exporting data.](_static/images/ExportData_filter.png "Figure    2: Filter options for    exporting data.")
+	![](_static/images/ExportData_filter.png "Figure    2: Filter options for    exporting data.")
 	
 	[**Figure    2: Filter options for    exporting data.**](_static/images/ExportData_filter.png)
 	
@@ -93,7 +93,7 @@ export the data via the right menu.
     MYCN gene is generated. The right menu provides you with a set of
     options to continue your analysis including exporting data.
     
-	![Figure    3: Continuing    your analysis.](_static/images/ExportData_menu.png "Figure    3: Continuing    your analysis.")
+	![](_static/images/ExportData_menu.png "Figure    3: Continuing    your analysis.")
 	
 	[**Figure    3: Continuing    your analysis.**](_static/images/ExportData_menu.png)
 	
@@ -109,7 +109,7 @@ export the data via the right menu.
     continue your analyses at a later time-point.
 
 -----------------
-  ![](_static/images/R2d2_logo.png)]**Did you know that you can export data from different types of modules?**
+  ![]**Did you know that you can export data from different types of modules?**
 
 >*  Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.*
   

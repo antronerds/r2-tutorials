@@ -34,7 +34,7 @@ Step 1: Selecting data and modules
 3.  In field 3 select the 'Principle Component Option' option (Error:
     Reference source not found)
     
-	![Figure    1: Selecting Principe Component    Analysis](_static/images/PrincipleComponent_Select.png "Figure    1: Selecting Principe Component    Analysis")
+	![](_static/images/PrincipleComponent_Select.png "Figure    1: Selecting Principe Component    Analysis")
 	
 	[**Figure    1: Selecting Principe Component    Analysis**](_static/images/PrincipleComponent_Select.png)
 	
@@ -59,17 +59,17 @@ Step 2: Exploring the principle components
     to the several principle components combinations to investigate
     whether you can distinguish subgroups in your dataset.
     
-	![Figure    2: Adjusting PCA    settings](_static/images/PrincipleComponent_Adjust.png "Figure    2: Adjusting PCA    settings")
+	![](_static/images/PrincipleComponent_Adjust.png "Figure    2: Adjusting PCA    settings")
 	
 	[**Figure    2: Adjusting PCA    settings**](_static/images/PrincipleComponent_Adjust.png)
 	
     
-!['Figure    3: Selecting    tracks](_static/images/PrincipleComponent_SelectTracks.png "'Figure    3: Selecting    tracks")
+![](_static/images/PrincipleComponent_SelectTracks.png "'Figure    3: Selecting    tracks")
 	
 [**'Figure    3: Selecting    tracks**](_static/images/PrincipleComponent_SelectTracks.png)
 	
     
-![Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.](_static/images/PrincipleComponent_Combinations.png "Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.")
+![](_static/images/PrincipleComponent_Combinations.png "Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.")
 	
 [**Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.**](_static/images/PrincipleComponent_Combinations.png)
 	
@@ -86,7 +86,7 @@ of interest.
     of interest e.g "Samplenames" and click next.
 
 
-!['Figure5: Samples are in annotated by track by usingLabelMode.](_static/images/PrincipleComponent_Label.png "'Figure5: Samples are in annotated by track by usingLabelMode.")
+![](_static/images/PrincipleComponent_Label.png "'Figure5: Samples are in annotated by track by usingLabelMode.")
 	
 [**'Figure5: Samples are in annotated by track by usingLabelMode.**](_static/images/PrincipleComponent_Label.png)
 	
@@ -130,7 +130,7 @@ internet browsers support the 3D visualization.
     in order to investigate whether there are any (more)
     subgroups that become visible.
     
-	!['Figure    6: Showing a 3D PCA graph from    different angles.](_static/images/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
+	![](_static/images/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
 	
 	[**'Figure    6: Showing a 3D PCA graph from    different angles.**](_static/images/PrincipleComponent_3D.png)
 	

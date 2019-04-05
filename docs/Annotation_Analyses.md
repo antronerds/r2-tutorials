@@ -52,7 +52,7 @@ Step 1: Relating 2 (categorical) tracks
     "relate 2 tracks", which can be found in the annotation subsection
     and press next.
     
-	![Figure 1: Select relate two tracks.](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
+	![](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
 	
 	[**Figure 1: Select "relate two tracks".**](_static/images/AnnotationAnalyses_relate.png)
 	
@@ -63,7 +63,7 @@ Step 1: Relating 2 (categorical) tracks
     survival status (track=alive). Then press next to generate
     the result.
     
-	![Figure 2: Select Selecting categorical tracks](_static/images/AnnotationAnalyses_adjust.png "Figure 2: Select Selecting categorical tracks")
+	![](_static/images/AnnotationAnalyses_adjust.png "Figure 2: Select Selecting categorical tracks")
 	
 	[**Figure 2: Select Selecting categorical tracks**](_static/images/AnnotationAnalyses_adjust.png)
 	
@@ -82,7 +82,7 @@ Step 1: Relating 2 (categorical) tracks
     great over-representation of stage 4 patients in the group of
     diseased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
 
-	![Figure3: Color samples by track](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
+	![](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
 	
 	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
@@ -106,7 +106,7 @@ Step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-	![Figure 4: Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numericaltracks")
+	![](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numericaltracks")
 	
 	[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks_v1.png)
 	
@@ -136,7 +136,7 @@ Step 3: Relating a categorical track to a numerical track
     track, and you have a nice result here, showing that the survival
     rate is significantly lower in patients of INSS stage 4.
 
-	![Figure 5: Representing the relation between categorical and numerical tracks](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
+	![](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
 	
 	[**Figure 5: Representing the relation between categorical and numerical tracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
 	
@@ -151,7 +151,7 @@ data" tracks that you can assemble either within, but also outside of R2
 via the uploading of a track option that will be shown in the "adapting
 r2 to your needs" chapter.
 
-![Figure 6: Representations of relations between different types of tracks in R2](_static/images/AnnotationAnalyse_representation.png "Figure6: Representations of relations between different types of tracks in R2")
+![](_static/images/AnnotationAnalyse_representation.png "Figure6: Representations of relations between different types of tracks in R2")
 
 [**Figure6: "Representations of relations between different types of tracks in R2**](_static/images/AnnotationAnalyse_representation.png)
 	
@@ -178,7 +178,7 @@ Step 4: Annotation plotter
     the final sort. For some complicated sorts, it may be necessary to
     create a numeric track that puts the sample in the intended order.
 
-	![Figure7: Plotting the annotationtracks](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
+	![](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
 	
 	[**Figure7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
 	

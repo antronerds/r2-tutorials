@@ -117,7 +117,7 @@ Tutorial step 1
     you through all the steps necessary to perform a task. In field
     **1** select "single dataset", in field **2** choose "change
     
-	![Figure    1: In the main screen    "Change dataset".](_static/images/First_image_select_dataset.png "Figure    1: In the main screen    "Change dataset".")
+	![](_static/images/First_image_select_dataset.png "Figure    1: In the main screen    "Change dataset".")
 	
 	[**Figure    1: In the main screen    "Change dataset".**](_static/images/First_image_select_dataset.png)
 	
@@ -125,7 +125,7 @@ Tutorial step 1
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
     
-	![Figure    2: Selecting datasets from the pull down menu on the main    screen](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure    2: Selecting datasets from the pull down menu on the main    screen")
+	![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure    2: Selecting datasets from the pull down menu on the main    screen")
 	
 	[**Figure    2: Selecting datasets from the pull down menu on the main    screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 	
@@ -152,7 +152,7 @@ Tutorial step 2
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
     
-	![Figure    3: Advanced selection of    datasets](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure    3: Advanced selection of    datasets")
+	![](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure    3: Advanced selection of    datasets")
 	
 	[**Figure    3: Advanced selection of    datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
 	
@@ -163,7 +163,7 @@ Tutorial step 2
     from the pull down menu. This returns all the datasets containing
     the search term "Neuro" and having more than 50 samples.
     
-	![Figure    4: Advanced selection    panel](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure    4: Advanced selection    panel")
+	![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure    4: Advanced selection    panel")
 	
 	[**Figure    4: Advanced selection    panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
 	
@@ -177,7 +177,7 @@ Tutorial step 2
     Note: Clicking on an exclamation mark also shows detailed
     dataset information.
     
-	![Figure    5: Additional Dataset    Info](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure    5: Additional Dataset    Info")
+	![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure    5: Additional Dataset    Info")
 	
 	[**Figure    5: Additional Dataset    Info**](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
 	
@@ -185,7 +185,7 @@ Tutorial step 2
     different options become available compared to the "single
     dataset" option.
     
-	![Figure    6: Selecting across    datasets](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure    6: Selecting across    datasets")
+	![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure    6: Selecting across    datasets")
 	
 	[**Figure    6: Selecting across    datasets**](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
 	
@@ -199,12 +199,12 @@ datasets".
 
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that clicking on an exclamation balloon provides additional    
 info***                                                                 
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/U
+[![](_static/images/U
 singDatasets_ClickExclamationMarkForInfoInR2.png)      
                                              
                                                                         
@@ -212,7 +212,7 @@ singDatasets_ClickExclamationMarkForInfoInR2.png)
                                                                         
                                                                   
                                                                         
-[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/U
+[![](_static/images/U
 singDatasets_LinksToRawDataInR2.png)                   
                                              
                                                                         
@@ -320,7 +320,7 @@ Tutorial step 1
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-	![Figure1: Single geneselection](_static/images/OneGene_singleselect.png "Figure1: Single geneselection")
+	![](_static/images/OneGene_singleselect.png "Figure1: Single geneselection")
 	
 	[**Figure1: Single geneselection**](_static/images/OneGene_singleselect.png)
 	
@@ -344,7 +344,7 @@ Tutorial step 2
     resulting in a different probeset as the choice of R2. The
     expression levels are by default converted to log2 values.
     
-	![Figure    2: By default the probeset with the highest expression level is    selected](_static/images/OneGene_Adjust.png "Figure    2: By default the probeset with the highest expression level is    selected")
+	![](_static/images/OneGene_Adjust.png "Figure    2: By default the probeset with the highest expression level is    selected")
 	
 	[**Figure    2: By default the probeset with the highest expression level is    selected**](_static/images/OneGene_Adjust.png)
 	
@@ -356,12 +356,12 @@ Tutorial step 2
     settings and click "next".
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that a reporter with an exclamation marks is an indication     
 there may be something wrong with the reporter (e.g. bad design)***     
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/O
+[![](_static/images/O
 neGene_Probeset.png)                                   
                                              
                                                                         
@@ -398,7 +398,7 @@ Tutorial step 3
     custom made tracks, or disable/adapt the settings for default tracks
     (further explained in "Adapting R2 to your needs").
     
-	!['Figure    3: YY plot MYCN    expression](_static/images/OneGene_MYCN.png "'Figure    3: YY plot MYCN    expression")
+	![](_static/images/OneGene_MYCN.png "'Figure    3: YY plot MYCN    expression")
 	
 	[**'Figure    3: YY plot MYCN    expression**](_static/images/OneGene_MYCN.png)
 	
@@ -420,13 +420,13 @@ Tutorial step 3
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  
-	![Figure    4: Adjusting the graph    settings](_static/images/OneGene_Marksample.png "Figure    4: Adjusting the graph    settings")
+	![](_static/images/OneGene_Marksample.png "Figure    4: Adjusting the graph    settings")
 	
 	[**Figure    4: Adjusting the graph    settings**](_static/images/OneGene_Marksample.png)
 	
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that converting expression levels using the "transform" option 
 can help you to gain additional insight.***                             
@@ -474,7 +474,7 @@ and click on the "Tview" link in the reporter table.
 
 
 
-	![Figure5: Probeset verificationtable](_static/images/OneGene_Probesettable.png "Figure5: Probeset verificationtable")
+	![](_static/images/OneGene_Probesettable.png "Figure5: Probeset verificationtable")
 	
 	[**Figure5: Probeset verificationtable**](_static/images/OneGene_Probesettable.png)
 	
@@ -501,7 +501,7 @@ and click on the "Tview" link in the reporter table.
     human Affymetrix array types.
 
 
-![Figure6: Colorlegend](_static/images/OneGene_Colorlegend.png "Figure6: Colorlegend")
+![](_static/images/OneGene_Colorlegend.png "Figure6: Colorlegend")
 
 [**Figure6: Colorlegend**](_static/images/OneGene_Colorlegend.png)
 **Figure
@@ -525,7 +525,7 @@ Tutorial step 5.
     expression screen.
 
 
-	![Figure8:Left menu panel providing additional info (including link-out) andanalyses options](_static/images/OneGene_menupanel.png "Figure8:Left menu panel providing additional info (including link-out) andanalyses options")
+	![](_static/images/OneGene_menupanel.png "Figure8:Left menu panel providing additional info (including link-out) andanalyses options")
 	
 	[**Figure8:Left menu panel providing additional info (including link-out) andanalyses options**](_static/images/OneGene_menupanel.png)
 	
@@ -563,7 +563,7 @@ literature mining.
 
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***Did you know that the [Pub-reminer](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
+  ![](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining***
 
   In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?\
   Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.
@@ -587,7 +587,7 @@ samples.
 
 
 
-	![Figure9: Unfold thedatatable](_static/images/OneGene_Datatable.png "Figure9: Unfold thedatatable")
+	![](_static/images/OneGene_Datatable.png "Figure9: Unfold thedatatable")
 	
 	[**Figure9: Unfold thedatatable**](_static/images/OneGene_Datatable.png)
 	
@@ -604,7 +604,7 @@ including the customize track parameters are available throughout R2.
 
 
 
-	![Figure10: Tick and dragtracks](_static/images/OneGene_trackdisplay.png "Figure10: Tick and dragtracks")
+	![](_static/images/OneGene_trackdisplay.png "Figure10: Tick and dragtracks")
 	
 	[**Figure10: Tick and dragtracks**](_static/images/OneGene_trackdisplay.png)
 	
@@ -619,7 +619,7 @@ selecting.
 
 
 
-![Figure11: the extra settingsPanel](_static/images/OneGene_Adapting.png "Figure11: the extra settingsPanel")
+![](_static/images/OneGene_Adapting.png "Figure11: the extra settingsPanel")
 
 [**Figure11: the extra settingsPanel**](_static/images/OneGene_Adapting.png)
 **Figure
@@ -640,7 +640,7 @@ modules where a one-or two gene view is generated.
 
 
 
-![Figure13: Legendadded](_static/images/OneGene_Adapting.png "Figure13: Legendadded")
+![](_static/images/OneGene_Adapting.png "Figure13: Legendadded")
 
 [**Figure13: Legendadded**](_static/images/OneGene_Adapting.png)
 **Figure
@@ -729,7 +729,7 @@ Test regular image
 
 
 
-	![Figure1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
+	![](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
 	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 	
@@ -740,7 +740,7 @@ Test with template
 
 
 
-	![Figure1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
+	![](_static/images/MultipleGenesView_Default.png "Figure1: Default multiple geneview.")
 	
 	[**Figure1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 	
@@ -768,7 +768,7 @@ Tutorial step 2
     "none", select "boxplot" at Plot type and click NEXT.
 
 
-	![Figure2: Multiple gene view pertrack](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
+	![](_static/images/MultipleGenesView_perTrack.png "Figure2: Multiple gene view pertrack")
 	
 	[**Figure2: Multiple gene view pertrack**](_static/images/MultipleGenesView_perTrack.png)
 	
@@ -868,7 +868,7 @@ Tutorial step 1: Relating 2 (categorical) tracks
     "relate 2 tracks", which can be found in the annotation subsection
     and press next.
     
-	![Figure    1: Figure 1: Select "relate    two tracks".](_static/images/AnnotationAnalyses_relate.png "Figure    1: Figure 1: Select "relate    two tracks".")
+	![](_static/images/AnnotationAnalyses_relate.png "Figure    1: Figure 1: Select "relate    two tracks".")
 	
 	[**Figure    1: Figure 1: Select "relate    two tracks".**](_static/images/AnnotationAnalyses_relate.png)
 	
@@ -879,7 +879,7 @@ Tutorial step 1: Relating 2 (categorical) tracks
     survival status (track=alive). Then press next to generate
     the result.
     
-	![Figure    2: Select "Selecting categorical    tracks](_static/images/AnnotationAnalyses_adjust.png "Figure    2: Select "Selecting categorical    tracks")
+	![](_static/images/AnnotationAnalyses_adjust.png "Figure    2: Select "Selecting categorical    tracks")
 	
 	[**Figure    2: Select "Selecting categorical    tracks**](_static/images/AnnotationAnalyses_adjust.png)
 	
@@ -899,7 +899,7 @@ Tutorial step 1: Relating 2 (categorical) tracks
     diseased patients who are older than 18 months.
 
 
-	![Figure3: "Color samples bytrack](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: "Color samples bytrack")
+	![](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: "Color samples bytrack")
 	
 	[**Figure3: "Color samples bytrack**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
@@ -924,7 +924,7 @@ Tutorial step 2: Relating 2 (numerical) tracks
     would be appropriate.
 
 
-	![Figure4: "Output of relating numericaltracks](_static/images/AnnotationAnalyse_relatetracks.png "Figure4: "Output of relating numericaltracks")
+	![](_static/images/AnnotationAnalyse_relatetracks.png "Figure4: "Output of relating numericaltracks")
 	
 	[**Figure4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks.png)
 	
@@ -955,7 +955,7 @@ Tutorial step 3: Relating a categorical track to a numerical track
     rate is significantly lower in patients of INSS stage 4.
 
 
-	![Figure5: Representing the relation between categorical and numericaltracks](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
+	![](_static/images/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
 	
 	[**Figure5: Representing the relation between categorical and numericaltracks**](_static/images/AnnotationAnalyse_relationnumcat.png)
 	
@@ -973,7 +973,7 @@ r2 to your needs" chapter.
 
 
 
-	![Figure6: "Representations of relations between different types of tracks inR2](_static/images/AnnotationAnalyse_representation.png "Figure6: "Representations of relations between different types of tracks inR2")
+	![](_static/images/AnnotationAnalyse_representation.png "Figure6: "Representations of relations between different types of tracks inR2")
 	
 	[**Figure6: "Representations of relations between different types of tracks inR2**](_static/images/AnnotationAnalyse_representation.png)
 	
@@ -1004,7 +1004,7 @@ Tutorial step 4: Annotation plotter
     create a numeric track that puts the sample in the intended order.
 
 
-	![Figure7: Plotting the annotationtracks](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
+	![](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
 	
 	[**Figure7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
 	
@@ -1095,7 +1095,7 @@ Tutorial step 1
 4.  Click "next" in field 5.
 
 
-	![Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2](_static/images/DiffentialExpression_Gene.png "Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2")
+	![](_static/images/DiffentialExpression_Gene.png "Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2")
 	
 	[**Figure1: Step-by-step scenario: selecting to 'View a gene in groups' on themain page ofR2**](_static/images/DiffentialExpression_Gene.png)
 	
@@ -1125,12 +1125,12 @@ Tutorial step 2
 2.  Click "next"
 
 
-	!['Figure2: Selecting the proper annotation track to differentiate expressiondata](_static/images/DiffentialExpression_Select.png "'Figure2: Selecting the proper annotation track to differentiate expressiondata")
+	![](_static/images/DiffentialExpression_Select.png "'Figure2: Selecting the proper annotation track to differentiate expressiondata")
 	
 	[**'Figure2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/DiffentialExpression_Select.png)
 	
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that samples can be filtered and/or marked?***                 
 ----------
@@ -1151,7 +1151,7 @@ be highlighted resulting graph; ideal for publication purposes.
                                                                         
                                                                   
                                                                         
-[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/D
+[![](_static/images/D
 iffentialExpress_Adjust.png)                           
 ----------
 
@@ -1168,7 +1168,7 @@ Tutorial step 3
     groups (of course, see explanation in step 4). In this case this we
     want to see both groups so keep the selection as is.
     
-	![Figure    3: Selecting groups for the    graph](_static/images/DiffentialExpression_Selectgroup.png "Figure    3: Selecting groups for the    graph")
+	![](_static/images/DiffentialExpression_Selectgroup.png "Figure    3: Selecting groups for the    graph")
 	
 	[**Figure    3: Selecting groups for the    graph**](_static/images/DiffentialExpression_Selectgroup.png)
 	
@@ -1200,7 +1200,7 @@ Tutorial step 4
     also be shown in a more conventional bar-plot by adapting the
     settings and redrawing the graph.
     
-	![Figure    4: Result of the one-way Anova test for the Neuroblastoma    88 samples.](_static/images/DiffentialExpress_Result.png "Figure    4: Result of the one-way Anova test for the Neuroblastoma    88 samples.")
+	![](_static/images/DiffentialExpress_Result.png "Figure    4: Result of the one-way Anova test for the Neuroblastoma    88 samples.")
 	
 	[**Figure    4: Result of the one-way Anova test for the Neuroblastoma    88 samples.**](_static/images/DiffentialExpress_Result.png)
 	
@@ -1210,7 +1210,7 @@ Tutorial step 4
 4.  Click 'Adjust Settings' (Figure 5)
 
 
-	![Figure5: Adapting the Graphtype to BarPlot and set Color byTrack](_static/images/DiffentialExpression_AdaptGraph.png "Figure5: Adapting the Graphtype to BarPlot and set Color byTrack")
+	![](_static/images/DiffentialExpression_AdaptGraph.png "Figure5: Adapting the Graphtype to BarPlot and set Color byTrack")
 	
 	[**Figure5: Adapting the Graphtype to BarPlot and set Color byTrack**](_static/images/DiffentialExpression_AdaptGraph.png)
 	
@@ -1224,7 +1224,7 @@ Tutorial step 5
 
 1.  The resulting graph is adapted accordingly (Figure 5)
     
-	![Figure    6: The same data as a    Barplot](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
+	![](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
 	
 	[**Figure    6: The same data as a    Barplot**](_static/images/DiffentialExpression_Barplot.png)
 	
@@ -1237,14 +1237,14 @@ Tutorial step 5
     'none' (Figure 7)
 4.  Click 'Adjust Settings'
     
-	![Figure    7: Adjusting data    transformation](_static/images/DiffentialExpress_BarplotAdjust.png "Figure    7: Adjusting data    transformation")
+	![](_static/images/DiffentialExpress_BarplotAdjust.png "Figure    7: Adjusting data    transformation")
 	
 	[**Figure    7: Adjusting data    transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
 	
 5.  The resulting graph in Figure 8 shows the difference
     more dramatically.
     
-	![Figure    8: Bar plot without    transformation](_static/images/DiffentialExpress_BarplotNotransform.png "Figure    8: Bar plot without    transformation")
+	![](_static/images/DiffentialExpress_BarplotNotransform.png "Figure    8: Bar plot without    transformation")
 	
 	[**Figure    8: Bar plot without    transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
 	
@@ -1260,7 +1260,7 @@ Tutorial step 5
 7.  Figure 9 shows the clinical data associated with that
     particular sample.
     
-	![Figure    9: Clinical annotation of a    sample](_static/images/DiffentialExpress_ClinAnno.png "Figure    9: Clinical annotation of a    sample")
+	![](_static/images/DiffentialExpress_ClinAnno.png "Figure    9: Clinical annotation of a    sample")
 	
 	[**Figure    9: Clinical annotation of a    sample**](_static/images/DiffentialExpress_ClinAnno.png)
 	
@@ -1279,7 +1279,7 @@ Tutorial step 6
 2.  In field 3 of the R2 step-by-step guide select 'Find Differential
     expression between groups' (Figure 10)
     
-	![Figure    10: Selecting Find    Differential Expression.](_static/images/DiffentialExpress_FindDiff.png "Figure    10: Selecting Find    Differential Expression.")
+	![](_static/images/DiffentialExpress_FindDiff.png "Figure    10: Selecting Find    Differential Expression.")
 	
 	[**Figure    10: Selecting Find    Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
 	
@@ -1297,7 +1297,7 @@ Tutorial step 7
     real immediate importance; selecting the track of choice (shown
     in red). Select the 'Alive' track again.
     
-	!['Figure    11: Differential expression    parameters](_static/images/DiffentialExpress_AdaptParam.png "'Figure    11: Differential expression    parameters")
+	![](_static/images/DiffentialExpress_AdaptParam.png "'Figure    11: Differential expression    parameters")
 	
 	[**'Figure    11: Differential expression    parameters**](_static/images/DiffentialExpress_AdaptParam.png)
 	
@@ -1308,7 +1308,7 @@ Tutorial step 7
     calculations! R2 performs this on the fly.
 
 
-	![Figure12: Progress dialog during on the flycalculation](_static/images/DiffentialExpress_Progress.png "Figure12: Progress dialog during on the flycalculation")
+	![](_static/images/DiffentialExpress_Progress.png "Figure12: Progress dialog during on the flycalculation")
 	
 	[**Figure12: Progress dialog during on the flycalculation**](_static/images/DiffentialExpress_Progress.png)
 	
@@ -1341,7 +1341,7 @@ Tutorial step 8
     table; \~ 2600 genes have met the criteria set by default; their
     expression exhibits a correlation with the separation in two groups.
     
-	![Figure    13: Genes differentially expressed    between groups.](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups.")
+	![](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups.")
 	
 	[**Figure    13: Genes differentially expressed    between groups.**](_static/images/DiffentialExpress_Genelist.png)
 	
@@ -1359,7 +1359,7 @@ Tutorial step 8
     volcano, etc)'.
 
 
-![Figure14: In the main screen "Changedataset".](_static/images/DiffentialExpress_TopGene.png "Figure14: In the main screen "Changedataset".")
+![](_static/images/DiffentialExpress_TopGene.png "Figure14: In the main screen "Changedataset".")
 
 [**Figure14: In the main screen "Changedataset".**](_static/images/DiffentialExpress_TopGene.png)
 **Figure
@@ -1382,14 +1382,14 @@ Tutorial step 9
     this information. Note: every plot in R2 with larger amounts of
     datapoints (>5000) will have this "add hovering" button.
     
-	![Figure    16: XY plot of all genes differentially expressed in the current    track;](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
+	![](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
 	
 	[**Figure    16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DiffentialExpress_XYplot.png)
 	
 2.  Clicking on the symbol opens up a new window showing the expression
     of the gene in the two groups as a box plot.
     
-	![Figure    17: Differential expression of    NTRK1](_static/images/DiffentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
+	![](_static/images/DiffentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
 	
 	[**Figure    17: Differential expression of    NTRK1**](_static/images/DiffentialExpress_BoxdotplotCircle.png)
 	
@@ -1399,7 +1399,7 @@ Tutorial step 9
     to emphasize, eg DNA replication and set the 'Draw fold lines'
     option to 'yes'.
     
-	![Figure    18: Adjustable settings for the all genes    plot](_static/images/DiffentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
+	![](_static/images/DiffentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
 	
 	[**Figure    18: Adjustable settings for the all genes    plot**](_static/images/DiffentialExpress_AdjustAllgenes.png)
 	
@@ -1409,7 +1409,7 @@ Tutorial step 9
     2 fold (Figure 19). Note that most genes of the DNA replication
     pathway seem to be located below the diagonal.
     
-	![Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.](_static/images/DiffentialExpress_AdjustVisual.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+	![](_static/images/DiffentialExpress_AdjustVisual.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 	
 	[**Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpress_AdjustVisual.png)
 	
@@ -1427,7 +1427,7 @@ Tutorial step 9
   -----------------
 
 
-![Figure20:Volcanoplot](_static/images/DiffentialExpress_Volcano.png "Figure20:Volcanoplot")
+![](_static/images/DiffentialExpress_Volcano.png "Figure20:Volcanoplot")
 
 [**Figure20:Volcanoplot**](_static/images/DiffentialExpress_Volcano.png)
 **Figure
@@ -1523,7 +1523,7 @@ Tutorial step 1
 5.  Click 'Next'
 
 
-	![Figure1: Choice of correlationanalysis.](_static/images/FindGenes_Choiceof.png "Figure1: Choice of correlationanalysis.")
+	![](_static/images/FindGenes_Choiceof.png "Figure1: Choice of correlationanalysis.")
 	
 	[**Figure1: Choice of correlationanalysis.**](_static/images/FindGenes_Choiceof.png)
 	
@@ -1542,7 +1542,7 @@ Tutorial step 2
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
     
-	![Figure    2: Options page for correlation    calculation](_static/images/FindGenes_OptionPage.png "Figure    2: Options page for correlation    calculation")
+	![](_static/images/FindGenes_OptionPage.png "Figure    2: Options page for correlation    calculation")
 	
 	[**Figure    2: Options page for correlation    calculation**](_static/images/FindGenes_OptionPage.png)
 	
@@ -1578,7 +1578,7 @@ Tutorial step 3
     description of their meaning, consult the 'Differential
     Expression' tutorial).
     
-	![Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors](_static/images/FindGenes_GeneList.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
+	![](_static/images/FindGenes_GeneList.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
 	
 	[**Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors**](_static/images/FindGenes_GeneList.png)
 	
@@ -1609,7 +1609,7 @@ updates upon a new genebuild release or an affymetrix annotation update.
 
 
 
-	![Figure4: Filterbutton](_static/images/FindGenes_GotoMain.png "Figure4: Filterbutton")
+	![](_static/images/FindGenes_GotoMain.png "Figure4: Filterbutton")
 	
 	[**Figure4: Filterbutton**](_static/images/FindGenes_GotoMain.png)
 	
@@ -1631,7 +1631,7 @@ Tutorial step 4
     expression of MYCN quite good! This is reflected in the R and
     p-values that are quite significant.
     
-	![Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.](_static/images/FindGenes_ExpressionPos.png "Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
+	![](_static/images/FindGenes_ExpressionPos.png "Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
 	
 	[**Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/FindGenes_ExpressionPos.png)
 	
@@ -1639,7 +1639,7 @@ Tutorial step 4
     right column; MEAF6. This produces Figure 6. The original list of
     results is still open in another tab in your browser, return there.
     
-	![Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene](_static/images/FindGenes_ExpressionNeg.png "Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
+	![](_static/images/FindGenes_ExpressionNeg.png "Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
 	
 	[**Figure    6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/FindGenes_ExpressionNeg.png)
 	
@@ -1659,7 +1659,7 @@ samples in the selected dataset see Figure 7
 
 
 1.  
-	![Figure    7: Toggle Histogram    on/off](_static/images/FindGenes_ExpressionHis.png "Figure    7: Toggle Histogram    on/off")
+	![](_static/images/FindGenes_ExpressionHis.png "Figure    7: Toggle Histogram    on/off")
 	
 	[**Figure    7: Toggle Histogram    on/off**](_static/images/FindGenes_ExpressionHis.png)
 	
@@ -1674,7 +1674,7 @@ samples in the selected dataset see Figure 7
 
 
 
-	![Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.")
+	![](_static/images/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.")
 	
 	[**Figure8: Heatmap view of the expression of all genes correlating with theexpression of MYCN in 88 Neuroblastomasamples.**](_static/images/FindGenes_ExpressionHeat.png)
 	
@@ -1704,7 +1704,7 @@ arm of) a chromosome is calculated.
   -------------------------------------------------------------------------------
 
 
-![Figure9: Mapping of the genes correlating with MYCN on allchromosomes](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on allchromosomes")
+![](_static/images/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on allchromosomes")
 
 [**Figure9: Mapping of the genes correlating with MYCN on allchromosomes**](_static/images/FindGenes_Chromosome.png)
 **Figure
@@ -1742,7 +1742,7 @@ Tutorial step 6
     gene-ontology analysis with the up or down regulated genes only.
 
 
-	!['Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.](_static/images/FindGenes_Adjust.png "'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
+	![](_static/images/FindGenes_Adjust.png "'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
 	
 	[**'Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/FindGenes_Adjust.png)
 	
@@ -1758,7 +1758,7 @@ Tutorial step 7
 2.  In the next screen a choice can be made for other datasets; we use
     the KEGG database. Click next.
     
-	![Figure    13: Choice panel for other    datasets](_static/images/First_image_select_dataset.png "Figure    13: Choice panel for other    datasets")
+	![](_static/images/First_image_select_dataset.png "Figure    13: Choice panel for other    datasets")
 	
 	[**Figure    13: Choice panel for other    datasets**](_static/images/First_image_select_dataset.png)
 	
@@ -1766,7 +1766,7 @@ Tutorial step 7
     members of the pathways in the KEGG database. Click on the p-value
     column header again to find the most significant ones: Figure 14
     
-	![Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.](_static/images/FindGenes_KeggPath.png "Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
+	![](_static/images/FindGenes_KeggPath.png "Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 	
 	[**Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/FindGenes_KeggPath.png)
 	
@@ -1798,7 +1798,7 @@ Tutorial step 8
 1.  Scroll down and look for the MCM2 gene, click on the link to show
     their relationship: Figure 16
     
-	![Figure    16: MCM2 expression correlates with    MYCN expression.](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
+	![](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 expression correlates with    MYCN expression.")
 	
 	[**Figure    16: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
 	
@@ -1807,7 +1807,7 @@ Tutorial step 8
     search in the Pubmed literature database for (co-)occurrences of
     MYCN and MCM2 (and some other keywords). Click the link: Figure 17
     
-	![Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2](_static/images/FindGenes_Pubsniffer.png "Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2")
+	![](_static/images/FindGenes_Pubsniffer.png "Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2")
 	
 	[**Figure    17: Pubsniffer results for gene symbols MYCN and    MCM2**](_static/images/FindGenes_Pubsniffer.png)
 	
@@ -1828,7 +1828,7 @@ Tutorial step 8
     relation between the MCM genes and MYCN was proven experimentally.
 
 
-	![Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
+	![](_static/images/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
 	
 	[**Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.**](_static/images/FindGenes_PubReminerresult.png)
 	
@@ -1868,7 +1868,7 @@ Tutorial step 9
     "Adapting R2 to your own needs".
 
 
-	![Figure20: Menu choices forDataset](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
+	![](_static/images/FindGenes_DatasetOptions.png "Figure20: Menu choices forDataset")
 	
 	[**Figure20: Menu choices forDataset**](_static/images/FindGenes_DatasetOptions.png)
 	
@@ -1968,7 +1968,7 @@ Tutorial step 1
     pull down menu. Using the Kaplan Meier module via the left menu
     directly shows from which datasets survival data is available.
     
-	![Figure    1: Select a Kaplan    Meier option.](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
+	![](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
 	
 	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
 	
@@ -1976,7 +1976,7 @@ Tutorial step 1
     "track" at Separate by and select "inss-cat" stage in use track pull
     down menu . Click "next" .
     
-	![Figure    2: Kaplan Meier by    "Annotated parameter.](_static/images/WorkingWithKaplan_Kaplan.png "Figure    2: Kaplan Meier by    "Annotated parameter.")
+	![](_static/images/WorkingWithKaplan_Kaplan.png "Figure    2: Kaplan Meier by    "Annotated parameter.")
 	
 	[**Figure    2: Kaplan Meier by    "Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
 	
@@ -1995,7 +1995,7 @@ agreement with the clinical outcome of the INSS stages.
     agegroup (cat) " and for the second track "mycn\_amp (cat) ". And
     click next.
     
-	![Figure    3: Kaplan Meier graph with    combined tracks.](_static/images/WorkingWithKaplan_Combined.png "Figure    3: Kaplan Meier graph with    combined tracks.")
+	![](_static/images/WorkingWithKaplan_Combined.png "Figure    3: Kaplan Meier graph with    combined tracks.")
 	
 	[**Figure    3: Kaplan Meier graph with    combined tracks.**](_static/images/WorkingWithKaplan_Combined.png)
 	
@@ -2010,12 +2010,12 @@ and a mycn amplification, in this cohort.
 
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that you can apply a filter to analyze a subgroup. In addition 
 you can also adapt the graphical representation***                      
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=250){width="250"}](_static/images/W
+[![](_static/images/W
 orkingWithKaplan_Adjust.png)                           
                                              
                                                                         
@@ -2054,7 +2054,7 @@ Tutorial step 2
 4.  The determined separation in groups can be stored in a track and
     used in other analyes, click the "store as track" button
     
-	![Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_GroupPvalue.png "Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
+	![](_static/images/WorkingWithKaplan_GroupPvalue.png "Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
 	
 	[**Figure    5: Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_GroupPvalue.png)
 	
@@ -2062,7 +2062,7 @@ Tutorial step 2
     subgroups can be found, adjust the cut-off mode to "median" in the
     settings menu and click "redraw"graph.
     
-	![Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
+	![](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average")
 	
 	[**Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
 	
@@ -2088,7 +2088,7 @@ out whether this is also the case with other cut-off modi.
 
 
 
-	![Figure7: Adjustable settings menu: change p-valecutoff.](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-valecutoff.")
+	![](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure7: Adjustable settings menu: change p-valecutoff.")
 	
 	[**Figure7: Adjustable settings menu: change p-valecutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
 	
@@ -2115,7 +2115,7 @@ Tutorial step 3
     for this list of genes is generated as well.
 
 
-	![Figure7: A list of Kaplan Meier for a group ofgenes](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group ofgenes")
+	![](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure7: A list of Kaplan Meier for a group ofgenes")
 	
 	[**Figure7: A list of Kaplan Meier for a group ofgenes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
 	
@@ -2128,7 +2128,7 @@ WorkingWithKaplan Heatmap.png
 
 
 
-	![Figure8: Heatmap of the significant prognostic list ofgenes.](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list ofgenes.")
+	![](_static/images/WorkingWithKaplan_Heatmap.png "Figure8: Heatmap of the significant prognostic list ofgenes.")
 	
 	[**Figure8: Heatmap of the significant prognostic list ofgenes.**](_static/images/WorkingWithKaplan_Heatmap.png)
 	
@@ -2155,7 +2155,7 @@ Tutorial step 4
     defined kaplanscan, select the "Kaplan Meier" > "Kaplan Meier by
     user provide data" option from the left hand menu.
     
-	![Figure    9: Kaplanscan with user defined    data](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")
+	![](_static/images/Kaplanscan_userdefined_1a.png "Figure    9: Kaplanscan with user defined    data")
 	
 	[**Figure    9: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
 	
@@ -2177,7 +2177,7 @@ Tutorial step 4
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
     
-	![Figure    10: Kaplanscan with user defined data    result](_static/images/Kaplanscan_userdefined_2a.png "Figure    10: Kaplanscan with user defined data    result")
+	![](_static/images/Kaplanscan_userdefined_2a.png "Figure    10: Kaplanscan with user defined data    result")
 	
 	[**Figure    10: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
 	
@@ -2264,7 +2264,7 @@ Tutorial step 1
 5.  Click 'Next'
 
 
-	![Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin](_static/images/Pathway_menu.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
+	![](_static/images/Pathway_menu.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
 	
 	[**Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin**](_static/images/Pathway_menu.png)
 	
@@ -2282,7 +2282,7 @@ Tutorial step 2
     average expression, this is most likely the probeset that best
     represents mRNA concentration.
     
-	![Figure    2: Options for alternative name catenin: choose    CTNNB1](_static/images/Pathway_list.png "Figure    2: Options for alternative name catenin: choose    CTNNB1")
+	![](_static/images/Pathway_list.png "Figure    2: Options for alternative name catenin: choose    CTNNB1")
 	
 	[**Figure    2: Options for alternative name catenin: choose    CTNNB1**](_static/images/Pathway_list.png)
 	
@@ -2304,7 +2304,7 @@ Tutorial step 3
     Tutorial; Find genes correlating with your gene of interest. The
     result is returned as a list of pathways; Figure 3.
     
-	![Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset](_static/images/Pathway_Kegg.png "Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset")
+	![](_static/images/Pathway_Kegg.png "Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset")
 	
 	[**Figure    3: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset**](_static/images/Pathway_Kegg.png)
 	
@@ -2320,7 +2320,7 @@ Tutorial step 3
     the pathway. We'll discuss the first two later, now click on the A
     in front of the 'SNARE interactions in vesicular transport'-pathway.
     
-	![Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1](_static/images/Pathway_SNARE.png "Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1")
+	![](_static/images/Pathway_SNARE.png "Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1")
 	
 	[**Figure    4: The SNARE pathway; darker green and red are genes correlating    with CTNNB1**](_static/images/Pathway_SNARE.png)
 	
@@ -2341,7 +2341,7 @@ Tutorial step 3
     of the screen.
 
 
-	![Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.](_static/images/Pathway_Zoom.png "Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.")
+	![](_static/images/Pathway_Zoom.png "Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.")
 	
 	[**Figure5: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.**](_static/images/Pathway_Zoom.png)
 	
@@ -2356,7 +2356,7 @@ Tutorial step 4
 1.  In field 3 on the R2 start page select 'KEGG PathwayFinder by
     Groups';
     
-	![Figure    6: Selecting PathwayFinder by    Groups](_static/images/Pathway_Finder.png "Figure    6: Selecting PathwayFinder by    Groups")
+	![](_static/images/Pathway_Finder.png "Figure    6: Selecting PathwayFinder by    Groups")
 	
 	[**Figure    6: Selecting PathwayFinder by    Groups**](_static/images/Pathway_Finder.png)
 	
@@ -2374,7 +2374,7 @@ Tutorial step 5
     of a beta catenin mutation; bcat mutation. Select this; Figure 7.
     Pathway\_Select
     
-	!['Figure    7: Selecting the bcat    mutation track.](_static/images/Pathway_Select.png "'Figure    7: Selecting the bcat    mutation track.")
+	![](_static/images/Pathway_Select.png "'Figure    7: Selecting the bcat    mutation track.")
 	
 	[**'Figure    7: Selecting the bcat    mutation track.**](_static/images/Pathway_Select.png)
 	
@@ -2412,7 +2412,7 @@ Tutorial step 7
 1.  A list of hyperlinked genes is returned, sort them by descending
     R-value by clicking on the R-column-header twice;
     
-	![Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.](_static/images/Pathway_correlate.png "Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.")
+	![](_static/images/Pathway_correlate.png "Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.")
 	
 	[**Figure    9: Wnt pathway genes correlating with Beta Catenin mutation as    a list.**](_static/images/Pathway_correlate.png)
 	
@@ -2433,7 +2433,7 @@ Tutorial step 8
     Wnt-subtype in the Medulloblastoma field.
 
 
-	![Figure10:AXIN2 expression correlates with Beta Cateninmutations](_static/images/Pathway_Axin.png "Figure10:AXIN2 expression correlates with Beta Cateninmutations")
+	![](_static/images/Pathway_Axin.png "Figure10:AXIN2 expression correlates with Beta Cateninmutations")
 	
 	[**Figure10:AXIN2 expression correlates with Beta Cateninmutations**](_static/images/Pathway_Axin.png)
 	
@@ -2498,7 +2498,7 @@ Tutorial step 1
 1.  Use "Across Datasets" in field 1 by default the "megasampler" option
     is selected in field 2 and click "next".
     
-	![Figure    1: Using across    datasets](_static/images/MultipleDatasets_across.png "Figure    1: Using across    datasets")
+	![](_static/images/MultipleDatasets_across.png "Figure    1: Using across    datasets")
 	
 	[**Figure    1: Using across    datasets**](_static/images/MultipleDatasets_across.png)
 	
@@ -2507,7 +2507,7 @@ Tutorial step 1
     later on.
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that R2 harbours different types of microarray platforms***    
 ----------
@@ -2527,7 +2527,7 @@ normalizations.
     (Expression Project for Oncology (expO)) to pre-select a series of
     tumor datasets. Click "next".
     
-	![Figure    2: Select a    preset](_static/images/MultipleDatasets_Preset.png "Figure    2: Select a    preset")
+	![](_static/images/MultipleDatasets_Preset.png "Figure    2: Select a    preset")
 	
 	[**Figure    2: Select a    preset**](_static/images/MultipleDatasets_Preset.png)
 	
@@ -2541,18 +2541,18 @@ normalizations.
     gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
     Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     
-	![Figure    3: Megasampler adjustment    selection](_static/images/Pathway_menu.png "Figure    3: Megasampler adjustment    selection")
+	![](_static/images/Pathway_menu.png "Figure    3: Megasampler adjustment    selection")
 	
 	[**Figure    3: Megasampler adjustment    selection**](_static/images/Pathway_menu.png)
 	
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that private datasets linked to a specific user are indicated  
 with a green background color***                                        
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/M
+[![](_static/images/M
 ultipleDatasets_Didyou1.png)                           
                                              
                                                                         
@@ -2584,7 +2584,7 @@ Tutorial step 2
 2.  For now change the color for the datasets as indicated in Figure 4
     and click "next".
     
-	![Figure    4: Adjusting the    megasampler graph.](_static/images/MultipleDatasets_AdjustGraph.png "Figure    4: Adjusting the    megasampler graph.")
+	![](_static/images/MultipleDatasets_AdjustGraph.png "Figure    4: Adjusting the    megasampler graph.")
 	
 	[**Figure    4: Adjusting the    megasampler graph.**](_static/images/MultipleDatasets_AdjustGraph.png)
 	
@@ -2593,7 +2593,7 @@ Tutorial step 2
     calculates whether the means of the expression levels between the
     selected datasets are significant different.
 4.  
-	![Figure    5: Anova test for the    selected datasets.](_static/images/MultipleDatasets_Anova.png "Figure    5: Anova test for the    selected datasets.")
+	![](_static/images/MultipleDatasets_Anova.png "Figure    5: Anova test for the    selected datasets.")
 	
 	[**Figure    5: Anova test for the    selected datasets.**](_static/images/MultipleDatasets_Anova.png)
 	
@@ -2608,7 +2608,7 @@ graph.
 
 
 1.  
-	![Figure    6: YCC expression levels in 15 datasets covering    2173 samples.](_static/images/MultipleDatasets_YCC-express.png "Figure    6: YCC expression levels in 15 datasets covering    2173 samples.")
+	![](_static/images/MultipleDatasets_YCC-express.png "Figure    6: YCC expression levels in 15 datasets covering    2173 samples.")
 	
 	[**Figure    6: YCC expression levels in 15 datasets covering    2173 samples.**](_static/images/MultipleDatasets_YCC-express.png)
 	
@@ -2622,7 +2622,7 @@ and click on "redraw at the bottom of the screen.
 
 
 1.  
-	![Figure    7: Different Megasampler graphical    representations](_static/images/MultipleDatasets_Representations.png "Figure    7: Different Megasampler graphical    representations")
+	![](_static/images/MultipleDatasets_Representations.png "Figure    7: Different Megasampler graphical    representations")
 	
 	[**Figure    7: Different Megasampler graphical    representations**](_static/images/MultipleDatasets_Representations.png)
 	
@@ -2638,12 +2638,12 @@ directly.
 
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that you can save your selection of datasets and select your   
 stored dataset the next time you login to R2.***                        
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/M
+[![](_static/images/M
 ultipleDatasets_Didyou2.png)                           
                                              
                                                                         
@@ -2676,7 +2676,7 @@ dataset (see Figure 8).
 
 
 
-	![Figure8: Adjustable settings panel, color groups within adataset.](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
+	![](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
 	
 	[**Figure8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
 	
@@ -2714,7 +2714,7 @@ comparisons between datasets).
     datasets of the same platform in R2. This module is discussed in the
     correlate genes tutorial.
     
-	![Figure    9: MYCN expression level distribution for all u133-2 datasets    in R2.](_static/images/MultipleDatasets_LevelDistribution.png "Figure    9: MYCN expression level distribution for all u133-2 datasets    in R2.")
+	![](_static/images/MultipleDatasets_LevelDistribution.png "Figure    9: MYCN expression level distribution for all u133-2 datasets    in R2.")
 	
 	[**Figure    9: MYCN expression level distribution for all u133-2 datasets    in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
 	
@@ -2782,7 +2782,7 @@ Tutorial step 1
     Kool - 62 MAS5.0 -u133p2' dataset by clicking 'Change Dataset'
 3.  In field 3 choose the 'K-means' option (Figure 1)
     
-	![Figure    1: Selecting K-means clustering on the R2 main    page](_static/images/Kmeans_selecting.png "Figure    1: Selecting K-means clustering on the R2 main    page")
+	![](_static/images/Kmeans_selecting.png "Figure    1: Selecting K-means clustering on the R2 main    page")
 	
 	[**Figure    1: Selecting K-means clustering on the R2 main    page**](_static/images/Kmeans_selecting.png)
 	
@@ -2806,7 +2806,7 @@ Tutorial step 2
     (see boxed text on K-means clustering) we set the number of draws
     (performing of the calculation) to 10x10.
     
-	![Figure    2: K-means clustering    settings](_static/images/Kmeans_clustersettings.png "Figure    2: K-means clustering    settings")
+	![](_static/images/Kmeans_clustersettings.png "Figure    2: K-means clustering    settings")
 	
 	[**Figure    2: K-means clustering    settings**](_static/images/Kmeans_clustersettings.png)
 	
@@ -2815,11 +2815,11 @@ Tutorial step 2
     at heatmap option. click "next"
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that K-means is a method of cluster analysis?***               
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=400){width="400"}](_static/images/K
+[![](_static/images/K
 means_didyouknow.png)                                  
                                              
                                                                         
@@ -2866,7 +2866,7 @@ Tutorial step 3
     differ slightly when weaker associations are investigated; k-means
     is non-deterministic (random initiation).
     
-	![Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.](_static/images/Kmeans_cluster.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
+	![](_static/images/Kmeans_cluster.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
 	
 	[**Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.**](_static/images/Kmeans_cluster.png)
 	
@@ -2883,7 +2883,7 @@ Tutorial step 3
     browser click the back button and change the number of groups to 8.
 4.  Click "next".
     
-	![Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.](_static/images/Kmeans_heatmap.png "Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.")
+	![](_static/images/Kmeans_heatmap.png "Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.")
 	
 	[**Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.**](_static/images/Kmeans_heatmap.png)
 	
@@ -2913,7 +2913,7 @@ Tutorial step 4
 
 1.  The resulting clustering in 8 groups is depicted in Figure 5
     
-	![Figure    5: Clustering in 8 groups produces no    consistent outcome.](_static/images/Kmeans_track1.png "Figure    5: Clustering in 8 groups produces no    consistent outcome.")
+	![](_static/images/Kmeans_track1.png "Figure    5: Clustering in 8 groups produces no    consistent outcome.")
 	
 	[**Figure    5: Clustering in 8 groups produces no    consistent outcome.**](_static/images/Kmeans_track1.png)
 	
@@ -2931,7 +2931,7 @@ Tutorial step 4
     can be found in the Adapting R2 tutorial.
 
 
-![Figure6: Consistent clustering for 4groups.](_static/images/Kmeans_track2.png "Figure6: Consistent clustering for 4groups.")
+![](_static/images/Kmeans_track2.png "Figure6: Consistent clustering for 4groups.")
 
 [**Figure6: Consistent clustering for 4groups.**](_static/images/Kmeans_track2.png)
 **Figure
@@ -3023,7 +3023,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 
 
 
-	![Figure1: Signature score: one category vs up/downcategory](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
+	![](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure1: Signature score: one category vs up/downcategory")
 	
 	[**Figure1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 	
@@ -3090,7 +3090,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     track (Figure 2.7).
 
 
-	![Figure2: Generategenesignature](_static/images/Genesetcorrelation_mycn_signature_v1.png "Figure2: Generategenesignature")
+	![](_static/images/Genesetcorrelation_mycn_signature_v1.png "Figure2: Generategenesignature")
 	
 	[**Figure2: Generategenesignature**](_static/images/Genesetcorrelation_mycn_signature_v1.png)
 	
@@ -3133,7 +3133,7 @@ the mRNA level.
 
 
 
-	![Figure3: Add groupcolouring](_static/images/Genesetcorrelation_mycn_signature_group_v0.png "Figure3: Add groupcolouring")
+	![](_static/images/Genesetcorrelation_mycn_signature_group_v0.png "Figure3: Add groupcolouring")
 	
 	[**Figure3: Add groupcolouring**](_static/images/Genesetcorrelation_mycn_signature_group_v0.png)
 	
@@ -3189,7 +3189,7 @@ with our signature of interest.
     Figure 4.7).
 
 
-	![Figure4: Findgenesignatures](_static/images/Fig4_mycn_signature_vs_sign_v1.png "Figure4: Findgenesignatures")
+	![](_static/images/Fig4_mycn_signature_vs_sign_v1.png "Figure4: Findgenesignatures")
 	
 	[**Figure4: Findgenesignatures**](_static/images/Fig4_mycn_signature_vs_sign_v1.png)
 	
@@ -3277,7 +3277,7 @@ Tutorial step 1
     experiment we make use of the "Time-series" module. Logon to R2 and
     select Time series in left menu panel of R2.
     
-	![Figure    1: Single selection in the Time-series    module](_static/images/AnalysingTime_Select.png "Figure    1: Single selection in the Time-series    module")
+	![](_static/images/AnalysingTime_Select.png "Figure    1: Single selection in the Time-series    module")
 	
 	[**Figure    1: Single selection in the Time-series    module**](_static/images/AnalysingTime_Select.png)
 	
@@ -3300,7 +3300,7 @@ Tutorial step 1
     click "next". In the adjustable settings menu, leave all the default
     settings and click "GO".
     
-	!['Figure    2: Timeseries    selection screen.](_static/images/AnalysingTime_SelectSeries.png "'Figure    2: Timeseries    selection screen.")
+	![](_static/images/AnalysingTime_SelectSeries.png "'Figure    2: Timeseries    selection screen.")
 	
 	[**'Figure    2: Timeseries    selection screen.**](_static/images/AnalysingTime_SelectSeries.png)
 	
@@ -3314,7 +3314,7 @@ Tutorial step 1
     Hovering over the individual timepoint reveals
     additional information.
     
-	![Figure    3: Expression levels of the HMOX1 gene during a time course    experiment](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
+	![](_static/images/AnalysingTime_HMOX1.png "Figure    3: Expression levels of the HMOX1 gene during a time course    experiment")
 	
 	[**Figure    3: Expression levels of the HMOX1 gene during a time course    experiment**](_static/images/AnalysingTime_HMOX1.png)
 	
@@ -3323,7 +3323,7 @@ Tutorial step 1
     graph by providing the BCL6 gene in the right upper corner and click
     "Search Gene".
     
-	![Figure    4: Probeset verification and    Adjustable Settings.](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
+	![](_static/images/AnalysingTime_Probeset.png "Figure    4: Probeset verification and    Adjustable Settings.")
 	
 	[**Figure    4: Probeset verification and    Adjustable Settings.**](_static/images/AnalysingTime_Probeset.png)
 	
@@ -3368,7 +3368,7 @@ Tutorial step 2
     of filtering options to find the novel regulated genes. Some of the
     options are already set.
     
-	![Figure    5: The time series    table builder.](_static/images/AnalysingTime_Tablebuild.png "Figure    5: The time series    table builder.")
+	![](_static/images/AnalysingTime_Tablebuild.png "Figure    5: The time series    table builder.")
 	
 	[**Figure    5: The time series    table builder.**](_static/images/AnalysingTime_Tablebuild.png)
 	
@@ -3402,7 +3402,7 @@ Tutorial step 2
     average expression level.
     Select and set the options as depicted in Figure 5 and click "next".
     
-	![Figure    6: Up and down regulated genes table sorted on best fold    change](_static/images/AnalysingTime_SortedTable.png "Figure    6: Up and down regulated genes table sorted on best fold    change")
+	![](_static/images/AnalysingTime_SortedTable.png "Figure    6: Up and down regulated genes table sorted on best fold    change")
 	
 	[**Figure    6: Up and down regulated genes table sorted on best fold    change**](_static/images/AnalysingTime_SortedTable.png)
 	
@@ -3411,7 +3411,7 @@ Tutorial step 2
     series experiment. Clicking on a probeset link generates a single
     gene time series plot as shown in Figure 7.
     
-	![Figure    7:    regulated gene.](_static/images/AnalysingTime_RegulatedGene.png "Figure    7:    regulated gene.")
+	![](_static/images/AnalysingTime_RegulatedGene.png "Figure    7:    regulated gene.")
 	
 	[**Figure    7:    regulated gene.**](_static/images/AnalysingTime_RegulatedGene.png)
 	
@@ -3420,12 +3420,12 @@ Tutorial step 2
     "diagram button re-direct to the automatically generated Venn
     Diagram representing the intersection of the genesets.
     
-	![Figure    8: Top    buttons](_static/images/AnalysingTime_Button.png "Figure    8: Top    buttons")
+	![](_static/images/AnalysingTime_Button.png "Figure    8: Top    buttons")
 	
 	[**Figure    8: Top    buttons**](_static/images/AnalysingTime_Button.png)
 	
     
-	![Figure    9: Time series Venn    diagram](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
+	![](_static/images/AnalysingTime_Venn.png "Figure    9: Time series Venn    diagram")
 	
 	[**Figure    9: Time series Venn    diagram**](_static/images/AnalysingTime_Venn.png)
 	
@@ -3454,7 +3454,7 @@ Tutorial step 3.
     Temporary option at "Where" and remember the name of the stored
     genecategory for the next step.
     
-	![Figure    10: : Store a gene    category](_static/images/AnalysingTime_CustomCat.png "Figure    10: : Store a gene    category")
+	![](_static/images/AnalysingTime_CustomCat.png "Figure    10: : Store a gene    category")
 	
 	[**Figure    10: : Store a gene    category**](_static/images/AnalysingTime_CustomCat.png)
 	
@@ -3469,7 +3469,7 @@ Tutorial step 3.
     u133p2 . In field 3 select "View Geneset" at "Select type of
     analyses" and click "next".
     
-	!['Figure    11: Geneview    adjustable settings.](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
+	![](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
 	
 	[**'Figure    11: Geneview    adjustable settings.**](_static/images/AnalysingTime_Geneview.png)
 	
@@ -3481,7 +3481,7 @@ Tutorial step 3.
 6.  Choose the temporary Genecategory generated via the Timeserie
     experiments, the track b-r\_grade and click "next".
     
-	![Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.](_static/images/AnalysingTime_Heatmap.png "Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.")
+	![](_static/images/AnalysingTime_Heatmap.png "Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.")
 	
 	[**Figure    12: Heatmap of unsupervised clustering within a track of a    selected geneset.**](_static/images/AnalysingTime_Heatmap.png)
 	
@@ -3528,7 +3528,7 @@ Tutorial step 4
     "Genecategory" at the clustering section select '10x10" at "numbers
     of draw" and click "next".
     
-	![Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.](_static/images/AnalysingTime_heatmap2.png "Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.")
+	![](_static/images/AnalysingTime_heatmap2.png "Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.")
 	
 	[**Figure    13: 10x10 Heatmap with the same dataset and gene category as    depicted in    Figure 9.**](_static/images/AnalysingTime_heatmap2.png)
 	
@@ -3565,7 +3565,7 @@ Tutorial Step 5
     overlay of the results with the list generated in the " time
     series module".
     
-	![Figure    14: Part of correlate with    dataset genelist.](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
+	![](_static/images/AnalysingTime_TableCorrelate.png "Figure    14: Part of correlate with    dataset genelist.")
 	
 	[**Figure    14: Part of correlate with    dataset genelist.**](_static/images/AnalysingTime_TableCorrelate.png)
 	
@@ -3641,7 +3641,7 @@ Tutorial step 1
 1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
     Click 'Next'.
     
-	![Figure    1: Select View a    Geneset](_static/images/UsingGenesets_Select.png "Figure    1: Select View a    Geneset")
+	![](_static/images/UsingGenesets_Select.png "Figure    1: Select View a    Geneset")
 	
 	[**Figure    1: Select View a    Geneset**](_static/images/UsingGenesets_Select.png)
 	
@@ -3666,12 +3666,12 @@ Tutorial step 1
     the selection. We're now going to search for Cell Cycle gene
     sets**](_static/images/UsingGenesets%20Settings.png)
     
-	![Figure    3: Available collections of Genesets in    R2](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
+	![](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
 	
 	[**Figure    3: Available collections of Genesets in    R2**](_static/images/UsingGenesets_Collections.png)
 	
     
-	![Figure    4: Available ordering domains for    samples](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
+	![](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
 	
 	[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
 	
@@ -3679,7 +3679,7 @@ Tutorial step 1
     their description are shown. Choose the KEGG Cell Cycle (in the
     collection of Cellular Processes) by clicking the 'View' hyperlink.
     
-	![Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.](_static/images/UsingGenesets_Selecting.png "Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.")
+	![](_static/images/UsingGenesets_Selecting.png "Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.")
 	
 	[**Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.**](_static/images/UsingGenesets_Selecting.png)
 	
@@ -3691,7 +3691,7 @@ Tutorial step 1
     This limitation can be adapted in the \`my settings\`.
 
 
-	![Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.](_static/images/UsingGenesets_Heatmap.png "Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
+	![](_static/images/UsingGenesets_Heatmap.png "Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
 	
 	[**Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
 	
@@ -3713,14 +3713,14 @@ Tutorial step 2
     genesets has to be defined; Select 'Cellular Processes' and click
     "next" (Figure 7).
     
-	![Figure    7: Selection a subcollection from the large collection of Kegg    pathways](_static/images/UsingGenesets_Subcollection.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
+	![](_static/images/UsingGenesets_Subcollection.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
 	
 	[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images/UsingGenesets_Subcollection.png)
 	
 3.  R2 allows selection of multiple genesets at the same time; CTRL+
     select Cell Cycle and Apoptosis and click 'Next'.
     
-	!['Figure    8: Selecting multiple    genesets](_static/images/UsingGenesets_Doubleselect.png "'Figure    8: Selecting multiple    genesets")
+	![](_static/images/UsingGenesets_Doubleselect.png "'Figure    8: Selecting multiple    genesets")
 	
 	[**'Figure    8: Selecting multiple    genesets**](_static/images/UsingGenesets_Doubleselect.png)
 	
@@ -3731,7 +3731,7 @@ Tutorial step 2
     genes are clustering together.
 
 
-	![Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
+	![](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
 	
 	[**Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.**](_static/images/UsingGenesets_Heatmap2.png)
 	
@@ -3750,7 +3750,7 @@ Tutorial step 3
     subcollection selection window choose Cellular Processes again
     (Figure 7) and click "next".
     
-	![Figure    10: Selecting the domain to order samples by: Order by a    track](_static/images/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
+	![](_static/images/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
 	
 	[**Figure    10: Selecting the domain to order samples by: Order by a    track**](_static/images/UsingGenesets_SelectDomain.png)
 	
@@ -3758,7 +3758,7 @@ Tutorial step 3
     Neuroblastoma staging INSS as track to order samples by and click
     "next" (Figure 11)
     
-	![Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track](_static/images/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
+	![](_static/images/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
 	
 	[**Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track**](_static/images/UsingGenesets_CellCycle.png)
 	
@@ -3830,7 +3830,7 @@ to do a simple hierarchicl clustering
     Kool e.a. (2008).
 
 
-	!['Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
+	![](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
 	
 	[**'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.**](_static/images/UsingGenesets_Unsupervised.png)
 	
@@ -3891,7 +3891,7 @@ Tutorial step 1
 3.  In field 3 choose the 'Principle Component Option' option (Error:
     Reference source not found)
     
-	![Figure    1: Selecting Principe Component    Analysis](_static/images/PrincipleComponent_Select.png "Figure    1: Selecting Principe Component    Analysis")
+	![](_static/images/PrincipleComponent_Select.png "Figure    1: Selecting Principe Component    Analysis")
 	
 	[**Figure    1: Selecting Principe Component    Analysis**](_static/images/PrincipleComponent_Select.png)
 	
@@ -3916,17 +3916,17 @@ Tutorial step 2
     to the several principle components combinations to investigate
     whether you can distinguish subgroups in your dataset.
     
-	![Figure    2: Adjusting PCA    settings](_static/images/PrincipleComponent_Adjust.png "Figure    2: Adjusting PCA    settings")
+	![](_static/images/PrincipleComponent_Adjust.png "Figure    2: Adjusting PCA    settings")
 	
 	[**Figure    2: Adjusting PCA    settings**](_static/images/PrincipleComponent_Adjust.png)
 	
     
-	!['Figure    3: Selecting    tracks](_static/images/PrincipleComponent_SelectTracks.png "'Figure    3: Selecting    tracks")
+	![](_static/images/PrincipleComponent_SelectTracks.png "'Figure    3: Selecting    tracks")
 	
 	[**'Figure    3: Selecting    tracks**](_static/images/PrincipleComponent_SelectTracks.png)
 	
     
-	![Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.](_static/images/PrincipleComponent_Combinations.png "Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.")
+	![](_static/images/PrincipleComponent_Combinations.png "Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.")
 	
 	[**Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.**](_static/images/PrincipleComponent_Combinations.png)
 	
@@ -3942,7 +3942,7 @@ Tutorial step 2
     of interest e.g "Samplenames" and click next.
 
 
-	!['Figure5: Samples are in annotated by track by usingLabelMode.](_static/images/PrincipleComponent_Label.png "'Figure5: Samples are in annotated by track by usingLabelMode.")
+	![](_static/images/PrincipleComponent_Label.png "'Figure5: Samples are in annotated by track by usingLabelMode.")
 	
 	[**'Figure5: Samples are in annotated by track by usingLabelMode.**](_static/images/PrincipleComponent_Label.png)
 	
@@ -3991,7 +3991,7 @@ but not with Internet Explorer.
     in order to investigate whether there are any (more)
     subgroups visible.
     
-	!['Figure    6: Showing a 3D PCA graph from    different angles.](_static/images/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
+	![](_static/images/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
 	
 	[**'Figure    6: Showing a 3D PCA graph from    different angles.**](_static/images/PrincipleComponent_3D.png)
 	
@@ -4082,12 +4082,12 @@ Tutorial step 1
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
-	![Figure    1: Genome browser and Transcript    view](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
+	![](_static/images/UsingR2genome_probesettable.png "Figure    1: Genome browser and Transcript    view")
 	
 	[**Figure    1: Genome browser and Transcript    view**](_static/images/UsingR2genome_probesettable.png)
 	
     
-	![Figure    2: The probeset verification    table](_static/images/UsingR2genome_Genomebrowser.png "Figure    2: The probeset verification    table")
+	![](_static/images/UsingR2genome_Genomebrowser.png "Figure    2: The probeset verification    table")
 	
 	[**Figure    2: The probeset verification    table**](_static/images/UsingR2genome_Genomebrowser.png)
 	
@@ -4135,12 +4135,12 @@ Tutorial step 1
     regions are indicated in the reporter track by very dark shades.
     ***
 >*  
-	![Figure    3: Legend of the color    usage](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
+	![](_static/images/UsingR2genome_legend1.png "Figure    3: Legend of the color    usage")
 	
 	[**Figure    3: Legend of the color    usage**](_static/images/UsingR2genome_legend1.png)
 	
     
-	![Figure    4: Second half of the genome browser with    default tracks.](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
+	![](_static/images/UsingR2genome_tracks.png "Figure    4: Second half of the genome browser with    default tracks.")
 	
 	[**Figure    4: Second half of the genome browser with    default tracks.**](_static/images/UsingR2genome_tracks.png)
 	
@@ -4161,7 +4161,7 @@ Tutorial step 1
     tracks to reveal extra information.
 
 
-![Figure5: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
+![](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
 
 [**Figure5: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 **Figure
@@ -4191,7 +4191,7 @@ Tutorial step 2
     though ). Also in the track panel set "sequence and GC" windows
     to on. Click redraw in the middle panel.
     
-	![Figure    7: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
+	![](_static/images/UsingR2genome_zoomcontrols.png "Figure    7: Zoom    controls")
 	
 	[**Figure    7: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 	
@@ -4201,12 +4201,12 @@ Tutorial step 2
     the probes which form together a probeset . Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
-	![Figure    8: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
+	![](_static/images/UsingR2genome_zoomgraph.png "Figure    8: Zoom-in    graph")
 	
 	[**Figure    8: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)
 	
     
-	![Figure    9: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
+	![](_static/images/UsingR2genome_basepair.png "Figure    9: Zoom revealing basepair    sequence")
 	
 	[**Figure    9: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
 	
@@ -4218,12 +4218,12 @@ Tutorial step 2
     the region of interest reaches a certain size)
 
 ----------
-[![](_static/images/R2d2_logo.png)](Image:Image
+[![](Image:Image
 :R2d2%20logo.png)***Did                                
 you know that the additional settings can be changed in "Tracks         
 Panel".***                                                              
 ----------
-[![](http://ogtoolbox/w/index.php?oldid=150){width="150"}](_static/images/U
+[![](_static/images/U
 singR2genome_toolicon.png)                             
                                              
                                                                         
@@ -4253,7 +4253,7 @@ chromosome at a certain location.
     generated with average gene expression levels for the selected
     dataset in that region.
     
-	![Figure    10: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
+	![](_static/images/UsingR2genome_Clicking.png "Figure    10: Chromosomal    clicking")
 	
 	[**Figure    10: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
 	
@@ -4410,7 +4410,7 @@ Tutorial step 1
     (Figure 1). First item under there is the general 'My Settings';
     choose that.
     
-	![Figure    1: Personalizing R2: the My Settings    menu-item](_static/images/AdaptingR2_Mysettings.png "Figure    1: Personalizing R2: the My Settings    menu-item")
+	![](_static/images/AdaptingR2_Mysettings.png "Figure    1: Personalizing R2: the My Settings    menu-item")
 	
 	[**Figure    1: Personalizing R2: the My Settings    menu-item**](_static/images/AdaptingR2_Mysettings.png)
 	
@@ -4419,7 +4419,7 @@ Tutorial step 1
     are set to appropriate values, but of course you want to set your
     favorite dataset here!
     
-	![Figure    2: The User Defined Settings window; most parameters are    appropriate; you want to change your preferential    dataset however.](_static/images/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window; most parameters are    appropriate; you want to change your preferential    dataset however.")
+	![](_static/images/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window; most parameters are    appropriate; you want to change your preferential    dataset however.")
 	
 	[**Figure    2: The User Defined Settings window; most parameters are    appropriate; you want to change your preferential    dataset however.**](_static/images/AdaptingR2_Userdefined.png)
 	
@@ -4433,7 +4433,7 @@ Tutorial step 1
     for the graphs of specific experiments in a series (Figure 3).
 
 
-	![Figure3: Setting time seriescolors](_static/images/AdaptingR2_SettingsTime.png "Figure3: Setting time seriescolors")
+	![](_static/images/AdaptingR2_SettingsTime.png "Figure3: Setting time seriescolors")
 	
 	[**Figure3: Setting time seriescolors**](_static/images/AdaptingR2_SettingsTime.png)
 	
@@ -4461,7 +4461,7 @@ Tutorial step 2
     take care of the rest and send a notification email.
 
 
-	![Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.](_static/images/AdaptingR2_DatasetUpload.png "Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.")
+	![](_static/images/AdaptingR2_DatasetUpload.png "Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.")
 	
 	[**Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.**](_static/images/AdaptingR2_DatasetUpload.png)
 	
@@ -4478,7 +4478,7 @@ Tutorial step 3
     R2; hover over the 'Category'-item and select 'Build Category'
     (Figure 5)
     
-	![Figure    5: Categories related menu-items; select Build Category to make    your own.](_static/images/AdaptingR2_Categories.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
+	![](_static/images/AdaptingR2_Categories.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
 	
 	[**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2_Categories.png)
 	
@@ -4490,7 +4490,7 @@ Tutorial step 3
     'Input Box' option in the 'how' dropdown box and select 'personal
     track' in the 'Where' dropdown.
     
-	![Figure    6: Building a Custom Category: Uploading    a file.](_static/images/AdaptingR2_BuildingCategory.png "Figure    6: Building a Custom Category: Uploading    a file.")
+	![](_static/images/AdaptingR2_BuildingCategory.png "Figure    6: Building a Custom Category: Uploading    a file.")
 	
 	[**Figure    6: Building a Custom Category: Uploading    a file.**](_static/images/AdaptingR2_BuildingCategory.png)
 	
@@ -4505,7 +4505,7 @@ Tutorial step 3
     available as a Category for all analyses within R2. Go back to the
     main page to see where you can use this set.
     
-	![Figure    7: Using the Input Box to upload your category    of genes.](_static/images/AdaptingR2_Inputbox.png "Figure    7: Using the Input Box to upload your category    of genes.")
+	![](_static/images/AdaptingR2_Inputbox.png "Figure    7: Using the Input Box to upload your category    of genes.")
 	
 	[**Figure    7: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
 	
@@ -4513,7 +4513,7 @@ Tutorial step 3
     GeneSet view. In the main menu in Field 3 select 'View a Geneset'
     and click "next"( Figure 8)
     
-	![Figure    8: Using a category; select View    Geneset](_static/images/AdaptingR2_Viewset.png "Figure    8: Using a category; select View    Geneset")
+	![](_static/images/AdaptingR2_Viewset.png "Figure    8: Using a category; select View    Geneset")
 	
 	[**Figure    8: Using a category; select View    Geneset**](_static/images/AdaptingR2_Viewset.png)
 	
@@ -4522,7 +4522,7 @@ Tutorial step 3
     Select My GeneCategories to choose from your categories (currently
     only one of course) \#: and click Next (Figure 9).
     
-	![Figure    9: Selecting your    genecategories](_static/images/AdaptingR2_Selectgeneset.png "Figure    9: Selecting your    genecategories")
+	![](_static/images/AdaptingR2_Selectgeneset.png "Figure    9: Selecting your    genecategories")
 	
 	[**Figure    9: Selecting your    genecategories**](_static/images/AdaptingR2_Selectgeneset.png)
 	
@@ -4531,7 +4531,7 @@ Tutorial step 3
     (Figure 10). For now we end here, later on we'll see the category
     again in the context of \#:Tracks.
     
-	![Figure    10: Your geneset is available    as category.](_static/images/AdaptingR2_YourGeneset.png "Figure    10: Your geneset is available    as category.")
+	![](_static/images/AdaptingR2_YourGeneset.png "Figure    10: Your geneset is available    as category.")
 	
 	[**Figure    10: Your geneset is available    as category.**](_static/images/AdaptingR2_YourGeneset.png)
 	
@@ -4539,7 +4539,7 @@ Tutorial step 3
     the categories we just build. From the My Settings menu hover over
     'Categories' and click 'Manage Categories'.
     
-	![Figure    11: The Category    Manager](_static/images/AdaptingR2_CategoryManager.png "Figure    11: The Category    Manager")
+	![](_static/images/AdaptingR2_CategoryManager.png "Figure    11: The Category    Manager")
 	
 	[**Figure    11: The Category    Manager**](_static/images/AdaptingR2_CategoryManager.png)
 	
@@ -4551,7 +4551,7 @@ Tutorial step 3
     in collections. As an example we're going to update the Category we
     just made. Click the 'Copy/Delete/Rename/Edit Categories' button.
     
-	![Figure    12: Select the procedure for a Category; in this case    'update](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
+	![](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
 	
 	[**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
 	
@@ -4559,7 +4559,7 @@ Tutorial step 3
     for your category of choice; in our case we want to keep the
     category and update it. Select it and click 'Execute'.
     
-	![Figure    13: The Category we just built can be adapted in    all details.](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
+	![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
 	
 	[**Figure    13: The Category we just built can be adapted in    all details.**](_static/images/AdaptingR2_AdaptCategory.png)
 	
@@ -4584,7 +4584,7 @@ Tutorial step 4
     this subject) . On the main page of R2 select the K-means analysis
     in Field 3 (Figure 14)
     
-	![Figure    14: Selecting a K-means    analysis](_static/images/AdaptingR2_SelectKmeans.png "Figure    14: Selecting a K-means    analysis")
+	![](_static/images/AdaptingR2_SelectKmeans.png "Figure    14: Selecting a K-means    analysis")
 	
 	[**Figure    14: Selecting a K-means    analysis**](_static/images/AdaptingR2_SelectKmeans.png)
 	
@@ -4593,7 +4593,7 @@ Tutorial step 4
     of samples. In our case this is called stud06-ChangedGenes. Set the
     number of draws to 10x10, click 'next'
     
-	![Figure    15: Settings for K-means; the Category built above is available for    clustering](_static/images/AdaptingR2_SelectOwnCat.png "Figure    15: Settings for K-means; the Category built above is available for    clustering")
+	![](_static/images/AdaptingR2_SelectOwnCat.png "Figure    15: Settings for K-means; the Category built above is available for    clustering")
 	
 	[**Figure    15: Settings for K-means; the Category built above is available for    clustering**](_static/images/AdaptingR2_SelectOwnCat.png)
 	
@@ -4602,7 +4602,7 @@ Tutorial step 4
     is alright. What is important is that the resulting groups can be
     stored as a track; click the button 'store as a track'.
     
-	![Figure    16: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps](_static/images/AdaptingR2_UsestoredTrack.png "Figure    16: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
+	![](_static/images/AdaptingR2_UsestoredTrack.png "Figure    16: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
 	
 	[**Figure    16: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps**](_static/images/AdaptingR2_UsestoredTrack.png)
 	
@@ -4614,7 +4614,7 @@ Tutorial step 4
     potentially also change the name to something you could easily
     relate to.
     
-	![Figure    17: Storing the current groups as Track; Track name has been    adapted, the track will be stored in our personal    track database.](_static/images/AdaptingR2_DefineGroups.png "Figure    17: Storing the current groups as Track; Track name has been    adapted, the track will be stored in our personal    track database.")
+	![](_static/images/AdaptingR2_DefineGroups.png "Figure    17: Storing the current groups as Track; Track name has been    adapted, the track will be stored in our personal    track database.")
 	
 	[**Figure    17: Storing the current groups as Track; Track name has been    adapted, the track will be stored in our personal    track database.**](_static/images/AdaptingR2_DefineGroups.png)
 	
@@ -4622,7 +4622,7 @@ Tutorial step 4
     custom tracks manager we can adapt this track again. From the My
     Settings menu select 'Manage Custom Tracks' (Figure 18).
     
-	![Figure    18: Selecting the Manage Custom    Tracks](_static/images/AdaptingR2_ManageCustomTracks.png "Figure    18: Selecting the Manage Custom    Tracks")
+	![](_static/images/AdaptingR2_ManageCustomTracks.png "Figure    18: Selecting the Manage Custom    Tracks")
 	
 	[**Figure    18: Selecting the Manage Custom    Tracks**](_static/images/AdaptingR2_ManageCustomTracks.png)
 	
@@ -4630,7 +4630,7 @@ Tutorial step 4
     Tracks are, of course, defined based on a specific dataset; for each
     dataset you can store your own tracks. Click 'Continue'.
     
-	![Figure    19: Tracks are defined per dataset; keep the    current selection.](_static/images/AdaptingR2_DatasetTracks.png "Figure    19: Tracks are defined per dataset; keep the    current selection.")
+	![](_static/images/AdaptingR2_DatasetTracks.png "Figure    19: Tracks are defined per dataset; keep the    current selection.")
 	
 	[**Figure    19: Tracks are defined per dataset; keep the    current selection.**](_static/images/AdaptingR2_DatasetTracks.png)
 	
@@ -4648,7 +4648,7 @@ Tutorial step 4
     create!**](_static/images/AdaptingR2_AdaptTrack.png)
 8.  Select Manage Default Tracks from the My Settings menu (Figure 21)
     
-	![Figure    21: Selecting the Default Tracks    Manager](_static/images/AdaptingR2_ManageDefaultTracks.png "Figure    21: Selecting the Default Tracks    Manager")
+	![](_static/images/AdaptingR2_ManageDefaultTracks.png "Figure    21: Selecting the Default Tracks    Manager")
 	
 	[**Figure    21: Selecting the Default Tracks    Manager**](_static/images/AdaptingR2_ManageDefaultTracks.png)
 	
@@ -4662,7 +4662,7 @@ Tutorial step 4
     these we'll show up conveniently as separate groups of tracks under
     the graph.
     
-	![Figure    22: Selecting the default tracks for this    dataset](_static/images/AdaptingR2_SelectDefault.png "Figure    22: Selecting the default tracks for this    dataset")
+	![](_static/images/AdaptingR2_SelectDefault.png "Figure    22: Selecting the default tracks for this    dataset")
 	
 	[**Figure    22: Selecting the default tracks for this    dataset**](_static/images/AdaptingR2_SelectDefault.png)
 	
@@ -4681,7 +4681,7 @@ Tutorial step 5
     upload a custom track from a prefab text file; we'll shortly show
     this; click 'Upload a Track' (Figure 23).
     
-	![Figure    23: The Custom Track dataset    choice window.](_static/images/AdaptingR2_UploadTrack.png "Figure    23: The Custom Track dataset    choice window.")
+	![](_static/images/AdaptingR2_UploadTrack.png "Figure    23: The Custom Track dataset    choice window.")
 	
 	[**Figure    23: The Custom Track dataset    choice window.**](_static/images/AdaptingR2_UploadTrack.png)
 	
@@ -4696,7 +4696,7 @@ Tutorial step 5
     which we will now try. Click back button in your browser to return
     to Figure 23
     
-	![Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.](_static/images/AdaptingR2_Trackdescribed.png "Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.")
+	![](_static/images/AdaptingR2_Trackdescribed.png "Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.")
 	
 	[**Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.**](_static/images/AdaptingR2_Trackdescribed.png)
 	
@@ -4714,7 +4714,7 @@ Tutorial step 5
     resulting groups in a separate column so tick that box also
     (Figure 25).
     
-	![Figure    25: In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track.](_static/images/AdaptingR2_DefineGroupsSpecs.png "Figure    25: In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track.")
+	![](_static/images/AdaptingR2_DefineGroupsSpecs.png "Figure    25: In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track.")
 	
 	[**Figure    25: In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track.**](_static/images/AdaptingR2_DefineGroupsSpecs.png)
 	
@@ -4728,14 +4728,14 @@ Tutorial step 5
     actual graph. Go to the R2 main page again to see how the data of a
     gene will be plotted using the new tracks.
     
-	![Figure    26: Setting the custom    track properties.](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
+	![](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
 	
 	[**Figure    26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)
 	
 6.  Select View a gene in groups in Field 3 of the main page, type MYCN
     as gene name in Field 4 (Figure 27). Click 'next'.
     
-	![Figure    27: Selecting a gene to view in the newly    created tracks.](_static/images/AdaptingR2_ViewTrack.png "Figure    27: Selecting a gene to view in the newly    created tracks.")
+	![](_static/images/AdaptingR2_ViewTrack.png "Figure    27: Selecting a gene to view in the newly    created tracks.")
 	
 	[**Figure    27: Selecting a gene to view in the newly    created tracks.**](_static/images/AdaptingR2_ViewTrack.png)
 	
@@ -4744,7 +4744,7 @@ Tutorial step 5
     the K-means analysis, is also available here. Choose it and
     click 'Next'.
     
-	![Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s](_static/images/AdaptingR2_Selectowntrack.png "Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s")
+	![](_static/images/AdaptingR2_Selectowntrack.png "Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s")
 	
 	[**Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s**](_static/images/AdaptingR2_Selectowntrack.png)
 	
@@ -4752,7 +4752,7 @@ Tutorial step 5
     steps are available for selection. We want to see them all, keep the
     settings and click 'Next'.
     
-	![Figure    29: The groups created in the track are available for    selection](_static/images/AdaptingR2_Trackgroups.png "Figure    29: The groups created in the track are available for    selection")
+	![](_static/images/AdaptingR2_Trackgroups.png "Figure    29: The groups created in the track are available for    selection")
 	
 	[**Figure    29: The groups created in the track are available for    selection**](_static/images/AdaptingR2_Trackgroups.png)
 	
@@ -4762,7 +4762,7 @@ Tutorial step 5
     also overlap with the "recurrence\_or\_progression" Default Track
     that we set to visible.
     
-	![Figure    30: Tracks created are visualized underneath the    graph](_static/images/AdaptingR2_VisualizeTracks.png "Figure    30: Tracks created are visualized underneath the    graph")
+	![](_static/images/AdaptingR2_VisualizeTracks.png "Figure    30: Tracks created are visualized underneath the    graph")
 	
 	[**Figure    30: Tracks created are visualized underneath the    graph**](_static/images/AdaptingR2_VisualizeTracks.png)
 	
@@ -4795,7 +4795,7 @@ Tutorial step 6
     community is done by clicking 'Community' in the 'My Settings' menu
     (Figure 31).
     
-	![Figure    31: Community in the My Settings    menu](_static/images/AdaptingR2_Community.png "Figure    31: Community in the My Settings    menu")
+	![](_static/images/AdaptingR2_Community.png "Figure    31: Community in the My Settings    menu")
 	
 	[**Figure    31: Community in the My Settings    menu**](_static/images/AdaptingR2_Community.png)
 	
@@ -4803,7 +4803,7 @@ Tutorial step 6
     are no communities yet; click the 'Start a new Community' link
     (Figure 32).
     
-	![Figure    32: Starting a    community](_static/images/AdaptingR2_StartCommunity.png "Figure    32: Starting a    community")
+	![](_static/images/AdaptingR2_StartCommunity.png "Figure    32: Starting a    community")
 	
 	[**Figure    32: Starting a    community**](_static/images/AdaptingR2_StartCommunity.png)
 	
@@ -4811,7 +4811,7 @@ Tutorial step 6
     for people invited as members for this group (Figure 33). Through a
     community you can share GeneCategories, Tracks and Settings.
     
-	![Figure    33: Setting the Community group name    and description.](_static/images/AdaptingR2_SettingCommunitygroup.png "Figure    33: Setting the Community group name    and description.")
+	![](_static/images/AdaptingR2_SettingCommunitygroup.png "Figure    33: Setting the Community group name    and description.")
 	
 	[**Figure    33: Setting the Community group name    and description.**](_static/images/AdaptingR2_SettingCommunitygroup.png)
 	
@@ -4827,7 +4827,7 @@ Tutorial step 6
     user "pietmolenaar". He'll receive a message in the R2 startup page
     as soon as he logs on the next time. Click "next" to add the user.
     
-	!['Figure    35: Add a user by their R2 user    name](_static/images/AdaptingR2_GroupManager.png "'Figure    35: Add a user by their R2 user    name")
+	![](_static/images/AdaptingR2_GroupManager.png "'Figure    35: Add a user by their R2 user    name")
 	
 	[**'Figure    35: Add a user by their R2 user    name**](_static/images/AdaptingR2_GroupManager.png)
 	
@@ -4835,14 +4835,14 @@ Tutorial step 6
     has to accept your invitation first before he will see what you
     are sharing.
     
-	![Figure    36: R2 return message; user is invited; but not yet    visible](_static/images/AdaptingR2_Managegroups.png "Figure    36: R2 return message; user is invited; but not yet    visible")
+	![](_static/images/AdaptingR2_Managegroups.png "Figure    36: R2 return message; user is invited; but not yet    visible")
 	
 	[**Figure    36: R2 return message; user is invited; but not yet    visible**](_static/images/AdaptingR2_Managegroups.png)
 	
 7.  The perspective of the invited user after logon; he or she can
     accept the invitation (Figure 37).
     
-	!['Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group](_static/images/AdaptingR2_GroupInvitation.png "'Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+	![](_static/images/AdaptingR2_GroupInvitation.png "'Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 	
 	[**'Figure    37: The invited user receives a notification on the main page where    he or she can accept the membership of the    group**](_static/images/AdaptingR2_GroupInvitation.png)
 	
@@ -4850,7 +4850,7 @@ Tutorial step 6
     this community. When we add a category, track or preset the next
     time, it is possible to make this available to this community.
     
-	![Figure    38: The user is available in    the TestGroup.](_static/images/AdaptingR2_CommunityUsers.png "Figure    38: The user is available in    the TestGroup.")
+	![](_static/images/AdaptingR2_CommunityUsers.png "Figure    38: The user is available in    the TestGroup.")
 	
 	[**Figure    38: The user is available in    the TestGroup.**](_static/images/AdaptingR2_CommunityUsers.png)
 	
@@ -4862,7 +4862,7 @@ Tutorial step 6
     member of this group, can manage the tracks that have been shared
     with him via his default track manager
     
-	![Figure    39: As an example here the creation of a category and the assignment    to    a Community.](_static/images/AdaptingR2_CommunityCategory.png "Figure    39: As an example here the creation of a category and the assignment    to    a Community.")
+	![](_static/images/AdaptingR2_CommunityCategory.png "Figure    39: As an example here the creation of a category and the assignment    to    a Community.")
 	
 	[**Figure    39: As an example here the creation of a category and the assignment    to    a Community.**](_static/images/AdaptingR2_CommunityCategory.png)
 	
@@ -4935,7 +4935,7 @@ Tutorial step 1
     appears from where you can select the dataset of interest and
     click "next".
     
-	![Figure    1: In the main menu "Data    Grabber](_static/images/ExportData_datagrabber.png "Figure    1: In the main menu "Data    Grabber")
+	![](_static/images/ExportData_datagrabber.png "Figure    1: In the main menu "Data    Grabber")
 	
 	[**Figure    1: In the main menu "Data    Grabber**](_static/images/ExportData_datagrabber.png)
 	
@@ -4955,7 +4955,7 @@ Tutorial step 1
     R2 with all reporters for several stages. In the menu select
     "HugoOnce" and click "next".
     
-	![Figure    2: Filter options for    exporting data.](_static/images/ExportData_filter.png "Figure    2: Filter options for    exporting data.")
+	![](_static/images/ExportData_filter.png "Figure    2: Filter options for    exporting data.")
 	
 	[**Figure    2: Filter options for    exporting data.**](_static/images/ExportData_filter.png)
 	
@@ -4996,7 +4996,7 @@ export the data via the right menu.
     MYCN gene is generated. The right menu provides you with a set of
     options to continue your analysis including exporting data.
     
-	![Figure    3: Continuing    your analysis.](_static/images/ExportData_menu.png "Figure    3: Continuing    your analysis.")
+	![](_static/images/ExportData_menu.png "Figure    3: Continuing    your analysis.")
 	
 	[**Figure    3: Continuing    your analysis.**](_static/images/ExportData_menu.png)
 	
@@ -5215,7 +5215,7 @@ below shows an example for an Affymetrix array.
 
 
 
-	![Figure1: Example](_static/images/DataSetAddition_table.png "Figure1: Example")
+	![](_static/images/DataSetAddition_table.png "Figure1: Example")
 	
 	[**Figure1: Example**](_static/images/DataSetAddition_table.png)
 	
@@ -5276,7 +5276,7 @@ use of, which will now be described.
 
 
 
-	![Figure2: Example2](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
+	![](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
 	
 	[**Figure2: Example2**](_static/images/DataSetAddition_sampleanno.png)
 	
@@ -5292,7 +5292,7 @@ file.
 
 
 
-	![Figure3: Example2](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
+	![](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
 	
 	[**Figure3: Example2**](_static/images/DataSetAddition_relatefile.png)
 	
@@ -5344,7 +5344,7 @@ Kaplan curves would get the name "overall survival" on the y-axis.
 
 
 
-	![Figure3: Example3](_static/images/DataSetAddition_survival.png "Figure3: Example3")
+	![](_static/images/DataSetAddition_survival.png "Figure3: Example3")
 	
 	[**Figure3: Example3**](_static/images/DataSetAddition_survival.png)
 	
@@ -5369,7 +5369,7 @@ hesitate to get in contact with us via r2-support.
 
 
 
-	![Figure4: Example4](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
+	![](_static/images/DataSetAddition_timeserie.png "Figure4: Example4")
 	
 	[**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
 	

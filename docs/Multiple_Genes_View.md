@@ -39,7 +39,7 @@ Step 1: Viewing multiple genes
     the following genes: AXIN2,BOC,dkk2,GABRA5,PTCH1,SMARCD3,WIF1
     and click next.
     
-	![Figure    1: Default multiple geneview.](_static/images/MultipleGenesView_Default.png "Figure    1: Default multiple geneview.")
+	![](_static/images/MultipleGenesView_Default.png "Figure    1: Default multiple geneview.")
 	
 	[**Figure    1: Default multiple geneview.**](_static/images/MultipleGenesView_Default.png)
 	
@@ -62,7 +62,7 @@ Step 2: Viewing multiple genes through track annotation
     groups by and "Track" at color by track. Further set transform tot
     "none", select "boxplot" at Plot type and click NEXT.
 
-	![Figure    2: Multiple gene view per track.](_static/images/MultipleGenesView_perTrack_v1.png "Figure    2: Multiple gene view per track.")
+	![](_static/images/MultipleGenesView_perTrack_v1.png "Figure    2: Multiple gene view per track.")
 	
 	[**Figure    2: Multiple gene view per track.**](_static/images/MultipleGenesView_perTrack_v1.png)
 	

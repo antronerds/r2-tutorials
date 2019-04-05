@@ -164,7 +164,7 @@ expression data, if provided in a non-transformed fashion. The figure
 below shows an example for an Affymetrix array.
 
 
-![Figure1: Example](_static/images/DataSetAddition_table.png "Figure1: Example")
+![](_static/images/DataSetAddition_table.png "Figure1: Example")
 	
 [**Figure1: Example**](_static/images/DataSetAddition_table.png)
 	
@@ -221,7 +221,7 @@ find useful. There are a number of special tracks, which you can make
 use of, which will now be described.
 
 
-![Figure2: Example2](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
+![](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
 	
 [**Figure2: Example2**](_static/images/DataSetAddition_sampleanno.png)
 	
@@ -233,7 +233,7 @@ for the different tracks. Below, you can see a section of such a relate
 file.
 
 
-![Figure 3: Example2 boven](_static/images/DataSetAddition_relatefile.png "Figure2: Example2")
+![](_static/images/DataSetAddition_relatefile.png "Figure2: Example2")
 	
 [**Figure 3: Example2**](_static/images/DataSetAddition_relatefile.png)
 	
@@ -300,7 +300,7 @@ annotations should provide a grouping label (which would be useful for
 you). In case of doubt on the usage of these annotations, do not
 hesitate to get in contact with us via r2-support.
 
-![Figure 4: Example2 boven](_static/images/DataSetAddition_timeserie.png "Figure2: Example2")
+![](_static/images/DataSetAddition_timeserie.png "Figure2: Example2")
 [**Figure4: Example4**](_static/images/DataSetAddition_timeserie.png)
 	
 

@@ -46,7 +46,7 @@ Step 1: Selecting data and gene
 4.  Type MYCN as gene (see Figure 1) in field 4.
 5.  Click "next" in field 5.
 
-	![Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2](_static/images/DiffentialExpression_Gene.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
+	![](_static/images/DiffentialExpression_Gene.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
 	
 	[**Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2**](_static/images/DiffentialExpression_Gene.png)
 	
@@ -76,7 +76,7 @@ Step 2: Choose annotation track as grouping variable
     probeset is already selected.
 2.  Click "next"
 
-	![Figure 2: Selecting the proper annotation track to differentiate expressiondata](_static/images/DiffentialExpression_Select.png "Figure 2: Selecting the proper annotation track to differentiate expressiondata")
+	![](_static/images/DiffentialExpression_Select.png "Figure 2: Selecting the proper annotation track to differentiate expressiondata")
 	
 	[**Figure 2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/DiffentialExpression_Select.png)
 	
@@ -86,7 +86,7 @@ Step 2: Choose annotation track as grouping variable
     groups ( see explanation in the next step). In this case we
     want to see both groups so keep the selection as is.
     
-	![Figure 3: Selecting groups for the graph](_static/images/DiffentialExpression_Selectgroup.png "Figure 3: Selecting groups for the graph")
+	![](_static/images/DiffentialExpression_Selectgroup.png "Figure 3: Selecting groups for the graph")
 	
 	[**Figure 3: Selecting groups for the graph**](_static/images/DiffentialExpression_Selectgroup.png)
 	
@@ -104,7 +104,7 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 1. Check the graph and the information that is displayed above in the resulting window. For a nicely ordered graph, you can adjust the settings in the menu below to "Track and Gene Sort" (Don't forget to click on Adjust Settings afterwards!). R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
    
 
-	![Figure  4: Result of the one-way Anova test for the Neuroblastoma 88 samples.](_static/images/DiffentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+	![](_static/images/DiffentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 	
 	[**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/DiffentialExpress_Result.png)
 
@@ -113,12 +113,12 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
     'ColorMode' to 'Color by Track'
 4.  Click 'Adjust Settings' (Figure 5). The resulting graph is adapted accordingly 
 
-	![Figure 5: Adapting the Graphtype to BarPlot and set Color by Track](_static/images/DiffentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
+	![](_static/images/DiffentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
 	
 	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DiffentialExpression_AdaptGraph.png)
 	
 
- 	![Figure    6: The same data as a    Barplot](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
+ 	![](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
 	
 	[**Figure    6: The same data as a    Barplot**](_static/images/DiffentialExpression_Barplot.png)
 
@@ -131,7 +131,7 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 >
 > Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one. Don't forget the red "confirm" link before switching tracks. The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*         
 
-![Adjusting differential expression](_static/images/DiffentialExpress_Adjust.png)
+![](_static/images/DiffentialExpress_Adjust.png)
                            
 ----------
 
@@ -145,13 +145,13 @@ The difference can be shown more dramatically by plotting the data without a log
 2.  In the 'Adjustable settings' dialog, set the 'Transform' dropdown to 'none' (Figure 7)
 3.  Click 'Adjust Settings'
     
-	![Figure    7: Adjusting data    transformation](_static/images/DiffentialExpress_BarplotAdjust.png "Figure    7: Adjusting data    transformation")
+	![](_static/images/DiffentialExpress_BarplotAdjust.png "Figure    7: Adjusting data    transformation")
 	
 	[**Figure    7: Adjusting data    transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
 	
 4.  The resulting graph in Figure 8 shows the difference between the expression values in the two groups more dramatically.
     
-	![Figure    8: Bar plot without    transformation](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure    8: Bar plot without    transformation")
+	![](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure    8: Bar plot without    transformation")
 	
 	[**Figure    8: Bar plot without    transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
 	
@@ -167,7 +167,7 @@ The difference can be shown more dramatically by plotting the data without a log
 6.  Figure 9 shows the clinical data associated with that
     particular sample.
     
-	![Figure    9: Clinical annotation of a    sample](_static/images/DiffentialExpress_ClinAnno.png "Figure    9: Clinical annotation of a    sample")
+	![](_static/images/DiffentialExpress_ClinAnno.png "Figure    9: Clinical annotation of a    sample")
 	
 	[**Figure    9: Clinical annotation of a    sample**](_static/images/DiffentialExpress_ClinAnno.png)
 	
@@ -186,7 +186,7 @@ Step 5: Finding all differentially expressed genes
 2.  In field 3 of the R2 step-by-step guide select 'Find Differential
     expression between groups' (Figure 10)
     
-	![Figure    10: Selecting Find    Differential Expression.](_static/images/DiffentialExpress_FindDiff.png "Figure    10: Selecting Find    Differential Expression.")
+	![](_static/images/DiffentialExpress_FindDiff.png "Figure    10: Selecting Find    Differential Expression.")
 	
 	[**Figure    10: Selecting Find    Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
 	
@@ -205,7 +205,7 @@ Step 6: Setting parameters
     in red). The samples will be divided by the groups this track provides.  
     Select the 'alive' track again.
     
-	!['Figure    11: Differential expression    parameters](_static/images/DiffentialExpress_AdaptParam.png "'Figure    11: Differential expression    parameters")
+	![](_static/images/DiffentialExpress_AdaptParam.png "'Figure    11: Differential expression    parameters")
 	
 	[**'Figure    11: Differential expression    parameters**](_static/images/DiffentialExpress_AdaptParam.png)
 	
@@ -215,14 +215,14 @@ Step 6: Setting parameters
     this for multiple testing (Figure 12); an amazing amount of
     calculations! R2 performs this on the fly.
 
-	![Figure 12: Progress dialog during on the fly calculation](_static/images/DiffentialExpress_Progress.png "Figure 12: Progress dialog during on the fly calculation")
+	![](_static/images/DiffentialExpress_Progress.png "Figure 12: Progress dialog during on the fly calculation")
 	
 	[**Figure 12: Progress dialog during on the fly calculation**](_static/images/DiffentialExpress_Progress.png)
 	
   
 	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 
-	![Figure    13: Genes differentially expressed    between groups](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups")
+	![](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups")
 
 	[**Figure    13: Genes differentially expressed    between groups.**](_static/images/DiffentialExpress_Genelist.png)
 
@@ -270,7 +270,7 @@ Step 7: Inspecting single gene
     "adjust settings".
 3.  
 
-![Figure 14: In the main screen "Changedataset](_static/images/DiffentialExpress_TopGene.png "Figure 14: In the main screen *Changedataset*.")
+![](_static/images/DiffentialExpress_TopGene.png "Figure 14: In the main screen *Changedataset*.")
 
 [**Figure 14: In the main screen *Changedataset*.**](_static/images/DiffentialExpress_TopGene.png)
 
@@ -286,7 +286,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     analysis. In the right menu click 'Plot all genes (xy,
     volcano, etc)'.
     
-	![Figure 15: Right menu in genelist windos; choosing plot all genes](_static/images/DiffentialExpress_RightMenu.png)
+	![](_static/images/DiffentialExpress_RightMenu.png)
 
 	[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DiffentialExpress_RightMenu.png)
 
@@ -298,14 +298,14 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     this information. Note: every plot in R2 with larger amounts of
     datapoints (>5000) will have this "add hovering" button.
     
-	![Figure    16: XY plot of all genes differentially expressed in the current    track;](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
+	![](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
 	
 	[**Figure    16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DiffentialExpress_XYplot.png)
 	
 2.  Clicking on the datapoint in the plot opens up a new window showing the expression
     of the gene in the two groups as a box plot.
     
-	![Figure    17: Differential expression of    NTRK1](_static/images/DiffentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
+	![](_static/images/DiffentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
 	
 	[**Figure    17: Differential expression of    NTRK1**](_static/images/DiffentialExpress_BoxdotplotCircle.png)
 	
@@ -315,7 +315,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     to emphasize, eg DNA replication and set the 'Draw fold lines'
     option to 'yes'.
     
-	![Figure    18: Adjustable settings for the all genes    plot](_static/images/DiffentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
+	![](_static/images/DiffentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
 	
 	[**Figure    18: Adjustable settings for the all genes    plot**](_static/images/DiffentialExpress_AdjustAllgenes.png)
 	
@@ -325,7 +325,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     2 fold (Figure 19). Note that most genes of the DNA replication
     pathway seem to be located below the diagonal.
     
-	![Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.](_static/images/DiffentialExpres_graphtypes.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+	![](_static/images/DiffentialExpres_graphtypes.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 	
 	[**Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpres_graphtypes.png)
 	

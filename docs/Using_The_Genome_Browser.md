@@ -47,7 +47,7 @@ Step 1: Exploring the genome browser
     gene is located together with the 5 MYCN probesets mapped to their
     genomic position.
     
-    ![Figure    1: Probeset Verification table](_static/images/UsingR2genome_probesettable.png "Figure    1: Probeset Verification table")
+    ![](_static/images/UsingR2genome_probesettable.png "Figure    1: Probeset Verification table")
 	
 	[**Figure    1: Probeset Verification table**](_static/images/UsingR2genome_probesettable.png)
 
@@ -95,11 +95,11 @@ Step 1: Exploring the genome browser
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
 
-    ![Figure 2: Genome browser with default tracks.](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
+    ![](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
 	
     [**Figure 2 : Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
   
-    ![Figure 3: Legend of the color usage](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
+    ![](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
 	
     [**Figure 3: Legend of the color usage**](_static/images/UsingR2genome_legend1.png)
     
@@ -119,7 +119,7 @@ Step 1: Exploring the genome browser
     extra annotation tracks which were selected and hover over the
     tracks to reveal extra information.
 
-![Figure 4: Adjustable settingspanel.](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
+![](_static/images/UsingR2genome_settingspanel.png "Figure5: Adjustable settingspanel.")
 
 [**Figure 4: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 
@@ -138,7 +138,7 @@ Step 2: Zooming and panning
     though ). Also in the track panel set “sequence and GC” windows
     to on. Click redraw in the middle panel.
     
-	![Figure 5: Zoom    controls](_static/images/UsingR2genome_zoomcontrols.png "Figure    5: Zoom    controls")
+	![](_static/images/UsingR2genome_zoomcontrols.png "Figure    5: Zoom    controls")
 	
 	[**Figure 5: Zoom    controls**](_static/images/UsingR2genome_zoomcontrols.png)
 	
@@ -148,11 +148,11 @@ Step 2: Zooming and panning
     the probes which form together a probeset . Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
-	![Figure 6: Zoom-in    graph](_static/images/UsingR2genome_zoomgraph.png "Figure    6: Zoom-in    graph")
+	![](_static/images/UsingR2genome_zoomgraph.png "Figure    6: Zoom-in    graph")
 	
 	[**Figure 6: Zoom-in    graph**](_static/images/UsingR2genome_zoomgraph.png)	
     
-	![Figure 7: Zoom revealing basepair    sequence](_static/images/UsingR2genome_basepair.png "Figure    7: Zoom revealing basepair    sequence")
+	![](_static/images/UsingR2genome_basepair.png "Figure    7: Zoom revealing basepair    sequence")
 	
 	[**Figure 7: Zoom revealing basepair    sequence**](_static/images/UsingR2genome_basepair.png)
 	
@@ -193,7 +193,7 @@ chromosome at a certain location.
     generated with average gene expression levels for the selected
     dataset in that region.
     
-	![Figure 8: Chromosomal    clicking](_static/images/UsingR2genome_Clicking.png "Figure    8: Chromosomal    clicking")
+	![](_static/images/UsingR2genome_Clicking.png "Figure    8: Chromosomal    clicking")
 	
 	[**Figure 8: Chromosomal    clicking**](_static/images/UsingR2genome_Clicking.png)
 	

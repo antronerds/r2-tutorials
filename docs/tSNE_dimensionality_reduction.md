@@ -31,7 +31,7 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
 1. In the left menu click on t-SNE maps and select in the pull down menu , 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2 '
 2. R2 will assess the result and provide a button to start exploring the result. 
 
-  ![Figure    1: t-SNE preprocessed t-SNE maps](_static/images/Tsne_select_preprocessed.png "Figure 1:Selecting t-SNE maps")
+  ![](_static/images/Tsne_select_preprocessed.png "Figure 1:Selecting t-SNE maps")
 
   [**Figure    1: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_select_preprocessed)
 
@@ -48,7 +48,7 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 2. Select ‘color by track’ from the ‘colormode’ and choose ‘primary site’. Press 'next' to redraw the image.
 
-  ![Figure    2: t-SNE preprocessed t-SNE maps](_static/images/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
+  ![](_static/images/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
 
   [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Tsne_cellbroad_primsite.png)
 
@@ -57,19 +57,19 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 
 1. In the 'adjustable settings box'  select 'Color by Gene' under Color mode and subsequently type 'CLDN3' under Gene for color. The  corresponding reporter will automatically pop-up (Figure 3 ). The gene selection box autocompletes selection the proper reporter probeset, but this can take a little bit of time before the gene selection box appears. 
 
-  ![Figure    3: t-SNE select probeset](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
+  ![](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
   [**Figure 3: t-SNE select probeset**](_static/images/Tsne_select_probeset.png)
 
 2. Again click ‘next’ to refresh the view.  In this view the samples are not colored by a group annotation (track) but by applying a color gradient which reflects the gene expression level according to a log2 scale.  In this sample you can observe  a subgroup of the carcinoma samples which have higher level in contrast to the (other) samples. 
 
-  ![Figure    4: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
+  ![](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
 
   [**Figure 4: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneCLDN3.png)
 
 3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup.
 
-  ![Figure    5: t-SNE_Color by Gene ](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 5: Select  A probeset")
+  ![](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 5: Select  A probeset")
 
   [**Figure 5: t-SNE_Color by Gene**](_static/images/Tsne_cellbroad_colorbygeneNR3C1.png)
 
@@ -82,7 +82,7 @@ What perplexity value is the best option for your dataset of interest? This depe
 
 1. In order to generate an overview of all possible perplexities you have to set the number of perplexities to "ALL" and color by track modus to eg: histology in the "Adjustable Settings".
 
-  ![Figure   6: t-SNE: all perplexities ](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
+  ![](_static/images/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
 
   [**Figure 6: t-SNE: all perplexities**](_static/images/Tnse_cellbroad_allperplexity.png)
 
@@ -102,7 +102,7 @@ Let's take a look at some other nice example of a R2 generated t-SNE maps: the l
 
 1. In main menu select  Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 and select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering, specific gene categories and expression level restrictions.  
 
-  ![Figure   7: t-SNE: Menu ](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
+  ![](_static/images/Tnse_shortcutPlot.png "Figure 7: All perplexities")
 
   [**Figure 7: t-SNE: Menu**](_static/images/Tnse_shortcutPlot.png)
 
@@ -112,7 +112,7 @@ Keep in mind that after adjusting input settings the t-SNE algorithm will  re-ru
 
 3. In the Adjustable settings box set the color by track on 'Tissue'  and click next.
 
-  ![Figure   8: t-SNE: Colored by track ](_static/images/Tsne_normaltissuetrackcolored.png "Figure 8: Colored by track")
+  ![](_static/images/Tsne_normaltissuetrackcolored.png "Figure 8: Colored by track")
 
   [**Figure 8: t-SNE: Colored by track**](_static/images/Tsne_normaltissuetrackcolored.png)
 
@@ -124,7 +124,7 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
 
-![Figure 9: t-SNE: Colored by track ](_static/images/Tsne_lassoselection.png "Figure 9: Colored by track")
+![](_static/images/Tsne_lassoselection.png "Figure 9: Colored by track")
 
 [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
@@ -132,7 +132,7 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
-  ![Figure 10: t-SNE: Using the lasso selection tool ](_static/images/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
+  ![](_static/images/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
 
   [**Figure 10: t-SNE: Using the lasso selection**](_static/images/Tsne_subgroups.png)
 
@@ -154,13 +154,13 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
 2. Click on "DBSCAN select subset" below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. 
 
-  ![Figure 11: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_default.png "Figure 11: Using the DBSCAN selection tool")
+  ![](_static/images/Tsne_dbscan_default.png "Figure 11: Using the DBSCAN selection tool")
 
   [**Figure 11: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_default.png)
 
 3.  In this example the DB scan tool identifies two clusters which were also quite clear by just observing the t-SNE map. However, adapting the parameters Epsilon and Min pst described above can also aid you to identify less clear subgroups. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
 
- ![Figure 12: t-SNE: Using the DBSCAN selection tool ](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
+ ![](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
 
   [**Figure 12: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_param.png)
  
