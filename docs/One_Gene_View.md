@@ -375,13 +375,13 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  ![Figure 18: Selecting subgroups](_static/images/OneGene_selectsubgroups.png "Figure 18: Selecting subgroups")
 
- [**Figure 18:Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
+ [**Figure 18: Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
 
  In the picture below all stages are depicted and only the lower risk stages with Graphtype BoxDotPlot.
 
  ![Figure 19: All stages versus lower risk only](_static/images/OneGene_subgroupvsall.png "Figure 19: Selecting subgroups")
-
- [**Figure 19:All stages versus lower risk only **](_static/images/OneGene_subgroupvsall.png)
+ 
+ [**Figure 19: All stages versus lower risk only**](_static/images/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
