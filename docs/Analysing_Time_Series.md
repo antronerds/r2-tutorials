@@ -365,15 +365,7 @@ detail in tutorial 10.
 Final remarks / future directions
 ---------------------------------
 
-
-
-Final remarks / future directions if applicable
-
-
-
-
-
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
 
 
 

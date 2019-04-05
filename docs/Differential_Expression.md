@@ -118,9 +118,9 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DiffentialExpression_AdaptGraph.png)
 	
 
- 	![](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
+ 	![](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data now represented in a Barplot")
 	
-	[**Figure    6: The same data as a    Barplot**](_static/images/DiffentialExpression_Barplot.png)
+	[**Figure    6: The same data now represented in a Barplot**](_static/images/DiffentialExpression_Barplot.png)
 
 
 ------------------
