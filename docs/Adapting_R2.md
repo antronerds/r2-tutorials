@@ -451,10 +451,10 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
     again in the My Settings menu (Figure 32). The TestGroup has been
     created (next to the already existing MyTestGroup for this user).
     Click the link to start adding users (Figure 35).
-    
-    [![](_static/images/AdaptingR2_Availablegroups.png)*Figure
-    35: The available Communities for
-    this user.*'](_static/images/AdaptingR2_Availablegroups.png)
+    	
+ 	![](_static/images/AdaptingR2_Availablegroups.png "Figure 35: The available Communities for this user")
+   
+   	[**Figure 35: The available Communities for this user**](_static/images/AdaptingR2_Availablegroups.png)
     
 5.  You have to add users by their R2 username; we'll add
     user "pietmolenaar". He'll receive a message in the R2 startup page
