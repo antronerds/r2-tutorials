@@ -381,7 +381,7 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  ![Figure 19: All stages versus lower risk only](_static/images/OneGene_subgroupvsall.png "Figure 19: Selecting subgroups")
 
- [**Figure 19:All stages versus lower risk only **](_static/images/OneGene_subgroupsvsall.png)
+ [**Figure 19:All stages versus lower risk only **](_static/images/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
