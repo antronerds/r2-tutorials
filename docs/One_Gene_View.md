@@ -41,9 +41,9 @@ Step 1: Selecting a gene
 3.  Type MYCN and click ‘next’.
 
 
-![Figure 1: R2 Single geneselection](_static/images/OneGene_singleselect.png "Figure 1: Single geneselection")
+![Figure 1: R2 Single gene selection](_static/images/OneGene_singleselect.png "Figure 1: Single gene selection")
 
-[**Figure 1: Single geneselection**](_static/images/OneGene_singleselect.png)
+[**Figure 1: Single gene selection**](_static/images/OneGene_singleselect.png)
 
 
 
@@ -133,22 +133,26 @@ To highlight / mark specific samples in the graph you can enter the r2 sample ID
 
 Also multiple colors and different markings can be applied to the individual samples you want to highlight. Next to only indicate the samples, you maybe want to use multiple colors and the type of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure.
 
-> *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
- - *'dot': places a thick border around the sample*
- - *'circle': Places a ring around the sample (diameter 9)*
- - *'circle_2': Places a ring around the sample (diameter 4)*
- - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
- - *'epicenter': Places a set of 3 rings descending in width around a sample*
- - *'arrow': Places a block arrow pointing to the sample*
- - *'triangle': Places a filled triangle under the sample*
-
->*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
-
 ![Figure 5: Adjusting the sample mark layout](_static/images/OneGene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
 
 [**Figure 5: Adjusting the sample mark layout**](_static/images/OneGene_view_samplesmark.png)
   
  
+---------------
+ ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples with marker options?** 
+ 
+> *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
+> - *'dot': places a thick border around the sample*
+> - *'circle': Places a ring around the sample (diameter 9)*
+> - *'circle_2': Places a ring around the sample (diameter 4)*
+> - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
+> - *'epicenter': Places a set of 3 rings descending in width around a sample*
+> - *'arrow': Places a block arrow pointing to the sample*
+> - *'triangle': Places a filled triangle under the sample*
+>
+>*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
+---------------
+
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight?**                              
 
@@ -371,13 +375,13 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  ![Figure 18: Selecting subgroups](_static/images/OneGene_selectsubgroups.png "Figure 18: Selecting subgroups")
 
- [**Figure 18:Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
+ [**Figure 18: Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
 
  In the picture below all stages are depicted and only the lower risk stages with Graphtype BoxDotPlot.
 
  ![Figure 19: All stages versus lower risk only](_static/images/OneGene_subgroupvsall.png "Figure 19: Selecting subgroups")
-
- [**Figure 19:All stages versus lower risk only **](_static/images/OneGene_subgroupsvsall.png)
+ 
+ [**Figure 19: All stages versus lower risk only**](_static/images/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
