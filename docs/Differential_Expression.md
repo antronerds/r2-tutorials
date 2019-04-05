@@ -118,7 +118,7 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DiffentialExpression_AdaptGraph.png)
 	
 
- ![Figure    6: The same data as a    Barplot](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
+ 	![Figure    6: The same data as a    Barplot](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data as a    Barplot")
 	
 	[**Figure    6: The same data as a    Barplot**](_static/images/DiffentialExpression_Barplot.png)
 
@@ -130,7 +130,6 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 > selections. 
 >
 > Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one. Don't forget the red "confirm" link before switching tracks. The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*         
-
 
 ![Adjusting differential expression](_static/images/DiffentialExpress_Adjust.png)
                            
@@ -219,15 +218,15 @@ Step 6: Setting parameters
 	![Figure 12: Progress dialog during on the fly calculation](_static/images/DiffentialExpress_Progress.png "Figure 12: Progress dialog during on the fly calculation")
 	
 	[**Figure 12: Progress dialog during on the fly calculation**](_static/images/DiffentialExpress_Progress.png)
-
-The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.
-    
-	![Figure    13: Genes differentially expressed    between groups.](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups.")
 	
+  
+	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
+
+	![Figure    13: Genes differentially expressed    between groups](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups")
+
 	[**Figure    13: Genes differentially expressed    between groups.**](_static/images/DiffentialExpress_Genelist.png)
+
 	
-
-
 --------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***What were those R and p-values again?***
 >  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.*
@@ -271,9 +270,9 @@ Step 7: Inspecting single gene
     "adjust settings".
 3.  
 
-![Figure 14: In the main screen "Changedataset](_static/images/DiffentialExpress_TopGene.png "Figure14: In the main screen *Changedataset*.")
+![Figure 14: In the main screen "Changedataset](_static/images/DiffentialExpress_TopGene.png "Figure 14: In the main screen *Changedataset*.")
 
-[**Figure14: In the main screen *Changedataset*.**](_static/images/DiffentialExpress_TopGene.png)
+[**Figure 14: In the main screen *Changedataset*.**](_static/images/DiffentialExpress_TopGene.png)
 
 
 
@@ -287,9 +286,9 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     analysis. In the right menu click 'Plot all genes (xy,
     volcano, etc)'.
     
-    ![Figure 15: Right menu in genelist windos; choosing plot all genes](_static/images/DiffentialExpress_RightMenu.png)
+	![Figure 15: Right menu in genelist windos; choosing plot all genes](_static/images/DiffentialExpress_RightMenu.png)
 
-[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DiffentialExpress_RightMenu.png)
+	[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DiffentialExpress_RightMenu.png)
 
 3.	The resulting plot shows all genes of the list in a XY-plot; datapoints above and below the diagonal are
     differentially expressed. Hovering over the points shows the
