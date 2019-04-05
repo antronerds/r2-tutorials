@@ -120,23 +120,17 @@ Step 3: Plotting Gene expression
 ----------
   ![](_static/images/R2d2_logo.png)**Did you know that the Adjustable Settings panel is available under most graphs in R2?**
 
-> *Just scroll down the page to find the box with graph options*
+> *Just scroll down the page to find the Adjustable Settings box with graph options. Don't forget to press the "Adjust Settings" button at the bottom of the box in order for your changes to take effect!*
 
 ----------
 
-To highlight / mark specific samples in the graph you can enter the r2 sample ID’s in the field 'samples to mark' from the
+To highlight / mark specific samples in the graph you can enter the R2 sample ID’s in the field 'samples to mark' from the
 ‘adjustable settings’ box. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
 
 ![](_static/images/OneGene_adjustablesettings.png "Figure 4: Adjusting the graph settings")
 
 [**Figure 4: Adjusting the graph settings**](_static/images/OneGene_adjustablesettings.png)
 
-Also multiple colors and different markings can be applied to the individual samples you want to highlight. Next to only indicate the samples, you maybe want to use multiple colors and the type of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure.
-
-![](_static/images/OneGene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
-
-[**Figure 5: Adjusting the sample mark layout**](_static/images/OneGene_view_samplesmark.png)
-  
  
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples with marker options?** 
@@ -152,6 +146,13 @@ Also multiple colors and different markings can be applied to the individual sam
 >
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
+
+Multiple colors and different markings can be applied to the individual samples you want to highlight. To bring attention to different samples, you may want to use multiple colors and types of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure below.
+
+![](_static/images/OneGene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
+
+[**Figure 5: Adjusting the sample mark layout**](_static/images/OneGene_view_samplesmark.png)
+  
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight?**                              
@@ -265,12 +266,12 @@ combination with dataset keywords. Clicking on one of the "Pubreminder" links re
 literature mining.
 
 ---------------------------------------------------
-  ![](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining?***
-
-> *In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?
->  Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.
->  Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.
->  Next to building efficient queries, Pub re-miner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author*
+  ***Did you know that [Pub re-miner](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining?***  
+  
+> *In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?*
+>  *Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.*
+>  *Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.*
+>  *Next to building efficient queries, Pub re-miner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author*
 
 --------------------
 
@@ -404,15 +405,8 @@ Step 9: Find best track separation with CliniSnitch
 
 Final remarks / future directions
 ---------------------------------
-
-
-
 Some of these functionalities have been developed recently. If you run
 into any quirks or annoyances don't hesitate to contact r2 support
 (r2-support@amc.uva.nl).
 
-
-
-
-
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
