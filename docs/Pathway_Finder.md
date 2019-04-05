@@ -226,7 +226,7 @@ Step 8: Correlating with the expression of a gene
 Final remarks / future directions
 ---------------------------------
 
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful, the R2 support team.
 
 
 
