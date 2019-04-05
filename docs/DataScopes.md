@@ -76,7 +76,7 @@ Final remarks / future directions
 
 
 Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact r2 support
+into any quirks or annoyances don't hesitate to contact R2 support
 (r2-support@amc.uva.nl). If you may have an idea for another data scope or would like to showcase your own data in this way,
 then also please get in contact with us via the support address.
 
@@ -84,6 +84,7 @@ then also please get in contact with us via the support address.
 
 
 
-We hope that this tutorial has been helpful,The R2 support team.
+We hope that this tutorial has been helpful,  
+the R2 support team.
 
 
