@@ -109,9 +109,9 @@ export the data via the right menu.
     continue your analyses at a later time-point.
 
 -----------------
-  ![]**Did you know that you can export data from different types of modules?**
+  ![](_static/images/R2d2_logo.png)***Did you know that you can export data from different types of modules?***
 
->*  Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.*
+>*Using a different module such as “Time Series” also provides the option to export the results of use outside R2 or at a later time point within R2.*
   
 ------------------
 
