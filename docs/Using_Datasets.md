@@ -15,11 +15,11 @@ Scope
     of one of these options in field 1.
 -   R2 contains mRNA gene expression profiles for more than 70.000
     individual human samples. The samples are grouped in so
-    called datasets. Each dataset has its own characteristics such
+    called datasets. Each dataset has its own characteristics, such as
     tissue type, tumor type or from cell-line experiments.
 -   The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
     u133p2* dataset will be used as an example dataset to guide you
-    through most of the tutorial. Later on working with multiple
+    through most of the tutorial. Later on, working with multiple
     datasets will be discussed.
 
 Step 1: Selecting a dataset
@@ -47,7 +47,7 @@ Step 1: Selecting a dataset
 ----------
  ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**      
 
-> *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author  number_of_samples - normalization - chiptype**. Datasets are listed alphabetically*
+> *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author - number_of_samples - normalization - chiptype**. Datasets are listed alphabetically*
 
 ----------
 
@@ -59,7 +59,7 @@ Step 2: Advanced selection of datasets
 1.  Next to the pull down menu you can also choose for the “advanced
     dataset selection” tool. The advanced dataset selection facilitates
     searching through datasets using keywords and other filter options
-    such as the minimal size of a dataset , the date a certain dataset
+    such as the minimal size of a dataset, the date a certain dataset
     was published etc. An example search would be finding all colon
     samples which are part of a mixed dataset consisting of normal
     tissue and tumor samples.
