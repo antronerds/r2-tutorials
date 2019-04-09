@@ -71,7 +71,7 @@ Step 2: Advanced selection of datasets
 2.  Click on the “Advanced” link. A new screen shows a table where the
     headers can be filled with search entries to fine tune your search
     for a dataset meeting your search criteria. Enter ‘Neuro’ in the
-    class column and’ 50’ in the ‘\#’ column and select ‘ greater than’
+    Tissue/Tumor column and’ 50’ in the ‘\#’ column and select ‘ greater than’
     from the pull down menu. This returns all the datasets containing
     the search term ‘Neuro’ and having more than 50 samples.
 	
@@ -79,7 +79,8 @@ Step 2: Advanced selection of datasets
 	
 	[**Figure 4: Advanced selection panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
 	
-3.  Clicking on ‘Neuroblastoma’ in the class 3 column containing 88
+3.  By default the table shows 10 results per page. at the right bottom you can choose 50 in the "Show rows"
+dropbdown. To select  ‘Neuroblastoma’ in the Tissue/Tumor column containing 88
     samples reveals a detailed info box containing additional dataset
     information from the R2 database. When the dataset is publicly
     available clicking on the GEO ID link redirects to the GEO
