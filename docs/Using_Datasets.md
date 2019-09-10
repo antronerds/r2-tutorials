@@ -130,7 +130,7 @@ Since R2 is hosting hundreds of datasets it could be handy to store in a quick w
 	
 You can delete datasets from you favorite lists by clicking the delete symbol.  Clicking the "select from favorites" link gives a pop-up where you can select a dataset from your list of favorites.
 
-![](_static/images/UsingDataset_selectfav.png.png "Figure 8: Delete and select from favorites")
+![](_static/images/UsingDataset_selectfav.png "Figure 8: Delete and select from favorites")
 	
 [**Figure 8: Delete and select from favorites**](_static/images/UsingDataset_selectfav.png)
 
