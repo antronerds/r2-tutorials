@@ -123,16 +123,16 @@ Step 3: Using Dataset favorites
 
 Since R2 is hosting hundreds of datasets it could be handy to store in a quick way the datasets you often use. Clicking on the starred+ symbol will add the dataset you currently selected to a subset of favorite datasets.
 
-![](_static/images/UsingDatasets_select.png "Figure 7: Adding datasets to favorites")
+![](_static/images/UsingDatasets_favorites.png "Figure 7: Adding datasets to favorites")
 	
-[**Figure 6: Adding datasets to favorites**](_static/images/UsingDatasets_select.png)
+[**Figure 6: Adding datasets to favorites**](_static/images/UsingDatasets_favorites.png)
 
 	
 You can delete datasets from you favorite lists by clicking the delete symbol.  Clicking the "select from favorites" link gives a pop-up where you can select a dataset from your list of favorites.
 
-![](_static/images/UsingDatasets_favorites.png "Figure 8: Delete and select from favorites")
+![](_static/images/UsingDataset_selectfav.png.png "Figure 8: Delete and select from favorites")
 	
-[**Figure 8: Delete and select from favorites**](_static/images/UsingDatasets_favorites.png)
+[**Figure 8: Delete and select from favorites**](_static/images/UsingDataset_selectfav.png)
 
 	
 Step 4: Data Scopes
