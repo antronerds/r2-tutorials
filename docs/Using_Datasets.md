@@ -30,15 +30,13 @@ Step 1: Selecting a dataset
     you through all the steps necessary to perform a task. In field
     **1** select “single dataset”, in field **2** choose "change"
 	
-	![](_static/images/First_image_select_dataset.png "Figure 1: In the main screen: Change dataset")
+	![](_static/images/UsingtDatasets_select.png "Figure 1: In the main screen: Change dataset")
 	
-	[**Figure 1: In the main screen: Change dataset**](_static/images/First_image_select_dataset.png)
+	[**Figure 1: In the main screen: Change dataset**](_static/images/UsingtDatasets_select.png)
 	
 2.  A pull-down menu appears containing a large collection of datasets
     available for all types of analyses R2 is offering
 3.  Click on the desired dataset.
-
-
 
 ![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
 
@@ -118,7 +116,27 @@ dataset is linked to a publication listed in PubMed.*
 -------------
 
 
-Step 3: Data Scopes
+
+Step 3: Using Dataset favorites
+---------------
+
+Since R2 is hosting hundreds of datasets it could be handy to store in a quick way the datasets you often use. Clicking on the starred+ symbol will add the dataset you currently selected to a subset of favorite datasets.
+
+	![](_static/images/UsingDatasets_favorites.png" Figure 7: Favorite datasets")
+	
+	[**Figure 5: Favorite datasets**](_static/images/UsingDatasets_favorites.png
+	
+	
+	
+	![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
+	
+	[**Figure 6: Selecting across datasets**](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
+	
+You can delete datasets from you favorite lists by clicking the delete symbol.  Clicking the "select from favorites" gives a pop-up where you can select a dataset from your favorite list.
+
+
+​	
+Step 4: Data Scopes
 ---------------
 
 1.  R2 can also be forced to only display a sub selection of all the datasets that are available. These are called data scopes and can be selected from within R2 by the left hand menu items 'change data scope'. From here you can use one of the preset scopes. This is also the place where you can remove a scope that has been set. One obvious reason why scopes can be handy, is the focussed view on the available data.
