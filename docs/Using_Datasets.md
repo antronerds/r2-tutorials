@@ -125,10 +125,10 @@ Since R2 is hosting hundreds of datasets it could be handy to store the datasets
 
 ![](_static/images/UsingDatasets_favorites.png "Figure 7: Adding datasets to favorites")
 	
-[**Figure 6: Adding datasets to favorites**](_static/images/UsingDatasets_favorites.png)
+[**Figure 7: Adding datasets to favorites**](_static/images/UsingDatasets_favorites.png)
 
 	
-You can remove datasets from your favourites list by simply clicking on the remove symbol behind a favourite dataset  Clicking the "select from favorites" link gives a pop-up where you can select a dataset from your list of favorites.
+You can remove datasets from your favourites list by simply clicking on the remove symbol behind a favourite dataset. Clicking the "select from favorites" link gives a pop-up where you can select a dataset from your list of favorites.
 
 ![](_static/images/UsingDataset_selectfav.png "Figure 8: Delete and select from favorites")
 	
