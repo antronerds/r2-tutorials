@@ -48,8 +48,8 @@ Step 1: Relating 2 (categorical) tracks
 
 1.  Make sure that you are on the "main" page of R2, and that the
     selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2". From the "type of analysis" dropdown select
-    "relate 2 tracks", which can be found in the annotation subsection
+    MAS5.0 - u133p2". In the 'Select type of analysis'-box (3) select
+    "Relate 2 tracks", which can be found in the annotation subsection
     and press next.
     
 	![](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
@@ -86,8 +86,11 @@ Step 1: Relating 2 (categorical) tracks
 	
 	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
-5. Another way to present the absolute or relative shares of grouped variables is   
-
+5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked
+ Barplot" or "Stackes Barplot ratio" respectively. The "Stacked Barplot ratio" shows the percentage share of 
+    ![](_static/images/AnnotationAnalyses_StackedBarplot.png "Figure 4: Absolute (left) and relative (right) stacked barplots")
+	
+    [**Figure 4: Absolute (left) and relative (right) stacked barplots**](_static/images/AnnotationAnalyses_StackedBarplot.png)
 
 
 
@@ -106,9 +109,9 @@ Step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-	![](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numericaltracks")
+	![](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numerical tracks")
 	
-	[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks_v1.png)
+	[**Figure 4: "Output of relating numerical tracks**](_static/images/AnnotationAnalyse_relatetracks_v1.png)
 	
 
 
