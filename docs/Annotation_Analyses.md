@@ -54,7 +54,7 @@ Step 1: Relating 2 (categorical) tracks
     
 	![](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
 	
-	[**Figure 1: Select "relate two tracks".**](_static/images/AnnotationAnalyses_relate.png)
+	[**Figure 1: Select "Relate 2 tracks"**](_static/images/AnnotationAnalyses_relate.png)
 	
 2.  For the different tracks, make sure that you select a categorical
     one (which can be recognized by (cat)). Let"s investigate whether
@@ -160,7 +160,7 @@ r2 to your needs" chapter.
 	
 
 
-Step 4: Annotation plotter
+Step 4: Annotation plotter and Cohort Overview
 -----------------------------------
 
 1.  In some publications, patient data is represented in slick looking
@@ -171,7 +171,7 @@ Step 4: Annotation plotter
     annotation plotter in R2.
 2.  Make sure that you are on the "main" page of R2, and that the
     selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2". From the "type of analysis" dropdown select
+    MAS5.0 - u133p2". From the "Select type of analysis" dropdown select
     "Annotation plotter", which can be found in the annotation
     subsection and press next.
 3.  The default view for the dataset will be plotted. Now one can change
@@ -181,10 +181,18 @@ Step 4: Annotation plotter
     the final sort. For some complicated sorts, it may be necessary to
     create a numeric track that puts the sample in the intended order.
 
-	![](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
+	![](_static/images/AnnotationAnalyse_plotting.png "Figure 7: Plotting the annotationtracks")
 	
-	[**Figure7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
+	[**Figure 7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
 	
+5.  Another often useful overview is provided with the Cohort Overview. Click on 'Go to Main' in the upperleft corner,
+and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click Next.  
+Here pie charts show the shares of the different values of a track. You can select different tracks to visualize with the dropdown menus, 
+hover over the different pie slices, and create a table overview with the values of different tracks of choice for each sample.
+
+	![](_static/images/AnnotationAnalyses_CohortOverview.png "Figure 8: Cohort Overview")
+	
+	[**Figure 8: Cohort Overview**](_static/images/AnnotationAnalyses_CohortOverview.png)
 
 
 
