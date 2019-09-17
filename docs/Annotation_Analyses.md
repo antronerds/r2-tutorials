@@ -86,7 +86,7 @@ Step 1: Relating 2 (categorical) tracks
 	
 	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
-
+5. Another way to present the absolute or relative shares of grouped variables is   
 
 
 
