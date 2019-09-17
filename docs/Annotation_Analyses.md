@@ -48,13 +48,13 @@ Step 1: Relating 2 (categorical) tracks
 
 1.  Make sure that you are on the "main" page of R2, and that the
     selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2". From the "type of analysis" dropdown select
-    "relate 2 tracks", which can be found in the annotation subsection
+    MAS5.0 - u133p2". In the 'Select type of analysis'-box (3) select
+    "Relate 2 tracks", which can be found in the annotation subsection
     and press next.
     
 	![](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
 	
-	[**Figure 1: Select "relate two tracks".**](_static/images/AnnotationAnalyses_relate.png)
+	[**Figure 1: Select "Relate 2 tracks"**](_static/images/AnnotationAnalyses_relate.png)
 	
 2.  For the different tracks, make sure that you select a categorical
     one (which can be recognized by (cat)). Let"s investigate whether
@@ -86,8 +86,11 @@ Step 1: Relating 2 (categorical) tracks
 	
 	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
-
-
+5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked
+ Barplot" or "Stackes Barplot ratio" respectively. The "Stacked Barplot ratio" shows the percentage share of 
+    ![](_static/images/AnnotationAnalyses_StackedBarplot.png "Figure 4: Absolute (left) and relative (right) stacked barplots")
+	
+    [**Figure 4: Absolute (left) and relative (right) stacked barplots**](_static/images/AnnotationAnalyses_StackedBarplot.png)
 
 
 
@@ -106,9 +109,9 @@ Step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-	![](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numericaltracks")
+	![](_static/images/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numerical tracks")
 	
-	[**Figure 4: "Output of relating numericaltracks**](_static/images/AnnotationAnalyse_relatetracks_v1.png)
+	[**Figure 4: "Output of relating numerical tracks**](_static/images/AnnotationAnalyse_relatetracks_v1.png)
 	
 
 
@@ -157,7 +160,7 @@ r2 to your needs" chapter.
 	
 
 
-Step 4: Annotation plotter
+Step 4: Annotation plotter and Cohort Overview
 -----------------------------------
 
 1.  In some publications, patient data is represented in slick looking
@@ -168,7 +171,7 @@ Step 4: Annotation plotter
     annotation plotter in R2.
 2.  Make sure that you are on the "main" page of R2, and that the
     selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2". From the "type of analysis" dropdown select
+    MAS5.0 - u133p2". From the "Select type of analysis" dropdown select
     "Annotation plotter", which can be found in the annotation
     subsection and press next.
 3.  The default view for the dataset will be plotted. Now one can change
@@ -178,10 +181,18 @@ Step 4: Annotation plotter
     the final sort. For some complicated sorts, it may be necessary to
     create a numeric track that puts the sample in the intended order.
 
-	![](_static/images/AnnotationAnalyse_plotting.png "Figure7: Plotting the annotationtracks")
+	![](_static/images/AnnotationAnalyse_plotting.png "Figure 7: Plotting the annotationtracks")
 	
-	[**Figure7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
+	[**Figure 7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
 	
+5.  Another often useful overview is provided with the Cohort Overview. Click on 'Go to Main' in the upperleft corner,
+and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click Next.  
+Here pie charts show the shares of the different values of a track. You can select visualize tracks with the dropdown menus, 
+hover over the different pie slices, and create a table overview with the values of different tracks of choice for each sample.
+
+	![](_static/images/AnnotationAnalyses_CohortOverview.png "Figure 8: Cohort Overview")
+	
+	[**Figure 8: Cohort Overview**](_static/images/AnnotationAnalyses_CohortOverview.png)
 
 
 
