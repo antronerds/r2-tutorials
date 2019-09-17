@@ -187,7 +187,7 @@ Step 4: Annotation plotter and Cohort Overview
 	
 5.  Another often useful overview is provided with the Cohort Overview. Click on 'Go to Main' in the upperleft corner,
 and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click Next.  
-Here pie charts show the shares of the different values of a track. You can select different tracks to visualize with the dropdown menus, 
+Here pie charts show the shares of the different values of a track. You can select visualize tracks with the dropdown menus, 
 hover over the different pie slices, and create a table overview with the values of different tracks of choice for each sample.
 
 	![](_static/images/AnnotationAnalyses_CohortOverview.png "Figure 8: Cohort Overview")
