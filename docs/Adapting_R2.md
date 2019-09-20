@@ -30,15 +30,15 @@ Scope
 Step 1: Adapt your settings
 ---------------
 
-1.  Personalizing R2 starts with selecting the My Settings menu item
-    (Figure 1). First item under there is the general 'My Settings';
-    choose that.
+1.  Personalizing R2 starts with selecting the 'User Options' menu item
+    (Figure 1). When you hover over this item, you see a submenu. In 'Account you can chose a different password or change your personal details.   
+    In 'Preferences' you can set some generic R2 analysis and visualization options, click on this item.
     
 	![](_static/images/AdaptingR2_Mysettings.png "Figure    1: Personalizing R2: the My Settings    menu-item")
 	
 	[**Figure    1: Personalizing R2: the My Settings    menu-item**](_static/images/AdaptingR2_Mysettings.png)
 	
-2.  In the User Defined Settings window several parameters for analyses
+2.  In the Preferences window several parameters for analyses
     in R2 can be adapted to your preferences. For most analyses these
     are set to appropriate values, but of course you want to set your
     favorite dataset here!
@@ -47,20 +47,18 @@ Step 1: Adapt your settings
 	
 	[**Figure    2: The User Defined Settings window; most parameters are    appropriate; you want to change your preferential    dataset however.**](_static/images/AdaptingR2_Userdefined.png)
 	
-3.  Next item in the My Settings submenu are the 'Megasampler Presets'
-    (Figure 1), these are of relevance when you've built a specific
-    Preset in an analysis Across Datasets. ( (chapter: Multiple datasets
+3.  Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets'
+    . These are of relevance when you've built a specific
+    Preset in an analysis Across Datasets ( see chapter: Multiple datasets
     overview with Megasampler).
-4.  The 'Upload New Dataset'-, 'Categories'-, 'Tracks'- and
-    'Communities'-menu-items will be elaborated further upon later in
-    this tutorial. The 'Timeseries colors' allows you to set the colors
-    for the graphs of specific experiments in a series (Figure 3).
+4.  The 'Timeseries colors' allows you to set the colors
+    for the graphs of specific experiments in a series (Figure 3). 
+    
+    ![](_static/images/AdaptingR2_SettingsTime.png "Figure3: Setting time seriescolors")
+    	
+    [**Figure3: Setting time seriescolors**](_static/images/AdaptingR2_SettingsTime.png)
 
-	![](_static/images/AdaptingR2_SettingsTime.png "Figure3: Setting time seriescolors")
-	
-	[**Figure3: Setting time seriescolors**](_static/images/AdaptingR2_SettingsTime.png)
-	
-
+    The other menu-items 'Upload New Dataset', 'Categories', 'Tracks' and 'Communities' will be discussed in steps 2 - 6 of this tutorial.
 
 
 
