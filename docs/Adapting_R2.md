@@ -66,36 +66,22 @@ Step 1: Adapt your settings
 Step 2: Upload your data
 ---------------
 
-1.  The extensive functionality of R2 can be best experienced when you
-    have your own data available. In order to do so it first has to be
-    uploaded and processed. Click the Upload New Dataset (Figure 1), the
-    upload form appears (Figure 4). This has to be filled out according
-    to MIAME guidelines as (amongst others) used at the gene expression
-    database GEO
-    ([](http://www.ncbi.nlm.nih.gov/geo/info/MIAME.html)<http://www.ncbi.nlm.nih.gov/geo/info/MIAME.html>).
+1.  One of the most appreciated options of R2 is the possibility to add data to R2, be it your own dataset or/and publicly available data that matches your research interest.  
+    In order to do so, the data first has to be processed and uploaded.  [Chapter 24](/R2_Dataset_Addition.html) describes in detail how to prepare your data such that we can process it and upload the data to R2.  
     If you have any specific annotations or wishes or microarray samples
     other than Affymetrix you'd best contact r2 support directly
     (<r2-support@amc.nl>). If you would like to see a publicly
     accessible dataset in R2, then send an email to <r2-support@amc.nl>
-    with a link to the microarray data, or in the case of a Gene
+    with a link to the data, or in the case of a Gene
     Expression Omnibus dataset, the GSE\*\*\*\* identifier, and we will
-    take care of the rest and send a notification email.
-
-	![](_static/images/AdaptingR2_DatasetUpload.png "Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.")
-	
-	[**Figure4: Dataset upload form in R2; fill out the form in a MIAME GEO compliantway.**](_static/images/AdaptingR2_DatasetUpload.png)
-	
-
-
-
-
+    take care of the rest.
 
 Step 3: Create your own genesets; a.k.a. categories
 ---------------
 
-1.  Another way in which R2 can be adapted to your specific needs is by
-    introducing your own set of genes, which are called categories in
-    R2; hover over the 'Category'-item and select 'Build Category'
+1.  Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets, or gene categories. Many analyses in R2 can be performed on a subset of genes, see [chapter 14](Using_And_Creating_Genesets.html) for a tutorial on performing gene set analysis.
+    There are 3 main sources for gene sets. Firstly R2 harbors hundreds of predefined sets of genes (such as KEGG pathways or sets defined by the Broad Institute). Secondly, some analyses will result in gene lists, which R2 allows you to save on the fly such that they can be used for further analyses (e.g. [Toplister analysis](Using_And_Creating_Genesets.html?highlight=hundreds#step-4-unsupervised-hierarchical-clusterin-with-a-geneset)).  
+    Next to these two useful options, you can introduce your own gene sets of interest directly to R2 as well; Hover over the 'Category' sub-item and select 'Build Category'
     (Figure 5)
     
 	![](_static/images/AdaptingR2_Categories.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
@@ -103,34 +89,32 @@ Step 3: Create your own genesets; a.k.a. categories
 	[**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2_Categories.png)
 	
 2.  The 'Custom Category' window pops up (Figure 6). Default this is set
-    to upload from a text file formatted as a single column of official
-    gene symbols (obtained from NCBI gene). The uploaded data can be
-    stored temporary (24 hrs) or in your personal tracks database. We're
-    now going to use the input text field for data upload. Select the
-    'Input Box' option in the 'how' dropdown box and select 'personal
-    track' in the 'Where' dropdown.
-    
-	![](_static/images/AdaptingR2_BuildingCategory.png "Figure    6: Building a Custom Category: Uploading    a file.")
-	
-	[**Figure    6: Building a Custom Category: Uploading    a file.**](_static/images/AdaptingR2_BuildingCategory.png)
-	
-3.  The input box allows you to paste a bunch of genes to upload as a
+    to build a gene set, or category, from the input box.  
+    The input box allows you to paste a bunch of genes to upload as a
     category for use in analyses in R2. In the example a set of genes,
-    mutated in tumors are pasted. Selecting the 'personal track' option
-    guarantees that this
-    set will remain available for you (for people in your community, see
-    later in this tutorial). Click "next" to upload the set (Figure 7),
+    mutated in tumors are pasted. Select from the 'Where' dropdown menu the option 'personal Category'  
+    if you want this gene set to remain available for you(for people in your community, see
+    later in this tutorial). If you just want to store the set temporarily for 24 hours, choose 'Temporary (24 hrs)'. 
+    Click "next" to upload the set (Figure 6),
     you'll receive a message when everything has succeeded. Your set of
     genes is now
     available as a Category for all analyses within R2. Go back to the
     main page to see where you can use this set.
     
-	![](_static/images/AdaptingR2_Inputbox.png "Figure    7: Using the Input Box to upload your category    of genes.")
+	![](_static/images/AdaptingR2_Inputbox.png "Figure    6: Using the Input Box to upload your category    of genes.")
 	
-	[**Figure    7: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
+	[**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
+    	
+3.  Instead of using the Input box, you can define a set of genes from a text file formatted similarly as in the input box in step 2, as a single column of official
+    gene symbols (obtained from [NCBI gene](https://www.ncbi.nlm.nih.gov/gene)). Again, the data can be
+    stored temporary (24 hrs) or in your personal gene category database. 
+    
+    ![](_static/images/AdaptingR2_BuildingCategory.png "Figure    7: Building a Custom Category: Uploading    a file.")
+    
+    [**Figure    7: Building a Custom Category: Uploading    a file.**](_static/images/AdaptingR2_BuildingCategory.png)
 	
 4.  We're going to lookup your category, an example is available in the
-    GeneSet view. In the main menu in Field 3 select 'View a Geneset'
+    Gene Set View. In the main menu in Field 3 select 'View a Geneset (Heatmap)'
     and click "next"( Figure 8)
     
 	![](_static/images/AdaptingR2_Viewset.png "Figure    8: Using a category; select View    Geneset")
@@ -139,24 +123,28 @@ Step 3: Create your own genesets; a.k.a. categories
 	
 5.  In the GeneSetView your Category is privately available for yourself
     for similar analyses as with any other public geneset present in R2.
-    Select My GeneCategories to choose from your categories (currently
-    only one of course) \#: and click Next (Figure 9).
+    Select 'My GeneCategories' to choose from your categories.
+    If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the following window  (Figure 9).
     
 	![](_static/images/AdaptingR2_Selectgeneset.png "Figure    9: Selecting your    genecategories")
 	
 	[**Figure    9: Selecting your    genecategories**](_static/images/AdaptingR2_Selectgeneset.png)
 	
-6.  In the next window you can specify which geneset you want to view.
-    The Category 'Changed Genes' we just made above is now available
-    (Figure 10). For now we end here, later on we'll see the category
-    again in the context of \#:Tracks.
+6.  Now you can specify which geneset you want to view and how you want to the heatmap to be displayed.
+    The Category 'Changed Genes' we just made above is available
+    (Figure 10 A), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red'.  
+    For now we end here, later on we'll see the category again in the context of Tracks.
     
-	![](_static/images/AdaptingR2_YourGeneset.png "Figure    10: Your geneset is available    as category.")
+	![](_static/images/AdaptingR2_YourGeneset.png "Figure    10 A: Your geneset is available    as category.")
 	
-	[**Figure    10: Your geneset is available    as category.**](_static/images/AdaptingR2_YourGeneset.png)
+	[**Figure    10 A: Your geneset is available    as category.**](_static/images/AdaptingR2_YourGeneset.png)
 	
-7.  We now return to the My Settings menu to find out how we can manage
-    the categories we just build. From the My Settings menu hover over
+    ![](_static/images/AdaptingR2_YourGeneset2.png "Figure    10 B: Your geneset is used to create a heatmap.")
+    	
+    [**Figure    10 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2_YourGeneset2.png)
+    	
+7.  We now return to the side menu of the R2 page to find out how we can manage
+    the categories we just built. From the User Options item in the menu hover over
     'Categories' and click 'Manage Categories'.
     
 	![](_static/images/AdaptingR2_CategoryManager.png "Figure    11: The Category    Manager")
@@ -176,8 +164,8 @@ Step 3: Create your own genesets; a.k.a. categories
 	[**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
 	
 9.  In the next screen you'll be asked what type of procedure is needed
-    for your category of choice; in our case we want to keep the
-    category and update it. Select it and click 'Execute'.
+    for your category of choice; First, chose 'ChangedGenes' from the Select Category dropdown menu. 
+    In our case we want to keep the category and update it. Select operation 'update' and click 'Execute'.
     
 	![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
 	
@@ -185,7 +173,7 @@ Step 3: Create your own genesets; a.k.a. categories
 	
 10. The details of the Category we built in the former steps are
     available for adaptation. In this way you can keep track and adapt
-    the sets you use for your analyses
+    the sets you use for your analyses.
 
 
 
