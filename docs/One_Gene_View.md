@@ -402,12 +402,29 @@ Step 9: Find best track separation with CliniSnitch
 Step 10: Finding sample extremes.
 ---------------
 
+In case you have additional background information of a certain sample or you have another hint to analyze individual samples from a given dataset. You can you use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question; can we find extreme expression values for this sample?.
 
+
+
+1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
+
+![](_static/images/OneGene_selectsampleextreme.png "Figure 21:Sample extremes")
+
+[**Figure 21: Sample extreme**](_static/images/OneGene_selectsampleextreme.png)
+
+
+
+2. One table divided in in negative z-score and positive z-score extremes list has been  generated.  In figure 22 genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type  Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.
+
+![](_static/images/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes")
+
+[**Figure 22: Sample extremes in one sample**](_static/images/OneGene_sampleextremePhox2b.png)
 
 
 
 Final remarks / future directions
 ---------------------------------
+
 Some of these functionalities have been developed recently. If you run
 into any quirks or annoyances don't hesitate to contact r2 support
 (r2-support@amc.uva.nl).
