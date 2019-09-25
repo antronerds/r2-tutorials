@@ -131,10 +131,9 @@ To highlight / mark specific samples in the graph you can enter the R2 sample ID
 
 [**Figure 4: Adjusting the graph settings**](_static/images/OneGene_adjustablesettings.png)
 
- 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples with marker options?** 
- 
+
 > *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
 > - *'dot': places a thick border around the sample*
 > - *'circle': Places a ring around the sample (diameter 9)*
@@ -152,7 +151,6 @@ Multiple colors and different markings can be applied to the individual samples 
 ![](_static/images/OneGene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
 
 [**Figure 5: Adjusting the sample mark layout**](_static/images/OneGene_view_samplesmark.png)
-  
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight?**                              
@@ -267,7 +265,7 @@ literature mining.
 
 ---------------------------------------------------
   ***Did you know that [Pub re-miner](http://hgserver2.amc.nl/cgi-bin/miner/miner2.cgi) is a helpful tool for literature mining?***  
-  
+
 > *In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?*
 >  *Pub re-miner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.*
 >  *Pub re-miner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.*
@@ -381,7 +379,7 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
  In the picture below all stages are depicted and only the lower risk stages with Graphtype BoxDotPlot.
 
  ![](_static/images/OneGene_subgroupvsall.png "Figure 19: Selecting subgroups")
- 
+
  [**Figure 19: All stages versus lower risk only**](_static/images/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
@@ -399,6 +397,11 @@ Step 9: Find best track separation with CliniSnitch
 
   2. For every track, the most significant test will be highlighted. Every test can also be visualized by clicking on the combination label. Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. If we look at the ‘inss’ track, we can also see that nearly every test containing ‘st4’ has a significant value. Click on ‘st2 vs st4’ to inspect this further.
   3. We are now back in the 'one gene view', but our dataset has been restricted to only those patients that belong to either st2 or st4.
+
+
+Step 10: Finding sample extremes.
+---------------
+
 
 
 
