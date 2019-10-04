@@ -48,7 +48,7 @@ they follow a specific convention (fixed prefix, followed by \_up and
 
 [**Figure 1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
 
-	
+
 -   What is a genesignature
 -   Create a track using the weight scores of a genesignature
 -   Relate a weighed genesignature track to a single gene
@@ -84,7 +84,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     "Next".
 5.  In the following screen we select the "functional genesignature"
     subselection and click "Next".
-  ![](_static/images/genesetcorrelation_selectheatmapa.png "Figure 2: Generating Geneset signatures A")
+    ![](_static/images/genesetcorrelation_selectheatmapa.png "Figure 2: Generating Geneset signatures A")
 
   [**Figure 2 : Generating Geneset signatures A**](_static/images/genesetcorrelation_selectheatmapa.png)
 	     
@@ -230,6 +230,7 @@ of neuroblastoma cell lines and 5 neural crest derrived cell lines published by 
    two signature scores. However, a clear significant correlation between the two signatures is shown the
    biological relevance is less prominent.
    
+
  ![](_static/images/genesignature_mixed52_v1.png "Figure 5: Relate two tracks")
  [**Figure 8: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
 
@@ -261,7 +262,7 @@ In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gs
 2. In figure 10 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines in this dataset.
 
 ![](_static/images/R2d2_logo.png)**Did you know box**
-  
+
 
 >*R2 uses a couple of markup options for points in a graph, you can enable these in the advanced prescriptions:* 
  - *'dot': places a thick border around the sample*
@@ -273,6 +274,38 @@ In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gs
  - *'triangle': Places a filled triangle under the sample*
 
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' met
+
+
+
+Step 6:  Signature Gene correlations
+---------------
+
+In order to gain more insight in the background of a gene signature such as identifying genes which relate best with the gene signature you are investigating. You can use the gene signature correlation option. Click on 'Corr' in the same table where you stored the genesignature score.
+
+ ![](_static/images/genesignature_selectCorr.png "Figure 11: Select  gene correlations")
+[**Figure 11: Select Gene Correlations**](_static/images/genesignature_selectCorr.png)
+
+This option generates a graph were the R-value is ranked from the highest to the lowest correlation for each member of a genecategory you used to generate the signature score. Clicking on a row in the table will generate a XY-plot, with the gene expression on the Y-axis against the signature score values on the x-axis.
+
+ ![](_static/images/genesignature_graphtable.png "Figure 12: Ordered R-values + XY-plot")
+[**Figure 12: Ordered R-values + XY-plot**](_static/images/genesignature_graphtable.png)
+
+
+
+You can also select multiple categories to investigate the individual contribution of genes to a signature score. R2 will automatically keep the coloring for the separate gene categories.  
+
+![](_static/images/genesignature_twocategories.png "Figure 13: Ordered R-values + XY-plot")
+[**Figure 13: Two categories**](_static/images/genesignature_twocategories.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
