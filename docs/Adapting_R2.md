@@ -284,47 +284,45 @@ Step 4: Tracks in R2: create your own data annotation
     	
     [**Figure    22 B: 'Drawtracks' makes tracks visible under the graph; tracks can be grouped by defining 'Collections'**](_static/images/AdaptingR2_SelectDefaultResult.png)
 
+    Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use the 'Reset to defaults button' to go back to the original dataset settings of tracks.  
+
 Step 5: Upload your own tracks
 ---------------
 
 1.  R2 also allows you to build your own tracks from scratch. You'll be
     able to assign each sample to a group of your choice. To illustrate
-    this select 'Build Custom Track' in 'User Options' > 'Tracks' (Figure 21). The
+    this select 'User Options' > 'Tracks' > 'Build Custom Track'. The
     Custom Track window appears. R2 also provides the possibility to
     upload a custom track from a prefab text file; we'll shortly show
-    this; click 'Upload a Track' (Figure 23).
+    this; click 'Upload or Paste a Track (txt file)' (Figure 23).
     
-	![](_static/images/AdaptingR2_UploadTrack.png "Figure    23: The Custom Track dataset    choice window.")
+	![](_static/images/AdaptingR2_UploadTrack.png "Figure    23: Build a Custom Track: Upload or paste a track.")
 	
-	[**Figure    23: The Custom Track dataset    choice window.**](_static/images/AdaptingR2_UploadTrack.png)
+	[**Figure    23: Build a Custom Track: Upload or paste a track.**](_static/images/AdaptingR2_UploadTrack.png)
 	
 2.  In the Upload Custom Track window you can either select a tab
     delimited txt file built with a tool like Excel, or alternatively
-    paste tab or semicolon delimited text in the paste-box; that
+    paste tab or semicolon delimited text in the input box. Either of these options
     provides R2 with the proper assignment of each sample to a
-    specific value. Based on that, R2 creates the groups for you. Using
-    this procedure you can create tracks with as many groups as
-    you like. If you intend to create a track with a limited number of
-    groups, then an easier way is provided through the user interface,
-    which we will now try. Click back button in your browser to return
-    to Figure 23
-    
+    specific value. Based on these values, R2 creates the groups for you. You can create tracks with as many groups as
+    you like.  
+       
 	![](_static/images/AdaptingR2_Trackdescribed.png "Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.")
 	
 	[**Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.**](_static/images/AdaptingR2_Trackdescribed.png)
 	
-3.  In the Custom Track window(Figure 23) the number of groups desired
-    has to be given in advance. We try 3. The Gene/PS option allows you
-    to order the samples based on the expression of a gene, and make
-    sub-groups that range in expression. Leave that field open and click
-    Submit
-4.  In the next window a convenient grouping of all annotation
-    parameters and there values is available to create groups. In this
-    example we select the low grade(1,2,3) vs high grade(4) vs
-    special (4s) tumor types in the Neuroblastoma dataset as known from
-    the INSS classification. Tick the appropriate boxes in the
-    appropriate group columns. It is also convenient to recapitulate the
-    resulting groups in a separate column so tick that box also
+3.	If you intend to create a track with a limited number of
+    groups, an easier way is provided through the user interface.
+    We will try that now: click the back button of your browser to return
+    to Figure 23. 
+    By default the Custom Track Window (Figure 23) is set to build a track based on a defined number of groups.  
+    Underneath you can adjust the number of groups, now change the number to 3 groups and click the Submit button.  
+
+4.  In the next window a convenient overview of all annotation
+    parameters and their values is available, with check boxes to assign samples with specific annotation values to one of the three groups. 
+    In this example we divide the samples by their INSS classification values in 3 groups: the low grade(1,2,3) vs high grade(4) vs
+    special (4s) tumor types. Tick the appropriate boxes in the
+    appropriate group columns. It is also convenient to recapitulate the resulting groups in a separate column so tick that box also
     (Figure 25).
     
 	![](_static/images/AdaptingR2_DefineGroupsSpecs.png "Figure    25: In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track.")
@@ -332,45 +330,44 @@ Step 5: Upload your own tracks
 	[**Figure    25: In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track.**](_static/images/AdaptingR2_DefineGroupsSpecs.png)
 	
 5.  Click "next", all samples appear in a table with check boxes to
-    assign them to the appropriate group. Scroll down to create the
-    annotation for these groups (). Names have been adapted, show track
-    is set to yes, the track is set to be stored a personal track and
+    assign them to the appropriate group. Scroll down to adapt the visual characteristics of these groups. 
+    Names have been adapted, 'show track'
+    is set to yes, the track is set to be stored as a personal track and
     colors per group have been adapted. Click 'Build set' to store the
     set, you'll receive a message accordingly in the next window. Of
     course you now finally want to see all our track manipulation in an
-    actual graph. Go to the R2 main page again to see how the data of a
+    actual graph. Go to the R2 main page again, fill in a gene of choice (e.g. MYCN) in box 3 and click next twice to see how the data of a
     gene will be plotted using the new tracks.
     
- ![](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
+    ![](_static/images/AdaptingR2_Trackproperties.png "Figure    26: Setting the custom    track properties.")
 	
-[**Figure    26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)	
+    [**Figure    26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)	
 
-6. A frequently used approach is using a track based on bins of values.  To avoid labour intensive excel usage you can also use the 	expression treshhold option from the pulldown menu. Each time an expression level has been entered, a new box is generated for the next value. Click next to save the track.
+6.  A frequently used approach is using a track based on bins of gene expression values.  
+    To avoid labour intensive excel usage you can also use the expression treshhold option from the pulldown menu. 
+    Each time an expression level has been entered, a new box is generated for the next value. 
+    Of course, it is possible to change the names of the bins. Click next to tell R2 to draw the track, change the colors of the track bins and save the track.
 
-  ![](_static/images/AdaptingR2_Trackdescribed_bin.png "Figure    27: Creating bins.")
+    ![](_static/images/AdaptingR2_Trackdescribed_bin.png "Figure    27: Creating bins.")
 	
-  [**Figure    27: Creating bins.**](_static/images/AdaptingR2_Trackdescribed_bin.png)
+     [**Figure    27: Grouping samples for a track based on gene expression**](_static/images/AdaptingR2_Trackdescribed_bin.png)
 
-
-
-
-6.  Select View a gene in groups in Field 3 of the main page, type MYCN
+7.  Select View a gene in groups in Field 3 of the main page, type MYCN
     as gene name in Field 4 (Figure 27). Click 'next'.
     
 	![](_static/images/AdaptingR2_ViewTrack.png "Figure    28: Selecting a gene to view in the newly    created tracks.")
 	
 	[**Figure    28: Selecting a gene to view in the newly    created tracks.**](_static/images/AdaptingR2_ViewTrack.png)
 	
-7.  The track created in the Custom Track manager is available for
-    selection: u-lowgradvs4vs4s. Note that the other Track created in
-    the K-means analysis, is also available here. Choose it and
-    click 'Next'.
+8.  All the tracks created in the Custom Track manager are available for
+    selection in the 'userdefined' group of tracks, choose u-lowgradvs4vs4s. Note that the track created in
+    the K-means analysis, is also available here. Click 'Next'.
     
 	![](_static/images/AdaptingR2_Selectowntrack.png "Figure    28: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s")
 	
 	[**Figure    29: Select the Track created in the Custom track manager;    u-lowgradvs4vs4s**](_static/images/AdaptingR2_Selectowntrack.png)
 	
-8.  The different groups we created as part of our track in the previous
+9.  The different groups we created as part of our track in the previous
     steps are available for selection. We want to see them all, keep the
     settings and click 'Next'.
     
@@ -378,9 +375,9 @@ Step 5: Upload your own tracks
 	
 	[**Figure    30: The groups created in the track are available for    selection**](_static/images/AdaptingR2_Trackgroups.png)
 	
-9.  The expression of MYCN is plotted in the different groups of the
-    track that was created (Figure 30). Note that the other track of
-    mutated genes has a large overlap with the stage 4 group. There is
+10. The expression of MYCN is plotted in the different groups of the
+    track that was created (Figure 30). Extra Graph Option has been set to Track and Gene Sort. 
+    Note that the other track of mutated genes has a large overlap with the stage 4 group. There is
     also overlap with the "recurrence\_or\_progression" Default Track
     that we set to visible.
     
@@ -388,7 +385,7 @@ Step 5: Upload your own tracks
 	
 	[**Figure    31: Tracks created are visualized underneath the    graph**](_static/images/AdaptingR2_VisualizeTracks.png)
 	
-10. Another convenient option from the "custom track manager" is the
+11. Another convenient option from the "custom track manager" is the
     export function which enables you to manipulate your tracks manually
     outside R2. This could be of use when your want to share tracks with
     other users or create new custom tracks. One reason you want to use
@@ -414,12 +411,12 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
 1.  Cooperation is of great importance in scientific research. You
     probably want to share the tracks created above with other people in
     your group. For this reason R2 features the Communities. Creating a
-    community is done by clicking 'Community' in the 'My Settings' menu
+    community is done by clicking 'Community' in the 'User Options' menu
     (Figure 31).
     
-	![](_static/images/AdaptingR2_Community.png "Figure    32: Community in the My Settings    menu")
+	![](_static/images/AdaptingR2_Community.png "Figure    32: Community in the User Options menu")
 	
-	[**Figure    32: Community in the My Settings    menu**](_static/images/AdaptingR2_Community.png)
+	[**Figure    32: Community in the User Options menu**](_static/images/AdaptingR2_Community.png)
 	
 2.  Since this will be the first time in the community section, there
     are no communities yet; click the 'Start a new Community' link
@@ -439,7 +436,7 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
 	
 4.  Click 'Next'; you'll be notified that the group has been created;
     return to the Communities Center by clicking the Community link
-    again in the My Settings menu (Figure 32). The TestGroup has been
+    again in the User Options menu (Figure 32). The TestGroup has been
     created (next to the already existing MyTestGroup for this user).
     Click the link to start adding users (Figure 35).
     	
@@ -466,9 +463,9 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
 7.  The perspective of the invited user after logon; he or she can
     accept the invitation (Figure 37).
     
-	![](_static/images/AdaptingR2_GroupInvitation.png "'Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+	![](_static/images/AdaptingR2_GroupInvitation.png "Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 	
-	[**'Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group**](_static/images/AdaptingR2_GroupInvitation.png)
+	[**Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group**](_static/images/AdaptingR2_GroupInvitation.png)
 	
 8.  When the invitation has been accepted the user is available in
     this community. When we add a category, track or preset the next
