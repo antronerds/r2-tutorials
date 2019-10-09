@@ -115,7 +115,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     fine for the current tutorial. Click on "Build set" to store the new
     track (Figure 4).
 
-    ![](_static/images/genesetcorrelation_createscore.png "Figure 4: Generating a Track from a gene set Signature Score")
+    ![](_static/images/genesetcorrelation_createscorea.png "Figure 4: Generating a Track from a gene set Signature Score")
 	
 	[**Figure 4: Generating a Track from a gene set Signature Score**](_static/images/genesetcorrelation_createscorea.png)
 	
