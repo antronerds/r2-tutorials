@@ -234,11 +234,13 @@ of neuroblastoma cell lines and 5 neural crest derived cell lines published by (
     biological relevance is less prominent so far.
     
     ![](_static/images/genesignature_mixed52_v1.png "Figure 11: Relate 2 tracks using genesignatures")
+    
     [**Figure 11: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
 
 4.  In order to visualise the biological relevance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click adjust settings.
 
     ![](_static/images/genesignature_mixed52_trackcolor.png "Figure 12: Color by a biologically meaningful track")
+    
     [**Figure 12: Color by a biologically meaningful track**](_static/images/genesignature_mixed52_trackcolor.png)
 
 5.  In this new plot, mes defined cell lines cluster together with the neural crest derived lines in the left upper part of the plot
@@ -261,6 +263,7 @@ Let's give this a try by defining the time series samples within this dataset.
     gsm2413254, gsm2413255, gsm2413256:#222222' and click "Adjust Settings"
     
     ![](_static/images/genesignature_mixed52_sample_lines.png "Figure 13: Connection samples")
+    
     [**Figure 13: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
     
 2. In figure 13 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines in this dataset.
@@ -288,6 +291,7 @@ You can use the gene signature correlation option in order to identify genes whi
     this time click the link 'Corr' (Figure 3, box C). 
 
     ![](_static/images/genesignature_selectCorr.png "Figure 11: Select  gene correlations")
+    
     [**Figure 11: Select Gene Correlations**](_static/images/genesignature_selectCorr.png)
 
 2.  This option generates a graph were the R-value is ranked from the highest to the lowest correlation 
@@ -296,11 +300,13 @@ You can use the gene signature correlation option in order to identify genes whi
      against the signature score value (X-axis) for each sample.
 
     ![](_static/images/genesignature_graphtable.png "Figure 12: Ordered R-values + XY-plot")
+    
     [**Figure 12: Ordered R-values + XY-plot**](_static/images/genesignature_graphtable.png)
 
 You can also select multiple categories to investigate the individual contribution of genes to a signature score. R2 will automatically keep the coloring for the separate gene categories.  
 
 ![](_static/images/genesignature_twocategories.png "Figure 13: Ordered R-values + XY-plot")
+
 [**Figure 13: Two categories**](_static/images/genesignature_twocategories.png)
 
 
