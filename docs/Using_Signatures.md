@@ -106,16 +106,16 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     for number of genes)). Click on "store" for the "weighted\_matched"
     signature, so that we can perform additional analyses on it.    
         
-    ![](_static/images/genesetcorrelation_selectheatmapa.png "Figure 3: A) Category marking per gene; B) Signature score; C) Links for further analyses")
+    ![](_static/images/genesetcorrelation_selectheatmap_boxes.png "Figure 3: A) Category marking per gene; B) Signature score; C) Links for further analyses")
 
-    [**Figure 3: A) Gene set marking per gene; B) Signature score; C) Links for further analyses**](_static/images/genesetcorrelation_selectheatmapa.png)
+    [**Figure 3: A) Gene set marking per gene; B) Signature score; C) Links for further analyses**](_static/images/genesetcorrelation_selectheatmap_boxes.png)
       
 9.  R2 has now assembled the information into a prescription to generate
     a track. By default R2 will store the track for 24 hours, which is
     fine for the current tutorial. Click on "Build set" to store the new
     track (Figure 4).
 
-    ![](_static/images/genesetcorrelation_createscorea.png "Figure 4: Generating a Track from a gene set Signature Score")
+    ![](_static/images/genesetcorrelation_createscore.png "Figure 4: Generating a Track from a gene set Signature Score")
 	
 	[**Figure 4: Generating a Track from a gene set Signature Score**](_static/images/genesetcorrelation_createscorea.png)
 	
