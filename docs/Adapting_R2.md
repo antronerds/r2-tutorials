@@ -145,7 +145,7 @@ Step 3: Create your own genesets; a.k.a. categories
     	
 7.  We now return to the side menu of the R2 page to find out how we can manage
     the categories we just built. From the 'User Options' item in the menu hover over
-    'Categories' and click 'Manage Categories'. The Category Manager opens up. 
+    'Categories' and click 'Manage Categories'.  
     The Category Manager (Figure 11) allows you to keep track of the categories; 
     sets of genes that you've stored within R2. 
     To keep track of large amounts of categories these can be stored in Collections. 
@@ -157,26 +157,25 @@ Step 3: Create your own genesets; a.k.a. categories
 	
 8.  Existing Categories can be adapted or deleted. New Categories can be based on
     existing ones. As an example we're going to update the Category we
-    just made. Click the 'Copy/Delete/Rename/Edit Categories' button.
+    just made. Click the 'Copy/Delete/Rename/Edit Categories' button of the Category Manager (Figure 11). 
+    In the next screen you'll be asked what type of procedure is needed for your Category of choice. 
+    First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. Then choose from the 'Select operation' dropdown the 'update' item 
+    and click 'Execute'. 
     
 	![](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
 	
 	[**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
 	
-9.  In the next screen you'll be asked what type of procedure is needed
-    for your Category of choice. First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. 
-    In our case we want to keep the Category and update it with a list of 78 genes. Choose for 'Select operation' the 'update' item and click 'Execute'.
-    
+9.  In our case we want to keep the Category and update it with a list of 78 genes. After you have typed your list of genes in the box,
+    click the Update the category box.
+        
 	![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
 	
 	[**Figure    13: The Category we just built can be adapted in    all details.**](_static/images/AdaptingR2_AdaptCategory.png)
 	
-10. The details of the Category we built in the former steps are
+    All details of the Category we built in the former steps are
     available for adaptation. In this way you can keep track and adapt
-    the sets you use for your analyses.
-
-
-
+    the gene sets you use for your analyses.
 
 
 Step 4: Tracks in R2: create your own data annotation
@@ -285,6 +284,7 @@ Step 4: Tracks in R2: create your own data annotation
     [**Figure    22 B: 'Drawtracks' makes tracks visible under the graph; tracks can be grouped by defining 'Collections'**](_static/images/AdaptingR2_SelectDefaultResult.png)
 
     Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use the 'Reset to defaults button' to go back to the original dataset settings of tracks.  
+
 
 Step 5: Upload your own tracks
 ---------------
