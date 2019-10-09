@@ -224,11 +224,11 @@ Step 4: Tracks in R2: create your own data annotation
     potentially also change the name to something you could easily
     relate to.
     
-	![](_static/images/AdaptingR2_DefineGroups.png "Figure    17: Storing the current groups as Track; Track name has been    adapted, the track will be stored in our personal    track database.")
+	![](_static/images/AdaptingR2_DefineGroups.png "Figure    17: Storing the current groups as a Track for use in later analysis.")
 	
-	[**Figure    17: Storing the current groups as Track; change change track parameters**](_static/images/AdaptingR2_DefineGroups.png)
+	[**Figure    17: Storing the current groups as a Track for use in later analysis. **](_static/images/AdaptingR2_DefineGroups.png)
 	
-5.  After changing the parameters if necessary  clicking the Build set button will store this as a track. In the
+5.  After optionally changing the parameters, you can click the Build set button to store the track. In the
     custom tracks manager we can adapt this track again. From the My
     Settings menu select 'Manage Custom Tracks' (Figure 18).
     
@@ -236,7 +236,7 @@ Step 4: Tracks in R2: create your own data annotation
 	
 	[**Figure    18: Selecting the Manage Custom    Tracks**](_static/images/AdaptingR2_ManageCustomTracks.png)
 	
-6.  In the next screen keep the default selection; your current dataset.
+6.  In the next screen keep the default selection, i.e. your current dataset.
     Tracks are, of course, defined based on a specific dataset; for each
     dataset you can store your own tracks. Click 'Continue'.
     
@@ -246,21 +246,18 @@ Step 4: Tracks in R2: create your own data annotation
 	
 7.  In the next screen you're able to adapt the Track we just generated.
     Of interest in here is the option "Drawtrack", which will result in
-    the display of the information underneath the YY-plots. The tracks
-    can also be assigned to collections to make large sets of
+    the display of the information underneath the YY-plots.  
+    The tracks can also be assigned to collections to make large sets of
     tracks manageable. We leave the deletion of the track to the
-    imagination of the reader. Now we'll pay attention to the default
-    tracks for this dataset. The track we just generated can be adapted from here. For a
-    start set the Drawtrack propery to 'yes'; we want to see this track
-    in the graphs we create!.
+    imagination of the reader.  
+    Now we'll pay attention to the default tracks for this dataset. The track we just generated can be adapted from here. For a
+    start set the Drawtrack propery to 'yes'; we want to see this track in the graphs we create!
     
 	![](_static/images/AdaptingR2_AdaptTrack.png  "Figure 20: Adapting track paramteters.") 
     
     [**Figure    20: Adapting track paramteters.**](_static/images/AdaptingR2_AdaptTrack.png)
     
-    
-    
-8. Select Manage Default Tracks from the User Options > Tracks sub-menu (Figure 21)
+8. Select Manage Default Tracks from the 'User Options' > 'Tracks' sub-menu (Figure 21)
 
    ![](_static/images/AdaptingR2_ManageDefaultTracks.png "Figure    21: Selecting the Default Tracks    Manager")
 
@@ -281,9 +278,9 @@ Step 4: Tracks in R2: create your own data annotation
 
    When collections of tracks are used, these will show up conveniently as separate groups of tracks under the graph.
 
-   ![](_static/images/AdaptingR2_SelectDefaultResult.png "Figure    22 B: The selected tracks are visible under the graph; Tracks can be grouped with option Collections.")
+   ![](_static/images/AdaptingR2_SelectDefaultResult.png "Figure    22 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'")
 				
-   [**Figure    22 B: 'Drawtracks' makes tracks visible under the graph; tracks can be grouped by defining 'Collections'**](_static/images/AdaptingR2_SelectDefaultResult.png)
+   [**Figure    22 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'**](_static/images/AdaptingR2_SelectDefaultResult.png)
    
    Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use the 'Reset to defaults button' to go back to the original dataset settings of tracks.  
 
@@ -317,28 +314,42 @@ Step 5: Upload your own tracks
     We will try that now: click the back button of your browser to return
     to Figure 23. By default the Custom Track Window (Figure 23) is set to build a track based on a defined number of groups.  Underneath you can adjust the number of groups, now change the number to 3 groups and click the Submit button.  
     
-4.  In the next window a convenient overview of all annotation
-    parameters and their values is available, with check boxes to assign samples with specific annotation values to one of the three groups.  In this example we divide the samples by their INSS classification values in 3 groups: the low grade(1,2,3) vs high grade(4) vs special (4s) tumor types. Tick the appropriate boxes in the appropriate group columns. It is also convenient to recapitulate the resulting groups in a separate column so tick that box also (Figure 25). In the inss row the stage 1-2-3 tumors are selected to form    group 1, stage 4 forms group 2 and stage 4s group 3 in a    new track
+4.  In the next window a convenient overview of all annotation parameters and their values is available, 
+    with check boxes to assign samples with specific annotation values to one of the three groups.  
+    In this example we divide the samples by their INSS classification values in 3 groups: 
+    the low grade(1,2,3) vs high grade(4) vs special (4s) tumor types. 
+    Tick the appropriate boxes in the appropriate group columns. 
+    It is also convenient to recapitulate the resulting groups in a separate column so tick that box also (Figure 25). 
+    In the inss row the stage 1-2-3 tumors are selected to form group 1, 
+    stage 4 forms group 2 and stage 4s group 3 in a new track.
     
-    ![](_static/images/AdaptingR2_DefineGroupsSpecs.png "Figure 25:Preselection for makin tracks .")
+    ![](_static/images/AdaptingR2_DefineGroupsSpecs.png "Figure 25: Preselection to make new tracks from existing annotation.")
     
-    [**Figure 25:  Preselection for makin tracks.**](_static/images/AdaptingR2_DefineGroupsSpecs.png)
+    [**Figure 25: Preselection to make new tracks from existing annotation.**](_static/images/AdaptingR2_DefineGroupsSpecs.png)
     
 5.  Click "next", all samples appear in a table with check boxes to
-    assign them to the appropriate group. Scroll down to adapt the visual characteristics of these groups. Names have been adapted, 'show track' is set to yes, the track is set to be stored as a personal track and colors per group have been adapted. Click 'Build set' to store the set, you'll receive a message accordingly in the next window. Of course you now finally want to see all our track manipulation in an actual graph. Go to the R2 main page again, fill in a gene of choice (e.g. MYCN) in box 3 and click next twice to see how the data of a gene will be plotted using the new tracks.
+    assign them individually to the appropriate group. Scroll down to adapt the visual characteristics of these groups. 
+    Names have been adapted, 'show track' is set to yes, the track is set to be stored as a personal track and colors 
+    per group have been adapted. Click 'Build set' to store the set, you'll receive a message accordingly in the next window. 
+    Of course you now finally want to see all our track manipulation in an actual graph. 
+    Go to the R2 main page again, fill in a gene of choice (e.g. MYCN) in box 3 and click next twice to see how the data of a 
+    gene will be plotted using the new tracks.
     
     ![](_static/images/AdaptingR2_Trackproperties.png "Figure 26: Setting the custom    track properties.")
 	
     [**Figure 26: Setting the custom    track properties.**](_static/images/AdaptingR2_Trackproperties.png)	
 
-6.  A frequently used approach is using a track based on bins of gene expression values.  
-To avoid labour intensive excel usage you can also use the expression treshhold option from the pulldown menu.  Each time an expression level has been entered, a new box is generated for the next value.  Of course, it is possible to change the names of the bins. Click next to tell R2 to draw the track, change the colors of the track bins and save the track.
- ![](_static/images/AdaptingR2_Trackdescribed_bin.png "Figure    27: Creating bins.")
+6.  Another frequently used approach is to make a track based on bins of gene expression values.  
+    To avoid labour intensive excel usage you can also use the expression treshhold option from the pulldown menu.  
+    Each time an expression level has been entered, a new box is generated for the next value.  
+    Of course, it is possible to change the names of the bins. 
+    Click next to tell R2 to draw the track, change the colors of the track bins and save the track.
+    
+    ![](_static/images/AdaptingR2_Trackdescribed_bin.png "Figure    27: Creating bins.")
 
-[**Figure    27: Grouping samples for a track based on gene expression**](_static/images/AdaptingR2_Trackdescribed_bin.png)
+    [**Figure    27: Grouping samples for a track based on gene expression**](_static/images/AdaptingR2_Trackdescribed_bin.png)
 
-7.  Select View a gene in groups in Field 3 of the main page, type MYCN
-    as gene name in Field 4 (Figure 27). Click 'next'.
+7.  Select View a gene in groups in Field 3 of the main page, type MYCN as gene name in Field 4 (Figure 28). Click 'next'.
     
 	![](_static/images/AdaptingR2_ViewTrack.png "Figure    28: Selecting a gene to view in the newly    created tracks.")
 	
