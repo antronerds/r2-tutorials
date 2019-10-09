@@ -161,7 +161,7 @@ Step 3: Using signature scores
 Now that we have related the signature to a particular gene, it is easy
 to envision that this can be done as an analysis as well, where the
 signature is correlated to all genes in the genome ("correlate with a
-track " in "box3"). A lot of signatures have been designed and published
+track " in "box3"). A lot of signature gene lists have been designed and published
 in literature over the past years. We can convert all of these into
 signature scores and start searching for relations of these meta-genes
 with our signature of interest.
