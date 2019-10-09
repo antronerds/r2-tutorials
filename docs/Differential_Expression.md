@@ -219,7 +219,6 @@ Step 6: Setting parameters
 	
 	[**Figure 12: Progress dialog during on the fly calculation**](_static/images/DiffentialExpress_Progress.png)
 	
-  
 	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 
 	![](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups")
