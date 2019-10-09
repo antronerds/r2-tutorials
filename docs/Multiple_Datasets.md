@@ -75,7 +75,8 @@ Step 1: Selecting multiple datasets
 	
 
 --------------------------------------------------------------------------
-![]**Did you know that private datasets linked to a specific user are indicated with a green background color**
+
+![](_static/images/R2d2_logo.png)**Did you know that private datasets linked to a specific user are indicated with a green background color**
 
 ![](_static/images/MultipleDatasets_Didyou1.png)
 
