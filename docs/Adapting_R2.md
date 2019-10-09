@@ -144,19 +144,19 @@ Step 3: Create your own genesets; a.k.a. categories
     [**Figure    10 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2_YourGeneset2.png)
     	
 7.  We now return to the side menu of the R2 page to find out how we can manage
-    the categories we just built. From the User Options item in the menu hover over
-    'Categories' and click 'Manage Categories'.
+    the categories we just built. From the 'User Options' item in the menu hover over
+    'Categories' and click 'Manage Categories'. The Category Manager opens up. 
+    The Category Manager (Figure 11) allows you to keep track of the categories; 
+    sets of genes that you've stored within R2. 
+    To keep track of large amounts of categories these can be stored in Collections. 
+    The top part of the Category Manager shows options to switch on or off Collections of Categories.
     
 	![](_static/images/AdaptingR2_CategoryManager.png "Figure    11: The Category    Manager")
 	
 	[**Figure    11: The Category    Manager**](_static/images/AdaptingR2_CategoryManager.png)
 	
-8.  The Category Manager (Figure 11) allows you to keep track of the
-    categories; sets of genes you've stored within R2. Existing
-    Categories can be adapted or deleted. New Categories can be based on
-    existing ones, and to keep
-    track of large amounts of categories these can be stored
-    in collections. As an example we're going to update the Category we
+8.  Existing Categories can be adapted or deleted. New Categories can be based on
+    existing ones. As an example we're going to update the Category we
     just made. Click the 'Copy/Delete/Rename/Edit Categories' button.
     
 	![](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
@@ -164,8 +164,8 @@ Step 3: Create your own genesets; a.k.a. categories
 	[**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
 	
 9.  In the next screen you'll be asked what type of procedure is needed
-    for your category of choice. First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. 
-    In our case we want to keep the category and update it. Choose for 'Select operation' the 'update' item and click 'Execute'.
+    for your Category of choice. First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. 
+    In our case we want to keep the Category and update it with a list of 78 genes. Choose for 'Select operation' the 'update' item and click 'Execute'.
     
 	![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
 	
