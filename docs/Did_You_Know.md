@@ -7,7 +7,7 @@ Did you know... that throughout the R2 manual many tips and tricks are provided 
   
 Jump to one of the sections:  
 - [What were those R and p-values again?](#r-and-p-values)
-- [Often used settings for analyses](#settings)
+- [Often used settings for analyses](#what-should-I-do-with-all-those-settings)
     - [Statistics in analyses](#statisticspanel)
     - [when to use multiple testing](#multipletesting)
     - [Hugo Once](#hugoonce)
