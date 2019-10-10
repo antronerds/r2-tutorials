@@ -47,7 +47,7 @@ When to choose which transformation?
   -   “center/log2center”: Expression values centered around 0 (on raw values, or log2 transformed values).                                 
   -   “zcore\_group”: Coverts the expression levels from the zscore within a group (track). Applicable when e.g technical variation in expression levels is expected. A possible reason could be when samples from the same dataset originate from different centers.    
   
-### R2 concepts
+### Core concepts of R2
 
 <a name="tracks"></a>**Tracks:** In R2 the samples of a dataset can be annotated with e.g clinical data or molecular biology parameters, each group of annotated data is called a “Track” in R2. These tracks can be used to filter datasets, to compare groups of samples, to color scatter plots of samples with meta information, or to correlate genomics patterns in your data to e.g. different phenotypes or demographic characteristics.  
 Tracks are sample, and therefore, dataset specific. Most datasets contain default tracks when they are uploaded in R2, but every user can define their own custom made tracks for any available dataset, disable/adapt the settings for default tracks or store their analysis outcome as a track to use in further track-related analyses. User defined tracks are privately visible, but can be shared in user defined R2 communities with other R2 users.  
