@@ -6,7 +6,7 @@ Concepts of R2: did you know..?
 Did you know... that throughout the R2 manual many tips and tricks are provided in small blocks of text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
   
 Jump to one of the sections:  
-- [what were those R and p-values again?](#r-and-p-values)
+- [What were those R and p-values again?](#r-and-p-values)
 - [Often used settings for analyses](#settings)
     - [Statistics in analyses](#statisticspanel)
     - [when to use multiple testing](#multipletesting)
