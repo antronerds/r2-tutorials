@@ -104,9 +104,10 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 1. Check the graph and the information that is displayed above in the resulting window. For a nicely ordered graph, you can adjust the settings in the menu below to "Track and Gene Sort" (Don't forget to click on Adjust Settings afterwards!). R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
    
 
-	![](_static/images/DiffentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
-	
-	[**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/DiffentialExpress_Result.png)
+![](_static/images/DiffentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+
+
+   [**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/DiffentialExpress_Result.png)
 
 2.  Scroll down the window
 3.  Adapt the selection in the dropdown box 'Graphtype' to 'Barplot' and
@@ -120,16 +121,14 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 
  	![](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data now represented in a Barplot")
 	
-	[**Figure    6: The same data now represented in a Barplot**](_static/images/DiffentialExpression_Barplot.png)
-
+   [**Figure  6: The same data now represented in a Barplot**](_static/images/DiffentialExpression_Barplot.png)
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
 
-> *Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation (track). The analysis will only be performed on the selected subset. In the figu the track gender was selected that enables filtering on gender. Be sure to click the red confirm link to set the filter, or make further
-> selections. 
->
-> Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one. Don't forget the red "confirm" link before switching tracks. The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*         
+> *Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation (track). The analysis will only be performed on the selected subset. In the figure the track gender was selected that enables filtering on gender. 
+> 
+>Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one.  The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*         
 
 ![](_static/images/DiffentialExpress_Adjust.png)
                            
@@ -147,13 +146,13 @@ The difference can be shown more dramatically by plotting the data without a log
     
 	![](_static/images/DiffentialExpress_BarplotAdjust.png "Figure    7: Adjusting data    transformation")
 	
-	[**Figure    7: Adjusting data    transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
+	[**Figure 7: Adjusting data    transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
 	
 4.  The resulting graph in Figure 8 shows the difference between the expression values in the two groups more dramatically.
     
 	![](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure    8: Bar plot without    transformation")
 	
-	[**Figure    8: Bar plot without    transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
+	[**Figure 8: Bar plot without    transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
 	
 5.  Note furthermore the menu items to the right and left of the graph.
     The left panel contains hyperlinks that provide further information
@@ -169,8 +168,7 @@ The difference can be shown more dramatically by plotting the data without a log
     
 	![](_static/images/DiffentialExpress_ClinAnno.png "Figure    9: Clinical annotation of a    sample")
 	
-	[**Figure    9: Clinical annotation of a    sample**](_static/images/DiffentialExpress_ClinAnno.png)
-	
+	[**Figure 9: Clinical annotation of a    sample**](_static/images/DiffentialExpress_ClinAnno.png)
 
 
 
@@ -188,7 +186,7 @@ Step 5: Finding all differentially expressed genes
     
 	![](_static/images/DiffentialExpress_FindDiff.png "Figure    10: Selecting Find    Differential Expression.")
 	
-	[**Figure    10: Selecting Find    Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
+	[**Figure 10: Selecting Find    Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
 	
 3.  Click 'Next'
 
@@ -207,11 +205,11 @@ Step 6: Setting parameters
     
 	![](_static/images/DiffentialExpress_AdaptParam.png "'Figure    11: Differential expression    parameters")
 	
-	[**'Figure    11: Differential expression    parameters**](_static/images/DiffentialExpress_AdaptParam.png)
+	[**'Figure 11: Differential expression    parameters**](_static/images/DiffentialExpress_AdaptParam.png)
 	
 2.  Click "next"
 3.  In the next screen click next also; R2 now calculates for all genes
-    (under the parameters set) a one way anova test and also corrects
+    (under the parameters set) a one way Anova test and also corrects
     this for multiple testing (Figure 12); an amazing amount of
     calculations! R2 performs this on the fly.
 
@@ -223,34 +221,28 @@ Step 6: Setting parameters
 
 	![](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups")
 
-	[**Figure    13: Genes differentially expressed    between groups.**](_static/images/DiffentialExpress_Genelist.png)
+	[**Figure 13: Genes differentially expressed    between groups.**](_static/images/DiffentialExpress_Genelist.png)
 
 	
 --------------------------------------------------------------------------
-  ![](_static/images/R2d2_logo.png)***What were those R and p-values again?***
->  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation. Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X. The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.*
+  ![](_static/images/R2d2_logo.png)***Did you know that...***
 
----------------------
+  Very useful background information for this tutorial can be found in _Chapter 25: Did you know..?_  
+    
+  Check it out:
 
-----------------
-  ![](_static/images/R2d2_logo.png)**Did you know that you can specify the preferred statistical test and choose a subset of genes?**
 
-> *Use any (combination) of the following parameters to adapt the analysis to your needs.*
->  
->  **Hugo Once (hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. For each probe set of a gene, the average expression over all samples with a present call (from the MAS5.0 normalization) is calculated (average present signal APS). The probe set with the highest signal is chosen to represent this gene in the analyzed dataset. For every dataset this procedure is repeated, thereby allowing tissue specific selection for probesets to represent a gene. When no call information is available, the average expression of a probeset is used. In platforms other than Affymetrix, we try to generate a similar score if a notion of being expressed is available. Illumina arrays for example can contain such information. For RNA-seq data, FPKM/RPKM/TPM estimates for a particular gene can be 0. These are also defined in R2 to be Absent or not expressed. The expression calls, can also be useful to limit the number of tests that need to be performed, and thereby reduce the multiple testing penalties. Genes that are not considered to be expressed in any of the samples in a cohort can be omitted for a valid reason.*
+>  **What were those R and p-values again?**:  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together...  [Read all about R & p-values in Chapter 25](Did_You_Know.md#what-were-those-r-and-p-values-again)*
 >
->  **Statistics panel**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
->
->  **Correct for multiple testing:** *We are testing a lot of genes here; so we have to correct for multiple testing. For example, one might declare that a coin was biased if in 10 flips it landed heads at least 9 times. Indeed, if one assumes as a null hypothesis that the coin is fair, then the probability that a fair coin would come up heads at least 9 out of 10 times is (10 + 1)x(1/2)^ 10 = 0.0107. This is relatively unlikely, and under statistical criteria, such as p-value < 0.05, one would declare that the null hypothesis should be rejected i.e., the coin is unfair. A multiple-comparisons problem arises if one wanted to use this test (which is appropriate for testing the fairness of a single coin), to test the fairness of many coins. Imagine if one was to test 100 fair coins by this method. Given that the probability of a fair coin coming up 9 or 10 heads in 10 flips is 0.0107, one would expect that in flipping 100 fair coins ten times each, to see ;*a particular*;(i.e., pre-selected) coin come up heads 9 or 10 times would still be very unlikely, but seeing any coin behave that way, without concern for which one, would be more likely than not. Precisely, the likelihood that all 100 fair coins are identified as fair by this criterion is (1 - 0.0107)^100 \~ 0.34.. Therefore the application of our single-test coin-fairness criterion to multiple comparisons would be more likely to falsely identify at least one fair coin as unfair. This occurs in a similar way if we are testing multiple genes in one experiment; we have to correct for this. There are several ways to do so; a conservative approach is the Bonferroni correction. The correction is based on the idea that if an experimenter is testing n dependent or independent hypotheses on a set of data, then one way of maintaining the familywise error rate is to test each individual hypothesis at a statistical significance level of 1/n times what it would be if only one hypothesis were tested. So, if it is desired that the significance level for the whole family of tests should be (at most) a, then the Bonferroni correction would be to test each of the individual tests at a significance level of a/n. The more sophisticated False Discovery Rate controls the expected proportion of false positives. A FDR threshold is determined from the observed p-value distribution, and hence is adaptive to the amount of signal in your data.*
->
->  **Gene Filters:** *The gene filters allow you to study a specific subset of genes only. There are several domains you can choose from.*
->  - *A specific chromosome can be chosen. Note that when a chromosome is chosen, a specific position range can be defined as well.*  
->  -  *Under GeneCategory some predefined categories can be selected, e.g. some examples are known transcription factors or drugtargets. Here you'll find the categories you've defined yourself also. Kegg pathway selects a set of genes present in the [KEGG pathway database](http://www.genome.jp/kegg/pathway.html) .* 
->  - *Gene Ontology selects a group of genes belonging to a specific Gene Ontology category (www.geneontology.org). Note that if you click a category, further choices deeper down the ontology tree are enabled. Click again on the same dropdown menu to view categories further down the tree.*
->  - *Genesets are publicly defined sets or sets you've constructed yourself (see for detailed instructions the tutorial "Adapting R2 to your needs"). A convenient search functionality is available to find what you're looking for. Also in this dropdown feature subsets might be provided once a geneset is selected.* 
->  *Combinations are possible as well; this enables you for example to find the developmental genes on chromosome 1.*
->
-> *Of course: to really get familiar with these settings you have to toy around with them!*
+>  **You can specify the preferred statistical test and choose a subset of genes?**
+> *Use any (combination) of the following parameters to adapt the analysis to your needs.*  
+> - **Hugo Once (hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Check out [Chapter 25 about Hugo Once](Did_You_Know.md#hugoonce)
+( Did_You_Know.md#what-should-i-do-with-all-those-settings)*
+> - **Statistics panel**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
+> - **Correct for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on [about multiple testing in Chapter 25](Did_You_Know.md#multipletesting)*
+> - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. [Learn more about gene filters in Chapter 25](Did_You_Know.md#genefilters)*
+
+ *Of course, to really get familiar with these settings you should not only read about, but also toy around with them!*
 
 -----------------
 
@@ -299,14 +291,14 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     
 	![](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
 	
-	[**Figure    16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DiffentialExpress_XYplot.png)
+	[**Figure 16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DiffentialExpress_XYplot.png)
 	
 2.  Clicking on the datapoint in the plot opens up a new window showing the expression
     of the gene in the two groups as a box plot.
     
 	![](_static/images/DiffentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
 	
-	[**Figure    17: Differential expression of    NTRK1**](_static/images/DiffentialExpress_BoxdotplotCircle.png)
+	[**Figure 17: Differential expression of    NTRK1**](_static/images/DiffentialExpress_BoxdotplotCircle.png)
 	
 3.  R2 allows further annotation of the XY plot of all genes; in the XY
     plot window (still open in your browser) scroll down and adapt the
@@ -316,7 +308,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     
 	![](_static/images/DiffentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
 	
-	[**Figure    18: Adjustable settings for the all genes    plot**](_static/images/DiffentialExpress_AdjustAllgenes.png)
+	[**Figure 18: Adjustable settings for the all genes    plot**](_static/images/DiffentialExpress_AdjustAllgenes.png)
 	
 4.  Click redraw image. The plot has been adapted to show the AKR1C1
     genesymbol, DNA-replication genes are highlighted in red. Fold
@@ -326,7 +318,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     
 	![](_static/images/DiffentialExpres_graphtypes.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 	
-	[**Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpres_graphtypes.png)
+	[**Figure 19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpres_graphtypes.png)
 	
 5.  R2 can visualize the same data also as a Volcano plot or an MA plot.
     In the Adjustable Settings dialog change the Plot type to Volcano or
@@ -344,7 +336,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 first type the genes (comma separated), followed by :s=size, followed by :c=r,g,b  
 for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0  
 for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"*
-  
+
 -------------------------------
 
 
