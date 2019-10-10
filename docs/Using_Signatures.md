@@ -268,7 +268,10 @@ Let's give this a try by defining the time series samples within this dataset.
     
 2. In figure 13 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines in this dataset.
 
+------------------------
+
 ![](_static/images/R2d2_logo.png)**Did you know box**
+
 >*R2 uses a couple of markup options for points in a graph, you can enable these in the advanced prescriptions:* 
 > - *'dot': places a thick border around the sample*
 > - *'circle': Places a ring around the sample (diameter 9)*
@@ -280,6 +283,7 @@ Let's give this a try by defining the time series samples within this dataset.
 >
 >*Note: The dotsize does not scale with 'arrow' and 'triangle'*
 
+------------------------
 
 
 Step 6:  Signature Gene correlations
