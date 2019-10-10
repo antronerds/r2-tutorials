@@ -36,6 +36,7 @@ Copyright (c) 2006-2019 Jan Koster
    Adapting_R2
    Exporting_Data
    R2_Dataset_Addition
+   Did_You_Know
 
    
 ..   
