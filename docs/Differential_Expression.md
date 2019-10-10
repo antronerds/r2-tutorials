@@ -232,16 +232,17 @@ Step 6: Setting parameters
   Check it out:
 
 
->  **What were those R and p-values again?**:  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together...  [Read all about R & p-values in Chapter 25](Did_You_Know.md#multiple_testing)*
+>  **What were those R and p-values again?**:  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together...  [Read all about R & p-values in Chapter 25](Did_You_Know.md#what-were-those-r-and-p-values-again)*
 >
 >  **You can specify the preferred statistical test and choose a subset of genes?**
 > *Use any (combination) of the following parameters to adapt the analysis to your needs.*  
-> - **Hugo Once (hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Check out [Chapter 25 about Hugo Once](Did_You_Know.md#multiple_testing)*
+> - **Hugo Once (hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Check out [Chapter 25 about Hugo Once](Did_You_Know.md#hugoonce)
+( Did_You_Know.md#what-should-i-do-with-all-those-settings)*
 > - **Statistics panel**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
-> - **Correct for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on [about multiple testing in Chapter 25](Did_You_Know.md#multiple_testing)*
-> - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. [Learn more about gene filters in Chapter 25](Did_You_Know.md#gene_filters)*
+> - **Correct for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on [about multiple testing in Chapter 25](Did_You_Know.md#multipletesting)*
+> - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. [Learn more about gene filters in Chapter 25](Did_You_Know.md#genefilters)*
 
- *Of course: to really get familiar with these settings you should not only read about, but also toy around with them!*
+ *Of course, to really get familiar with these settings you should not only read about, but also toy around with them!*
 
 -----------------
 
