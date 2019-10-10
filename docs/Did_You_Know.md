@@ -5,7 +5,7 @@ Concepts of R2: did you know..?
 ===========================================
 Did you know... that throughout the R2 manual many tips and tricks are provided in small blocks of text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
 
-### Rvalues  
+# Rvalues  
 
 R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation.  
 Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. 
