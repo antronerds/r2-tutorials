@@ -144,15 +144,15 @@ The difference can be shown more dramatically by plotting the data without a log
 2.  In the 'Adjustable settings' dialog, set the 'Transform' dropdown to 'none' (Figure 7)
 3.  Click 'Adjust Settings'
     
-	![](_static/images/DiffentialExpress_BarplotAdjust.png "Figure    7: Adjusting data    transformation")
+	![](_static/images/DiffentialExpress_BarplotAdjust.png "Figure 7: Adjusting data transformation")
 	
-	[**Figure 7: Adjusting data    transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
+	[**Figure 7: Adjusting data transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
 	
 4.  The resulting graph in Figure 8 shows the difference between the expression values in the two groups more dramatically.
     
-	![](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure    8: Bar plot without    transformation")
+	![](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure 8: Bar plot without transformation")
 	
-	[**Figure 8: Bar plot without    transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
+	[**Figure 8: Bar plot without transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
 	
 5.  Note furthermore the menu items to the right and left of the graph.
     The left panel contains hyperlinks that provide further information
@@ -166,9 +166,9 @@ The difference can be shown more dramatically by plotting the data without a log
 6.  Figure 9 shows the clinical data associated with that
     particular sample.
     
-	![](_static/images/DiffentialExpress_ClinAnno.png "Figure    9: Clinical annotation of a    sample")
+	![](_static/images/DiffentialExpress_ClinAnno.png "Figure 9: Clinical annotation of a sample")
 	
-	[**Figure 9: Clinical annotation of a    sample**](_static/images/DiffentialExpress_ClinAnno.png)
+	[**Figure 9: Clinical annotation of a sample**](_static/images/DiffentialExpress_ClinAnno.png)
 
 
 
@@ -184,16 +184,15 @@ Step 5: Finding all differentially expressed genes
 2.  In field 3 of the R2 step-by-step guide select 'Find Differential
     expression between groups' (Figure 10)
     
-	![](_static/images/DiffentialExpress_FindDiff.png "Figure    10: Selecting Find    Differential Expression.")
+	![](_static/images/DiffentialExpress_FindDiff.png "Figure 10: Selecting Find Differential Expression.")
 	
-	[**Figure 10: Selecting Find    Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
+	[**Figure 10: Selecting Find Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
 	
 3.  Click 'Next'
 
 
 
 
-:ref:`Rvalues`
 Step 6: Setting parameters
 ---------------
 
@@ -203,9 +202,9 @@ Step 6: Setting parameters
     in red). The samples will be divided by the groups this track provides.  
     Select the 'alive' track again.
     
-	![](_static/images/DiffentialExpress_AdaptParam.png "'Figure    11: Differential expression    parameters")
+	![](_static/images/DiffentialExpress_AdaptParam.png "'Figure 11: Differential expression parameters")
 	
-	[**'Figure 11: Differential expression    parameters**](_static/images/DiffentialExpress_AdaptParam.png)
+	[**'Figure 11: Differential expression parameters**](_static/images/DiffentialExpress_AdaptParam.png)
 	
 2.  Click "next"
 3.  In the next screen click next also; R2 now calculates for all genes
@@ -219,28 +218,26 @@ Step 6: Setting parameters
 	
 	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 
-	![](_static/images/DiffentialExpress_Genelist.png "Figure    13: Genes differentially expressed    between groups")
+	![](_static/images/DiffentialExpress_Genelist.png "Figure 13: Genes differentially expressed between groups")
 
-	[**Figure 13: Genes differentially expressed    between groups.**](_static/images/DiffentialExpress_Genelist.png)
+	[**Figure 13: Genes differentially expressed between groups.**](_static/images/DiffentialExpress_Genelist.png)
 
 	
 --------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)***Did you know that...***
 
-  Very useful background information for this tutorial can be found in _Chapter 25: Did you know..?_  
+  Very useful background information for this tutorial can be found in Chapter 25 [Concepts of R2: did you know..?](Did_You_Know.md)
     
   Check it out:
 
-
->  **What were those R and p-values again?**:  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together...*  :ref:`try out<Rvalues>` [Read all about R & p-values in Chapter 25](Did_You_Know.md#rvalues)
+>  **What were those R and p-values again?**:  R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together... Read all about R & p-values [Chapter 25](Did_You_Know.md)
 >
 >  **You can specify the preferred statistical test and choose a subset of genes?**
-> *Use any (combination) of the following parameters to adapt the analysis to your needs.*  
-> - **Hugo Once (hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Check out [Chapter 25 about Hugo Once](Did_You_Know.md#hugoonce)
-( Did_You_Know.md#what-should-i-do-with-all-those-settings)*
+> Use any (combination) of the following parameters to adapt the analysis to your needs.  
+> - **Hugo Once (hugoonce)**: For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Scroll down in [Chapter 25](Did_You_Know.md) to the Settings section about Hugo Once.
 > - **Statistics panel**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. Besides these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
-> - **Correct for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on [about multiple testing in Chapter 25](Did_You_Know.md#multipletesting)*
-> - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. [Learn more about gene filters in Chapter 25](Did_You_Know.md#genefilters)*
+> - **Correct for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on about multiple testing in [Chapter 25](Did_You_Know.md)*
+> - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. Learn more about gene filters in [Chapter 25](Did_You_Know.md)*
 
  *Of course, to really get familiar with these settings you should not only read about, but also toy around with them!*
 
