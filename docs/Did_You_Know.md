@@ -7,7 +7,7 @@ Did you know... that throughout the R2 manual many tips and tricks are provided 
   
 Jump to one of the sections:  
 - [What were those R and p-values again?](#r-and-p-values)
-- [Often used settings for analyses](#what-should-I-do-with-all-those-settings)
+- [Often used settings for analyses](#settings-for-analysess)
     - [Statistics in analyses](#statisticspanel)
     - [When to use multiple testing](#multipletesting)
     - [Hugo Once](#hugoonce)
@@ -25,7 +25,7 @@ Perhaps the best way to interpret the value of R is to square it. This is the fr
 For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X.  
 The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
   
-### What should I do with all those settings?
+### Settings for analyses
 
 R2 provides a range of settings for each analysis. Here we explain the background of some recurring concepts and we provide guidance for the use of the different options. 
 
@@ -48,7 +48,7 @@ When no call information is available, the average expression of a probeset is u
   - Genesets are publicly defined sets or sets you've constructed yourself (see for detailed instructions the tutorial "Adapting R2 to your needs"). A convenient search functionality is available to find what you're looking for. Also in this dropdown feature subsets might be provided once a geneset is selected.    
 Combinations are possible as well; this enables you for example to find the developmental genes on chromosome 1.  
 
-<a name="transform"></a>**Transform:**: Converting expression levels with the “transform” option can help you to gain additional insight. There are several data transformations available.  
+<a name="transform"></a>**Transform:** Converting expression levels with the “transform” option can help you to gain additional insight. There are several data transformations available.  
   
 When to choose which transformation?                         
   -   “none”: Raw untransformed expression values, as they are represented in the R2 database.                                                  
