@@ -232,7 +232,7 @@ Step 6: Setting parameters
   Check it out:
 
 
->  **What were those R and p-values again?**:  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together...  [Read all about R & p-values in Chapter 25](Did_You_Know.md#rvalues)*
+>  **What were those R and p-values again?**:  *R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together...*  :ref:`custom text<Heading Text>` [Read all about R & p-values in Chapter 25](Did_You_Know.md#rvalues)
 >
 >  **You can specify the preferred statistical test and choose a subset of genes?**
 > *Use any (combination) of the following parameters to adapt the analysis to your needs.*  
