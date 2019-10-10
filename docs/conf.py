@@ -1,6 +1,6 @@
 import datetime
 
-extensions = ['sphinx.ext.autosectionlabel']
+extensions = []
 templates_path = ['_templates']
 
 master_doc = 'index'
