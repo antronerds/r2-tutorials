@@ -254,7 +254,7 @@ Step 3: Using the regulated genes in further analyses
     u133p2 . In field 3 select "View Geneset" at "Select type of
     analyses" and click "next".
     
-	![](_static/images/AnalysingTime_Geneview.png "'Figure    11: Geneview    adjustable settings.")
+	![](_static/images/AnalysingTime_Geneview.png "Figure    11: Geneview    adjustable settings.")
 	
 	[**'Figure    11: Geneview    adjustable settings.**](_static/images/AnalysingTime_Geneview.png)
 	
@@ -347,7 +347,7 @@ detail in tutorial 10.
 
 
 --------------
-  ![](_static/images/R2d2_logo.png)***Did you know that you can store the K-means generated track and use this track every time you log in to R2.**
+  ![](_static/images/R2d2_logo.png)**Did you know that you can store the K-means generated track and use this track every time you log in to R2.**
   
 >*You can use this track for further analysis with a custom made track for example by using the "find differential expression between groups". This approach explained in more detail in tutorials : Differential Expression Of Gene Between Groups and "Adapting R2 to your needs"*
 
