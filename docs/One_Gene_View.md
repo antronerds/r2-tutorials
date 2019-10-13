@@ -60,7 +60,8 @@ Step 2: Probesets for a gene
    (for example a potential splice variant). Also realize that the most
    informative probeset is re-determined in every dataset, sometimes
    resulting in a different probeset as the choice of R2. The
-   expression levels are by default converted to log2 values.
+   expression levels of datasets are by default 
+   converted to log2 values. This does not count for datasets that contain ratio's or logfolds.
 
    ![](_static/images/OneGene_multipleprobesets.png "Figure 2: By default the probeset with the highest expression level is selected")
    
@@ -90,7 +91,7 @@ Step 2: Probesets for a gene
 Step 3: Plotting Gene expression 
 ---------------
 
-1. R2 generates a YY-graph Figure 3 from the MYCN expression levels of
+1. R2 generates a YY-graph (Figure 3) from the MYCN expression levels of
    all samples with expression levels ordered from left (low) to
    right (high). Hovering over the dots reveals additional annotation
    that R2 has stored for the focused sample.
@@ -289,10 +290,11 @@ Step 6: Adapting plot
 2. The “track display selection” section can be opened by clicking on it.
     In here, you are able to toggle which tracks to display and/or hide
     within the YY-plots. Do note that these selections are non-persistent
-    and will be forgotten as soon as you leave the xgeneview. Persistent,
-    changes to the tracks can be made via the ‘my settings’ menu item, which
-    is present in the main screen. Note that the adjustable settings panel
-    including the customize track parameters are available throughout R2.
+    and will be forgotten as soon as you leave the One Gene View. Persistent
+    changes to the tracks can be made via the ‘User Options’ menu item, which
+    is present in the main screen (see the tutorial 'Adapting R2 to your needs'). 
+    Note that the Adjustable Settings panel, including the Customize Track parameters, 
+    is available throughout R2 for temporary adaptation of Track visibility and other preferences.
 
 	![](_static/images/OneGene_trackdisplay.png)
 	
@@ -340,21 +342,21 @@ Step 7: View a gene in groups
 
 1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the current location, we can also inspect the MYCN expression sub divided in groups. To achieve this, we simply scroll to the end of the page and locate the dropdown box in the 'Group Separations' section of the 'Adjustable Settings'. Here we can select a track to separate the cohort accordingly. Select 'inss' as a track and press the 'Adjust Settings' button at the end of the page. R2 has now separated the patients on the basis of the inss staging track in alphabetical order. 
 
-![](_static/images/OneGene_ViewInGroups1.png "Figure 15: Viewing a gene in groups")
+    ![](_static/images/OneGene_ViewInGroups1.png "Figure 15: Viewing a gene in groups")
 
-[**Figure 15: View a gene in groups**](_static/images/OneGene_ViewInGroups1.png)
+    [**Figure 15: View a gene in groups**](_static/images/OneGene_ViewInGroups1.png)
 
 2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. Press the 'Adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
 
-![](_static/images/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
+    ![](_static/images/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
-[**Figure 16: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
+    [**Figure 16: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
 
 3. You can also sort the groups by their average or median gene expression.
 
- ![](_static/images/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
+    ![](_static/images/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
 
-[**Figure 17: Order groups by the average gene expression value**](_static/images/OneGene_avgordered_circosplots.png)
+    [**Figure 17: Order groups by the average gene expression value**](_static/images/OneGene_avgordered_circosplots.png)
 
 -----------
   ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
@@ -376,50 +378,65 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  [**Figure 18: Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
 
- In the picture below all stages are depicted and only the lower risk stages with Graphtype BoxDotPlot.
+ The graphs below were drawn with Graphtype BoxDotPlot. All stages are depicted in the right hand side graph and 
+ only the lower risk stages on the left. 
 
- ![](_static/images/OneGene_subgroupvsall.png "Figure 19: Selecting subgroups")
+ ![](_static/images/OneGene_subgroupvsall.png "Figure 19: All stages (right) versus lower risk only (left)")
 
- [**Figure 19: All stages versus lower risk only**](_static/images/OneGene_subgroupvsall.png)
+ [**Figure 19: All stages (right) versus lower risk only (left)**](_static/images/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
+![](_static/images/R2d2_logo.png)**Did you know that you can change the order of the groups?**      
+
+ ![](_static/images/OneGene_AdaptOrder.png)                  
+
+> *In the Adapt Settings box the dropdown menu of the setting 'Order Groups By' allows
+> you to change the order in which the groups are presented in the graph. 
+> The default ordering is the alphabetical ordering of the track name, but 
+> you can choose ordering by the median or the average values of the groups as well.*  
 
 Step 9: Find best track separation with CliniSnitch
 ---------------
 
-  1. We could wonder if our gene of interest associates even more with any annotation that is already available for the current dataset (like e.g. age group) than the example in the previous section. For such an analysis R2 has the CliniSnitch function. Within this functionality a brute force T-test is performed on every possible combination of subgroups within every annotation track. We can run a CliniSnitch analysis directly from the one-gene-view page by clicking on the Gene name under CliniSnitch in the left panel. Click on the ‘MYCN’ gene. 
+ 1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
+  the current dataset (like e.g. age group) than the example in the previous section. 
+  For such an analysis R2 has the CliniSnitch function. 
+  Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
+  and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue;
+  categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
+  a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
+  We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
+  'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. 
 
+    ![](_static/images/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
 
-![](_static/images/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
+    [**Figure 20: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
 
-[**Figure 20: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
-
-  2. For every track, the most significant test will be highlighted. Every test can also be visualized by clicking on the combination label. Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. If we look at the ‘inss’ track, we can also see that nearly every test containing ‘st4’ has a significant value. Click on ‘st2 vs st4’ to inspect this further.
-  3. We are now back in the 'one gene view', but our dataset has been restricted to only those patients that belong to either st2 or st4.
-
+2. Every test can also be visualized by clicking on the View-link in the table. 
+Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. 
+If we look at the ‘inss’ track, we can also see a significant value. 
+Click on ‘View’ behind inss to inspect this further.
 
 Step 10: Finding sample extremes.
 ---------------
 
 In case you wonder whether any unusual expression levels show up for individual samples from a given dataset, you can you use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question: can we find extreme expression values for this sample?
 
-
-
 1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
 
-![](_static/images/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
+    ![](_static/images/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
 
-[**Figure 21: Select your sample to find extremes**](_static/images/OneGene_selectsampleextreme.png)
+    [**Figure 21: Select your sample to find extremes**](_static/images/OneGene_selectsampleextreme.png)
 
 
 
 2. A table shows the negative z-score (left column) and positive z-score (right column) extremes.  In figure 22 genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.  
 You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the One Gene View of that gene, with your sample marked in the graph. 
 
-![](_static/images/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
+    ![](_static/images/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
 
-[**Figure 22: Sample extremes in one sample**](_static/images/OneGene_sampleextremePhox2b.png)
+    [**Figure 22: Sample extremes in one sample**](_static/images/OneGene_sampleextremePhox2b.png)
 
 
 

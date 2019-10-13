@@ -78,10 +78,10 @@ Step 2: Advanced selection of datasets
 	
 	[**Figure 4: Advanced selection panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
 	
-3.  Click on the tekst 'neuroblastoma' in the third column of the dataset containing 88
+3.  Click on the text 'neuroblastoma' in the third column of the dataset containing 88
     samples. A detailed info box is displayed below the table that contains additional dataset
     information from the R2 database. When the dataset is publicly
-    available, clicking on the GEO ID link redirects to the GEO
+    available, clicking on the resource link, such as the GEO ID or the TCGA ID, redirects to the GEO
     repository database where RAW data files are available. A Pubmed
     link is listed in case the dataset is linked to a publication listed
     in PubMed.
@@ -124,7 +124,7 @@ dataset is linked to a publication listed in PubMed.*
 Step 3: Using Dataset favorites
 ---------------
 
-Since R2 is hosting hundreds of datasets it could be handy to store the datasets you use often in a preselection that is easily accessible. Clicking on the starred+ symbol will add the dataset you currently selected to a subset of favorite datasets.
+Since R2 is hosting hundreds of datasets, it could be handy to store the datasets you use often in a preselection that is easily accessible. Clicking on the starred+ symbol will add the dataset you currently selected to a subset of favorite datasets.
 
 ![](_static/images/UsingDatasets_favorites.png "Figure 7: Adding datasets to favorites")
 	
@@ -141,8 +141,12 @@ You can remove datasets from your favourites list by simply clicking on the remo
 Step 4: Data Scopes
 ---------------
 
-1.  R2 can also be forced to only display a sub selection of all the datasets that are available. These are called data scopes and can be selected from within R2 by the left hand menu items 'Change Data Scope'. From here you can use one of the preset scopes. This is also the place where you can remove a scope that has been set. One obvious reason why scopes can be handy, is the focussed view on the available data: to restrict data to a particular subject or as a landing page for a specific publication/ subject.  
-
+1.  R2 can also be forced to only display a sub-selection of all the datasets that are available (e.g. only neuroblastoma datasets). These are called data scopes and can be selected from within R2 by the left hand menu items 'Change Data Scope'. 
+    From here you can use one of the preset scopes. 
+    This is also the place where you can remove a scope that has been set. 
+    One obvious reason why scopes can be handy, is the focussed view on the available data: 
+    to restrict data to a particular subject or as a landing page for a specific publication/ subject.
+    Datascopes as dedicated landing pages can also be configured to expose additional functionalities and quick jumps to sections in the platform.  
 2. Data scopes can be used directly from the internet address line, which can be handy when a referral needs to be made to R2 from a manuscript. For now, you do need to provide a link directly to the server (usually hgserver1.amc.nl/cgi-bin/r2/main.cgi?&dscope=NRBL).  
 
 Further details on the use of Datascopes can be found in the tutorial Datascopes.   
