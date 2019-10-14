@@ -68,15 +68,15 @@ Step 2: Verifying settings
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
     
-	![](_static/images/FindGenes_OptionPage.png "Figure 2: Options page for correlation    calculation")
+	![](_static/images/FindGenes_OptionPagea.png "Figure 2: Options page for correlation    calculation")
 	
-	[**Figure 2: Options page for correlation calculation**](_static/images/FindGenes_OptionPage.png)
+	[**Figure 2: Options page for correlation calculation**](_static/images/FindGenes_OptionPagea.png)
 	
 2.  Scroll down the screen and click 'Next'
 
 ------------------
   ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
-  
+
 >  *Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.*
 
 ------------------
@@ -178,16 +178,16 @@ Step 4: Inspecting correlation between specific genes
 	![](_static/images/DiffentialExpress_Colorbygeneprobeset.png "Figure 8: Select Color by gene")
 	
 	[**Figure 8: Select Color by gene**](_static/imagesDiffentialExpress_Colorbygeneprobeset.png)
-	
+
 5. Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 		coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings".
 In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently colored by the MYCN expression levels of course you can also enter a third gene for coloring the dots.
-		
+
 	![](_static/images/Findgenes_XYplotGeneColor.png "Figure 9: Colored by expression")
 	
 	[**Figure 9: Select Color by gene**](_static/images/Findgenes_XYplotGeneColor.png)
-	
+
 6. Another option to visualize the relation for the correlation of expressions in XY plot is to switch on the linear fit option. In the "More settings section". Turn on "linear fit".
-			
+
 	![](_static/images/FindGenes_linearFitAdjust.png "Figure 9: Colored by expression")
 	
 	[**Figure 10: Linear fit**](_static/images/FindGenes_linearFitAdjust.png)
@@ -195,7 +195,7 @@ In this example the reporters of the MYCN vs MAEF6 are plotted and subsquently c
 	![](_static/images/FindGenes_linearFitFigOnegroup.png "Figure 9: Linear fit")
 	
 	[**Figure 11: Linear fit**](_static/images/FindGenes_linearFitFigOnegroup.png)
-	
+
 7. Sometimes it could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second cluster seems to have an inverse correlation. An example which is not directly listed in previous list of correlating genes is for example the relation between MYCN and GATA2. In the right upper corner enter MYCN and the GATA2 gene and click 'Change Genes'.  Further change the color mode in color by track , select the MYCN track in the graphics section and turn on the linear fit option at 'More settings' as indicated below, click redraw.
 
 	![](_static/images/FindGenes_linearFittwogroupsadapt.png "Figure 12: Colored by expression")
@@ -235,7 +235,7 @@ arm of) a chromosome is calculated. You can also explore the results in the inte
 
 
 
-  -------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
   ![](_static/images/R2d2_logo.png)**Did you know that over-representation is explained here?**
 >*Over-representation quantifies the notion that a subset of genes from a larger set can harbor more genes that have a certain characteristic than you would expect by chance. On the p-arm of chromosome 1 for example, there are 1157 genes located of the grand total of 21300 known genes. From our set of 2229 genes (only slightly more than 10% of the total number) some 210 are present on this arm. This is 18.2% ,an enrichment above what you would expect by chance. This can be quantified using a 2X2 contingency table with a chi-squared test that produces a p-value to establish whether this difference is significant*
 
@@ -320,6 +320,7 @@ Step 7: Gene list in pathway context
 	[**Figure 19: Mapping of the overrepresented genes (darker green) in the MYCN
 	correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information.**](_static/images/FindGenes_Pathway.png)
 	
+
 MCM-genes seem to play a role. Go back to list (Figure 3) to show their
 individual relation with MYCN.
 
