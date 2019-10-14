@@ -67,9 +67,9 @@ Now that these concepts have been explained we're going to see how the ChIP-seq 
 
 1. For this example check if the correct dataset has been selected in this case "Tumor Neuroblastoma public- Versteeg -88".  Note that you have to select the correct dataset set before starting with the Chip-seq analyses. To enter the ChIP-seq analysis module in R2 select *ChIP data* in Box 3 (Fig 4) and click "Next".
 	
-	![](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
+	![](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3b.png)
 	
-	[**Figure 4: Choose the ChIP-seq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3a.png)
+	[**Figure 4: Choose the ChIP-seq module**](_static/images/IntAnalysis_ChIPSeq_ChooseInMenu3b.png)
 	
 2. See figure 5. Several analysis paths start from here. First we're going to explore the genomic environment of some genes in context of ChIP-seq data. In the ChIP-seq menu choose the *ChIP-chip Genome Browser* **(+GEX)**
 	
