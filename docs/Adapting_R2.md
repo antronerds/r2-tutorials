@@ -392,7 +392,7 @@ Step 5: Upload your own tracks
     only datasets which have a corresponding personalized track are
     represented in the pulldown menu. Click the
     "Copy/delete/rename/export Tracks" button. Here select the personal
-    track , "export" operation and r2\_track at "export as" . Click
+    track , "export" operation and r2\_track at "export as". Click
     execute" and download link with the track name can be loaded by
     clicking the right mouse button.
 
