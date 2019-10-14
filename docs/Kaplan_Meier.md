@@ -77,7 +77,7 @@ and a mycn amplification, in this cohort.
 >*If you want to further narrow down your selection with a different track, click on the same pulldown menu. Select the next track that you are interested in and in the popdown, check the preferred subset(s) from that track. Don't forget to click on "Redraw Graph" after you made your final selection to redraw the Kaplan Meijer curve.*  
 >
 >*Nb. If you use the 'back' button in your webbroswer, then this selection will be lost and needs to be defined again.*                          
-                                                                  
+
 ----------
 
 
@@ -99,9 +99,9 @@ survival analysis. The best possible Kaplan Meier curve is based on
 the logrank test. However, R2 does also allow you to use median, 
 average and more as a cutoff in assessing whether a gene of interest 
 has the potential to separate patient survival.Of course, such 
-analysis id only possible for datasets where survival data 
+analysis is only possible for datasets where survival data 
 is present.  
-  
+
 
 
 1.  Select from the main screen either the left menu or in field 3,
@@ -196,11 +196,11 @@ one-gene-view screen.
 [**Figure 10: Select binary heatmap.**](_static/imagesWorkingwithkaplan_heatmapadjust.png)
 
  Now the heatmap shows a clustering based on the GOOD vs BAD prognoses.
- 
+
  ![](_static/images/Workingwithkaplan_heatmapbadgood.png "Figure 11: Binary heatmap")
 
 [**Figure 11 : Binary heatmap.**](_static/Workingwithkaplan_heatmapbadgood.png)
- 
+
 
 
 
@@ -246,7 +246,7 @@ Step 4: Kaplan scan on your own cohort
 -----------------------
   ![](_static/images/R2d2_logo.png)**Did you know that the survival data used in your scan produces a unique signature?**
 >*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain identical).*
-  
+
 -----------------------
 
 
