@@ -44,7 +44,7 @@ Step 1: Viewing multiple genes
 	[**Figure    1: Default multiple genes view.**](_static/images/MultipleGenesView_Default.png)
 	
 4.  Under the graph many settings can be adjusted in the Adjustable settings box. For instance,
-you can choose a different type of graph. Next to the option to influence the space between the ganes, the height of the plot etc, you can add one or more extra spaces between genes of choice by adding one or more extra delimiters. 
+you can choose a different type of graph. Next to the option to influence the space between the genes, the height of the plot etc, you can add one or more extra spaces between genes of choice by adding one or more extra delimiters. 
 In the GENE/reporter textbox add 2 extra comma's behind dkk2 (AXIN2,BOC,dkk2,,,GABRA5,PTCH1,SMARCD3,WIF1); 
 in the field 'Plot type' select "Average with stderr", set 'Transform' to  and click next. This enables the creation of visual subgroups in the gene representation. 
     ![](_static/images/MultipleGenesView_ExtraSpacer.png "Figure    2: Add a spacer between genes")

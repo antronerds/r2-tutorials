@@ -217,7 +217,7 @@ Step 2: Finding regulated genes in a time series experiment
 -------------
   ![](_static/images/R2d2_logo.png)***Did you know that Venn diagrams can be created directly from your genecategories of choice?**
   
->*In the My Settings section you can upload text files containing your lists of genes and store them as genecaterory. Repeating the procedure described above will produce the desired Venn diagrams.*
+>*In the 'User Options' menu section you can upload text files containing your lists of genes and store them as gene caterory. Repeating the procedure described above will produce the desired Venn diagrams.*
   
 --------------
 
@@ -281,7 +281,11 @@ Step 3: Using the regulated genes in further analyses
 --------------
   ![](_static/images/R2d2_logo.png)**Did you know that clicking a spot in the heatmap reveals more info**
 
->*Clicking on a spot generates a one-gene-view for the chosen gene in the dataset only supported for a genecollection consisting < \~400 genes.*
+>*Clicking on a heatmap rectangle generates a one-gene-view for the chosen gene in the dataset. Hovering over 
+the heatmap rectangles reveals the sample information stored in the
+R2 database. Keep in mind that the hovering option is limited to
+10000 cells, otherwise the graph generation consumes too much time.
+This limitation can be adapted in the 'User Options' menu item.*
 
 ------------------
 

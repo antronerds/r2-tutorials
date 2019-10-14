@@ -19,7 +19,7 @@ A clustering method that is gaining more and more popularity in biomedical resea
 
 Most researchers are already familiar with another dimensionality reduction algorithm, Principle Components Analysis (PCA) also available in R2 and explained in more detail in the Principle Components Analysis tutorial. Both PCA and t-SNE reduce the dimension while maintaining the structure of high dimensional data, however, PCA can only capture linear structures. t-SNE on the other hand  captures both linear and non-linear relations and preserves local distances in high dimensions while reducing the information to 2 dimensions (an XY plot).
 
-An important parameter within t-SNE is the variable known as *perplexity*. This tunable parameter is in a sense an estimation of how many neighbors each point has. The robustness of the visible clusters identified by the t-SNE algorithm can be validated by studying the clusters in a range of perplexities. Recommended values for perplexity range between 5-50. Once you have selected a dataset and applied the t-SNE algorithm, R2 will calculate all t-SNE clusters for 5 to 50 perplexities,  in case of smaller dataset the number of perplexities will be less. Which perplexity is the best depends on the structure of the dataset, and is also a matter of what you would like to display (how the samples are placed). Before you start analyzing and interpreting the results, it is highly recommended to read about the power and pitfalls of t-SNE in [this blog-post](http://distill.pub/2016/misread-tsne/). Two important recommendations in this blog are that both *size of*, and *distance between* clusters do not have a well defined meaning. The fact that there *are* clusters has meaning.
+An important parameter within t-SNE is the variable known as *perplexity*. This tunable parameter is in a sense an estimation of how many neighbors each point has. The robustness of the visible clusters identified by the t-SNE algorithm can be validated by studying the clusters in a range of perplexities. Recommended values for perplexity range between 5-50. Once you have selected a dataset and applied the t-SNE algorithm, R2 will calculate all t-SNE clusters for 5 to 50 perplexities.  In case of smaller dataset the number of perplexities will be less, in case of datasets with more than 1000 samples, only perplexity 50 is calculated. Which perplexity is the best depends on the structure of the dataset, and is also a matter of what you would like to display (how the samples are placed). Before you start analyzing and interpreting the results, it is highly recommended to read about the power and pitfalls of t-SNE in [this blog-post](http://distill.pub/2016/misread-tsne/). Two important recommendations in this blog are that both *size of*, and *distance between* clusters do not have a well defined meaning. The fact that there *are* clusters has meaning.
 
 Since running the t-SNE algorithm is a time consuming task and can take up to hours of processing time for large datasets, R2 stores the results for every dataset where the t-SNE has been completed. All users of R2 can explore generated t-SNE maps by coloring for tracks or expression values of a particular gene. Furthermore, the perplexity sweeps can be visualized. These options can be accessed via the left menu structure in R2. Users with collaborator, or higher access level are also able to initiate the generation of maps for datasets or subsets within a dataset. These additional options will be available via ‘box 3’ on the main page of R2.
 
@@ -55,7 +55,12 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the ‘colormode’ to ‘color by expression’.
 
-1. In the 'adjustable settings box'  select 'Color by Gene' under Color mode and subsequently type 'CLDN3' under Gene for color. The  corresponding reporter will automatically pop-up (Figure 3 ). The gene selection box autocompletes selection the proper reporter probeset, but this can take a little bit of time before the gene selection box appears. 
+1. In the 'adjustable settings box'  select 'Color by Gene' under Color mode 
+    and subsequently type 'CLDN3' under Gene for color. 
+    The  corresponding reporter will automatically pop-up (Figure 3 ). 
+    The gene selection box autocompletes selection the proper reporter 
+    probeset, but this can take a little bit of time before the gene selection
+     box appears. Click on the selection to confirm the usage of that gene. 
 
   ![](_static/images/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
@@ -106,7 +111,7 @@ Let's take a look at some other nice example of a R2 generated t-SNE maps: the l
 
   [**Figure 7: t-SNE: Menu**](_static/images/Tnse_shortcutPlot.png)
 
-Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >600 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
+Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >6000 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
 
 2. In our case we just click next
 
@@ -124,9 +129,9 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
 
 1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
 
-![](_static/images/Tsne_lassoselection.png "Figure 9: Colored by track")
+    ![](_static/images/Tsne_lassoselection.png "Figure 9: Colored by track")
 
-[**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
+    [**Figure 9: t-SNE: Colored by track**](_static/images/Tsne_lassoselection.png)
 
 2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsequently with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
 
@@ -137,7 +142,7 @@ Suppose the t-SNE algorithm produced some interesting clusters that you want to 
   [**Figure 10: t-SNE: Using the lasso selection**](_static/images/Tsne_subgroups.png)
 
 
-For now the lasso selection tool is only available for t-SNE maps module; implementation for usage with other modules such as PCA clustering will be released soon.
+The lasso selection tool is also available for the PCA module;
 
 Step 6: Creating groups with the t-SNE DBSCAN tool
 ----------------------------
@@ -160,11 +165,11 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
 3.  In this example the DB scan tool identifies two clusters which were also quite clear by just observing the t-SNE map. However, adapting the parameters Epsilon and Min pst described above can also aid you to identify less clear subgroups. Play around with these two slides till you find a satisfactory grouping of the samples on the t-SNE map. Don't forget to click on the button 'Refresh cluster graph' after you have changed the values. On the right side an overview is provided that shows the amount of samples in each group. 
 
- ![](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
+    ![](_static/images/Tsne_dbscan_param.png "Figure 11: Using the DBSCAN selection tool")
 
-  [**Figure 12: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_param.png)
+    [**Figure 12: t-SNE: Using the DBSCAN selection**](_static/images/Tsne_dbscan_param.png)
  
-4. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. The created tracks are stored and can be used as group parameters for further usage. Just as the lasso tool, the DB-scan tool is only available for t-SNE maps but will be implemented in other R2 modules.
+4. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. The created tracks are stored and can be used as group parameters for further usage. Just as the lasso tool, the DB-scan tool is available for both t-SNE maps and PCA plots.
 
 Final remarks
 ----------------------------

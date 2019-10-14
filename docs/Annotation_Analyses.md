@@ -87,7 +87,8 @@ Step 1: Relating 2 (categorical) tracks
 	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
 5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked
- Barplot" or "Stackes Barplot ratio" respectively. The "Stacked Barplot ratio" shows the percentage share of 
+   Barplot" or "Stacked Barplot ratio" respectively. The "Stacked Barplot ratio" option scales every group to 100%, and thereby shows the relative contribution of the different groups.
+  
     ![](_static/images/AnnotationAnalyses_StackedBarplot.png "Figure 4: Absolute (left) and relative (right) stacked barplots")
 	
     [**Figure 4: Absolute (left) and relative (right) stacked barplots**](_static/images/AnnotationAnalyses_StackedBarplot.png)
@@ -185,10 +186,11 @@ Step 4: Annotation plotter and Cohort Overview
 	
 	[**Figure 7: Plotting the annotationtracks**](_static/images/AnnotationAnalyse_plotting.png)
 	
-5.  Another often useful overview is provided with the Cohort Overview. Click on 'Go to Main' in the upperleft corner,
+5.  Another often useful overview is provided by the Cohort Overview. Click on 'Go to Main' in the upperleft corner,
 and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click Next.  
-Here pie charts show the shares of the different values of a track. You can select visualize tracks with the dropdown menus, 
-hover over the different pie slices, and create a table overview with the values of different tracks of choice for each sample.
+Here, pie charts show the shares of the different values of a track. You can visualize tracks with the dropdown menus, 
+hover over the different pie slices, and create a table overview with the values of different tracks of choice for each sample.  
+The 'Build a track' button at the bottom of the page conveniently allows you to directly build a track from any selection of available tracks. 
 
 	![](_static/images/AnnotationAnalyses_CohortOverview.png "Figure 8: Cohort Overview")
 	

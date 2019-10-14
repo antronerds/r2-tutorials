@@ -78,12 +78,11 @@ Step 1: Selecting data and modules; creating a Heatmap
     the heatmap rectangles reveals the sample information stored in the
     R2 database. Keep in mind that the hovering option is limited to
     10000 cells otherwise the graph generation consumes too much time.
-    This limitation can be adapted in the \`my settings\`.
+    This limitation can be adapted in the 'User Options' menu item.
 
-
-![](_static/images/UsingGenesets_Heatmap.png "Figure 6:Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
+    ![](_static/images/UsingGenesets_Heatmap.png "Figure 6:Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
 	
-[**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
+    [**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
 	
 
 
@@ -202,8 +201,9 @@ to do a simple hierarchical clustering
 2.  For this purpose R2 is hosting a convenient tool to generated lists
     of genes using a filter. By using this filter you can select groups
     of genes with the highest, lowest or most variable genes etc etc.
-3.  To use the toplister tool go to the main menu and select
-    tools>small tools > Toplister. Make sure Data Type is set to
+3.  To use the Toplister tool, either select 'Toplister' from the dropdwn menu 
+    in box 3 of the main page or go to the menu on the left and select
+    tools> small tools > Toplister. Make sure Data Type is set to
     Expression data and select Tumor Medulloblastoma PLoS One - Kool -
     62 - MAS5.0 - u133p2 and click next. In the adjustable settings
     screen all kinds of settings and filtering options can be adapted.

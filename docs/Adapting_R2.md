@@ -43,9 +43,9 @@ Step 1: Adapt your settings
     are set to appropriate values, but of course you want to set your
     favorite dataset here!
     
-	![](_static/images/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window; most parameters are    appropriate; you want to change your preferential    dataset however.")
+	![](_static/images/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience")
 	
-	[**Figure    2: The User Defined Settings window: change settings at your own convenience
+	[**Figure    2: The User Defined Settings window: change settings at your own convenience](_static/images/AdaptingR2_Userdefined.png)
 	
 3.  Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets'
     . These are of relevance when you've built a specific
@@ -54,9 +54,9 @@ Step 1: Adapt your settings
 4.  The 'Timeseries colors' allows you to set the colors
     for the graphs of specific experiments in a series (Figure 3). 
     
-    ![](_static/images/AdaptingR2_SettingsTime.png "Figure3: Setting time seriescolors")
+    ![](_static/images/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors")
     	
-    [**Figure3: Setting time seriescolors**](_static/images/AdaptingR2_SettingsTime.png)
+    [**Figure 3: Setting timeseries colors**](_static/images/AdaptingR2_SettingsTime.png)
 
     The other menu-items 'Upload New Dataset', 'Categories', 'Tracks' and 'Communities' will be discussed in steps 2 - 6 of this tutorial.
 
@@ -68,7 +68,7 @@ Step 2: How to add data to R2.
 
 1.  One of the most appreciated options of R2 is the possibility to add data to R2, be it your own dataset or/and publicly available data that matches your research interest. Due to several reasons,  technical as security,  it's almost impossible to automate the process of adding data for standard users. In order to  keep the database curated only R2 administrators can add data to R2.   
     In order to do so, the data first has to be processed and uploaded.  [Chapter 24](/R2_Dataset_Addition.html) describes in detail how to prepare your data such that we can process it and upload the data to R2.  
-    If you have any specific annotations or wishes or microarray samples
+    If you have any specific annotations or wishes or samples
     other than Affymetrix you'd best contact r2 support directly
     (<r2-support@amc.nl>). If you would like to see a publicly
     accessible dataset in R2, then send an email to <r2-support@amc.nl>
@@ -229,8 +229,7 @@ Step 4: Tracks in R2: create your own data annotation
 	[**Figure    17: Storing the current groups as a Track for use in later analysis. **](_static/images/AdaptingR2_DefineGroups.png)
 	
 5.  After optionally changing the parameters, you can click the Build set button to store the track. In the
-    custom tracks manager we can adapt this track again. From the My
-    Settings menu select 'Manage Custom Tracks' (Figure 18).
+    custom tracks manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 18).
     
 	![](_static/images/AdaptingR2_ManageCustomTracks.png "Figure    18: Selecting the Manage Custom    Tracks")
 	
@@ -385,10 +384,10 @@ Step 5: Upload your own tracks
     export function which enables you to manipulate your tracks manually
     outside R2. This could be of use when your want to share tracks with
     other users or create new custom tracks. One reason you want to use
-    the export function is to fix the ordering of your sample when
-    generating a heatmap (see Error: Reference source not found) . Make
-    sure you already have a personal custom track (Not a temporary
-    track, 24h ). Select Manage default Tracks from the User Options > Tracks menu
+    the export function is to fix the ordering of your samples when
+    generating a heatmap. Make
+    sure you already have a personal custom track (not a temporary
+    track, 24h). Select 'Manage default Tracks' from the User Options > Tracks menu
     (Figure 21) and click next. Here select the dataset of interest ,
     only datasets which have a corresponding personalized track are
     represented in the pulldown menu. Click the

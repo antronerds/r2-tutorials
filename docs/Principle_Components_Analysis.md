@@ -53,33 +53,30 @@ Step 2: Exploring the principle components
 2.  Click to plot the PCA result.
 3.  You now see a plot of the of the first 2 principle components. In
     the adjustable settings box, al the combinations principle
-    components can be selected. R2 enables visualization of the first
-    three principle components (PC1,2,3) in 2D or 3D graphs.
+    components can be selected. 
 4.  In the adjustable setting box select the all PCA-components option
-    to the several principle components combinations to investigate
+    to view the several principle components combinations to investigate
     whether you can distinguish subgroups in your dataset.
     
 	![](_static/images/PrincipleComponent_Adjust.png "Figure    2: Adjusting PCA    settings")
 	
 	[**Figure    2: Adjusting PCA    settings**](_static/images/PrincipleComponent_Adjust.png)
-	
     
-![](_static/images/PrincipleComponent_SelectTracks.png "'Figure    3: Selecting    tracks")
-	
-[**'Figure    3: Selecting    tracks**](_static/images/PrincipleComponent_SelectTracks.png)
-	
-    
-![](_static/images/PrincipleComponent_Combinations.png "Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.")
-	
-[**Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.**](_static/images/PrincipleComponent_Combinations.png)
-	
-In this example the samples are colored by known groups and fitted
-with the PCA result. In Figure 4 a clear subgroup, the yellow wnt
-subgroup is revealed. Hovering over the data points provides the
-principle component vector \#:values which are depicted, as well as
-additional sample information. This example illustrated that PCA is
-powerful tool aiding to find possible subgroups in your dataset
-of interest.
+    ![](_static/images/PrincipleComponent_SelectTracks.png "'Figure    3: Selecting    tracks")
+        
+    [**'Figure    3: Selecting    tracks**](_static/images/PrincipleComponent_SelectTracks.png)
+               
+    ![](_static/images/PrincipleComponent_Combinations.png "Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.")
+        
+    [**Figure    4: All 3 PCA-component combinations plotted in    2-dimensional space.**](_static/images/PrincipleComponent_Combinations.png)
+        
+    In this example the samples are colored by known groups and fitted
+    with the PCA result. In Figure 4 a clear subgroup, the yellow wnt
+    subgroup is revealed. Hovering over the data points provides the
+    principle component vector \#:values which are depicted, as well as
+    additional sample information. This example illustrated that PCA is
+    powerful tool aiding to find possible subgroups in your dataset
+    of interest. Also  note the variance reported on the axes.
     
 5).  Select in the adjustable settings box "Label by Track" under LabelMode.
     A "Track for Label" pulldown menu unfolds, here you select your track
