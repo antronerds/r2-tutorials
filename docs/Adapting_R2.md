@@ -304,7 +304,7 @@ Step 5: Upload your own tracks
     provides R2 with the proper assignment of each sample to a
     specific value. Based on these values, R2 creates the groups for you. You can create tracks with as many groups as you like. When described in a text file; for each sample a  description has to be provided.  
     
-    ![](_static/images/AdaptingR2_Trackdescribed.png "Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.")
+    ![](_static/images/AdaptingR2_Trackdescribedv1.png"Figure    24: Uploading a track described in a text file; for each sample a    description has to    be provided.")
 	
 	[**Figure 24: Uploading a track .**](_static/images/AdaptingR2_Trackdescribed.png)
 	
