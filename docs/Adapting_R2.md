@@ -403,10 +403,14 @@ Step 5: Upload your own tracks
 Step 6: Cooperate through R2: sharing tracks, creating communities
 ---------------
 
-1.  Cooperation is of great importance in scientific research. You
-    probably want to share the tracks created above with other people in
-    your group. For this reason R2 features the Communities. Creating a
-    community is done by clicking 'Community' in the 'User Options' menu
+1.  Cooperation is of great importance in scientific research. You probably want to share the tracks created above
+    with other people in your group. For this reason R2 features the Communities. Communities are different from user
+    groups, which is important to remember. User groups are granting a user access to datasets and their associated
+    annotation. On the other hand, communities are a way by which any user can share grouping variables (tracks), lists
+    of genes (gene categories), megasampler presets or genome browser views with any (group of ) other R2 user(s). A
+    user can generate multiple communities and invite other users to share such feature with.
+
+    Creating a community is done by clicking 'Community' in the 'User Options' menu
     (Figure 31).
     
 	![](_static/images/AdaptingR2_Community.png "Figure    32: Community in the User Options menu")
