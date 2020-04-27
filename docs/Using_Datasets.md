@@ -28,17 +28,37 @@ Step 1: Selecting a dataset
 1.  In R2 a large amount of datasets are available for analysis
     and visualization. The numbered items in the main window will guide
     you through all the steps necessary to perform a task. In field
-    **1** select “single dataset”, in field **2** choose "change"
+    **1** select “Single Dataset”, in field **2** choose "Change Dataset".
 	
-	![](_static/images/UsingDataset_select.png "Figure 1: In the main screen: Change dataset")
+	![](_static/images/UsingDataset_select.png "Figure 1: Change Dataset on the main page")
 	
-	[**Figure 1: In the main screen: Change dataset**](_static/images/UsingDataset_select.png)
+	[**Figure 1: Change Dataset on the main page**](_static/images/UsingDataset_select.png)
 	
-2.  A pull-down menu appears containing a large collection of datasets
-    available for all types of analyses R2 is offering
-3.  Click on the desired dataset.
+2.  A popup window appears with two different options to search the large collection of datasets that are available in R2: 
+    - the search bar on top of the page (for more information, see step 3-5) 
+    - the table below the search bar (for more information, figure 6-7).  
+ 
+    Both can be used to browse through the available collection and to search for specific datasets, as we will show in the steps below. To use a dataset for further analysis, you click on the **Select** button of the dataset.
+	
+	![](_static/images/UsingDataset_select_selectbutton.png "Figure 2: Scroll through the list of available datasets")
+	
+    [**Figure 2 A: Scroll through the list of available datasets**](_static/images/UsingDataset_select__selectbutton.png)
 
-![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
+3. The search bar on top of the window shows a drowdown-menu button that allows you to select a dataset from a list of datasets. If you don't fill in any text in the search bar, all available datasets are listed in the dropdown menu. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
+  
+    ![](_static/images/UsingDataset_select_dropdown_default_info.png "Figure 3: Scroll through the list of available datasets")
+ 	
+    [**Figure 3: Scroll through the list of available datasets**](_static/images/UsingDataset_select_dropdown_default_info.png)
+
+4.  As soon as you type in the search bar, the written text will be used to filter the datasets. The list that is presented in the dropdown menu corresponds to your entered text. The table below gets adjusted to the textual filtering as well. This way you can quickly filter for a tissue type, a disease or an author name.Below we type the letters "neurobl" to look for all Neuroblatoma datasets.
+   
+  ![](_static/images/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to textually filter the list of datasets")
+	
+  [**Figure 4: Use the search bar to textually filter the list of datasets**](_static/images/UsingDataset_select_dropdown_text.png)
+ 
+5. Click on the "Select" button to see the dataset of your choice appear on the main page in box 2 for analysis.
+
+    ![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
 
 [**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
