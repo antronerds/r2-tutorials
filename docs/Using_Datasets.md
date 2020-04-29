@@ -42,7 +42,7 @@ Step 1: Selecting a dataset
 	
 	![](_static/images/UsingDataset_select_selectbutton.png "Figure 2: Scroll through the list of available datasets")
 	
-    [**Figure 2 A: Scroll through the list of available datasets**](_static/images/UsingDataset_select__selectbutton.png)
+    [**Figure 2: Scroll through the list of available datasets**](_static/images/UsingDataset_select__selectbutton.png)
 
 3. The search bar on top of the window shows a drowdown-menu button that allows you to select a dataset from a list of datasets. If you don't fill in any text in the search bar, all available datasets are listed in the dropdown menu. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
   
@@ -50,22 +50,26 @@ Step 1: Selecting a dataset
  	
     [**Figure 3: Scroll through the list of available datasets**](_static/images/UsingDataset_select_dropdown_default_info.png)
 
-4.  As soon as you type in the search bar, the written text will be used to filter the datasets. The list that is presented in the dropdown menu corresponds to your entered text. The table below gets adjusted to the textual filtering as well. This way you can quickly filter for a tissue type, a disease or an author name.Below we type the letters "neurobl" to look for all Neuroblatoma datasets.
+4.  As soon as you type in the search bar, the written text will be used to filter the datasets. The list that is presented in the dropdown menu corresponds to your entered text. The table below gets adjusted to the textual filtering as well. This way you can quickly filter for a tissue type, a disease or an author name. Below we type the letters "neurobl" to look for all Neuroblatoma datasets.
    
-  ![](_static/images/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to textually filter the list of datasets")
+    ![](_static/images/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 	
-  [**Figure 4: Use the search bar to textually filter the list of datasets**](_static/images/UsingDataset_select_dropdown_text.png)
+    [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/UsingDataset_select_dropdown_text.png)
  
-5. Click on the "Select" button to see the dataset of your choice appear on the main page in box 2 for analysis.
+5. Click on the "Select" button to see the dataset of your choice appear on the main page in box 2 for further analysis.
 
-    ![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
 
-[**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
+  
+----------  
 
-----------
- ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**      
+  ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**      
+  
+  ![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
+  
+  [**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
 
-> *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author - number_of_samples - normalization - chiptype**. Datasets are listed alphabetically*
+  
+  *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author - number_of_samples - normalization - chiptype**.*
 
 ----------
 
@@ -74,13 +78,12 @@ Step 1: Selecting a dataset
 Step 2: Advanced selection of datasets
 ---------------
 
-1.  Next to the pull down menu you can also choose for the “advanced
-    dataset selection” tool. The advanced dataset selection facilitates
+1.  Next to scrolling through the dropdown list or typing a filter word in the search bar, you can also use the table to find a suitable dataset. The table facilitates
     searching through datasets using keywords and other filter options
     such as the minimal size of a dataset, the date a certain dataset
     was published etc. An example search would be finding all colon
     samples which are part of a mixed dataset consisting of normal
-    tissue and tumor samples.
+    tissue and tumor samples. To start we use the same button on the main page "Change Dataset" (figure 1). 
 	
 	![](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
 	
