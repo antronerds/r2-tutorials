@@ -25,52 +25,56 @@ Scope
 Step 1: Selecting a dataset
 ---------------
 
-1.  In R2 a large amount of datasets are available for analysis
-    and visualization. The numbered items in the main window will guide
-    you through all the steps necessary to perform a task. In field
-    **1** select “Single Dataset”, in field **2** choose "Change Dataset".
+1.  R2 offers a large amount of readily available datasets for analysis
+    and visualization. The numbered boxes on the main page will guide
+    you through all the steps necessary to perform a task, beginning with the selection of a dataset. In box
+    1 select **Single Dataset**, in field 2 choose **Change Dataset**.
 	
 	![](_static/images/UsingDataset_select.png "Figure 1: Change Dataset on the main page")
 	
 	[**Figure 1: Change Dataset on the main page**](_static/images/UsingDataset_select.png)
 	
-2.  A popup window appears with two different options to search the large collection of datasets that are available in R2: 
-    - the search bar on top of the page (for more information, see step 3-5) 
-    - the table below the search bar (for more information, figure 6-7).  
- 
-    Both can be used to browse through the available collection and to search for specific datasets, as we will show in the steps below. To use a dataset for further analysis, you click on the **Select** button of the dataset.
+2.  A popup window appears that shows all the available datasets in a grid: each row represents one dataset, its main descriptive details split up in the columns. To use a dataset for further analysis, you click on the **Select** button in the first column.   
+   If you prefer to first read extra information about the dataset of your interest, click on any other part of the specific row (dashed area).
 	
-	![](_static/images/UsingDataset_select_selectbutton.png "Figure 2: Scroll through the list of available datasets")
+	![](_static/images/UsingDataset_select_selectbutton.png "Figure 2A: Select a dataset or read more in-depth information")
 	
-    [**Figure 2: Scroll through the list of available datasets**](_static/images/UsingDataset_select__selectbutton.png)
+    [**Figure 2A: Select a dataset with the select button or read more in-depth information (click in the dashed area)**](_static/images/UsingDataset_select_selectbutton.png)  
+    
+     Once you click on any of the information cells of the dataset row (dashed area), an information box below the grid shows extra information and links to the original data sand Pubmed resources if available. 
+    
+    ![](_static/images/UsingDataset_click_information.png "Figure 2B: Read in-depth information about a dataset")
+    	
+     [**Figure 2B:  Read in-depth information about a dataset**](_static/images/UsingDataset_click_information.png) 
 
-3. The search bar on top of the window shows a drowdown-menu button that allows you to select a dataset from a list of datasets. If you don't fill in any text in the search bar, all available datasets are listed in the dropdown menu. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
-  
-    ![](_static/images/UsingDataset_select_dropdown_default_info.png "Figure 3: Scroll through the list of available datasets")
- 	
-    [**Figure 3: Scroll through the list of available datasets**](_static/images/UsingDataset_select_dropdown_default_info.png)
-
-4.  As soon as you type in the search bar, the written text will be used to filter the datasets. The list that is presented in the dropdown menu corresponds to your entered text. The table below gets adjusted to the textual filtering as well. This way you can quickly filter for a tissue type, a disease or an author name. Below we type the letters "neurobl" to look for all Neuroblatoma datasets.
+3. A search bar is located on top of the page. It allows you to search for a dataset by (part of) a keyword, such as a tissue type, a disease or an author name.   
+       When you start typing in the search bar, a list appears with datasets that correspond to your keyword. Also, the grid is adjusted to only show the datasets that fulfil your search requirement. 
    
     ![](_static/images/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 	
-    [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/UsingDataset_select_dropdown_text.png)
- 
-5. Click on the "Select" button to see the dataset of your choice appear on the main page in box 2 for further analysis.
+    [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/UsingDataset_select_dropdown_text.png)  
+    
+   You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
+    This way you can quickly filter for a tissue type, a disease or an author name. In the picture above we type the letters "neurobl" to look for all Neuroblatoma datasets. 
+     
+4. You can use the buttons in the bottom right corner to scroll through the pages of the grid, to jump ahead to a specific page and to adapt the amount of dataset rows that are shown per page. 
+
+    ![](_static/images/UsingDataset_scroll_through_grid.png "Figure 5: Adapt or scroll through the grid")
+	
+    [**Figure 5: Adapt or scroll through the grid**](_static/images/UsingDataset_scroll_through_grid.png) 
+    
+5. Click on the "Select" button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
 
 
   
 ----------  
 
-  ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**      
+  ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**   Datasets have a structured naming in R2, using the following rules: type_of_dataset - author - number_of_samples - normalization - chiptype. The dataset selection grid consists of these informative parts as columns, each with filter options to perform an advanced search through the dataset.
   
-  ![](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png "Figure 2: Selecting datasets from the pull down menu on the main screen")
-  
-  [**Figure 2: Selecting datasets from the pull down menu on the main screen**](_static/images/UsingDatasets_SelectSpecificDatasetFromPullDownInR2.png)
-
-  
-  *Datasets have a structured naming in R2, using the following rules: **type_of_dataset - author - number_of_samples - normalization - chiptype**.*
-
+  ![](_static/images/UsingDataset_understanding_dataset_names.png "The information parts of a dataset name")
+	
+  [**Figure 5: The informative parts of a dataset name**](_static/images/UsingDataset_understanding_dataset_names.png) 
+ 
 ----------
 
 
@@ -78,70 +82,33 @@ Step 1: Selecting a dataset
 Step 2: Advanced selection of datasets
 ---------------
 
-1.  Next to scrolling through the dropdown list or typing a filter word in the search bar, you can also use the table to find a suitable dataset. The table facilitates
-    searching through datasets using keywords and other filter options
-    such as the minimal size of a dataset, the date a certain dataset
-    was published etc. An example search would be finding all colon
-    samples which are part of a mixed dataset consisting of normal
-    tissue and tumor samples. To start we use the same button on the main page "Change Dataset" (figure 1). 
+1.  The grid itself enables the user to search through datasets using keywords and other filter options as well. The column dropdown functions and textboxes can filter the datasets for specific characteristics, e.g. datasets with a minimal amount of samples, or a specific author, platform or publication date. You can easily combine the search functions of the different columns.  
+  
+     As an example, we want to see which large neuroblastoma sets are available. First we write part of the word neuroblastoma in the search box of the Tissue/Tumor column. Then we use the pull down of the N (sample number) column to order the datasets in descending order. 
 	
-	![](_static/images/UsingDatasets_AdvancedSelectionLink.png "Figure 3: Advanced selection of datasets")
+	![](_static/images/UsingDataset_combine_grid_filters.png "Figure 6: Combine search filters in the grid")
 	
-	[**Figure 3: Advanced selection of datasets**](_static/images/UsingDatasets_AdvancedSelectionLink.png)
+	[**Figure 6: Combine search filters in the grid**](_static/images/UsingDataset_combine_grid_filters.png)
 	
-2.  Click on the “Advanced” link. A new screen shows a table where the
-    headers can be filled with search entries to fine tune your search
-    for a dataset meeting your search criteria. Enter ‘Neuro’ in the
-    Tissue/Tumor column and’ 50’ in the ‘\#’ column and select ‘ greater than’
-    from the pull down menu. This returns all the datasets containing
-    the search term ‘Neuro’ and having more than 50 samples. To have a quick glance at all available datasets, 
-    change the value for 'Show rows' to the maximum. 
-	
-	![](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png "Figure 4: Advanced selection panel")
-	
-	[**Figure 4: Advanced selection panel**](_static/images/UsingDatasets_AdvancedSelectionPanelInR2.png)
-	
-3.  Click on the text 'neuroblastoma' in the third column of the dataset containing 88
-    samples. A detailed info box is displayed below the table that contains additional dataset
-    information from the R2 database. When the dataset is publicly
-    available, clicking on the resource link, such as the GEO ID or the TCGA ID, redirects to the GEO
-    repository database where RAW data files are available. A Pubmed
-    link is listed in case the dataset is linked to a publication listed
-    in PubMed.
-    Note: Clicking on an exclamation mark also shows detailed
-    dataset information.  
-    
-4.  Click on 'select' in the first column to select the specific dataset for analysis and to return to the main page of R2.
-	
-	![](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png "Figure 5: Additional Dataset Info")
-	
-	[**Figure 5: Additional Dataset Info**](_static/images/UsingDatasets_AdditinalDatasetInfoInR2.png)
+2.  Again we use the **Select** button if we want to continue our analysis with a specific dataset of the grid. 
 	
 5.  Select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
     dataset” option.
-    
-    	
+   
 	![](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png "Figure 6: Selecting across datasets")
 	
 	[**Figure 6: Selecting across datasets**](_static/images/UsingDatasets_SelectAcrossDatasetsInR2.png)
 	
-
-	Analysis methods following selecting the “Across Datasets” option in
-field **1** will be discussed in tutorial “Working with multiple
-datasets”.
-
--------------
+	Analysis methods following selecting the “Across Datasets” option in field **1** will be discussed in tutorial “Working with multiple datasets”.  
+  
+  
+-------------  
  ![](_static/images/R2d2_logo.png)**Did you know that clicking on an exclamation balloon provides additional info?**      
 
-> *Clicking on the GEO ID link redirects to the GEO repository database  
-where RAW data files are available. A Pubmed link is listed in case the
-dataset is linked to a publication listed in PubMed.*
-
-![](_static/images/UsingDatasets_LinksToRawDataInR2.png)
+![](_static/images/UsingDatasets_information balloon.png)
 
 -------------
-
 
 
 Step 3: Using Dataset favorites
