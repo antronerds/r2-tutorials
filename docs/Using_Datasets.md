@@ -27,8 +27,7 @@ Step 1: Selecting a dataset
 
 1.  R2 offers a large amount of readily available datasets for analysis
     and visualization. The numbered boxes on the main page will guide
-    you through all the steps necessary to perform a task, beginning with the selection of a dataset. In box
-    1 select **Single Dataset**, in field 2 choose **Change Dataset**.
+    you through all the steps necessary to perform a task, beginning with the selection of a dataset. In box 1 select **Single Dataset**, in field 2 choose **Change Dataset**.
 	
 	![](_static/images/UsingDataset_select.png "Figure 1: Change Dataset on the main page")
 	
@@ -41,14 +40,14 @@ Step 1: Selecting a dataset
 	
     [**Figure 2A: Select a dataset with the select button or read more in-depth information (click in the dashed area)**](_static/images/UsingDataset_select_selectbutton.png)  
     
-     Once you click on any of the information cells of the dataset row (dashed area), an information box below the grid shows extra information and links to the original data sand Pubmed resources if available. 
+     When you click on any of the information cells of the dataset row (dashed area), an information panel below the grid shows background information about the data. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments box of the information panel. At the bottom you will see links to the original data source and Pubmed resources, if available. 
     
     ![](_static/images/UsingDataset_click_information.png "Figure 2B: Read in-depth information about a dataset")
     	
      [**Figure 2B:  Read in-depth information about a dataset**](_static/images/UsingDataset_click_information.png) 
 
 3. A search bar is located on top of the page. It allows you to search for a dataset by (part of) a keyword, such as a tissue type, a disease or an author name.   
-       When you start typing in the search bar, a list appears with datasets that correspond to your keyword. Also, the grid is adjusted to only show the datasets that fulfil your search requirement. 
+       When you start typing in the search bar, a list appears with datasets that correspond to your keyword. Also, the grid is adjusted to only show the datasets that fulfill your search requirement. 
    
     ![](_static/images/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 	
@@ -73,7 +72,7 @@ Step 1: Selecting a dataset
   
   ![](_static/images/UsingDataset_understanding_dataset_names.png "The information parts of a dataset name")
 	
-  [**Figure 5: The informative parts of a dataset name**](_static/images/UsingDataset_understanding_dataset_names.png) 
+  [**Figure 5: The informative parts of a dataset name correspond to the columns of the dataset selection grid.**](_static/images/UsingDataset_understanding_dataset_names.png) 
  
 ----------
 
