@@ -120,7 +120,7 @@ Since R2 is hosting hundreds of datasets, it could be handy to store the dataset
 [**Figure 7: Adding datasets to favorites**](_static/images/UsingDatasets_favorites.png)
 
 	
-You can remove datasets from your favourites list by simply clicking on the remove symbol behind a favourite dataset. Clicking the "select from favorites" link gives a pop-up where you can select a dataset from your list of favorites.
+You can remove datasets from your favourites list by simply clicking on the remove symbol behind a favourite dataset. Also using the 'Advanced dataset selection' route, you can manage the datasets 'favourite' status by using the selection boxes in the last column. Favourite datasets will be represented at the top of your selection table and will be marked with a green background color. 
 
 ![](_static/images/UsingDataset_selectfav.png "Figure 8: Delete and select from favorites")
 	
@@ -132,10 +132,10 @@ Step 4: Data Scopes
 
 1.  R2 can also be forced to only display a sub-selection of all the datasets that are available (e.g. only neuroblastoma datasets). These are called data scopes and can be selected from within R2 by the left hand menu items 'Change Data Scope'. 
     From here you can use one of the preset scopes. 
-    This is also the place where you can remove a scope that has been set. 
+    This is also the section where you can remove a scope that has been set. 
     One obvious reason why scopes can be handy, is the focussed view on the available data: 
     to restrict data to a particular subject or as a landing page for a specific publication/ subject.
-    Datascopes as dedicated landing pages can also be configured to expose additional functionalities and quick jumps to sections in the platform.  
+    Datascopes as dedicated landing pages can also be configured to expose additional functionalities and quick jumps to sections in the platform. Just have a look at which ones are accessible given your access rights.  
 2. Data scopes can be used directly from the internet address line, which can be handy when a referral needs to be made to R2 from a manuscript. For now, you do need to provide a link directly to the server (usually hgserver1.amc.nl/cgi-bin/r2/main.cgi?&dscope=NRBL).  
 
 Further details on the use of Datascopes can be found in the tutorial Datascopes.   
