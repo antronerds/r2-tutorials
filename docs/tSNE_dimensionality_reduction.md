@@ -1,10 +1,10 @@
 <a id="tSNE_dimensionality_reduction"></a>
 
-t-SNE: high dimensionality reduction in R2
+t-SNE / UMAP: high dimensionality reduction in R2
 ========================================
 
 
-*How to find groups in your dataset using t-SNE.*
+*How to find groups in your dataset using t-SNE or UMAP dimensionality reduction algorithms.*
 
 
 Scope
@@ -15,7 +15,7 @@ Scope
 -  t-SNE maps will be annotated with tracks and gene expression.
 
 
-A clustering method that is gaining more and more popularity in biomedical research, the so called t-SNE algorithm.  t-SNE stands for t-Distributed Stochastic Neighbor Embedding and is a machine learning dimensionality reduction algorithm that is well suited for the reduction of high dimensional datasets to just 2 or 3 dimensions. 
+A clustering method that is popular in biomedical research, the so called t-SNE algorithm.  t-SNE stands for t-Distributed Stochastic Neighbor Embedding and is a machine learning dimensionality reduction algorithm that is well suited for the reduction of high dimensional datasets to just 2 or 3 dimensions. Another algorithm with similar properties that is gaining more and more popularity is UMAP (Uniform Manifold Approximation and Projection). In the current section, we primarily focus on the tSNE method, but in the R2 platform you will also encounted maps that have been created by UMAP.
 
 Most researchers are already familiar with another dimensionality reduction algorithm, Principle Components Analysis (PCA) also available in R2 and explained in more detail in the Principle Components Analysis tutorial. Both PCA and t-SNE reduce the dimension while maintaining the structure of high dimensional data, however, PCA can only capture linear structures. t-SNE on the other hand  captures both linear and non-linear relations and preserves local distances in high dimensions while reducing the information to 2 dimensions (an XY plot).
 
