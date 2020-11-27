@@ -355,6 +355,12 @@ Step 7: View a gene in groups
     ![](_static/images/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
 
     [**Figure 17: Order groups by the average gene expression value**](_static/images/OneGene_avgordered_circosplots.png)
+    
+4. You can also adapt the visual representation of the plot with the "more settings".
+
+    ![](_static/images/OneGene_ViewInGroups3.png "Figure 18: Change the graph options")
+
+    [**Figure 18: Change the graph options**](_static/images/OneGene_ViewInGroups3.png) 
 
 -----------
   ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
@@ -374,14 +380,14 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  ![](_static/images/OneGene_selectsubgroups.png "Figure 18: Selecting subgroups")
 
- [**Figure 18: Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
+ [**Figure 19: Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
 
  The graphs below were drawn with Graphtype BoxDotPlot. All stages are depicted in the right hand side graph and 
  only the lower risk stages on the left. 
 
  ![](_static/images/OneGene_subgroupvsall.png "Figure 19: All stages (right) versus lower risk only (left)")
 
- [**Figure 19: All stages (right) versus lower risk only (left)**](_static/images/OneGene_subgroupvsall.png)
+ [**Figure 20: All stages (right) versus lower risk only (left)**](_static/images/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
@@ -405,11 +411,11 @@ Step 9: Find best track separation with CliniSnitch
     categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
     a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
-    'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. 
+    'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
 
     ![](_static/images/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
 
-    [**Figure 20: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
+    [**Figure 21: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
 
 2. Every test can also be visualized by clicking on the View-link in the table. 
 Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. 
@@ -425,7 +431,7 @@ In case you wonder whether any unusual expression levels show up for individual 
 
     ![](_static/images/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
 
-    [**Figure 21: Select your sample to find extremes**](_static/images/OneGene_selectsampleextreme.png)
+    [**Figure 22: Select your sample to find extremes**](_static/images/OneGene_selectsampleextreme.png)
 
 
 
@@ -434,7 +440,7 @@ You can click on any of the genes listed in the table (here we clicked on "TH") 
 
     ![](_static/images/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
 
-    [**Figure 22: Sample extremes in one sample**](_static/images/OneGene_sampleextremePhox2b.png)
+    [**Figure 23: Sample extremes in one sample**](_static/images/OneGene_sampleextremePhox2b.png)
 
 
 
