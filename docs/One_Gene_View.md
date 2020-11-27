@@ -279,14 +279,12 @@ Step 6: Adapting plot
 ---------------
 
 
-1. To investigate the values R2 uses for graph generation click on
-    “Datatable” to unfold a table with the expression levels for all
-    samples.
+1. To investigate the values R2 uses for graph generation click on “Datatable” to open a table with the expression levels for all samples. Within this table you can use filters to restrict samples. By selecting the rows, a second table is generated, that can be copied and subsequently pasted in Excel for further investigation.
+    
+    ![](_static/images/OneGene_Datatable.png "Figure 10: Unfold the datatable")
 
-	![](_static/images/OneGene_Datatable.png "Figure 10: Unfold the datatable")
-	
 	[**Figure 10: Unfold the datatable**](_static/images/OneGene_Datatable.png)
-
+	
 2. The “track display selection” section can be opened by clicking on it.
     In here, you are able to toggle which tracks to display and/or hide
     within the YY-plots. Do note that these selections are non-persistent
@@ -400,14 +398,14 @@ Step 9: Find best track separation with CliniSnitch
 ---------------
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
-  the current dataset (like e.g. age group) than the example in the previous section. 
-  For such an analysis R2 has the CliniSnitch function. 
-  Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
-  and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue;
-  categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
-  a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
-  We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
-  'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. 
+    the current dataset (like e.g. age group) than the example in the previous section. 
+    For such an analysis R2 has the CliniSnitch function. 
+    Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
+    and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue;
+    categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
+    a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
+    We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
+    'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. 
 
     ![](_static/images/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
 
