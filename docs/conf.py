@@ -6,11 +6,11 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 project = u'R2 Tutorials'
-copyright = u'2019, R2 support team, http://r2.amc.nl - http://r2platform.com'
+copyright = u'2020, R2 support team, http://r2.amc.nl - http://r2platform.com'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.4.1'
+release = '3.4.2'
 language = None
 
 exclude_patterns = ['_build']
