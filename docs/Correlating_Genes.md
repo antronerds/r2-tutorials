@@ -53,11 +53,11 @@ Step 1: Selecting data
     (Figure 1).
 4.  In field 4 type 'MYCN' as gene name
 5.  Click 'Next'
-
-	![](_static/images/FindGenes_Choiceof.png "Figure1: Choice of correlationanalysis.")
+    
+    ![](_static/images/FindGenes_Choiceofv1.png "Figure1: Choice of correlationanalysis.")
 	
 	[**Figure1: Choice of correlationanalysis.**](_static/images/FindGenes_Choiceof.png)
-	
+
 
 
 
@@ -68,9 +68,9 @@ Step 2: Verifying settings
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
     
-	![](_static/images/FindGenes_OptionPagea.png "Figure 2: Options page for correlation    calculation")
+	![](_static/images/FindGenes_settings.png "Figure 2: Options page for correlation    calculation")
 	
-	[**Figure 2: Options page for correlation calculation**](_static/images/FindGenes_OptionPagea.png)
+	[**Figure 2: Options page for correlation calculation**](_static/images/FindGenes_settings.png)
 	
 2.  Scroll down the screen and click 'Next'
 
