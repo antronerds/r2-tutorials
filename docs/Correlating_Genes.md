@@ -1,7 +1,7 @@
 <a id="correlating_genes"> </a>
 
 
-Find genes correlating with your gene of interest
+Find genes correlating with your gene of interest test
 =================================================
 
 
@@ -53,7 +53,7 @@ Step 1: Selecting data
     (Figure 1).
 4.  In field 4 type 'MYCN' as gene name
 5.  Click 'Next'
-    
+
     ![](_static/images/FindGenes_Choiceofv1.png "Figure1: Choice of correlationanalysis.")
 	
 	[**Figure1: Choice of correlationanalysis.**](_static/images/FindGenes_Choiceof.png)
