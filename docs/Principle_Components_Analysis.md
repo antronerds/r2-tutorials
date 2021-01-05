@@ -31,8 +31,7 @@ Step 1: Selecting data and modules
     the step by step guide.
 2.  In field 2 locate and select the 'Tumor Medulloblastoma PLoS One-
     Kool - 62 MAS5.0 -u133p2' dataset by clicking 'Change Dataset'
-3.  In field 3 select the 'Principle Component Option' option (Error:
-    Reference source not found)
+3.  In field 3 select the 'Principle Component Option' option. 
     
 	![](_static/images/PrincipleComponent_Select.png "Figure    1: Selecting Principe Component    Analysis")
 	
