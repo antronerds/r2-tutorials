@@ -2,7 +2,7 @@
 ###Project contents
 
 This project contains the tutorials for the web based molecular biology data analysis and visualization platform R2 (http://r2platform.com). The setup of the documention in Github is according to the Cytoscape manual as done by Barry Demcak
-It has tags identifying the material that goes into the user manual for each version. A tag is formatted according to semantic versioning rules (e.g., 1.1).
+It has tags identifying the material that goes into the user manual for each version. A tag is formatted according to semantic versioning rules (e.g. 1.1).
 
 The outstanding issues are identified as GitHub Issues. 
 
