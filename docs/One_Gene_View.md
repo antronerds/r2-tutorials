@@ -184,7 +184,7 @@ Step 4: Probeset verification
 ---------------
 
 
-Figure 6 lists for the various reporters of MYCN whether they are in
+Figure 6 lists whether the various reporters of MYCN are in
 agreement with the genome position of MYCN reference sequence (RefSeq).
 If all are stating “YES” then everything appears alright (from the
 perspective of an automated assessment). For the MYCN reporters “NO”
