@@ -126,7 +126,7 @@ Step 3: Plotting Gene expression
 ----------
 
 To highlight / mark specific samples in the graph you can enter the R2 sample ID’s in the field 'samples to mark' from the
-‘adjustable settings’ box. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
+‘adjustable settings’ box or by double-clicking on a sample. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
 
 ![](_static/images/OneGene_adjustablesettings.png "Figure 4: Adjusting the graph settings")
 
