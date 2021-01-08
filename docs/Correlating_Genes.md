@@ -65,11 +65,12 @@ Step 2: Verifying settings
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_settings.png "Figure 2: Options page for correlation    calculation")
+    ![](_static/images/CorrelatingGenes/Correlatinggenes_settingsdirection.png "Figure 2: Options page for correlation    calculation")
 
-    [**Figure 2: Options page for correlation calculation**](_static/images/CorrelatingGenes/FindGenes_settings.png)
+    [**Figure 2: Options page for correlation calculation**](_static/images/CorrelatingGenesCorrelatinggenes_settingsdirection.png)
 
-2.  Scroll down the screen and click 'Next'
+2.  In the adjustable settings we leave all the setiings at their default. Note in Figure 2 that you can select for both and separate
+ correlation directrions. Scroll down the screen and click 'Next'
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
@@ -324,10 +325,9 @@ Step 8: Further pathways analysis
 1.  Scroll down and look for the MCM2 gene, click on the link to show
     their relationship: Figure 16
 
-
-	![](_static/images/FindGenes_MYCNMCM2.png "Figure    16: MCM2 		expression correlates with    MYCN expression.")
+	![](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2.png "Figure    16: MCM2 		expression correlates with    MYCN expression.")
 	
-	[**Figure 20: MCM2 expression correlates with    MYCN expression.**](_static/images/FindGenes_MYCNMCM2.png)
+	[**Figure 20: MCM2 expression correlates with MYCN expression.**](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2.png)
 
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
