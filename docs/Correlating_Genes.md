@@ -171,7 +171,7 @@ Step 4: Inspecting correlation between specific genes
 
 4. Another nice way to adjust the graphical representation of a XY plot is using the gene expression levels and apply these to a color gradient
 
-   ![](_static/images/CorrelatingGenes/DiffentialExpress_Colorbygeneprobeseta.png "Figure 8: Select Color by gene")
+   ![](_static/images/CorrelatingGenes/Findgenes_ColorbyGene.png "Figure 8: Select Color by gene")
 
    [**Figure 8: Select Color by gene**](_static/images/CorrelatingGenes/DiffentialExpress_Colorbygeneprobeseta.png)
 
@@ -274,9 +274,9 @@ Step 6: Establishing overrepresentation in other domains
 4.  The adjustable panel settings menu allows you to redo the
     gene-ontology analysis with the up or down regulated genes only.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_Adjust.png "Figure12: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
+    ![](_static/images/CorrelatingGenes/FindGenes_Adjust.png "Figure 16: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
 
-    [**Figure16: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/CorrelatingGenes/FindGenes_Adjust.png)
+    [**Figure 16: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.**](_static/images/CorrelatingGenes/FindGenes_Adjust.png)
 
 
 
