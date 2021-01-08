@@ -51,9 +51,9 @@ Step 1: Selecting data
 4.  In field 4 type 'MYCN' as gene name
 5.  Click 'Next'
 
-    ![](_static/images/FindGenes_Choiceofv1.png "Figure1: Choice of correlationanalysis.")
+    ![](_static/images/CorrelatingGenes/FindGenes_Choiceofv1.png "Figure 1: Choice of correlationanalysis.")
 
-    [**Figure1: Choice of correlationanalysis.**](_static/images/FindGenes_Choiceof.png)
+    [**Figure 1: Choice of correlation analysis.**](_static/images/CorrelatingGenes/FindGenes_Choiceof.png)
 
 
 
@@ -65,12 +65,12 @@ Step 2: Verifying settings
     HugoOnce mode you can find in the 'Differential
     Expression' tutorial.
 
-    ![](_static/images/Correlatinggenes_settingsdirection.png "Figure 2: Options page for correlation    calculation")
+    ![](_static/images/CorrelatingGenes/Correlatinggenes_settingsdirection.png "Figure 2: Options page for correlation    calculation")
 
-    [**Figure 2: Options page for correlation calculation**](_static/images/Correlatinggenes_settingsdirection.png)
+    [**Figure 2: Options page for correlation calculation**](_static/images/CorrelatingGenes/Correlatinggenes_settingsdirection.png)
 
-2.  In the adjustable settings we leave all the setiings at their default. Note in Figure 2 that you can select for both and separate
- correlation directrions. Scroll down the screen and click 'Next'
+2.  In the adjustable settings we leave all the settings at their default. Note in Figure 2 that you can select for both and separate
+ correlation directions. Scroll down the screen and click 'Next'
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
