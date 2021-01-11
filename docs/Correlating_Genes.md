@@ -1,7 +1,7 @@
 <a id="correlating_genes"> </a>
 
 
-Find genes correlating with your gene of interest test
+Find genes correlating with your gene of interest
 =================================================
 
 
