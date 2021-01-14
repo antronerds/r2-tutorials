@@ -103,7 +103,7 @@ Step 3: Inspecting correlating genes
     description of their meaning, consult the 'Differential
     Expression' tutorial).
 
-    ![](_static/images/CorrelatingGenes/FindGenes_GeneLista.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
+    ![](_static/images/CorrelatingGenes/FindGenes_GeneList_v1.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
 
     [**Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors**](_static/images/CorrelatingGenes/FindGenes_GeneLista.png)
 
