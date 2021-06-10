@@ -37,13 +37,13 @@ Step 1: Selecting a gene
 1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
     Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2” dataset is
     selected in field 2.
-2.  Choose “View a gene” in field 3.
-3.  Type MYCN and click ‘next’.
+2.  Choose “View a gene” in field 3 and click next.
 
 
-![](_static/images/OneGene_singleselect.png "Figure 1: Single gene selection")
 
-[**Figure 1: Single gene selection**](_static/images/OneGene_singleselect.png)
+![](_static/images/OneGene_singleselect_v2.png "Figure 1: Single gene selection")
+
+[**Figure 1: Single gene selection**](_static/images/OneGene_singleselect_v2.png)
 
 
 
@@ -55,7 +55,13 @@ Step 2: Probesets for a gene
    default, the probeset with the highest average present signal (APS)
    is selected. This APS signal is simply the average of all samples
    that are considered to express a selected gene (have a
-   present call). Occasionally other probesets assigned to the same
+   present call). After you entered thye mycn gene clicking the reporter ID  will be listed in the right search bbox.
+   
+   
+
+
+
+Occasionally other probesets assigned to the same
    gene could be of interest depending on the structure of the gene
    (for example a potential splice variant). Also realize that the most
    informative probeset is re-determined in every dataset, sometimes
