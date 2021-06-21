@@ -330,38 +330,29 @@ modules where a one-or two gene view is generated.
 Step 7: View a gene in groups
 ---------------
 
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next. 
-Here we can select a track to separate the cohort accordingly in the first pull down menu,separated the patients on the basis of the inss staging track in alphabetical order, next, here you can filter for the groups by default all groups
-   are selected.
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the current location, we can also inspect the MYCN expression sub divided in groups. To achieve this, we simply scroll to the end of the page and locate the dropdown box in the 'Group Separations' section of the 'Adjustable Settings'. Here we can select a track to separate the cohort accordingly. Select 'inss' as a track and press the 'Adjust Settings' button at the end of the page. R2 has now separated the patients on the basis of the inss staging track in alphabetical order. 
 
-    ![](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png "Figure 15: Viewing a gene in groups")
+    ![](_static/images/OneGene_ViewInGroups1.png "Figure 15: Viewing a gene in groups")
 
-    [**Figure 15: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png)
+    [**Figure 15: View a gene in groups**](_static/images/OneGene_ViewInGroups1.png)
 
-2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine tune your graph for example by switching of the genesort within the groups.
+2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. Press the 'Adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
 
-    ![](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png "Figure 15: Viewing a gene in groups")
-
-    [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png)
-
-
-
-We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. Press the 'Adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
     ![](_static/images/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
-    [**Figure 17: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
+    [**Figure 16: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
 
 3. You can also sort the groups by their average or median gene expression.
 
     ![](_static/images/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
-   
-    [**Figure 18: Order groups by the average gene expression value**](_static/images/OneGene_avgordered_circosplots.png)
+
+    [**Figure 17: Order groups by the average gene expression value**](_static/images/OneGene_avgordered_circosplots.png)
     
 4. You can also adapt the visual representation of the plot with the "more settings".
 
     ![](_static/images/OneGene_ViewInGroups3.png "Figure 18: Change the graph options")
 
-    [**Figure 19: Change the graph options**](_static/images/OneGene_ViewInGroups3.png) 
+    [**Figure 18: Change the graph options**](_static/images/OneGene_ViewInGroups3.png) 
 
 -----------
   ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
