@@ -332,15 +332,20 @@ Step 7: View a gene in groups
 
 1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next. 
 Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups 
-   are selected.
-    ![](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png "Figure 15: Viewing a gene in groups")
-    [**Figure 15: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png)
+are selected.
 
-2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine tune your graph for example by switching of the genesort within the groups.
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
 
-    ![](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png "Figure 15: Viewing a gene in groups")
+[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png)
 
-    [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png)
+
+
+2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine tune your graph for example by switching on the genesort within the groups.
+
+
+   ![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
+
+   [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png)
 
 
 
