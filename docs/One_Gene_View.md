@@ -54,13 +54,13 @@ Step 2: Probesets for a gene
    default, the probeset with the highest average present signal (APS)
    is selected. This APS signal is simply the average of all samples
    that are considered to express a selected gene (have a
-   present call). After you entered the mycn gene clicking the reporter ID  will be listed in the right search box.
-   Occasionally other probesets assigned to the same  gene could be of interest depending on the structure of the gene
+   present call). After you entered the mycn gene and clicking the reporter ID  will be listed in the right search box.
+   Occasionally other probesets assigned to the same  gene  could be of interest depending on the structure of the gene
    (for example a potential splice variant). Also realize that the most
    informative probeset is re-determined in every dataset, sometimes
    resulting in a different probeset as the choice of R2. The
    expression levels of datasets are by default 
-   converted to log2 values. This does not count for datasets that contain ratio's or logfolds. Clicking the advanced button provided a grid
+   converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays. Clicking the advanced button provides a grid
    where more selection criteria such as gene id, average levels can be can be applied. Also the last column named "R2 default" indicates if a
    whether a gene identifier is considered to be significant expressed (TRUE) or  not (FALSE) this information is not available for each dataset in R2.
    
@@ -111,7 +111,7 @@ Step 3: Plotting Gene expression
 
 ----------
 
-In adjustable settings many settings adapeted a two geneview can be applied directly from the onegene view adjustable settings menu.
+In adjustable settings many settings adapted a two geneview can be applied directly from the onegene view adjustable settings menu.
 To highlight / mark specific samples in the graph you can enter the R2 sample ID’s in the field 'samples to mark' from the
 ‘adjustable settings’ box or by double-clicking on a sample. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
 
@@ -136,9 +136,9 @@ To highlight / mark specific samples in the graph you can enter the R2 sample ID
 
 Multiple colors and different markings can be applied to the individual samples you want to highlight. To bring attention to different samples, you may want to use multiple colors and types of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure below.
 
-![](_static/images/Onegeneview/OneGene_view_samplesmark.png "Figure 5: Adjusting the graph settings")
+![](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png "Figure 5: Adjusting the graph settings")
 
-[**Figure 5: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark.png)
+[**Figure 5: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png)
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight?**                              
@@ -208,14 +208,14 @@ and click on the “Tview” link in the reporter table.
     human Affymetrix array types.
 
 
-![](_static/images/OneGene_Colorlegend.png "Figure 7 Color ")
+![](_static/images/Onegeneview/OneGene_Colorlegend.png "Figure 7 Color ")
 
-[**Figure 7: Coloring represents type of transcript**](_static/images/OneGene_Colorlegend.png)
+[**Figure 7: Coloring represents type of transcript**](_static/images/Onegeneview/OneGene_Colorlegend.png)
 
 
-![](_static/images/OneGene_Tview.png "Figure 8 MYCN reporters in Transcript view")
+![](_static/images/Onegeneview/OneGene_Tview.png "Figure 8 MYCN reporters in Transcript view")
 
-[**Figure 8: MYCN reporters in Transcript view**](_static/images/OneGene_Tview.png)
+[**Figure 8: MYCN reporters in Transcript view**](_static/images/Onegeneview/OneGene_Tview.png)
 
 
 
@@ -233,9 +233,9 @@ Step 5: Sources for additional information on the selected gene
 
 1. Close the Genome Browser tab or go back to the MYCN One Gene View expression screen.
 
-   ![](_static/images/OneGene_menupanel.png "Figure 9:Left menu panel providing additional info (including link-out) andanalyses options")
+   ![](_static/images/Onegeneview/OneGene_menupanel.png "Figure 9:Left menu panel providing additional info (including link-out) andanalyses options")
 
-   [**Figure 9:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/OneGene_menupanel.png)
+   [**Figure 9:Left menu panel providing additional info (including link-out) and analyses options**](_static/images/Onegeneview/OneGene_menupanel.png)
 
 
 In the left upper menu-panel several options are available to provide
@@ -273,9 +273,9 @@ Step 6: Adapting plot
 
 1. To investigate the values R2 uses for graph generation click on “Datatable” to open a table with the expression levels for all samples. Within this table you can use filters to restrict samples. By selecting the rows, a second table is generated, that can be copied and subsequently pasted in Excel for further investigation.
     
-    ![](_static/images/OneGene_Datatable.png "Figure 10: Unfold the datatable")
+    ![](_static/images/Onegeneview/OneGene_Datatable.png "Figure 10: Unfold the datatable")
 
-	[**Figure 10: Unfold the datatable**](_static/images/OneGene_Datatable.png)
+	[**Figure 10: Unfold the datatable**](_static/images/Onegeneview/OneGene_Datatable.png)
 	
 2. The “track display selection” section can be opened by clicking on it.
     In here, you are able to toggle which tracks to display and/or hide
@@ -286,9 +286,9 @@ Step 6: Adapting plot
     Note that the Adjustable Settings panel, including the Customize Track parameters, 
     is available throughout R2 for temporary adaptation of Track visibility and other preferences.
 
-	![](_static/images/OneGene_trackdisplay.png)
+	![](_static/images/Onegeneview/OneGene_trackdisplay.png)
 	
-	[**Figure 11: Tick and drag tracks**](_static/images/OneGene_trackdisplay.png "Figure 11: Tick and drag tracks")
+	[**Figure 11: Tick and drag tracks**](_static/images/Onegeneview/OneGene_trackdisplay.png "Figure 11: Tick and drag tracks")
 
 3. Other convenient options are revealed by clicking the “more settings”
     section. An extra panel unfolds which allows you to adapt your graph to
@@ -297,15 +297,15 @@ Step 6: Adapting plot
     selecting.
 
 
-![](_static/images/OneGene_Extrasettings_v1.png "Figure 12: the extra settings Panel")
+![](_static/images/Onegeneview/OneGene_Extrasettings_v1.png "Figure 12: the extra settings Panel")
 
-[**Figure 12: the extra settings Panel**](_static/images/OneGene_Extrasettings_v1.png)
+[**Figure 12: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v1.png)
 
 
 
-![](_static/images/OneGene_Adapting.png "Figure 13: Adapting a graph")
+![](_static/images/Onegeneview/OneGene_Adapting.png "Figure 13: Adapting a graph")
 
-[**Figure 13: Legend added**](_static/images/OneGene_Adapting.png)
+[**Figure 13: Legend added**](_static/images/Onegeneview/OneGene_Adapting.png)
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
@@ -321,9 +321,9 @@ modules where a one-or two gene view is generated.
 
 
 
-![](_static/images/OneGene_Adapting2a.png "Figure 14: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_Adapting2a.png "Figure 14: Fonts and Color changed")
 
-[**Figure 14: Fonts and Color changed**](_static/images/OneGene_Adapting2a.png)
+[**Figure 14: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2a.png)
 
 
 
@@ -331,7 +331,7 @@ Step 7: View a gene in groups
 ---------------
 
 1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next. 
-Here we can select a track to separate the cohort accordingly in the first pull down menu,separated the patients on the basis of the inss staging track in alphabetical order, next, here you can filter for the groups by default all groups
+Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups 
    are selected.
 
     ![](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png "Figure 15: Viewing a gene in groups")
@@ -347,21 +347,22 @@ Here we can select a track to separate the cohort accordingly in the first pull 
 
 
 We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. Press the 'Adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
-    ![](_static/images/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
-    [**Figure 17: View a gene in groups by boxplot**](_static/images/OneGene_ViewInGroups2.png)
+![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
+
+[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_ViewInGroups2.png)
 
 3. You can also sort the groups by their average or median gene expression.
 
-    ![](_static/images/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
+    ![](_static/images/Onegeneview/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
    
-    [**Figure 18: Order groups by the average gene expression value**](_static/images/OneGene_avgordered_circosplots.png)
+    [**Figure 18: Order groups by the average gene expression value**](_static/images/Onegeneview/OneGene_avgordered_circosplots.png)
     
 4. You can also adapt the visual representation of the plot with the "more settings".
 
-    ![](_static/images/OneGene_ViewInGroups3.png "Figure 18: Change the graph options")
+    ![](_static/images/Onegeneview/OneGene_ViewInGroups3.png "Figure 18: Change the graph options")
 
-    [**Figure 19: Change the graph options**](_static/images/OneGene_ViewInGroups3.png) 
+    [**Figure 19: Change the graph options**](_static/images/Onegeneview/OneGene_ViewInGroups3.png) 
 
 -----------
   ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
@@ -379,22 +380,22 @@ In the neuroblastoma field it is well known that the mync expression is strongly
 
 Go to the Adjustable Settings menu and select in the pull down the INSS stage. In th epopup window select the lower risk stages  st1,st2,st3 and st4s and click Next. Back in the Adjustable Settings panel click on the Adjust Settings button. These selections can be repeated a couple of times to build your ultimate selection.
 
- ![](_static/images/OneGene_selectsubgroups.png "Figure 18: Selecting subgroups")
+ ![](_static/images/Onegeneview/OneGene_selectsubgroups.png "Figure 18: Selecting subgroups")
 
- [**Figure 19: Selecting subgroups**](_static/images/OneGene_selectsubgroups.png)
+ [**Figure 19: Selecting subgroups**](_static/images/Onegeneview/OneGene_selectsubgroups.png)
 
  The graphs below were drawn with Graphtype BoxDotPlot. All stages are depicted in the right hand side graph and 
  only the lower risk stages on the left. 
 
- ![](_static/images/OneGene_subgroupvsall.png "Figure 19: All stages (right) versus lower risk only (left)")
+ ![](_static/images/Onegeneview/OneGene_subgroupvsall.png "Figure 19: All stages (right) versus lower risk only (left)")
 
- [**Figure 20: All stages (right) versus lower risk only (left)**](_static/images/OneGene_subgroupvsall.png)
+ [**Figure 20: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
 ![](_static/images/R2d2_logo.png)**Did you know that you can change the order of the groups?**      
 
- ![](_static/images/OneGene_AdaptOrder.png)                  
+ ![](_static/images/Onegeneview/OneGene_AdaptOrder.png)                  
 
 > *In the Adapt Settings box the dropdown menu of the setting 'Order Groups By' allows
 > you to change the order in which the groups are presented in the graph. 
@@ -414,9 +415,9 @@ Step 9: Find best track separation with CliniSnitch
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
     'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
 
-    ![](_static/images/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
+    ![](_static/images/Onegeneview/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
 
-    [**Figure 21: CliniSnitch result for MYCN**](_static/images/OneGene_CliniSnitch1.png)
+    [**Figure 21: CliniSnitch result for MYCN**](_static/images/Onegeneview/OneGene_CliniSnitch1.png)
 
 2. Every test can also be visualized by clicking on the View-link in the table. 
 Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. 
@@ -430,18 +431,18 @@ In case you wonder whether any unusual expression levels show up for individual 
 
 1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
 
-    ![](_static/images/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
+    ![](_static/images/Onegeneview/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
 
-    [**Figure 22: Select your sample to find extremes**](_static/images/OneGene_selectsampleextreme.png)
+    [**Figure 22: Select your sample to find extremes**](_static/images/Onegeneview/OneGene_selectsampleextreme.png)
 
 
 
 2. A table shows the negative z-score (left column) and positive z-score (right column) extremes.  In figure 22 genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.  
 You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the One Gene View of that gene, with your sample marked in the graph. 
 
-    ![](_static/images/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
+    ![](_static/images/Onegeneview/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
 
-    [**Figure 23: Sample extremes in one sample**](_static/images/OneGene_sampleextremePhox2b.png)
+    [**Figure 23: Sample extremes in one sample**](_static/images/Onegeneview/OneGene_sampleextremePhox2b.png)
 
 
 
