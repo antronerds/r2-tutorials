@@ -61,7 +61,7 @@ Step 2: Probesets for a gene
    resulting in a different probeset as the choice of R2. The
    expression levels of datasets are by default 
    converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays. Clicking the advanced button provides a grid
-   where more selection criteria such as gene id, average levels can be can be applied. Also the last column named "R2 default" indicates if a
+   where more selection criteria such as gene id, average levels can be can be applied. Also the last column named "R2 default" indicates 
    whether a gene identifier is considered to be significant expressed (TRUE) or  not (FALSE) this information is not available for each dataset in R2.
    
    ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the probeset with the highest expression level is selected")
@@ -334,7 +334,7 @@ Step 7: View a gene in groups
 Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups 
 are selected.
 
-![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_ViewinGroups_v1.png "Figure 15: Fonts and Color changed")
 
 [**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png)
 
@@ -343,7 +343,7 @@ are selected.
 2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine tune your graph for example by switching on the genesort within the groups.
 
 
-   ![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
+   ![](_static/images/Onegeneview/OneGene_ViewinGroups_v2.png "Figure 16: Viewing a gene in groups")
 
    [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png)
 
