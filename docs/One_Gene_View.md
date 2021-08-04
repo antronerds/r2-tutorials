@@ -15,13 +15,13 @@ Scope
 -   Adjust several parameters in the advanced settings panel to get a
     better insight in the expressions levels or adapt your
     graphic layout.
--   In R2, the samples are annotated with e.g clinical data, each group
+-   In R2, the samples are annotated with e.g. clinical data, each group
     of annotated data is called a “Track” in R2. These tracks can be
-    used to filter data in all types of analyses R2 is offering.
+    used to filter data in all types of analyses that R2 is offering.
 -   A separated info panel in the one-gene expression level screen
     provides different types of analyses based on the expression level
     of the chosen gene.
--   Most of the mRNA expression datasets are generated with Affymetrix
+-   Many of the mRNA expression datasets were generated with Affymetrix
     profiling arrays. In general these arrays use more than one so
     called probeset to measure the expression level of one single gene.
     With a separated module “Transcript view”, the details of the
@@ -31,7 +31,7 @@ Scope
 
 
 
-Step 1: Selecting a gene
+Step 1: Select the View a Gene module 
 ---------------
 
 1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
@@ -46,32 +46,25 @@ Step 1: Selecting a gene
 
 
 
-Step 2: Probesets for a gene
+Step 2: Select the gene or reporter
 ---------------
 
-1. In many cases more than one probeset is reported for each gene. In
-   this example, there are multiple probesets are annotated for the MYCN gene. By
-   default, the probeset with the highest average present signal (APS)
-   is selected. This APS signal is simply the average of all samples
-   that are considered to express a selected gene (have a
-   present call). After you entered the mycn gene and clicking the reporter ID  will be listed in the right search box.
-   Occasionally other probesets assigned to the same  gene  could be of interest depending on the structure of the gene
-   (for example a potential splice variant). Also realize that the most
-   informative probeset is re-determined in every dataset, sometimes
-   resulting in a different probeset as the choice of R2. The
-   expression levels of datasets are by default 
-   converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays. Clicking the advanced button provides a grid
-   where more selection criteria such as gene id, average levels can be can be applied. Also the last column named "R2 default" indicates if a
-   whether a gene identifier is considered to be significant expressed (TRUE) or  not (FALSE) this information is not available for each dataset in R2.
+1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" textfield and click on the first reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
    
-   ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the probeset with the highest expression level is selected")
+   In the case of Affymetrix datasets, regularly more than one reporter is associated with a gene, as you can see in dropdown list for MYCN. For Affymetrix datasets, the term probeset was often used in stead of reporter. In this example, multiple probesets are annotated for the MYCN gene. By default, the probeset with the highest average present signal (APS) is annotated as the default probeset in R2. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
+   Occasionally other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined in every dataset, sometimes resulting in a different probeset as the choice of R2.  
+      
+   The expression levels of datasets are by default converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays.  
+     
+   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene id or average signal.   
+   The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
-   [**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/Onegeneview/OneGene_multipleprobegrid.png)
+   ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the reporter with the highest expression level is selected")
+   
+   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Bottom, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid.png)
 
-2. In the adjustable settings screen, use the pre-defined default
-   settings and click ‘Next’.
+2. To follow the example of this tutorial, use the pre-defined default settings in the rest of the adjustable settings menu, and click ‘Next’.
    
-
 
 
 Step 3: Plotting Gene expression 
