@@ -178,11 +178,11 @@ Step 4: Probeset verification
 ---------------
 
 
-Figure 6 lists for the various reporters of MYCN whether they are in
+The table displayed in Figure 6 lists whether the various reporters of MYCN are in
 agreement with the genome position of MYCN reference sequence (RefSeq).
 If all are stating “YES” then everything appears alright (from the
-perspective of an automated assessment). For the MYCN reporters “NO”
-indications indicate there may be an issue with it. Scroll down the page
+perspective of an automated assessment). The MYCN reporters with a “NO”
+indicate there may be an issue with it. Scroll down the page
 and click on the “Tview” link in the reporter table.
 
 
@@ -199,7 +199,7 @@ and click on the “Tview” link in the reporter table.
     reference sequence has also been indicated. Furtermore, the browser shows the alignement of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
     This view can be used to inspect the quality of a reporter. Note, for instance, that the reporter
     “242026\_at” is aligned to the genomic region of the MYCN reference
-    sequence, but that it’s color is different from the rest (colored
+    sequence, but that its color is different from the rest (colored
     in red). In addition, in this particular case the reporter is 
     located in the intronic (light shaded color) region which is another
     reason not to pick a certain probeset. Indeed, if we compare the
