@@ -126,6 +126,8 @@ Step 3: Plotting Gene expression
    * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab. 
    * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample ID’s in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple ID's, separate them with a comma. 
    * Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’, Figure 4 red arrow). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark'text field. Keep reading to find examples of how to use the syntax yourself.  
+   
+   *Always click on 'Adjust Settings' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!* 
     
 
 ![](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png "Figure 4: Adjusting the graph settings")
@@ -155,12 +157,16 @@ To bring attention to different samples, you may want to use multiple colors and
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
-Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. In the 'More Settings' tab you can find a dropdown next to the 'Vector (SVG) output' setting, which when set to "True", generates a link that you can save to your computer. A vector image can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.   
+Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and after a click on the button 'Adjust Settings', a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.   
+
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png "Figure 5B: Obtain a vector (SVG) image of your graph")
+
+[**Figure 5B: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png)
 
 ----------
-  ![](_static/images/R2d2_logo.png)**Did you know that the Adjustable settings panel is available under most graphs and analysis results in R2?**
+  ![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
 
-> *Just scroll down the page to find the Adjustable settings box with options to adjust the settings of the analysis or to adjust the looks of the graph. **Don't forget to press the Adjust Settings** button at the bottom of the box in order for your changes to take effect!*
+> *Just scroll down the page to find the Adjustable settings box with options to adjust the settings of the analysis or to adjust the looks of the graph. **Don't forget to press the Adjust Settings** button at the bottom of the panel in order for your changes to take effect!*
 
 ----------   
 
@@ -333,24 +339,24 @@ are selected.
 
 ![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
 
-[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_ViewInGroups_v1.png)
+[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
 
 
-2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine tune your graph for example by switching on the genesort within the groups.
+2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups.
 
 
    ![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
 
-   [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_ViewInGroups_v2.png)
+   [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_viewinGroups_v2.png)
 
 
 
-We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. Press the 'Adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
+We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
-![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
+![](_static/images/Onegeneview/OneGene_viewinGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
-[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_ViewInGroups2.png)
+[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_viewinGroups2.png)
 
 3. You can also sort the groups by their average or median gene expression.
 
@@ -393,14 +399,6 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
-![](_static/images/R2d2_logo.png)**Did you know that you can change the order of the groups?**      
-
- ![](_static/images/Onegeneview/OneGene_AdaptOrder.png)                  
-
-> *In the Adapt Settings box the dropdown menu of the setting 'Order Groups By' allows
-> you to change the order in which the groups are presented in the graph. 
-> The default ordering is the alphabetical ordering of the track name, but 
-> you can choose ordering by the median or the average values of the groups as well.*  
 
 Step 9: Find best track separation with CliniSnitch
 ---------------
