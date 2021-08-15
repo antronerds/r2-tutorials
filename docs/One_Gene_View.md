@@ -15,13 +15,13 @@ Scope
 -   Adjust several parameters in the advanced settings panel to get a
     better insight in the expressions levels or adapt your
     graphic layout.
--   In R2, the samples are annotated with e.g clinical data, each group
+-   In R2, the samples are annotated with e.g. clinical data, each group
     of annotated data is called a “Track” in R2. These tracks can be
-    used to filter data in all types of analyses R2 is offering.
+    used to filter data in all types of analyses that R2 is offering.
 -   A separated info panel in the one-gene expression level screen
     provides different types of analyses based on the expression level
     of the chosen gene.
--   Most of the mRNA expression datasets are generated with Affymetrix
+-   Many mRNA expression datasets were generated with Affymetrix
     profiling arrays. In general these arrays use more than one so
     called probeset to measure the expression level of one single gene.
     With a separated module “Transcript view”, the details of the
@@ -31,7 +31,7 @@ Scope
 
 
 
-Step 1: Selecting a gene
+Step 1: Select the View a Gene module 
 ---------------
 
 1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
@@ -46,32 +46,27 @@ Step 1: Selecting a gene
 
 
 
-Step 2: Probesets for a gene
+Step 2: Select the gene or reporter
 ---------------
 
-1. In many cases more than one probeset is reported for each gene. In
-   this example, there are multiple probesets are annotated for the MYCN gene. By
-   default, the probeset with the highest average present signal (APS)
-   is selected. This APS signal is simply the average of all samples
-   that are considered to express a selected gene (have a
-   present call). After you entered the mycn gene and clicking the reporter ID  will be listed in the right search box.
-   Occasionally other probesets assigned to the same  gene  could be of interest depending on the structure of the gene
-   (for example a potential splice variant). Also realize that the most
-   informative probeset is re-determined in every dataset, sometimes
-   resulting in a different probeset as the choice of R2. The
-   expression levels of datasets are by default 
-   converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays. Clicking the advanced button provides a grid
-   where more selection criteria such as gene id, average levels can be can be applied. Also the last column named "R2 default" indicates 
-   whether a gene identifier is considered to be significant expressed (TRUE) or  not (FALSE) this information is not available for each dataset in R2.
+1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" textfield and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
    
-   ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the probeset with the highest expression level is selected")
+   In the case of Affymetrix datasets, the term probeset is often used in stead of reporter, and more than one probeset can be associated with a gene. as you can see in dropdown list for MYCN in this example, multiple probesets are annotated for the MYCN gene.  
    
-   [**Figure 2: By default the probeset with the highest expression level is selected**](_static/images/Onegeneview/OneGene_multipleprobegrid.png)
+   By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
+   Occasionally other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined in every dataset, sometimes resulting in a different probeset as the choice of R2.  
+      
+   The expression levels of datasets are by default converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays.  
+     
+   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene id or average signal.   
+   The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
+   
+   ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the reporter with the highest expression level is selected")
+   
+   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Bottom, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid.png)
 
-2. In the adjustable settings screen, use the pre-defined default
-   settings and click ‘Next’.
+2. To follow the example of this tutorial, use the pre-defined default settings in the rest of the adjustable settings menu, and click ‘Next’.
    
-
 
 
 Step 3: Plotting Gene expression 
@@ -80,65 +75,26 @@ Step 3: Plotting Gene expression
 1. R2 generates a YY-graph (Figure 3) from the MYCN expression levels of
    all samples with expression levels ordered from left (low) to
    right (high). Hovering over the dots reveals additional annotation
-   that R2 has stored for the focused sample.
-   
+   that R2 has stored for the focused sample.  
+     
    ![](_static/images/Onegeneview/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
 
    [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN.png)
-
-
+  
 2. Underneath the X-axis, colored boxes are depicted, representing
    clinical information of the samples in so called "tracks". Again,
    hovering over them will reveal underlying data. For MYCN there is a
    clear relation between the expression levels and the tracks for
-   “MYCN amplification” and “INSS-stage“. So these tracks underneath
+   “MYCN amplification” and “INSS-stage“. So, these tracks underneath
    the image give a quick glance at some of the clinical parameters,
    defined for the dataset. It is also possible to define your own
    custom made tracks, or disable/adapt the settings for default tracks
-   (further explained in “Adapting R2 to your needs")
+   (further explained in the chapter “Adapting R2 to your needs").
 
 3. Sometimes you get more insight by reviewing the expression levels
-   with other transformations. Scroll down and transform the data
-   (Figure 5), choosing “none”, in the ‘transformation’ pulldown menu
-   and click adjust settings. In the “adjustable settings” panel, there
-   are several other settings to adapt the graph R2 generates (like
-   changing font sizes, or adding labels to the datapoints). 
-
-----------
-  ![](_static/images/R2d2_logo.png)**Did you know that the Adjustable Settings panel is available under most graphs in R2?**
-
-> *Just scroll down the page to find the Adjustable Settings box with graph options. Don't forget to press the "Adjust Settings" button at the bottom of the box in order for your changes to take effect!*
-
-----------
-
-In adjustable settings many settings adapted a two geneview can be applied directly from the onegene view adjustable settings menu.
-To highlight / mark specific samples in the graph you can enter the R2 sample ID’s in the field 'samples to mark' from the
-‘adjustable settings’ box or by double-clicking on a sample. Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’).
-
-![](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png "Figure 4: Adjusting the graph settings")
-
-[**Figure 4: Adjusting the graph settings**](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png)
-
----------------
- ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples with marker options?** 
-
-> *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
-> - *'dot': places a thick border around the sample*
-> - *'circle': Places a ring around the sample (diameter 9)*
-> - *'circle_2': Places a ring around the sample (diameter 4)*
-> - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
-> - *'epicenter': Places a set of 3 rings descending in width around a sample*
-> - *'arrow': Places a block arrow pointing to the sample*
-> - *'triangle': Places a filled triangle under the sample*
->
->*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
----------------
-
-Multiple colors and different markings can be applied to the individual samples you want to highlight. To bring attention to different samples, you may want to use multiple colors and types of marking. In order to do so define the method within the ‘samples to mark’ box by adding another ‘:’ after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure below.
-
-![](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png "Figure 5: Adjusting the graph settings")
-
-[**Figure 5: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png)
+   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings panel" underneath the graph and tracks. In the pulldown menu of the ‘Transformation’ setting (top red arrow in Figure 4), choose “none” 
+   and then click the button *Adjust Settings* at the bottom of the panel.   
+   
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you to gain additional insight?**                              
@@ -162,11 +118,58 @@ Multiple colors and different markings can be applied to the individual samples 
 >  -   *“zcore\_group”: Coverts the expression levels from the zscore within 
 >        a group (track). Applicable when e.g technical variation in          
 >        expression levels is expected. A possible reason could be when       
->        samples from the same dataset originate from different centers.*      
+>        samples from the same dataset originate from different centers.*   
+----------
+
+  In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis of to adapt the looks of the graph:
+   * In the Adjustable settings panel, you can switch directly from a Onegene View to a Twogene View in order to plot the expression values of two genes in one graph. you simply fill in a different Gene for Gene/ Reporter 1 than for Gene / Reporter 2 (upper red box in Figure 4).
+   * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab. 
+   * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample ID’s in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple ID's, separate them with a comma. 
+   * Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’, Figure 4 red arrow). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark'text field. Keep reading to find examples of how to use the syntax yourself.  
+   
+   *Always click on 'Adjust Settings' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!* 
+    
+
+![](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png "Figure 4: Adjusting the graph settings")
+
+[**Figure 4: Adjusting the graph settings**](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png)
 
 
+You can adjust the marker color and type of the samples that you marked with a syntax in teh 'Samples to mark'field. In order to do so, add a ‘:’ after the ID's with a color code, and/or add a ':' with a marker type, like so 'itcc0288,itcc0021:ff4444:dot'.  
+To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure below.
 
-Another often requested feature is the svg ca
+![](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png "Figure 5: Adjusting the graph settings")
+
+[**Figure 5: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png)
+
+---------------
+ ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?** 
+
+> *R2 knows a couple of marker options, that you can make use of in the advanced prescriptions:* 
+> - *'dot': places a thick border around the sample*
+> - *'circle': Places a ring around the sample (diameter 9)*
+> - *'circle_2': Places a ring around the sample (diameter 4)*
+> - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
+> - *'epicenter': Places a set of 3 rings descending in width around a sample*
+> - *'arrow': Places a block arrow pointing to the sample*
+> - *'triangle': Places a filled triangle under the sample*
+>
+>*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
+---------------
+
+Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and after a click on the button 'Adjust Settings', a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.   
+
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png "Figure 5B: Obtain a vector (SVG) image of your graph")
+
+[**Figure 5B: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png)
+
+----------
+  ![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
+
+> *Just scroll down the page to find the Adjustable settings box with options to adjust the settings of the analysis or to adjust the looks of the graph. **Don't forget to press the Adjust Settings** button at the bottom of the panel in order for your changes to take effect!*
+
+----------   
+
 
 
 ---------------
@@ -331,30 +334,29 @@ Step 7: View a gene in groups
 ---------------
 
 1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next. 
-Here we can select a track to separate the cohort accordingly in the first pull down menu, the patients are separated on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups 
+Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups 
 are selected.
 
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
 
-   ![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
-   
-   [**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewInGroups_v1.png)
-
+[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
 
-2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine tune your graph for example by switching on the genesort within the groups.
+
+2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups.
 
 
    ![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
 
-   [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_viewInGroups_v2.png)
+   [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_viewinGroups_v2.png)
 
 
 
-We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track'. Press the 'Adjust' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the groups. Adaptations to other graphtypes can be made in a similar way.
+We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
-![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
+![](_static/images/Onegeneview/OneGene_viewinGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
-[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_ViewInGroups2.png)
+[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_viewinGroups2.png)
 
 3. You can also sort the groups by their average or median gene expression.
 
@@ -397,14 +399,6 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
-![](_static/images/R2d2_logo.png)**Did you know that you can change the order of the groups?**      
-
- ![](_static/images/Onegeneview/OneGene_AdaptOrder.png)                  
-
-> *In the Adapt Settings box the dropdown menu of the setting 'Order Groups By' allows
-> you to change the order in which the groups are presented in the graph. 
-> The default ordering is the alphabetical ordering of the track name, but 
-> you can choose ordering by the median or the average values of the groups as well.*  
 
 Step 9: Find best track separation with CliniSnitch
 ---------------
