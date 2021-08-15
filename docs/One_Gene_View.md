@@ -21,7 +21,7 @@ Scope
 -   A separated info panel in the one-gene expression level screen
     provides different types of analyses based on the expression level
     of the chosen gene.
--   Many of the mRNA expression datasets were generated with Affymetrix
+-   Many mRNA expression datasets were generated with Affymetrix
     profiling arrays. In general these arrays use more than one so
     called probeset to measure the expression level of one single gene.
     With a separated module “Transcript view”, the details of the
@@ -51,7 +51,7 @@ Step 2: Select the gene or reporter
 
 1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" textfield and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
    
-   In the case of Affymetrix datasets, regularly more than one reporter is associated with a gene, as you can see in dropdown list for MYCN. For Affymetrix datasets, the term probeset was often used in stead of reporter. In this example, multiple probesets are annotated for the MYCN gene.  
+   In the case of Affymetrix datasets, the term probeset is often used in stead of reporter, and more than one probeset can be associated with a gene. as you can see in dropdown list for MYCN in this example, multiple probesets are annotated for the MYCN gene.  
    
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
    Occasionally other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined in every dataset, sometimes resulting in a different probeset as the choice of R2.  
