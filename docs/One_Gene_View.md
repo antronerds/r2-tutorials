@@ -143,9 +143,9 @@ To bring attention to different samples, you may want to use multiple colors and
 [**Figure 5: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png)
 
 ---------------
- ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples with many different highlight options?** 
+ ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?** 
 
-> *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
+> *R2 knows a couple of marker options, that you can make use of in the advanced prescriptions:* 
 > - *'dot': places a thick border around the sample*
 > - *'circle': Places a ring around the sample (diameter 9)*
 > - *'circle_2': Places a ring around the sample (diameter 4)*
