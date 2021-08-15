@@ -354,9 +354,9 @@ are selected.
 
 We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
-![](_static/images/Onegeneview/OneGene_viewinGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
+![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
-[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_viewinGroups2.png)
+[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_ViewInGroups2.png)
 
 3. You can also sort the groups by their average or median gene expression.
 
