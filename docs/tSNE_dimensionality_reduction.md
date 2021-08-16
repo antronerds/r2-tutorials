@@ -91,10 +91,10 @@ In this picture below, we also adapted the setting *Color scheme* to 'rainbow_1'
 Step 3: Perplexity sweeps for t-SNE maps
 ----------------------------
 
-What perplexity value is the best option for your dataset of interest? This depends on the embedded structure (the subgroups), and even what you personally would like to visualize (the way the samples are layed out). To assess the robustness of the layout as well as the effect that the perplexity parameter has, the R2 platform performs a perplexity sweep. The analysis will be run repeatedly, starting with a value of 5, and stopping at a perplexity value of 50 if the size of the dataset permits. 
+What perplexity value is the best option for your dataset of interest? This depends on the embedded structure (the subgroups), and even what you personally would like to visualize (the way the samples are layed out). To assess the robustness of the layout as well as the effect that the perplexity parameter has, the R2 platform performs a perplexity sweep. The analysis will be run repeatedly, starting with a value of 5, and stopping at a perplexity value of 50, if the size of the dataset permits. 
 
 
-1. In order to generate an overview of all possible perplexities you have to set the number of perplexities to "ALL" and color by track modus to eg: histology in the "Adjustable Settings".
+1. In order to generate an overview of all possible perplexities you have to set the number of *Perplexity* to 'all' and *Color by Track* modus to eg. 'primary_site' in the 'Adjustable Settings' box.
 
   ![](_static/images/Samplemaps/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
 
@@ -103,28 +103,29 @@ What perplexity value is the best option for your dataset of interest? This depe
   
 
 
-By choosing the perplexity values 'All', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode.
+By choosing the perplexity value 'all', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode. Also, you can simply click any of the tiles to generate the map of that particular perplexity in normal large format.  
 
+You might have noticed the "Direct link to the t-SNE result: " above the Adjustable settings box underneath the maps. This link can be used to indeed obtain the default view of the same sample map.
 
 
 Step 4: Creating t-SNE maps
 ----------------------------
 
-Depending on your access level in R2, you can create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module will be located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
+Depending on your access level in R2, you can create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module is located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
 
-Let's take a look at some other nice example of a R2 generated t-SNE maps: the large dataset of normal tissue expression profiles
+Let's take a look at another nice example of an R2 generated t-SNE map: the large dataset of normal tissue expression profiles.
 
-1. In main menu select  Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 and select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering, specific gene categories and expression level restrictions.  
+1. In main menu *Change Dataset* to the Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 (in the Change Dataset grid fill in the number '2921' in the textfield under the *N* column and click *Select*). Then select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering, specific gene sets and expression level restrictions.  
+  
+    ![](_static/images/Samplemaps/Tnse_shortcutPlot.png "Figure 7: All perplexities")
+  
+    [**Figure 7: t-SNE: Menu**](_static/images/Samplemaps/Tnse_shortcutPlot.png)
+  
+  Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >6000 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
 
-  ![](_static/images/Samplemaps/Tnse_shortcutPlot.png "Figure 7: All perplexities")
+2. In our case we just click *next*.
 
-  [**Figure 7: t-SNE: Menu**](_static/images/Samplemaps/Tnse_shortcutPlot.png)
-
-Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >6000 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
-
-2. In our case we just click next
-
-3. In the Adjustable settings box set the color by track on 'Tissue'  and click next.
+3. In the Adjustable settings box set the *Color by Track* on 'Tissue'  and click *next*.
 
   ![](_static/images/Samplemaps/Tsne_normaltissuetrackcolored.png "Figure 8: Colored by track")
 
@@ -134,9 +135,9 @@ Keep in mind that after adjusting input settings the t-SNE algorithm will  re-ru
 Step 5: Creating groups with the t-SNE lasso tool 
 ----------------------------
 
-Suppose the t-SNE algorithm produced some interesting clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the t-SNE map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
+Suppose the t-SNE algorithm produced some interesting sample clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the t-SNE map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
 
-1. In the left menu click on t-SNE maps and select in the pull down menu , ‘Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  "primary site" with the track for color option. The  haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
+1. In the left menu click on *Sample maps* and select 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2' with the date '2017-03-28' in the *Created* column.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  'primary_site' with *Color track* option. The haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
 
     ![](_static/images/Samplemaps/Tsne_lassoselection.png "Figure 9: Colored by track")
 
