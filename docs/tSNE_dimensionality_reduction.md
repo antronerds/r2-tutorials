@@ -61,14 +61,14 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
   [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Samplemaps/Tsne_cellbroad_primsite.png)
 
 
-Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the ‘colormode’ to ‘color by expression’.
+Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the *Color mode* to ‘color by gene’.
 
-1. In the 'adjustable settings box'  select 'Color by Gene' under Color mode 
-    and subsequently type 'CLDN3' under Gene for color. 
-    The  corresponding reporter will automatically pop-up (Figure 3 ). 
-    The gene selection box autocompletes selection the proper reporter 
+1. In the 'Adjustable settings' box  select 'Color by Gene' under *Color mode* 
+    and subsequently type 'CLDN3' in the textfield of *Gene / Reporter*. 
+    The  corresponding reporter will automatically pop-up (Figure 3 ), click on it to confirm your choice. 
+    The gene selection box autocompletes the proper reporter 
     probeset, but this can take a little bit of time before the gene selection
-     box appears. Click on the selection to confirm the usage of that gene. 
+     box appears.  
 
   ![](_static/images/Samplemaps/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
@@ -80,7 +80,8 @@ Another feature that may be informative in the context of a t-SNE map is to ‘o
 
   [**Figure 4: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3.png)
 
-3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup.
+3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup. 
+In this picture below, we also adapted the setting *Color scheme* to 'rainbow_1' in the 'Adjustable settings' box.
 
   ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 5: Select  A probeset")
 
