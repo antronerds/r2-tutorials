@@ -32,7 +32,7 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
 
 1. In the left menu click on Sample maps. 
   You can see that a grid opens that displays the datasets available to you for which sample maps have been created. The headers of the grid show filtering options to search for the dataset that you are interested in. Here we want to search for the dataset 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2 '. 
-2. Type 'CCLE' in the textfield *Dataset Class*. Multiple sample maps have been generated from this same dataset. Choose the sample map that shows the date '2020-11-24' in the column *Created* by a click on the **Select** button in front of the row.
+2. Type 'CCLE' in the textfield *Dataset Class*. Multiple sample maps have been generated from this same dataset. Choose the sample map that shows the date '2017-03-28' in the column *Created* by a click on the **Select** button in front of the row.
 
 ![](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png "Figure 1A:Select a preprocessed t-SNE map from the grid")
 
