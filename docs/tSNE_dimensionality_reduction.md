@@ -15,7 +15,7 @@ Scope
 -  t-SNE maps will be annotated with tracks and gene expression.
 
 
-R2 offers several machine learning dimensionality reduction algorithms that are well suited for the reduction of high dimensional datasets to just 2 or 3 dimensions. samples that have similar expression profiles in a dataset are located closely together on the 2D or 3d map, which enables the user to find clusters of similar samples.  
+R2 offers several machine learning dimensionality reduction algorithms that are well suited for the reduction of high dimensional datasets to just 2 or 3 dimensions. Samples that have similar expression profiles in a dataset are located closely together on the 2D or 3D map, which enables the user to find clusters of similar samples.  
  One such clustering method that is popular in biomedical research is the so called t-SNE algorithm. t-SNE stands for t-Distributed Stochastic Neighbor Embedding. Another algorithm with similar properties that is gaining more and more popularity is UMAP (Uniform Manifold Approximation and Projection).  
 
 Most researchers are already familiar with another dimensionality reduction algorithm, Principle Components Analysis (PCA), which is also available in R2 and is explained in more detail in the Principle Components Analysis tutorial. PCA, t-SNE and UMAP each reduce the dimension while maintaining the structure of high dimensional data, however, PCA can only capture linear structures. t-SNE and UMAP on the other hand, capture both linear and non-linear relations and preserve local similarities and distances in high dimensions while reducing the information to 2 dimensions (an XY plot). While t-SNE is able to preserve local relations, UMAP allows for a better preservation of dissimilarity of smaples. Therefore, the distance between clusters of samples in a UMAP plot is more meaningful than in a t-SNE plot. 
@@ -34,16 +34,16 @@ Let’s have a look at a t-SNE result to see what we can learn from this dimensi
   You can see that a grid opens that displays the datasets available to you for which sample maps have been created. The headers of the grid show filtering options to search for the dataset that you are interested in. Here we want to search for the dataset 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2 '. 
 2. Type 'CCLE' in the textfield *Dataset Class*. Multiple sample maps have been generated from this same dataset. Choose the sample map that shows the date '2020-11-24' in the column *Created* by a click on the **Select** button in front of the row.
 
-![](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png "Figure 1A:Select a preprocessed t-SNE map from the grid")
+![](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png "Figure 1A: Select a preprocessed sample map (e.g. t-SNE map) from the grid")
 
-  [**Figure 1A:Select a preprocessed t-SNE map from the grid**](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png)
+  [**Figure 1A: Select a preprocessed sample map (e.g. t-SNE map) from the grid**](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png)
   
   
  You can also search for a sample map of datasets by keywords in the textfield above the grid or by the downwards arrow on the right side of the textfield. The grid will adjust to your keywords and/or dataset selection. 
 
-  ![](_static/images/Samplemaps/Tsne_select_preprocessed.png "Figure 1B:Selecting t-SNE maps from the dropdown")
+  ![](_static/images/Samplemaps/Tsne_select_preprocessed.png "Figure 1B: Select a dataset with a sample map from the dropdown")
 
-  [**Figure 1B: Selecting t-SNE maps from the dropdown**](_static/images/Samplemaps/Tsne_select_preprocessed.png)
+  [**Figure 1B: Select a dataset with a sample map from the dropdown**](_static/images/Samplemaps/Tsne_select_preprocessed.png)
 
 
 Step 2: Annotating t-SNE maps
