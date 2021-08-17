@@ -27,35 +27,29 @@ Step 1: Selecting the Kaplan Meier module
 ---------------
 
 
-1.  Logon the R2 homepage and select *Kaplan Meier By
-    Annotated parameter*. You can find this option either in the left
+1.  Logon the R2 homepage and select the option *Kaplan Meier* either in the left
     menu panel on the main screen or in field 3 at the type of analysis
     pull down menu. Using the Kaplan Meier module via the left menu
     directly shows from which datasets survival data is available.  
-    Make sure that "Tumor Neuroblastoma public " Versteeg " 88" is selected and click next.
+    For this example, make sure that *Data type* is set to 'Expression data (H. sapiens)[n=..' and that *Datat set* is set to "Tumor Neuroblastoma public " Versteeg " 88". From the dropdown of the setting *Separate by* choose the option 'a categorical track'. Click *Next*.
     
-	![](_static/images/WorkingWithKaplan_menu.png "Figure    1: Select a Kaplan    Meier option.")
+	![](_static/images/KaplanMeier/KaplanMeier_selectKManalysis.png "Figure    1: Select a Kaplan Meier option.")
 	
-	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/WorkingWithKaplan_menu.png)
+	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/KaplanMeier/KaplanMeier_selectKManalysis.png)
 	
-2.  In the adjustable settings menu choose overall survival "overall-c1103", select
-    "track" at Separate by and select "inss-cat" stage in use track pull
-    down menu . Click "next". Note that stage st4s en st1 survival curves are overlapping which 	is in agreement with the clinical outcome of the INSS stages.
+2.  In the adjustable settings menu choose for *Type of survival* the value "overall-c1103", select "track" at *Separate by* and select "inss (5 cat)" at the *Track* pull-down menu . Click "Next". Note that stage st4s en st1 survival curves are overlapping which is in agreement with the clinical outcome of the INSS stages.
     
-	![](_static/images/WorkingWithKaplan_Kaplan.png "Figure 2: Kaplan Meier by Annotated parameter.")
+	![](_static/images/KaplanMeier/WorkingWithKaplan_Kaplan.png "Figure 2: Kaplan Meier by a categorical track")
 	
-	[**Figure 2: Kaplan Meier by Annotated parameter.**](_static/images/WorkingWithKaplan_Kaplan.png)
+	[**Figure 2: Kaplan Meier by a categorical track**](_static/images/KaplanMeier/WorkingWithKaplan_Kaplan.png)
 
-3.  A handy feature of the R2 kaplan module is the option to combine two
-    tracks to generate subgroups for the Kaplan Meier analyses. Use the
-    back-button from the browser and select at " separate by " , "
-    combination of two tracks". Choose for example for the first track "
-    agegroup (cat) " and for the second track "mycn\_amp (cat) ". And
-    click next.
+3.  A handy feature of the R2 Kaplan module is the option to combine two
+    tracks to generate subgroups for the Kaplan Meier analysis. Use the
+    back-button from the browser and select at *Separate by* the option 'combination of two tracks'. For example, choose for the first track 'agegroup (2 cat)' and for the second track 'mycn\_amp (2 cat)'. And click *Next*.
     
-	![](_static/images/WorkingWithKaplan_Combined.png "Figure    3: Kaplan Meier graph with    combined tracks.")
+	![](_static/images/KaplanMeier/WorkingWithKaplan_Combined.png "Figure    3: Kaplan Meier graph with    combined tracks.")
 	
-	[**Figure    3: Kaplan Meier graph with    combined tracks.**](_static/images/WorkingWithKaplan_Combined.png)
+	[**Figure    3: Kaplan Meier graph with    combined tracks.**](_static/images/KaplanMeier/WorkingWithKaplan_Combined.png)
 	
 
 
@@ -70,11 +64,16 @@ and a mycn amplification, in this cohort.
 ----------
 ![](_static/images/R2d2_logo.png)**Did you know that you can apply a filter to KaplanScan analyze a subgroup of patients for survival? In addition you can also adapt the graphical representation***                      
 
-![](_static/images/WorkingWithKaplan_Adjust.png)                           
+![](_static/images/KaplanMeier/WorkingWithKaplan_Adjust.png "Apply sample filters to your dataset for the Kaplan Meier either with a grid (left) or with the dropdown (dropdown)") 
+    
+[**Apply sample filters to your dataset for the Kaplan Meier either with the grid (left) or with the dropdown (right) **](_static/images/KaplanMeier/WorkingWithKaplan_Adjust.png)                  
 
->*You can select a subset from your samples by one or more tracks. Click on the pulldown of 'Select a track (subset)' and click on the track by which you want to define the subset. In the popup you need to check the box of your preferred subset(s). A successful subset selection will be shown as a small message indicating the used trackname, groups and the final number of samples between brackets.*  
+>*You can either use the annotation grid (left) or you can use the pull down (right) to select a subset from your samples by one or more tracks. For the grid, use the clog icon in the 'Advanced settings box' and hover your mouse over the side of the column of choice to show the filering options for that track. You can use the filtering options of multiple tracks to make a specific subset. Here we used gender to only select male samples (i.e. deselect female) and death_cause to select tumor and nd samples. A successful subset selection will be shown as a small message indicating the number of samples in the subset, the used track name and the number of groups/categories between brackets* 
 >
->*If you want to further narrow down your selection with a different track, click on the same pulldown menu. Select the next track that you are interested in and in the popdown, check the preferred subset(s) from that track. Don't forget to click on "Redraw Graph" after you made your final selection to redraw the Kaplan Meijer curve.*  
+>*If you instead want to make the subset selection with the pull-down of **Subset track**, click on the track by which you want to define the subset (in the example: gender). In the popup you need to check the box of your preferred subset(s) (here: male).  
+ If you want to further narrow down your selection with a different track, click on the same pull-down menu. Select the next track (here: death_cause) that you are interested in and in the popdown, check the preferred subset(s) from that track (here: tumor and nd).* 
+>
+>*Don't forget to click on **Redraw Graph** after you made your final selection to redraw the Kaplan Meijer curve.*  
 >
 >*Nb. If you use the 'back' button in your webbroswer, then this selection will be lost and needs to be defined again.*                          
 
@@ -116,17 +115,17 @@ is present.
 4.  The determined separation in groups can be stored in a track and
     used in other analyes, click the "store as track" button
     
-	![](_static/images/KaplanScanASingleGene.png "Figure    5: Kaplan Scan for a single gene")
+	![](_static/images/KaplanMeier/KaplanScanASingleGene.png "Figure    5: Kaplan Scan for a single gene")
 	
-	[**Figure    5: Kaplan Scan for a single gene**](_static/images/KaplanScanASingleGene.png)
+	[**Figure    5: Kaplan Scan for a single gene**](_static/images/KaplanMeier/KaplanScanASingleGene.png)
 	
 5.  To illustrate that with the Kaplan Scan more significant biological
     subgroups can be found, adjust the cut-off mode to "median" in the
     settings menu and click "Redraw Graph".
     
-	![](_static/images/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average")
+	![](_static/images/KaplanMeier/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average")
 	
-	[**Figure    6: Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average**](_static/images/WorkingWithKaplan_Multiple.png)
+	[**Figure    6: Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average**](_static/images/KaplanMeier/WorkingWithKaplan_Multiple.png)
 	
 
 
@@ -144,9 +143,9 @@ out whether this is also the case with other cut-off modi.
     could be of help. Alternatively, you could use the "cutoff" field to
     regenerate a Kaplan curve with that separation.
 
-	![](_static/images/WorkingWithKaplan_ChangePvalue.png "Figure 7: Adjustable settings menu: change p-value cutoff.")
+	![](_static/images/KaplanMeier/WorkingWithKaplan_ChangePvalue.png "Figure 7: Adjustable settings menu: change p-value cutoff.")
 	
-	[**Figure 7: Adjustable settings menu: change p-value cutoff.**](_static/images/WorkingWithKaplan_ChangePvalue.png)
+	[**Figure 7: Adjustable settings menu: change p-value cutoff.**](_static/images/KaplanMeier/WorkingWithKaplan_ChangePvalue.png)
 	
 
 
@@ -170,17 +169,17 @@ Step 3: Kaplan scan for a group of genes
     apoptosis pathway which have significant prognostic value. A heatmap
     for this list of genes is generated as well.
 
-	![](_static/images/WorkingWithKaplan_Kaplanlist.png "Figure 8: A list of Kaplan Meier for a group of genes")
+	![](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist.png "Figure 8: A list of Kaplan Meier for a group of genes")
 	
-	[**Figure 8: A list of Kaplan Meier for a group of genes**](_static/images/WorkingWithKaplan_Kaplanlist.png)
+	[**Figure 8: A list of Kaplan Meier for a group of genes**](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist.png)
 	
 
 In Figure 8, clicking on each gene name in the hugo column will result
 in a new screen or tab with the corresponding Kaplan plot.
 
-![](_static/images/WorkingWithKaplan_Heatmap.png "Figure 9: Heatmap of the significant prognostic list of genes.")
+![](_static/images/KaplanMeier/WorkingWithKaplan_Heatmap.png "Figure 9: Heatmap of the significant prognostic list of genes.")
 
-[**Figure 9: Heatmap of the significant prognostic list of genes.**](_static/images/WorkingWithKaplan_Heatmap.png)
+[**Figure 9: Heatmap of the significant prognostic list of genes.**](_static/images/KaplanMeier/WorkingWithKaplan_Heatmap.png)
 
 In this case, the heatmap shows 2 or 3 possible biologically relevant
 clusters based on this set of genes. Clicking a spot in the heatmap will
@@ -191,15 +190,15 @@ one-gene-view screen.
 
 6. Select in the Graphics panel next to Heatmap data "good_bad (binary)" from the pull down menu. Click Next.
 
-![](_static/images/Workingwithkaplan_heatmapadjust.png "Figure 10: Select binary heatmap")
+![](_static/images/KaplanMeier/Workingwithkaplan_heatmapadjust.png "Figure 10: Select binary heatmap")
 
-[**Figure 10: Select binary heatmap.**](_static/imagesWorkingwithkaplan_heatmapadjust.png)
+[**Figure 10: Select binary heatmap.**](_static/images/KaplanMeier/Workingwithkaplan_heatmapadjust.png)
 
  Now the heatmap shows a clustering based on the GOOD vs BAD prognoses.
 
- ![](_static/images/Workingwithkaplan_heatmapbadgood.png "Figure 11: Binary heatmap")
+ ![](_static/images/KaplanMeier/Workingwithkaplan_heatmapbadgood.png "Figure 11: Binary heatmap")
 
-[**Figure 11 : Binary heatmap.**](_static/Workingwithkaplan_heatmapbadgood.png)
+[**Figure 11 : Binary heatmap.**](_static/images/KaplanMeier/Workingwithkaplan_heatmapbadgood.png)
 
 
 
@@ -214,9 +213,9 @@ Step 4: Kaplan scan on your own cohort
     defined Kaplan Scan, select the "Kaplan Meier" > "Kaplan Meier by
     user provided data" option from the left hand menu.
     
-	![](_static/images/Kaplanscan_userdefined_1a.png "Figure    12: Kaplanscan with user defined    data")
+	![](_static/images/KaplanMeier/Kaplanscan_userdefined_1a.png "Figure    12: Kaplanscan with user defined    data")
 	
-	[**Figure    12: Kaplanscan with user defined    data**](_static/images/Kaplanscan_userdefined_1a.png)
+	[**Figure    12: Kaplanscan with user defined    data**](_static/images/KaplanMeier/Kaplanscan_userdefined_1a.png)
 	
 2.  For the remaining steps to work as intended, we need to take into account
     a couple of things. You should prepare your data in the following
@@ -236,9 +235,9 @@ Step 4: Kaplan scan on your own cohort
     subsequently press next. R2 will now calculate the kaplan method
     that you selected and display the result in an interactive image.
     
-	![](_static/images/Kaplanscan_userdefined_2a.png "Figure    13: Kaplanscan with user defined data    result")
+	![](_static/images/KaplanMeier/Kaplanscan_userdefined_2a.png "Figure    13: Kaplanscan with user defined data    result")
 	
-	[**Figure    13: Kaplanscan with user defined data    result**](_static/images/Kaplanscan_userdefined_2a.png)
+	[**Figure    13: Kaplanscan with user defined data    result**](_static/images/KaplanMeier/Kaplanscan_userdefined_2a.png)
 	
 5.  Once the image has been created, you are able to adapt various
     parameters to optimize appearance of your result.
