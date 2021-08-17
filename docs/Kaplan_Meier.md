@@ -68,7 +68,7 @@ and a mycn amplification, in this cohort.
     
 [**Apply sample filters to your dataset for the Kaplan Meier either with the grid (left) or with the dropdown (right)**](_static/images/KaplanMeier/WorkingWithKaplan_Adjust.png)                  
 
->*You can either use the annotation grid (left) or you can use the pull down (right) to select a subset from your samples by one or more tracks. If you click on the subscription of the picture above, the picture will open in large.*
+>*You can either use the annotation grid (left) or you can use the pull down (right) to select a subset of your samples by one or more tracks. If you click on the subscription of the picture above, the picture will open in large.*
 >
 >*For the use of the grid, use the clog icon in the 'Advanced settings box' and hover your mouse over the side of the column of choice to show the filering options for that track. You can use the filtering options of multiple tracks to make a specific subset. Here we used gender to only select male samples (i.e. deselect female) and death_cause to select tumor and nd samples. A successful subset selection will be shown as a small message indicating the number of samples in the subset, the used track name and the number of groups/categories between brackets* 
 >
