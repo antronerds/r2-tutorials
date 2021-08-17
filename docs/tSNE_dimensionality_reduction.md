@@ -1,6 +1,6 @@
 <a id="tSNE_dimensionality_reduction"></a>
 
-t-SNE / UMAP: high dimensionality reduction in R2
+Sample maps: t-SNE / UMAP, high dimensionality reduction in R2
 ========================================
 
 
