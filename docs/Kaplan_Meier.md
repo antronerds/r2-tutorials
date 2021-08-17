@@ -99,18 +99,16 @@ will find the most significant expression cutoff for
 survival analysis. The best possible Kaplan Meier curve is based on 
 the logrank test. However, R2 does also allow you to use median, 
 average and more as a cutoff in assessing whether a gene of interest 
-has the potential to separate patient survival.Of course, such 
+has the potential to separate patient survival. Of course, such 
 analysis is only possible for datasets where survival data 
 is present.  
 
 
 
-1.  Select from the main screen either the left menu or in field 3,
-    Kaplan Meier "by gene expression". Make sure that "Tumor
-    Neuroblastoma public Versteeg 88" is selected, for analysis
-    choose "Kaplan Scan a single gene", fill in MYCN and use as cut-off
-    method "scan" and click "Next".
-2.  In the next screen use the prefilled settings and click "next".
+1.  Select from the main screen either the left menu the *Kaplan Meier* option or in field 3 of the main menu, and choose 
+    *Spearate by* 'a single gene'. Make sure that "Tumor
+    Neuroblastoma public Versteeg 88" is selected with *Data type* 'Expression data (H. sapiens)', and click *Next*.
+2.  In the next screen fill in 'mycn' in the Search by Gene field and use the first reporter in the list of the dropdown that pospup. Leave the rest as is and click "Next".
 3.  The Kaplan scan generates a Kaplan Meier Plot based on the most
     optimal mRNA cut-off expression level to discriminate between a good
     and bad prognosis cohort.
@@ -123,7 +121,7 @@ is present.
 	
 5.  To illustrate that with the Kaplan Scan more significant biological
     subgroups can be found, adjust the cut-off mode to "median" in the
-    settings menu and click "Redraw Graph".
+    settings menu and click *Redraw Graph*.
     
 	![](_static/images/KaplanMeier/WorkingWithKaplan_Multiple.png "Figure    6:Kaplan plot with multiple cutoffs: A) Scan B) First Quartile C)    Median D)    Average")
 	
@@ -158,25 +156,28 @@ Step 3: Kaplan scan for a group of genes
 ---------------
 
 1.  Instead of using the Kaplan Scan for a single gene you can also
-    analyse a group of genes at the same time. Go back to the main page ("Go to Main" , upperleft corner), choose Kaplan Meier "by
-    gene expression", select at analysis "Kaplan Scan a group of
-    genes" and click "Next".
-2.  In this example select the apoptosis route at the Kegg path way
-    pulldown menu. Leave the "type of survival" at overall survival. In
+    analyse a group of genes at the same time. Go back to the main page ("Go to Main" , upperleft corner), choose *Kaplan-Meier* from the left menu and choose *Select by* 'multiple genes' and click "Next".
+2.  In this example search for a *Gene set* with the **Search GS** button. In the popup grid, type 'apoptosis' in the text field on top and click on the search button. In the adapted grid, open the KEGG pathways by a click on the arrow scroll and go on till you can check the KEGG 'Apoptosis' pathway. Click *Use selected* to go back to the menu, where the 'GS: Apoptosis (85)' geneset is now shown to be selected.
+    
+    ![](_static/images/KaplanMeier/KaplanMeier_selectKEGGPathway.png "Figure 8A: Select a KEGG gene set")
+    	
+    [**Figure 8A: Select a KEGG gene set**](_static/images/KaplanMeier/KaplanMeier_selectKEGGPathway.png)
+    
+3. Leave the *Type of survival* at 'overall-c1103'. In
     the statistics panel there are several filtering options possible,
     leave these options unchanged.
-3.  In the graphics section select "yes" at "Draw heatmap" and
-    click next.
-4.  In the next screen R2 has generated a list of the genes within the
+4.  In the graphics section select "yes" at *Draw heatmap* and
+    click *Next*.
+5.  In the next screen R2 has generated a list of the genes within the
     apoptosis pathway which have significant prognostic value. A heatmap
     for this list of genes is generated as well.
 
-	![](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist.png "Figure 8: A list of Kaplan Meier for a group of genes")
+	![](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist.png "Figure 8B: A list of Kaplan Meier for a group of genes")
 	
-	[**Figure 8: A list of Kaplan Meier for a group of genes**](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist.png)
+	[**Figure 8B: A list of Kaplan Meier for a group of genes**](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist.png)
 	
 
-In Figure 8, clicking on each gene name in the hugo column will result
+In Figure 8B, clicking on each gene name in the hugo column will result
 in a new screen or tab with the corresponding Kaplan plot.
 
 ![](_static/images/KaplanMeier/WorkingWithKaplan_Heatmap.png "Figure 9: Heatmap of the significant prognostic list of genes.")
@@ -188,9 +189,8 @@ clusters based on this set of genes. Clicking a spot in the heatmap will
 show directly the gene expression level for all samples via a new
 one-gene-view screen.
 
-5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, click on the back arrow of your browser and in the Adjustable Settings table set the Kegg Pathway under Gene Filters back to "All". 
+5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, again go to the main page, click on *Kaplan-Meier* from the left menu, select 'by multiple genes' in the *Separate by* option, click next. This time don't select anay gene set, but adapt in the Graphic Settings *Draw a heatmap* again to 'yes', choose in *Heatmap data* dropdown 'good_bad (binary)' and click *Next*. 
 
-6. Select in the Graphics panel next to Heatmap data "good_bad (binary)" from the pull down menu. Click Next.
 
 ![](_static/images/KaplanMeier/Workingwithkaplan_heatmapadjust.png "Figure 10: Select binary heatmap")
 
@@ -212,8 +212,7 @@ Step 4: Kaplan scan on your own cohort
     dataset that is not available in R2. Especially for this reason we
     have made a user defined version within R2, where you can paste your
     cohort into R2 from e.g. a textfile and run the procedure. To initiate such a user
-    defined Kaplan Scan, select the "Kaplan Meier" > "Kaplan Meier by
-    user provided data" option from the left hand menu.
+    defined Kaplan Scan, select the *Kaplan Meier* option again from the main page left menu, and click  on the *Kaplan-Meier analysis using custom data* button underneath the panel. 
     
 	![](_static/images/KaplanMeier/Kaplanscan_userdefined_1a.png "Figure    12: Kaplanscan with user defined    data")
 	
