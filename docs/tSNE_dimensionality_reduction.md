@@ -143,9 +143,9 @@ Suppose the t-SNE algorithm produced some interesting sample clusters that you w
 
     [**Figure 9: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_lassoselection.png)
 
-2. Click on "select subset" below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to cluster. After releasing the mouse button the samples are listed left to the t-SNE map annotated subsequently with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the selection click below the groups "build tracks for subset". 
+2. Click on *Select subset* below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
 
-3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track. Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
+3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track (temporary tracks will be deleted after 24 hrs). Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
   ![](_static/images/Samplemaps/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
 
@@ -167,7 +167,7 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
 1. Go back to the tab with the t-SNE scan map which was generated in step 1 before applying the lasso functionality. 
 
-2. Click on "DBSCAN select subset" below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. 
+2. Click on *DBSCAN select subset* below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. 
 
   ![](_static/images/Samplemaps/Tsne_dbscan_default.png "Figure 11: Using the DBSCAN selection tool")
 
@@ -179,7 +179,7 @@ Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2
 
     [**Figure 12: t-SNE: Using the DBSCAN selection**](_static/images/Samplemaps/Tsne_dbscan_param.png)
  
-4. Click 'Build Track for subset' to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. The created tracks are stored and can be used as group parameters for further usage. Just as the lasso tool, the DB-scan tool is available for both t-SNE maps and PCA plots.
+4. Click *Build Track for subset* to create tracks of these groups, in the same way as described in step 3 of the lasso tool above. The created tracks are stored and can be used as group parameters for further usage. Just as the lasso tool, the DB-scan tool is available for both t-SNE maps, UMAPS and PCA plots.
 
 Final remarks
 ----------------------------
