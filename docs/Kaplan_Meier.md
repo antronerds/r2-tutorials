@@ -66,9 +66,11 @@ and a mycn amplification, in this cohort.
 
 ![](_static/images/KaplanMeier/WorkingWithKaplan_Adjust.png "Apply sample filters to your dataset for the Kaplan Meier either with a grid (left) or with the dropdown (dropdown)") 
     
-[**Apply sample filters to your dataset for the Kaplan Meier either with the grid (left) or with the dropdown (right) **](_static/images/KaplanMeier/WorkingWithKaplan_Adjust.png)                  
+[**Apply sample filters to your dataset for the Kaplan Meier either with the grid (left) or with the dropdown (right)**](_static/images/KaplanMeier/WorkingWithKaplan_Adjust.png)                  
 
->*You can either use the annotation grid (left) or you can use the pull down (right) to select a subset from your samples by one or more tracks. For the grid, use the clog icon in the 'Advanced settings box' and hover your mouse over the side of the column of choice to show the filering options for that track. You can use the filtering options of multiple tracks to make a specific subset. Here we used gender to only select male samples (i.e. deselect female) and death_cause to select tumor and nd samples. A successful subset selection will be shown as a small message indicating the number of samples in the subset, the used track name and the number of groups/categories between brackets* 
+>*You can either use the annotation grid (left) or you can use the pull down (right) to select a subset from your samples by one or more tracks. If you click on the subscription of the picture above, the picture will open in large.*
+>
+>*For the use of the grid, use the clog icon in the 'Advanced settings box' and hover your mouse over the side of the column of choice to show the filering options for that track. You can use the filtering options of multiple tracks to make a specific subset. Here we used gender to only select male samples (i.e. deselect female) and death_cause to select tumor and nd samples. A successful subset selection will be shown as a small message indicating the number of samples in the subset, the used track name and the number of groups/categories between brackets* 
 >
 >*If you instead want to make the subset selection with the pull-down of **Subset track**, click on the track by which you want to define the subset (in the example: gender). In the popup you need to check the box of your preferred subset(s) (here: male).  
  If you want to further narrow down your selection with a different track, click on the same pull-down menu. Select the next track (here: death_cause) that you are interested in and in the popdown, check the preferred subset(s) from that track (here: tumor and nd).* 
