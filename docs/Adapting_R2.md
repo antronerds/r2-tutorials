@@ -101,7 +101,7 @@ Step 3: Create your custom genesets
     available as a Category for all analyses within R2. Go back to the
     main page to see where you can use this set.
     
-    ![](_static/images/AdaptingR2_Inputbox.png "Figure    6: Using the Input Box to upload your category    of genes.")
+    ![](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png "Figure    6: Using the Input Box to upload your category    of genes.")
 	
     [**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
     
