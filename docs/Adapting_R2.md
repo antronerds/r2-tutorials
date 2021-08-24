@@ -34,18 +34,18 @@ Step 1: Adapt your settings
     (Figure 1). When you hover over this item, you see a submenu. In 'Account you can chose a different password or change your personal details.   
     In 'Preferences' you can set some generic R2 analysis and visualization options, click on this item.
     
-	![](_static/images/AdaptingR2_UserOptions.png "Figure    1: Personalizing R2: the User Options menu-item")
+	![](_static/images/AdaptingR2/AdaptingR2_UserOptionsv1.png "Figure    1: Personalizing R2: the User Options menu-item")
 	
-	[**Figure    1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2_UserOptions.png)
+	[**Figure    1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv1.png)
 	
 2.  In the Preferences window several parameters for analyses
     in R2 can be adapted to your preferences. For most analyses these
     are set to appropriate values, but of course you want to set your
     favorite dataset here!
     
-	![](_static/images/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience")
+	![](_static/images/AdaptingR2/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience")
 	
-	[**Figure    2: The User Defined Settings window: change settings at your own convenience](_static/images/AdaptingR2_Userdefined.png)
+	[**Figure    2: The User Defined Settings window: change settings at your own convenience](_static/images/AdaptingR2/AdaptingR2_Userdefined.png)
 	
 3.  Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets'
     . These are of relevance when you've built a specific
@@ -54,9 +54,9 @@ Step 1: Adapt your settings
 4.  The 'Timeseries colors' allows you to set the colors
     for the graphs of specific experiments in a series (Figure 3). 
     
-    ![](_static/images/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors")
+    ![](_static/images/AdaptingR2/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors")
     	
-    [**Figure 3: Setting timeseries colors**](_static/images/AdaptingR2_SettingsTime.png)
+    [**Figure 3: Setting timeseries colors**](_static/images/AdaptingR2/AdaptingR2_SettingsTime.png)
 
     The other menu-items 'Upload New Dataset', 'Categories', 'Tracks' and 'Communities' will be discussed in steps 2 - 6 of this tutorial.
 
@@ -76,17 +76,17 @@ Step 2: How to add data to R2.
     Expression Omnibus dataset, the GSE\*\*\*\* identifier, matrixes in supplemental data and we will
     take care of the rest.
 
-Step 3: Create your own genesets; a.k.a. categories
+Step 3: Create your custom genesets
 ---------------
 
-1.  Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets, or gene categories. Many analyses in R2 can be performed on a subset of genes (see [chapter 14](Using_And_Creating_Genesets.html) for a tutorial on performing gene set analysis).
+1.  Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets or referend to in r2 as genecategories. Many analyses in R2 can be performed on a subset of genes (see [chapter 14](Using_And_Creating_Genesets.html) for a tutorial on performing gene set analysis).
     There are 3 main sources for gene sets. Firstly R2 harbors hundreds of predefined sets of genes (such as KEGG pathways or sets defined by the Broad Institute). Secondly, some analyses will result in gene lists, which R2 allows you to save on the fly such that they can be used for further analyses (e.g. [Toplister analysis](Using_And_Creating_Genesets.html?highlight=hundreds#step-4-unsupervised-hierarchical-clusterin-with-a-geneset)).  
-    Next to these two options, you can introduce your own gene sets of interest directly to R2 as well; Hover over the 'Category' sub-item and select 'Build Category'
+    Next to these two options, you can introduce your own gene sets of interest directly to R2 as well; Hover over the 'custom genesets' sub-item and select 'Build Category'
     (Figure 5).
     
-	![](_static/images/AdaptingR2_Categories.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
+	![](_static/images/AdaptingR2/AdaptingR2_customgenesets.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
 	
-	[**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2_Categories.png)
+	[**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2/AdaptingR2_Categories.png)
 	
 2.  The 'Custom Category' window pops up (Figure 6). By default in this window you can
     add a gene set, i.e. a gene category, from the input box.  
