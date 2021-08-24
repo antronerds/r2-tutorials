@@ -79,16 +79,16 @@ Step 2: How to add data to R2.
 Step 3: Create your custom genesets
 ---------------
 
-1.  Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets or referend to in r2 as genecategories. Many analyses in R2 can be performed on a subset of genes (see [chapter 14](Using_And_Creating_Genesets.html) for a tutorial on performing gene set analysis).
+1. Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets or referend to in r2 as genecategories. Many analyses in R2 can be performed on a subset of genes (see [chapter 14](Using_And_Creating_Genesets.html) for a tutorial on performing gene set analysis).
     There are 3 main sources for gene sets. Firstly R2 harbors hundreds of predefined sets of genes (such as KEGG pathways or sets defined by the Broad Institute). Secondly, some analyses will result in gene lists, which R2 allows you to save on the fly such that they can be used for further analyses (e.g. [Toplister analysis](Using_And_Creating_Genesets.html?highlight=hundreds#step-4-unsupervised-hierarchical-clusterin-with-a-geneset)).  
-    Next to these two options, you can introduce your own gene sets of interest directly to R2 as well; Hover over the 'custom genesets' sub-item and select 'Build Category'
+    Next to these two options, you can introduce your own gene sets of interest directly to R2 as well; Hover over the 'custom genesets' sub-item and select the button 'custoum geneset editor'
     (Figure 5).
     
-	![](_static/images/AdaptingR2/AdaptingR2_customgenesets.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
+    ![](_static/images/AdaptingR2/AdaptingR2_customgenesets.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
 	
-	[**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2/AdaptingR2_Categories.png)
+    [**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2/AdaptingR2_Categories.png)
 	
-2.  The 'Custom Category' window pops up (Figure 6). By default in this window you can
+2. The 'Custom Geneset editot' window pops up (Figure 6). By default in this window you can
     add a gene set, i.e. a gene category, from the input box.  
     The input box allows you to paste a list of genes to upload as a
     category for use in analyses in R2. In the example a set of genes,
@@ -101,11 +101,11 @@ Step 3: Create your custom genesets
     available as a Category for all analyses within R2. Go back to the
     main page to see where you can use this set.
     
-	![](_static/images/AdaptingR2_Inputbox.png "Figure    6: Using the Input Box to upload your category    of genes.")
+    ![](_static/images/AdaptingR2_Inputbox.png "Figure    6: Using the Input Box to upload your category    of genes.")
 	
-	[**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
+    [**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
     
-3.  Instead of using the Input box, you can define a set of genes from a text file formatted similarly as in the input box in step 2, as a single column of official
+3. Instead of using the Input box, you can define a set of genes from a text file formatted similarly as in the input box in step 2, as a single column of official
     gene symbols (obtained from [NCBI gene](https://www.ncbi.nlm.nih.gov/gene)). Again, the data can be
     stored temporary (24 hrs) or in your personal gene category database. 
     
@@ -113,37 +113,37 @@ Step 3: Create your custom genesets
     
     [**Figure    7: Building a Custom Category: Uploading    a file.**](_static/images/AdaptingR2_BuildingCategory.png)
 	
-4.  We're going to lookup your category, an example is available in the
+4. We're going to lookup your category, an example is available in the
     Gene Set View. In the main menu in Field 3 select 'View a Geneset (Heatmap)'
     and click "next"( Figure 8)
     
-	![](_static/images/AdaptingR2_Viewset.png "Figure    8: Using a category; select View    Geneset")
+    ![](_static/images/AdaptingR2_Viewset.png "Figure    8: Using a category; select View    Geneset")
 	
-	[**Figure    8: Using a category; select View    Geneset**](_static/images/AdaptingR2_Viewset.png)
+    [**Figure    8: Using a category; select View    Geneset**](_static/images/AdaptingR2_Viewset.png)
 	
-5.  In the GeneSetView your Category is privately available for yourself
+5. In the GeneSetView your Category is privately available for yourself
     for similar analyses as with any other public gene set present in R2.
     Select 'My GeneCategories' to choose from your categories.
     If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the following window  (Figure 9).
     
-	![](_static/images/AdaptingR2_Selectgeneset.png "Figure    9: Selecting your    genecategories")
+    ![](_static/images/AdaptingR2_Selectgeneset.png "Figure    9: Selecting your    genecategories")
 	
-	[**Figure    9: Selecting your genecategories**](_static/images/AdaptingR2_Selectgeneset.png)
+    [**Figure    9: Selecting your genecategories**](_static/images/AdaptingR2_Selectgeneset.png)
 	
-6.  Now you can specify which gene set you want to view and how you want to the heatmap to be displayed.
+6. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed.
     The Category 'Changed Genes' we just made above is available
     (Figure 10 A), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme that you prefer.  
     For now we end here, later on we'll see the category again in the context of Tracks.
     
-	![](_static/images/AdaptingR2_YourGeneset.png "Figure    10 A: Your geneset is available    as category.")
+    ![](_static/images/AdaptingR2_YourGeneset.png "Figure    10 A: Your geneset is available    as category.")
 	
-	[**Figure    10 A: Your geneset is available    as category.**](_static/images/AdaptingR2_YourGeneset.png)
+    [**Figure    10 A: Your geneset is available    as category.**](_static/images/AdaptingR2_YourGeneset.png)
 	
     ![](_static/images/AdaptingR2_YourGeneset2.png "Figure    10 B: Your geneset is used to create a heatmap.")
     	
     [**Figure 10 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2_YourGeneset2.png)
     
-7.  We now return to the side menu of the R2 page to find out how we can manage
+7. We now return to the side menu of the R2 page to find out how we can manage
     the categories we just built. From the 'User Options' item in the menu hover over
     'Categories' and click 'Manage Categories'.  
     The Category Manager (Figure 11) allows you to keep track of the categories; 
@@ -151,27 +151,27 @@ Step 3: Create your custom genesets
     To keep track of large amounts of categories these can be stored in Collections. 
     The top part of the Category Manager shows options to switch on or off Collections of Categories.
     
-	![](_static/images/AdaptingR2_CategoryManager.png "Figure    11: The Category    Manager")
+    ![](_static/images/AdaptingR2_CategoryManager.png "Figure    11: The Category    Manager")
 	
-	[**Figure    11: The Category    Manager**](_static/images/AdaptingR2_CategoryManager.png)
+    [**Figure    11: The Category    Manager**](_static/images/AdaptingR2_CategoryManager.png)
 	
-8.  Existing Categories can be adapted or deleted. New Categories can be based on
+8. Existing Categories can be adapted or deleted. New Categories can be based on
     existing ones. As an example we're going to update the Category we
     just made. Click the 'Copy/Delete/Rename/Edit Categories' button of the Category Manager (Figure 11). 
     In the next screen you'll be asked what type of procedure is needed for your Category of choice. 
     First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. Then choose from the 'Select operation' dropdown the 'update' item 
     and click 'Execute'. 
     
-	![](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
+    ![](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
 	
-	[**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
+    [**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
 	
-9.  In our case we want to keep the Category and update it with a list of 78 genes. After you have typed your list of genes in the box,
+9. In our case we want to keep the Category and update it with a list of 78 genes. After you have typed your list of genes in the box,
     click the Update the category box.
         
-	![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
+    ![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
 	
-	[**Figure    13: The Category we just built can be adapted in    all details.**](_static/images/AdaptingR2_AdaptCategory.png)
+    [**Figure    13: The Category we just built can be adapted in    all details.**](_static/images/AdaptingR2_AdaptCategory.png)
 	
     All details of the Category we built in the former steps are available for adaptation. In this way you can keep track and adapt the gene sets you use for your analyses.
 
