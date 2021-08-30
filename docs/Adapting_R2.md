@@ -88,60 +88,50 @@ Step 3: Create your custom genesets
 	
     [**Figure    5: Categories related menu-items; select Build Category to make    your own.**](_static/images/AdaptingR2/AdaptingR2_Categories.png)
 	
-2. The 'Custom Geneset editot' window pops up (Figure 6). By default in this window you can
-    add a gene set, i.e. a gene category, from the input box.  
-    The input box allows you to paste a list of genes to upload as a
-    category for use in analyses in R2. In the example a set of genes,
-    often mutated in tumors, are pasted. You can provide a name of your choice as CategoryName. If you want this gene set to remain available for you, select from the 'Where' dropdown menu the option 'personal Category'  
-    (for options to share the category with people in your community, see
-    later in this tutorial). If you just want to store the set temporarily for 24 hours, choose 'Temporary (24 hrs)'. 
-    Click "next" to upload the set (Figure 6),
+2. The 'Custom Geneset editor' window pops up (Figure 6). By default in this window you must
+    provide a unique name for the set. The input box allows you to paste a list of genes to upload as a geneset for use in analyses in R2. In the example a set of genes,
+    specific for ALL tumors are pasted.  If you want this gene set to remain available for you, select in the community dropdown , "none" of select a community name for sharing the geneset. The concept "commmunity" is descibed later in this tutorial.
+    If you just want to store the set temporarily for 24 hours, choose 'yes' in the temporary dropdown.  
+    Click "save geneset" to upload the set (Figure 6),
     you'll receive a message when everything has succeeded. Your set of
     genes is now
-    available as a Category for all analyses within R2. Go back to the
+    available as a geneset for all analyses within R2. Go back to the
     main page to see where you can use this set.
     
     ![](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png "Figure    6: Using the Input Box to upload your category    of genes.")
 	
-    [**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2_Inputbox.png)
+    [**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
     
-3. Instead of using the Input box, you can define a set of genes from a text file formatted similarly as in the input box in step 2, as a single column of official
-    gene symbols (obtained from [NCBI gene](https://www.ncbi.nlm.nih.gov/gene)). Again, the data can be
-    stored temporary (24 hrs) or in your personal gene category database. 
-    
-    ![](_static/images/AdaptingR2_BuildingCategory.png "Figure    7: Building a Custom Category: Uploading    a file.")
-    
-    [**Figure    7: Building a Custom Category: Uploading    a file.**](_static/images/AdaptingR2_BuildingCategory.png)
-	
-4. We're going to lookup your category, an example is available in the
+
+4. We're going to lookup your geneset, an example is available in the
     Gene Set View. In the main menu in Field 3 select 'View a Geneset (Heatmap)'
-    and click "next"( Figure 8)
+    and click "next"( Figure 7)
     
-    ![](_static/images/AdaptingR2_Viewset.png "Figure    8: Using a category; select View    Geneset")
+    ![](_static/images/AdaptingR2/AdaptingR2_Viewset_v1.png "Figure    7: Using a geneset; select View    Geneset")
 	
-    [**Figure    8: Using a category; select View    Geneset**](_static/images/AdaptingR2_Viewset.png)
+    [**Figure    7: Using a geneset; select View    Geneset**](_static/images/AdaptingR2_Viewset.png)
 	
-5. In the GeneSetView your Category is privately available for yourself
+5. In the GeneSetView your custom geneset is privately available for yourself
     for similar analyses as with any other public gene set present in R2.
     Select 'My GeneCategories' to choose from your categories.
     If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the following window  (Figure 9).
     
-    ![](_static/images/AdaptingR2_Selectgeneset.png "Figure    9: Selecting your    genecategories")
+    ![](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    8: Selecting your genesets")
 	
-    [**Figure    9: Selecting your genecategories**](_static/images/AdaptingR2_Selectgeneset.png)
+    [**Figure    8: Selecting your genecsets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
 	
 6. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed.
-    The Category 'Changed Genes' we just made above is available
+    The geneset 'Changed Genes' we just made above is available
     (Figure 10 A), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme that you prefer.  
     For now we end here, later on we'll see the category again in the context of Tracks.
     
     ![](_static/images/AdaptingR2_YourGeneset.png "Figure    10 A: Your geneset is available    as category.")
 	
-    [**Figure    10 A: Your geneset is available    as category.**](_static/images/AdaptingR2_YourGeneset.png)
+    [**Figure    9 A: Your geneset is available.**](_static/images/AdaptingR2_YourGeneset.png)
 	
     ![](_static/images/AdaptingR2_YourGeneset2.png "Figure    10 B: Your geneset is used to create a heatmap.")
     	
-    [**Figure 10 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2_YourGeneset2.png)
+    [**Figure 9 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2_YourGeneset2.png)
     
 7. We now return to the side menu of the R2 page to find out how we can manage
     the categories we just built. From the 'User Options' item in the menu hover over
