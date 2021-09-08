@@ -140,12 +140,12 @@ Step 3: Create your custom genesets
     
     ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage.png "Figure 10: The geneset module")
 	 
-   1. [**Figure    10: The adapting your genesets **](_static/images/AdaptingR2/AdaptingR2_CategoryManager.png)
+    [**Figure    10: The adapting your genesets **](_static/images/AdaptingR2/AdaptingR2_CategoryManager.png)
 
        Existing genesets can be adapted, deleted or moved to another collection. New genesets can be based on
        existing ones. As an example we're going to update the genesets we
        just made. Click the 'pencil' icon next to the custom geneset in teh custom geneset editor. 
-       In the next screen you'll be asked what type of procedure is needed for your Category of choice. 
+       In the next screen you can add or delete genes and provide  backg
        First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. Then choose from the 'Select operation' dropdown the 'update' item 
        and click 'Execute'. 
     
