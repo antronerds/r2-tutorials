@@ -102,7 +102,6 @@ Step 3: Create your custom genesets
 	
     [**Figure    6: Using the Input Box to upload your category    of genes.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
     
-
 4. We're going to lookup your geneset, an example is available in the
     Gene Set View. In the main menu in Field 3 select 'View a Geneset (Heatmap)'
     and click "next"( Figure 7)
@@ -119,7 +118,7 @@ Step 3: Create your custom genesets
     
     ![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    8: Selecting your genesets")
 	
-    [**Figure    8: Selecting your genecsets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
+    [**Figure    8: Selecting your genesets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
 	
 7. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed.
     The geneset 'Changed Genes' we just made above is available
@@ -130,39 +129,25 @@ Step 3: Create your custom genesets
 	
     [**Figure    9 A: Your geneset is available.**](_static/images//AdaptingR2/AdaptingR2_YourGeneset.png)
 	
-    ![](_static/images/AdaptingR2_YourGeneset2.png "Figure    9 B: Your geneset is used to create a heatmap.")
+    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png "Figure    9 B: Your geneset is used to create a heatmap.")
     	
-    [**Figure 9 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2_YourGeneset2.png)
+    [**Figure 9 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
     
 8. We now return to the side menu of the R2 page to find out how we can manage
-   the genesets we just built. From the 'User Options' item in the menu, click Custom geneset
-   The custom geneset module allow you to organize you curtom genesets , assigning the sets to a collection or delete custom sets.
-    
-    ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage.png "Figure 10: The geneset module")
-	 
-    [**Figure    10: The adapting your genesets **](_static/images/AdaptingR2/AdaptingR2_CategoryManager.png)
+   the genesets we just built. From the 'User Options' item in the menu, click Custom geneset.
+   The custom geneset module allow you to organize you cuStom genesets , assigning the sets to a collection or delete custom sets.
+   
+    ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage_v1.png "Figure 10: The geneset module")
+	
+    [**Figure    10: Adapting your genesets**](_static/images/AdaptingR2/AdaptingR2_CategoryManager_v1.png)
 
-       Existing genesets can be adapted, deleted or moved to another collection. New genesets can be based on
-       existing ones. As an example we're going to update the genesets we
-       just made. Click the 'pencil' icon next to the custom geneset in teh custom geneset editor. 
-       In the next screen you can add or delete genes and provide  backg
-       First, chose 'ChangedGenes' from the 'Select Category' dropdown menu. Then choose from the 'Select operation' dropdown the 'update' item 
-       and click 'Execute'. 
-    
-       ![](_static/images/AdaptingR2_Selectprocedure.png "Figure    12: Select the procedure for a Category; in this case    'update")
-	
-       [**Figure    12: Select the procedure for a Category; in this case    'update**](_static/images/AdaptingR2_Selectprocedure.png)
-	
-9. In our case we want to keep the Category and update it with a list of 78 genes. After you have typed your list of genes in the box,
-    click the Update the category box.
-        
-    ![](_static/images/AdaptingR2_AdaptCategory.png "Figure    13: The Category we just built can be adapted in    all details.")
-	
-    [**Figure    13: The Category we just built can be adapted in    all details.**](_static/images/AdaptingR2_AdaptCategory.png)
-	
-    All details of the Category we built in the former steps are available for adaptation. In this way you can keep track and adapt the gene sets you use for your analyses.
+    Existing genesets can be adapted, deleted or moved to another collection. New genesets can be based on
+    existing ones. As an example we're going to update the genesets we
+    just made. Click the 'pencil' icon next to the custom geneset in the custom geneset editor. 
+    In the next screen you can add or delete genes and provide  background information and choose for the update of new geneset optipn in the pulldown menu.
+   
 
-
+   
 Step 4: Tracks in R2: create your own data annotation
 ---------------
 
@@ -265,7 +250,7 @@ Step 4: Tracks in R2: create your own data annotation
    When collections of tracks are used, these will show up conveniently as separate groups of tracks under the graph.
 
    ![](_static/images/AdaptingR2_SelectDefaultResult.png "Figure    22 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'")
-				
+						
    [**Figure    22 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'**](_static/images/AdaptingR2_SelectDefaultResult.png)
    
    Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use the 'Reset to defaults button' to go back to the original dataset settings of tracks.  
@@ -428,9 +413,9 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
     	
 
  	![](_static/images/AdaptingR2_Availablegroups.png "Figure 35: The available Communities for this user")
+ 	
+ 	[**Figure 35: The available Communities for this user**](_static/images/AdaptingR2_Availablegroups.png)
 
-   	[**Figure 35: The available Communities for this user**](_static/images/AdaptingR2_Availablegroups.png)
-    
 5.  You have to add users by their R2 username; we'll add
     user "pietmolenaar". He'll receive a message in the R2 startup page
     as soon as he logs on the next time. Click "next" to add the user.
@@ -493,7 +478,6 @@ into any quirks or annoyances don't hesitate to contact r2 support
 
 
 We hope that this tutorial has been helpful, the R2 support team.
-
 
 
 
