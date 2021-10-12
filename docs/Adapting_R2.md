@@ -151,7 +151,7 @@ Step 3: Create your custom genesets
 Step 4: Tracks in R2: create your own data annotation
 ---------------
 
-1.  Another important feature in R2 that can be adapted to your needs are the tracks. In R2, the samples can be annotated with sample characteristics, e.g clinical data.
+1. Another important feature in R2 that can be adapted to your needs are the tracks. In R2, the samples can be annotated with sample characteristics, e.g clinical data.
     Each group of annotated data is called a “Track”. Tracks in R2 give you the opportunity to divide
     your samples in e.g. groups with different phenotypes for comparative or subgroup analysis.  
     For some datasets the annotation that you need may be available already. For others you might want to add extra sample annotation for analysis  such as combining already added tracks. Tracks can be adapted in multiple ways.
@@ -164,58 +164,58 @@ Step 4: Tracks in R2: create your own data annotation
     
       We'll first start with a K-means analysis that results in a division of the samples in two
       groups (for more about this analysis see [chapter 14](K_Means_Clustering.html)).
-	  On the main page of R2 select the K-means analysis in Field 3 (Figure 11)
+      On the main page of R2 select the K-means analysis in Field 3 (Figure 11)
 	
-	![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    11: Selecting a K-means    analysis")
+    ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    11: Selecting a K-means    analysis")
 	
-	[**Figure    11: Selecting a K-means    analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
+    [**Figure    11: Selecting a K-means    analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
 	
-2.  In the settings window for the K-means analysis (Figure 12) you can
+2. In the settings window for the K-means analysis (Figure 12) you can
     choose the Category created above to cluster the current set
     of samples. In our case this is called ChangedGenes. Make sure that the
     number of draws is set to 10x10, click 'next'
     
-	![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    12: Settings for K-means; the Category built above is available for    clustering")
+    ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    12: Settings for K-means; the Category built above is available for    clustering")
 	
-	[**Figure    12: Settings for K-means; the Category built above is available for    clustering**](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
+    [**Figure    12: Settings for K-means; the Category built above is available for    clustering**](_static/images/AdaptingR2/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
 	
-3.  The resulting clustering in two groups might not be ultimately
-    convincing (Figure 16, your result might look slightly different), but for our testing purposes this
+3. The resulting clustering in two groups might not be ultimately
+    convincing (Figure 36, your result might look slightly different), but for our testing purposes this
     is alright. What is important is that the resulting groups can be
     stored as a track; click the button 'store as a track'.
     
-	![](_static/images//AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
+    ![](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
 	
-	[**Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrack.png)
+    [**Figure    13: Clustering result of the Neuroblastoma dataset with a geneset built in the former    steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrack.png)
 	
-4.  R2 now shows all samples as a long table with radio buttons
+4. R2 now shows all samples as a long table with radio buttons
     indicating which group each sample belongs to. These can be adapted
     if you want to. Scroll down the window to find the fields that have
     to be set in order to store this as a track (Figure 17). You may
     want to change the group names into something more informative, and
     potentially also change the name to something you could easily
     relate to.
+
+   ![](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png "Figure    14: Storing the current groups as a Track for use in later analysis.")
+
+   [**Figure    14: Storing the current groups as a Track for use in later analysis. **](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png)
+	
+5. After optionally changing the parameters, you can click the Build set button to store the track. In the
+    custom tracks manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 15).
     
-	![](_static/images/AdaptingR2_DefineGroups.png "Figure    17: Storing the current groups as a Track for use in later analysis.")
+    ![](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv1.png "Figure    15: Selecting the Manage Custom    Tracks")
 	
-	[**Figure    17: Storing the current groups as a Track for use in later analysis. **](_static/images/AdaptingR2_DefineGroups.png)
+    [**Figure    15: Selecting the Manage Custom    Tracks**](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv1.png)
 	
-5.  After optionally changing the parameters, you can click the Build set button to store the track. In the
-    custom tracks manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 18).
-    
-	![](_static/images/AdaptingR2_ManageCustomTracks.png "Figure    18: Selecting the Manage Custom    Tracks")
-	
-	[**Figure    18: Selecting the Manage Custom    Tracks**](_static/images/AdaptingR2_ManageCustomTracks.png)
-	
-6.  In the next screen keep the default selection, i.e. your current dataset.
+6. In the next screen keep the default selection, i.e. your current dataset.
     Tracks are, of course, defined based on a specific dataset; for each
     dataset you can store your own tracks. Click 'Continue'.
-    
-	![](_static/images/AdaptingR2_DatasetTracks.png "Figure    19: Tracks are defined per dataset; keep the    current selection.")
+
+   ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv1.png "Figure    16: Tracks are defined per dataset; keep the    current selection.")
 	
-	[**Figure    19: Tracks are defined per dataset; keep the    current selection.**](_static/images/AdaptingR2_DatasetTracks.png)
+    [**Figure    16: Tracks are defined per dataset; keep the    current selection.**](_static/images/AdaptingR2_AdaptTrackv1.png)
 	
-7.  In the next screen you're able to adapt the Track we just generated.
+7. In the next screen you're able to adapt the Track we just generated.
     Of interest in here is the option "Drawtrack", which will result in
     the display of the information underneath the YY-plots.  
     The tracks can also be assigned to collections to make large sets of
@@ -224,36 +224,36 @@ Step 4: Tracks in R2: create your own data annotation
     Now we'll pay attention to the default tracks for this dataset. The track we just generated can be adapted from here. For a
     start set the Drawtrack propery to 'yes'; we want to see this track in the graphs we create!
     
-	![](_static/images/AdaptingR2_AdaptTrack.png  "Figure 20: Adapting track paramteters.") 
+    ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrack.png  "Figure 17: Adapting track paramteters.") 
     
-    [**Figure    20: Adapting track paramteters.**](_static/images/AdaptingR2_AdaptTrack.png)
+    [**Figure    17: Adapting track paramteters.**](_static/images/AdaptingR2_AdaptTrack.png)
     
 8. Select Manage Default Tracks from the 'User Options' > 'Tracks' sub-menu (Figure 21)
 
-   ![](_static/images/AdaptingR2_ManageDefaultTracks.png "Figure    21: Selecting the Default Tracks    Manager")
+   ![](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracks.png "Figure  18: Selecting the Default Tracks    Manager")
 
-   [**Figure    21: Selecting the Default Tracks    Manager**](_static/images/AdaptingR2_ManageDefaultTracks.png)
+   [**Figure    18: Selecting the Default Tracks    Manager**](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracks.png)
 
 9. In the next screen the dataset has to be defined; keep the defaults
-   and click Continue. You'll end up in the Default Tracks Manager
-   (Figure 22). Basically all annotation provided with this dataset is
-   available as a track. Try out different things here.  
-   We'll select additional annotations by changing their Drawtrack value to 'yes': age_year, gender and recurrence will be shown underneath graphs as well in further analyses.  
-   Also, we'll set the Collection of age_year and agegroup 
-   to NEW. Next to NEW Collection name, we add a befitting name that defines this group of tracks. Here we typed 'Age related'.    Be sure to click the 'Update Tracks' button for
-   these changes to take effect.  
+    and click Continue. You'll end up in the Default Tracks Manager
+    (Figure 22). Basically all annotation provided with this dataset is
+    available as a track. Try out different things here.  
+    We'll select additional annotations by changing their Drawtrack value to 'yes': age_year, gender and recurrence will be shown underneath graphs as well in further analyses.  
+    Also, we'll set the Collection of age_year and agegroup 
+    to NEW. Next to NEW Collection name, we add a befitting name that defines this group of tracks. Here we typed 'Age related'.    Be sure to click the 'Update Tracks' button for
+    these changes to take effect.  
    
-   ![](_static/images/AdaptingR2_SelectDefault.png "Figure    22 A: Selecting the default tracks for this    dataset")
+    ![](_static/images/AdaptingR2/AdaptingR2_SelectDefault.png "Figure    19 A: Selecting the default tracks for this    dataset")
 
-   [**Figure    22 A: Selecting the default tracks for this    dataset**](_static/images/AdaptingR2_SelectDefault.png)
+    [**Figure    19 A: Selecting the default tracks for this    dataset**](_static/images/AdaptingR2/AdaptingR2_SelectDefault.png)
 
-   When collections of tracks are used, these will show up conveniently as separate groups of tracks under the graph.
+    When collections of tracks are used, these will show up conveniently as separate groups of tracks under the graph.
 
-   ![](_static/images/AdaptingR2_SelectDefaultResult.png "Figure    22 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'")
+    ![](_static/images/AdaptingR2/AdaptingR2_SelectDefaultResult.png "Figure    19 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'")
 						
-   [**Figure    22 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'**](_static/images/AdaptingR2_SelectDefaultResult.png)
+    [**Figure    19 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'**](_static/images/AdaptingR2/AdaptingR2_SelectDefaultResult.png)
    
-   Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use the 'Reset to defaults button' to go back to the original dataset settings of tracks.  
+    Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use the 'Reset to defaults button' to go back to the original dataset settings of tracks.  
 
 
 Step 5: Upload your own tracks
