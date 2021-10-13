@@ -36,7 +36,7 @@ Step 1: Adapt your settings
 
    ![](_static/images/AdaptingR2/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience")
 
-   [**Figure    2: The User Defined Settings window: change settings at your own convenience](_static/images/AdaptingR2/AdaptingR2_Userdefined.png)
+   [**Figure    2: The User Defined Settings window: change settings at your own convenience**](_static/images/AdaptingR2/AdaptingR2_Userdefined.png)
 
 3. Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets' . These are of relevance when you've
    built a specific Preset in an analysis Across Datasets ( see chapter: Multiple datasets overview with Megasampler).
@@ -58,10 +58,9 @@ Step 2: How to add data to R2.
    only R2 administrators can add data to R2.   
    In order to do so, the data first has to be processed and uploaded.  [Chapter 24](/R2_Dataset_Addition.html)
    describes in detail how to prepare your data such that we can process it and upload the data to R2.  
-   If you have any specific annotations or wishes or samples other than Affymetrix you'd best contact r2 support
-   directly
-   (<r2-support@amc.nl>). If you would like to see a publicly accessible dataset in R2, then send an email
-   to <r2-support@amc.nl>
+   
+   (<r2-support@amsterdamumc.nl>). If you would like to see a publicly accessible dataset in R2, then send an email
+   to <r2-support@amsterdamumc.nl>
    with a link to the data, or in the case of a Gene Expression Omnibus dataset, the GSE\*\*\*\* identifier, matrixes in
    supplemental data and we will take care of the rest.
 
@@ -82,7 +81,7 @@ Step 3: Create your custom genesets
 
    ![](_static/images/AdaptingR2/AdaptingR2_customgenesets.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
 
-   [**Figure 5: Categories related menu-items; select Build Category to make your
+   [**Figure 5: Geneset related menu-items; select Custom genesets to make your
    own.**](_static/images/AdaptingR2/AdaptingR2_Categories.png)
 
 2. The 'Custom Geneset editor' window pops up (Figure 6). By default in this window you must provide a unique name for
@@ -97,8 +96,7 @@ Step 3: Create your custom genesets
 
    ![](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png "Figure    6: Using the Input Box to upload your category    of genes.")
 
-   [**Figure 6: Using the Input Box to upload your category of
-   genes.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
+   [**Figure 6: Using the Input Box to upload your genesets.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
 
 4. We're going to lookup your geneset, an example is available in the Gene Set View. In the main menu in Field 3
    select 'View a Geneset (Heatmap)'
@@ -110,9 +108,9 @@ Step 3: Create your custom genesets
 
 5. In the GeneSetView your custom geneset is privately available for yourself for similar analyses as with any other
    public gene set present in R2. Select 'My GeneCategories' to choose from your categories.
-6.
-If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the
-following window  (Figure 9).
+   6.
+   If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the
+   following window  (Figure 9).
 
 ![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    8: Selecting your genesets")
 
@@ -120,7 +118,7 @@ following window  (Figure 9).
 
 7. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed. The geneset '
    Changed Genes' we just made above is available
-   (Figure 10 A), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme
+   (Figure 9A), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme
    that you prefer.  
    For now we end here, later on we'll see the category again in the context of Tracks.
 
@@ -169,7 +167,7 @@ Step 4: Tracks in R2: create your own data annotation
 
    [**Figure 11: Selecting a K-means analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
 
-2. In the settings window for the K-means analysis (Figure 12) you can choose the Category created above to cluster the
+2. In the settings window for the K-means analysis (Figure 12) you can choose the geneset created above to cluster the
    current set of samples. In our case this is called ChangedGenes. Make sure that the number of draws is set to 10x10,
    click 'next'
 
@@ -194,7 +192,7 @@ Step 4: Tracks in R2: create your own data annotation
 
    ![](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png "Figure    14: Storing the current groups as a Track for use in later analysis.")
 
-   [**Figure    14: Storing the current groups as a Track for use in later analysis. **](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png)
+   [**Figure    14: Storing the current groups as a Track for use in later analysis.**](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png)
 
 5. After optionally changing the parameters, you can click the Build set button to store the track. In the custom tracks
    manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 15).
@@ -357,17 +355,17 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    Creating a community is done by clicking 'Community' in the 'User Options' menu
    (Figure 31).
 
-   ![](_static/images/AdaptingR2_Community.png "Figure    32: Community in the User Options menu")
+   ![](_static/images/AdaptingR2/AdaptingR2_Community.png "Figure    32: Community in the User Options menu")
 
-   [**Figure 32: Community in the User Options menu**](_static/images/AdaptingR2_Community.png)
+   [**Figure 32: Community in the User Options menu**](_static/images/AdaptingR2/AdaptingR2_Community.png)
 
 2. Since this will be the first time in the community section, there are no communities yet; click the 'Start a new
    Community' link
    (Figure 32).
 
-   ![](_static/images/AdaptingR2_StartCommunity.png "Figure    33: Starting a    community")
+   ![](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png "Figure    33: Starting a    community")
 
-   [**Figure 33: Starting a community**](_static/images/AdaptingR2_StartCommunity.png)
+   [**Figure 33: Starting a community**](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png)
 
 3. In the Community window a name has to be set and a short description for people invited as members for this group (
    Figure 33). Through a community you can share GeneCategories, Tracks and Settings.
@@ -375,53 +373,53 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    ![](_static/images/AdaptingR2_SettingCommunitygroup.png "Figure    33: Setting the Community group name    and description.")
 
    [**Figure 34: Setting the Community group name and
-   description.**](_static/images/AdaptingR2_SettingCommunitygroup.png)
+   description.**](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroup.png)
 
 4. Click 'Next'; you'll be notified that the group has been created; return to the Communities Center by clicking the
    Community link again in the User Options menu (Figure 32). The TestGroup has been created (next to the already
    existing MyTestGroup for this user). Click the link to start adding users (Figure 35).
 
- 	![](_static/images/AdaptingR2_Availablegroups.png "Figure 35: The available Communities for this user")
+ 	![](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png "Figure 35: The available Communities for this user")
  	
- 	[**Figure 35: The available Communities for this user**](_static/images/AdaptingR2_Availablegroups.png)
+ 	[**Figure 35: The available Communities for this user**](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png)
 
 5. You have to add users by their R2 username; we'll add user "pietmolenaar". He'll receive a message in the R2 startup
    page as soon as he logs on the next time. Click "next" to add the user.
 
-   ![](_static/images/AdaptingR2_GroupManager.png "'Figure    36: Add a user by their R2 user    name")
+   ![](_static/images/AdaptingR2/AdaptingR2_GroupManager.png "'Figure    36: Add a user by their R2 user    name")
 
-   [**Figure 36: Add a user by their R2 user name**](_static/images/AdaptingR2_GroupManager.png)
+   [**Figure 36: Add a user by their R2 user name**](_static/images/AdaptingR2/AdaptingR2_GroupManager.png)
 
 6. R2 returns with a message that the user has been invited, he or she has to accept your invitation first before he
    will see what you are sharing.
 
-   ![](_static/images/AdaptingR2_Managegroups.png "Figure    37: R2 return message; user is invited; but not yet    visible")
+   ![](_static/images/AdaptingR2/AdaptingR2_Managegroups.png "Figure    37: R2 return message; user is invited; but not yet    visible")
 
-   [**Figure 37: R2 return message; user is invited; but not yet visible**](_static/images/AdaptingR2_Managegroups.png)
+   [**Figure 37: R2 return message; user is invited; but not yet visible**](_static/images/AdaptingR2/AdaptingR2_Managegroups.png)
 
 7. The perspective of the invited user after logon; he or she can accept the invitation (Figure 37).
 
-   ![](_static/images/AdaptingR2_GroupInvitation.png "Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+   ![](_static/images/AdaptingR2/AdaptingR2_GroupInvitation.png "Figure    38: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 
    [**Figure 38: The invited user receives a notification on the main page where he or she can accept the membership of
-   the group**](_static/images/AdaptingR2_GroupInvitation.png)
+   the group**](_static/images/AdaptingR2/AdaptingR2_GroupInvitation.png)
 
-8. When the invitation has been accepted the user is available in this community. When we add a category, track or
+8. When the invitation has been accepted the user is available in this community. When we add a custom geneset, track or
    preset the next time, it is possible to make this available to this community.
 
-   ![](_static/images/AdaptingR2_CommunityUsers.png "Figure    38: The user is available in    the TestGroup.")
+   ![](_static/images/AdaptingR2/AdaptingR2_CommunityUsers.png "Figure    38: The user is available in    the TestGroup.")
 
-   [**Figure 39: The user is available in the TestGroup.**](_static/images/AdaptingR2_CommunityUsers.png)
+   [**Figure 39: The user is available in the TestGroup.**](_static/images/AdaptingR2/AdaptingR2_CommunityUsers.png)
 
-9. When a Category is created there is now a possibility to make it available to a Community (Figure 39)
+9. When a custom geneset is created there is now a possibility to make it available to a Community (Figure 39)
 10. Managing the tracks, gene categories and megasampler presets is done in a similar way as has been shown in the user
-    tracks and user categories at the beginning of this tutorial. pietmolenaar, as a member of this group, can manage
+    tracks and user categories at the beginning of this tutorial. **pietmolenaar**, as a member of this group, can manage
     the tracks that have been shared with him via his default track manager
 
-    ![](_static/images/AdaptingR2_CommunityCategory.png "Figure    40: As an example here the creation of a category and the assignment    to    a Community.")
+    ![](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png "Figure    40: As an example here the creation of a category and the assignment    to    a Community.")
 
     [**Figure 40: As an example here the creation of a category and the assignment to a
-    Community.**](_static/images/AdaptingR2_CommunityCategory.png)
+    Community.**](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png)
 
 Final remarks / future directions
 ---------------------------------
