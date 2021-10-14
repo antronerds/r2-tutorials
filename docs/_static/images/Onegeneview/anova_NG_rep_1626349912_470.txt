@@ -1,0 +1,27 @@
+#Program: R2: Genomics analysis and visualization platform
+#Website: http://r2.amc.nl
+#Developer: Jan Koster (jankoster@amc.uva.nl)
+#Support: r2-support@amc.uva.nl
+#Date: Thu Jul 15 13:51:55 2021
+#Dataset: ps_avgpres_gse48046geo20_u133p2
+#Pretty_dataset: Cell line ALL(T) - Ferrando - 20 - MAS5.0 - u133p2
+#Data transformation: transform_log2
+#Values field: data
+#Comparison: groups
+#Track: rep
+#Group: rep -> rep1
+#Group: rep -> rep2
+#Test: anova
+#Output: anova 0.01 no
+#Minimal presentcalls: 1
+#Number of lines: 8
+#r2filetype: datasetresult
+#H:probeset	hugo	corrected-pvalue	foldchange	sublist
+216828_at	MLLT10P1	0.0027513842837025	-1.3536704272461	rep: rep1 >= rep2
+1562259_at	TEX9	0.00803053845359163	-1.17326425534874	rep: rep1 >= rep2
+213834_at	IQSEC3	0.00552564261331665	-1.30581562816131	rep: rep1 >= rep2
+36566_at	CTNS	0.00955341834672882	-1.06344315701	rep: rep1 >= rep2
+240967_at	KRTAP19-3	0.00521771831059365	-1.45855212706104	rep: rep1 >= rep2
+1563745_a_at	ZMIZ1-AS1	0.0059904164489615	-1.13475293290861	rep: rep1 >= rep2
+231489_x_at	CREG2	0.00822241731436733	2.15265814106592	rep: rep1 < rep2
+1556839_s_at	LOC100289090	0.0094224660610694	-1.11062046261533	rep: rep1 >= rep2

@@ -114,11 +114,14 @@ Step 3: Plotting Gene expression
 >  -   *“mad/mad2log”: Median absolute deviation (on raw values, or log2     
 >        transformed values).*                                                 
 >  -   *“center/log2center”: Expression values centered around 0 (on raw     
->        values, or log2 transformed values).*                                 
+>        values, or log2 transformed values).*
+>  -   *“Rank”: numerical or ordinal values are replaced by their rank when the data are sorted*
 >  -   *“zcore\_group”: Coverts the expression levels from the zscore within 
 >        a group (track). Applicable when e.g technical variation in          
 >        expression levels is expected. A possible reason could be when       
->        samples from the same dataset originate from different centers.*   
+>        samples from the same dataset originate from different centers.*  
+>  -   *“Square root”: The square root of a number is the number that gets multiplied to itself to give the product.*
+>  -   *“log2 grouped zscore”: 2log transformed data within each group of a selected track seperately and re-merged after calculation*
 ----------
 
   In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis of to adapt the looks of the graph:
