@@ -23,7 +23,7 @@ independent by uploading of tracks. In some cases it is of interest to
 start comparing one track with another. The type of statistics used to
 compare the tracks depends on the type of data; either categorical or
 numerical. One may wonder if there are significant overlaps between 2
-tracks (with categorical variables), based on Fisher"s exact test.
+tracks (with categorical variables), based on Fisher's exact test.
 Alternatively, if there are multiple numerical tracks available; one may
 wonder if there is a significant correlation between 2 tracks. For these
 cases, R2 contains the Annotation modules; "relate 2 tracks" and
@@ -46,35 +46,36 @@ cases, R2 contains the Annotation modules; "relate 2 tracks" and
 Step 1: Relating 2 (categorical) tracks
 ------------------------------------------------
 
-1.  Make sure that you are on the "main" page of R2, and that the
+1. Make sure that you are on the "main" page of R2, and that the
     selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
     MAS5.0 - u133p2". In the 'Select type of analysis'-box (3) select
     "Relate 2 tracks", which can be found in the annotation subsection
     and press next.
     
-	![](_static/images/AnnotationAnalyses_relate.png "Figure 1: Select relate two tracks")
+    ![](_static/images/Annotation/AnnotationAnalyses_relatev1.png "Figure 1: Select relate two tracks")
 	
-	[**Figure 1: Select "Relate 2 tracks"**](_static/images/AnnotationAnalyses_relate.png)
+    [**Figure 1: Select "Relate 2 tracks"**](_static/images/AnnotationAnalyses_relate.png)
 	
-2.  For the different tracks, make sure that you select a categorical
+2. For the different tracks, make sure that you select a categorical
     one (which can be recognized by (cat)). Let"s investigate whether
     there is a relation between the neuroblastoma age-group
     (track=agegroup, flip point being 18 months at diagnosis) and the
     survival status (track=alive). Then press next to generate
     the result.
     
-	![](_static/images/AnnotationAnalyses_adjust.png "Figure 2: Select Selecting categorical tracks")
+    ![](_static/images/Annotation/AnnotationAnalyses_adjustv1.png "Figure 2: Select Selecting categorical tracks")
 	
-	[**Figure 2: Select Selecting categorical tracks**](_static/images/AnnotationAnalyses_adjust.png)
+    [**Figure 2: Select Selecting categorical tracks**](_static/images/Annotation/AnnotationAnalyses_adjustv1.png)
 	
-3.  The generated result is now displayed on the screen. As we are
+3. The generated result is now displayed on the screen. As we are
     testing 2 categorical variables, R2 has tested the relation between
     the 2 tracks and finds a highly significant Fisher"s exact p-value,
     indicating that there is a relation between the agegroup and vital
     status of the patients. The result is also shown in a honeycomb
     image, where every individual patient is represented as a separate
     circle, with the annotation as a hover box.
-4.  One can add more visual information to the plot, by coloring the
+
+4. One can add more visual information to the plot, by coloring the
     patients on the basis of a track. From the adjustable settings at
     the bottom of the page, set the "colormode" to "color by track" and
     select the "inss\_stage" as track. Press the adapt settings to
@@ -82,9 +83,9 @@ Step 1: Relating 2 (categorical) tracks
     great over-representation of stage 4 patients in the group of
     diseased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
 
-	![](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
+    ![](_static/images/AnnotationAnalyses_colorsamples.png "Figure3: Color samples by track")
 	
-	[**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
+    [**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
 	
 5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked
    Barplot" or "Stacked Barplot ratio" respectively. The "Stacked Barplot ratio" option scales every group to 100%, and thereby shows the relative contribution of the different groups.
