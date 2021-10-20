@@ -60,7 +60,7 @@ Step 1: Relating 2 (categorical) tracks
     one (which can be recognized by (cat)). Let"s investigate whether
     there is a relation between the neuroblastoma age-group
     (track=agegroup, flip point being 18 months at diagnosis) and the
-    survival status (track=alive). Then press next to generate
+    survival status (track=alive). Select the 'XY' plot in the graph section. Then press next to generate
     the result.
     
     ![](_static/images/Annotation/AnnotationAnalyses_adjustv1.png "Figure 2: Select Selecting categorical tracks")
@@ -69,7 +69,7 @@ Step 1: Relating 2 (categorical) tracks
 	
 3. The generated result is now displayed on the screen. As we are
     testing 2 categorical variables, R2 has tested the relation between
-    the 2 tracks and finds a highly significant Fisher"s exact p-value,
+    the 2 tracks and finds a highly significant Fisher's exact p-value,
     indicating that there is a relation between the agegroup and vital
     status of the patients. The result is also shown in a honeycomb
     image, where every individual patient is represented as a separate
