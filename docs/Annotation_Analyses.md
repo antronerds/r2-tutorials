@@ -197,7 +197,7 @@ The 'Build a track' button at the bottom of the page conveniently allows you to 
     [**Figure 8: Cohort Overview**](_static/images/Annotation/AnnotationAnalyses_CohortOverview.png)
 
 
-5. Another ofter used annotation visualisation is the sunburst plotter. In the annotation section of the main menu , select the Cohort sunburst plotter. The  sunburst diagram displays a hierarchical structure. In a circular shape. The origin of the organization is represented by the center of the circle, and each level of the organization by an aditional ring also other visualisation plot types are implemented as illustrated in Figure 9. (ciclepack,treemap and icicle).
+5. The sunburst plotter is an often used annotation visualisation. In the annotation section of the main menu , select the Cohort sunburst plotter. The  sunburst diagram displays a hierarchical structure. In a circular shape. The origin of the organization is represented by the center of the circle, and each level of the organization by an aditional ring also other visualisation plot types are implemented as illustrated in Figure 9. (ciclepack,treemap and icicle).
 
 
 
@@ -218,7 +218,7 @@ Final remarks / future directions
 
 Some of these functionalities have been developed recently. If you run
 into any quirks or annoyances don't hesitate to contact R2 support
-(r2-support@amc.uva.nl).  
+(r2-support@amsterdamumc.nl).  
   
   
 We hope that this tutorial has been helpful,  
