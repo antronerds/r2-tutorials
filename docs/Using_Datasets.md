@@ -56,9 +56,10 @@ Step 1: Selecting a dataset
 
    ![](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 		 
-4. [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png)  
+
+[**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png)  
    
-   You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
+ 4.   You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
     This way you can quickly filter for a tissue type, a disease or an author name. In the picture above we type the letters "neurobl" to look for all Neuroblatoma datasets. 
    
 5. You can use the buttons in the bottom right corner to scroll through the pages of the grid, to jump ahead to a specific page and to adapt the amount of dataset rows that are shown per page. 
