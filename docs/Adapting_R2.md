@@ -14,32 +14,32 @@ Scope
 -----
 
 - This tutorial describes the adaptable settings within R2. These are basically all items under the User Options
-  menu-item. Through these you can personalize the use of R2
-- First a couple of regular settings will be treated: changing colors, setting parameters
-- Next we'll delve into the practical adaptation of R2; uploading your dataset, adding your personal genesets (
-  categories), creating/exporting /uploading your own tracks and maintaining a user community
+  menu-item. Through these you can personalize the use of R2.
+- First, a couple of regular settings will be treated; changing colors and setting parameters.
+- Next, we will delve into the practical adaptation of R2; uploading your dataset, adding your personal genesets 
+  (categories), creating/exporting/uploading your own tracks and maintaining a user community.
 
 Step 1: Adapt your settings
 ---------------
 
 1. Personalizing R2 starts with selecting the 'User Options' menu item
-   (Figure 1). When you hover over this item, you see a submenu. In 'Account you can chose a different password or
-   change your personal details.   
-   In 'Preferences' you can set some generic R2 analysis and visualization options, click on this item.
+   (Figure 1). When you hover over this item, you see a submenu. In 'Account' you can choose a different password or
+   change your personal details. In 'Preferences' you can set some generic R2 analysis and visualization options, 
+   click on this item.
 
    ![](_static/images/AdaptingR2/AdaptingR2_UserOptionsv1.png "Figure    1: Personalizing R2: the User Options menu-item")
 
    [**Figure 1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv1.png)
 
 2. In the Preferences window several parameters for analyses in R2 can be adapted to your preferences. For most analyses
-   these are set to appropriate values, but of course you want to set your favorite dataset here!
+   these are set to appropriate values, but it is possible to change these default settings here.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience")
 
-   [**Figure    2: The User Defined Settings window: change settings at your own convenience**](_static/images/AdaptingR2/AdaptingR2_Userdefined.png)
+   [**Figure 2: The User Defined Settings window: change settings at your own convenience**](_static/images/AdaptingR2/AdaptingR2_Userdefined.png)
 
-3. Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets' . These are of relevance when you've
-   built a specific Preset in an analysis Across Datasets ( see chapter: Multiple datasets overview with Megasampler).
+3. The next item in the User Options submenu (Figure 1) is the 'Megasampler Presets'. These are of relevance when you have
+   built a specific Preset in an analysis Across Datasets (see chapter: Multiple datasets overview with Megasampler).
 4. The 'Timeseries colors' allows you to set the colors for the graphs of specific experiments in a series (Figure 3).
 
    ![](_static/images/AdaptingR2/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors")
