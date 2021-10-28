@@ -363,7 +363,7 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    [**Figure 28: Starting a community**](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png)
 
 3. In the Community window a name has to be set and a short description for people invited as members for this group
-   (Figure 29). Through a community you can share your own Genesets,Tracks and Settings.
+   (Figure 29). Through a community you can share your own Genesets, Tracks and Settings.
 
 
    ![](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroupv1.png "Figure    29: Setting the Community group name    and description.")
