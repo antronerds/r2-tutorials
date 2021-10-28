@@ -56,7 +56,7 @@ Step 2: How to add data to R2.
    publicly available data that matches your research interest. Due to several reasons, technical as security, it's
    almost impossible to automate the process of adding data for standard users. In order to keep the database curated
    only R2 administrators can add data to R2.   
-   In order to do so, the data first has to be processed and uploaded.  [Chapter 24](/../R2_Dataset_Addition.html)
+   In order to do so, the data first has to be processed and uploaded.  [Chapter 24](R2_Dataset_Addition.html)
    describes in detail how to prepare your data such that we can process it and upload the data to R2.  
    
    (<r2-support@amsterdamumc.nl>). If you would like to see a publicly accessible dataset in R2, then send an email
