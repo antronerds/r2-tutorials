@@ -33,6 +33,7 @@ Copyright (c) 2006-2019 Jan Koster
    Integrative_analysis_ChIP-Seq_data
    Integrative_analysis_expression_methylation
    Integrative_analysis_WGS_data
+   Adapting_R2
    Exporting_Data
    R2_Dataset_Addition
    Did_You_Know
