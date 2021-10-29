@@ -195,10 +195,10 @@ The 'Build a track' button at the bottom of the page conveniently allows you to 
     [**Figure 8: Cohort Overview**](_static/images/Annotation/AnnotationAnalyses_CohortOverview.png)
 
 
-5. The sunburst plotter is an often used annotation visualisation. In the annotation section of the main menu, select 
+5. The sunburst plotter is an often used annotation visualization. In the annotation section of the main menu, select 
    the Cohort sunburst plotter. The sunburst diagram displays a hierarchical structure in a circular shape. The origin 
    of the organization is represented by the center of the circle, and each level of the organization by an additional 
-   ring. Additionally, other visualisation plot types are implemented as illustrated in Figure 9 (circlepack, treemap and icicle).
+   ring. Additionally, other visualization plot types are implemented as illustrated in Figure 9 (circlepack, treemap and icicle).
 
 
 
