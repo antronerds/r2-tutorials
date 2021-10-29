@@ -19,7 +19,7 @@ either based on results generated within analyses, or completely
 independent by uploading of tracks. In some cases it is of interest to
 start comparing one track with another. The type of statistics used to
 compare the tracks depends on the type of data; either categorical or
-numerical. One may wonder if there are significant overlaps between 2
+numerical. One may wonder if there is significant overlap between 2
 tracks (with categorical variables), based on Fisher's exact test.
 Alternatively, if there are multiple numerical tracks available; one may
 wonder if there is a significant correlation between 2 tracks. For these
@@ -28,14 +28,14 @@ cases, R2 contains the Annotation modules; "relate 2 tracks" and
 
 
 
-- Relate 2 tracks (categorical), test significant overlap and view as
-    honeycomb-plot
-- Relate 2 tracks (numerical), assess significance of correlation and
-    view as XY-plot
-- Relate 2 tracks (Categorical vs numerical), assess differential
-    values between groups
-- Annotation plotter. Visualize tracks within sample cohort
-- Sunburst  plotter and ann. Visualisation options of  tracks within a sample cohort
+- Relate 2 tracks (categorical); test significant overlap and view as
+    honeycomb-plot.
+- Relate 2 tracks (numerical); assess significance of correlation and
+    view as XY-plot.
+- Relate 2 tracks (categorical vs numerical); assess differential
+    values between groups.
+- Annotation plotter; visualize tracks within sample cohort.
+- Sunburst plotter and others; visualization options of tracks within a sample cohort.
 
 
 
@@ -48,17 +48,17 @@ Step 1: Relating 2 (categorical) tracks
     selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
     MAS5.0 - u133p2". In the 'Select type of analysis'-box (3) select
     "Relate 2 tracks", which can be found in the annotation subsection
-    and press next.
+    and press 'Next'.
     
     ![](_static/images/Annotation/AnnotationAnalyses_relatev1.png "Figure 1: Select relate two tracks")
 	
     [**Figure 1: Select "Relate 2 tracks"**](_static/images/AnnotationAnalyses_relate.png)
 	
 2. For the different tracks, make sure that you select a categorical
-    one (which can be recognized by (cat)). Let"s investigate whether
+    one (which can be recognized by (cat)). We investigate whether
     there is a relation between the neuroblastoma age-group
     (track=agegroup, flip point being 18 months at diagnosis) and the
-    survival status (track=alive). Select the 'XY' plot in the graph section. Then press next to generate
+    survival status (track=alive). Select the 'XY' plot in the graph section. Then press 'Submit' to generate
     the result.
     
     ![](_static/images/Annotation/AnnotationAnalyses_adjustv1.png "Figure 2: Select Selecting categorical tracks")
@@ -76,10 +76,11 @@ Step 1: Relating 2 (categorical) tracks
 4. One can add more visual information to the plot, by coloring the
     patients on the basis of a track. From the adjustable settings at
     the bottom of the page, set the "colormode" to "color by track" and
-    select the "inss\_stage" as track. Press the adapt settings to
+    select "inss" as track. Press the 'Submit' button to
     create an updated image. Now we can clearly see that there is a
     great over-representation of stage 4 patients in the group of
-    diseased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
+    deceased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. 
+    We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
 
     ![](_static/images/Annotation/AnnotationAnalyses_colorsamplesv1.png "Figure3: Color samples by track")
 	
@@ -98,7 +99,7 @@ Step 2: Relating 2 (numerical) tracks
 ----------------------------------------------
 
 1.  Just as in the previous example, we select the "relate 2 tracks"
-    option from the main R2 screen and press enter. Now this time, we
+    option from the main R2 screen and click 'Next'. Now this time, we
     select 2 numerical tracks, which can be recognized by the (\#) sign
     at the end of a track. Within the Neuroblastoma dataset our options
     are limited for this example, so we select the "age in years" track
@@ -147,7 +148,7 @@ Step 3: Relating a categorical track to a numerical track
 As a recap for the last 3 tutorial steps, you have used the "relate 2
 tracks" option from the annotation methods in R2 and represented
 different types of tracks with each other to gain new insights from
-combining 2 tracks. Below the 3-different representations are depicted
+combining 2 tracks. Below, the three different representations are depicted
 side by side. Do remember, that this module allows you to use "meta
 data" tracks that you can assemble either within, but also outside of R2
 via the uploading of a track option that will be shown in the "adapting
@@ -183,8 +184,8 @@ Step 4: Annotation plotter and Cohort Overview
 	
     [**Figure 7: Plotting the annotationtracks**](_static/images/Annotation/AnnotationAnalyse_plotting.png)
 	
-4. Another often useful overview is provided by the Cohort Overview. Click on 'Go to Main' in the upperleft corner,
-and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click Next.  
+4. Another often useful overview is provided by the Cohort Overview. Click on 'Go to Main' in the upper left corner,
+and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click 'Next'.  
 Here, pie charts show the shares of the different values of a track. You can visualize tracks with the dropdown menus, 
 hover over the different pie slices, and create a table overview with the values of different tracks of choice for each sample.  
 The 'Build a track' button at the bottom of the page conveniently allows you to directly build a track from any selection of available tracks.
@@ -194,7 +195,10 @@ The 'Build a track' button at the bottom of the page conveniently allows you to 
     [**Figure 8: Cohort Overview**](_static/images/Annotation/AnnotationAnalyses_CohortOverview.png)
 
 
-5. The sunburst plotter is an often used annotation visualisation. In the annotation section of the main menu , select the Cohort sunburst plotter. The  sunburst diagram displays a hierarchical structure. In a circular shape. The origin of the organization is represented by the center of the circle, and each level of the organization by an aditional ring also other visualisation plot types are implemented as illustrated in Figure 9. (ciclepack,treemap and icicle).
+5. The sunburst plotter is an often used annotation visualisation. In the annotation section of the main menu, select 
+   the Cohort sunburst plotter. The sunburst diagram displays a hierarchical structure in a circular shape. The origin 
+   of the organization is represented by the center of the circle, and each level of the organization by an additional 
+   ring. Additionally, other visualisation plot types are implemented as illustrated in Figure 9 (circlepack, treemap and icicle).
 
 
 
@@ -214,7 +218,7 @@ Final remarks / future directions
 
 
 Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact R2 support
+into any quirks or annoyances do not hesitate to contact R2 support
 (r2-support@amsterdamumc.nl).  
   
   
