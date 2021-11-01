@@ -68,7 +68,6 @@ Step 2: Select the gene or reporter
 2. To follow the example of this tutorial, use the pre-defined default settings in the rest of the adjustable settings menu, and click ‘Next’.
    
 
-
 Step 3: Plotting Gene expression 
 ---------------
 
@@ -124,31 +123,45 @@ Step 3: Plotting Gene expression
 >  -   *“log2 grouped zscore”: 2log transformed data within each group of a selected track seperately and re-merged after calculation*
 ----------
 
-  In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis of to adapt the looks of the graph:
-   * In the Adjustable settings panel, you can switch directly from a Onegene View to a Twogene View in order to plot the expression values of two genes in one graph. you simply fill in a different Gene for Gene/ Reporter 1 than for Gene / Reporter 2 (upper red box in Figure 4).
-   * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab. 
-   * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample ID’s in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple ID's, separate them with a comma. 
-   * Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’, Figure 4 red arrow). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark'text field. Keep reading to find examples of how to use the syntax yourself.  
-   
-   *Always click on 'Adjust Settings' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!* 
-    
+---------------
+Step 4: Selecting analysis types: View a gene in  groups
+----------------
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png "Figure 4: Adjusting the graph settings")
+In the one gene view plot we have investigated,  the gene expression of a single together with the sample annotation depicted below the graph.
 
-[**Figure 4: Adjusting the graph settings**](_static/images/Onegeneview/OneGene_adjustablesettings_v1.png)
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene-view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analys types which are at you disposal as illustrated in figure 4. 
+
+![](_static/images/Onegeneview/OneGene_otheranalysis.png "Figure 4: Other analysis type")
+
+[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis.png)
+
+2. Select in the analysis type  menu , the gene vs gene option the adjustable settings will adapt automatically according to the type which have bene selected. As illustrated in figure 5 you simply fill in a different Gene for Gene/ Reporter 1 than for Gene / Reporter 2 (upper red box in Figure 5).
+
+![](_static/images/Onegeneview/OneGene_adjustablesettings_v2.png "Figure 5: Adjusting the graph settings")
+
+[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v2.png)
+
+
+3. In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis of to adapt the looks of the graph:
+
+* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab.
+* To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample ID’s in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple ID's, separate them with a comma.
+* Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark'text field. Keep reading to find examples of how to use the syntax yourself.
+
+*Always click on 'Adjust Settings' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!*
 
 
 You can adjust the marker color and type of the samples that you marked with a syntax in teh 'Samples to mark'field. In order to do so, add a ‘:’ after the ID's with a color code, and/or add a ':' with a marker type, like so 'itcc0288,itcc0021:ff4444:dot'.  
-To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:dot;itcc0021:009999:arrow;itcc0013,itcc0132:00ff00:epicenter”’ creates the markings as shown in the figure below.
+To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:epicente”’ creates the markings as shown in the figure below.
 
-![](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png "Figure 5: Adjusting the graph settings")
+![](_static/images/Onegeneview/OneGene_view_samplesmark_v2.png "Figure 6: Adjusting the graph settings")
 
-[**Figure 5: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v1.png)
+[**Figure 6: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v2.png)
 
 ---------------
- ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?** 
+![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?**
 
-> *R2 knows a couple of marker options, that you can make use of in the advanced prescriptions:* 
+> *R2 knows a couple of marker options, that you can make use of in the advanced prescriptions:*
 > - *'dot': places a thick border around the sample*
 > - *'circle': Places a ring around the sample (diameter 9)*
 > - *'circle_2': Places a ring around the sample (diameter 4)*
@@ -156,29 +169,39 @@ To bring attention to different samples, you may want to use multiple colors and
 > - *'epicenter': Places a set of 3 rings descending in width around a sample*
 > - *'arrow': Places a block arrow pointing to the sample*
 > - *'triangle': Places a filled triangle under the sample*
->
+> - *'colors': use a html color code*
+> 
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
-Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and after a click on the button 'Adjust Settings', a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.   
+Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and after a click on the button 'Adjust Settings', a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png "Figure 5B: Obtain a vector (SVG) image of your graph")
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
-[**Figure 5B: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png)
+[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png)
 
 ----------
-  ![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
+![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
 
 > *Just scroll down the page to find the Adjustable settings box with options to adjust the settings of the analysis or to adjust the looks of the graph. **Don't forget to press the Adjust Settings** button at the bottom of the panel in order for your changes to take effect!*
+
+
+
+2.  When you  are in the one gene view plot a logical step is to tTo achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next.
+   Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups
+   are selected.
+
+
+
+
+
 
 ----------   
 
 Step 7: View a gene in groups ->> delete make  new
 ---------------
 
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next.
-   Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups
-   are selected.
+
 
 ![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
 
@@ -257,13 +280,6 @@ literature mining.
 >  *Next to building efficient queries, Pub re-miner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author*
 
 --------------------
-
----------------
-
-
-Step 6: new part 
-----------------
-
 
 
 
