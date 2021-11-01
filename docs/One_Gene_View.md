@@ -173,65 +173,51 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 
 ----------   
 
-
-
+Step 7: View a gene in groups ->> delete make  new
 ---------------
 
-Step 4: Probeset verification
----------------
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next.
+   Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups
+   are selected.
 
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
 
-The table displayed in Figure 6 lists whether the various reporters of MYCN are in
-agreement with the genome position of MYCN reference sequence (RefSeq).
-If all are stating “YES” then everything appears alright (from the
-perspective of an automated assessment). The MYCN reporters with a “NO”
-indicate there may be an issue with it. Scroll down the page
-and click on the “Tview” link in the reporter table.
-
-
-![](_static/images/Onegeneview/OneGene_Probesettable.png "Figure 6: Probeset verification table")
-
-[**Figure 6: Probeset verification table**](_static/images/Onegeneview/OneGene_Probesettable.png)
-
-1.  A new screen (or tab in the browser) appears with TranscriptView.
-    The TranscriptView application depicts the alignment of expressed
-    sequence tags (EST) and mRNA sequences to the human reference genome
-    sequence (Fig 8. The strand orientation of these sequences are
-    indicated by a color (green = positive strand, red = negative
-    strand, blue = strand information is missing). The structure of the
-    reference sequence has also been indicated. Furtermore, the browser shows the alignement of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
-    This view can be used to inspect the quality of a reporter. Note, for instance, that the reporter
-    “242026\_at” is aligned to the genomic region of the MYCN reference
-    sequence, but that its color is different from the rest (colored
-    in red). In addition, in this particular case the reporter is 
-    located in the intronic (light shaded color) region which is another
-    reason not to pick a certain probeset. Indeed, if we compare the
-    gene expression values of this reporter, then its expression is 60
-    fold lower than R2's standard pick (22 vs 1369). Below the ESTs the
-    average gene expression of the individual probesets is illustrating
-    that for this example the correct probeset is selected for analysis.
-    NB: Currently probeset verification is only provided for various
-    human Affymetrix array types.
-
-
-![](_static/images/Onegeneview/OneGene_Colorlegend.png "Figure 7 Color ")
-
-[**Figure 7: Coloring represents type of transcript**](_static/images/Onegeneview/OneGene_Colorlegend.png)
-
-
-![](_static/images/Onegeneview/OneGene_Tview.png "Figure 8 MYCN reporters in Transcript view")
-
-[**Figure 8: MYCN reporters in Transcript view**](_static/images/Onegeneview/OneGene_Tview.png)
+[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
 
 
----------------
-  ![](_static/images/R2d2_logo.png)**Did you know that you can browse the gene expression values along the genome?**
+2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups.
 
-> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
->   It can be informative to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
 
----------------
+![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
+
+[**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_viewinGroups_v2.png)
+
+
+
+We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+
+![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
+
+[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_ViewInGroups2.png)
+
+3. You can also sort the groups by their average or median gene expression.
+
+   ![](_static/images/Onegeneview/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
+
+   [**Figure 18: Order groups by the average gene expression value**](_static/images/Onegeneview/OneGene_avgordered_circosplots.png)
+
+4. You can also adapt the visual representation of the plot with the "more settings".
+
+   ![](_static/images/Onegeneview/OneGene_ViewInGroups3.png "Figure 18: Change the graph options")
+
+   [**Figure 19: Change the graph options**](_static/images/Onegeneview/OneGene_ViewInGroups3.png)
+
+-----------
+![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
+
+> *If you view a gene in groups within the one-gene-view view page and the number of sub-groups are greater than 2, then R2 will automatically perform a brute-force t-testing to identify the combination of 2 groups that have the most significant difference. Just click on the ‘T-test on combinations’ link underneath the image and gain insight into all the tested combinations.
+
 
 
 Step 5: Sources for additional information on the selected gene 
@@ -272,8 +258,18 @@ literature mining.
 
 --------------------
 
+---------------
 
-Step 6: Adapting plot
+
+Step 6: new part 
+----------------
+
+
+
+
+
+
+Step 7: Adapting plot
 ---------------
 
 
@@ -333,50 +329,6 @@ modules where a one-or two gene view is generated.
 
 
 
-Step 7: View a gene in groups
----------------
-
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next. 
-Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups 
-are selected.
-
-![](_static/images/Onegeneview/OneGene_viewinGroups_v1.png "Figure 15: Fonts and Color changed")
-
-[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
-
-
-
-2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups.
-
-
-   ![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
-
-   [**Figure 16: View a gene in groups**](_static/images/Onegeneview/OneGene_viewinGroups_v2.png)
-
-
-
-We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
-
-![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
-
-[**Figure 17: View a gene in groups by boxplot**](_static/images/Onegeneview/OneGene_ViewInGroups2.png)
-
-3. You can also sort the groups by their average or median gene expression.
-
-    ![](_static/images/Onegeneview/OneGene_avgordered_circosplots.png "Figure 17: Order groups by the average gene expression value")
-   
-    [**Figure 18: Order groups by the average gene expression value**](_static/images/Onegeneview/OneGene_avgordered_circosplots.png)
-    
-4. You can also adapt the visual representation of the plot with the "more settings".
-
-    ![](_static/images/Onegeneview/OneGene_ViewInGroups3.png "Figure 18: Change the graph options")
-
-    [**Figure 19: Change the graph options**](_static/images/Onegeneview/OneGene_ViewInGroups3.png) 
-
------------
-  ![](_static/images/R2d2_logo.png)***Did you know that once you separate a dataset in more than 2 groups, R2 will identify the most significant pair?***
-
-> *If you view a gene in groups within the one-gene-view view page and the number of sub-groups are greater than 2, then R2 will automatically perform a brute-force t-testing to identify the combination of 2 groups that have the most significant difference. Just click on the ‘T-test on combinations’ link underneath the image and gain insight into all the tested combinations. 
 
 ----------
 
@@ -445,6 +397,63 @@ You can click on any of the genes listed in the table (here we clicked on "TH") 
 
     [**Figure 23: Sample extremes in one sample**](_static/images/Onegeneview/OneGene_sampleextremePhox2b.png)
 
+
+---------------
+Step XXXXXXX: Probeset verification
+---------------
+
+
+The table displayed in Figure 6 lists whether the various reporters of MYCN are in
+agreement with the genome position of MYCN reference sequence (RefSeq).
+If all are stating “YES” then everything appears alright (from the
+perspective of an automated assessment). The MYCN reporters with a “NO”
+indicate there may be an issue with it. Scroll down the page
+and click on the “Tview” link in the reporter table.
+
+
+![](_static/images/Onegeneview/OneGene_Probesettable.png "Figure 6: Probeset verification table")
+
+[**Figure 6: Probeset verification table**](_static/images/Onegeneview/OneGene_Probesettable.png)
+
+1.  A new screen (or tab in the browser) appears with TranscriptView.
+    The TranscriptView application depicts the alignment of expressed
+    sequence tags (EST) and mRNA sequences to the human reference genome
+    sequence (Fig 8. The strand orientation of these sequences are
+    indicated by a color (green = positive strand, red = negative
+    strand, blue = strand information is missing). The structure of the
+    reference sequence has also been indicated. Furtermore, the browser shows the alignement of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
+    This view can be used to inspect the quality of a reporter. Note, for instance, that the reporter
+    “242026\_at” is aligned to the genomic region of the MYCN reference
+    sequence, but that its color is different from the rest (colored
+    in red). In addition, in this particular case the reporter is
+    located in the intronic (light shaded color) region which is another
+    reason not to pick a certain probeset. Indeed, if we compare the
+    gene expression values of this reporter, then its expression is 60
+    fold lower than R2's standard pick (22 vs 1369). Below the ESTs the
+    average gene expression of the individual probesets is illustrating
+    that for this example the correct probeset is selected for analysis.
+    NB: Currently probeset verification is only provided for various
+    human Affymetrix array types.
+
+
+![](_static/images/Onegeneview/OneGene_Colorlegend.png "Figure 7 Color ")
+
+[**Figure 7: Coloring represents type of transcript**](_static/images/Onegeneview/OneGene_Colorlegend.png)
+
+
+![](_static/images/Onegeneview/OneGene_Tview.png "Figure 8 MYCN reporters in Transcript view")
+
+[**Figure 8: MYCN reporters in Transcript view**](_static/images/Onegeneview/OneGene_Tview.png)
+
+
+
+---------------
+![](_static/images/R2d2_logo.png)**Did you know that you can browse the gene expression values along the genome?**
+
+> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
+>   It can be informative to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
+
+---------------
 
 
 Final remarks / future directions
