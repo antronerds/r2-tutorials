@@ -58,7 +58,7 @@ Step 2: Select the gene or reporter
       
    The expression levels of datasets are by default converted to log2 values. This does not count for datasets that contain ratio's or logfolds such as methylation arrays and certain agilent arrays.  
      
-   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene id or average signal.   
+   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal also the sorting option allows for quick checking genes  from a given expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
    ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the reporter with the highest expression level is selected")
