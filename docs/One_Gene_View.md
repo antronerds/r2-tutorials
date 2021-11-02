@@ -92,7 +92,7 @@ Step 3: Plotting Gene expression
 
 3. Sometimes you get more insight by reviewing the expression levels
    with other transformations. In order to change the transformation, scroll down to the "Adjustable settings panel" underneath the graph and tracks. In the pulldown menu of the ‘Transformation’ setting (top red arrow in Figure 4), choose “none” 
-   and then click the button *Adjust Settings* at the bottom of the panel.   
+   and then click the button *Submit* at the bottom of the panel.   
    
 
 ---------------
@@ -148,7 +148,7 @@ In the one gene view plot we have investigated,  the gene expression of a single
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample ID’s in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple ID's, separate them with a comma.
 * Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g: ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark'text field. Keep reading to find examples of how to use the syntax yourself.
 
-*Always click on 'Adjust Settings' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!*
+*Always click on 'Submit' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!*
 
 
 You can adjust the marker color and type of the samples that you marked with a syntax in teh 'Samples to mark'field. In order to do so, add a ‘:’ after the ID's with a color code, and/or add a ':' with a marker type, like so 'itcc0288,itcc0021:ff4444:dot'.  
@@ -174,7 +174,7 @@ To bring attention to different samples, you may want to use multiple colors and
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
-Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and after a click on the button 'Adjust Settings', a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.
+Another often used feature is the **Vector (SVG) output** option. The vector imagesz or often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and after a click on the button 'Submit', a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.
 
 ![](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
@@ -183,7 +183,7 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 ----------
 ![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
 
-> *Just scroll down the page to find the Adjustable settings box with options to adjust the settings of the analysis or to adjust the looks of the graph. **Don't forget to press the Adjust Settings** button at the bottom of the panel in order for your changes to take effect!*
+> *Just scroll down the page to find the Adjustable settings box with options to adjust the settings of the analysis or to adjust the looks of the graph. **Don't forget to press the Submit** button at the bottom of the panel in order for your changes to take effect!*
 
 
 
@@ -200,20 +200,23 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
    [**Figure 9: Gene versus track sorted**](_static/images/OnegeneviewOneGene_genevstracksort.png)
 
 
-3. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+3. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
 4. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next.
    Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups
    are selected.
 
-5. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+5. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
 ![](_static/images/Onegeneview/OneGene_boxplots.png "Figure 15: Fonts and Color changed")
 
-[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+[**Figure 10: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
+6. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In figure 11 this illustrated by the INSS stage sequence according to the average gene expression and enlarged dots.
 
+![](_static/images/Onegeneview/OneGene_boxplotsorderby.png "Figure 15: Fonts and Color changed")
 
+[**Figure 10: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
 ----------   
 
@@ -237,7 +240,7 @@ Step 7: View a gene in groups ->> delete make  new
 
 
 
-We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
 ![](_static/images/Onegeneview/OneGene_ViewInGroups2.png "Figure 16: Viewing a gene in groups by boxplot")
 
@@ -374,7 +377,7 @@ To generate a graph of a subgroup of samples use the  'Select a track' pulldown 
 
 In the neuroblastoma field it is well known that the mync expression is strongly correlated with stage 4. But maybe you are also interested in the mycn expression for the lower risk stages.
 
-Go to the Adjustable Settings menu and select in the pull down the INSS stage. In th epopup window select the lower risk stages  st1,st2,st3 and st4s and click Next. Back in the Adjustable Settings panel click on the Adjust Settings button. These selections can be repeated a couple of times to build your ultimate selection.
+Go to the Adjustable Settings menu and select in the pull down the INSS stage. In th epopup window select the lower risk stages  st1,st2,st3 and st4s and click Next. Back in the Adjustable Settings panel click on the Submit button. These selections can be repeated a couple of times to build your ultimate selection.
 
  ![](_static/images/Onegeneview/OneGene_selectsubgroups.png "Figure 18: Selecting subgroups")
 
