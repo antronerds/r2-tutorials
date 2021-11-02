@@ -187,11 +187,30 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 
 
 
-2.  When you  are in the one gene view plot a logical step is to tTo achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next.
+2. When you  are in the one gene view plot a logical step is to investigate the expression levels in correspondence  with a group parameter. Select in the analysis type menu "gene vs track" in the track selection menu, the inss track and click "submit",  Figure 8. The cohort is separated accordingly by the patient INSS staging in alphabetical order. It could be that the ordering of the group parameters is not the most convenient representation for your analysis. In order to customize this you can create your own track as described in  (the chapter “Adapting R2 to your needs") and make your own track with the correct ordering eg: a_stage IV, b_stage 1 etc. 
+
+   ![](_static/images/Onegeneview/OneGene_genevstrack.png "Figure 8: Gene vs track")
+
+   [**Figure 8: Gene versus track**](_static/images/Onegeneview/OneGene_genevstrack.png)
+
+3. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups (figure 9.)
+
+   ![](_static/images/Onegeneview/OneGene_genevstracksort.png "Figure 9: Gene vs track sorted")
+
+   [**Figure 9: Gene versus track sorted**](_static/images/OnegeneviewOneGene_genevstracksort.png)
+
+
+3. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+
+4. To achieve this go to the main page again (right click main page in the top left) and select view a gene in groups and click next.
    Here we can select a track to separate the cohort accordingly in the first pull down menu, separated the patients on the basis of the INSS staging track in alphabetical order, click next, here you can filter for the groups, by default all groups
    are selected.
 
+5. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Adjust Settings' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
+![](_static/images/Onegeneview/OneGene_boxplots.png "Figure 15: Fonts and Color changed")
+
+[**Figure 15: Selecting a track**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
 
 
@@ -209,7 +228,7 @@ Step 7: View a gene in groups ->> delete make  new
 
 
 
-2. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups.
+2. 
 
 
 ![](_static/images/Onegeneview/OneGene_viewinGroups_v2.png "Figure 16: Viewing a gene in groups")
