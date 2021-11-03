@@ -218,6 +218,8 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 
 [**Figure 10: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
+
+7. Last option relate
 ----------   
 
 Step 7: View a gene in groups ->> delete make  new
