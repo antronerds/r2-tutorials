@@ -300,7 +300,7 @@ Step 6: Adapting plot
 
 	![](_static/images/Onegeneview/OneGene_trackdisplay.png)
 	
-	[**Figure 11: Tick and drag tracks**](_static/images/Onegeneview/OneGene_trackdisplay.png "Figure 11: Tick and drag tracks")
+	[**Figure 14: Tick and drag tracks**](_static/images/Onegeneview/OneGene_trackdisplay.png "Figure 14: Tick and drag tracks")
 
 3. Other convenient options are revealed by clicking the “more settings”
     section. An extra panel unfolds which allows you to adapt your graph to
@@ -309,15 +309,15 @@ Step 6: Adapting plot
     selecting.
 
 
-![](_static/images/Onegeneview/OneGene_Extrasettings_v1.png "Figure 12: the extra settings Panel")
+![](_static/images/Onegeneview/OneGene_Extrasettings_v1.png "Figure 15: the extra settings Panel")
 
-[**Figure 12: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v1.png)
+[**Figure 15: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v1.png)
 
 
 
 ![](_static/images/Onegeneview/OneGene_Adapting.png "Figure 13: Adapting a graph")
 
-[**Figure 13: Legend added**](_static/images/Onegeneview/OneGene_Adapting.png)
+[**Figure 15: Legend added**](_static/images/Onegeneview/OneGene_Adapting.png)
 
 In Figure 12 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
@@ -333,9 +333,9 @@ modules where a one-or two gene view is generated.
 
 
 
-![](_static/images/Onegeneview/OneGene_Adapting2a.png "Figure 14: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_Adapting2a.png "Figure 16: Fonts and Color changed")
 
-[**Figure 14: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2a.png)
+[**Figure 16: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2a.png)
 
 
 
@@ -351,16 +351,16 @@ In the neuroblastoma field it is well known that the mycn expression is strongly
 
 Go to the Adjustable Settings menu and select in the pull down the INSS stage. In the popup window select the lower risk stages st1, st2, st3 and st4s and click Next. Back in the Adjustable Settings panel click on the Submit button. These selections can be repeated a couple of times to build your ultimate selection.
 
- ![](_static/images/Onegeneview/OneGene_selectsubgroups.png "Figure 15: Selecting subgroups")
+ ![](_static/images/Onegeneview/OneGene_selectsubgroups.png "Figure 17: Selecting subgroups")
 
- [**Figure 15: Selecting subgroups**](_static/images/Onegeneview/OneGene_selectsubgroups.png)
+ [**Figure 17: Selecting subgroups**](_static/images/Onegeneview/OneGene_selectsubgroups.png)
 
  The graphs below were drawn with Graphtype BoxDotPlot. All stages are depicted on the right hand side graph and 
  only the lower risk stages on the left. 
 
- ![](_static/images/Onegeneview/OneGene_subgroupvsall.png "Figure 19: All stages (right) versus lower risk only (left)")
+ ![](_static/images/Onegeneview/OneGene_subgroupvsall.png "Figure 18: All stages (right) versus lower risk only (left)")
 
- [**Figure 16: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_subgroupvsall.png)
+ [**Figure 18: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_subgroupvsall.png)
 
 You will encounter the filter option in the adjustable settings box in many modules.
 
@@ -372,7 +372,7 @@ Step 8: Find best track separation with CliniSnitch
     the current dataset (like e.g. age group) than the example in the previous section. 
     For such an analysis R2 has the CliniSnitch function. 
     Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
-    and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue;
+    and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other wordt the correlation between the p-values.
     categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
     a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
