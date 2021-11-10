@@ -372,15 +372,15 @@ Step 8: Find best track separation with CliniSnitch
     the current dataset (like e.g. age group) than the example in the previous section. 
     For such an analysis R2 has the CliniSnitch function. 
     Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
-    and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other wordt the correlation between the p-values.
+    and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other words the correlation between the p-values.
     categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
     a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
     'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
 
-    ![](_static/images/Onegeneview/OneGene_CliniSnitch1.png "Figure 17: CliniSnitch representation")
+    ![](_static/images/Onegeneview/OneGene_CliniSnitch1.png "Figure 19: CliniSnitch representation")
 
-    [**Figure 18: CliniSnitch result for MYCN**](_static/images/Onegeneview/OneGene_CliniSnitch1.png)
+    [**Figure 19: CliniSnitch result for MYCN**](_static/images/Onegeneview/OneGene_CliniSnitch1.png)
 
 2. Every test can also be visualized by clicking on the View-link in the table. 
 Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. 
@@ -394,9 +394,9 @@ In case you wonder whether any unusual expression levels show up for individual 
 
 1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
 
-    ![](_static/images/Onegeneview/OneGene_selectsampleextreme.png "Figure 19: Select your sample to find extremes")
+    ![](_static/images/Onegeneview/OneGene_selectsampleextreme.png "Figure 20: Select your sample to find extremes")
 
-    [**Figure 19: Select your sample to find extremes**](_static/images/Onegeneview/OneGene_selectsampleextreme.png)
+    [**Figure 20: Select your sample to find extremes**](_static/images/Onegeneview/OneGene_selectsampleextreme.png)
 
 
 
@@ -471,6 +471,6 @@ Final remarks / future directions
 
 Some of these functionalities have been developed recently. If you run
 into any quirks or annoyances, do not hesitate to contact r2 support
-(r2-support@amc.uva.nl).
+(r2-support@amsterdamumc.nl).
 
 We hope that this tutorial has been helpful, the R2 support team.
