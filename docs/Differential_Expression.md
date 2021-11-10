@@ -76,9 +76,9 @@ Step 2: Choose annotation track as grouping variable
     probeset is already selected.
 2.  Click "next"
 
-	![](_static/images/DiffentialExpression_Select.png "Figure 2: Selecting the proper annotation track to differentiate expressiondata")
+	![](_static/images/FindDiff/DiffentialExpression_Selectv1.png "Figure 2: Selecting the proper annotation track to differentiate expressiondata")
 	
-	[**Figure 2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/DiffentialExpression_Select.png)
+	[**Figure 2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/FindDiff/DiffentialExpression_Select.png)
 	
 3.  In the next window a selection of the groups can be made. Only the
     selected group(s) will be displayed in the graph; the "one way
