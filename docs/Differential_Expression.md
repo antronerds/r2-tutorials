@@ -37,7 +37,6 @@ Step 1: Selecting data and gene
 
 
 
-
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" field is selected in field 1
 2.  Make sure the Tumor Neuroblastoma public dataset is selected in
@@ -46,9 +45,9 @@ Step 1: Selecting data and gene
 4.  Type MYCN as gene (see Figure 1) in field 4.
 5.  Click "next" in field 5.
 
-	![](_static/images/FindDiff/DiffentialExpression_Genev1.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
+	![](_static/images/FindDiff/DifferentialExpression_Genev1.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
 	
-	[**Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2**](_static/images//FindDiff/DiffentialExpression_Genev1.png)
+	[**Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2**](_static/images//FindDiff/DifferentialExpression_Genev1.png)
 	
 
 
@@ -61,7 +60,7 @@ Step 2: Choose annotation track as grouping variable
 ----------------
   ![](_static/images/R2d2_logo.png)***Did you know that you can create your own tracks?***
 
-  *This is explained in a separate tutorial [Adapting R2 to your needs](DiffentialExpression_Select.png)
+  *This is explained in a separate tutorial [Adapting R2 to your needs](DifferentialExpression_Select.png)
   Datasets are listed alphabetically*
 
 ------------------
@@ -76,9 +75,9 @@ Step 2: Choose annotation track as grouping variable
     probeset is already selected.
 2.  Click "next"
 
-	![](_static/images/FindDiff/DiffentialExpression_Selectv1.png "Figure 2: Selecting the proper annotation track to differentiate expressiondata")
+	![](_static/images/FindDiff/DifferentialExpression_Selectv1.png "Figure 2: Selecting the proper annotation track to differentiate expressiondata")
 	
-	[**Figure 2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/FindDiff/DiffentialExpression_Select.png)
+	[**Figure 2: Selecting the proper annotation track to differentiate expressiondata**](_static/images/FindDiff/DifferentialExpression_Select.png)
 	
 3.  In the next window a selection of the groups can be made. Only the
     selected group(s) will be displayed in the graph; the "one way
@@ -86,9 +85,9 @@ Step 2: Choose annotation track as grouping variable
     groups ( see explanation in the next step). In this case we
     want to see both groups so keep the selection as is.
     
-	![](_static/images/DiffentialExpression_Selectgroup.png "Figure 3: Selecting groups for the graph")
+	![](_static/images/FindDiff/DifferentialExpression_Selectgroup.png "Figure 3: Selecting groups for the graph")
 	
-	[**Figure 3: Selecting groups for the graph**](_static/images/DiffentialExpression_Selectgroup.png)
+	[**Figure 3: Selecting groups for the graph**](_static/images/FindDiff/DifferentialExpression_Selectgroup.png)
 	
 4.  Click "next"
 
@@ -104,33 +103,32 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 1. Check the graph and the information that is displayed above in the resulting window. For a nicely ordered graph, you can adjust the settings in the menu below to "Track and Gene Sort" (Don't forget to click on Adjust Settings afterwards!). R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
    
 
-![](_static/images/DiffentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+![](_static/images/FindDiff/DifferentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
-   [**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/DiffentialExpress_Result.png)
+   [**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpress_Result.png)
 
 2.  Scroll down the window
-3.  Adapt the selection in the dropdown box 'Graphtype' to 'Barplot' and
-    'ColorMode' to 'Color by Track'
+3.  Adapt the selection in the dropdown box 'Graphtype' to a other graphtype and to 'Color by Track'
 4.  Click 'Adjust Settings' (Figure 5). The resulting graph is adapted accordingly 
 
-	![](_static/images/DiffentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
+	![](_static/images/FindDiff/DifferentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
 	
-	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DiffentialExpression_AdaptGraph.png)
+	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DifferentialExpression_AdaptGraph.png)
 	
 
- 	![](_static/images/DiffentialExpression_Barplot.png "Figure    6: The same data now represented in a Barplot")
+   ![](_static/images/FindDiff/DifferentialExpression_Barplotv1.png "Figure    6: The same data now represented in a Barplot")
 	
-   [**Figure  6: The same data now represented in a Barplot**](_static/images/DiffentialExpression_Barplot.png)
+   [**Figure  6: The same data now represented in a bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
 
-*Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation (track). The analysis will only be performed on the selected subset. In the figure the track gender was selected that enables filtering on gender.*
+*Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation on track. The analysis will only be performed on the selected subset. In the figure the track gender was selected that enables filtering on gender. Clickin the wheel icon will open a grid supporting all selection combination of interest*
  
 *Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one.  The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*
 
-![](_static/images/DiffentialExpress_Adjust.png)
+![](_static/images/FindDiff/DifferentialExpress_Adjustv1.png)
                            
 ----------
 
@@ -144,15 +142,15 @@ The difference can be shown more dramatically by plotting the data without a log
 2.  In the 'Adjustable settings' dialog, set the 'Transform' dropdown to 'none' (Figure 7)
 3.  Click 'Adjust Settings'
     
-	![](_static/images/DiffentialExpress_BarplotAdjust.png "Figure 7: Adjusting data transformation")
+	![](_static/images/DifferentialExpress_BarplotAdjust.png "Figure 7: Adjusting data transformation")
 	
-	[**Figure 7: Adjusting data transformation**](_static/images/DiffentialExpress_BarplotAdjust.png)
+	[**Figure 7: Adjusting data transformation**](_static/images/DifferentialExpress_BarplotAdjust.png)
 	
 4.  The resulting graph in Figure 8 shows the difference between the expression values in the two groups more dramatically.
     
-	![](_static/images/DiffentialExpress_BarplotNotransform_v1.png "Figure 8: Bar plot without transformation")
+	![](_static/images/DifferentialExpress_BarplotNotransform_v1.png "Figure 8: Bar plot without transformation")
 	
-	[**Figure 8: Bar plot without transformation**](_static/images/DiffentialExpress_BarplotNotransform.png)
+	[**Figure 8: Bar plot without transformation**](_static/images/DifferentialExpress_BarplotNotransform.png)
 	
 5.  Note furthermore the menu items to the right and left of the graph.
     The left panel contains hyperlinks that provide further information
@@ -166,9 +164,9 @@ The difference can be shown more dramatically by plotting the data without a log
 6.  Figure 9 shows the clinical data associated with that
     particular sample.
     
-	![](_static/images/DiffentialExpress_ClinAnno.png "Figure 9: Clinical annotation of a sample")
+	![](_static/images/DifferentialExpress_ClinAnno.png "Figure 9: Clinical annotation of a sample")
 	
-	[**Figure 9: Clinical annotation of a sample**](_static/images/DiffentialExpress_ClinAnno.png)
+	[**Figure 9: Clinical annotation of a sample**](_static/images/DifferentialExpress_ClinAnno.png)
 
 
 
@@ -177,18 +175,20 @@ The difference can be shown more dramatically by plotting the data without a log
 Step 5: Finding all differentially expressed genes 
 ---------------
 
-1.  It would be a pretty tedious job to look for all genes whether they
+1. It would be a pretty tedious job to look for all genes whether they
     are differentially expressed between groups. Why not let R2 do the
     job for you? Go back to the Main screen, by clicking the link in the
-    upper left corner of the screen
-2.  In field 3 of the R2 step-by-step guide select 'Find Differential
+    upper left corner of the screen.
+2. In field 3 of the R2 step-by-step guide you find two options to find differential expressed gene list.
+
+4. 'Find Differential
     expression between groups' (Figure 10)
     
-	![](_static/images/DiffentialExpress_FindDiff.png "Figure 10: Selecting Find Differential Expression.")
+    ![](_static/images/DifferentialExpress_FindDiff.png "Figure 10: Selecting Find Differential Expression.")
 	
-	[**Figure 10: Selecting Find Differential Expression.**](_static/images/DiffentialExpress_FindDiff.png)
+    [**Figure 10: Selecting Find Differential Expression.**](_static/images/DifferentialExpress_FindDiff.png)
 	
-3.  Click 'Next'
+5. Click 'Next'
 
 
 
@@ -202,9 +202,9 @@ Step 6: Setting parameters
     in red). The samples will be divided by the groups this track provides.  
     Select the 'alive' track again.
     
-	![](_static/images/DiffentialExpress_AdaptParam.png "Figure 11: Differential expression parameters")
+	![](_static/images/DifferentialExpress_AdaptParam.png "Figure 11: Differential expression parameters")
 	
-	[**'Figure 11: Differential expression parameters**](_static/images/DiffentialExpress_AdaptParam.png)
+	[**'Figure 11: Differential expression parameters**](_static/images/DifferentialExpress_AdaptParam.png)
 	
 2.  Click "next"
 3.  In the next screen click next also; R2 now calculates for all genes
@@ -212,15 +212,15 @@ Step 6: Setting parameters
     this for multiple testing (Figure 12); an amazing amount of
     calculations! R2 performs this on the fly.
 
-	![](_static/images/DiffentialExpress_Progress.png "Figure 12: Progress dialog during on the fly calculation")
+	![](_static/images/DifferentialExpress_Progress.png "Figure 12: Progress dialog during on the fly calculation")
 	
-	[**Figure 12: Progress dialog during on the fly calculation**](_static/images/DiffentialExpress_Progress.png)
+	[**Figure 12: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
 	
 	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 
-	![](_static/images/DiffentialExpress_Genelist.png "Figure 13: Genes differentially expressed between groups")
+	![](_static/images/DifferentialExpress_Genelist.png "Figure 13: Genes differentially expressed between groups")
 
-	[**Figure 13: Genes differentially expressed between groups.**](_static/images/DiffentialExpress_Genelist.png)
+	[**Figure 13: Genes differentially expressed between groups.**](_static/images/DifferentialExpress_Genelist.png)
 
 	
 --------------------------------------------------------------------------
@@ -258,9 +258,9 @@ Step 7: Inspecting single gene
     "adjust settings".
 3.  
 
-![](_static/images/DiffentialExpress_TopGene.png "Figure 14: In the main screen *Changedataset*.")
+![](_static/images/DifferentialExpress_TopGene.png "Figure 14: In the main screen *Changedataset*.")
 
-[**Figure 14: In the main screen *Changedataset*.**](_static/images/DiffentialExpress_TopGene.png)
+[**Figure 14: In the main screen *Changedataset*.**](_static/images/DifferentialExpress_TopGene.png)
 
 
 
@@ -274,9 +274,9 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     analysis. In the right menu click 'Plot all genes (xy,
     volcano, etc)'.
     
-	![](_static/images/DiffentialExpress_RightMenu.png)
+	![](_static/images/DifferentialExpress_RightMenu.png)
 
-	[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DiffentialExpress_RightMenu.png)
+	[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DifferentialExpress_RightMenu.png)
 
 3.	The resulting plot shows all genes of the list in a XY-plot; datapoints above and below the diagonal are
     differentially expressed. Hovering over the points shows the
@@ -286,16 +286,16 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     this information. Note: every plot in R2 with larger amounts of
     datapoints (>5000) will have this "add hovering" button.
     
-	![](_static/images/DiffentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
+	![](_static/images/DifferentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
 	
-	[**Figure 16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DiffentialExpress_XYplot.png)
+	[**Figure 16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_XYplot.png)
 	
 2.  Clicking on the datapoint in the plot opens up a new window showing the expression
     of the gene in the two groups as a box plot.
     
-	![](_static/images/DiffentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
+	![](_static/images/DifferentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
 	
-	[**Figure 17: Differential expression of    NTRK1**](_static/images/DiffentialExpress_BoxdotplotCircle.png)
+	[**Figure 17: Differential expression of    NTRK1**](_static/images/DifferentialExpress_BoxdotplotCircle.png)
 	
 3.  R2 allows further annotation of the XY plot of all genes; in the XY
     plot window (still open in your browser) scroll down and adapt the
@@ -303,9 +303,9 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     to emphasize, eg DNA replication and set the 'Draw fold lines'
     option to 'yes'.
     
-	![](_static/images/DiffentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
+	![](_static/images/DifferentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
 	
-	[**Figure 18: Adjustable settings for the all genes    plot**](_static/images/DiffentialExpress_AdjustAllgenes.png)
+	[**Figure 18: Adjustable settings for the all genes    plot**](_static/images/DifferentialExpress_AdjustAllgenes.png)
 	
 4.  Click redraw image. The plot has been adapted to show the AKR1C1
     genesymbol, DNA-replication genes are highlighted in red. Fold
