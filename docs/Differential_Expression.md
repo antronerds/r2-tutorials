@@ -121,14 +121,18 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 	
    [**Figure  6: The same data now represented in a bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
 
+
+
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
 
-*Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation on track. The analysis will only be performed on the selected subset. In the figure the track gender was selected that enables filtering on gender. Clickin the wheel icon will open a grid supporting all selection combination of interest*
+*Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation on track. The analysis will only be performed on the selected subset. Clicking the wheel icon will open a grid supporting all selection combination of interest*
  
 *Filtering and marking samples: keep in mind that you can repeat the filter procedure on top of the previous one.  The extra graph option allows the users to select different graphical representations. In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*
 
 ![](_static/images/FindDiff/DifferentialExpress_Adjustv1.png)
+
+[**Figure 7: Adjusting menu**](_static/images/DifferentialExpress_BarplotAdjustv1.png)
                            
 ----------
 
@@ -152,21 +156,7 @@ The difference can be shown more dramatically by plotting the data without a log
 	
 	[**Figure 8: Bar plot without transformation**](_static/images/DifferentialExpress_BarplotNotransform.png)
 	
-5.  Note furthermore the menu items to the right and left of the graph.
-    The left panel contains hyperlinks that provide further information
-    about this gene and additional analysis options. The KaplanScanner
-    will be explained in a separate tutorial. The right panel allows you
-    to change your gene of interest immediately, while keeping all the
-    changes that you have made to the graphical representation; just
-    type a gene name and click 'Change Gene'. The "sample overview"
-    shows the clinical data associated with the samples. Click the view
-    button for the first sample.
-6.  Figure 9 shows the clinical data associated with that
-    particular sample.
-    
-	![](_static/images/DifferentialExpress_ClinAnno.png "Figure 9: Clinical annotation of a sample")
-	
-	[**Figure 9: Clinical annotation of a sample**](_static/images/DifferentialExpress_ClinAnno.png)
+
 
 
 
