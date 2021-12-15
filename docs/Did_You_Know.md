@@ -6,7 +6,10 @@ Concepts of R2: did you know..?
 Did you know... that throughout the R2 manual many tips and tricks are provided in small blocks of text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
   
 Jump to one of the sections:  
+
+
 - [What were those R and p-values again?](#r-and-p-values)
+- [Statistical tests in Differential expressed genes?](#Statistical-tests)
 - [Often used settings for analyses](#settings-for-analysess)
     - [Statistics in analyses](#statisticspanel)
     - [When to use multiple testing](#multipletesting)
@@ -24,6 +27,12 @@ R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of
 Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. 
 For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X.  
 The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
+
+### Statistical-tests
+
+In both types of Differential expressed genes (FindDiff) the two group and the multiple group variant you have
+
+
   
 ### Settings for analyses
 

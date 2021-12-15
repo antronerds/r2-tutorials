@@ -95,7 +95,7 @@ Step 2: Choose annotation track as grouping variable
 
 
 
-Step 3: Anova results
+Step 3: Anova results / adapting plots
 ---------------
 
 R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **O**f **VA**riance is a statistical test that calculates whether the means of variables differ between two or more groups. In the case of 2 groups, this is identical to the student T-test. ANOVA can be considered a sound test when the variables are normally distributed and samples are independent. More information can be found here: [](http://en.wikipedia.org/wiki/One-way_ANOVA)<http://en.wikipedia.org/wiki/One-way_ANOVA>. A simple example calculation can be found here: [](http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example)<http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example>.  
@@ -122,6 +122,13 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
    [**Figure  6: The same data now represented in a bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
 
 
+The difference can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as none-transformed mRNA gene expression data is hardly ever normally distributed.
+
+1. Scroll down in the window
+2. In the 'Adjustable settings' dialog, set the 'Transform' dropdown to 'none' (Figure 7)
+3. Click 'Adjust Settings'
+4. The resulting 2 graphs also depicted in different types of plots in Figure 6 shows the difference between the expression values in the two groups more dramatically.
+
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
@@ -137,48 +144,24 @@ R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **
 ----------
 
 
-Step 4: Adapting grouped plots
----------------
-
-The difference can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as none-transformed mRNA gene expression data is hardly ever normally distributed.
-    
-1.  Scroll down in the window
-2.  In the 'Adjustable settings' dialog, set the 'Transform' dropdown to 'none' (Figure 7)
-3.  Click 'Adjust Settings'
-    
-	![](_static/images/DifferentialExpress_BarplotAdjust.png "Figure 7: Adjusting data transformation")
-	
-	[**Figure 7: Adjusting data transformation**](_static/images/DifferentialExpress_BarplotAdjust.png)
-	
-4.  The resulting graph in Figure 8 shows the difference between the expression values in the two groups more dramatically.
-    
-	![](_static/images/DifferentialExpress_BarplotNotransform_v1.png "Figure 8: Bar plot without transformation")
-	
-	[**Figure 8: Bar plot without transformation**](_static/images/DifferentialExpress_BarplotNotransform.png)
-	
 
 
-
-
-
-
-Step 5: Finding all differentially expressed genes 
+Step 4: Finding all differentially expressed genes 
 ---------------
 
 1. It would be a pretty tedious job to look for all genes whether they
     are differentially expressed between groups. Why not let R2 do the
     job for you? Go back to the Main screen, by clicking the link in the
     upper left corner of the screen.
-2. In field 3 of the R2 step-by-step guide you find two options to find differential expressed gene list.
-
-4. 'Find Differential
-    expression between groups' (Figure 10)
+2. In field 3 of the R2 step-by-step guide you find two options to find differential expressed gene lists.
+3. In the analysis drop down menu you will find 'Find Differential expression between two groups' and  Differential expression between multiple groups (Figure 8). Both types of Differential express modules harbor specific statistical tests. Depending on your choosen dataset , number of groups you want to test and the type of data (RNAseq,microarrays) you can choose from several statistical tests. 
     
-    ![](_static/images/DifferentialExpress_FindDiff.png "Figure 10: Selecting Find Differential Expression.")
+    ![](_static/images/FindDiff/DifferentialExpression_Selectgroups.png "Figure 10: Selecting Find Differential Expression.")
 	
-    [**Figure 10: Selecting Find Differential Expression.**](_static/images/DifferentialExpress_FindDiff.png)
+    [**Figure 8: Selecting Find Differential Expression.**](_static/images/FindDiff/DifferentialExpression_Selectgroups)
 	
-5. Click 'Next'
+4. Click 'Next'.
+5
 
 
 
