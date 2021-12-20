@@ -140,13 +140,11 @@ The difference can be shown more dramatically by plotting the data without a log
 ![](_static/images/FindDiff/DifferentialExpress_Adjustv1.png)
 
 [**Figure 7: Adjusting menu**](_static/images/DifferentialExpress_BarplotAdjustv1.png)
-                           
-----------
 
 
 
-
-Step 4: Finding all differentially expressed genes 
+--------
+Step 4: Finding differentially expressed genes in two groups
 ---------------
 
 1. It would be a pretty tedious job to look for all genes whether they
@@ -154,19 +152,24 @@ Step 4: Finding all differentially expressed genes
     job for you? Go back to the Main screen, by clicking the link in the
     upper left corner of the screen.
 2. In field 3 of the R2 step-by-step guide you find two options to find differential expressed gene lists.
-3. In the analysis drop down menu you will find 'Find Differential expression between two groups' and  Differential expression between multiple groups (Figure 8). Both types of Differential express modules harbor specific statistical tests. Depending on your choosen dataset , number of groups you want to test and the type of data (RNAseq,microarrays) you can choose from several statistical tests. 
+3. In the analysis drop down menu you will find 'Find Differential expression between two groups' and  Differential expression between multiple groups (Figure 8). Both types of Differential expres modules harbor specific statistical tests. Depending on your choosen dataset , number of groups you want to test and the type of data (RNAseq,microarrays) you can choose from several statistical tests. 
     
-    ![](_static/images/FindDiff/DifferentialExpression_Selectgroups.png "Figure 10: Selecting Find Differential Expression.")
+    ![](_static/images/FindDiff/DifferentialExpression_Selectgroups.png "Figure8: Selecting Find Differential Expression.")
 	
     [**Figure 8: Selecting Find Differential Expression.**](_static/images/FindDiff/DifferentialExpression_Selectgroups)
 	
-4. Click 'Next'.
-5
+4. Select **"Differential expression between two groups" and** click next.
+5. Here you can select several types of statistical tests which are present in the selection menu. By default the T-test is selected. Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.   Most expression sets are continuous and normally distributed data so the T-test is the most applicable , in case of a dataset which contains catigorical data the Mann-whitney test is more suitable. A special remark for de DESeq2 algorithm is at place here, this test is only avaible for RNAseq data which also contains the un-normalised counts.   Most of the datasets which have DESeq_rlog in the name consist of a normalised data part in case you want to use the T-test and a part with the counts so the DESeq2 algorithm can be applied to run the test. Note that the counts are only used for the test, the values depicted in the graphs etc etc etc are always normalized data.
+
+6. Using the DESEq2 algorithme in case of rnaseq is often appriciated since this is a well established statistical test package dedicated to data such als **rnaseq data**. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst**  as normalization procedure. Datasets with this annnotation have three slots, rlog normalized data, deseq normalized data and a counts slot. This count slot is used when you run the deseq2 algorithm on the fly for two group comparisons.
+
+   ![](_static/images/FindDiff/DifferentialExpress_deseq2select.png "Figure8: Selecting Find Differential Expression.")
+
+   [**Figure 8: Selecting Find Differential Expression.**](_static/images/FindDiff/DifferentialExpress_deseq2select.png)
 
 
 
-
-Step 6: Setting parameters
+Step 5 Setting parameters
 ---------------
 
 1.  In the next window there appear quite a few choices for setting the
@@ -175,25 +178,22 @@ Step 6: Setting parameters
     in red). The samples will be divided by the groups this track provides.  
     Select the 'alive' track again.
     
-	![](_static/images/DifferentialExpress_AdaptParam.png "Figure 11: Differential expression parameters")
+	![](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png "Figure 099: Differential expression parameters")
 	
-	[**'Figure 11: Differential expression parameters**](_static/images/DifferentialExpress_AdaptParam.png)
+	[**'Figure 9: Differential expression parameters**](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png)
 	
 2.  Click "next"
-3.  In the next screen click next also; R2 now calculates for all genes
-    (under the parameters set) a one way Anova test and also corrects
-    this for multiple testing (Figure 12); an amazing amount of
-    calculations! R2 performs this on the fly.
+3.  DifferentialExpress_AdaptParamv2.png
 
-	![](_static/images/DifferentialExpress_Progress.png "Figure 12: Progress dialog during on the fly calculation")
+	![](_static/images/DifferentialExpress_Progress.png "Figure 10: Progress dialog during on the fly calculation")
 	
-	[**Figure 12: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
+	[**Figure 10: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
 	
-	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 13). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
+	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 12). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  The generated list can be sorted according the the column headers in the grid such als p-value and the log2 foldchange (Log2FC). In the right menu numerous moduels kan be selected to continue the analysis. Also the generated list can be extracted to continue for further usage outside R2.
 
-	![](_static/images/DifferentialExpress_Genelist.png "Figure 13: Genes differentially expressed between groups")
+	![](_static/images/FindDiff/DifferentialExpress_Genelistv1.png "Figure 11: Genes differentially expressed between groups")
 
-	[**Figure 13: Genes differentially expressed between groups.**](_static/images/DifferentialExpress_Genelist.png)
+	[**Figure 11: Genes differentially expressed between groups.**](_static/images/DifferentialExpress_Genelist.png)
 
 	
 --------------------------------------------------------------------------
@@ -216,81 +216,92 @@ Step 6: Setting parameters
 
 -----------------
 
+Step 6: Find differential expression in multiple groups.
+---------------
 
 
+As mentioned above,  Find Differential Expression for multiple groups can also be applied  with a slightly different "Adjustable settings menu" and including other types of statistical tests.
+
+1. Select **"Differential expression between multiple groups" and** leave all the settins at their default click next.
+
+2. ![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 11: Genes differentially expressed between groups")
+
+   [**Figure 11: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
+
+3. A list of Differential expressed gene between de groups is generated of course without the Log2 foldchange and group columns.
+
+
+-----------------
 Step 7: Inspecting single gene
 ---------------
 
 
-1.  Click on the hyperlinked top gene in the list
+1.  Click on the magnify symbol in the list next to the gene name. 
 2.  A similar graph as produced for MYCN appears, the differential
     expression is more pronounced for this gene (Figure 14). In the
     generated picture the genes are not ordered for their gene
     expression go to the adjustable settings menu and select "Track and
     gene sort" in the "Extra Graph Option" pulldown menu. Click
     "adjust settings".
-3.  
 
-![](_static/images/DifferentialExpress_TopGene.png "Figure 14: In the main screen *Changedataset*.")
+![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 12: In the main screen *Changedataset*.")
 
-[**Figure 14: In the main screen *Changedataset*.**](_static/images/DifferentialExpress_TopGene.png)
-
+[**Figure 12: In the main screen *Changedataset*.**](_static/images/FindDfiff/DifferentialExpress_TopGene.png)
 
 
+--------------
 Step 8: Plot all genes and adapt visualization: Volcano plot etc
 ---------------
 
-1.  The tab with the list of differentially expressed genes (Figure 13) is still open. Click on this tab.
+1.  The tab with the list of differentially expressed genes (Figure 11) is still open. Click on this tab.
 2.  Most of the functionalities in the right panel of this window will be explored
-    in more advanced tutorials (K-Means clustering). We'll explore one
+    in more advanced tutorials (K-Means clustering etc). We'll explore one
     additional data visualization however to plot all genes of this
-    analysis. In the right menu click 'Plot all genes (xy,
+    analysis. In the right menu click see Figure 11 'Plot all genes (xy,
     volcano, etc)'.
     
-	![](_static/images/DifferentialExpress_RightMenu.png)
+	
 
-	[**Figure 15: Right menu in genelist windos; choosing plot all genes**](_static/images/DifferentialExpress_RightMenu.png)
-
-3.	The resulting plot shows all genes of the list in a XY-plot; datapoints above and below the diagonal are
+2. The resulting plot shows all genes of the list in a XY-plot; datapoints above and below the diagonal are
     differentially expressed. Hovering over the points shows the
     genesymbol, in this case the NTRK1 gene (Figure 16). To speed up the
     graph generation this information is not automatically loaded: click
     on the "add hovering" button below the graph to add
     this information. Note: every plot in R2 with larger amounts of
     datapoints (>5000) will have this "add hovering" button.
-    
-	![](_static/images/DifferentialExpress_XYplot.png "Figure    16: XY plot of all genes differentially expressed in the current    track;")
+
+    ![](_static/images/FindDiff/DifferentialExpress_XYplot.png "Figure    13: XY plot of all genes differentially expressed in the current    track;")
 	
-	[**Figure 16: XY plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_XYplot.png)
+    [**Figure 13: XY plot of all genes differentially expressed in the current    track;**](_static/images/FindDiff/DifferentialExpress_XYplot.png)
 	
-2.  Clicking on the datapoint in the plot opens up a new window showing the expression
+3. Clicking on the datapoint in the plot opens up a new window showing the expression
     of the gene in the two groups as a box plot.
     
-	![](_static/images/DifferentialExpress_BoxdotplotCircle.png "Figure    17: Differential expression of    NTRK1")
+    ![](_static/images/FindDiff/DifferentialExpress_BoxdotplotCircle.png "Figure    14: Differential expression of    NTRK1")
 	
-	[**Figure 17: Differential expression of    NTRK1**](_static/images/DifferentialExpress_BoxdotplotCircle.png)
+    [**Figure 14: Differential expression of    NTRK1**](_static/images/FibdDiff/DifferentialExpress_BoxdotplotCircle.png)
 	
-3.  R2 allows further annotation of the XY plot of all genes; in the XY
+4. R2 allows further annotation of the XY plot of all genes; in the XY
     plot window (still open in your browser) scroll down and adapt the
     settings; add a genesymbol to mark, eg AKR1C1; choose a KEGG pathway
     to emphasize, eg DNA replication and set the 'Draw fold lines'
     option to 'yes'.
     
-	![](_static/images/DifferentialExpress_AdjustAllgenes.png "Figure    18: Adjustable settings for the all genes    plot")
+    ![](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png "Figure    15: Adjustable settings for the all genes    plot")
 	
-	[**Figure 18: Adjustable settings for the all genes    plot**](_static/images/DifferentialExpress_AdjustAllgenes.png)
+    [**Figure 15: Adjustable settings for the all genes    plot**](_static/images/DifferentialExpress_AdjustAllgenes.png)
 	
-4.  Click redraw image. The plot has been adapted to show the AKR1C1
+5. Click redraw image. The plot has been adapted to show the AKR1C1
     genesymbol, DNA-replication genes are highlighted in red. Fold
     change lines show the regions where differential expression is 1 and
     2 fold (Figure 19). Note that most genes of the DNA replication
     pathway seem to be located below the diagonal.
     
-	![](_static/images/DiffentialExpres_graphtypes.png "Figure    19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+    ![](_static/images/FIndDiff/DifferentialExpres_graphtypes.png "Figure    16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 	
-	[**Figure 19: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DiffentialExpres_graphtypes.png)
+    [**Figure 16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DifferentialExpres_graphtypes.png)
 	
-5.  R2 can visualize the same data also as a Volcano plot or an MA plot.
+6. R2 can visualize the same data also as a Volcano plot or an MA plot.
     In the Adjustable Settings dialog change the Plot type to Volcano or
     MA (Figure 19). Note that the distinct
     characteristics of the AKR1C1 gene and the DNA replication are more
