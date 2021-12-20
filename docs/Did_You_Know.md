@@ -33,8 +33,8 @@ The p-value for this calculation estimates the probability that this is an obser
 In both types of Differential expressed genes (FindDiff) the two groups and the multiple group variant R2 offers several types of statistical tests as already stated in the differental expressed chapter.
   
 * two group differential expression.
-  * T-test
-  * Mann-Withney U-test. 
+  * T-test. For normal contigsous data
+  * Mann-Withney-test. Test for non-parametc tests in case you have two grouos
   * Log2 foldchange
   * Limma test
   * DESeq2 test
@@ -42,7 +42,7 @@ In both types of Differential expressed genes (FindDiff) the two groups and the 
 * Differential expression between groups
   * ANOVA
   * Kruskal-Wallis: You have non-parametic data and more then 2 groups, in this  test the data is replaced by their rank position. I case you want to indentify the difference between specific groups such as  group 1 vs 2, 2 vs 3 you should use the Mann-Withney test for two group comparisons. 
-  * Pair-wise tests
+  * Pair-wise tests: 
   
 
 

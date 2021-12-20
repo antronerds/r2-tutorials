@@ -159,41 +159,39 @@ Step 4: Finding differentially expressed genes in two groups
     [**Figure 8: Selecting Find Differential Expression.**](_static/images/FindDiff/DifferentialExpression_Selectgroups)
 	
 4. Select **"Differential expression between two groups" and** click next.
-5. Here you can select several types of statistical tests which are present in the selection menu. By default the T-test is selected. Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.   Most expression sets are continuous and normally distributed data so the T-test is the most applicable , in case of a dataset which contains catigorical data the Mann-whitney test is more suitable. A special remark for de DESeq2 algorithm is at place here, this test is only avaible for RNAseq data which also contains the un-normalised counts.   Most of the datasets which have DESeq_rlog in the name consist of a normalised data part in case you want to use the T-test and a part with the counts so the DESeq2 algorithm can be applied to run the test. Note that the counts are only used for the test, the values depicted in the graphs etc etc etc are always normalized data.
+5. Here you can select several types of statistical tests which are present in the selection menu. By default the T-test is selected. Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.   Most expression sets are continuous and normally distributed data so the T-test is the most applicable , in case of a dataset which contains categorical data the Mann-whitney test is more suitable. A special remark for de DESeq2 algorithm is at place here, this test is only avaible for RNAseq data which also contains the un-normalised counts.   Most of the datasets which have DESeq_rlog in the name consist of a normalised data part in case you want to use the T-test and a part with the counts so the DESeq2 algorithm can be applied to run the test. Note that the counts are only used for the test, the values depicted in the graphs etc are always normalized data.
 
 6. Using the DESEq2 algorithme in case of rnaseq is often appriciated since this is a well established statistical test package dedicated to data such als **rnaseq data**. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst**  as normalization procedure. Datasets with this annnotation have three slots, rlog normalized data, deseq normalized data and a counts slot. This count slot is used when you run the deseq2 algorithm on the fly for two group comparisons.
 
-   ![](_static/images/FindDiff/DifferentialExpress_deseq2select.png "Figure8: Selecting Find Differential Expression.")
+   ![](_static/images/FindDiff/DifferentialExpress_deseq2select.png "Figure 9: Selecting Find Differential Expression.")
 
-   [**Figure 8: Selecting Find Differential Expression.**](_static/images/FindDiff/DifferentialExpress_deseq2select.png)
+   [**Figure 9: Selecting the DESEq2 test.**](_static/images/FindDiff/DifferentialExpress_deseq2select.png)
 
 
 
 Step 5 Setting parameters
 ---------------
 
-1.  In the next window there appear quite a few choices for setting the
+1. In the next window there appear quite a few choices for setting the
     statistical parameters for this analysis. Luckily only one setting is of
-    real immediate importance; selecting the track of choice (shown
-    in red). The samples will be divided by the groups this track provides.  
+    real immediate importance; selecting the track of choice mairked with a red box..  
     Select the 'alive' track again.
     
-	![](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png "Figure 099: Differential expression parameters")
+    ![](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png "Figure 10: Differential expression parameters")
 	
-	[**'Figure 9: Differential expression parameters**](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png)
+    [**Figure 10: Differential expression parameters**](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png)
 	
-2.  Click "next"
-3.  DifferentialExpress_AdaptParamv2.png
+3. Click "next"
 
-	![](_static/images/DifferentialExpress_Progress.png "Figure 10: Progress dialog during on the fly calculation")
+    ![](_static/images/DifferentialExpress_Progress.png "Figure 11: Progress dialog during on the fly calculation")
 	
-	[**Figure 10: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
+    [**Figure 11: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
 	
-	The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 12). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  The generated list can be sorted according the the column headers in the grid such als p-value and the log2 foldchange (Log2FC). In the right menu numerous moduels kan be selected to continue the analysis. Also the generated list can be extracted to continue for further usage outside R2.
+    The result is a list of genes that is ordered for having the most significant differential expression between the groups you chose (Figure 12). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  The generated list can be sorted according the the column headers in the grid such als p-value and the log2 foldchange (Log2FC). In the right menu numerous moduls kan be selected to continue the analysis. Also the generated list can be extracted to continue for further usage outside R2.
 
-	![](_static/images/FindDiff/DifferentialExpress_Genelistv1.png "Figure 11: Genes differentially expressed between groups")
+    ![](_static/images/FindDiff/DifferentialExpress_Genelistv1.png "Figure 12: Genes differentially expressed between groups")
 
-	[**Figure 11: Genes differentially expressed between groups.**](_static/images/DifferentialExpress_Genelist.png)
+    [**Figure 12: Genes differentially expressed between groups.**](_static/images/DifferentialExpress_Genelist.png)
 
 	
 --------------------------------------------------------------------------
@@ -220,15 +218,15 @@ Step 6: Find differential expression in multiple groups.
 ---------------
 
 
-As mentioned above,  Find Differential Expression for multiple groups can also be applied  with a slightly different "Adjustable settings menu" and including other types of statistical tests.
+As mentioned above,  Find Differential Expression for multiple groups can also be applied  with a slightly different "Adjustable settings menu" and including other types of statistical tests. Read more for which test to use in [Chapter 25](Did_You_Know.md)
 
-1. Select **"Differential expression between multiple groups" and** leave all the settins at their default click next.
+1. Select **"Differential expression between multiple groups" and** leave all the settings at their default click next.
 
-2. ![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 11: Genes differentially expressed between groups")
+![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 11: Genes differentially expressed between groups")
 
    [**Figure 11: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
 
-3. A list of Differential expressed gene between de groups is generated of course without the Log2 foldchange and group columns.
+2. A list of Differential expressed gene between de groups is generated of course without the Log2 foldchange and group columns.
 
 
 -----------------
@@ -238,7 +236,7 @@ Step 7: Inspecting single gene
 
 1.  Click on the magnify symbol in the list next to the gene name. 
 2.  A similar graph as produced for MYCN appears, the differential
-    expression is more pronounced for this gene (Figure 14). In the
+    expression is more pronounced for this gene (Figure 12). In the
     generated picture the genes are not ordered for their gene
     expression go to the adjustable settings menu and select "Track and
     gene sort" in the "Extra Graph Option" pulldown menu. Click
