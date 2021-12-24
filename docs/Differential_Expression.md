@@ -41,9 +41,9 @@ Step 1: Selecting data and gene
     "Single Dataset" field is selected in field 1.
 2.  Make sure the Tumor Neuroblastoma public dataset is selected in
     field 2 (see chapter 1 of the tutorial for more information about the selection of a dataset).
-3.	Choose "View a Gene in groups" in field 3.
-4.  Type MYCN as gene (see Figure 1) in field 4.
-5.  Click "Next" in field 5.
+3.	Choose "View a Gene in groups" in field 3 and click next.
+4.  Type MYCN as gene (see Figure 1) in the adjustable settings
+5.  Click "Submit".
 
 	![](_static/images/FindDiff/DifferentialExpression_Genev1.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
 	
@@ -98,23 +98,23 @@ Step 2: Choose annotation track as grouping variable
 Step 3: Anova results / adapting plots
 ---------------
 
-R2 now performs a one-way Anova statistical test on the fly. This **AN**alyis **O**f **VA**riance is a statistical test that calculates whether the means of variables differ between two or more groups. In the case of 2 groups, this is identical to the student T-test. ANOVA can be considered a sound test when the variables are normally distributed and samples are independent. More information can be found here: [](http://en.wikipedia.org/wiki/One-way_ANOVA)<http://en.wikipedia.org/wiki/One-way_ANOVA>. A simple example calculation can be found here: [](http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example)<http://en.wikipedia.org/wiki/F_test#One-way_ANOVA_example>.  
+R2 now performs a one-way Anova statistical test on the fly. More information which test to choose can be found here. [Statistical test: did you know..?](Did_You_Know.md)*
 
-1. Check the graph and the information that is displayed above in the resulting window. For a nicely ordered graph, you can adjust the settings in the menu below to "Track and Gene Sort" (Do not forget to click on Adjust Settings afterwards!). R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
+1. Check the graph and the information that is displayed above in the resulting window. For a nicely ordered graph, you can adjust the settings in the menu below to "Track and Gene Sort" (Do not forget to click on Submit afterwards!). R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph. The actual result of the ANOVA calculations is shown above the graph; the difference in average expression between the two groups is significant. These results can also be shown in a more conventional bar-plot by adapting the settings and redrawing the graph.
    
 
-![](_static/images/FindDiff/DifferentialExpress_Result.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+   ![](_static/images/FindDiff/DifferentialExpress_Resultv1.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
-   [**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpress_Result.png)
+   [**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpress_Resultv1.png)
 
-2.  Scroll down the window.
-3.  Adapt the selection in the dropdown box 'Graph type' to another graphtype and to 'Color by Track'.
-4.  Click 'Adjust Settings' (Figure 5). The resulting graph is adapted accordingly. 
+2. Scroll down the window.
+3. Adapt the selection in the dropdown box 'Graph type' to another graphtype and to 'Color by Track'.
+4. Click 'Submit' (Figure 5). The resulting graph is adapted accordingly. Keep in mind ythat you have to set the analysis type to **gene vs track** and choose a group parameter in order to generate the box-plot type graphs.
 
-	![](_static/images/FindDiff/DifferentialExpression_AdaptGraph.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
+    ![](_static/images/FindDiff/DifferentialExpression_AdaptGraphv1.png "Figure 5: Adapting the Graphtype to BarPlot and set Color by Track")
 	
-	[**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DifferentialExpression_AdaptGraph.png)
+    [**Figure 5: Adapting the Graphtype to BarPlot and set Color by Track**](_static/images/DifferentialExpression_AdaptGraph.png)
 	
 
    ![](_static/images/FindDiff/DifferentialExpression_Barplotv1.png "Figure    6: The same data now represented in a Barplot")
@@ -126,7 +126,7 @@ The difference can be shown more dramatically by plotting the data without a log
 
 1. Scroll down in the window.
 2. In the 'Adjustable settings' dialog, set the 'Transform' dropdown to 'none' (Figure 7).
-3. Click 'Adjust Settings'.
+3. Click 'Submit'.
 4. The resulting 2 graphs also depicted in different types of plots in Figure 6 shows the difference between the expression values in the two groups more dramatically.
 
 
@@ -240,7 +240,7 @@ Step 7: Inspecting single genes
     generated picture the genes are not ordered for their gene
     expression go to the adjustable settings menu and select "Track and
     gene sort" in the "Extra Graph Option" pulldown menu. Click
-    "adjust settings".
+    "Submit".
 
 ![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 12: In the main screen *Changedataset*.")
 
