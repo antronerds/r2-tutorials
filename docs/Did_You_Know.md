@@ -6,7 +6,10 @@ Concepts of R2: did you know..?
 Did you know... that throughout the R2 manual many tips and tricks are provided in small blocks of text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
   
 Jump to one of the sections:  
+
+
 - [What were those R and p-values again?](#r-and-p-values)
+- [Statistical tests in Differential expressed genes?](#Statistical-tests)
 - [Often used settings for analyses](#settings-for-analysess)
     - [Statistics in analyses](#statisticspanel)
     - [When to use multiple testing](#multipletesting)
@@ -24,6 +27,32 @@ R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of
 Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. 
 For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X.  
 The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
+
+### Statistical-tests
+
+In both types of Differential expressed genes (FindDiff) the two groups and the multiple group variant R2 offers several types of statistical tests as already stated in the differental expressed chapter.
+  
+* two group differential expression.
+  * T-test. For normal distributed and continous data, see ANOVA explanation below.
+  * Mann-Withney-test. The Mann-Whitney U test is used to compare differences between two independent groups when the dependent variable is either ordinal or continuous, but not normally necessarily distributed, such as a skewed distribution.
+  
+  * Log2 foldchange.
+  * Limma: Over the past decade, limma has been a popular choice for gene discovery through differential expression analyses of microarray and high-throughput PCR data, moe information can be found here [Limma:NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4402510/). [Limma:BioC](https://bioconductor.org/packages/release/bioc/html/limma.html).
+  * DESeq2 algorithm: Differential expression analysis based on the Negative Binomial (a.k.a. Gamma-Poisson) distribution. The algorithm uses raw integer read counts for control and e.g treatment conditions.[DESeq2:BioC]( http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html).
+
+
+![](_static/images/didyouknow/distribution.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+
+
+[**Distribution types.**](_static/images/FindDiff/distribution.png)
+
+* Differential expression between groups
+  * ANOVA: This **AN**alyis **O**f **VA**riance is a statistical test that calculates whether the means of variables differ between two or more groups. In the case of 2 groups, this is identical to the student T-test. ANOVA can be considered a sound test when the variables are normally distributed and samples are independent.
+  * Kruskal-Wallis: You have non-parametic data and more then 2 groups, in this  test the data is replaced by their rank position. I case you want to indentify the difference between specific groups such as  group 1 vs 2, 2 vs 3 you should use the Mann-Withney test for two group comparisons. 
+  * Pair-wise tests: T-test is performed for all pair-wise group combinations
+  
+
+
   
 ### Settings for analyses
 
