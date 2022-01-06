@@ -47,46 +47,29 @@ Step 1: Selecting data
     field 2 (For additional information on these first two steps,
     consult tutorial : Working with datasets
 3.  In field 3 select 'Find Correlated genes with a single gene'
-    (Figure 1).
-4.  In field 4 type 'MYCN' as gene name
-5.  Click 'Next'
+    (Figure 1) and click next
+4.  In the screen, type 'MYCN' select the first reporter
+5.  Click 'Sumbit'
 
-    ![](_static/images/CorrelatingGenes/FindGenes_Choiceofv1.png "Figure 1: Choice of correlationanalysis.")
+    ![](_static/images/CorrelatingGenes/Correlatinggenes_findgene.png "Figure 1: Choice of correlationanalysis.")
 
-    [**Figure 1: Choice of correlation analysis.**](_static/images/CorrelatingGenes/FindGenes_Choiceof.png)
-
-
+    [**Figure 1: Choice of correlation analysis.**](_static/images/CorrelatingGenes/Correlatinggenes_findgene.png)
 
 
-Step 2: Verifying settings
----------------
 
-1.  Further information on the statistics choices and the meaning of the
-    HugoOnce mode you can find in the 'Differential
-    Expression' tutorial.
-
-    ![](_static/images/CorrelatingGenes/Correlatinggenes_settingsdirection.png "Figure 2: Options page for correlation    calculation")
-
-    [**Figure 2: Options page for correlation calculation**](_static/images/CorrelatingGenes/Correlatinggenes_settingsdirection.png)
-
-2.  In the adjustable settings we leave all the settings at their default. Note in Figure 2 that you can select for both and separate
- correlation directions. Scroll down the screen and click 'Next'
+6. In the adjustable settings,we set the p-value cut-off to 0.001 and leave the further settings at their default. Note in Figure 1 that you can select for both correlation directions or separate. Als p-value, r-value cut-offs and multiple testing can be adapeted. 
+ Scroll down the screen and click 'Submut'
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
 
->  *Just choose 'Correlate 2 genes' in field 3 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' tutorial.*
+>  *Just choose 'Correlate 2 genes' in the main menu in box 2 if you have a specific gene you want to correlate with your gene of interest. Of course this method would be rather tedious if you want to find new genes, hence we're exploring exactly this scenario in this tutorial. Another possibility is to correlate your gene with a track (containing numerical data). This essentially tests whether the expression of your gene of interest correlates with the numerical order described in the track. This scenario is further explored in the 'Differential Expression' chpater.*
 
 ------------------
 
 
-
-
-Step 3: Inspecting correlating genes
+Step 2: Inspecting correlating genes
 ---------------
-
-
-
 
 
 1.  R2 calculates the correlation of the expression of MYCN with the
@@ -103,16 +86,15 @@ Step 3: Inspecting correlating genes
     description of their meaning, consult the 'Differential
     Expression' tutorial).
 
-    ![](_static/images/CorrelatingGenes/FindGenes_GeneList_v1.png "Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
+    ![](_static/images/CorrelatingGenes/FindGenes_GeneList_v2.png "Figure    2: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors")
 
-    [**Figure    3: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors**](_static/images/CorrelatingGenes/FindGenes_GeneLista.png)
+    [**Figure    2: Genes whose expression is correlating with that of the MYCN gene    in 88 Neuroblastoma    tumors**](_static/images/CorrelatingGenes/FindGenes_GeneList_v2.png)
 
 
 
 Exact (gene-) numbers listed in the tutorial Figures such as in this
-example (2208 combinations) can vary. This is caused by database
-updates upon a new genebuild release or an affymetrix annotation update.
-
+example (2184 combinations) can vary. This is caused by database
+updates upon a new genebuild release or from a commerical platform such as affymetrix annotation update.
 
 
 1.  The right table summarizes the genes that show a negative
@@ -128,12 +110,12 @@ updates upon a new genebuild release or an affymetrix annotation update.
     filtering conditions . The filter button is accessible in many
     analysis modules of R2.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_GotoMain.png "Figure4: Filterbutton")
+    ![](_static/images/CorrelatingGenes/FindGenes_GotoMain.png "Figure 3: Filterbutton")
 
-    [**Figure4: Filterbutton**](_static/images/CorrelatingGenes/FindGenes_GotoMain.png)
+    [**Figure 3: Filterbutton**](_static/images/CorrelatingGenes/FindGenes_GotoMain.png)
 
 
-Step 4: Inspecting correlation between specific genes
+Step 3: Inspecting correlation between specific genes
 ---------------
 
 
@@ -143,17 +125,17 @@ Step 4: Inspecting correlation between specific genes
     expression of MYCN quite good! This is reflected in the R and
     p-values that are quite significant.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png "Figure 5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png "Figure 4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
 
-    [**Figure    5: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png)
+    [**Figure    4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png)
 
 2.  For an opposite example, click on one of the the top genes in the
     right column; MEAF6. This produces Figure 6. The original list of
     results is still open in another tab in your browser, return there.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg.png "Figure 6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg.png "Figure 5: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
 
-    [**Figure 6: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg.png)
+    [**Figure 5: The expression of MYCN has a negative correlation with that of    the MEAf6    gene**](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg.png)
 
 3.  To generate a correlation plot where the negative relation between MYCN
     and MEAF6 gene is more clearly visualized select "XY-plot" as graph type
@@ -165,9 +147,9 @@ Step 4: Inspecting correlation between specific genes
     boxes in the x and y axes show expression levels are distributed for the
     samples in the selected dataset see Figure 7.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png "Figure 7: Toggle Histogram")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png "Figure 6: Toggle Histogram")
 
-    [**Figure 7: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
+    [**Figure 6: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
 
 4. Another nice way to adjust the graphical representation of a XY plot is using the gene expression levels and apply these to a color gradient
 

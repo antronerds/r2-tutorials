@@ -28,7 +28,7 @@ Perhaps the best way to interpret the value of R is to square it. This is the fr
 For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X.  
 The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
 
-### Statistical-tests
+### Statistical tests
 
 In both types of Differential expressed genes (FindDiff) the two groups and the multiple group variant R2 offers several types of statistical tests as already stated in the differental expressed chapter.
   
