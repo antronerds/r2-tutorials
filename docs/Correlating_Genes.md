@@ -188,9 +188,9 @@ Step 3: Inspecting correlation between specific genes
 
 9.  Through the menu to the right several additional dataviews and
     analyses are available. Let's start with different overviews; R2 is
-    able to produce heatmaps of this analysis. Click on the 'Heatmap
-    (zscore)' menu item Figure 8. The gene names are on the y-axis,
-    sample names on the x-axis. Return to the genelist view (Figure 3)
+    able to produce heatmaps of this analysis. Return to the genelist view (Figure 2) Click on the 'Heatmap
+    (zscore)' in the right menu The gene names are on the y-axis,
+    sample names on the x-axis. 
 
     ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHeat.png "Figure8: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
 
@@ -199,12 +199,12 @@ Step 3: Inspecting correlation between specific genes
 
 
 
-Step 5: Relation with Chromosome position
+Step 4: Relation with Chromosome position
 ---------------
 
 
 Another view is the mapping of these genes on all chromosomes. Click on
-the 'Chromosome Map' menu item. In Figure 13 this mapping is depicted in
+the 'Chromosome Map' menu item again right menu Figure 2. In Figure 13 this mapping is depicted in
 an overview. Sometimes, eyeballing already suggests that some regions
 seem to be affected. R2 provides a table where the statistics behind
 this analysis are given: Figure 14. The overrepresentation of genes that
@@ -219,20 +219,21 @@ arm of) a chromosome is calculated. You can also explore the results in the inte
 
 -------------------------------------------------------------------------------
 
+![](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png "Figure 14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
+
+[**Figure 14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png)
 
 ![](_static/images/CorrelatingGenes/FindGenes_Chromosome.png "Figure9: Mapping of the genes correlating with MYCN on all chromosomes")
 
 [**Figure13: Mapping of the genes correlating with MYCN on allchromosomes**](_static/images/CorrelatingGenes/FindGenes_Chromosome.png)
 
-![](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png "Figure10: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
 
-[**Figure 14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png)
 
-1.  To further explore this set of genes return to the list: Figure 3
+1.  To further explore this set of genes return to the list: Figure 2
 
 
 
-Step 6: Establishing overrepresentation in other domains
+Step 5: Establishing overrepresentation in other domains
 ---------------
 
 1.  Further overrepresentation analyses in other domains can give a
@@ -242,7 +243,7 @@ Step 6: Establishing overrepresentation in other domains
     controlled vocabulary that systematically describes processes,
     locations and functions in biology. Click 'Gene Ontology analysis'
 2.  The resulting categories are presented in a sortable table (Figure
-    11), sort on p-value by clicking on the column header. Clickin on a pathway ID will open a new screen or tab with the heatmap of the selected pathway.
+    15), sort on p-value by clicking on the column header. Clicking on a pathway ID will open a new screen or tab with the heatmap of the selected pathway.
 
     ![](_static/images/CorrelatingGenes/Findgenes_onto_v1.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 
@@ -266,27 +267,21 @@ Step 6: Establishing overrepresentation in other domains
 Step 7: Gene list in pathway context
 ---------------
 
-1.  Return to the gene list Figure 3 and click 'Map on pathway image'
-2.  In the next screen a choice can be made for other datasets; we use
-    the KEGG database. Click next.
+1. Return to the gene list Figure 2 and click 'Map on pathway image'
 
-    ![](_static/images/CorrelatingGenes/Correlatinggenes_select_dataset.png "Figure    13: Choice panel for other    datasets")
-
-    [**Figure    17: Choice panel for other    datasets**](_static/images/CorrelatingGenes/First_image_select_dataset.png)
-
-3.  A similar overrepresentation analysis is performed on all gene
+2. A similar overrepresentation analysis is performed on all gene
     members of the pathways in the KEGG database. Click on the p-value
     column header again to find the most significant ones: Figure 14
 
     ![](_static/images/CorrelatingGenes/FindGenes_KeggPath.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 
-    [**Figure    18: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/CorrelatingGenes/FindGenes_KeggPath.png)
+    [**Figure    17: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/CorrelatingGenes/FindGenes_KeggPath.png)
 
-4.  The DNA-replication pathway pops up as most significant. Note that
+3. The DNA-replication pathway pops up as most significant. Note that
     most genes are similar to the GO process found in the
     former analysis. The pathway will be shown when the blue A in front
     of the pathway name is clicked.
-5.  A hyperlinked KEGG pathway appears: Figure 15
+4. A hyperlinked KEGG pathway appears: Figure 15
 
     ![Figure 19: Mapping of the overrepresented genes (darker green) in the MYCN
     correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information](_static/images/CorrelatingGenes/FindGenes_Pathway.png "Figure 15: Mapping of the overrepresented genes (darker green) in the MYCN
@@ -296,7 +291,7 @@ Step 7: Gene list in pathway context
     correlating set on the DNA-replication pathway from the KEGG database. Hovering over the gene shows additional information.**](_static/images/CorrelatingGenes/FindGenes_Pathway.png)
 
 
-MCM-genes seem to play a role. Go back to list (Figure 3) to show their
+MCM-genes seem to play a role. Go back to list (Figure 2) to show their
 individual relation with MYCN.
 
 
@@ -350,11 +345,11 @@ Step 8: Further pathways analysis
 Step 9: Gene set analysis
 ---------------
 
-1.  The genelist produced in the beginning of this tutorial (Figure 3)
+1.  The genelist produced in the beginning of this tutorial (Figure 2)
     can be stored for use in later analyses in R2, or for use in
     other applications. Return to the page containing the list, this is
     still open in another tab in your browser.
-2.  The menu to the right gives several possibilities (Figure 53). Some
+2.  The menu to the right gives several possibilities (Figure 2). Some
     of these have been explored already; we'll touch shortly on the rest
     of them.
 
