@@ -37,7 +37,7 @@ In both types of Differential expressed genes (FindDiff) the two groups and the 
   * Mann-Withney-test. The Mann-Whitney U test is used to compare differences between two independent groups when the dependent variable is either ordinal or continuous, but not normally necessarily distributed, such as a skewed distribution.
   
   * Log2 foldchange.
-  * Limma: Over the past decade, limma has been a popular choice for gene discovery through differential expression analyses of microarray and high-throughput PCR data, moe information can be found here [Limma:NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4402510/). [Limma:BioC](https://bioconductor.org/packages/release/bioc/html/limma.html).
+  * Limma: Over the past decade, limma has been a popular choice for gene discovery through differential expression analyses of microarray and high-throughput PCR data, moe information can be found here [Limma:NCBI](https://r2-tutorials.readthedocs.io/en/latest/tSNE_dimensionality_reduction.html).
   * DESeq2 algorithm: Differential expression analysis based on the Negative Binomial (a.k.a. Gamma-Poisson) distribution. The algorithm uses raw integer read counts for control and e.g treatment conditions.[DESeq2:BioC]( http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html).
 
 
