@@ -8,7 +8,7 @@ Did you know... that throughout the R2 manual many tips and tricks are provided 
 Jump to one of the sections:  
 
 
-- [What were those R and p-values again?](#r-and-p-values)
+- [Statistical terms used in r2 explained?](#r-and-p-values)
 - [Statistical tests in Differential expressed genes?](#Statistical-tests)
 - [Often used settings for analyses](#settings-for-analysess)
     - [Statistics in analyses](#statisticspanel)
@@ -30,6 +30,7 @@ The p-value for this calculation estimates the probability that this is an obser
 
 
 **Correlation**: What are the p and r-values when the correlation between two genes is calculated. The significance of a correlation is determined by t = R/sqrt((1-r^2)/(n-2)), where R is the correlation value and n is the number of samples. Distribution measure is approximately as t with n-2 degrees of freedom.
+
 
 
 
