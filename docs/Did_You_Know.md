@@ -8,7 +8,7 @@ Did you know... that throughout the R2 manual many tips and tricks are provided 
 Jump to one of the sections:  
 
 
-- [What were those R and p-values again?](#r-and-p-values)
+- [Statistical terms used in r2 explained?](#r-and-p-values)
 - [Statistical tests in Differential expressed genes?](#Statistical-tests)
 - [Often used settings for analyses](#settings-for-analysess)
     - [Statistics in analyses](#statisticspanel)
@@ -23,10 +23,17 @@ Jump to one of the sections:
 
 ### R and p-values  
 
-R is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation.  
+**R**: is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation.  
 Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. 
 For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X.  
 The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
+
+
+**Correlation**: What are the p and r-values when the correlation between two genes is calculated. The significance of a correlation is determined by t = R/sqrt((1-r^2)/(n-2)), where R is the correlation value and n is the number of samples. Distribution measure is approximately as t with n-2 degrees of freedom.
+
+
+
+
 
 ### Statistical tests
 
@@ -36,7 +43,7 @@ In both types of Differential expressed genes (FindDiff) the two groups and the 
   * T-test. For normal distributed and continous data, see ANOVA explanation below.
   * Mann-Withney-test. The Mann-Whitney U test is used to compare differences between two independent groups when the dependent variable is either ordinal or continuous, but not normally necessarily distributed, such as a skewed distribution.
   
-  * Log2 foldchange.
+  * Log2 foldchange: How is de log2 foldchange calculated: Log2 (untransformed(group1)/untransformed(grp2))
   * Limma: Over the past decade, limma has been a popular choice for gene discovery through differential expression analyses of microarray and high-throughput PCR data, moe information can be found here [Limma:NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4402510/). [Limma:BioC](https://bioconductor.org/packages/release/bioc/html/limma.html).
   * DESeq2 algorithm: Differential expression analysis based on the Negative Binomial (a.k.a. Gamma-Poisson) distribution. The algorithm uses raw integer read counts for control and e.g treatment conditions.[DESeq2:BioC]( http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html).
 
