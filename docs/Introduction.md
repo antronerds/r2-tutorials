@@ -6,23 +6,21 @@ Preface
 *Why these tutorials?*
 
 The R2 platform (<http://r2platform.com> or <http://r2.amc.nl>) is a
-genomics analysis and visualization platform that tries to provide a
-biologist friendly interface to high throughput data. It has been
+genomics analysis and visualization platform that provides a
+biologist/bio-medical researcher friendly interface to high throughput data. It has initially been
 developed within the department of Oncogenomics at the AMC in the
 Netherlands, where it still serves as a primary entry point for all
-types of high throughput data generated within the department. The R2
+types of high throughput data generated within the department. Currently, we continue the development of R2 in our own group within the department of CEMM. The R2
 platform consists of 2 parts; a (publicly accessible) database, that
-stores the data, coupled to a web-interface that provides a set of tools
+stores the data, coupled to a web-interface that provides a set of interactive and inter connected tools
 and visualizations to mine the database.
 
-
-Even though many people like the concept of R2, getting started with the
-platform as a new user can be a bit difficult or intimidating. With this
-tutorial book, we hope to get new users started and at the same time
+Even though many people appreciate the concept of R2, getting started with the
+platform as a new user can be a bit difficult or intimidating with the wide range of options that we provide.  With this
+tutorial book, we hope to help new users getting started and at the same time
 demonstrate the diverse set of functionalities to users which may
 already have experience with R2, but want to get familiar with new
 additions to the platform.
-
 
 The setup of these tutorials is as follows: We have divided the different
 aspects of the R2 platform in a number of chapters which reflect tasks
@@ -52,6 +50,8 @@ personal lists of genes. These also explain how you can start
 your own user group and share information with specific other users for
 collaborative work. It is further elaborated how to add your own
 data and how to export data from R2 for use in other tools. 
+
+If you don't feel like reading the tutorials, then have a look at our YouTube channel, where team members of the R2 platform demonstrate many functionalities in short videos.
 
 
 We hope that these tutorials will be helpful. If you have any comments
