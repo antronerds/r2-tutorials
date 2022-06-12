@@ -31,31 +31,28 @@ Step 1: Exploring the genome browser
     choose “View a gene” at “type of analysis”. In field 4: type “MYCN”
     and click ‘next’.
 2.  Leave all the settings at their default and click ‘next’. You have
-    now arrived at the “One Gene View”. In this tutorial the main focus
+    now arrived at the “One Gene View”. In this part of the tutorial the main focus
     is the evaluation of the reporters designed by manufactures such as
     Affymetrix represented in the R2 Genome browser. To a lesser
-    extent gene expression wprofiles will be looked at as well.  
-    When you slide down on the “One gene
-    view” page of the MYCN expression, you encounter the “Probeset
-    verification” table. The Probeset verification table, displays an
-    automated analysis for U133 based Affymetrix platforms, where the
+    extent gene expression profiles will be looked at as well.  
+    When you slide down on the “One gene view” page of the MYCN expression, you encounter the “Probeset verification” table. The Probeset verification table, displays an automated analysis for U133 based Affymetrix platforms, where the
     reporter-gene relation validity has been verified by their genomic
     location (also described in more detail in the
     tutorial on One Gene View). Click on the “R2 Tview” link of the upper
     probeset and the embedded R2 genome browser will open in a
     new screen. The genome browser shows the genomic span where the MYCN
     gene is located together with the 5 MYCN probesets mapped to their
-    genomic position.
+    genomic position. Note that quite a number of the hundreds of platforms that R2 manages will have genome information. In those cases, the 'Probeset Genome Location' box will list those and can bring you to our embedded genome browser by following the R2_Tview link.
     
     ![](_static/images/UsingR2genome_probesettable.png "Figure    1: Probeset Verification table")
-	
-	[**Figure    1: Probeset Verification table**](_static/images/UsingR2genome_probesettable.png)
-
+    
+    [**Figure    1: Probeset Verification table**](_static/images/UsingR2genome_probesettable.png)
+    
 	When we access the genome browser via the One Gene View page, by
-    default R2 has enabled a number of annotations (Tracks). At the top
+	default R2 has enabled a number of annotations (Tracks). At the top
     of the Transcript View display, R2 depicts all known expressed sequence tag (EST) and mRNA sequences aligned to the genome (synchronized with the USCS
-    database regularly).
-
+	database regularly).
+    
     These mappings serve as evidence for the
     existence of a gene, and are individually hyperlinked to the
     Genbank database. The EST and mRNA sequences are colored by the
@@ -94,16 +91,16 @@ Step 1: Exploring the genome browser
     separate 25-bp reporters. For Affymetrix arrays other then the
     Hu133-2 and Hu133-a platforms the reporters may vary in the number
     of basepairs. These measured regions are indicated in the reporter track by very dark shades.
-
-    ![](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
-	
-    [**Figure 2 : Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
-  
-    ![](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
-	
-    [**Figure 3: Legend of the color usage**](_static/images/UsingR2genome_legend1.png)
     
-    With the default settings the genome browser shows the average
+    ![](_static/images/UsingR2genome_Genomebrowser_a.png "Figure 4: Second half of the genome browser with    default tracks.")
+    
+    [**Figure 2 : Genome browser with default tracks.**](_static/images/UsingR2genome_Genomebrowser_a.png)
+    
+	![](_static/images/UsingR2genome_legend1.png "Figure 3: Legend of the color usage")
+    
+  [**Figure 3: Legend of the color usage**](_static/images/UsingR2genome_legend1.png)
+    
+	With the default settings the genome browser shows the average
     expression signal per probeset for a chosen dataset with their
     genomic location.
 3.  The properties and adjustable settings panel allows users to
@@ -169,8 +166,8 @@ Step 2: Zooming and panning
 ![](_static/images/UsingR2genome_toolicon.png) 
 
 > *Clicking on the tool icon unfolds extra options to configure your graph. For many tracks, this will allow you to increase the size, but the settings may also include options that are specific to a particular analysis*                                                                 
-                                                                        
-                                                                  
+
+
 ----------
 
 
@@ -222,5 +219,4 @@ Everything described in ths chapter can be performed in the R2: genomics analysi
 
 
 We hope that this tutorial has been helpful, the R2 support team.
-
 
