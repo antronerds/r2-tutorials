@@ -45,7 +45,7 @@ Step 1: Selecting data and gene
 4.  Type MYCN as gene (see Figure 1) in the adjustable settings
 5.  Click "Submit".
 
-	![](_static/images/FindDiff/DifferentialExpression_Genev1.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
+	![](_static/images/FindDiff/DifferentialExpression_Genev1a.png "Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2")
 	
 	[**Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2**](_static/images//FindDiff/DifferentialExpression_Genev1.png)
 	
