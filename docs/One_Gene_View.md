@@ -40,9 +40,9 @@ Step 1: Select the View a Gene module
 2.  Choose “View a Gene” in field 3 and click "Next".
 
 
-![](_static/images/Onegeneview/OneGene_singleselect_v2.png "Figure 1: Single gene selection")
+![](_static/images/Onegeneview/OneGene_singleselect_v2a.png "Figure 1: Single gene selection")
 
-[**Figure 1: Single gene selection**](_static/images/Onegeneview/OneGene_singleselect_v2.png)
+[**Figure 1: Single gene selection**](_static/images/Onegeneview/OneGene_singleselect_v2a.png)
 
 
 
@@ -61,9 +61,9 @@ Step 2: Select the gene or reporter
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a given expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
-   ![](_static/images/Onegeneview/OneGene_multipleprobegrid.png "Figure 2: By default the reporter with the highest expression level is selected")
+   ![](_static/images/Onegeneview/OneGene_multipleprobegrid2.png "Figure 2: By default the reporter with the highest expression level is selected")
    
-   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Bottom, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid.png)
+   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Bottom, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
 
 2. To follow the example of this tutorial, use the pre-defined default settings in the rest of the adjustable settings menu, and click ‘Next’.
    
@@ -74,11 +74,12 @@ Step 3: Plotting Gene expression
 1. R2 generates a YY-graph (Figure 3) from the MYCN expression levels of
    all samples with expression levels ordered from left (low) to
    right (high). Hovering over the dots reveals additional annotation
-   that R2 has stored for the focused sample.  
-     
-   ![](_static/images/Onegeneview/OneGene_MYCN.png "Figure 3: YY plot MYCN expression")
+   that R2 has stored for the focused sample.
 
-   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN.png)
+     
+   ![](_static/images/Onegeneview/OneGene_MYCN1a.png "Figure 3: YY plot MYCN expression")
+
+   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1a.png)
   
 2. Underneath the X-axis, colored boxes are depicted, representing
    clinical information of the samples in so-called "tracks". Again,
@@ -86,9 +87,9 @@ Step 3: Plotting Gene expression
    clear relationship between the expression levels and the tracks for
    “MYCN amplification” and “INSS-stage“. The display of these tracks underneath
    the image gives a quick glance at some of the clinical parameters,
-   defined for the dataset. It is also possible to define your own
+   defined for the dataset. Clicking the triangle at  **View additional detail** provides functional information for the reporters and the genome location if available.  It is also possible to define your own
    custom-made tracks, or disable/adapt the settings for default tracks
-   (further explained in the chapter “Adapting R2 to your needs“).
+   (further explained in the chapter “Adapting R2 to your needs“)
 
 3. Sometimes you get more insight by reviewing the expression levels
    with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the pulldown menu of the ‘Transformation’ setting (top red arrow in Figure 4), choose “none” 
