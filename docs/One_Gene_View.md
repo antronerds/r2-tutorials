@@ -364,7 +364,7 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  [**Figure 18: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_subgroupvsall.png)
 
-Next to the filter drowdopwn menu , clicking the *wheel"* will open en pop-up screen with a grid to createtracks with in or exlcuding individual samples for the available tracks. From this point also a track can be created and stored. You will encounter the filter option in the adjustable settings box in many modules.
+Next to the filter dropdown menu , clicking the *"wheel"* will open a pop-up screen with a grid to create tracks with in or excluding individual samples for the available tracks. From this point also a track can be created and stored. You will encounter the filter option in the adjustable settings box in many modules.
 
 ![](_static/images/Onegeneview/OneGene_advancedfiltering.png "Figure 19: Advanced filtering")
 
