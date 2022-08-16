@@ -13,9 +13,9 @@ Scope
     annotated single dataset or a selection of datasets at the
     same time. Different analyses are available based on the selection
     of one of these options in field 1.
-- R2 contains omic profiles such as expression and methylation profiles for more than 640.000 unique
+- R2 contains omic profiles such as expression and methylation profiles for more than 1.200.000 unique
     individual samples. The samples are grouped in so-called datasets. Each dataset has its own characteristics, 
-    such as tissue type, tumor type, or from cell-line experiments. Frequently, new datasets are added the platform.
+    such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added the platform.
 - The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
     u133p2* dataset will be used as an example dataset to guide you
     through most of the tutorial. Later on, working with multiple
@@ -115,7 +115,7 @@ Step 2: Advanced selection of datasets
 -------------
  ![](_static/images/R2d2_logo.png)**Did you know that clicking on an exclamation balloon provides additional info?**      
 
- ![](_static/images/Usingdatasets/UsingDatasets_information_balloonv1.png)
+ ![](_static/images/Usingdatasets/UsingDatasets_information_balloonv1a.png)
 
 -------------
 
@@ -128,16 +128,16 @@ is easily accessible. In order to maintain favorites, you need to be a registere
 accounts can easily be created via 'Login/Register' and are absolutely free. Clicking on 'Change Dataset' will open the 
 datasets page, where resources can be searched and selected.
 
-![](_static/images/Usingdatasets/UsingDataset_selectv1.png  "Figure 7: Change Dataset, to access favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectv1a.png  "Figure 7: Change Dataset, to access favorites")
 	
-[**Figure 9: Change Dataset to access favorites**](_static/images/Usingdatasets/UsingDatasets_favorites.png)
+[**Figure 9: Change Dataset to access favorites**](_static/images/Usingdatasets/UsingDataset_selectv1a.png)
 
 Within the dataset selection table, you can select and deselect cohorts to add or remove them from your selection of 
 preferred sets. This is done by using the favorite select boxes in the last column on the right side. Favorite 
 datasets will always be represented at the top of your selection table and will be marked with a green background 
 color. This makes it very convenient to quickly have access to those. 
 
-![](_static/images/Usingdatasets/UsingDataset_selectfav.png "Figure 9: Managing favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectfav.png "Figure 10: Managing favorites")
 	
 [**Figure 10: Managing favorites**](_static/images/Usingdatasets/UsingDataset_selectfav.png)
 
