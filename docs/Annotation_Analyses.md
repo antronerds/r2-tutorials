@@ -50,9 +50,9 @@ Step 1: Relating 2 (categorical) tracks
     "Relate 2 tracks", which can be found in the annotation subsection
     and press 'Next'.
     
-    ![](_static/images/Annotation/AnnotationAnalyses_relatev1.png "Figure 1: Select relate two tracks")
+    ![](_static/images/Annotation/AnnotationAnalyses_relatev1a.png "Figure 1: Select relate two tracks")
 	
-    [**Figure 1: Select "Relate 2 tracks"**](_static/images/AnnotationAnalyses_relate.png)
+    [**Figure 1: Select "Relate 2 tracks"**](_static/images/s/Annotation/AnnotationAnalyses_relatev1a.png)
 	
 2. For the different tracks, make sure that you select a categorical
     one (which can be recognized by (cat)). We investigate whether
@@ -61,9 +61,9 @@ Step 1: Relating 2 (categorical) tracks
     survival status (track=alive). Select the 'XY' plot in the graph section. Then press 'Submit' to generate
     the result.
     
-    ![](_static/images/Annotation/AnnotationAnalyses_adjustv1.png "Figure 2: Select Selecting categorical tracks")
+    ![](_static/images/Annotation/AnnotationAnalyses_adjustv1a.png "Figure 2: Select Selecting categorical tracks")
 	
-    [**Figure 2: Select Selecting categorical tracks**](_static/images/Annotation/AnnotationAnalyses_adjustv1.png)
+    [**Figure 2: Select Selecting categorical tracks**](_static/images/Annotation/AnnotationAnalyses_adjustv1a.png)
 	
 3. The generated result is now displayed on the screen. As we are
     testing 2 categorical variables, R2 has tested the relation between
@@ -82,9 +82,9 @@ Step 1: Relating 2 (categorical) tracks
     deceased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. 
     We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
 
-    ![](_static/images/Annotation/AnnotationAnalyses_colorsamplesv1.png "Figure3: Color samples by track")
+    ![](_static/images/Annotation/AnnotationAnalyses_colorsamplesv1a.png "Figure3: Color samples by track")
 	
-    [**Figure3: Color samples by track**](_static/images/AnnotationAnalyses_colorsamples.png)
+    [**Figure3: Color samples by track**](_static/images/Annotation/AnnotationAnalyses_colorsamples.png)
 	
 5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked
    Barplot" or "Stacked Barplot ratio" respectively. The "Stacked Barplot ratio" option scales every group to 100%, and thereby shows the relative contribution of the different groups.
@@ -110,9 +110,9 @@ Step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-	![](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1.png "Figure 4: Output of relating numerical tracks")
+	![](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1.png "Figure 5: Output of relating numerical tracks")
 	
-	[**Figure 4: "Output of relating numerical tracks**](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1.png)
+	[**Figure 5: Output of relating numerical tracks**](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1.png)
 	
 
 
@@ -139,9 +139,9 @@ Step 3: Relating a categorical track to a numerical track
     track, and you have a nice result here, showing that the survival
     rate is significantly lower in patients of INSS stage 4.
 
-    ![](_static/images/Annotation/AnnotationAnalyse_relationnumcat.png "Figure5: Representing the relation between categorical and numericaltracks")
+    ![](_static/images/Annotation/AnnotationAnalyse_relationnumcat1a.png "Figure 6: Representing the relation between categorical and numericaltracks")
 	
-    [**Figure 5: Representing the relation between categorical and numerical tracks**](_static/images/Annotation/AnnotationAnalyse_relationnumcat.png)
+    [**Figure 6: Representing the relation between categorical and numerical tracks**](_static/images/Annotation/AnnotationAnalyse_relationnumcat1a.png)
 	
 
 
@@ -174,15 +174,15 @@ Step 4: Annotation plotter and Cohort Overview
     "Annotation plotter", which can be found in the annotation
     subsection and press next.
 3. The default view for the dataset will be plotted. Now one can change
-    the tracks to display (with track display selection), as well as the
-    order in which the samples should be ordered (track sort order). The
-    order in which tracks are selected for ordering will also dictate
+    the tracks to display as well as the
+    order in which the samples should be ordered. For removing tracks, drag the trackname out-side the selection box and click submit.
+   Hold en drag the track name to adapt the order in the list of the right selection panel. The order in which tracks are selected for ordering will also dictate
     the final sort. For some complicated sorts, it may be necessary to
     create a numeric track that puts the sample in the intended order.
 
-    ![](_static/images/Annotation/AnnotationAnalyse_plotting.png "Figure 7: Plotting the annotationtracks")
+    ![](_static/images/Annotation/AnnotationAnalyse_plotting1a.png "Figure 7: Plotting the annotationtracks")
 	
-    [**Figure 7: Plotting the annotationtracks**](_static/images/Annotation/AnnotationAnalyse_plotting.png)
+    [**Figure 7: Plotting the annotationtracks**](_static/images/Annotation/AnnotationAnalyse_plotting1a.png)
 	
 4. Another often useful overview is provided by the Cohort Overview. Click on 'Go to Main' in the upper left corner,
 and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click 'Next'.  
