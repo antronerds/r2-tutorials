@@ -355,7 +355,7 @@ Step 9: Gene set analysis
 -   "Map on pathway image", "Chromosome map", "Gene Ontology analysis",
     "Heatmap" have been explored in this tutorial.
 -   "MakeMeATable" produces a txt file that is formatted for direct
-    input into another data analysis tools such as  [TM4](https://webmev.tm4.org/#/about).
+    input into another data analysis tool such as  [TM4](https://webmev.tm4.org/#/about).
 -   "Save current selection as TXT file" produces a tab separated file
     containing the current analysis. In the header of such file all
     information is stored to be able to redo the analyses in the future.
