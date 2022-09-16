@@ -299,9 +299,9 @@ Step 8: Further pathways analysis
 1.  Scroll down and look for the MCM2 gene, click on the link to show
     their relationship: Figure 16.
 
-	![](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2.png "Figure    20: MCM2 		expression correlates with    MYCN expression.")
+	![](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2_v1.png "Figure    20: MCM2 		expression correlates with    MYCN expression.")
 	
-	[**Figure 20: MCM2 expression correlates with MYCN expression.**](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2.png)
+	[**Figure 20: MCM2 expression correlates with MYCN expression.**](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2_v1.png)
 
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
@@ -355,7 +355,7 @@ Step 9: Gene set analysis
 -   "Map on pathway image", "Chromosome map", "Gene Ontology analysis",
     "Heatmap" have been explored in this tutorial.
 -   "MakeMeATable" produces a txt file that is formatted for direct
-    input into the data analysis tool [TM4](https://webmev.tm4.org/#/about).
+    input into another the data analysis tool such as  [TM4](https://webmev.tm4.org/#/about).
 -   "Save current selection as TXT file" produces a tab separated file
     containing the current analysis. In the header of such file all
     information is stored to be able to redo the analyses in the future.
