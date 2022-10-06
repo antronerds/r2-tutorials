@@ -197,9 +197,9 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
-   ![](_static/images/Onegeneview/OneGene_genevstrack1b.png "Figure 8B: View a Gene in Groups")
+   ![](_static/images/Onegeneview/OneGene_genevstrack1b.png "Figure 8B: Alternative route to this analysis: View a Gene in Groups")
 
-   [**Figure 8B: View a Gene in Groups**](_static/images/Onegeneview/OneGene_genevstrack1b.png)
+   [**Figure 8B: Alternative route to this analysis: View a Gene in Groups**](_static/images/Onegeneview/OneGene_genevstrack1b.png)
 
 5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups (Figure 9).
 
