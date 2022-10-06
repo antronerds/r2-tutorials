@@ -300,9 +300,9 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
    to emphasize, e.g. DNA replication and set the 'Draw fold lines'
    option to 'yes'.
 
-   ![](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png "Figure    15: Adjustable settings for the all genes    plot")
+   ![](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png "Figure    15: Adjustable settings for the all genes plot")
 
-   [**Figure 15: Adjustable settings for the all genes    plot**](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png)
+   [**Figure 15: Adjustable settings for the all genes plot**](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png)
 
 6. Click redraw image. The plot has been adapted to show the AKR1C1
    genesymbol, DNA-replication genes are highlighted in red. Fold
@@ -312,7 +312,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 
    ![](_static/images/FindDiff/DifferentialExpres_graphtypes.png "Figure    16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
-   [**Figure 16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_graphtypes.png)
+   [**Figure 16: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_graphtypes.png)
 
 7. R2 can visualize the same data also as a Volcano plot or an MA plot.
    In the Adjustable Settings dialog change the Plot type to Volcano or
