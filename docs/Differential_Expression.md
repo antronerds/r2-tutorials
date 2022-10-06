@@ -109,7 +109,7 @@ These results can also be shown in different types of plots (Figure 5).
 
 ![](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png "Figure 5: Adapting the Graph type to Dot plot, change order and set Color by Track")
 
-[**Figure 5: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/DifferentialExpression_AdaptGraphDotPlots.png)
+[**Figure 5: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
 
 
 The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed.
@@ -130,7 +130,7 @@ The resulting 2 graphs also depicted in different types of plots in Figure 6 sho
 
 ![](_static/images/FindDiff/DifferentialExpress_SampleFilterDropdown.png)
 
-[**Figure 7: Sample selection with the Sample Filter**](_static/images/DifferentialExpress_SampleFilterDropdown.png)
+[**Figure 7: Sample selection with the Sample Filter**](_static/images/FindDiff/DifferentialExpress_SampleFilterDropdown.png)
 
 
 
@@ -138,14 +138,14 @@ The resulting 2 graphs also depicted in different types of plots in Figure 6 sho
 
 ![](_static/images/FindDiff/DifferentialExpress_SampleFilterAdvanced.png)
 
-[**Figure 7: Advanced sample selection**](_static/images/DifferentialExpress_SampleFilterAdvanced.png)
+[**Figure 7: Advanced sample selection**](_static/images/FindDiff/DifferentialExpress_SampleFilterAdvanced.png)
 
 *In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes.*
 
 
 ![](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample.png)
 
-[**Figure 7: Graph with sample selection INSS 3 and 4 and a marked sample**](_static/images/DifferentialExpress_SampleFilterMarkedSample.png)
+[**Figure 7: Graph with sample selection INSS 3 and 4 and a marked sample**](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample.png)
 
 
 --------
@@ -203,7 +203,7 @@ In the right menu numerous modules can be selected to continue the analysis. Als
 
    ![](_static/images/FindDiff/DifferentialExpress_Genelistv1.png "Figure 12: Genes differentially expressed between groups")
 
-   [**Figure 12: Genes differentially expressed between groups.**](_static/images/DifferentialExpress_Genelist.png)
+   [**Figure 12: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv1.png)
 
 	
 --------------------------------------------------------------------------
@@ -259,7 +259,7 @@ Step 7: Inspecting single genes
 
 ![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 12: Hover over and click on any gene of interest")
 
-[**Figure 12: Hover over and click on any gene of interest**](_static/images/FindDfiff/DifferentialExpress_TopGene.png)
+[**Figure 12: Hover over and click on any gene of interest**](_static/images/FindDiff/DifferentialExpress_TopGene.png)
 
 
 --------------
@@ -292,7 +292,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 
    ![](_static/images/FindDiff/DifferentialExpress_BoxdotplotCircle.png "Figure    14: Differential expression of    NTRK1")
 
-   [**Figure 14: Differential expression of    NTRK1**](_static/images/FibdDiff/DifferentialExpress_BoxdotplotCircle.png)
+   [**Figure 14: Differential expression of    NTRK1**](_static/images/FindDiff/DifferentialExpress_BoxdotplotCircle.png)
 
 5. R2 allows further annotation of the XY plot of all genes; in the XY
    plot window (still open in your browser) scroll down and adapt the
@@ -302,7 +302,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 
    ![](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png "Figure    15: Adjustable settings for the all genes    plot")
 
-   [**Figure 15: Adjustable settings for the all genes    plot**](_static/images/DifferentialExpress_AdjustAllgenes.png)
+   [**Figure 15: Adjustable settings for the all genes    plot**](_static/images/FindDiff/DifferentialExpress_AdjustAllgenesv1.png)
 
 6. Click redraw image. The plot has been adapted to show the AKR1C1
    genesymbol, DNA-replication genes are highlighted in red. Fold
@@ -310,9 +310,9 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
    2 fold (Figure 19). Note that most genes of the DNA replication
    pathway seem to be located below the diagonal.
 
-   ![](_static/images/FIndDiff/DifferentialExpres_graphtypes.png "Figure    16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+   ![](_static/images/FindDiff/DifferentialExpres_graphtypes.png "Figure    16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
-   [**Figure 16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/DifferentialExpres_graphtypes.png)
+   [**Figure 16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_graphtypes.png)
 
 7. R2 can visualize the same data also as a Volcano plot or an MA plot.
    In the Adjustable Settings dialog change the Plot type to Volcano or
