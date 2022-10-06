@@ -421,9 +421,8 @@ You can click on any of the genes listed in the table (here we clicked on "TH") 
 Step 10: Probeset verification
 ---------------
 
-
-The table displayed in Figure 23 lists whether the various reporters of MYCN are in
-agreement with the genome position of MYCN reference sequence (RefSeq).
+1. Click on the down arrow of the text "View additional data".  
+The table displayed in Figure 23 lists whether the various reporters of MYCN are in agreement with the genome position of MYCN reference sequence (RefSeq).
 If all are stating “YES” then everything appears alright (from the
 perspective of an automated assessment). The MYCN reporters with a “NO”
 indicate there may be an issue with it. Scroll down the page
@@ -434,7 +433,7 @@ and click on the “Tview” link in the reporter table.
 
 [**Figure 23: Probeset verification table**](_static/images/Onegeneview/OneGene_Probesettable.png)
 
-1. Click on the down arrow of the  
+
 2. A new screen (or tab in the browser) appears with TranscriptView.
     The TranscriptView application depicts the alignment of expressed
     sequence tags (EST) and mRNA sequences to the human reference genome
