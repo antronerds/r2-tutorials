@@ -193,13 +193,13 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 
    ![](_static/images/Onegeneview/OneGene_genevstrack1a.png "Figure 8: Gene vs track")
 
-   [**Figure 8: Gene versus track**](_static/images/Onegeneview/OneGene_genevstrack1.png)
+   [**Figure 8: Gene versus track**](_static/images/Onegeneview/OneGene_genevstrack1a.png)
 
 5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups (Figure 9).
 
    ![](_static/images/Onegeneview/OneGene_genevstracksort.png "Figure 9: Gene vs track sorted")
 
-   [**Figure 9: Gene versus track sorted**](_static/images/OnegeneviewOneGene_genevstracksort.png)
+   [**Figure 9: Gene versus track sorted**](_static/images/Onegeneview/OneGene_genevstracksort.png)
 
 
 6. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
@@ -244,7 +244,7 @@ Step 5: Sources for additional information on the selected gene
 
    ![](_static/images/Onegeneview/OneGene_rightmenupanel.png "Figure 12:Left menu panel providing additional info (including link-out) and analyses options")
 
-   [**Figure 12: Left menu panel providing additional info (including link-out) and analyses options**](_static/images/Onegeneview/OneGene_menupanel.png)
+   [**Figure 12: Left menu panel providing additional info (including link-out) and analyses options**](_static/images/Onegeneview/OneGene_rightmenupanel.png)
 
 
 In the right upper menu-panel several options are available to provide
@@ -355,7 +355,7 @@ Go to the Adjustable Settings menu and select in the pull down the INSS stage. I
 
  ![](_static/images/Onegeneview/OneGene_selectsubgroups1a.png "Figure 17: Selecting subgroups")
 
- [**Figure 17: Selecting subgroups**](_static/images/OnegeneviewOneGene_selectsubgroups1a.png)
+ [**Figure 17: Selecting subgroups**](_static/images/Onegeneview/OneGene_selectsubgroups1a.png)
 
  The graphs below were drawn with Graphtype BoxDotPlot. All stages are depicted on the right hand side graph and 
  only the lower risk stages on the left. 
@@ -368,7 +368,7 @@ Next to the filter dropdown menu , clicking the *"wheel"* will open a pop-up scr
 
 ![](_static/images/Onegeneview/OneGene_advancedfiltering.png "Figure 19: Advanced filtering")
 
-[**Figure 19: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/Advanced filtering)
+[**Figure 19: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_advancedfiltering.png)
 
 
 
@@ -421,7 +421,7 @@ You can click on any of the genes listed in the table (here we clicked on "TH") 
 Step 10: Probeset verification
 ---------------
 
-1. Click on the down arrow of the text "View additional data".  
+1. Underneath the graph and gene description, click on the down arrow of the text "View additional data".  
 The table displayed in Figure 23 lists whether the various reporters of MYCN are in agreement with the genome position of MYCN reference sequence (RefSeq).
 If all are stating “YES” then everything appears alright (from the
 perspective of an automated assessment). The MYCN reporters with a “NO”
