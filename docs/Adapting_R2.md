@@ -146,12 +146,9 @@ Step 3: Create your custom genesets
 Step 4: Tracks in R2: create your own data annotation
 ---------------
 
-1. Another important feature in R2 that can be adapted to your needs are the tracks. In R2, the samples can be annotated
-   with sample characteristics, e.g clinical data. Each group of annotated data is called a “Track”. Tracks in R2 give
-   you the opportunity to divide your samples in e.g. groups with different phenotypes for comparative or subgroup
-   analysis.  
-   For some datasets the annotation that you need may be available already. For others you might want to add extra
-   sample annotation for analysis such as combining already added tracks. Tracks can be adapted in multiple ways.
+1. Another important feature in R2 that can be adapted to your needs are grouping variables, that we call "tracks" in R2. In R2, the samples can be annotated with sample characteristics, e.g clinical data or experimental characteristics. Each group of annotated data is called a “Track”. Tracks in R2 give you the opportunity to divide your samples in groups with e.g. different phenotypes for comparative or subgroup analysis. They also allow you to restrict your focus on only a part of the samples within a given dataset (when used in the 'subset builder'). 
+   For some datasets the annotation that you need may be available already (from the default annotation that was added by the R2 team). For others you might want to add extra sample annotation for analysis such as combining already added tracks, or introduction of new information that you may possess. 
+   Tracks can be adapted in multiple ways:
 
     - They can be uploaded with annotation files
 
@@ -159,9 +156,8 @@ Step 4: Tracks in R2: create your own data annotation
 
     - Or you can create a so called Custom Track yourself within R2.
 
-   We'll first start with a K-means analysis that results in a division of the samples in two groups (for more about
-   this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field
-   3 (Figure 11)
+   We'll first start with an example of adding a track from the results of an analysis that is performed from within R2. We will illustrate this option using a K-means analysis. Such an analysis results in a division of the samples in two groups ( in the case of k=2. For more about
+   this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 11)
 
    ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    11: Selecting a K-means    analysis")
 
@@ -178,7 +174,7 @@ Step 4: Tracks in R2: create your own data annotation
 
 3. The resulting clustering in two groups might not be ultimately convincing (Figure 13, your result might look slightly
    different), but for our testing purposes this is alright. What is important is that the resulting groups can be
-   stored as a track; click the button 'store as a track'.
+   stored as a new track, personal / available only to your account; click the button 'store as a track'.
 
    ![](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
 
@@ -254,20 +250,19 @@ Step 4: Tracks in R2: create your own data annotation
 Step 5: Upload your own tracks
 ---------------
 
-1. R2 also allows you to build your own tracks from scratch. You'll be able to assign each sample to a group of your
+1. R2 also allows you to build your own tracks from scratch. You will be able to assign each sample to a group of your
    choice. To illustrate this select 'User Options' > 'Tracks' > 'Build Custom Track'. The Custom Track window appears.
-   R2 also provides the possibility to upload a custom track from a prefab text file; we'll shortly show this; click '
-   Upload or Paste a Track (txt file)' (Figure 20).
-
+   R2 also provides the possibility to upload a custom track from a prefabricated text file. We will shortly show this route, which is also the most powerful one. Click 'Upload or Paste a Track (txt file)' (Figure 20).
+   
    ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv1.png "Figure    20: Build a Custom Track: Upload or paste a track.")
-
+   
    [**Figure 20: Build a Custom Track: Upload or paste a
    track.**](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv1.png)
-
+   
 2. In the Upload Custom Track window you can either select a tab delimited txt file built with a tool like Excel, or
    alternatively paste tab or semicolon delimited text in the input box. Either of these options provides R2 with the
-   proper assignment of each sample to a specific value. Based on these values, R2 creates the groups for you. You can
-   create tracks with as many groups as you like. When described in a text file; for each sample a description has to be
+   proper assignment of each sample to a specific value. Do note, that the internal identifiers ('samplenames') that are used within R2, need to be provided here. Based on the values you provide in the second column, R2 creates the groups for you. You can
+   create tracks with as many groups as you like. When described in a text file; for each sample a description can also be
    provided.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Trackdescribedv3.png "Figure    241 Uploading a track described in a text file; for each sample a    description has to    be provided.")
@@ -380,7 +375,7 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    existing MyTestGroup for this user). Click the link to start adding users (Figure 30).
 
      ![](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png "Figure 30: The available Communities for this user")
- 	
+    	
      [**Figure 30: The available Communities for this user**](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png)
 
 6. You have to add users by their R2 username; we'll add user **"pietmolenaar"**. He'll receive a message in the R2 startup
