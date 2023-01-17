@@ -10,7 +10,7 @@ copyright = u'2020, R2 support team, http://r2.amc.nl - http://r2platform.com'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.4.3'
+release = '3.4.4'
 language = None
 
 exclude_patterns = ['_build']
