@@ -55,9 +55,9 @@ Step 2: Select the gene or reporter
    
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
    Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
-      
+   
    The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays and certain Agilent arrays.  
-     
+   
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a given expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
@@ -76,7 +76,7 @@ Step 3: Plotting Gene expression
    right (high). Hovering over the dots reveals additional annotation
    that R2 has stored for the focused sample.
 
-     
+   
    ![](_static/images/Onegeneview/OneGene_MYCN1a.png "Figure 3: YY plot MYCN expression")
 
    [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1a.png)
@@ -142,6 +142,9 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 [**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v2.png)
 
+Step 5: Marking / highlighting samples within a plot 
+----------------
+
 
 3. In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
 
@@ -151,9 +154,11 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 *Always click on 'Submit' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!*
 
-
-You can adjust the marker color and type of the samples that you marked with a syntax in the 'Samples to mark' field. In order to do so, add a ‘:’ after the IDs with a color code, and/or add a ':' with a marker type, for example; 'itcc0288,itcc0021:ff4444:dot'.  
-To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:color1:method1;sample3,sample4:color2:method2’. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:epicente”’ creates the markings as shown in the figure below.
+If you enter sample names in the 'Samples to mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. However, these will be applied to all the marked samples at the same time. 
+If you would like to use different layouts and or colors for every indicated sample, or for groups of samples, then you can adjust the marker color and type of the samples that you marked with a syntax in the 'Samples to mark' field. The syntax for using this strategy is explained below:
+The syntax to use for 'samples to mark' is: sample1**,**sample2**:**hexcolor1**:**method1.
+Lets start with a simple example of manually defining the marking of 2 samples (namely itcc0288,itcc0021). In order to  mark those, we add a ‘:’ after the IDs with a color code (formulated as hexcolor, but without a #), and/or add a ':' with a marker type, for example; 'itcc0288,itcc0021:ff4444:dot'. Please see the 'did you know' box to find out what mark_types ca be used.  
+To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:hexcolor1:method1;sample3,sample4:hexcolor2:method2’. Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.
 
 ![](_static/images/Onegeneview/OneGene_view_samplesmark_v2.png "Figure 6: Adjusting the graph settings")
 
@@ -163,16 +168,26 @@ To bring attention to different samples, you may want to use multiple colors and
 ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?**
 
 > *R2 knows a couple of marker options, that you can make use of in the advanced prescriptions:*
+>
 > - *'dot': places a thick border around the sample*
+>
 > - *'circle': Places a ring around the sample (diameter 9)*
+>
 > - *'circle_2': Places a ring around the sample (diameter 4)*
+>
 > - *'circle_3': Places a ring around the sample (diameter 1), effectively a thin border*
+>
 > - *'epicenter': Places a set of 3 rings descending in width around a sample*
+>
 > - *'arrow': Places a block arrow pointing to the sample*
+>
 > - *'triangle': Places a filled triangle under the sample*
-> - *'colors': use an html color code*
-> 
->*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
+>
+>   
+>
+>   'colors': use a hexadecimal color code (many examples of these can be found online)
+>
+> *Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
 Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and the 'Submit' button is clicked, a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.
@@ -243,7 +258,7 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 
 
-Step 5: Sources for additional information on the selected gene 
+Step 6: Sources for additional information on the selected gene 
 ----------------
 
 1. In all the types of view  also a right menu panel is generated.
@@ -287,12 +302,12 @@ dataset additions). Further, in the Sample Map section pre-generated high-dimeni
 
 
 
-Step 6: Adapting plot
+Step 7: Adapting plot
 ---------------
 
 
 1. To investigate the values R2 uses for graph generation click on “View Datatable” to open a table with the expression levels for all samples. Within this table you can use filters to restrict samples. By selecting the rows, a second table is generated, that can be copied, and subsequently pasted in Excel, for further investigation.
-    
+   
     ![](_static/images/Onegeneview/OneGene_Datatable.png "Figure 13: Unfold the datatable")
 
 	[**Figure 13: Unfold the datatable**](_static/images/Onegeneview/OneGene_Datatable.png)
@@ -350,7 +365,7 @@ modules where a one-or two gene view is generated.
 
 ----------
 
-Step 7: Selecting subsets
+Step 8: Selecting subsets
 ---------------
 
 To generate a graph of a subgroup of samples, use the 'Select a track' pulldown from the 'sample filter' section to select a specific group. 
@@ -380,7 +395,7 @@ Next to the filter dropdown menu , clicking the *"wheel"* will open a pop-up scr
 
 
 
-Step 8: Find best track separation with CliniSnitch
+Step 9: Find best track separation with CliniSnitch
 ---------------
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
@@ -402,7 +417,7 @@ Not surprisingly, we can see that MYCN expression is best separated by the MYCN 
 If we look at the ‘inss’ track, we can also see a significant value. 
 Click on ‘View’ behind inss to inspect this further.
 
-Step 9: Finding sample extremes.
+Step 10: Finding sample extremes.
 ---------------
 
 In case you wonder whether any unusual expression levels show up for individual samples from a given dataset, you can you use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question: can we find extreme expression values for this sample?
@@ -416,7 +431,7 @@ In case you wonder whether any unusual expression levels show up for individual 
 
 
 2. A table shows the negative z-score (left column) and positive z-score (right column) extremes. In Figure 22, genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.  
-You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the One Gene View of that gene, with your sample marked in the graph. 
+   You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the One Gene View of that gene, with your sample marked in the graph. 
 
     ![](_static/images/Onegeneview/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
 
@@ -424,7 +439,7 @@ You can click on any of the genes listed in the table (here we clicked on "TH") 
 
 
 ---------------
-Step 10: Probeset verification
+Step 11: Probeset verification
 ---------------
 
 1. Underneath the graph and gene description, click on the down arrow of the text "View additional data".  
