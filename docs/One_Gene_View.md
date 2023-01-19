@@ -154,11 +154,19 @@ Step 5: Marking / highlighting samples within a plot
 
 *Always click on 'Submit' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!*
 
-If you enter sample names in the 'Samples to mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. However, these will be applied to all the marked samples at the same time. 
+If you enter sample names in the 'Samples to mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. However, these will be applied to all the marked samples at the same time.
+
 If you would like to use different layouts and or colors for every indicated sample, or for groups of samples, then you can adjust the marker color and type of the samples that you marked with a syntax in the 'Samples to mark' field. The syntax for using this strategy is explained below:
-The syntax to use for 'samples to mark' is: sample1**,**sample2**:**hexcolor1**:**method1.
-Lets start with a simple example of manually defining the marking of 2 samples (namely itcc0288,itcc0021). In order to  mark those, we add a ‘:’ after the IDs with a color code (formulated as hexcolor, but without a #), and/or add a ':' with a marker type, for example; 'itcc0288,itcc0021:ff4444:dot'. Please see the 'did you know' box to find out what mark_types ca be used.  
-To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. The skeleton for advanced usage is: ‘sample1,sample2:hexcolor1:method1;sample3,sample4:hexcolor2:method2’. Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.
+
+The syntax to use for 'Samples to mark' is: sample1,sample2:hexcolor1:method1.
+
+Lets start with a simple example of manually defining the marking of 2 samples (namely itcc0288,itcc0021). In order to  mark those, we add a ‘:’ after the IDs with a color code (formulated as hexcolor, but without a #), and/or add a ':' with a marker type, for example; 'itcc0288,itcc0021:ff4444:dot'. Please see the 'did you know' box to find out what mark_types ca be used.
+
+To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. 
+
+The skeleton for advanced usage is: ‘sample1,sample2:hexcolor1:method1;sample3,sample4:hexcolor2:method2’. 
+
+Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.
 
 ![](_static/images/Onegeneview/OneGene_view_samplesmark_v2.png "Figure 6: Adjusting the graph settings")
 
