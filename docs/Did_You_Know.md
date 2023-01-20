@@ -3,7 +3,7 @@
 
 Concepts of R2: did you know..?
 ===========================================
-Did you know... that throughout the R2 manual many tips and tricks are provided in small blocks of text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
+Did you know... that throughout the R2 manual many tips and tricks are provided in small blocksof text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
 
 Jump to one of the sections:  
 
@@ -46,6 +46,7 @@ In both types of Differential expressed genes (FindDiff) the two groups and the 
   * Log2 foldchange: How is de log2 foldchange calculated: Log2 (untransformed(group1)/untransformed(grp2))
   * Limma: Over the past decade, limma has been a popular choice for gene discovery through differential expression analyses of microarray and high-throughput PCR data, moe information can be found here [Limma:NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4402510/). [Limma:BioC](https://bioconductor.org/packages/release/bioc/html/limma.html).
   * DESeq2 algorithm: Differential expression analysis based on the Negative Binomial (a.k.a. Gamma-Poisson) distribution. The algorithm uses raw integer read counts for control and e.g treatment conditions.[DESeq2:BioC]( http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html).
+
 
 
 ![](_static/images/didyouknow/distribution.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")

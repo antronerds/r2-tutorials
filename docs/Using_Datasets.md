@@ -34,9 +34,10 @@ Step 1: Selecting a dataset
     The numbered boxes on the main page will guide you through all the steps necessary to perform a task, starting
     with the selection of a dataset. In box 1 select **Single Dataset**, in field 2 click on the name of the dataset.
 	
-    ![](_static/images/Usingdatasets/UsingDataset_selectv1.png "Figure 2: Change Dataset on the main page")
+    ![](_static/images/Usingdatasets/UsingDataset_selectv1a.png "Figure 2: Change Dataset on the main page")
 	
-    [**Figure 2: Change Dataset on the main page**](_static/images/UsingDataset_select.png)
+    [**Figure 2: Change Dataset on the main page**](_static/images/UsingDataset_selectv1a.png)
+
 	
 2. A popup window appears that shows all the available datasets in a grid: each row represents one dataset, with its main descriptive details split up in the columns. To use a dataset for further analysis, you click on the **Select** button in the first column.   
    If you prefer to first read extra information about the dataset of your interest, click on any other part of the specific row (dashed area).
