@@ -5,9 +5,6 @@ templates_path = ['_templates']
 
 master_doc = 'index'
 
-formats:
-  - epub
-  - pdf
 
 project = u'R2 Tutorials'
 copyright = u'2023, R2 support team, http://r2.amc.nl - http://r2platform.com'
