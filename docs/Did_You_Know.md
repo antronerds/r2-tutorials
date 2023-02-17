@@ -50,11 +50,10 @@ In both types of Differential expressed genes (FindDiff) the two groups and the 
 
 
 
-![](_static/images/didyouknow/find_diff_dataslots.png "Figure 1: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+![](_static/images/didyouknow/find_diff_dataslots.png "Figure 1: Dataslot.")
 
 
-[**Distribution types.**](_static/imagesdidyouknow/find_diff_dataslots.png)
-
+[**Dataslots.**](_static/imagesdidyouknow/find_diff_dataslots.png)
 
 
 
