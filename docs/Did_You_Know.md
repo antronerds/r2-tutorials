@@ -46,10 +46,19 @@ In both types of Differential expressed genes (FindDiff) the two groups and the 
   * Log2 foldchange: How is de log2 foldchange calculated: Log2 (untransformed(group1)/untransformed(grp2))
   * Limma: Over the past decade, limma has been a popular choice for gene discovery through differential expression analyses of microarray and high-throughput PCR data, moe information can be found here [Limma:NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4402510/). [Limma:BioC](https://bioconductor.org/packages/release/bioc/html/limma.html).
   * DESeq2 algorithm: Differential expression analysis based on the Negative Binomial (a.k.a. Gamma-Poisson) distribution. The algorithm uses raw integer read counts for control and e.g treatment conditions.[DESeq2:BioC]( http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html).
+  * Data slot (DESeq2) slots in r2: When using a dataset with DESeq2_rlog / vst normalized, you will find three different slots. The count, data and normcount slot. Within the dataset, The ‘count’ contains the read counts and is used by default for deseq2 analysis within R2, ‘normcount’ are the normalized read counts, while ‘data’ refers to the ‘standard’ choice which is here the rlog values. Some notes about the rlog (data slot), actually what rlog does is adapt the very low gene expression values by elevating them a bit. These very low values tend to result in higher fold changes and occasionally also survive pvalue cutoffs. By elevating those, you reduce this problem, while you preserve the differential expressions at the more highly expressed genes. 
 
 
 
-![](_static/images/didyouknow/distribution.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+![](_static/images/didyouknow/find_diff_dataslots.png "Figure 1: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+
+
+[**Distribution types.**](_static/imagesdidyouknow/find_diff_dataslots.png)
+
+
+
+
+![](_static/images/didyouknow/distribution.png "Figure 2: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
 [**Distribution types.**](_static/images/FindDiff/distribution.png)
