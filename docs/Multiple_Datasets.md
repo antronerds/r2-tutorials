@@ -69,7 +69,7 @@ Step 1: Selecting multiple datasets
     gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
     Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     
-	![](_static/images/megasampler_selectsdatasetsgroups.png "Figure3: Megasampler adjustment selection")
+	![](_static/images/megasampler/megasampler_selectsdatasetsgroups1.png "Figure3: Megasampler adjustment selection")
 	
 	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler_selectsdatasetsgroups.png)
 	
@@ -99,21 +99,20 @@ Step 2: Viewing a gene in multiple datasets
     ordering pull down menu" enables to split one or more dataset by
     selecting a track , in this way the chosen dataset(s) will be
     split according to the numbers of groups of the selected track.
-2.  For now change the color for the datasets as indicated in Figure 4
     and click "next".
     
-	![](_static/images/MultipleDatasets_AdjustGraph.png "Figure 4: Adjusting the megasampler graph.")
+	![](_static/images/megasampler/MultipleDatasets_AdjustGraph1.png "Figure 4: Adjusting the megasampler graph.")
 	
-	[**Figure 4: Adjusting the megasampler graph.**](_static/images/MultipleDatasets_AdjustGraph.png)
+	[**Figure 4: Adjusting the megasampler graph.**](_static/megasampler/MultipleDatasets_AdjustGraph1.png)
 	
 3.  R2 now performs a one-way Anova statistical test on the fly. This
     **AN**alyis **O**f **VA**riance is a statistical test that
     calculates whether the means of the expression levels between the
     selected datasets are significantly different.
 
-	![](_static/images/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
+	![](_static/images/megasampler/MultipleDatasets_Anova.png "Figure 5: Anova test for the selected datasets.")
 	
-	[**Figure 5: Anova test for the selected datasets.**](_static/images/MultipleDatasets_Anova.png)
+	[**Figure 5: Anova test for the selected datasets.**](_static/images/megasampler/MultipleDatasets_Anova.png)
 	
 
 By default de megasampler graph is plotted in a so called Boxdotplot
@@ -132,9 +131,9 @@ transform the data to logical values (none) set "graphtype" on barplot
 and click on "redraw at the bottom of the screen.
 
 
-![](_static/images/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
+![](_static/images/megasampler/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
 	
-[**Figure 7: Different Megasampler graphical representations**](_static/images/MultipleDatasets_Representations.png)
+[**Figure 7: Different Megasampler graphical representations**](_static/images/megasampler/MultipleDatasets_Representations.png)
 	
 
 The plotted graphs for "MYCN" clearly show a high expression level
@@ -165,10 +164,27 @@ the previous screen, it's now possible to skip subgroups from your
 dataset or, more interestingly, apply different colors for groups within a
 dataset (see Figure 8).
 
-![](_static/images/MultipleDatasets_AdjustGroups.png "Figure8: Adjustable settings panel, color groups within adataset.")
+![](_static/images/megasampler/MultipleDatasets_AdjustGroups1.png "Figure8: Adjustable settings panel, color groups within adataset.")
 	
-[**Figure 8: Adjustable settings panel, color groups within adataset.**](_static/images/MultipleDatasets_AdjustGroups.png)
-	
+[**Figure 8: Adjustable settings panel, color groups within adataset.**](_static/images/megasampler/MultipleDatasets_AdjustGroups1.png)
+
+
+Step 3: Stacking subgroups (or datasets)
+----------------
+
+It could be that you also want to stack subgroups of datasets in one singlebox(or bar etc) in one single box in such way that each single box contains one subgroup of multiple datasets for a selected track. Keep in mind that the track name and the corresponding subgroups must have exactly the same spelling since R2 is checking this in the background.  To illustrate this we make use of the EXPO  datasets which are currated for their annotation. After selection the datasets make sure that the Merge track by groups is set to **true** and you have selected a track in this case the *histology* track and click submit.
+
+
+![](_static/images/megasampler/megasampler_stacking subgroups.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+
+[**Figure 9: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking subgroups.png)
+
+Now the expression level of the TP53 gene  for a single dataset is plotted next to the separate subgroups of the histology track,  each box containing the expression levels for single gene of two datasets divided over the subgroups. Of course there is a big chance that you're not so lucky that tracks and their subgroups have of course the same spelling or you want to stack different subgroups for your research questions. In that case you have to create for each dataset new subgroups with the same spelling for each dataset you want to incorporate in the user section of the main page of R2. Once created you can select those in the megasampler section.
+
+
+![](_static/images/megasampler/megasampler_stacking subgroups2.png "Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.")
+
+[**Figure 10: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking subgroups2.png)
 
 
 
@@ -203,7 +219,7 @@ comparison).
     datasets of the same platform in R2. This module is discussed in the
     Correlate Genes tutorial.
     
-	![](_static/images/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+	![](_static/images/megasampler/MultipleDatasets_LevelDistribution.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
 	
 	[**Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
 	
@@ -211,6 +227,9 @@ comparison).
     specific dataset in more detail. Click a preferred colored dataset
     dot and R2 will generate an one-gene-view graph. The one-gene-view
     representation is explained in more details in tutorial 2.
+
+
+
        
 Step 4: Megasearch
 ----------------
@@ -221,9 +240,10 @@ single dataset but for a user defined selection of multiple datasets. However, k
 select datasets of the same platform,  the most abundant datasets are of the Affymetrix u133p2 platform. As explained
 before not every platform can be used for the megasearch due to the normalisation procedure which has been used.
 
- ![](_static/images/Megasampler_Select1.png "Figure 10: Megasearch select.")
+
+ ![](_static/images/megasampler/Megasampler_Select1.png "Figure 10: Megasearch select.")
 	
- [**Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/Megasampler_Select1.png)
+ [**Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler/Megasampler_Select1.png)
 	
  
 1. Select 'Megasearch' in Box 2 and click next
@@ -232,16 +252,16 @@ before not every platform can be used for the megasearch due to the normalisatio
 
 3. Select the datasets you want to use for the analyses, in this example we have selected Normal Brain , AML and Medulloblastoma datasets, click next.
 
- ![](_static/images/megasampler_selectsdatasets.png "Dataset selection.")
+ ![](_static/images/megasampler/megasampler_selectsdatasets.png "Dataset selection.")
 
- [**Figure 11:  Dataset selection.**](_static/images/megasampler_selectsdatasets.png)
+ [**Figure 11:  Dataset selection.**](_static/images/megasampler/megasampler_selectsdatasets.png)
 
 4. For the megasearch module only two groups can be used to find the statistical differently expressed genes.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at the default setting ('NO') for the datasets and click
 next.
 
- ![](_static/images/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
+ ![](_static/images/megasampler/megasampler_selectsdatasetsgroups.png "Figure 12: Assign the statistical group for testing.")
 
- [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler_selectsdatasetsgroups.png)
+ [**Figure 12: Assign the statistical group for testing**](_static/images/megasampler/megasampler_selectsdatasetsgroups.png)
  
 5. In the next adjustable settings menu select at Genecategory 'transcription regulator Act' for gene filtering.  In the 'Hugoonce Dataset' pulldown menu the first selected dataset will be used as target dataset for probeset usage.
 For most platforms each gene has multiple probesets, when using this option R2 takes the probeset with the highest average signal.  For the megasearch you can not use for
