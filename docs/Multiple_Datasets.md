@@ -141,7 +141,6 @@ directly.
 
 ![](_static/images/megasampler/MultipleDatasets_Didyou2.png)
 
-![](_static/images/megasampler/UsingDatasets_LinksToRawDataInR2.png)
                          
 > *Storing a preset not only stores the selection of datasets for future use, but will also keep all of the other settings such as order,
 colors, plot type etc. The same visual representation for any other gene can be generated in this way.*
