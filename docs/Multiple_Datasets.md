@@ -167,15 +167,15 @@ Step 3: Stacking subgroups (or datasets)
 It could be that you also want to stack subgroups of datasets in one singlebox (or bar etc)  in such way that each single box contains one subgroup of multiple datasets for a selected track. Keep in mind that the track name and the corresponding subgroups must have exactly the same spelling since R2 is checking this in the background.  To illustrate this we make use of the EXPO  datasets which are currated for their annotation. After selection the datasets, make sure that the Merge track by groups is set to **true** and you have selected a track in this case the *histology* track and click submit.
 
 
-   ![](_static/images/megasampler/megasampler_stacking subgroups.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
+   ![](_static/images/megasampler/megasampler_stacking_subgroups.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
 
-   [**Figure 9: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking subgroups.png)
+   [**Figure 9: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking_subgroups.png)
 
 Now the expression level of the TP53 gene  for a single dataset is plotted next to the separate subgroups of the histology track,  each box containing the expression levels for single gene of two datasets divided over the subgroups. Of course there is a big chance that you're not so lucky that tracks and their subgroups have the same spelling or you want to stack different subgroups for your research questions. In that case you have to create for each dataset new subgroups with the same spelling for each dataset. You can create these custized tracks you want to incorporate in the user section of the main page of R2. Once created you can select those in the megasampler section. In case you want to stack complete datasets in one box/bar you have to make a track with a subrgroups containing all the samples.
 
-   ![](_static/images/megasampler/megasampler_stacking subgroups2.png "Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.")
+   ![](_static/images/megasampler/megasampler_stacking_subgroups2.png "Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.")
 
-   [**Figure 10: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking subgroups2.png)
+   [**Figure 10: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking_subgroups2.png)
 
 
 
