@@ -61,7 +61,7 @@ In the next screen you will choose the gene of interest and decide which groupin
 To view the expression of this gene in groups, you can use dataset specific annotation, the so-called "tracks", as grouping variable in R2.
 
 2. In the dropdown of the setting *Track* select the track called **Alive (2 cat)**. This track contains survival data of the patients from whom the tumor sample was taken.
-3. Note that the other fields can be kept as is, the right choices are already provided. Click **Next**.
+3. Note that the other fields can be kept as is, the right choices are already provided. Click **Submit**.
 
 The "one way
 Anova"/"student T test" test will be performed for data on the selected
@@ -114,8 +114,8 @@ These results can also be shown in different types of plots (Figure 5).
 
 The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed.
 
-1. In the 'Adjustable settings' menu, set the *Transform* dropdown to **none** (Figure 7).
-2. Click **Submit**.
+5. In the 'Adjustable settings' menu, set the *Transformation* dropdown to **none** (Figure 7).
+6. Click **Submit**.
 
 The resulting 2 graphs also depicted in different types of plots in Figure 6 show the difference between the expression values in the two groups more dramatically.
 
@@ -167,7 +167,7 @@ It would be a pretty tedious job to look for all genes whether they are differen
 
 Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.  Most expression sets are continuous and normally distributed data so the T-test is the most applicable. In case of a dataset which contains categorical data the Mann-whitney test is more suitable.  
 
-A special remark for de **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalised counts. Most of the datasets that have DESeq_rlog in the name, consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
+A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalised counts. Most of the datasets that have DESeq_rlog in the name, consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
 Using the DESEq2 algorithm in case of RNAseq is often appreciated since this is a well established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst** as normalization procedure. Datasets with this annotation have three slots, rlog normalized data, deseq normalized data and a counts slot. This counts slot is used when you run the deseq2 algorithm on the fly for two group comparisons.  
 
 
@@ -240,7 +240,7 @@ As mentioned above, Find Differential Expression for multiple groups can also be
 
 [**Figure 11: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
 
-4. A list of differentially expressed genes between de groups is generated. Of course, now that we have more than two groups, the table no longer contains the Difference column and group order column.
+4. A list of differentially expressed genes between the groups is generated. Of course, now that we have more than two groups, the table no longer contains the Difference column and group order column.
 
 
 -----------------
@@ -307,7 +307,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 6. Click redraw image. The plot has been adapted to show the AKR1C1
    genesymbol, DNA-replication genes are highlighted in red. Fold
    change lines show the regions where differential expression is 1 and
-   2 fold (Figure 19). Note that most genes of the DNA replication
+   2 fold (Figure 16). Note that most genes of the DNA replication
    pathway seem to be located below the diagonal.
 
    ![](_static/images/FindDiff/DifferentialExpres_graphtypes.png "Figure    16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
@@ -316,7 +316,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 
 7. R2 can visualize the same data also as a Volcano plot or an MA plot.
    In the Adjustable Settings dialog change the Plot type to Volcano or
-   MA (Figure 19). Note that the distinct
+   MA (Figure 16). Note that the distinct
    characteristics of the AKR1C1 gene and the DNA replication are more
    obvious in the Volcano plot. The DNA replication pathway statistics
    will be explored in more detail in the 'Find genes correlating with
