@@ -23,13 +23,13 @@ Step 1: Adapt your settings
 ---------------
 
 1. Personalizing R2 starts with selecting the 'User Options' menu item
-   (Figure 1). When you hover over this item, you see a submenu. In 'Account you can chose a different password or
+   (Figure 1). When you hover over this item, you see a submenu. In 'Account you can choose a different password or
    change your personal details.   
    In 'Preferences' you can set some generic R2 analysis and visualization options, click on this item.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_UserOptionsv1.png "Figure    1: Personalizing R2: the User Options menu-item")
+   ![](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png "Figure    1: Personalizing R2: the User Options menu-item")
 
-   [**Figure 1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv1.png)
+   [**Figure 1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png)
 
 2. In the Preferences window several parameters for analyses in R2 can be adapted to your preferences. For most analyses
    these are set to appropriate values, but of course you want to set your favorite dataset here!
