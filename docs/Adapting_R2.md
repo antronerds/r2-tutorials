@@ -31,31 +31,12 @@ Step 1: Adapt your settings
 
    [**Figure 1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png)
 
-[//]: # (2. In the Preferences window several parameters for analyses in R2 can be adapted to your preferences. For most analyses)
 
-[//]: # (   these are set to appropriate values, but of course you want to set your favorite dataset here!)
 
-[//]: # ()
-[//]: # (   ![]&#40;_static/images/AdaptingR2/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience"&#41;)
-
-[//]: # ()
-[//]: # (   [**Figure    2: The User Defined Settings window: change settings at your own convenience**]&#40;_static/images/AdaptingR2/AdaptingR2_Userdefined.png&#41;)
-
-3. Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets' . These are of relevance when you've
+2. Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets' . These are of relevance when you've
    built a specific Preset in an analysis Across Datasets ( see chapter: Multiple datasets overview with Megasampler).
 
-[//]: # (4. The 'Timeseries colors' allows you to set the colors for the graphs of specific experiments in a series &#40;Figure 3&#41;.)
 
-[//]: # ()
-[//]: # (   ![]&#40;_static/images/AdaptingR2/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors"&#41;)
-
-[//]: # ()
-[//]: # (   [**Figure 3: Setting timeseries colors**]&#40;_static/images/AdaptingR2/AdaptingR2_SettingsTime.png&#41;)
-
-[//]: # ()
-[//]: # (   The other menu-items 'Upload New Dataset', 'Categories', 'Tracks' and 'Communities' will be discussed in steps 2 - 6)
-
-[//]: # (   of this tutorial.)
 
 Step 2: How to add data to R2.
 ---------------
@@ -87,64 +68,64 @@ Step 3: Create your custom genesets
    custom genesets' sub-item and select the button 'custom geneset editor'
    (Figure 5).
 
-   ![](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
+   ![](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png "Figure    2: Categories related menu-items; select Build Category to make    your own.")
 
-   [**Figure 5: Geneset related menu-items; select Custom genesets to make your
+   [**Figure 2: Geneset related menu-items; select Custom genesets to make your
    own.**](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png)
 
-2. The 'Custom Geneset editor' window pops up (Figure 6). By default in this window you must provide a unique name for
+2. The 'Custom Geneset editor' window pops up (Figure 3). By default in this window you must provide a unique name for
    the set. The input box allows you to paste a list of genes to upload as a geneset for use in analyses in R2. In the
    example a set of genes, specific for ALL tumors are pasted. If you want this gene set to remain available for you,
    select in the community dropdown , "none" of select a community name for sharing the geneset. The concept "
    commmunity" is descibed later in this tutorial. If you just want to store the set temporarily for 24 hours, choose '
    yes' in the temporary dropdown.  
-   Click "save geneset" to upload the set (Figure 6), you'll receive a message when everything has succeeded. Your set
+   Click "save geneset" to upload the set (Figure 3), you'll receive a message when everything has succeeded. Your set
    of genes is now available as a geneset for all analyses within R2. Go back to the main page to see where you can use
    this set.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png "Figure    6: Using the Input Box to upload your category    of genes.")
+   ![](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png "Figure    3: Using the Input Box to upload your category    of genes.")
 
-   [**Figure 6: Using the Input Box to upload your genesets.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
+   [**Figure 3: Using the Input Box to upload your genesets.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
 
 4. We're going to lookup your geneset, an example is available in the Gene Set View. In the main menu in Field 3
    select 'View a Geneset (Heatmap)'
-   and click "next"( Figure 7)
+   and click "next"( Figure 4)
 5. 
-   ![](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png "Figure    7: Using a geneset; select View    Geneset")
+   ![](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png "Figure    4: Using a geneset; select View    Geneset")
 
-   [**Figure 7: Using a geneset; select View Geneset**](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png)
+   [**Figure 4: Using a geneset; select View Geneset**](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png)
 
 5. In the GeneSetView your custom geneset is privately available for yourself for similar analyses as with any other
    public gene set present in R2. Select 'My GeneCategories' to choose from your categories.
-   6.
+
    If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the
    following window  (Figure 9).
 
-![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    8: Selecting your genesets")
+![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    5: Selecting your genesets")
 
-[**Figure 8: Selecting your genesets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
+[**Figure 5: Selecting your genesets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
 
 7. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed. The geneset '
    Changed Genes' we just made above is available
-   (Figure 9A), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme
+   (Figure 6), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme
    that you prefer.  
    For now we end here, later on we'll see the geneset again in the context of Tracks.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    9 A: Your geneset is available")
+   ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    6 A: Your geneset is available")
 
-   [**Figure 9 A: Your geneset is available.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png)
+   [**Figure 6 A: Your geneset is available.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png)
 8. 
-   ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png "Figure    9 B: Your geneset is used to create a heatmap.")
+   ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png "Figure    6 B: Your geneset is used to create a heatmap.")
 
-   [**Figure 9 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
+   [**Figure 6 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
 
 8. We now return to the side menu of the R2 page to find out how we can manage the genesets we just built. From the '
-   User Options' item in the menu, click Custom geneset. The custom geneset module allow you to organize you cuStom
+   User Options' item in the menu, click Custom geneset. The custom geneset module allow you to organize you custom
    genesets , assigning the sets to a collection or delete custom sets.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage_v1.png "Figure 10: The geneset module")
+   ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage_v1.png "Figure 7: The geneset module")
 
-   [**Figure 10: Adapting your genesets**](_static/images/AdaptingR2/AdaptingR2_CategoryManager_v1.png)
+   [**Figure 7: Adapting your genesets**](_static/images/AdaptingR2/AdaptingR2_CategoryManager_v1.png)
 
    Existing genesets can be adapted, deleted or moved to another collection. New genesets can be based on existing ones.
    As an example we're going to update the genesets we just made. Click the 'pencil' icon next to the custom geneset in
@@ -167,7 +148,7 @@ Step 4: Tracks in R2: create your own data annotation
 
 
    We'll first start with an example of adding a track from the results of an analysis that is performed from within R2. We will illustrate this option using a K-means analysis. Such an analysis results in a division of the samples in two groups ( in the case of k=2. For more about
-   this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 11)
+   this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 8)
 
    ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    11: Selecting a K-means    analysis")
 
