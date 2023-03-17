@@ -31,23 +31,31 @@ Step 1: Adapt your settings
 
    [**Figure 1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png)
 
-2. In the Preferences window several parameters for analyses in R2 can be adapted to your preferences. For most analyses
-   these are set to appropriate values, but of course you want to set your favorite dataset here!
+[//]: # (2. In the Preferences window several parameters for analyses in R2 can be adapted to your preferences. For most analyses)
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience")
+[//]: # (   these are set to appropriate values, but of course you want to set your favorite dataset here!)
 
-   [**Figure    2: The User Defined Settings window: change settings at your own convenience**](_static/images/AdaptingR2/AdaptingR2_Userdefined.png)
+[//]: # ()
+[//]: # (   ![]&#40;_static/images/AdaptingR2/AdaptingR2_Userdefined.png "Figure    2: The User Defined Settings window: change settings at your own convenience"&#41;)
+
+[//]: # ()
+[//]: # (   [**Figure    2: The User Defined Settings window: change settings at your own convenience**]&#40;_static/images/AdaptingR2/AdaptingR2_Userdefined.png&#41;)
 
 3. Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets' . These are of relevance when you've
    built a specific Preset in an analysis Across Datasets ( see chapter: Multiple datasets overview with Megasampler).
-4. The 'Timeseries colors' allows you to set the colors for the graphs of specific experiments in a series (Figure 3).
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors")
+[//]: # (4. The 'Timeseries colors' allows you to set the colors for the graphs of specific experiments in a series &#40;Figure 3&#41;.)
 
-   [**Figure 3: Setting timeseries colors**](_static/images/AdaptingR2/AdaptingR2_SettingsTime.png)
+[//]: # ()
+[//]: # (   ![]&#40;_static/images/AdaptingR2/AdaptingR2_SettingsTime.png "Figure 3: Setting timeseries colors"&#41;)
 
-   The other menu-items 'Upload New Dataset', 'Categories', 'Tracks' and 'Communities' will be discussed in steps 2 - 6
-   of this tutorial.
+[//]: # ()
+[//]: # (   [**Figure 3: Setting timeseries colors**]&#40;_static/images/AdaptingR2/AdaptingR2_SettingsTime.png&#41;)
+
+[//]: # ()
+[//]: # (   The other menu-items 'Upload New Dataset', 'Categories', 'Tracks' and 'Communities' will be discussed in steps 2 - 6)
+
+[//]: # (   of this tutorial.)
 
 Step 2: How to add data to R2.
 ---------------
@@ -79,10 +87,10 @@ Step 3: Create your custom genesets
    custom genesets' sub-item and select the button 'custom geneset editor'
    (Figure 5).
 
-   ![](_static/images/AdaptingR2/AdaptingR2_customgenesets.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
+   ![](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png "Figure    5: Categories related menu-items; select Build Category to make    your own.")
 
    [**Figure 5: Geneset related menu-items; select Custom genesets to make your
-   own.**](_static/images/AdaptingR2/AdaptingR2_Categories.png)
+   own.**](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png)
 
 2. The 'Custom Geneset editor' window pops up (Figure 6). By default in this window you must provide a unique name for
    the set. The input box allows you to paste a list of genes to upload as a geneset for use in analyses in R2. In the
@@ -101,10 +109,10 @@ Step 3: Create your custom genesets
 4. We're going to lookup your geneset, an example is available in the Gene Set View. In the main menu in Field 3
    select 'View a Geneset (Heatmap)'
    and click "next"( Figure 7)
+5. 
+   ![](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png "Figure    7: Using a geneset; select View    Geneset")
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Viewset_v1.png "Figure    7: Using a geneset; select View    Geneset")
-
-   [**Figure 7: Using a geneset; select View Geneset**](_static/images/AdaptingR2_Viewset.png)
+   [**Figure 7: Using a geneset; select View Geneset**](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png)
 
 5. In the GeneSetView your custom geneset is privately available for yourself for similar analyses as with any other
    public gene set present in R2. Select 'My GeneCategories' to choose from your categories.
@@ -122,10 +130,10 @@ Step 3: Create your custom genesets
    that you prefer.  
    For now we end here, later on we'll see the geneset again in the context of Tracks.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset.png "Figure    9 A: Your geneset is available")
+   ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    9 A: Your geneset is available")
 
-   [**Figure 9 A: Your geneset is available.**](_static/images//AdaptingR2/AdaptingR2_YourGeneset.png)
-
+   [**Figure 9 A: Your geneset is available.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png)
+8. 
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png "Figure    9 B: Your geneset is used to create a heatmap.")
 
    [**Figure 9 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
@@ -150,11 +158,13 @@ Step 4: Tracks in R2: create your own data annotation
    For some datasets the annotation that you need may be available already (from the default annotation that was added by the R2 team). For others you might want to add extra sample annotation for analysis such as combining already added tracks, or introduction of new information that you may possess. 
    Tracks can be adapted in multiple ways:
 
-    - They can be uploaded with annotation files
 
-    - They can be created as a result of analyses within R2 and stored within the platform on the go
+* They can be uploaded with annotation files
 
-    - Or you can create a so called Custom Track yourself within R2.
+* They can be created as a result of analyses within R2 and stored within the platform on the go
+
+* Or you can create a so called Custom Track yourself within R2.
+
 
    We'll first start with an example of adding a track from the results of an analysis that is performed from within R2. We will illustrate this option using a K-means analysis. Such an analysis results in a division of the samples in two groups ( in the case of k=2. For more about
    this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 11)
@@ -193,9 +203,9 @@ Step 4: Tracks in R2: create your own data annotation
 5. After optionally changing the parameters, you can click the Build set button to store the track. In the custom tracks
    manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 15).
 
-   ![](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv1.png "Figure    15: Selecting the Manage Custom    Tracks")
+   ![](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv2.png "Figure    15: Selecting the Manage Custom    Tracks")
 
-   [**Figure 15: Selecting the Manage Custom Tracks**](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv1.png)
+   [**Figure 15: Selecting the Manage Custom Tracks**](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv2.png)
 
 6. In the next screen keep the default selection, i.e. your current dataset. Tracks are, of course, defined based on a
    specific dataset; for each dataset you can store your own tracks. Click 'Continue'.
@@ -212,9 +222,9 @@ Step 4: Tracks in R2: create your own data annotation
    Now we'll pay attention to the default tracks for this dataset. The track we just generated can be adapted from here.
    For a start set the Drawtrack propery to 'yes'; we want to see this track in the graphs we create!
 
-   ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrack.png  "Figure 17: Adapting track paramteters.")
+   ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv2.png  "Figure 17: Adapting track paramteters.")
 
-   [**Figure 17: Adapting track parameters.**](_static/images/AdaptingR2_AdaptTrack.png)
+   [**Figure 17: Adapting track parameters.**](_static/images//AdaptingR2/AdaptingR2_AdaptTrackv2.png)
 
 8. Select Manage Default Tracks from the 'User Options' > 'Tracks' sub-menu (Figure 18)
 
@@ -232,10 +242,10 @@ Step 4: Tracks in R2: create your own data annotation
    that defines this group of tracks. Here we typed 'Age related'. Be sure to click the 'Update Tracks' button for these
    changes to take effect.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SelectDefault.png "Figure    19 A: Selecting the default tracks for this    dataset")
+   ![](_static/images/AdaptingR2/AdaptingR2_SelectDefaultv1.png "Figure    19 A: Selecting the default tracks for this    dataset")
 
    [**Figure 19 A: Selecting the default tracks for this
-   dataset**](_static/images/AdaptingR2/AdaptingR2_SelectDefault.png)
+   dataset**](_static/images/AdaptingR2/AdaptingR2_SelectDefaultv1.png)
 
    When collections of tracks are used, these will show up conveniently as separate groups of tracks under the graph.
 
@@ -394,7 +404,7 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
 
 8. The perspective of the invited user after logon; he or she can accept the invitation (Figure 32).
 
-   ![](_static/images/AdaptingR2/AdaptingR2_GroupInvitation.png "Figure    33: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+   ![](_static/images/AdaptingR2/AdaptingR2_GroupInvitationv1.png "Figure    33: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 
    [**Figure 33: The invited user receives a notification on the main page where he or she can accept the membership of
    the group**](_static/images/AdaptingR2/AdaptingR2_GroupInvitation.png)
