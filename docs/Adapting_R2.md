@@ -150,17 +150,17 @@ Step 4: Tracks in R2: create your own data annotation
    We'll first start with an example of adding a track from the results of an analysis that is performed from within R2. We will illustrate this option using a K-means analysis. Such an analysis results in a division of the samples in two groups ( in the case of k=2. For more about
    this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 8)
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    11: Selecting a K-means    analysis")
+   ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    8: Selecting a K-means    analysis")
 
-   [**Figure 11: Selecting a K-means analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
+   [**Figure 8: Selecting a K-means analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
 
-2. In the settings window for the K-means analysis (Figure 12) you can choose the geneset created above to cluster the
+2. In the settings window for the K-means analysis (Figure 9) you can choose the geneset created above to cluster the
    current set of samples. In our case this is called ChangedGenes. Make sure that the number of draws is set to 10x10,
    click 'next'
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    12: Settings for K-means; the Category built above is available for    clustering")
+   ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    9: Settings for K-means; the Category built above is available for    clustering")
 
-   [**Figure 12: Settings for K-means; the Category built above is available for
+   [**Figure 9: Settings for K-means; the Category built above is available for
    clustering**](_static/images/AdaptingR2/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
 
 3. The resulting clustering in two groups might not be ultimately convincing (Figure 13, your result might look slightly
