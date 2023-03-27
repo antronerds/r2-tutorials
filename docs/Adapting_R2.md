@@ -7,7 +7,7 @@ Adapting R2 to your needs
 
 *Or how you can optimize R2 for your specific data analysis*
 
-
+test Richard
 
 
 Scope
@@ -167,7 +167,7 @@ Step 4: Tracks in R2: create your own data annotation
    different), but for our testing purposes this is alright. What is important is that the resulting groups can be
    stored as a new track, personal / available only to your account; click the button 'store as a track'.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
+   ![](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    10: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
 
    [**Figure 10: Clustering result of the Neuroblastoma dataset with a geneset built in the former
    steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrack.png)
@@ -209,7 +209,7 @@ Step 4: Tracks in R2: create your own data annotation
 
 8. Select Manage Default Tracks from the 'User Options' > 'Tracks' sub-menu (Figure 15)
 
-   ![](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png "Figure  18: Selecting the Default Tracks    Manager")
+   ![](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracks.png "Figure  18: Selecting the Default Tracks    Manager")
 
    [**Figure 15: Selecting the Default Tracks Manager**](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png)
 
@@ -274,7 +274,6 @@ Step 5: Upload your own tracks
    group columns. It is also convenient to recapitulate the resulting groups in a separate column so tick that box
    also (Figure 25). In the inss row the stage 1-2-3 tumors are selected to form group 1, stage 4 forms group 2 and
    stage 4s group 3 in a new track.
-   ![](_static/images/AdaptingR2/AdaptingR2_DefineGroupsSpecs.png "Figure 19: Preselection to make new tracks from existing annotation.")
 
 [**Figure 19: Preselection to make new tracks from existing
    annotation.**](_static/images/AdaptingR2/AdaptingR2_DefineGroupsSpecs.png)
