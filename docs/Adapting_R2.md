@@ -114,7 +114,7 @@ Step 3: Create your custom genesets
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    6 A: Your geneset is available")
 
    [**Figure 6 A: Your geneset is available.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png)
-8. 
+ 
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png "Figure    6 B: Your geneset is used to create a heatmap.")
 
    [**Figure 6 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
