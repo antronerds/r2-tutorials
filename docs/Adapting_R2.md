@@ -342,21 +342,21 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    generate multiple communities and invite other users to share such feature with.
 
    Creating a community is done by clicking 'Community' in the 'User Options' menu
-   (Figure 27).
+   (Figure 23).
 
    ![](_static/images/AdaptingR2/AdaptingR2_Community.png "Figure    23: Community in the User Options menu")
 
    [**Figure 23: Community in the User Options menu**](_static/images/AdaptingR2/AdaptingR2_Community.png)
 2. Since this will be the first time in the community section, there are no communities yet; click the 'Start a new
    Community' link
-   (Figure 28).
+   (Figure 24).
 
    ![](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png "Figure    24: Starting a    community")
 
    [**Figure 24: Starting a community**](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png)
 
 3. In the Community window a name has to be set and a short description for people invited as members for this group (
-   Figure 29). Through a community you can share your own Genesets,Tracks and Settings.
+   Figure 25). Through a community you can share your own Genesets,Tracks and Settings.
 
 
    ![](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroupv1.png "Figure    25: Setting the Community group name    and description.")
