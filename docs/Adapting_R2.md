@@ -245,7 +245,7 @@ Step 5: Upload your own tracks
 1. R2 also allows you to build your own tracks from scratch. You will be able to assign each sample to a group of your
    choice. To illustrate this select 'User Options' > 'Tracks' > 'Build Custom Track'. The Custom Track window appears.
    R2 also provides the possibility to upload a custom track from a prefabricated text file. We will shortly show this route, which is also the most powerful one.
-2Click 'Upload or Paste a Track (txt file)' (Figure 20).
+Click 'Upload or Paste a Track (txt file)' (Figure 18).
 
    ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv1.png "Figure    17: Build a Custom Track: Upload or paste a track.")
    
@@ -272,8 +272,10 @@ Step 5: Upload your own tracks
    In this example we divide the samples by their INSS classification values in 3 groups:
    the low grade(1,2,3) vs high grade(4) vs special (4s) tumor types. Tick the appropriate boxes in the appropriate
    group columns. It is also convenient to recapitulate the resulting groups in a separate column so tick that box
-   also (Figure 25). In the inss row the stage 1-2-3 tumors are selected to form group 1, stage 4 forms group 2 and
+   also (Figure 19). In the inss row the stage 1-2-3 tumors are selected to form group 1, stage 4 forms group 2 and
    stage 4s group 3 in a new track.
+   
+   
    ![](_static/images/AdaptingR2/AdaptingR2_DefineGroupsSpecs.png "Figure 19: Preselection to make new tracks from existing annotation.")
 
 [**Figure 19: Preselection to make new tracks from existing
@@ -305,9 +307,9 @@ Step 5: Upload your own tracks
    tracks created in the Custom Track manager are available for selection in the 'userdefine'-main group of tracks, as a
    group separator choose inss stage, in this example we have switched off al the default tracks and selected the two custom tracks we have created.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Selectowntrackv1.png "Figure    21: Select the Track created in the Custom track manager; u-lowgradvs4vs4s")
+   ![](_static/images/AdaptingR2/AdaptingR2_Selectowntrackv1.png "Figure    22: Select the Track created in the Custom track manager; u-lowgradvs4vs4s")
 
-   [**Figure 21: Select the Track created in the Custom track manager;
+   [**Figure 22: Select the Track created in the Custom track manager;
    u-lowgradvs4vs4s**](_static/images/AdaptingR2/AdaptingR2_Selectowntrackv1.png)
 
 
@@ -405,7 +407,7 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
 
     ![](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png "Figure    35: As an example here the creation of a category and the assignment    to    a Community.")
 
-    [**Figure 35: As an example here the creation of a category and the assignment to a
+    [**Figure 31: As an example here the creation of a category and the assignment to a
     Community.**](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png)
 
 Final remarks / future directions
