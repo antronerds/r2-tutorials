@@ -1,3 +1,5 @@
+/.idea
+/.settings
 /.project
 *.komodoproject
 /.pydevproject
