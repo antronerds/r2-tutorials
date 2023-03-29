@@ -33,9 +33,9 @@ Step 1: Selecting data and modules; creating a Heatmap
 1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
     Click 'Next'.
     
-	![](_static/images/UsingGenesets_Select.png "Figure    1: Select View a    Geneset")
+	![](_static/images/Usinggenesets/UsingGenesets_Selectv1.png "Figure    1: Select View a    Geneset")
 	
-	[**Figure    1: Select View a    Geneset**](_static/images/UsingGenesets_Select.png)
+	[**Figure    1: Select View a    Geneset**](_static/images/UsingGenesets/UsingGenesets_Select.png)
 	
 2.  In the subsequent window three choices are available to customize
     the way the GeneSet data will be presented (Figure 2). The first
@@ -53,9 +53,9 @@ Step 1: Selecting data and modules; creating a Heatmap
     containing Cell Cycle genes. Type Cell Cycle in the 'Search a
     geneset' box and click 'Search'.
 
-	![](_static/images/UsingGenesets_Settings.png "Figure 2: Geneset view settings")
+	![](_static/images/Usinggenesets/UsingGenesets_Settingsv1.png "Figure 2: Geneset view settings")
 	
-	[**Figure    2: The R2 Gene Set view settings; A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection We're now going to search for Cell Cycle gene**](_static/images/UsingGenesets_Settings.png)
+	[**Figure    2: The R2 Gene Set view settings; A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection We're now going to search for Cell Cycle gene**](_static/images//Usinggenesets/UsingGenesets_Settingsv1.png)
     
 	![](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
 	
