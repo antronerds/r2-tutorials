@@ -50,43 +50,44 @@ Step 1: Selecting data and modules; creating a Heatmap
     as they are and click next. The search fields below the Adjustable
     Settings dialog provide a shortcut for finding a GeneSet of choice,
     we're going to use this now. Suppose we want to find a geneset
-    containing Cell Cycle genes. Type Cell Cycle in the 'Search a
+    containing Wnt Signaling genes genes. Type Wnt in the 'Search a
     geneset' box and click 'Search'.
 
 	![](_static/images/Usinggenesets/UsingGenesets_Settingsv1.png "Figure 2: Geneset view settings")
 	
-	[**Figure    2: The R2 Gene Set view settings; A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection We're now going to search for Cell Cycle gene**](_static/images//Usinggenesets/UsingGenesets_Settingsv1.png)
+	[**Figure  2: Selecting a geneset**](_static/images/UsinggenesetsUsingGenesets_Settingsv1.png)
+
+	![](_static/images/Usinggenesets/UsingGenesets_Collectionsv1.png "Figure    3: Available collections of Genesets in    R2")
+	Here you can select one of the ordering options
+
+	[**Figure    3: Available collections of Genesets in    R2**](_static/images/Usinggenesets/UsingGenesets_Collectionsv1.png)
+	
+	![](_static/images/Usinggenesets/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
+	
+	[**Figure    4: Available ordering domains for    samples**](_static/images/Usinggenesets/UsingGenesets_Ordering.png)
+	
+3.  In the next window all genesets containing the words Wnt  in
+    their description are shown. Choose the KEGG Wnt in the list we will use the n=150 genes in this example by clicking the 'View' hyperlink.
     
-	![](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
+	![](_static/images/Usinggenesets/UsingGenesets_Selectingv1.png "Figure 5: Selecting a geneset out of the large collection")
 	
-	[**Figure    3: Available collections of Genesets in    R2**](_static/images/UsingGenesets_Collections.png)
+	[**Figure    5: Selecting a geneset.**](_static/images/Usinggenesets/UsingGenesets_Selecting.png)
+   
+Out of the large collection of available sets one of the Wnt pathways is selected, **Wnt**  was used as a search term.
 	
-	![](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
-	
-	[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
-	
-3.  In the next window all genesets containing the words Cell Cycle in
-    their description are shown. Choose the KEGG Cell Cycle (in the
-    collection of Cellular Processes) by clicking the 'View' hyperlink.
-    
-	![](_static/images/UsingGenesets_Selecting.png "Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.")
-	
-	[**Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.**](_static/images/UsingGenesets_Selecting.png)
-	
-4.  The Affymetrix data for the Neuroblastoma 88 dataset is shown for
-    the genes in the Cell Cycle as a clustered heatmap. Hovering over
+4.  The RNAseq data of Adeno Carcinoma (COAD) parto of  the The Genome Atlas program (TGCA)  is shown for
+    the genes in the selected Wnt as a clustered heatmap. Hovering over
     the heatmap rectangles reveals the sample information stored in the
     R2 database. Keep in mind that the hovering option is limited to
     10000 cells otherwise the graph generation consumes too much time.
     This limitation can be adapted in the 'User Options' menu item.
 
-    ![](_static/images/UsingGenesets_Heatmap.png "Figure 6:Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.")
+    ![](_static/images/Usinggenesets/UsingGenesets_Heatmapv1.png "Figure 6:Heatmapview of the Wnt signaling pathway.")
 	
-    [**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
+    [**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images//Usinggenesets/UsingGenesets_Heatmapv1.png)
 	
 
-
-
+Genes and samples are ordered to their clustering values.
 
 
 Step 2: Using multiple GeneSets
