@@ -75,12 +75,15 @@ Final remarks / future directions
 ---------------------------------
 
 
-Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact R2 support
-(r2-support@amc.uva.nl). If you may have an idea for another data scope or would like to showcase your own data in this way,
-then also please get in contact with us via the support address.
+Some of the functionalities described in this tutorial have been developed recently. If you encounter any issues or difficulties, please do not hesitate to contact R2 support at r2-support@amsterdamumc.nl. Additionally, if you have ideas for new data scopes or would like to showcase your own data in a similar way, please feel free to get in touch with us through the same support address.
 
-We hope that this tutorial has been helpful, the R2 support team.
+
+We hope that this tutorial has been helpful.
+
+
+Best regards,
+
+The R2 support team.
 
 
 
