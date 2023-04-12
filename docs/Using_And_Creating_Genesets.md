@@ -75,7 +75,7 @@ Step 1: Selecting data and modules; creating a Heatmap
    
 Out of the large collection of available sets one of the Wnt pathways is selected, **Wnt**  was used as a search term.
 	
-4.  The RNAseq data of Adeno Carcinoma (COAD) parto of  the The Genome Atlas program (TGCA)  is shown for
+4.  The RNAseq data of Adeno Carcinoma (COAD) part of the The Genome Atlas program (TGCA)  is shown for
     the genes in the selected Wnt as a clustered heatmap. Hovering over
     the heatmap rectangles reveals the sample information stored in the
     R2 database. Keep in mind that the hovering option is limited to
@@ -96,32 +96,31 @@ Step 2: Using multiple GeneSets
 1.  R2 also allows for multiple genesets to be shown at once; return to
     the main page; select View Geneset (Figure 1: Select View
     a Geneset). We're not going to search for a geneset but look for
-    multiple sets at once in the KEGG collection. In the next window
-    (Figure 2) leave the default collection to KEGG. Click "next" in the
+    multiple sets at once in the Broad 2020 09 h hallmark collection. In the next window
+    (Figure 2) select. Click "next" in the
     'Adjustable Settings' box.
-2.  In the next screen a subcollection within the current collection of
-    genesets has to be defined; Select 'Cellular Processes' and click
+2.  In the next screen a sub-collection within the current collection of
+    genesets has to be defined; Select 'MsigDB team' and click
     "next" (Figure 7).
     
-	![](_static/images/UsingGenesets_Subcollection.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
+	![](_static/images/Usinggenesets/UsingGenesets_Subcollectionv1.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
 	
-	[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images/UsingGenesets_Subcollection.png)
+	[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images//Usinggenesets/UsingGenesets_Subcollection.png)
 	
 3.  R2 allows selection of multiple genesets at the same time; CTRL+
-    select Cell Cycle and Apoptosis and click 'Next'.
-    
-	![](_static/images/UsingGenesets_Doubleselect.png "'Figure    8: Selecting multiple    genesets")
+    select **DNA repair**  and **Epithelial and Mesenchymal transition**  and click 'Next'.
+
+	![](_static/images/Usinggenesets/UsingGenesets_Doubleselectv1.png "'Figure    8: Selecting multiple    genesets")
 	
-	[**'Figure    8: Selecting multiple    genesets**](_static/images/UsingGenesets_Doubleselect.png)
+	[**'Figure    8: Selecting multiple    genesets**](_static/images//Usinggenesets/UsingGenesets_Doubleselect.png)
 	
 4.  The resulting heatmap (Figure 9) has the samples ordered by the
     result of the clustering of the dataset. On the y-axis the genes are
-    annotated with their membership to both pathways; the upper bar is
-    the Cell Cycle. It is obvious that part of the Cell Cycle member
-    genes are clustering together.
+    annotated with their membership to both pathways; the most right bar is
+    the EMT signature. It is obvious genes in the EMT process do cluster together. And also looking closely at the sample annotation also suggests a strong association with the CMS4 classification.
 
 
-![](_static/images/UsingGenesets_Heatmap2.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
+![](_static/images/Usinggenesets//UsingGenesets_Heatmap3.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
 	
 [**Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.**](_static/images/UsingGenesets_Heatmap2.png)
 	
@@ -140,23 +139,23 @@ Step 3: Relating genesets with data annotation
     subcollection selection window choose Cellular Processes again
     (Figure 7) and click "next".
     
-	![](_static/images/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
+	![](_static/images/Usinggenesets/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
 	
-	[**Figure    10: Selecting the domain to order samples by: Order by a    track**](_static/images/UsingGenesets_SelectDomain.png)
+	[**Figure    10: Selecting the domain to order samples by: Order by a    track**](_static/images/Usinggenesets/UsingGenesets_SelectDomain.png)
 	
 2.  Now select only the Cell cycle subset as GeneSet. Choose the
     Neuroblastoma staging INSS as track to order samples by and click
     "next" (Figure 11)
     
-	![](_static/images/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
+	![](_static/images/Usinggenesets/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
 	
-	[**Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track**](_static/images/UsingGenesets_CellCycle.png)
+	[**Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track**](_static/images/Usinggenesets/UsingGenesets_CellCycle.png)
 	
 3.  In the resulting heatmap it is clear that there is a segment of
     genes in the Cell Cycle pathway cluster that is consistently
     upregulated in the stage 4 Neuroblastoma samples (in red in the
     INSS track).
-    [![](_static/images/UsingGenesets_HeatmapSorted.png)**Figure
+    [![](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted.png)**Figure
     12: Heatmap sorted by INSS stage, there is a clear relation between
     the stage 4 tumors (in red in the INSS track) and up-regulation of a
     subset of genes \#:of the Cell
@@ -221,7 +220,7 @@ to do a simple hierarchical clustering
     Kool e.a. (2008).
 
 
-![](_static/images/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
+![](_static/images/Usinggenesets/UsingGenesets_Unsupervised.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
 	
 [**Figure13: Unsupervised hierarchical clustering revealing subgroups in a Medulloblastoma dataset.**](_static/images/UsingGenesets_Unsupervised.png)
 	
