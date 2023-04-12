@@ -98,7 +98,7 @@ Step 2: Using multiple GeneSets
     a Geneset). We're not going to search for a geneset but look for
     multiple sets at once in the Broad 2020 09 h hallmark collection. In the next window
     (Figure 2) select. Click "next" in the
-    'Adjustable Settings' box.
+    'Adjustable Settings' box. We have also used the sample filter to select tumor samples only in the r2 defined track section.
 2.  In the next screen a sub-collection within the current collection of
     genesets has to be defined; Select 'MsigDB team' and click
     "next" (Figure 7).
@@ -133,40 +133,35 @@ Step 3: Relating genesets with data annotation
 ---------------
 
 1.  We're going to explore that in further detail by sorting the dataset
-    according to the staging. Return to the former choice page
-    (Figure 2) by clicking the back button in your browser. Choose
+    according to the staging.  Return the page of Figure 2. And choose
     'Order samples by a track' and click "next" (Figure 10). In the next
-    subcollection selection window choose Cellular Processes again
+    subcollection selection window choose Hallmark_Epithelial_Mesenchymal transition again
     (Figure 7) and click "next".
     
-	![](_static/images/Usinggenesets/UsingGenesets_SelectDomain.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
+	![](_static/images/Usinggenesets/UsingGenesets_SelectDomainv1.png "Figure  10: Selecting the track to order samples by: Order by a track")
 	
-	[**Figure    10: Selecting the domain to order samples by: Order by a    track**](_static/images/Usinggenesets/UsingGenesets_SelectDomain.png)
+	[**Figure    10: Selecting the type to order samples by: Order by a    track**](_static/images/Usinggenesets/UsingGenesets_SelectDomainv1.png)
 	
-2.  Now select only the Cell cycle subset as GeneSet. Choose the
-    Neuroblastoma staging INSS as track to order samples by and click
-    "next" (Figure 11)
+2.  Now select only the EMT  subset as GeneSet. Choose the
+   CMS nearest ssp as track to order samples. Make sure you have still selected tumor samples only by and click
+    "next" (Figure 11).
     
-	![](_static/images/Usinggenesets/UsingGenesets_CellCycle.png "Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track")
+	![](_static/images/Usinggenesets/UsingGenesets_EMT.png "Figure    11: Selecting EMT signature only, order samples by the TCGA  Adenocarcinoma CMS classification track")
 	
-	[**Figure    11: Selecting Cell Cycle only, order samples by Neuroblastoma    staging    track**](_static/images/Usinggenesets/UsingGenesets_CellCycle.png)
+	[**Figure    11: Broad EMT signarue order samples by CMS classification track**](_static/images/Usinggenesets/UsingGenesets_CellCycle.png)
 	
 3.  In the resulting heatmap it is clear that there is a segment of
-    genes in the Cell Cycle pathway cluster that is consistently
-    upregulated in the stage 4 Neuroblastoma samples (in red in the
-    INSS track).
-    [![](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted.png)**Figure
-    12: Heatmap sorted by INSS stage, there is a clear relation between
-    the stage 4 tumors (in red in the INSS track) and up-regulation of a
-    subset of genes \#:of the Cell
-    Cycle**](_static/images/UsingGenesets%20HeatmapSorted.png)
+    genes of the EMT signature cluster that together that is consistently
+    upregulated in the CMS classification type 4. .
+    [![](_static/images/Usinggenesets/UsingGenesets_HeatmapSortedv2.png)**Figure
+    12: Heatmap sorted by CMS classification.**](_static/images/UsingGenesets/UsingGenesets_HeatmapSortedv2.png)
 4.  In the previous example R2 offers the possibility to set a fixed
-    ordering of samples by track. It"s also possible to perform a
+    ordering of samples by track. Its also possible to perform a
     clustering and set a fixed ordering of genes. In the "adjustable
     settings" panel, select user defined order in the geneselection
     pulldown menu and click next two times. Here you can paste a list of
     genes sorted according to your needs.
-5.  Ifyou want to perform hierarchical clustering with a fixed
+5.  If you want to perform hierarchical clustering with a fixed
     sample order. From the main menu select View a Geneset (Heatmap) ,
     in the sample order section, select user defined order and click
     next, select a geneset sub collection and click next. Copy and paste
@@ -178,13 +173,12 @@ Step 3: Relating genesets with data annotation
 
 
 
-Step 4: Unsupervised hierarchical clusterin with a geneset
+Step 4: Unsupervised hierarchical clustering with a geneset
 ---------------
 
 
-
 It could be that for a given dataset there is no annotation to apply the
-analysis tools R2 is offering or your"re lacking a starting point to
+analysis tools R2 is offering or you're lacking a starting point to
 further investigated a dataset. A good starting point could be to do is
 to do a simple hierarchical clustering
 
