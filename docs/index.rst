@@ -24,7 +24,6 @@ Copyright (c) 2006-2022 R2 Support Team
    Multiple_Datasets
    K_Means_Clustering
    Using_Signatures
-   Analysing_Time_Series
    Using_And_Creating_Genesets
    Principle_Components_Analysis
    tSNE_dimensionality_reduction
@@ -37,7 +36,8 @@ Copyright (c) 2006-2022 R2 Support Team
    Exporting_Data
    R2_Dataset_Addition
    Did_You_Know
+   (deprecated)Analysing_Time_Series
 
-   
+
 ..   
    
