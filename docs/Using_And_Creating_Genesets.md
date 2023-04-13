@@ -17,7 +17,7 @@ Scope
 
 -   In this tutorial the visualization of a set of genes will be
     explored
--   R2 provides a conventional heatmap view""
+-   R2 provides a conventional heatmap view
 -   This heatmap view can be adapted to your needs by sorting the data
     along the axes according to your wishes.
 -   Generating your own genelists to analyze using the
@@ -30,7 +30,7 @@ Scope
 Step 1: Selecting data and modules; creating a Heatmap
 ---------------
 
-1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
+1.  On the main page of R2, select the "Mixed Colon Adenocarcinoma (20220-v32)" select View Geneset (Heatmap) (Figure 1).
     Click 'Next'.
     
 	![](_static/images/Usinggenesets/UsingGenesets_Selectv1.png "Figure    1: Select View a    Geneset")
@@ -40,8 +40,7 @@ Step 1: Selecting data and modules; creating a Heatmap
 2.  In the subsequent window three choices are available to customize
     the way the GeneSet data will be presented (Figure 2). The first
     field asks for a collection of genesets (Figure 3); R2 harbors
-    hundreds of publicly available genesets, KEGG pathways being one
-    of them. The second field is a filter for selecting the samples. The
+    hundreds of publicly available genesets such as th KEGG and Broad institute sets.  The second field is a filter for selecting the samples. The
     third field is the order by which the resulting heatmap will be
     drawn (Figure 4). By default R2 presents the data in a heatmap where
     a hierarchical clustering is performed on the genes, making use of
@@ -84,7 +83,7 @@ Out of the large collection of available sets one of the Wnt pathways is selecte
 
     ![](_static/images/Usinggenesets/UsingGenesets_Heatmapv1.png "Figure 6:Heatmapview of the Wnt signaling pathway.")
 	
-    [**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images//Usinggenesets/UsingGenesets_Heatmapv1.png)
+    [**Figure 6: Heatmap view of the Kegg  Wnt signaling pathway  for the Mixed Colon Carcinoma**](_static/images//Usinggenesets/UsingGenesets_Heatmapv1.png)
 	
 
 Genes and samples are ordered to their clustering values.
@@ -104,20 +103,20 @@ Step 2: Using multiple GeneSets
     "next" (Figure 7).
     
 	![](_static/images/Usinggenesets/UsingGenesets_Subcollectionv1.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
-	
-	[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images//Usinggenesets/UsingGenesets_Subcollection.png)
+3. 
+	[**Figure    7: Selection a subcollection**](_static/images//Usinggenesets/UsingGenesets_Subcollection.png)
 	
 3.  R2 allows selection of multiple genesets at the same time; CTRL+
     select **DNA repair**  and **Epithelial and Mesenchymal transition**  and click 'Next'.
 
 	![](_static/images/Usinggenesets/UsingGenesets_Doubleselectv1.png "'Figure    8: Selecting multiple    genesets")
 	
-	[**'Figure    8: Selecting multiple    genesets**](_static/images//Usinggenesets/UsingGenesets_Doubleselect.png)
+	[**Figure    8: Selecting multiple    genesets**](_static/images//Usinggenesets/UsingGenesets_Doubleselect.png)
 	
 4.  The resulting heatmap (Figure 9) has the samples ordered by the
     result of the clustering of the dataset. On the y-axis the genes are
     annotated with their membership to both pathways; the most right bar is
-    the EMT signature. It is obvious genes in the EMT process do cluster together. And also looking closely at the sample annotation also suggests a strong association with the CMS4 classification.
+    the EMT signature. It is obvious that genes in the EMT process do cluster together. And looking closely at the sample annotation also suggests a strong association with the CMS4 classification.
 
 
 ![](_static/images/Usinggenesets//UsingGenesets_Heatmap3.png "Figure9: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
