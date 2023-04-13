@@ -174,14 +174,14 @@ Final remarks / future directions
 ---------------------------------
 
 
-Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
+All the procedures described in this chapter can be executed using the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl).
 
+If you encounter any quirks or issues, please do not hesitate to contact R2 support at r2-support@amsterdamumc.nl.
 
-If you run into any quirks or annoyances do not hesitate to contact r2 support
-(r2-support@amc.uva.nl).
+We hope that this tutorial has been useful.
 
-
-We hope that this tutorial has been helpful, the R2 support team.
+Best regards,
+The R2 support team.
 
 
 

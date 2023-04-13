@@ -5,7 +5,7 @@ DataScopes
 
 
 
-*Quick jumps to (dedicated) analyses and visualizations in R2*
+*Datascopes are typically landing web-pages that provide quick jumps to (dedicated) analyses and visualizations in R2. such datascopes are frequently associated with studies that share their data, presented from a manuscript in such a way that you can repeat their analyses, but with other selection criteria etc. Another type of datascope is the ability to limit data sets to a particular selection, such as a tumor entity.*
 
 
 
@@ -25,19 +25,14 @@ Step 1: Selecting a dataset restrictive DataScope
 1.  DataScopes are represented in the left menu structure in R2 in the item named 'Change Data Scopes'.
 Scopes can be grouped by different 'types' like 'paper' or 'tumor type'. Depending on your account access
 more restricted scopes can be represented in your account. We will start by selecting a 'dataset'
-restriction Scope by clicking on 'tumor' > 'neuroblastoma'.
+restriction Scope by clicking on 'tumor' > 'neuroblastoma'. Alternatively you can click on the 'change data scopes' root item and get a tiled display of all the data scopes that you have access to with your account.
     
 	![](_static/images/DataScope_select_a_datascope.png "Figure    1: Selecting a Data Scope.")
 	
 	[**Figure    1: Selecting a Data Scope.**](_static/images/DataScope_select_a_datascope.png)
 	
 
-2.  You may notice that the 'title' of the platform now includes 'neuroblastoma'. Furthermore, the number
-of samples that you have access to has now greatly decreased. That is, because you will now only look at
-datasets that we 'annotated' as neuroblastoma. This data scope can be great if you only wish to see data
-sets of a specific entity (that we have also defined). If you now want to select a new dataset, then you
-will note that you can only select neuroblastoma assets. In analyses like '2D distribution', a restrictive
-data scope will also be applicable there.
+2.  You may have noticed that the platform now includes 'neuroblastoma' in its title. Additionally, the number of samples available to you has greatly decreased. This is because you will now only be looking at datasets that we have annotated as neuroblastoma. This data scope can be useful if you only want to see datasets related to a specific entity that we have defined. If you want to select a new dataset, you will only be able to choose from neuroblastoma assets. In analyses such as '2D distribution', this restrictive data scope will also apply.
     
 	![](_static/images/DataScope_resources.png "Figure    2: Neuroblastoma Data Scope.")
 	
@@ -75,12 +70,15 @@ Final remarks / future directions
 ---------------------------------
 
 
-Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact R2 support
-(r2-support@amc.uva.nl). If you may have an idea for another data scope or would like to showcase your own data in this way,
-then also please get in contact with us via the support address.
+Some of the functionalities described in this tutorial have been developed recently. If you encounter any issues or difficulties, please do not hesitate to contact R2 support at r2-support@amsterdamumc.nl. Additionally, if you have ideas for new data scopes or would like to showcase your own data in a similar way, please feel free to get in touch with us through the same support address.
 
-We hope that this tutorial has been helpful, the R2 support team.
+
+We hope that this tutorial has been helpful.
+
+
+Best regards,
+
+The R2 support team.
 
 
 
