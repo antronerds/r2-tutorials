@@ -5,7 +5,7 @@ Adapting R2 to your needs
 
 
 
-*Or how you can optimize R2 for your specific data analysis*
+*Or how you can optimize R2 for your specific data analysis.*
 
 
 
@@ -13,103 +13,97 @@ Adapting R2 to your needs
 Scope
 -----
 
-- This tutorial describes the adaptable settings within R2. These are basically all items under the User Options
-  menu-item. Through these you can personalize the use of R2
-- First a couple of regular settings will be treated: changing colors, setting parameters
-- Next we'll delve into the practical adaptation of R2; uploading your dataset, adding your personal genesets (
-  categories), creating/exporting /uploading your own tracks and maintaining a user community
+- This tutorial describes the adaptable settings within R2. These are basically all items under the 'User Options'
+  menu-item. Through these you can personalize the use of R2.
+- First, a couple of regular settings will be treated: changing colors, and setting parameters.
+- Next, we will delve into the practical adaptation of R2; uploading your dataset, adding your personal genesets
+  (categories), creating/exporting/uploading your own tracks, and maintaining a user community.
 
 Step 1: Adapt your settings
 ---------------
 
 1. Personalizing R2 starts with selecting the 'User Options' menu item
-   (Figure 1). When you hover over this item, you see a submenu. In 'Account you can choose a different password or
-   change your personal details.   
+   (Figure 1). When you hover over this item, you see a submenu. In 'Account' you can choose a different password or
+   change your personal details. 
    In 'Preferences' you can set some generic R2 analysis and visualization options, click on this item.
 
    ![](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png "Figure    1: Personalizing R2: the User Options menu-item")
 
-   [**Figure 1: Personalizing R2: the User Options menu-item**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png)
+   [**Figure 1: Personalizing R2: the User Options menu-item.**](_static/images/AdaptingR2/AdaptingR2_UserOptionsv2.png)
 
 
 
-2. Next item in the User Options submenu (Figure 1) are the 'Megasampler Presets' . These are of relevance when you've
-   built a specific Preset in an analysis Across Datasets ( see chapter: Multiple datasets overview with Megasampler).
+2. The next item in the 'User Options' submenu (Figure 1) is 'MegaSampler Presets'. These are of relevance when you have
+   built a specific Preset in an analysis Across Datasets (see chapter: Multiple datasets overview with Megasampler).
 
 
 
-Step 2: How to add data to R2.
+Step 2: How to add data to R2
 ---------------
 
-1. One of the most appreciated options of R2 is the possibility to add data to R2, be it your own dataset or/and
-   publicly available data that matches your research interest. Due to several reasons, technical as security, it's
-   almost impossible to automate the process of adding data for standard users. In order to keep the database curated
-   only R2 administrators can add data to R2.   
-   In order to do so, the data first has to be processed and uploaded.  [chapter 24](R2_Dataset_Addition.html)
-   describes in detail how to prepare your data such that we can process it and upload the data to R2.  
+1. One of the most appreciated options of R2 is the possibility to add data to R2, be it your own dataset, and/or
+   publicly available data that matches your research interest. Due to several reasons, technical as well as security, it is
+   almost impossible to automate the process of adding data for standard users. In order to keep the database curated,
+   only R2 administrators can add data to R2. In order to do so, the data first has to be processed and uploaded. 
+   [Chapter 24](R2_Dataset_Addition.html) describes in detail how to prepare your data such that we can process it and 
+   upload the data to R2.  
    
    (<r2-support@amsterdamumc.nl>). If you would like to see a publicly accessible dataset in R2, then send an email
    to <r2-support@amsterdamumc.nl>
-   with a link to the data, or in the case of a Gene Expression Omnibus dataset, the GSE\*\*\*\* identifier, matrixes in
-   supplemental data and we will take care of the rest.
+   with a link to the data, or in the case of a Gene Expression Omnibus dataset, the GSE\*\*\*\* identifier, matrices in
+   supplemental data, and we will take care of the rest.
 
 Step 3: Create your custom genesets
 ---------------
 
-1. Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets or referend to
-   in r2 as genecategories. Many analyses in R2 can be performed on a subset of genes (
-   see [chapter 14](Using_And_Creating_Genesets.html) for a tutorial on performing gene set analysis). There are 3 main
-   sources for gene sets. Firstly R2 harbors hundreds of predefined sets of genes (such as KEGG pathways or sets defined
-   by the Broad Institute). Secondly, some analyses will result in gene lists, which R2 allows you to save on the fly
-   such that they can be used for further analyses (
-   e.g. [Toplister analysis](Using_And_Creating_Genesets.html?highlight=hundreds#step-4-unsupervised-hierarchical-clusterin-with-a-geneset))
-   .  
-   Next to these two options, you can introduce your own gene sets of interest directly to R2 as well; Hover over the '
-   custom genesets' sub-item and select the button 'custom geneset editor'
-   (Figure 5).
+1. Another powerful functionality to adapt R2 analyses to your specific needs, is by defining gene sets, referred to
+   in R2 as genecategories. Many analyses in R2 can be performed on a subset of genes (see [Chapter 14](Using_And_Creating_Genesets.html) 
+   for a tutorial on performing gene set analyses). There are 3 main sources for gene sets. Firstly, R2 harbors hundreds 
+   of predefined sets of genes (such as KEGG pathways or sets defined by the Broad Institute). Secondly, some analyses 
+   will result in gene lists, which R2 allows you to save on the fly such that they can be used for further analyses 
+   (e.g. [TopLister analysis](Using_And_Creating_Genesets.html?highlight=hundreds#step-4-unsupervised-hierarchical-clusterin-with-a-geneset)). 
+   In addition to these two options, you can introduce your own gene sets of interest directly to R2 as well; hover over the 
+   'Custom gene sets' sub-item and select the button 'Custom gene set editor' (Figure 2).
 
    ![](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png "Figure    2: Categories related menu-items; select Build Category to make    your own.")
 
    [**Figure 2: Geneset related menu-items; select Custom genesets to make your
    own.**](_static/images/AdaptingR2/AdaptingR2_customgenesets1.png)
 
-2. The 'Custom Geneset editor' window pops up (Figure 3). By default in this window you must provide a unique name for
-   the set. The input box allows you to paste a list of genes to upload as a geneset for use in analyses in R2. In the
-   example a set of genes, specific for ALL tumors are pasted. If you want this gene set to remain available for you,
-   select in the community dropdown , "none" of select a community name for sharing the geneset. The concept "
-   commmunity" is descibed later in this tutorial. If you just want to store the set temporarily for 24 hours, choose '
-   yes' in the temporary dropdown.  
-   Click "save geneset" to upload the set (Figure 3), you'll receive a message when everything has succeeded. Your set
-   of genes is now available as a geneset for all analyses within R2. Go back to the main page to see where you can use
-   this set.
+2. The 'Custom gene set editor' window pops up (Figure 3). In this window, you must provide a unique name for the set. 
+   The input box allows you to paste a list of genes to upload as a geneset to use for analyses in R2. In the example, a 
+   set of genes, specific for ALL tumors is pasted. If you want this gene set to remain available for you, select 'None', 
+   or select a community name for sharing the geneset in the 'Community' dropdown. The concept "community" is described 
+   later in this tutorial. If you just want to store the set temporarily, for 24 hours, select 'yes' in the 'Temporary' 
+   dropdown. Click 'Save gene set' to upload the set (Figure 3), you will receive a message when everything has succeeded. 
+   Your set of genes is now available as a geneset for all analyses within R2. Go back to the main page to see where you 
+   can use this set.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png "Figure    3: Using the Input Box to upload your category    of genes.")
 
    [**Figure 3: Using the Input Box to upload your genesets.**](_static/images/AdaptingR2/AdaptingR2_Inputbox_v1.png)
 
-4. We're going to lookup your geneset, an example is available in the Gene Set View. In the main menu in Field 3
-   select 'View a Geneset (Heatmap)'
-   and click "next"( Figure 4)
-5. 
+3. We are going to look up your geneset. An example is available in the "Gene Set View". In the main menu in Field 3
+   select 'View Geneset (Heatmap)' and click 'Next' (Figure 4).
+
    ![](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png "Figure    4: Using a geneset; select View    Geneset")
 
-   [**Figure 4: Using a geneset; select View Geneset**](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png)
+   [**Figure 4: Using a geneset; select View Geneset.**](_static/images/AdaptingR2/AdaptingR2_Viewset_v2.png)
 
-5. In the GeneSetView your custom geneset is privately available for yourself for similar analyses as with any other
-   public gene set present in R2. Select 'My GeneCategories' to choose from your categories.
+4. In the "Gene Set View", your custom geneset is privately available for you to apply to the same analyses as any of the 
+   public gene sets present in R2. Select 'My GeneCategories' to choose from your categories.
 
-   If you saved your gene set temporarily, choose 'My 24h GeneCategories'. And click Next and click Next again in the
-   following window  (Figure 9).
+   If you saved your gene set temporarily, choose 'My 24h GeneCategories', and click 'Next, and click 'Next' again in the
+   following window (Figure 5).
 
-![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    5: Selecting your genesets")
+   ![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    5: Selecting your genesets")
 
-[**Figure 5: Selecting your genesets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
+   [**Figure 5: Selecting your genesets.**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
 
-7. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed. The geneset '
-   Changed Genes' we just made above is available
+5. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed. The geneset 
+   'Changed Genes' we just made above is available
    (Figure 6), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme
-   that you prefer.  
-   For now we end here, later on we'll see the geneset again in the context of Tracks.
+   that you prefer. For now we end here, later on we will see the geneset again in the context of Tracks.
 
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    6 A: Your geneset is available")
 
@@ -119,58 +113,60 @@ Step 3: Create your custom genesets
 
    [**Figure 6 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
 
-8. We now return to the side menu of the R2 page to find out how we can manage the genesets we just built. From the '
-   User Options' item in the menu, click Custom geneset. The custom geneset module allow you to organize you custom
-   genesets , assigning the sets to a collection or delete custom sets.
+6. We now return to the side menu of the R2 page to find out how we can manage the genesets we just built. From the 
+   'User Options' item in the menu, click 'Custom gene sets'. The custom geneset module allows you to organize you custom
+   genesets, assigning the sets to a collection, or delete custom sets.
 
    ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage_v1.png "Figure 7: The geneset module")
 
-   [**Figure 7: Adapting your genesets**](_static/images/AdaptingR2/AdaptingR2_CategoryManager_v1.png)
+   [**Figure 7: Adapting your genesets.**](_static/images/AdaptingR2/AdaptingR2_CategoryManager_v1.png)
 
    Existing genesets can be adapted, deleted or moved to another collection. New genesets can be based on existing ones.
-   As an example we're going to update the genesets we just made. Click the 'pencil' icon next to the custom geneset in
-   the custom geneset editor. In the next screen you can add or delete genes and provide background information and
-   choose for the update of new geneset optipn in the pulldown menu.
+   As an example we are going to update the genesets we just made. Click the 'pencil' icon next to the custom geneset in
+   the custom geneset editor. In the next screen you can add or delete genes, provide background information, and
+   choose between the update of the existing geneset, or the creation of a new geneset in the 'Save mode' pulldown menu.
 
 Step 4: Tracks in R2: create your own data annotation
 ---------------
 
-1. Another important feature in R2 that can be adapted to your needs are grouping variables, that we call "tracks" in R2. In R2, the samples can be annotated with sample characteristics, e.g clinical data or experimental characteristics. Each group of annotated data is called a “Track”. Tracks in R2 give you the opportunity to divide your samples in groups with e.g. different phenotypes for comparative or subgroup analysis. They also allow you to restrict your focus on only a part of the samples within a given dataset (when used in the 'subset builder'). 
+1. Other important features in R2 that can be adapted to your needs are grouping variables, that we call "tracks" in R2. In R2, the samples can be annotated with sample characteristics, e.g clinical data or experimental characteristics. Each group of annotated data is called a “Track”. Tracks in R2 give you the opportunity to divide your samples in groups with e.g. different phenotypes for comparative or subgroup analysis. They also allow you to restrict your focus on only a part of the samples within a given dataset (when used in the 'subset builder'). 
    For some datasets the annotation that you need may be available already (from the default annotation that was added by the R2 team). For others you might want to add extra sample annotation for analysis such as combining already added tracks, or introduction of new information that you may possess. 
    Tracks can be adapted in multiple ways:
 
 
-* They can be uploaded with annotation files
+* They can be uploaded with annotation files.
 
-* They can be created as a result of analyses within R2 and stored within the platform on the go
+* They can be created as a result of analyses within R2 and stored within the platform on the go.
 
-* Or you can create a so called Custom Track yourself within R2.
+* Or you can create a so-called "Custom Track" yourself within R2.
 
 
-   We'll first start with an example of adding a track from the results of an analysis that is performed from within R2. We will illustrate this option using a K-means analysis. Such an analysis results in a division of the samples in two groups ( in the case of k=2. For more about
-   this analysis see [chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 8)
+   We will start with an example of adding a track from the results of an analysis that is performed from within R2. 
+   We will illustrate this option using a K-means analysis. Such an analysis results in a division of the samples in two 
+   groups in the case of k=2 (for more about this analysis see
+   [Chapter 14](K_Means_Clustering.html)). On the main page of R2 select the K-means analysis in Field 3 (Figure 8).
 
    ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    8: Selecting a K-means    analysis")
 
-   [**Figure 8: Selecting a K-means analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
+   [**Figure 8: Selecting a K-means analysis.**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
 
-2. In the settings window for the K-means analysis (Figure 9) you can choose the geneset created above to cluster the
-   current set of samples. In our case this is called ChangedGenes. Make sure that the number of draws is set to 10x10,
+2. In the settings window for the K-means analysis (Figure 9), you can choose the geneset created above to cluster the
+   current set of samples. In our case this is called "ChangedGenes". Make sure that the number of draws is set to 10x10,
    click 'next'
 
    ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    9: Settings for K-means; the Category built above is available for    clustering")
 
    [**Figure 9: Settings for K-means; the Category built above is available for
-   clustering**](_static/images/AdaptingR2/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
+   clustering.**](_static/images/AdaptingR2/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
 
 3. The resulting clustering in two groups might not be ultimately convincing (Figure 10, your result might look slightly
    different), but for our testing purposes this is alright. What is important is that the resulting groups can be
-   stored as a new track, personal / available only to your account; click the button 'store as a track'.
+   stored as a new track, personal/available only to your account; click the button 'Store as track'.
 
    ![](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
 
    [**Figure 10: Clustering result of the Neuroblastoma dataset with a geneset built in the former
-   steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrack.png)
+   steps.**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrack.png)
 
 4. R2 now shows all samples as a long table with radio buttons indicating which group each sample belongs to. These can
    be adapted if you want to. Scroll down the window to find the fields that have to be set in order to store this as a
@@ -181,12 +177,12 @@ Step 4: Tracks in R2: create your own data annotation
 
    [**Figure    11: Storing the current groups as a Track for use in later analysis.**](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png)
 
-5. After optionally changing the parameters, you can click the Build set button to store the track. In the custom tracks
-   manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 12).
+5. After optionally changing the parameters, you can click the 'Build set' button to store the track. In the custom tracks
+   manager we can adapt this track again. From the 'User Options' menu select 'Tracks', and there select 'Manage Custom Tracks' (Figure 12).
 
    ![](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv2.png "Figure    12: Selecting the Manage Custom    Tracks")
 
-   [**Figure 12: Selecting the Manage Custom Tracks**](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv2.png)
+   [**Figure 12: Selecting the Manage Custom Tracks.**](_static/images/AdaptingR2/AdaptingR2_ManageCustomTracksv2.png)
 
 6. In the next screen keep the default selection, i.e. your current dataset. Tracks are, of course, defined based on a
    specific dataset; for each dataset you can store your own tracks. Click 'Next'.
@@ -196,37 +192,34 @@ Step 4: Tracks in R2: create your own data annotation
    [**Figure 13: Tracks are defined per dataset; keep the current
    selection.**](_static/images/AdaptingR2/AdaptingR2_CustomtrackTrack.png)
 
-7. In the next screen you're able to adapt the Track we just generated. Of interest in here is the option "Show as track: Yes/No",
-   which will result in the display of the information underneath the YY-plots.  
-   The tracks can also be assigned to collections to make large sets of tracks manageable. We leave the deletion of the
-   track to the imagination of the reader.  
-   Now we'll pay attention to the default tracks for this dataset. The track we just generated can be adapted from here.
-   For a start set the Drawtrack propery to 'yes'; we want to see this track in the graphs we create!
+7. In the next screen you are able to adapt the Track we just generated. Of interest in here is the option "Show as track: Yes/No",
+   which will result in the display of the information underneath the YY-plots. The tracks can also be assigned to collections 
+   to make large sets of tracks manageable. We leave the deletion of the track to the imagination of the reader.  
+   Now we will pay attention to the default tracks for this dataset. The track we just generated can be adapted from here.
+   For a start set the Drawtrack property to 'yes'; we want to see this track in the graphs we create!
 
    ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv2.png  "Figure 14: Adapting track paramteters.")
 
    [**Figure 14: Adapting track parameters.**](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv2.png)
 
-8. Select Manage Default Tracks from the 'User Options' > 'Tracks' sub-menu (Figure 15)
+8. Select 'Manage Default Tracks' from the 'User Options' > 'Tracks' sub-menu (Figure 15).
 
    ![](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png "Figure  18: Selecting the Default Tracks    Manager")
 
-   [**Figure 15: Selecting the Default Tracks Manager**](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png)
+   [**Figure 15: Selecting the Default Tracks Manager.**](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png)
 
-9. In the next screen the dataset has to be defined; keep the defaults and click Continue. You'll end up in the Default
-   Tracks Manager
-   (Figure 16). Basically all annotation provided with this dataset is available as a track. Try out different things
-   here.  
-   We'll select additional annotations by changing their Drawtrack value to 'yes': age_year, gender and recurrence will
-   be shown underneath graphs as well in further analyses.  
-   Also, we'll set the Collection of age_year and agegroup to NEW. Next to NEW Collection name, we add a befitting name
-   that defines this group of tracks. Here we typed 'Age related'. Be sure to click the 'Update Tracks' button for these
-   changes to take effect.
+9. In the next screen the dataset has to be defined; keep the defaults and click 'Select'. You will end up in the 
+   "DefaultTrack Manager" (Figure 16). Basically all annotation provided with this dataset is available as a track. 
+   Try out different things here. We will select additional annotations by changing their Drawtrack value to 'yes': age_year, 
+   gender and recurrence will be shown underneath graphs as well in further analyses.  
+   Additionally, we will set the Collection of age_year and agegroup to 'NEW'. In the "NEW Collection name" cell, we add 
+   a befitting name that defines this group of tracks. Here we typed 'Age related'. Be sure to click the 'Update Tracks' 
+   button for these changes to take effect.
 
    ![](_static/images/AdaptingR2/AdaptingR2_SelectDefaultv1.png "Figure    16 A: Selecting the default tracks for this    dataset")
 
    [**Figure 16 A: Selecting the default tracks for this
-   dataset**](_static/images/AdaptingR2/AdaptingR2_SelectDefaultv1.png)
+   dataset.**](_static/images/AdaptingR2/AdaptingR2_SelectDefaultv1.png)
 
    When collections of tracks are used, these will show up conveniently as separate groups of tracks under the graph.
 
@@ -234,7 +227,7 @@ Step 4: Tracks in R2: create your own data annotation
    ![](_static/images/AdaptingR2/AdaptingR2_SelectDefaultResult.png "Figure    16B: 'Drawtracks' makes tracks visible under the graph; group Tracks with 'Collections'")
 
    [**Figure 16 B: 'Drawtracks' makes tracks visible under the graph; group Tracks with '
-     Collections'**](_static/images/AdaptingR2/AdaptingR2_SelectDefaultResult.png)
+     Collections.'**](_static/images/AdaptingR2/AdaptingR2_SelectDefaultResult.png)
 
    Use the 'Reset' button for Tracks or Collections in the Default Tracks Manager to undo either of the changes, or use
    the 'Reset to defaults button' to go back to the original dataset settings of tracks.
@@ -245,7 +238,7 @@ Step 5: Upload your own tracks
 1. R2 also allows you to build your own tracks from scratch. You will be able to assign each sample to a group of your
    choice. To illustrate this select 'User Options' > 'Tracks' > 'Build Custom Track'. The Custom Track window appears.
    R2 also provides the possibility to upload a custom track from a prefabricated text file. We will shortly show this route, which is also the most powerful one.
-Click 'Upload or Paste a Track (txt file)' (Figure 18).
+   Click 'Upload or Paste a Track (txt file)' (Figure 17).
 
    ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv1.png "Figure    17: Build a Custom Track: Upload or paste a track.")
    
@@ -260,14 +253,14 @@ Click 'Upload or Paste a Track (txt file)' (Figure 18).
 
    ![](_static/images/AdaptingR2/AdaptingR2_Trackdescribedv1.png "Figure    18 Uploading a track described in a text file; for each sample a    description has to    be provided.")
 
-  [**Figure 18: Uploading a track .**](_static/images/AdaptingR2_Trackdescribedv1.png)
+   [**Figure 18: Uploading a track.**](_static/images/AdaptingR2_Trackdescribedv1.png)
 
 3. If you intend to create a track with a limited number of groups, an easier way is provided through the user
-   interface. We will try that now: click the back button of your browser to return to Figure 12. By default the Custom
+   interface. We will try that now: click the back button of your browser to return to Figure 12. By default, the Custom
    Track Window (Figure 19) is set to build a track based on a defined number of groups. Underneath you can adjust the
-   number of groups, now change the number to 3 groups and click the Submit button.
+   number of groups, now change the number to 3 groups and click the 'Submit' button.
 
-4. In the next window a convenient overview of all annotation parameters and their values is available, with check boxes
+4. In the next window a convenient overview of all annotation parameters and their values is available with check boxes
    to assign samples with specific annotation values to one of the three groups.  
    In this example we divide the samples by their INSS classification values in 3 groups:
    the low grade(1,2,3) vs high grade(4) vs special (4s) tumor types. Tick the appropriate boxes in the appropriate
@@ -281,55 +274,55 @@ Click 'Upload or Paste a Track (txt file)' (Figure 18).
 [**Figure 19: Preselection to make new tracks from existing
    annotation.**](_static/images/AdaptingR2/AdaptingR2_DefineGroupsSpecs.png)
 
-5. Click "next", all samples appear in a table with check boxes to assign them individually to the appropriate group.
-   Scroll down to adapt the visual characteristics of these groups. Names have been adapted, 'show track' is set to yes,
-   the track is set to be stored as a personal track and colors per group have been adapted. Click 'Build set' to store
-   the set, you'll receive a message accordingly in the next window. Of course you now finally want to see all our track
+5. Click 'Next', all samples appear in a table with check boxes to assign them individually to the appropriate group.
+   Scroll down to adapt the visual characteristics of these groups. Names have been adapted, 'Show as track' is set to 'yes',
+   the track is set to be stored as a personal track, and colors per group have been adapted. Click 'Build set' to store
+   the set, you will receive a message accordingly in the next window. Of course, you now finally want to see all our track
    manipulation in an actual graph. Go to the R2 main page again, fill in a gene of choice (e.g. MYCN) in box 3 and
-   click next twice to see how the data of a gene will be plotted using the new tracks.
+   click 'Next' twice to see how the data of a gene will be plotted using the new tracks.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Trackproperties.png "Figure 20: Setting the custom    track properties.")
 
    [**Figure 20: Setting the custom track properties.**](_static/images/AdaptingR2/AdaptingR2_Trackproperties.png)
 
-6. Another frequently used approach is to make a track based on bins of gene expression values.  
-   To avoid labour intensive excel usage you can also use the expression treshhold option from the pulldown menu.  
-   Each time an expression level has been entered, a new box is generated for the next value.  
-   Of course, it is possible to change the names of the bins. Click next to tell R2 to draw the track, change the colors
+6. Another frequently used approach is to create a track based on bins of gene expression values. 
+   To avoid labour intensive excel usage, you can also use the expression threshold option from the pulldown menu. 
+   Each time an expression level has been entered, a new box is generated for the next value. Of course, it is possible 
+   to change the names of the bins. Click 'Next' to tell R2 to draw the track, change the colors
    of the track bins and save the track.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Trackdescribed_binv1.png "Figure    21: Creating bins.")
 
    [**Figure 21: Grouping samples for a track based on gene
-   expression**](_static/images/AdaptingR2/AdaptingR2_Trackdescribed_binv1.png)
+   expression.**](_static/images/AdaptingR2/AdaptingR2_Trackdescribed_binv1.png)
 
-7. Select View a gene in groups in Field 3 of the main page, Click 'next'. Type MYCN in the gene/reporter box, All the
+7. Select 'View a gene in groups' in Field 3 of the main page, click 'Next'. Type 'MYCN' in the gene/reporter box. All the
    tracks created in the Custom Track manager are available for selection in the 'userdefine'-main group of tracks, as a
-   group separator choose inss stage, in this example we have switched off al the default tracks and selected the two custom tracks we have created.
+   group separator choose inss stage. In this example we have switched off al the default tracks and selected the two custom tracks we have created.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Selectowntrackv1.png "Figure    22: Select the Track created in the Custom track manager; u-lowgradvs4vs4s")
 
    [**Figure 22: Select the Track created in the Custom track manager;
-   u-lowgradvs4vs4s**](_static/images/AdaptingR2/AdaptingR2_Selectowntrackv1.png)
+   u-lowgradvs4vs4s.**](_static/images/AdaptingR2/AdaptingR2_Selectowntrackv1.png)
 
 
-10. The expression of MYCN is plotted in the different groups of the inss stage (Figure 26). Extra Graph
-    Option has been set to Track and Gene Sort. Note that the other track of mycn_bin groups the highest bin groups corresponds with the
-    stage 4 group. Which also holds for the lower bin groups which are aligned with stage stage4s, stage 4s is known to have a better prognoses . There is also overlap with the custom created k-means generated tracks.
+8. The expression of MYCN is plotted in the different groups of the inss stage (Figure 22). Extra Graph Option has been 
+   set to Track and Gene Sort. Note that the other track of mycn_bin groups the highest bin groups correspond to the
+   stage 4 group. Which also holds for the lower bin groups which are aligned with stage 4s, stage 4s is known to have 
+   better prognoses. There is also overlap with the custom created k-means generated tracks.
 
     ![](_static/images/AdaptingR2/AdaptingR2_VisualizeTracksv1.png "Figure    22: Tracks created are visualized underneath the    graph")
 
-    [**Figure 22: Tracks created are visualized underneath the graph**](_static/images/AdaptingR2/AdaptingR2_VisualizeTracksv1.png)
+    [**Figure 22: Tracks created are visualized underneath the graph.**](_static/images/AdaptingR2/AdaptingR2_VisualizeTracksv1.png)
 
-11. Another convenient option from the "custom track manager" is the export function which enables you to manipulate
-    your tracks manually outside R2. This could be of use when your want to share tracks with other users or create new
-    custom tracks. One reason you want to use the export function is to fix the ordering of your samples when generating
-    a heatmap. Make sure you already have a personal custom track (not a temporary track, 24h). Select 'Manage default
-    Tracks' from the User Options > Tracks menu
-    (Figure 18) and click next. Here select the dataset of interest , only datasets which have a corresponding
-    personalized track are represented in the pulldown menu. Click the
-    "Copy/delete/rename/export Tracks" button. Here select the personal track , "export" operation and r2\_track at "
-    export as". Click execute" and download link with the track name can be loaded by clicking the right mouse button.
+9. Another convenient option from the "Custom track manager" is the export function which enables you to manipulate
+   your tracks manually outside R2. This could be of use when your want to share tracks with other users or create new
+   custom tracks. A motivation for using the export function could be to fix the ordering of your samples when generating
+   a heatmap. Make sure you already have a personal custom track (not a temporary track, 24h). Select 'Manage default
+   Tracks' from the 'User Options' > 'Tracks' menu (Figure 15) and click 'Next'. Here, select the dataset of interest. Only 
+   datasets that have a corresponding personalized track are represented in the pulldown menu. Click the
+   'Copy/Delete/Rename/Export Tracks' button. Here, select the personal track, "export" operation and r2\_track at 
+   "export as". Click 'execute' and the download link with the track name can be loaded by clicking the right mouse button.
 
 Step 6: Cooperate through R2: sharing tracks, creating communities
 ---------------
@@ -337,26 +330,26 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
 1. Cooperation is of great importance in scientific research. You probably want to share the tracks created above with
    other people in your group. For this reason R2 features the Communities. Communities are different from user groups,
    which is important to remember. User groups are granting a user access to datasets and their associated annotation.
-   On the other hand, communities are a way by which any user can share grouping variables (tracks), lists of genes (
-   gene categories), megasampler presets or genome browser views with any (group of ) other R2 user(s). A user can
-   generate multiple communities and invite other users to share such feature with.
+   In contrast, communities are a way by which any user can share grouping variables (tracks), lists of genes 
+   (gene categories), megasampler presets or genome browser views with any (group of) other R2 user(s). A user can
+   generate multiple communities and invite other users to share such features with.
 
    Creating a community is done by clicking 'Community' in the 'User Options' menu
    (Figure 23).
 
    ![](_static/images/AdaptingR2/AdaptingR2_Community.png "Figure    23: Community in the User Options menu")
 
-   [**Figure 23: Community in the User Options menu**](_static/images/AdaptingR2/AdaptingR2_Community.png)
+   [**Figure 23: Community in the User Options menu.**](_static/images/AdaptingR2/AdaptingR2_Community.png)
 2. Since this will be the first time in the community section, there are no communities yet; click the 'Start a new
    Community' link
    (Figure 24).
 
    ![](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png "Figure    24: Starting a    community")
 
-   [**Figure 24: Starting a community**](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png)
+   [**Figure 24: Starting a community.**](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png)
 
-3. In the Community window a name has to be set and a short description for people invited as members for this group (
-   Figure 25). Through a community you can share your own Genesets,Tracks and Settings.
+3. In the Community window, a name has to be set and a short description for people invited as members for this group
+   (Figure 25). Through a community you can share your own Genesets,Tracks and Settings.
 
 
    ![](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroupv1.png "Figure    25: Setting the Community group name    and description.")
@@ -364,46 +357,46 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    [**Figure 25: Setting the Community group name and
    description.**](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroupv1.png)
 
-5. Click 'Next'; you'll be notified that the group has been created; return to the Communities Center by clicking the
-   Community link again in the User Options menu (Figure 27). The TestGroup has been created (next to the already
-   existing MyTestGroup for this user). Click the link to start adding users (Figure 30).
+4. Click 'Next'; you will be notified that the group has been created; return to the Communities Center by clicking the
+   Community link again in the User Options menu (Figure 23). The TestGroup has been created (in addition to the already
+   existing MyTestGroup for this user). Click the link to start adding users (Figure 26).
 
      ![](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png "Figure 36: The available Communities for this user")
     	
-     [**Figure 26: The available Communities for this user**](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png)
+     [**Figure 26: The available Communities for this user.**](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png)
 
-6. You have to add users by their R2 username; we'll add user **"pietmolenaar"**. He'll receive a message in the R2 startup
-   page as soon as he logs on the next time. Click "next" to add the user.
+5. You have to add users by their R2 username; we will add user **"pietmolenaar"**. He will receive a message in the R2 startup
+   page as soon as he logs on the next time. Click 'Next' to add the user.
 
    ![](_static/images/AdaptingR2/AdaptingR2_GroupManager.png "'Figure    27: Add a user by their R2 user    name")
 
-   [**Figure 27: Add a user by their R2 user name**](_static/images/AdaptingR2/AdaptingR2_GroupManager.png)
+   [**Figure 27: Add a user by their R2 username.**](_static/images/AdaptingR2/AdaptingR2_GroupManager.png)
 
-7. R2 returns with a message that the user has been invited, he or she has to accept your invitation first before he
-   will see what you are sharing.
+6. R2 returns with a message that the user has been invited, they have to accept your invitation first before being able
+   to see what you are sharing.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Managegroups.png "Figure    28: R2 return message; user is invited; but not yet    visible")
 
-   [**Figure 28: R2 return message; user is invited; but not yet visible**](_static/images/AdaptingR2/AdaptingR2_Managegroups.png)
+   [**Figure 28: R2 return message; user is invited; but not yet visible.**](_static/images/AdaptingR2/AdaptingR2_Managegroups.png)
 
-8. The perspective of the invited user after logon; he or she can accept the invitation (Figure 29).
+7. The perspective of the invited user after logon; they can accept the invitation (Figure 29).
 
    ![](_static/images/AdaptingR2/AdaptingR2_GroupInvitationv1.png "Figure    29: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 
-   [**Figure 29: The invited user receives a notification on the main page where he or she can accept the membership of
-   the group**](_static/images/AdaptingR2/AdaptingR2_GroupInvitation1.png)
+   [**Figure 29: The invited user receives a notification on the main page where they can accept the membership of
+   the group.**](_static/images/AdaptingR2/AdaptingR2_GroupInvitation1.png)
 
-9. When the invitation has been accepted the user is available in this community. When we add a custom geneset, track or
+8. Once the invitation has been accepted the user is available in this community. When we add a custom geneset, track or
    preset the next time, it is possible to make this available to this community.
 
    ![](_static/images/AdaptingR2/AdaptingR2_CommunityUsers.png "Figure    30: The user is available in    the TestGroup.")
 
    [**Figure 30: The user is available in the TestGroup.**](_static/images/AdaptingR2/AdaptingR2_CommunityUsers.png)
 
-10. When a custom geneset is created there is now a possibility to make it available to a Community (Figure 39)
-11. Managing the tracks, gene categories and megasampler presets is done in a similar way as has been shown in the user
+9. Once a custom geneset is created, there is a possibility to make it available to a Community (Figure 31).
+10. Managing the tracks, gene categories, and megasampler presets is done in a similar way as has been shown in the user
     tracks and user categories at the beginning of this tutorial. <span style="color:red">**pietmolenaar**</span>, as a member of this group, can manage
-    the tracks that have been shared with him via his default track manager
+    the tracks that have been shared with him via his default track manager.
 
     ![](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png "Figure    35: As an example here the creation of a category and the assignment    to    a Community.")
 
@@ -415,8 +408,8 @@ Final remarks / future directions
 
 
 
-Some of these functionalities have been developed recently. If you run into any quirks or annoyances don't hesitate to
-contact r2 support
+Some of these functionalities have been developed recently. If you run into any quirks or annoyances do not hesitate to
+contact R2 support
 (r2-support@amsterdamumc.nl).
 
 We hope that this tutorial has been helpful, the R2 support team.
