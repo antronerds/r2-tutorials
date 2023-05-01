@@ -103,7 +103,7 @@ Step 3: Create your custom genesets
 5. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed. The geneset 
    'Changed Genes' we just made above is available
    (Figure 6), click on it. Also, in the Heatmap Options 'color-scheme(v2a)', select 'green-black-red', or any scheme
-   that you prefer. For now we end here, later on we will see the geneset again in the context of Tracks.
+   that you prefer. For now, we end here. Later on we will see the geneset again in the context of Tracks.
 
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    6 A: Your geneset is available")
 
