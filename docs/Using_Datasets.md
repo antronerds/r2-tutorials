@@ -16,8 +16,7 @@ Scope
 - R2 contains omics profiles such as expression and methylation profiles of over 1.200.000 unique
     individual samples. The samples are grouped in so-called datasets. Each dataset has its own characteristics, 
     such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added to the platform.
-- The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
-    u133p2* dataset will be used as an example dataset to guide you
+- The *Mixed Colon Adenocarcinoma (20220-v32)* dataset will be used as an example dataset to guide you
     through most of the tutorial. Later on, working with multiple
     datasets will be discussed.
 
