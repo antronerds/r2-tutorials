@@ -3,19 +3,19 @@
 Using Datasets
 ==============
 
-*Selecting or searching datasets in R2*
+*Selecting or searching datasets in R2.*
 
 Scope
 -----
 
 - Working with datasets.
 - R2 allows you to perform all kinds of analyses based on a well
-    annotated single dataset, or a selection of datasets at the
+    annotated, single dataset, or a selection of datasets at the
     same time. Different analyses are available through the selection
     of one of these options in field 1.
-- R2 contains omic profiles such as expression and methylation profiles for more than 1.200.000 unique
+- R2 contains omics profiles such as expression and methylation profiles of over 1.200.000 unique
     individual samples. The samples are grouped in so-called datasets. Each dataset has its own characteristics, 
-    such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added the platform.
+    such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added to the platform.
 - The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
     u133p2* dataset will be used as an example dataset to guide you
     through most of the tutorial. Later on, working with multiple
@@ -32,7 +32,7 @@ Step 1: Selecting a dataset
 
 1. R2 offers a large number of readily available datasets for analysis and visualization.
     The numbered boxes on the main page will guide you through all the steps necessary to perform a task, starting
-    with the selection of a dataset. In box 1 select **Single Dataset**, in field 2 click on the name of the dataset.
+    with the selection of a dataset. In field 1 select **Single Dataset**, in field 2 click on the name of the dataset (Figure 2).
 	
     ![](_static/images/Usingdatasets/UsingDataset_selectv1a.png "Figure 2: Change Dataset on the main page")
 	
@@ -46,22 +46,25 @@ Step 1: Selecting a dataset
 
    [**Figure 3A: Select a dataset with the select button or read more in-depth information (click in the dashed area).**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
 
- When you click on any of the information cells of the dataset row (dashed area), an information panel below the grid shows background information about the data. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments box of the information panel. At the bottom you will see links to the original data source and Pubmed resources, if available. 
+ When you click on any of the information cells of the dataset row (dashed area), an information panel below the grid 
+ shows background information of the data (Figure 3). Possible adjustments of the original data by the R2 team, such as 
+ data transformations or annotation changes, can be found in the "Adjustments" box of the information panel. At the bottom 
+ you will see links to the original data source and Pubmed resources, if available. 
 
 ![](_static/images/Usingdatasets/UsingDataset_click_information.png "Figure 3B: Read in-depth information about a dataset")
 	
- [**Figure 3B:  Read in-depth information about a dataset.**](_static/images/Usingdatasets/UsingDataset_click_information.png) 
+[**Figure 3B:  Read in-depth information about a dataset.**](_static/images/Usingdatasets/UsingDataset_click_information.png) 
 
-3. A search bar is located on top of the page. It allows you to search a dataset by (a part of) a keyword, such as a tissue type, 
-   a disease, or an author name. When you start typing in the search bar, a list appears with datasets that 
-   correspond to your keyword. Also, the grid is adjusted to only show the datasets that satisfy your search requirement.
+3. A search bar is located at the top of the page. It allows you to search a dataset by (a part of) a keyword, such as a tissue type, 
+   a disease, or an author's name. When you start typing in the search bar, a list appears with datasets that 
+   correspond to your keyword (Figure 4). Also, the grid is adjusted to only show the datasets that satisfy your search requirements.
 
    ![](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 
    [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword.**](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png)  
    
-4. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.
-   This way you can quickly filter for a tissue type, a disease or an author name. In the picture above we type the letters "neurobl" to look for all Neuroblastoma datasets. 
+4. You can simply scroll through the list and obtain additional information about a dataset by clicking on a dataset in this list.
+   This way you can quickly filter for a tissue type, a disease or an author name. In the search bar of Figure 4 we type the letters "neurobl" to look for all Neuroblastoma datasets. 
    
 5. You can use the buttons in the bottom right corner to scroll through the pages of the grid, to jump ahead to a specific page, and to adapt the number of dataset rows that are shown per page. 
 
@@ -69,7 +72,7 @@ Step 1: Selecting a dataset
 	
     [**Figure 5: Adapt or scroll through the grid.**](_static/images/Usingdatastes/UsingDataset_scroll_through_grid.png) 
     
-6. Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
+6. Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in field 2 for further analysis.
 
 
 
@@ -87,12 +90,12 @@ Step 1: Selecting a dataset
 Step 2: Advanced selection of datasets
 ---------------
 
-1. The grid itself enables the user to search through datasets using keywords and other filter options as well. 
+1. The grid itself enables the user to search through datasets using keywords and other filter options. 
    The column dropdown functions and textboxes can filter the datasets for specific characteristics, e.g. datasets 
-   with a minimal number of samples, a specific author, platform, or publication date. You can easily combine the 
+   with a minimal number of samples, specific author, platform, or publication date. You can easily combine the 
    search functions of the different columns.  
   
-   As an example, we want to see which large neuroblastoma sets are available. First we write part of the word 
+   As an example, we want to see which large neuroblastoma sets are available. First, we write part of the word 
    neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column 
    to order the datasets in descending order. 
 	
@@ -100,9 +103,9 @@ Step 2: Advanced selection of datasets
 	
     [**Figure 7: Combine search filters in the grid.**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
 	
-2. Again we use the **Select** button if we want to continue our analysis with a specific dataset of the grid. 
+2. Again, we use the **Select** button if we want to continue our analysis with a specific dataset of the grid. 
 	
-3. Select “Across Datasets” in field **1**. Note that in field 2
+3. Now, select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
     dataset” option.
    
@@ -134,7 +137,7 @@ datasets page, where resources can be searched and selected.
 [**Figure 9: Change Dataset to access favorites.**](_static/images/Usingdatasets/UsingDataset_selectv1a.png)
 
 Within the dataset selection table, you can select and deselect cohorts to add or remove them from your selection of 
-preferred sets. This is done by using the favorite select boxes in the last column on the right side. Favorite 
+preferred sets. This is done by using the "Favourite" selection boxes in the last column on the right side. Favorite 
 datasets will always be represented at the top of your selection table and will be marked with a green background 
 color. This makes it very convenient to quickly have access to those. 
 
