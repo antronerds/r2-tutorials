@@ -33,7 +33,7 @@ Step 1: Selecting a dataset
     The numbered boxes on the main page will guide you through all the steps necessary to perform a task, starting
     with the selection of a dataset. In field 1 select **Single Dataset**, in field 2 click on the name of the dataset (Figure 2).
 	
-    ![](_static/images/Usingdatasets/UsingDataset_selectv1a.png "Figure 2: Change Dataset on the main page")
+    ![](_static/images/Usingdatasets/UsingDataset_selectv1c.png "Figure 2: Change Dataset on the main page")
 	
     [**Figure 2: Change Dataset on the main page.**](_static/images/UsingDataset_selectv1a.png)
 
@@ -58,12 +58,12 @@ Step 1: Selecting a dataset
    a disease, or an author's name. When you start typing in the search bar, a list appears with datasets that 
    correspond to your keyword (Figure 4). Also, the grid is adjusted to only show the datasets that satisfy your search requirements.
 
-   ![](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
+   ![](_static/images/Usingdatasets/UsingDataset_select_dropdown_textvc.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 
    [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword.**](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png)  
    
 4. You can simply scroll through the list and obtain additional information about a dataset by clicking on a dataset in this list.
-   This way you can quickly filter for a tissue type, a disease or an author name. In the search bar of Figure 4 we type the letters "neurobl" to look for all Neuroblastoma datasets. 
+   This way you can quickly filter for a tissue type, a disease or an author name. In the search bar of Figure 4 we type the letters "colo" to look for all Colon datasets. 
    
 5. You can use the buttons in the bottom right corner to scroll through the pages of the grid, to jump ahead to a specific page, and to adapt the number of dataset rows that are shown per page. 
 
