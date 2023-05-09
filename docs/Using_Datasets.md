@@ -118,7 +118,7 @@ Step 2: Advanced selection of datasets
 -------------
  ![](_static/images/R2d2_logo.png)**Did you know that clicking on an exclamation balloon provides additional info?**      
 
- ![](_static/images/Usingdatasets/UsingDatasets_information_balloonv1a.png)
+ ![](_static/images/Usingdatasets/UsingDatasets_information_balloonv1c.png)
 
 -------------
 
