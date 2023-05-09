@@ -46,7 +46,7 @@ Step 1: Selecting a dataset
    [**Figure 3A: Select a dataset with the select button or read more in-depth information (click in the dashed area).**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
 
  When you click on any of the information cells of the dataset row (dashed area), an information panel below the grid 
- shows background information of the data (Figure 3). Possible adjustments of the original data by the R2 team, such as 
+ shows background information of the data (Figure 3B). Possible adjustments of the original data by the R2 team, such as 
  data transformations or annotation changes, can be found in the "Adjustments" box of the information panel. At the bottom 
  you will see links to the original data source and Pubmed resources, if available. 
 
@@ -67,7 +67,7 @@ Step 1: Selecting a dataset
    
 5. You can use the buttons in the bottom right corner to scroll through the pages of the grid, to jump ahead to a specific page, and to adapt the number of dataset rows that are shown per page. 
 
-    ![](_static/images/Usingdatasets/UsingDataset_scroll_through_grid.png "Figure 5: Adapt or scroll through the grid")
+    ![](_static/images/Usingdatasets/UsingDataset_scroll_through_gridvc.png "Figure 5: Adapt or scroll through the grid")
 	
     [**Figure 5: Adapt or scroll through the grid.**](_static/images/Usingdatastes/UsingDataset_scroll_through_grid.png) 
     
@@ -94,11 +94,11 @@ Step 2: Advanced selection of datasets
    with a minimal number of samples, specific author, platform, or publication date. You can easily combine the 
    search functions of the different columns.  
   
-   As an example, we want to see which large neuroblastoma sets are available. First, we write part of the word 
-   neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column 
+   As an example, we want to see which large colon cancer sets are available. First, we write part of the word 
+   colon in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column 
    to order the datasets in descending order. 
 	
-    ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png "Figure 6: Combine search filters in the grid")
+    ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filtersvc.png "Figure 6: Combine search filters in the grid")
 	
     [**Figure 7: Combine search filters in the grid.**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
 	
