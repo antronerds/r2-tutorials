@@ -79,7 +79,7 @@ Step 1: Selecting a dataset
 
   ![](_static/images/R2d2_logo.png)**Did you know that datasets have an informative naming?**   Datasets have a structured naming in R2, using the following rules: type_of_dataset - author - number_of_samples - normalization - chiptype. The dataset selection grid consists of these informative parts as columns, each with filter options to perform an advanced search through the dataset.
 
-  ![](_static/images/Usingdatasets/UsingDataset_understanding_dataset_names.png "The information parts of a dataset name")
+  ![](_static/images/Usingdatasets/UsingDataset_understanding_dataset_namesvc.png "The information parts of a dataset name")
 	
   [**Figure 6: The informative parts of a dataset name correspond to the columns of the dataset selection grid.**](_static/images/Usingdatasets/UsingDataset_understanding_dataset_names.png) 
 
