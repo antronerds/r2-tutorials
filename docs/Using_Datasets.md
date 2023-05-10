@@ -128,19 +128,19 @@ Step 3: Using Dataset favorites
 
 Since R2 is hosting hundreds of datasets, it could be convenient to store the datasets you often use in a preselection that 
 is easily accessible. In order to maintain favorites, you need to be a registered user. If you did not yet register; 
-accounts can easily be created via 'Login/Register' and are absolutely free. Clicking on 'Change Dataset' will open the 
+accounts can easily be created via 'Login/Register' and are absolutely free. Clicking on name of the dataset in field 2 will open the 
 datasets page, where resources can be searched and selected.
 
-![](_static/images/Usingdatasets/UsingDataset_selectv1a.png  "Figure 7: Change Dataset, to access favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectv1c.png  "Figure 7: Change Dataset, to access favorites")
 	
 [**Figure 9: Change Dataset to access favorites.**](_static/images/Usingdatasets/UsingDataset_selectv1a.png)
 
 Within the dataset selection table, you can select and deselect cohorts to add or remove them from your selection of 
-preferred sets. This is done by using the "Favourite" selection boxes in the last column on the right side. Favorite 
+preferred sets. This is done by using the "Favorite" selection boxes in the last column on the right side. Favorite 
 datasets will always be represented at the top of your selection table and will be marked with a green background 
 color. This makes it very convenient to quickly have access to those. 
 
-![](_static/images/Usingdatasets/UsingDataset_selectfav.png "Figure 10: Managing favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectfavc.png "Figure 10: Managing favorites")
 	
 [**Figure 10: Managing favorites.**](_static/images/Usingdatasets/UsingDataset_selectfav.png)
 
