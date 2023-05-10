@@ -24,8 +24,7 @@ Scope
 
 
 
-
-
+    
 Step 1: Viewing multiple genes
 ---------------
 
