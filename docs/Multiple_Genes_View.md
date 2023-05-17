@@ -5,7 +5,7 @@ Multiple Genes View
 
 
 
-*Analyze the expression levels of a group of genes within a dataset*
+*Analyze the expression levels of a group of genes within a dataset.*
 
 
 
@@ -17,7 +17,7 @@ Scope
 -   In this example the expression levels of small groups of genes
     listed from several pathways will be used showing which genes are
     differentially expressed per subgroup.
--   Adjust several parameters in the settings panel
+-   Adjust several parameters in the settings panel.
 -   In R2, the samples are annotated with e.g. clinical data. Each group
     of annotated data is called a "Track" in R2. These tracks can be
     used to split the group gene expression levels per track.
@@ -29,33 +29,33 @@ Scope
 Step 1: Viewing multiple genes
 ---------------
 
-1.  Use "single dataset" in field 1 and select the "Tumor
+1.  Choose "Single Dataset" in field 1 and select the "Tumor
     Medulloblastoma PLoS One - Kool - 62 - MAS5.0 - u133p2" dataset in
     field 2.
-2.  Choose "View multiple genes " in field 3 and Click Next
+2.  Choose "View multiple Genes" in field 3 and click 'Next'.
 3.  To illustrate the possibilities of the multiple gene view, genes
     identified as classifiers for Medulloblastoma subtypes (Kool et al,
     Plos one) will be used. In the GENE/reporter textbox type or copy
     the following genes: AXIN2,BOC,dkk2,GABRA5,PTCH1,SMARCD3,WIF1
-    and click next.
+    and click 'next'.
     
 	![](_static/images/MultipleGenesView_Default.png "Figure    1: Default multiple geneview.")
 	
 	[**Figure    1: Default multiple genes view.**](_static/images/MultipleGenesView_Default.png)
 	
-4.  Under the graph many settings can be adjusted in the Adjustable settings box. For instance,
-you can choose a different type of graph. Next to the option to influence the space between the genes, the height of the plot etc, you can add one or more extra spaces between genes of choice by adding one or more extra delimiters. 
+4.  Under the graph many settings can be adjusted in the "Adjustable settings" box. For instance,
+you can choose a different type of graph. Next to the option to influence the space between the genes, the height of the plot etc., you can add one or more extra spaces between genes of choice by adding one or more extra delimiters. 
 In the GENE/reporter textbox add 2 extra comma's behind dkk2 (AXIN2,BOC,dkk2,,,GABRA5,PTCH1,SMARCD3,WIF1); 
-in the field 'Plot type' select "Average with stderr", set 'Transform' to  and click next. This enables the creation of visual subgroups in the gene representation. 
+in the field 'Plot type' select "Average with stderr", set 'Transform' to and click 'next'. This enables the creation of visual subgroups in the gene representation. 
     ![](_static/images/MultipleGenesView_ExtraSpacer.png "Figure    2: Add a spacer between genes")
     	
-    [**Figure    2: Add a spacer between genes**](_static/images/MultipleGenesView_ExtraSpacer.png)
+    [**Figure    2: Add a spacer between genes.**](_static/images/MultipleGenesView_ExtraSpacer.png)
     	
   
 Step 2: Viewing multiple genes through track annotation
 ---------------
 
-1.  In Figure 1 a selection of gene expression profiles is depicted in
+1.  In Figure 1, a selection of gene expression profiles is depicted in
     one picture in contrast to the one gene view. Figure 2 shows the possibility to make gene subgroups by adding extra spacers to the plot.  
     Now we will look at the option to represent the gene expression separately for
     each subgroup of a categorical track. In this manner potential relations between subgroups and
@@ -66,13 +66,13 @@ Step 2: Viewing multiple genes through track annotation
     medulloblastoma subgroups are reported and annotated as such:
     A,B,C,D and E. To investigate the expression levels of a small group
     of genes per subgroup of the categorical track "subtypes" of medullablastoma cells, select in the Adjustable settings box
-    "subtype (5 cat)" at 'use track', "lump by group plot gene" at 'handle
-    groups by' and "Track" at 'color by track'. Further set 'Transform' to
-    "none", select "boxplot" at 'Plot type' and click NEXT.
+    "subtype (5 cat)" at 'Track', "lump by group plot gene" at 'Handle
+    groups by' and "Track" at 'Color by'. Further set 'Transformation' to
+    "None", select "Box plot" at 'Plot Type' and click 'next'.
 
 	![](_static/images/MultipleGenesView_perTrack.png "Figure    3: Multiple gene view per subgroup")
 	
-	[**Figure    3: Multiple gene view per subgroup**](_static/images/MultipleGenesView_perTrack.png)
+	[**Figure    3: Multiple gene view per subgroup.**](_static/images/MultipleGenesView_perTrack.png)
 	
 
 
@@ -87,7 +87,7 @@ Step 2: Viewing multiple genes through track annotation
     
 	![](_static/images/MultipleGenesView_perTrack_v1.png "Figure    4: Multiple gene view, panel per subgroup")
 	
-	[**Figure    4: Multiple gene view, panel per subgroup**](_static/images/MultipleGenesView_perTrack_v1.png)
+	[**Figure    4: Multiple gene view, panel per subgroup.**](_static/images/MultipleGenesView_perTrack_v1.png)
 	
 
 
@@ -104,7 +104,7 @@ Final remarks / future directions
 
 
 Some of these functionalities have been developed recently. If you run
-into any quirks or annoyances don't hesitate to contact r2 support
+into any quirks or annoyances do not hesitate to contact R2 support
 (r2-support@amc.uva.nl).
 
 
