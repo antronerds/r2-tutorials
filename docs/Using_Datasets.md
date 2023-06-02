@@ -21,7 +21,7 @@ Scope
     through most of the tutorial. Later on, working with multiple
     datasets will be discussed.
 
-   ![](_static/images/Usingdatasets/Usingdatasets_type.png "Figure 1: Change Dataset on the main page")
+   ![](_static/images/Usingdatasets/Usingdatasets_type1a.png "Figure 1: Change Dataset on the main page")
 
    [**Figure 1: Select types of datasets**](_static/images/Usingdatasets_type.png)
 
@@ -39,27 +39,22 @@ Step 1: Selecting a dataset
     [**Figure 2: Change Dataset on the main page**](_static/images/UsingDataset_selectv1a.png)
 
 	
-2. A popup window appears that shows all the available datasets in a grid: each row represents one dataset, with its main descriptive details split up in the columns. To use a dataset for further analysis, you click on the **Select** button in the first column.   
-   If you prefer to first read extra information about the dataset of your interest, click on any other part of the specific row (dashed area).
-   ![](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png "Figure 3A: Select a dataset or read more in-depth information")
+2. A popup window appears that shows all the available datasets in a grid: each row represents one dataset, with its main descriptive details split up in the columns. To use a dataset for further analysis, by clicking on a row when highlighted in grey, R2 generates below the grid, all the extra information in an info screen below  the grid box. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments box of the information panel (only visible for admins). At the bottom you will see links to the original data source and Pubmed resources, if available. Click on the colored **Confirm Selection** button on the left bottom of the grid box.
 
-   [**Figure 3A: Select a dataset with the select button or read more in-depth information (click in the dashed area)**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
+   ![](_static/images/Usingdatasets/UsingDataset_select_by_row.png "Figure 3: Select a dataset or read more in-depth information")
 
- When you click on any of the information cells of the dataset row (dashed area), an information panel below the grid shows background information about the data. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments box of the information panel. At the bottom you will see links to the original data source and Pubmed resources, if available. 
+   [**Figure 3: Select a dataset by clicking on a row**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
 
-![](_static/images/Usingdatasets/UsingDataset_click_information.png "Figure 3B: Read in-depth information about a dataset")
-	
- [**Figure 3B:  Read in-depth information about a dataset**](_static/images/Usingdatasets/UsingDataset_click_information.png) 
 
 3. A search bar is located on top of the page. It allows you to search a dataset by (a part of) a keyword, such as a tissue type, 
-   a disease, or an author name. When you start typing in the search bar, a list appears with datasets that 
-   correspond to your keyword. Also, the grid is adjusted to only show the datasets that fulfill your search requirement.
+   a disease, or an author name. When you start typing in the search bar, a list appears with datasets that correspond to your keyword. Also, the grid is adjusted to only show the datasets that fulfill your search requirement.
 
    ![](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 		 
 
 [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png)  
-   
+
+<!---
 4. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
    This way you can quickly filter for a tissue type, a disease or an author name. In the picture above we type the letters "neurobl" to look for all Neuroblatoma datasets. 
    
@@ -68,8 +63,9 @@ Step 1: Selecting a dataset
     ![](_static/images/Usingdatasets/UsingDataset_scroll_through_grid.png "Figure 5: Adapt or scroll through the grid")
 	
     [**Figure 5: Adapt or scroll through the grid**](_static/images/Usingdatastes/UsingDataset_scroll_through_grid.png) 
-    
-6. Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
+ -->
+
+5Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
 
 
 
@@ -89,18 +85,16 @@ Step 2: Advanced selection of datasets
 
 1. The grid itself enables the user to search through datasets using keywords and other filter options as well. 
    The column dropdown functions and textboxes can filter the datasets for specific characteristics, e.g. datasets 
-   with a minimal number of samples, or a specific author, platform or publication date. You can easily combine the 
-   search functions of the different columns.  
+   with a minimal number of samples, or a specific author, platform or publication date. You can easily combine the search functions of the different columns.  
   
-   As an example, we want to see which large neuroblastoma sets are available. First we write part of the word 
-   neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column 
-   to order the datasets in descending order. 
+   As an example, we want to see which largesets  sets are available. First we write part of the word 
+   neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column to order the datasets in descending order. 
 	
-    ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png "Figure 6: Combine search filters in the grid")
+    ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters_v1.png "Figure 5: Combine search filters in the grid")
 	
     [**Figure 7: Combine search filters in the grid**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
 	
-2. Again we use the **Select** button if we want to continue our analysis with a specific dataset of the grid. 
+2. Again we use the **Confirm Selection** button if we want to continue our analysis with a specific dataset of the grid. 
 	
 3. Select “Across Datasets” in field **1**. Note that in field 2
     different options become available compared to the “single
