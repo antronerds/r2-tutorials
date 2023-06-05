@@ -18,12 +18,11 @@ Scope
     such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added the platform.
 - The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
     u133p2* dataset will be used as an example dataset to guide you
-    through most of the tutorial. Later on, working with multiple
-    datasets will be discussed.
+    through most of the tutorial but also other datasets will be used a example datasets. Later on, working with multiple datasets will be discussed.
 
    ![](_static/images/Usingdatasets/Usingdatasets_type1a.png "Figure 1: Change Dataset on the main page")
 
-   [**Figure 1: Select types of datasets**](_static/images/Usingdatasets_type.png)
+   [**Figure 1: Select types of datasets**](_static/images/Usingdatasets/Usingdatasets_type1a.png)
 
 
 
@@ -36,7 +35,7 @@ Step 1: Selecting a dataset
 	
     ![](_static/images/Usingdatasets/UsingDataset_selectv1a.png "Figure 2: Change Dataset on the main page")
 	
-    [**Figure 2: Change Dataset on the main page**](_static/images/UsingDataset_selectv1a.png)
+    [**Figure 2: Change Dataset on the main page**](_static/images/Usingdatasets/UsingDataset_selectv1a.png)
 
 	
 2. A popup window appears that shows all the available datasets in a grid: each row represents one dataset, with its main descriptive details split up in the columns. To use a dataset for further analysis, by clicking on a row when highlighted in grey, R2 generates below the grid, all the extra information in an info screen below  the grid box. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments box of the information panel (only visible for admins). At the bottom you will see links to the original data source and Pubmed resources, if available. Click on the colored **Confirm Selection** button on the left bottom of the grid box.
@@ -47,12 +46,12 @@ Step 1: Selecting a dataset
 
 
 3. A search bar is located on top of the page. It allows you to search a dataset by (a part of) a keyword, such as a tissue type, 
-   a disease, or an author name. When you start typing in the search bar, a list appears with datasets that correspond to your keyword. Also, the grid is adjusted to only show the datasets that fulfill your search requirement.
+   a disease, or an author name. When you start typing in the search bar, in the grid box all the datasets with the matching search term will be listed.
 
-   ![](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
+   ![](_static/images/Usingdatasets/UsingDataset_select_autofill_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 		 
 
-[**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/Usingdatasets/UsingDataset_select_dropdown_text.png)  
+[**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/Usingdatasets/UsingDataset_select_autofill_text.png)  
 
 <!---
 4. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
@@ -65,7 +64,7 @@ Step 1: Selecting a dataset
     [**Figure 5: Adapt or scroll through the grid**](_static/images/Usingdatastes/UsingDataset_scroll_through_grid.png) 
  -->
 
-5Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
+Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
 
 
 
@@ -107,12 +106,7 @@ Step 2: Advanced selection of datasets
     Analysis methods following selecting the “Across Datasets” option in field **1** will be discussed in tutorial “Working with multiple datasets”.  
 
 
--------------
- ![](_static/images/R2d2_logo.png)**Did you know that clicking on an exclamation balloon provides additional info?**      
 
- ![](_static/images/Usingdatasets/UsingDatasets_information_balloonv1a.png)
-
--------------
 
 
 Step 3: Using Dataset favorites
@@ -120,21 +114,20 @@ Step 3: Using Dataset favorites
 
 Since R2 is hosting hundreds of datasets, it could be convenient to store the datasets you often use in a preselection that 
 is easily accessible. In order to maintain favorites, you need to be a registered user. If you did not yet register; 
-accounts can easily be created via 'Login/Register' and are absolutely free. Clicking on 'Change Dataset' will open the 
-datasets page, where resources can be searched and selected.
+accounts can easily be created via 'Login/Register' and are absolutely free. Clicking on the dataset name will open the dataset selection grid, where resources can be searched and selected.
 
-![](_static/images/Usingdatasets/UsingDataset_selectv1a.png  "Figure 7: Change Dataset, to access favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectv1b.png  "Figure 7: Change Dataset, to access favorites")
 	
-[**Figure 9: Change Dataset to access favorites**](_static/images/Usingdatasets/UsingDataset_selectv1a.png)
+[**Figure 9: Change Dataset to access favorites**](_static/images/Usingdatasets/UsingDataset_selectv1b.png)
 
-Within the dataset selection table, you can select and deselect cohorts to add or remove them from your selection of 
+Within the dataset selection table, you can select and deselect cohorts to add or remove them from your selection of
 preferred sets. This is done by using the favorite select boxes in the last column on the right side. Favorite 
 datasets will always be represented at the top of your selection table and will be marked with a green background 
-color. This makes it very convenient to quickly have access to those. 
+olor in the selection column. This makes it very convenient to quickly have access to those. 
 
-![](_static/images/Usingdatasets/UsingDataset_selectfav.png "Figure 10: Managing favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectfav_v1.png "Figure 10: Managing favorites")
 	
-[**Figure 10: Managing favorites**](_static/images/Usingdatasets/UsingDataset_selectfav.png)
+[**Figure 10: Managing favorites**](_static/images/Usingdatasets/UsingDataset_selectfav_v1.png)
 
 
 Step 4: Data Scopes
