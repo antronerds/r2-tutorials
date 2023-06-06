@@ -77,9 +77,9 @@ Step 3: Plotting Gene expression
    that R2 has stored for the focused sample.
 
    
-   ![](_static/images/Onegeneview/OneGene_MYCN1a.png "Figure 3: YY plot MYCN expression")
+   ![](_static/images/Onegeneview/OneGene_MYCN1b.png "Figure 3: YY plot MYCN expression")
 
-   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1a.png)
+   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1b.png)
   
 2. Underneath the X-axis, colored boxes are depicted, representing
    clinical information of the samples in so-called "tracks". Again,
@@ -92,8 +92,9 @@ Step 3: Plotting Gene expression
    (further explained in the chapter “Adapting R2 to your needs“)
 
 3. Sometimes you get more insight by reviewing the expression levels
-   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the pulldown menu of the ‘Transformation’ setting (top red arrow in Figure 4), choose “none” 
+   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the pulldown menu of the ‘Transformation’ setting (red arrow in Figure 3), choose “none” 
    and then click the button *Submit* at the bottom of the panel.   
+
    
 
 ---------------
@@ -130,20 +131,22 @@ Step 4: Selecting analysis types: View a gene in groups
 
 In the one gene view plot we have investigated the gene expression of a single gene together with the sample annotation depicted below the graph.
 
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene-view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at you disposal as illustrated in Figure 4. 
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene-view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at you disposal as illustrated in Figure 4.
 
-![](_static/images/Onegeneview/OneGene_otheranalysis.png "Figure 4: Other analysis type")
+![](_static/images/Onegeneview/OneGene_otheranalysis_v1.png "Figure 4: Other analysis type")
 
-[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis.png)
+[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v1.png)
 
-2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 5 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (upper red box in Figure 5).
+2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4). As shown in figure 
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_v2.png "Figure 5: Adjusting the graph settings")
 
-[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v2.png)
+![](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png "Figure 5: Adjusting the graph settings")
+
+[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png)
 
 Step 5: Marking / highlighting samples within a plot 
 ----------------
+
 
 
 3. In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
@@ -168,9 +171,9 @@ The skeleton for advanced usage is: ‘sample1,sample2:hexcolor1:method1;sample3
 
 Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.
 
-![](_static/images/Onegeneview/OneGene_view_samplesmark_v2.png "Figure 6: Adjusting the graph settings")
+![](_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png "Figure 6: Adjusting the graph settings")
 
-[**Figure 6: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v2.png)
+[**Figure 6: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png)
 
 ---------------
 ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?**
@@ -198,11 +201,15 @@ Please note, that there is a semicolon **;** between the 2 groups of samples her
 > *Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
-Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and the 'Submit' button is clicked, a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape.
+Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting youy own demands. Currently R2 is making use of several modules to generate the graphs. So depending on the type on graph type you selected the svg plots can be generated. 
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png "Figure 7: Obtain a vector (SVG) image of your graph")
+* Version A. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and the 'Submit' button is clicked, a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape (left part of fig 7).
+* In case you have selected a graph annotated with **(v2)** in the name in the name you find the save option in the wheel icon directly in the graph. 
 
-[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg.png)
+
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png "Figure 7: Obtain a vector (SVG) image of your graph")
+
+[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png)
 
 ----------
 ![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
@@ -216,17 +223,14 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 
    ![](_static/images/Onegeneview/OneGene_genevstrack1a.png "Figure 8A: Gene vs track")
 
-   [**Figure 8A: Gene versus track**](_static/images/Onegeneview/OneGene_genevstrack1a.png)
+   [**Figure 8: Gene versus track**](_static/images/Onegeneview/OneGene_genevstrack1a.png)
 
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
-   ![](_static/images/Onegeneview/OneGene_genevstrack1b.png "Figure 8B: Alternative route to this analysis: View a Gene in Groups")
-
-   [**Figure 8B: Alternative route to this analysis: View a Gene in Groups**](_static/images/Onegeneview/OneGene_genevstrack1b.png)
 
 5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups (Figure 9).
 
-   ![](_static/images/Onegeneview/OneGene_genevstracksort.png "Figure 9: Gene vs track sorted")
+   ![](_static/images/Onegeneview/OneGene_genevstracksort_v1b.png "Figure 9: Gene vs track sorted")
 
    [**Figure 9: Gene versus track sorted**](_static/images/Onegeneview/OneGene_genevstracksort.png)
 
