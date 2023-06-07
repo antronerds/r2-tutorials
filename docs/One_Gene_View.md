@@ -22,10 +22,10 @@ Scope
     provides different types of analyses based on the expression level
     of the chosen gene.
 - Many mRNA expression datasets were generated with Affymetrix
-    profiling arrays. In general, these arrays use more than one so-called 
+    profiling arrays and NGS data (rnaseq). In general, the affymetrix  arrays use more than one so-called 
     probeset to measure the expression level of one single gene.
     With a separate module “Transcript view”, the details of the
-    probesets can be studied.
+    probesets can be studied. This also holds for multiple RNAseq data in case the chromosomal  location of the reporter (Gene) is stored in the R2 database.
 
 
 
@@ -56,7 +56,7 @@ Step 2: Select the gene or reporter
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
    Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
    
-   The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays and certain Agilent arrays.  
+   The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays, illumina, agilent, drug data etc etc. .  
    
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a given expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
@@ -235,17 +235,25 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
    [**Figure 9: Gene versus track sorted**](_static/images/Onegeneview/OneGene_genevstracksort.png)
 
 
-6. We can also change the graphical representation of the data by selecting another graph type. Select 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+6. We can also change the graphical representation of the data by selecting another graph typse. Select for example'boxplot v2' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
-![](_static/images/Onegeneview/OneGene_boxplots.png "Figure 10: Fonts and Color changed")
 
-[**Figure 10: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+![](_static/images/Onegeneview/OneGene_boxplots_v1.png "Figure 10a: Fonts and Color changed")
 
-7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the average gene expression and enlarged dots.
+[**Figure 10a: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
-![](_static/images/Onegeneview/OneGene_boxplotsorderby.png "Figure 11: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10a: Fonts and Color changed")
 
-[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+[**Figure 10b: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
+
+The boxplot and dotboxplot can of course reveal valuable information about statistics and the distribution of data. Another relative new visualisation technic which combines several aspects
+of the traditional plot such as dotboxplot and violins plot is  the **raincloud"** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
+
+7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are coloured by the Z-score of the DBH expression.Keep in mind that in case your dataset also also been profiled for e.g methylation or drug data  (IC50) you can also able select these values in the same graph (Figure 11)
+
+![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png "Figure 11: Fonts and Color changed")
+
+[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1)
 
 
 8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
@@ -314,7 +322,7 @@ dataset additions). Further, in the Sample Map section pre-generated high-dimeni
 
 
 
-Step 7: Adapting plot
+Step 7: Adapting a plot
 ---------------
 
 
@@ -344,17 +352,18 @@ Step 7: Adapting plot
     selecting.
 
 
-![](_static/images/Onegeneview/OneGene_Extrasettings_v1.png "Figure 15: the extra settings Panel")
+![](_static/images/Onegeneview/OneGene_Extrasettings_v3.png "Figure 15: the extra settings Panel")
 
-[**Figure 15: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v1.png)
+[**Figure 15: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v3.png)
 
 
 
-![](_static/images/Onegeneview/OneGene_Adapting.png "Figure 13: Adapting a graph")
+![](_static/images/Onegeneview/OneGene_Adapting_v1.png "Figure 16: Adapting a graph")
 
-[**Figure 15: Legend added**](_static/images/Onegeneview/OneGene_Adapting.png)
+[**Figure 16: Sample annot added**](_static/images/Onegeneview/OneGene_Adapting_v1.png)
 
-In Figure 125sample annotation (“Annot Graph”) and legend (“Draw
+
+In Figure 16 sample annotation (“Annot Graph”) and legend (“Draw
 Legend”) were added. The “Annot Graph” option, adds the information of a
 selected track to the YY-plot. This can be helpful for the addition of
 Sample labels, or cell line names etc. Annotations can be shown in 3
@@ -362,15 +371,15 @@ ways; just below/on top of the expression value, as a series below the
 annotation tracks or at the values for those samples that haven been
 marked. The size of the annotation scales with the setting of the
 dotsize.  
-Check the More Settings panel for extra options, such as changing the color of the axis or showing a link to and SVG output image. 
+Check the More Settings panel for extra options, such as changing the color of the axis or showing a linkto and SVG output image. 
 The Adjustable Settings menu is available in most of the R2
-modules where a one-or two gene view is generated.
+modules where a one-or two gene view is generated. Also by clicking the dots in case you have choosen for the YY-v2 version individual samples can be marked by arrow, circles etc. In Figure 17 an extra coloring for the individual samples has been applied , in this case the alive yes/no track.
 
 
 
-![](_static/images/Onegeneview/OneGene_Adapting2a.png "Figure 16: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_Adapting2b.png "Figure 17: Fonts and Color changed")
 
-[**Figure 16: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2a.png)
+[**Figure 17: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2a.png)
 
 
 
@@ -401,7 +410,7 @@ Next to the filter dropdown menu , clicking the *"wheel"* will open a pop-up scr
 
 ![](_static/images/Onegeneview/OneGene_advancedfiltering.png "Figure 19: Advanced filtering")
 
-[**Figure 19: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_advancedfiltering.png)
+[**Figure 19: Advanced filtering in the grid**](_static/images/Onegeneview/OneGene_advancedfiltering.png)
 
 
 
@@ -470,7 +479,7 @@ and click on the “Tview” link in the reporter table.
 2. A new screen (or tab in the browser) appears with TranscriptView.
     The TranscriptView application depicts the alignment of expressed
     sequence tags (EST) and mRNA sequences to the human reference genome
-    sequence (Fig 8. The strand orientation of these sequences are
+    sequence (Fig 25). The strand orientation of these sequences are
     indicated by a color (green = positive strand, red = negative
     strand, blue = strand information is missing). The structure of the
     reference sequence has also been indicated. Furthermore, the browser shows the alignment of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
