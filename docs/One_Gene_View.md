@@ -56,7 +56,7 @@ Step 2: Select the gene or reporter
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
    Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
    
-   The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays, illumina, agilent, drug data etc etc. .  
+   The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays,double labeling arrays, drug data etc etc.  
    
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a given expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
@@ -137,7 +137,7 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 [**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v1.png)
 
-2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4). As shown in figure 
+2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4). 
 
 
 ![](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png "Figure 5: Adjusting the graph settings")
@@ -235,7 +235,7 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
    [**Figure 9: Gene versus track sorted**](_static/images/Onegeneview/OneGene_genevstracksort.png)
 
 
-6. We can also change the graphical representation of the data by selecting another graph typse. Select for example'boxplot v2' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot v2' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
 
 ![](_static/images/Onegeneview/OneGene_boxplots_v1.png "Figure 10a: Fonts and Color changed")
@@ -247,13 +247,13 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 [**Figure 10b: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
 
 The boxplot and dotboxplot can of course reveal valuable information about statistics and the distribution of data. Another relative new visualisation technic which combines several aspects
-of the traditional plot such as dotboxplot and violins plot is  the **raincloud"** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
+of the traditional plot such as the dotboxplot and violins plot is  the **raincloud"** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
 
-7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are coloured by the Z-score of the DBH expression.Keep in mind that in case your dataset also also been profiled for e.g methylation or drug data  (IC50) you can also able select these values in the same graph (Figure 11)
+7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are coloured by the Z-score of the DBH expression. Keep in mind that in case your dataset also has been profiled for e.g methylation or drug data (IC50) you can use the values from these corresponding sets in the same graph (Figure 11) combine expression data and other omic data.
 
 ![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png "Figure 11: Fonts and Color changed")
 
-[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1)
+[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png)
 
 
 8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
@@ -296,14 +296,13 @@ combination with dataset keywords. Clicking on one of the "PubReMiner" links red
 literature mining.
 
 KaplanScan and Time Series analyses will be discussed in
-separate tutorials. However, keep in mind, in case Kaplan Meier data is available for a given dataset this will always be visible in the right menu for one-gene-view. GeneCards will redirect you to an overview on your
-gene of interest composed of many different resources. ProbePlus, will
-provide the sequences probed by the U133 Affymetrix platforms (will not
-be shown in other platforms).
+separate tutorials. However, keep in mind, in case Kaplan Meier data is available for a given dataset this will always be visible in the right menu for one-gene-view. GeneCards will redirect you to an overview on your gene of interest composed of many different resources. ProbePlus, will
+provide the sequences probed by the U133 Affymetrix platforms and other platforms if available.
+
 Across datasets will generate an overview showing the average expression
 of the gene of interest within all datasets of the same
 platform/normalization scheme (provided that the normalization supports
-dataset additions). Further, in the Sample Map section pre-generated high-dimenionality reduction maps (t-SNE and umap) can be plotted.
+dataset additions). Further, in the Sample Map section pre-generated high-dimensionality reduction maps (t-SNE and umap) can be plotted.
 
 
 
@@ -379,7 +378,7 @@ modules where a one-or two gene view is generated. Also by clicking the dots in 
 
 ![](_static/images/Onegeneview/OneGene_Adapting2b.png "Figure 17: Fonts and Color changed")
 
-[**Figure 17: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2a.png)
+[**Figure 17: Fonts and Color changed**](_static/images/Onegeneview/OneGene_Adapting2b.png)
 
 
 
