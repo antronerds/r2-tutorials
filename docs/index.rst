@@ -33,6 +33,7 @@ Copyright (c) 2006-2022 R2 Support Team
    Integrative_analysis_ChIP-Seq_data
    Integrative_analysis_expression_methylation
    Integrative_analysis_WGS_data
+   Target_Actionability_Reviews
    Adapting_R2
    Exporting_Data
    R2_Dataset_Addition
