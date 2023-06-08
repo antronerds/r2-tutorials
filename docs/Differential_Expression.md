@@ -22,7 +22,7 @@ Scope
     groups of samples in a dataset (step 6).
 -   This is established by use of statistical tests. R2 will guide you
     through this process in a self-explanatory way.
--   In order to enable assignment of samples to groups, proper annotation of the dataset is required. In this tutorial a set of neuroblastoma tumors is used that is annotated with several clinical parameters:
+-   In order to enable assignment of samples to groups, proper annotation of the dataset is required. In this tutorial a set of Neuroblastoma tumors is used that is annotated with several clinical parameters:
     survival, age of diagnosis, etc.
 -   All (advanced) parameters can be adapted to your specific needs.
 -   These settings will be elaborated upon in separate boxes.
@@ -157,7 +157,7 @@ It would be a pretty tedious job to look for all genes whether they are differen
 2. In field 3 of the R2 step-by-step guide you find two options to find differential expressed gene lists: 'Find Differential expression between two groups' and  Differential expression between multiple groups (Figure 8). 
 3. Both types of Differential expression modules harbor specific statistical tests. Depending on your chosen dataset, number of groups you want to test and the type of data (RNAseq,microarrays) you can choose from several statistical tests.
 
-   ![](_static/images/FindDiff/DifferentialExpression_Selectgroups.png "Figure8: Selecting Find Differential Expression.")
+   ![](_static/images/FindDiff/DifferentialExpression_Selectgroups.png "Figure 8: Selecting Find Differential Expression.")
 
    [**Figure 8: Selecting Find Differential Expression.**](_static/images/FindDiff/DifferentialExpression_Selectgroups.png)
 
@@ -167,8 +167,8 @@ It would be a pretty tedious job to look for all genes whether they are differen
 
 Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.  Most expression sets are continuous and normally distributed data so the T-test is the most applicable. In case of a dataset which contains categorical data the Mann-whitney test is more suitable.  
 
-A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalised counts. Most of the datasets that have DESeq_rlog in the name, consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
-Using the DESEq2 algorithm in case of RNAseq is often appreciated since this is a well established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst** as normalization procedure. Datasets with this annotation have three slots, rlog normalized data, deseq normalized data and a counts slot. This counts slot is used when you run the deseq2 algorithm on the fly for two group comparisons.  
+A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalised counts. Most of the datasets that have DESeq2_rlog or DESeq2_vst in the name, consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
+Using the DESEq2 algorithm in case of RNAseq is often appreciated since this is a well established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst** as normalization procedure. Datasets with this annotation have three slots, rlog normalized data, deseq normalized data (normcounts) and a counts slot. This counts slot is used when you run the DESeq2 algorithm on the fly for two group comparisons.  
 
 
    ![](_static/images/FindDiff/DifferentialExpress_deseq2select.png "Figure 9: Selecting Find Differential Expression.")
@@ -196,14 +196,14 @@ In our case we continue with the Tumor Neuroblastoma dataset and the Differentia
 
    [**Figure 11: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
 
-The result is a list of genes that is ordered by the most significant differential expression between the groups that you chose (Figure 12). A short summary of the calculation is given above the table; \~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
+The result is a list of genes that is ordered by the most significant differential expression between the groups that you chose (Figure 12). A short summary of the calculation is given above the table; ~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 The generated list can be sorted or filtered by any of the column headers in the grid, such as by the p-value (P) or the difference.  
   
-In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2.
+In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2. As indicated in the right menu
 
-   ![](_static/images/FindDiff/DifferentialExpress_Genelistv1.png "Figure 12: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpress_Genelistv2.png "Figure 12: Genes differentially expressed between groups")
 
-   [**Figure 12: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv1.png)
+   [**Figure 12: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv2.png)
 
 	
 --------------------------------------------------------------------------
@@ -321,6 +321,24 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
    obvious in the Volcano plot. The DNA replication pathway statistics
    will be explored in more detail in the 'Find genes correlating with
    your gene of interest'-tutorial
+
+
+
+
+--------------
+Step 9: Using the Enrichr
+---------------
+
+The right menu also allows you to take your result list of differentially expressed genes (DEG) outside R2 to the public available Enrichr platform. Enrichr (https://maayanlab.cloud/Enrichr/enrich) is a web-based platform designed for gene set enrichment analysis (GSEA) and functional annotation of gene lists. It allows you to gain insights into the biological processes, pathways, and functions associated with their gene sets of interest. The Enrichr performs an enrichment analysis by comparing the generated R2-list against a large collection of well curated databases such as Gene Ontlogy, KEGG pathways and disease-associated gene sets
+
+![](_static/images/FindDiff/DifferentialExpres_enrichr.png "Figure    16: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+
+[**Figure 17: Taking the result to the Enrichr platform.**](_static/images/FindDiff/DifferentialExpres_graphtypes.png)
+
+Figure 17 shows the Enrichr button you can click directly when the DEG list genes is ready, in the next screen you can select  just one group when coming from the two group analysis or you want to include and even add of delete genes from list. Hitting the submit button will direct lead to the Enrichr platform. 
+
+
+
 
 -------------------------------------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can tailor visualization of specific genes in one go?**
