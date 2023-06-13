@@ -60,6 +60,7 @@ Step 1: Selecting data
 6. In the adjustable settings, we set the p-value cut-off to 0.01 and leave the further settings at their default. Note in Figure 1 that you can select for both correlation directions or a single one. The p-value, r-value cut-offs and multiple testing can be adapted. 
  Scroll down the screen and click "Submit".
 
+
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
 
