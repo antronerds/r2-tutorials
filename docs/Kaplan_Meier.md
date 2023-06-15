@@ -33,7 +33,7 @@ Step 1: Selecting the Kaplan Meier module
     directly shows from which datasets survival data is available.  
     For this example, make sure that *Data type* is set to 'Expression data (H. sapiens)[n=..' and that *Datat set* is set to "Tumor Neuroblastoma public " Versteeg " 88". From the dropdown of the setting *Separate by* choose the option 'a categorical track'. Click *Next*.
     
-	![](_static/images/KaplanMeier/KaplanMeier_selectKManalysis.png "Figure    1: Select a Kaplan Meier option.")
+	![](_static/images/KaplanMeier/KaplanMeier_selectKManalysis_v1.png "Figure    1: Select a Kaplan Meier option.")
 	
 	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/KaplanMeier/KaplanMeier_selectKManalysis.png)
 	
@@ -248,6 +248,21 @@ Step 4: Kaplan scan on your own cohort
 >*R2 will indicate within the image a checksum (MD5 sum) of all the survival information, which can be used to identify whether the same cohort information has been used in different scans that you may perform (this code should remain identical).*
 
 -----------------------
+
+Step 4: Cox Regression analysis and hazard ratio
+---------------
+
+The Cox regression analysis is a statistical method commonly used in biomedical research to analyze the relationship between gene expression and survival outcomes. It is particularly useful for studying the impact of gene expression levels on patient survival times. In this analysis, gene expression data is combined with survival data to assess whether specific genes or gene signatures are associated with increased or decreased survival rates. In r2 your can identify genes or multiple genes (genesets which may act as potential prognostic markers). In general Cox regression analysis in gene expression provides valuable insights into the molecular mechanisms underlying survival outcomes in various diseases, including cancer.
+
+![](_static/images/KaplanMeier/KaplanMeier_Coxregression.png "Figure 14: Kaplanscan with user defined data    result")
+
+[**Figure    14: Kaplanscan with user defined data    result**](_static/images/KaplanMeier/KaplanMeier_Coxregression.png)
+
+
+
+
+
+
 
 
 
