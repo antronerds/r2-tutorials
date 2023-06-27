@@ -57,8 +57,9 @@ Step 1: Selecting data
 
 
 
-6. In the adjustable settings, we set the p-value cut-off to 0.001 and leave the further settings at their default. Note in Figure 1 that you can select for both correlation directions or a single one. The p-value, r-value cut-offs and multiple testing can be adapted. 
+6. In the adjustable settings, we set the p-value cut-off to 0.01 and leave the further settings at their default. Note in Figure 1 that you can select for both correlation directions or a single one. The p-value, r-value cut-offs and multiple testing can be adapted. 
  Scroll down the screen and click "Submit".
+
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can find the correlation between two genes directly?**
@@ -105,14 +106,11 @@ updates upon a new genebuild release or from a commercial platform such as Affym
     explore the menu items to the right. All gene names are clickable to
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
-3.  In the left upper corner the filter icon is located, this links
-    directly to the "adjustable settings panel " where you adapt the
-    filtering conditions. The filter button is accessible in many
-    analysis modules of R2.
+3.  At the bottom of the generated list , the adjustable settings menu is located where the filetr options can be adapted. 
 
-    ![](_static/images/CorrelatingGenes/FindGenes_GotoMain.png "Figure 3: Filterbutton")
+    ![](_static/images/CorrelatingGenes/FindGenes_Gotoadjust.png "Figure 3: Gotoadjust")
 
-    [**Figure 3: Filterbutton**](_static/images/CorrelatingGenes/FindGenes_GotoMain.png)
+    [**Figure 3: Adjustable settings**](_static/images/CorrelatingGenes/FindGenes_GotoMain.png)
 
 
 Step 3: Inspecting correlation between specific genes
@@ -125,7 +123,7 @@ Step 3: Inspecting correlation between specific genes
     expression of MYCN quite good! This is reflected in the R and
     p-values that are quite significant.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png "Figure 4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionPos_v1.png "Figure 4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
 
     [**Figure    4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png)
 
@@ -133,9 +131,9 @@ Step 3: Inspecting correlation between specific genes
     right column figure 2 ; MEAF6. This produces Figure 6. The original list of
     results is still open in another tab in your browser, return there.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg.png "Figure 5: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg_v1.png "Figure 5: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
 
-    [**Figure 5: The expression of MYCN has a negative correlation with that of    the MEAF6    gene**](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg.png)
+    [**Figure 5: The expression of MYCN has a negative correlation with that of    the MEAF6    gene**](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg_v1.png)
 
 3. To generate a correlation plot where the negative relationship between MYCN
     and the MEAF6 gene is more clearly visualized, select "XY-plot" as graph type
@@ -144,7 +142,7 @@ Step 3: Inspecting correlation between specific genes
     possible to show expression levels for the samples are distributed. In
     order to do so, click on more settings in the Adjustable Settings box,
     set Histogram to yes, and click on the Adjust Settings button. Now the histogram
-    boxes in the x and y axes show the distribution of the expression levels in the correlation plot, see fig 6.
+    boxes in the x and y axes show the distribution of the expression levels in the correlation plot, see fig 6. In the green bar located above your graph you can easily click through your generate list instead of going each time to the list to inspect your genes.
 
     ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png "Figure 6: Toggle Histogram")
 
@@ -160,9 +158,9 @@ Step 3: Inspecting correlation between specific genes
    Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 	coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings". In this example the reporters of the MYCN vs MEAF6 are plotted and subsequently colored by the MYCN expression levels. Of course, you can also enter a third gene for coloring the dots.
 
 
-   ![](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor.png "Figure 8: Colored by expression")
+   ![](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1.png "Figure 8: Colored by expression")
 
-   [**Figure 8: Select Color by gene epression**](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor.png)
+   [**Figure 8: Select Color by gene epression**](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1.png)
 
 5. Another way to visualize the relationship of the expression correlation in an XY plot is to switch on the linear fit option. In the "More settings section", turn on "linear fit".
 
@@ -193,9 +191,9 @@ Step 3: Inspecting correlation between specific genes
     (zscore)' in the right menu. The gene names are on the y-axis,
     sample names on the x-axis. 
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHeat.png "Figure 12: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHeat_v1.png "Figure 12: Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastomasamples.")
 
-    [**Figure 13 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/CorrelatingGenes/FindGenes_ExpressionHeat.png)
+    [**Figure 13 : Heatmap view of the expression of all genes correlating with the expression of MYCN in 88 Neuroblastoma samples.**](_static/images/CorrelatingGenes/FindGenes_ExpressionHeat_v1.png)
 
 
 
@@ -268,11 +266,11 @@ Step 5: Establishing overrepresentation in other domains
 Step 7: Gene list in pathway context
 ---------------
 
-1. Return to the gene list Figure 2 and click 'Map on pathway image'.
+1. Return to the gene list Figure 2 and click 'Geneset analysis'. Select the KEGG pathway in the gene set selection pull down. 
 
 2. A similar overrepresentation analysis is performed on all gene
     members of the pathways in the KEGG database. Click on the p-value
-    column header again to find the most significant ones: Figure 17.
+    column header again in case the p-values are not sorted,  to find the most significant ones: Figure 18.
 
     ![](_static/images/CorrelatingGenes/FindGenes_KeggPath.png " Figure    14: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 
@@ -294,7 +292,7 @@ Step 7: Gene list in pathway context
 
 
 MCM-genes seem to play a role. Go back to list (Figure 2) to show their
-individual relation with MYCN.
+individual relation with MYCN. However, it is important to realize that the KEGG pathway interactions are build on Protein-Protein interactions, Enzyme-Substrate Interactions, Protein-DNA Interactions, Protein-Compound Interactions etc etc and the genelist from this module is baed on RNA expression levels only/  
 
 
 
