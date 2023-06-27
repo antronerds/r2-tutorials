@@ -254,9 +254,58 @@ Step 4: Cox Regression analysis and hazard ratio
 
 The Cox regression analysis is a statistical method commonly used in biomedical research to analyze the relationship between gene expression and survival outcomes. It is particularly useful for studying the impact of gene expression levels on patient survival times. In this analysis, gene expression data is combined with survival data to assess whether specific genes or gene signatures are associated with increased or decreased survival rates. In r2 your can identify genes or multiple genes (genesets which may act as potential prognostic markers). In general Cox regression analysis in gene expression provides valuable insights into the molecular mechanisms underlying survival outcomes in various diseases, including cancer.
 
+
 ![](_static/images/KaplanMeier/KaplanMeier_Coxregression.png "Figure 14: Kaplanscan with user defined data    result")
 
-[**Figure    14: Kaplanscan with user defined data    result**](_static/images/KaplanMeier/KaplanMeier_Coxregression.png)
+[**Figure    14: Cox regression and  hazard ratios**](_static/images/KaplanMeier/KaplanMeier_Coxregression.png)
+
+
+The hazard ratio (HR) is a fundamental concept in Cox regression analysis. It represents the relative risk or likelihood of an event occurring in one group compared to another.  The hazard ratio quantifies the effect of gene expression levels on the hazard or risk of a specific outcome, typically survival.
+
+![](_static/images/KaplanMeier/Kaplan_hazardratio_genes.png "Figure 15: Kaplanscan with user defined data ")
+
+[**Figure    15: Cox regression and  hazard ratios steps**](_static/images/KaplanMeier/Kaplan_hazardratio_genes.png)
+
+In R2 you can scan for significant hazard ratios for a single gene or multiple genes for a single dataset, follow the steps as indicated in Figure 15 and select the drug target geneset and click next. A Hazard ratio quantifies the effect of gene expression levels on the hazard of risk for a typical outcome. When the Hazard ratio is greater then 1, higher expression levels suggest a poor prognosis indicated in blue.  Having the opposite,  a hazard ratio less than 1 indicates a decreased risk or hazard, suggesting a better prognosis indicated with red. A hazard ratio of 1 implies that there is no difference in risk between the groups being compared.
+
+![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_list.png "Figure 16: Kaplanscan with user defined data ")
+
+[**Figure    15: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_lisr.png)
+
+
+The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** link in the table. As clearly depicted in figure 16 the CSKN2A1 gene with a hazard ratio > 1 in blue show a poor prognosis for a high expression level cut-off while the NTKR1 gene shows a poor prognosis for a low expression level.
+
+
+![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_inspect.png "Figure 16: Hazard ratios with a list of genes ")
+
+[**Figure    16: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_lisr.png)
+
+
+
+After checking the hazard ratio for multiple genes in one dataset you can also check for hazard ratios across multiple datasets. Select via de main menu survival > cox regresssion in multiple datasets. (Figure 17). Clicking "select datasets" will open de grid where you select the datasets of interest, keep in mind that these dataset are already preselected for those containing survival data.
+
+![](_static/images/KaplanMeier/Kaplan_hazardratio_selectsets.png "Figure 17: select sets")
+
+[**Figure    17: Cox regression for multiple datasets**](_static/images/KaplanMeierKaplan_hazardratio_selectsets.png)
+
+In Figure 18, the selected datasets show a significant low hazard ratios with a poor survival the NOTCH2 gene for the low gene expressed group in contrast to the hazard rations for where the group with the high MYCN expression show a poor prognosis. (Figure 19.)
+
+
+![](_static/images/KaplanMeier/Kaplan_hazardratio_notchdatasets.png "Figure 18: Hazard ratios with a list of genes ")
+
+[**Figure    18:  Hazard ratios for the NOTCH2 gene**](_static/images/KaplanMeier/Kaplan_hazardratio_notchdatasets.png)
+
+![](_static/images/KaplanMeier/Kaplan_hazardratio_mycndatasets.png "Figure 16: Hazard ratios with a list of genes ")
+
+[**Figure    19: Hazard ratios for the MYCN gene**](_static/images/KaplanMeier/Kaplan_hazardratio_mycndatasets.png)
+
+
+
+
+
+
+
+
 
 
 
