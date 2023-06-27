@@ -35,7 +35,7 @@ Step 1: Selecting the Kaplan Meier module
     
 	![](_static/images/KaplanMeier/KaplanMeier_selectKManalysis_v1.png "Figure    1: Select a Kaplan Meier option.")
 	
-	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/KaplanMeier/KaplanMeier_selectKManalysis.png)
+	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/KaplanMeier/KaplanMeier_selectKManalysis_v1.)
 	
 2.  In the adjustable settings menu choose for *Type of survival* the value "overall-c1103", select "track" at *Separate by* and select "inss (5 cat)" at the *Track* pull-down menu . Click "Next". Note that stage st4s en st1 survival curves are overlapping which is in agreement with the clinical outcome of the INSS stages.
     
@@ -270,7 +270,7 @@ In R2 you can scan for significant hazard ratios for a single gene or multiple g
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_list.png "Figure 16: Kaplanscan with user defined data ")
 
-[**Figure    15: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_lisr.png)
+[**Figure    15: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_list.png)
 
 
 The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** link in the table. As clearly depicted in figure 16 the CSKN2A1 gene with a hazard ratio > 1 in blue show a poor prognosis for a high expression level cut-off while the NTKR1 gene shows a poor prognosis for a low expression level.
@@ -278,7 +278,7 @@ The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** 
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_inspect.png "Figure 16: Hazard ratios with a list of genes ")
 
-[**Figure    16: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_lisr.png)
+[**Figure    16: Cox regression and  hazard ratios list**](_static/images/KaplanMeier//Kaplan_hazardratio_genes_inspect.png)
 
 
 
@@ -286,7 +286,7 @@ After checking the hazard ratio for multiple genes in one dataset you can also c
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_selectsets.png "Figure 17: select sets")
 
-[**Figure    17: Cox regression for multiple datasets**](_static/images/KaplanMeierKaplan_hazardratio_selectsets.png)
+[**Figure    17: Cox regression for multiple datasets**](_static/images/KaplanMeier/Kaplan_hazardratio_selectsets.png)
 
 In Figure 18, the selected datasets show a significant low hazard ratios with a poor survival the NOTCH2 gene for the low gene expressed group in contrast to the hazard rations for where the group with the high MYCN expression show a poor prognosis. (Figure 19.)
 
