@@ -288,7 +288,7 @@ After checking the hazard ratio for multiple genes in one dataset you can also c
 
 [**Figure    17: Cox regression for multiple datasets**](_static/images/KaplanMeier/Kaplan_hazardratio_selectsets.png)
 
-In Figure 18, the selected datasets show a significant low hazard ratios with a poor survival the NOTCH2 gene for the low gene expressed group in contrast to the hazard rations for where the group with the high MYCN expression show a poor prognosis. (Figure 19.)
+In Figure 18, the selected datasets show a significant low hazard ratios with a poor survival for the NOTCH2 gene in the low gene expressed group in contrast to the hazard rations where the group with the high MYCN expression shows a poor prognosis. (Figure 19.)
 
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_notchdatasets.png "Figure 18: Hazard ratios with a list of genes ")
