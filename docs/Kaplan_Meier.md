@@ -35,7 +35,7 @@ Step 1: Selecting the Kaplan Meier module
     
 	![](_static/images/KaplanMeier/KaplanMeier_selectKManalysis_v1.png "Figure    1: Select a Kaplan Meier option.")
 	
-	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/KaplanMeier/KaplanMeier_selectKManalysis_v1.)
+	[**Figure    1: Select a Kaplan    Meier option.**](_static/images/KaplanMeier/KaplanMeier_selectKManalysis_v1.png)
 	
 2.  In the adjustable settings menu choose for *Type of survival* the value "overall-c1103", select "track" at *Separate by* and select "inss (5 cat)" at the *Track* pull-down menu . Click "Next". Note that stage st4s en st1 survival curves are overlapping which is in agreement with the clinical outcome of the INSS stages.
     
@@ -278,7 +278,7 @@ The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** 
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_inspect.png "Figure 16: Hazard ratios with a list of genes ")
 
-[**Figure    16: Cox regression and  hazard ratios list**](_static/images/KaplanMeier//Kaplan_hazardratio_genes_inspect.png)
+[**Figure    16: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_inspect.png)
 
 
 
