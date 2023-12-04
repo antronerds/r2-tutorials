@@ -38,33 +38,23 @@ Step 1: Selecting a dataset
     [**Figure 2: Change Dataset on the main page**](_static/images/Usingdatasets/UsingDataset_selectv1a.png)
 
 	
-2. A popup window appears that shows all the available datasets in a grid: each row represents one dataset, with its main descriptive details split up in the columns. To use a dataset for further analysis, by clicking on a row when highlighted in grey, R2 generates below the grid, all the extra information in an info screen below  the grid box. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments box of the information panel (only visible for admins). At the bottom you will see links to the original data source and Pubmed resources, if available. Click on the colored **Confirm Selection** button on the left bottom of the grid box.
+2. A popup window appears that shows all the currently available datasets in a grid: each row represents one dataset, with its main descriptive details split up in the columns. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list. If you click on the row of a dataset, extra information about a dataset will appear in an information panel below the grid box. Possible adjustments of the original data by the R2 team, such as data transformations or annotation changes, can be found in the Adjustments section of the information panel. At the bottom you will see links to the original data source and Pubmed resources, if available.
 
    ![](_static/images/Usingdatasets/UsingDataset_select_by_row.png "Figure 3: Select a dataset or read more in-depth information")
 
    [**Figure 3: Select a dataset by clicking on a row**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
 
 
-3. A search bar is located on top of the page. It allows you to search a dataset by (a part of) a keyword, such as a tissue type, 
-   a disease, or an author name. When you start typing in the search bar, in the grid box all the datasets with the matching search term will be listed.
+3. Every column header provides options to filter the database, e.g. in the Tissue/Tumor text field a keyword such as **medull** can be written to filter for medulloblastoma datasets or, with the Select Filter dropdown under the Data type header you can requests an overview of for instance methylation datasets. If you know specific details, other columns can be of help as well: e.g. you can search for an author, or use the N column to search for a datasets of which you know the number of samples. The grid box will display all the datasets that fulfill the (combined) filter requirements. In the bottom right corner you find the number of (filtered) datasets that are available to you. 
 
    ![](_static/images/Usingdatasets/UsingDataset_select_autofill_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 		 
 
 [**Figure 4: Use the search bar to textually filter the list of datasets with a keyword**](_static/images/Usingdatasets/UsingDataset_select_autofill_text.png)  
 
-<!---
-4. You can simply scroll through the list with the mouse and get more information about a dataset with a click of the mouse on any dataset in this list.  
-   This way you can quickly filter for a tissue type, a disease or an author name. In the picture above we type the letters "neurobl" to look for all Neuroblatoma datasets. 
-   
-5. You can use the buttons in the bottom right corner to scroll through the pages of the grid, to jump ahead to a specific page and to adapt the amount of dataset rows that are shown per page. 
 
-    ![](_static/images/Usingdatasets/UsingDataset_scroll_through_grid.png "Figure 5: Adapt or scroll through the grid")
-	
-    [**Figure 5: Adapt or scroll through the grid**](_static/images/Usingdatastes/UsingDataset_scroll_through_grid.png) 
- -->
 
-Click on the 'Select' button in the grid to see the dataset of your choice appear on the main page in box 2 for further analysis.
+4. Click on the table row of the dataset of your choice and click the clue colored button **Confirm selection** in order to use a dataset in box 2 of the main page for further analysis.
 
 
 
