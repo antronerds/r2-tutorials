@@ -21,11 +21,22 @@ pop up tells you that the respective subgroup of samples can be toggled off and 
 legens box. Also, a click on the legend title "histology" wil invert the selection, This allows you to quickly only 
 display one or a few of the categories of your dataset. 
 
-![](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif "Figure 2: Interactive settings in the Sample Maps module")
+![](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif "Figure 1: Submit buttons (color by track) vs 
+interactive settings (toggle legend subgroups)")
 
-[**Figure 2: Loop Interactive settings in the Sample Maps module**](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif)
+[**Figure 1: Submit buttons (color by track) vs interactive settings (toggle legend subgroups)**]
+(_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif)
 
-In the animation below, we show several interactive settings, such as marking samples with a click in the graph, 
-zoom in and out with the scrolling wheel of your mouse, and repositioning the graph by dragging the plot while 
-holding the right mouse button. Also you can see that some items might display information when the mouse hovers 
-over the position. 
+In the animation below, we show several interactive settings that you can find in various graphs in R2. In 
+interactive graphs, samples can be marked a click on the sample in the graph; you can zoom in and out with the 
+scrolling wheel of your mouse; the graph  can be repositioned by dragging the plot while holding the right mouse button.
+
+
+![](_static/images/Graphs/samplemaps_zoom_drag_mark.gif "Figure 2: Zoom in / out and reposition the plot, mark a 
+sample")
+
+[**Figure 2: Zoom in / out and reposition the plot, mark a
+sample**](_static/images/Graphs/samplemaps_zoom_drag_mark.gif)
+
+Some graphs also allow you to adjust settings outside of the graph that take immediate effect. As is shown in teh 
+animations below.
