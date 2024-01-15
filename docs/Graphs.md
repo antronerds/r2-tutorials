@@ -5,10 +5,9 @@
 
 *Adapt and export graphs in R2*
 
-Visualization is one of R2's main functionalities. We continuously work on creating new kind of visualizations and 
-on improving already existing ones. Many graphs are adaptable in a multitude of different ways, sometimes in ways 
-that are not obvious for the user. This tutorial aims to provide an overview of several much used or requested graph 
-options. 
+Visualization is a key feature of R2, with an ongoing commitment to developing new types of visualizations and 
+enhancing existing ones. The recently developed graphs often offer adaptability in an interactive way. Our latest 
+graph developments prioritize adaptability through interactive features. While some graph options may not be immediately evident to users, they facilitate swift adaptability once users become familiar with how to tweak the plots. This tutorial aims to offer a comprehensive overview of frequently employed or requested plots, alongside lesser-known yet valuable visualization functionalities.
 
 ### Two types of settings: settings that need to be submitted responsive interactive settings 
 
