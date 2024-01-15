@@ -16,10 +16,16 @@ Options listed in these menu require the user to press the "Set [functionality]"
 changes to take effect. 
 For instance, here the graph colors can be set to the colors of a track or they can be set to the expression levels 
 of a gene. This setting requires the user to click on the button "Set colors" in order to take effect. Other 
-settings can be adjusted directly in the plot itself, such as omitting subgroups in the scatter plot with a click on 
-the respective category in the legend. 
+settings can be adjusted directly in the plot itself. When your mouse hovers over the legend categories, an information 
+pop up tells you that the respective subgroup of samples can be toggled off and on in the plot with a click on the 
+legens box. Also, a click on the legend title "histology" wil invert the selection, This allows you to quickly only 
+display one or a few of the categories of your dataset. 
 
-![](_static/images/Graphs/samplemaps_color_settings.gif "Figure 2: Interactive settings in the Sample Maps module")
+![](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif "Figure 2: Interactive settings in the Sample Maps module")
 
-[**Figure 2: Loop Interactive settings in the Sample Maps module**](_static/images/Graphs/samplemaps_color_settings.gif)
+[**Figure 2: Loop Interactive settings in the Sample Maps module**](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif)
 
+In the animation below, we show several interactive settings, such as marking samples with a click in the graph, 
+zoom in and out with the scrolling wheel of your mouse, and repositioning the graph by dragging the plot while 
+holding the right mouse button. Also you can see that some items might display information when the mouse hovers 
+over the position. 
