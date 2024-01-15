@@ -16,4 +16,10 @@ options.
 
 ![](_static/images/Graphs/samplemaps.gif "Figure 1: Interactive settings in the Sample Maps module")
 
-[**Figure 1: Interactive settings in the Sample Maps module**](_static/images/Graphs/samplemaps.gif)
+[**Figure 1: Loop Interactive settings in the Sample Maps module**](_static/images/Graphs/samplemaps.gif)
+
+
+![](_static/images/Graphs/samplemaps_color_settings.gif "Figure 2: Interactive settings in the Sample Maps module")
+
+[**Figure 2: Loop Interactive settings in the Sample Maps module**](_static/images/Graphs/samplemaps_color_settings.gif)
+
