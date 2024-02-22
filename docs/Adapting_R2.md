@@ -114,7 +114,7 @@ Step 3: Create your custom genesets
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png "Figure    6 A: Your geneset is available")
 
    [**Figure 6 A: Your geneset is available.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset1.png)
- 
+
    ![](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png "Figure    6 B: Your geneset is used to create a heatmap.")
 
    [**Figure 6 B: Your geneset is used to create a heatmap.**](_static/images/AdaptingR2/AdaptingR2_YourGeneset2.png)
@@ -245,7 +245,7 @@ Step 5: Upload your own tracks
 1. R2 also allows you to build your own tracks from scratch. You will be able to assign each sample to a group of your
    choice. To illustrate this select 'User Options' > 'Tracks' > 'Build Custom Track'. The Custom Track window appears.
    R2 also provides the possibility to upload a custom track from a prefabricated text file. We will shortly show this route, which is also the most powerful one.
-Click 'Upload or Paste a Track (txt file)' (Figure 18).
+   Click 'Upload or Paste a Track (txt file)' (Figure 18).
 
    ![](_static/images/AdaptingR2/AdaptingR2_AdaptTrackv1.png "Figure    17: Build a Custom Track: Upload or paste a track.")
    
@@ -334,9 +334,9 @@ Click 'Upload or Paste a Track (txt file)' (Figure 18).
 Step 6: Cooperate through R2: sharing tracks, creating communities
 ---------------
 
-1. Cooperation is of great importance in scientific research. You probably want to share the tracks created above with
-   other people in your group. For this reason R2 features the Communities. Communities are different from user groups,
-   which is important to remember. User groups are granting a user access to datasets and their associated annotation.
+1. Cooperation is of great importance in scientific research. You may want to share the tracks created above with
+   other people in your group. For this reason R2 features the Communities feature. Communities are different from user groups,
+   which is important to remember. User groups are granting a user access to datasets and their associated annotation, or may unlock restricted functionalities within the R2 platform.
    On the other hand, communities are a way by which any user can share grouping variables (tracks), lists of genes (
    gene categories), megasampler presets or genome browser views with any (group of ) other R2 user(s). A user can
    generate multiple communities and invite other users to share such feature with.
@@ -356,13 +356,13 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    [**Figure 24: Starting a community**](_static/images/AdaptingR2/AdaptingR2_StartCommunity.png)
 
 3. In the Community window a name has to be set and a short description for people invited as members for this group (
-   Figure 25). Through a community you can share your own Genesets,Tracks and Settings.
+   Figure 25). Through a community you can share your own Gene sets,Tracks and Settings.
 
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroupv1.png "Figure    25: Setting the Community group name    and description.")
+   ![](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroup.png "Figure    25: Setting the Community group name    and description.")
 
    [**Figure 25: Setting the Community group name and
-   description.**](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroupv1.png)
+   description.**](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroup.png)
 
 5. Click 'Next'; you'll be notified that the group has been created; return to the Communities Center by clicking the
    Community link again in the User Options menu (Figure 27). The TestGroup has been created (next to the already
@@ -372,43 +372,55 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
     	
      [**Figure 26: The available Communities for this user**](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png)
 
-6. You have to add users by their R2 username; we'll add user **"pietmolenaar"**. He'll receive a message in the R2 startup
-   page as soon as he logs on the next time. Click "next" to add the user.
+6. Once the community is generated, you can also manage the community from the communities center.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_GroupManager.png "'Figure    27: Add a user by their R2 user    name")
+     ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_1.png "Figure 36: The available Communities for this user")
+    	
+     [**Figure 27: Managing of the community**](_static/images/AdaptingR2/AdaptingR2_Community_invite_1.png)
 
-   [**Figure 27: Add a user by their R2 user name**](_static/images/AdaptingR2/AdaptingR2_GroupManager.png)
+7. You have to add users; You can invite R2 users to your group by sending them an invitiation link. we will create a link with 'create invitation'. For your own personal recollection you can specify a target recipient. Here we have used **"my invitee"**.
 
-7. R2 returns with a message that the user has been invited, he or she has to accept your invitation first before he
-   will see what you are sharing.
+   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_2.png "'Figure    27: Add a user by their R2 user    name")
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Managegroups.png "Figure    28: R2 return message; user is invited; but not yet    visible")
+   [**Figure 28: Creation of an invitation for your community**](_static/images/AdaptingR2/AdaptingR2_Community_invite_2.png)
 
-   [**Figure 28: R2 return message; user is invited; but not yet visible**](_static/images/AdaptingR2/AdaptingR2_Managegroups.png)
+8. Once you create the invitation, then a message will be provided that you can send to the person you want to invite to your group. This you can do by using the template in an email or by sharing the provided link via other means. Please do note that invitations to join your group are valid for a limited time only. How long an invitation is still valid can always be checked in the 'invite users' option. you can always revisit the invitation or extend it using the 'view/renew' button.
 
-8. The perspective of the invited user after logon; he or she can accept the invitation (Figure 29).
+   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_3.png "Figure    28: R2 return message; user is invited; but not yet    visible")
 
-   ![](_static/images/AdaptingR2/AdaptingR2_GroupInvitationv1.png "Figure    29: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+   [**Figure 29: R2 invited users option**](_static/images/AdaptingR2/AdaptingR2_Community_invite_3.png)
 
-   [**Figure 29: The invited user receives a notification on the main page where he or she can accept the membership of
-   the group**](_static/images/AdaptingR2/AdaptingR2_GroupInvitation1.png)
+9. The user that has received a link, needs to be logged into their account and can then visit the provided link. This will allow the user to accept the invitation.
 
-9. When the invitation has been accepted the user is available in this community. When we add a custom geneset, track or
-   preset the next time, it is possible to make this available to this community.
+   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_accepted.png "Figure    29: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 
-   ![](_static/images/AdaptingR2/AdaptingR2_CommunityUsers.png "Figure    30: The user is available in    the TestGroup.")
+   [**Figure 30: The invited user will see a message where the user can accept the membership of
+   the group**](_static/images/AdaptingR2_Community_invite_accepted.png)
 
-   [**Figure 30: The user is available in the TestGroup.**](_static/images/AdaptingR2/AdaptingR2_CommunityUsers.png)
+   Once the invitation is accepted by the user, you can see this within your community as well.
 
-10. When a custom geneset is created there is now a possibility to make it available to a Community (Figure 39)
-11. Managing the tracks, gene categories and megasampler presets is done in a similar way as has been shown in the user
-    tracks and user categories at the beginning of this tutorial. <span style="color:red">**pietmolenaar**</span>, as a member of this group, can manage
-    the tracks that have been shared with him via his default track manager
+   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_accepted_2.png "Figure    29: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+
+   [**Figure 31: Once accepted, the user is a member of the group**](_static/images/AdaptingR2_Community_invite_accepted_2.png)
+
+10. When the invitation has been accepted the user is available in this community. By default an invitee will become a member, who can only see what you are sharing via your community. Next to the label that you have generated yourself, you will also see the username and email address of the member that accepted the invitation (also to make sure the intended user became member). For any of the members,  there is also the possibility to increase the rights of a member, by making the user 'content manager', or (co-)owner. 
+
+   ![](_static/images/AdaptingR2/AdaptingR2_Community_member_roles.png "Figure    30: The user is available in    the TestGroup.")
+
+   [**Figure 32: The user is now visible as a member of the group.**](_static/images/AdaptingR2/AdaptingR2_Community_member_roles.png)
+
+11. When you will add a custom gene set, track or preset the next time, it will be possible to make this available to any of the communities that are yours, or where you have been granted access as content manager. 
 
     ![](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png "Figure    35: As an example here the creation of a category and the assignment    to    a Community.")
 
-    [**Figure 31: As an example here the creation of a category and the assignment to a
+    [**Figure 33: As an example here the creation of a gene set and the assignment to a
     Community.**](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png)
+
+12. Managing the tracks, gene categories and megasampler presets is done in a similar way as has been shown in the user
+    tracks and user categories at the beginning of this tutorial. <span style="color:red">**my invitee**</span>, as a member of this group, can manage
+    the tracks that have been shared with this user via the default track manager.
+
+    
 
 Final remarks / future directions
 ---------------------------------
