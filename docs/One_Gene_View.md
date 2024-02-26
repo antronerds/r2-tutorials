@@ -58,12 +58,12 @@ Step 2: Select the gene or reporter
    
    The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays,double labeling arrays, drug data etc etc.  
    
-   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a given expression level.  
+   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
    ![](_static/images/Onegeneview/OneGene_multipleprobegrid2.png "Figure 2: By default the reporter with the highest expression level is selected")
    
-   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Bottom, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
+   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Below, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
 
 2. To follow the example of this tutorial, use the pre-defined default settings in the rest of the adjustable settings menu, and click ‘Next’.
    
@@ -96,6 +96,7 @@ Step 3: Plotting Gene expression
    and then click the button *Submit* at the bottom of the panel.   
 
    
+   
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you gain additional insight?**                              
@@ -113,7 +114,7 @@ Step 3: Plotting Gene expression
 >  -   *“zscore\_nonlog”: raw intensity values, centered around the average  
 >        and expressed as the number of standard deviations from the average. This transformation is useful when the intensities in R2 are not raw, but for example logfolds as is often the case for aCGH data.*    
 >  -   *“mad/mad2log”: Median absolute deviation (on raw values, or log2     
->        transformed values).*                                                 
+>        transformed values). The MAD is particularly useful in situations where the data may contain outliers or is not normally distributed.*                                                 
 >  -   *“center/log2center”: Expression values centered around 0 (on raw     
 >        values, or log2 transformed values).*
 >  -   *“Rank”: numerical or ordinal values are replaced by their rank when the data are sorted*
@@ -137,19 +138,32 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 [**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v1.png)
 
-2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4). 
+2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4).
 
+![](_static/images/Onegeneview/OneGene_adjustablesettings_v3a.png "Figure 5: Adjusting the graph settings")
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png "Figure 5: Adjusting the graph settings")
-
-[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png)
+[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v3a.png)
 
 Step 5: Marking / highlighting samples within a plot 
 ----------------
 
 
 
+
 3. In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
+
+
+<!-- Check this "normal" plot options should be removed -->
+
+
+
+* In the Graphics section you can also select **interactive plot** types which support directly the highlighting/marking of individual samples shown in Figure 3a.
+
+
+
+  ![](_static/images/Onegeneview/OneGene_view_interactive.gif "Figure 3a: Marking samples in an inactive plot")
+
+[**Figure 3a: Marking samples in an inactive plot**](_static/images/Onegeneview/OneGene_view_interactive.gif)
 
 * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab.
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
@@ -160,6 +174,8 @@ Step 5: Marking / highlighting samples within a plot
 If you enter sample names in the 'Samples to mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. However, these will be applied to all the marked samples at the same time.
 
 If you would like to use different layouts and or colors for every indicated sample, or for groups of samples, then you can adjust the marker color and type of the samples that you marked with a syntax in the 'Samples to mark' field. The syntax for using this strategy is explained below:
+
+Please note that the explanation below for marking samples is redundant and is linked to the static plot option, and this option will be removed soon."
 
 The syntax to use for 'Samples to mark' is: sample1,sample2:hexcolor1:method1.
 
