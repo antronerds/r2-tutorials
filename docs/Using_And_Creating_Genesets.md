@@ -33,45 +33,42 @@ Step 1: Selecting data and modules; creating a Heatmap
 1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
     Click 'Next'.
     
-	![](_static/images/UsingGenesets_Select.png "Figure    1: Select View a    Geneset")
+	![](_static/images/Usinggenesets/UsingGenesets_Select1a.png "Figure    1: Select View a    Geneset")
 	
-	[**Figure    1: Select View a    Geneset**](_static/images/UsingGenesets_Select.png)
+	[**Figure    1: Select: View a    Geneset**](_static/images/Usinggenesets/UsingGenesets_Select1a.png)
 	
-2.  In the subsequent window three choices are available to customize
-    the way the GeneSet data will be presented (Figure 2). The first
-    field asks for a collection of genesets (Figure 3); R2 harbors
-    hundreds of publicly available genesets, KEGG pathways being one
-    of them. The second field is a filter for selecting the samples. The
-    third field is the order by which the resulting heatmap will be
-    drawn (Figure 4). By default R2 presents the data in a heatmap where
-    a hierarchical clustering is performed on the genes, making use of
-    the information present in all samples to order the data. We'll show
-    first what this ordering by clustering looks like. Keep all settings
-    as they are and click next. The search fields below the Adjustable
-    Settings dialog provide a shortcut for finding a GeneSet of choice,
+2.  In the Adjustable settings may choices are available to customize
+    the way the GeneSet data will be presented (Figure 2). With the geneset selection method you can indicate wether you want to pick one of the hundreds genesets R2 harbors , public or your own genesets. Selecting the manual ordered list enables you also to manipulate the ordering of the genes om de heatmap. In the adjustable settings many settings can be altered, such filtering for samples, the sample order and many types of graphical adaptations.
+
+    ![](_static/images/Usinggenesets/UsingGenesets_Settings1a.png "Figure 2: Geneset view settings")
+
+    [**Figure    2:  Adjustable settings.  A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection We're now going to search for Cell Cycle gene**](_static/images/UsingGenesets_Settings.png)
+
+3.  Clicking on  "select a geneset", will generate a pop-up screen were you can search and select a geneset to represent in the heatmap.  Type Cell Cycle in the 'Search a
+    geneset' Clicking on the confirm selection button will lead you to the adjustable settings screen
+
+    ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Seecting a geneset  R2")
+
+    [**Figure    3: Selecting a geneset**](_static/images/Usinggenesets/Usinggenesets_collections1a.png)
+
+ By default R2 presents the data in a heatmap where a hierarchical clustering is performed on the genes, making use of the information present in all samples to order the data. We'll show  first what this ordering by clustering looks like. Keep all settings as they are and click next. The search fields below the Adjustable Settings dialog provide a shortcut for finding a GeneSet of choice,
     we're going to use this now. Suppose we want to find a geneset
     containing Cell Cycle genes. Type Cell Cycle in the 'Search a
-    geneset' box and click 'Search'.
+    geneset' box and click the magnification glass.
 
-	![](_static/images/UsingGenesets_Settings.png "Figure 2: Geneset view settings")
-	
-	[**Figure    2: The R2 Gene Set view settings; A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection We're now going to search for Cell Cycle gene**](_static/images/UsingGenesets_Settings.png)
-    
-	![](_static/images/UsingGenesets_Collections.png "Figure    3: Available collections of Genesets in    R2")
-	
-	[**Figure    3: Available collections of Genesets in    R2**](_static/images/UsingGenesets_Collections.png)
-	
-	![](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
-	
-	[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
+
+
+
+
 	
 3.  In the next window all genesets containing the words Cell Cycle in
     their description are shown. Choose the KEGG Cell Cycle (in the
     collection of Cellular Processes) by clicking the 'View' hyperlink.
-    
-	![](_static/images/UsingGenesets_Selecting.png "Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.")
+
+
+	![](_static/images/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for    samples")
 	
-	[**Figure    5: Selecting a geneset out of the large collection of available sets    in R2; Cell Cycle was used as a    search term.**](_static/images/UsingGenesets_Selecting.png)
+	[**Figure    4: Available ordering domains for    samples**](_static/images/UsingGenesets_Ordering.png)
 	
 4.  The Affymetrix data for the Neuroblastoma 88 dataset is shown for
     the genes in the Cell Cycle as a clustered heatmap. Hovering over
