@@ -58,8 +58,7 @@ Step 1: Relating 2 (categorical) tracks
     one (which can be recognized by (cat)). We investigate whether
     there is a relation between the neuroblastoma age-group
     (track=agegroup, flip point being 18 months at diagnosis) and the
-    survival status (track=alive). Select the 'XY' plot in the graph section. Then press 'Submit' to generate
-    the result.
+    survival status (track=alive). Select the Interactive 'XY' plot in the graph section. Then press 'Submit' to generate the result.
     
     ![](_static/images/Annotation/AnnotationAnalyses_adjustv1a.png "Figure 2: Select Selecting categorical tracks")
 	
@@ -84,14 +83,18 @@ Step 1: Relating 2 (categorical) tracks
 
     ![](_static/images/Annotation/AnnotationAnalyses_colorsamplesv1a.png "Figure3: Color samples by track")
 	
-    [**Figure3: Color samples by track**](_static/images/Annotation/AnnotationAnalyses_colorsamples.png)
+    [**Figure 3: Color samples by track**](_static/images/Annotation/AnnotationAnalyses_colorsamples.png)
+
+   ![](_static/images/Annotation/AnnotationAnalyses_Interactive_plot.gif "Figure 3a: Using the interactive plot options")
+
+   [**Figure 3a: Using the interactive plot options**](_static/images/AnnotationAnnotationAnalyses_Interactive_plot.gif)
+
 	
-5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked
-   Barplot" or "Stacked Barplot ratio" respectively. The "Stacked Barplot ratio" option scales every group to 100%, and thereby shows the relative contribution of the different groups.
+5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked Barplot" or "Stacked Barplot ratio" respectively. The "Stacked Barplot ratio" option scales every group to 100%, and thereby shows the relative contribution of the different groups. Also the grouped bar plot is a handy visualisation to split your representation for a group parameter.
   
     ![](_static/images/Annotation/AnnotationAnalyses_StackedBarplot.png "Figure 4: Absolute (left) and relative (right) stacked barplots")
 	
-    [**Figure 4: Absolute (left) and relative (right) stacked barplots**](_static/images/Annotation/AnnotationAnalyses_StackedBarplot.png)
+    [**Figure 4: Absolute (left) and relative (right) stacked barplots and in the middle a grouped bar plot**](_static/images/Annotation/AnnotationAnalyses_StackedBarplot.png)
 
 
 
@@ -135,7 +138,7 @@ Step 3: Relating a categorical track to a numerical track
 3. The result page will now start to look like view a gene in groups,
     only this time using the data contained in your track. Via the
     adjustable settings, you can change the representation to another
-    plot type, such as a boxplot, change the colormode to color by
+    plot type, such as a stacked box plot, change the colormode to color by
     track, and you have a nice result here, showing that the survival
     rate is significantly lower in patients of INSS stage 4.
 
@@ -202,7 +205,7 @@ The 'Build a track' button at the bottom of the page conveniently allows you to 
 
 
 
-   ![](_static/images/Annotation/AnnotationAnalyse_sunburst.png  "Figure 8: Cohort Overview")
+   ![](_static/images/Annotation/AnnotationAnalyse_sunburst.png  "Figure 9: Cohort Sunburst Plotter")
 
    [**Figure 9: Sunburst plotter**](_static/images/Annotation/AnnotationAnalyse_sunburst.png)
 
