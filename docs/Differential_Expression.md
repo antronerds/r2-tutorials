@@ -31,7 +31,6 @@ Scope
 
 
 
-
 Step 1: Selecting data and the type of analysis
 ---------------
 
@@ -41,7 +40,7 @@ Step 1: Selecting data and the type of analysis
     **Single Dataset** field is selected in field 1.
 2.  Make sure the **Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2** dataset is selected in
     field 2 (see chapter 1 of the tutorial for more information about the selection of a dataset).
-3.	Choose **View a Gene in groups** in field 3 and click Next.
+3.	Choose **View a Gene in groups** in field 3 and click Submit.
 
 
 
@@ -201,9 +200,36 @@ The generated list can be sorted or filtered by any of the column headers in the
   
 In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2. As indicated in the right menu
 
-   ![](_static/images/FindDiff/DifferentialExpress_Genelistv2.png "Figure 12: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpress_Genelistv2.png "Figure 13: Genes differentially expressed between groups")
 
-   [**Figure 12: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv2.png)
+   [**Figure 13: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv2.png)
+
+
+-----------------
+
+Step 5: Correct for paired analysis
+---------------
+
+A paired analysis is ofted performed when observations are natural paired or matched such as in this example. 
+
+1. Select in the main screen the following dataset. Exp Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and differential expression between two groups, select group by cell_lineage and click submit. Subsequently select adrenergic and mesenchymal for the groups and click the lower submit button.  Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
+
+   ![](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png "Figure 14: Genes differentially expressed between groups")
+
+   [**Figure 14: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png).
+
+2. In the select a test box, select Limma and again for Group by: Cell_lineage and click submit. Adrenergic and mesenchymal for the groups and now you can select track you want to correct for in this case, the  genomic_mycn_status, click the lower submit button.
+
+   ![](_static/images/FindDiff/DifferentialExpres_withcorrectfor.png "Figure 15: Genes differentially expressed between groups")
+
+   [**Figure 15: Genes differentially expressed between groups with correction.**](_static/images/FindDiff/DifferentialExpres_withcorrectfor.png)
+
+3. After correction for the genomic_mycn status more genes are found to be significant differentially expressed between the two groups. For example also the PAX5 gene appears in the list which could be a candidate for further investigation.
+
+   ![](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png "Figure 16: Genes differentially expressed between groups")
+
+   [**Figure 16: Genes differentially expressed between groups with correcttion.**](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png)
+
 
 	
 --------------------------------------------------------------------------
@@ -223,6 +249,8 @@ In the right menu numerous modules can be selected to continue the analysis. Als
 > - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. Learn more about gene filters in [Chapter 25](Did_You_Know.md)*
 
 *Of course, to actually get familiar with these settings you should not only read about, but also toy around with them!*
+
+
 
 -----------------
 
