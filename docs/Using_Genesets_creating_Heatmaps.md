@@ -37,15 +37,14 @@ Step 1: Selecting data and modules; creating a Heatmap
 
     ![](_static/images/Usinggenesets/UsingGenesets_Settings1a.png "Figure 2: Geneset view settings")
 
-    [**Figure    2: A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection**](_static/images/UsingGenesets_Settings.png)
+    [**Figure    2: A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection**](_static/images/Usinggenesets/UsingGenesets_Settings1a.png)
 
 3.  By default R2 presents the data in a heatmap where a hierarchical clustering is performed on the genes, making use of the information present in all samples to order the data. We will show  first what this ordering by clustering looks like. Suppose we want to find a geneset
 containing Cell Cycle genes. Click on **"Select a geneset"**, Type Cell Cycle in the 'Search a geneset' box.
 
     ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Selecting a geneset  R2")
 
-    [**Figure    3: Selecting a geneset**](_static/images/Usinggenesets/Usinggenesets_collections1a.png)
-
+    [**Figure 3: Selecting a geneset**](_static/images/Usinggenesets/UsingGenesets_Collections1a.png)
 
 	
 4. In the grid box all genesets containing the words Cell Cycle (**Cell_cycle**) in
@@ -63,9 +62,9 @@ containing Cell Cycle genes. Click on **"Select a geneset"**, Type Cell Cycle in
     10000 cells otherwise the graph generation consumes too much time.
     This limitation can be adapted in the 'User Options' menu item.
 
-    ![](_static/images/UsingGenesets_Heatmap.png "Figure 6:Heatmapview of the Cell Cycle geneset for the Neuroblastoma 88 dataset; genes and samples are sorted according to the clustering.")
+    ![](_static/images/Usinggenesets/UsingGenesets_Heatmap.png "Figure 5:Heatmap view of the Cell Cycle geneset for the Neuroblastoma 88 dataset; genes and samples are sorted according to the clustering.")
 	
-    [**Figure 6: Heatmapview of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to theclustering.**](_static/images/UsingGenesets_Heatmap.png)
+    [**Figure 5: Heatmap view of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to the clustering.**](_static/images/Usinggenesets/UsingGenesets_Heatmap.png)
 	
 
 
@@ -78,21 +77,19 @@ Step 2: Using multiple GeneSets
     multiple sets at once. 
 2.  In the next screen click "select geneset",  Select 'Cellular Processes' in the KEGG pathway collection of look via keywords or going through al the sub-collections, select the apoptosis path way and click  the "Confirm Collection" button.
     
-	![](_static/images/Usinggenesets/UsingGenesets_multiplegenesets.png "Figure    7: Selection a subcollection from the large collection of Kegg    pathways")
+	![](_static/images/Usinggenesets/UsingGenesets_multiplegenesets.png "Figure 6: Selection a subcollection from the large collection of pathways")
 	
-	[**Figure    7: Selection a subcollection from the large collection of Kegg    pathways**](_static/images/UsingGenesets_multiplegenesets.png)
+	[**Figure    6: Selection a subcollection from the large collection of pathways**](_static/images/UsingGenesets_multiplegenesets.png)
 	
 
-3. The resulting heatmap (Figure 8) has the samples ordered by the
+3. The resulting heatmap (Figure 7) has the samples ordered by the
     result of the clustering of the dataset. On the y-axis the genes are
-    annotated with their membership to both pathways; the upper bar is
-    the Cell Cycle. It is obvious that part of the Cell Cycle member
-    genes are clustering together.
+    annotated with their membership to both pathways;  Using both genesets shows clearly some blocks in the heatmap which could be linked to the annotation plotted above the heatmap
 
 
-![](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple.png "Figure 8: Heatmap view of the Cell Cycle and Apoptosis genesets for theNeuroblastoma 88dataset.")
+![](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple.png "Figure 7: Heatmap view of the Cell Cycle and Apoptosis genesets for the Neuroblastoma 88 dataset.")
 	
-[**Figure 8: Heatmap view of the Cell Cycle and Apoptosis genesets for the Neuroblastoma 88dataset.**](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple.png)
+[**Figure 7: Heatmap view of the Cell Cycle and Apoptosis genesets for the Neuroblastoma 88 dataset.**](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple.png)
 	
 
 
@@ -105,9 +102,9 @@ Step 3: Relating genesets with data annotation
     (Figure 2) by clicking the back button in your browser. Choose some genesets of interest and choose order samples by track and choose the INSS category. 
     'Order samples by a track' and click "next" (Figure 10). I
     
-	![](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png "Figure 9: Selecting the domain to order samples by: Order by a    track")
+	![](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png "Figure 8: Selecting the domain to order samples by: Order by a    track")
 	
-	[**Figure 9: Selecting the track (subgroup) to order samples by: Order by a  track**](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png)
+	[**Figure 8: Selecting the track (subgroup) to order samples by: Order by a  track**](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png)
 	
 
 2. In the resulting heatmap it is clear that there is a segment of
@@ -116,31 +113,25 @@ Step 3: Relating genesets with data annotation
     INSS track).
 
 [![](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png)**Figure
-    11: Heatmap sorted by INSS stage, there is a clear relation between
+    9: Heatmap sorted by INSS stage, there is a clear relation between
     the stage 4 tumors (in red in the INSS track) and up-regulation of a
     subset of genes**](_static/images/UsingGenesets/UsingGenesets_HeatmapSorted1a.png)
 
 
 
-4.  In the previous example R2 offers the possibility to set a fixed
-    ordering of samples by track. It"s also possible to perform a
+3. In the previous example R2 offers the possibility to set a fixed
+    ordering of samples by track. It's also possible to perform a
     clustering and set a fixed ordering of genes. In the "adjustable
-    settings" panel, select user defined order in the geneselection
-    pulldown menu and click next two times. Here you can paste a list of
+    settings" panel, select manual orderd list in the gene selection
+    method and click submit. Here you can paste a list of
     genes sorted according to your needs.
-5.  If you want to perform hierarchical clustering with a fixed
-    sample order. From the main menu select View a Geneset (Heatmap) ,
-    in the sample order section, select user defined order and click
-    next, select a geneset sub collection and click next. Copy and paste
-    your sample order and click next. The export track function see
-    chapter Error: Reference source not found can be handy for
-    this issue.
+4. If you want to perform hierarchical clustering with a fixed
+    sample order. Select current of manual order and click
+    submit.
 
 
 
-
-
-Step 4: Unsupervised hierarchical clusterin with a geneset
+Step 4: Unsupervised hierarchical clustering with a geneset
 ---------------
 
 
@@ -181,23 +172,19 @@ In this case the selected TCGA dataset gene annotation has been assigned to genc
 
 
 4.  R2 has generated a list of 100 genes showing the highest variation
-    in gene expression. Beneath the list als kinds  of settings kab be adapeted and in the right menu the genelist can be exported of stored in r2 as a geneset.
+    in gene expression. Beneath the list als kinds  of settings can be adapeted and in the right menu the genelist can be exported of stored in r2 as a geneset.
 
-![](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
+![](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png "'Figure 11:Result of the toplister module.")
 
-[**Figure13: Unsupervised hierarchical clustering revealing subgroups in a Medulloblastoma dataset.**](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png)
-
-
-
-Clicking on the Heatmap (Zscore)  in the right menuwill perform an
-    unsupervised hierarchical clustering and plots a heatmap . In this
-    heatmap the subgroups are clearly clustered together as shown by
-    Kool e.a. (2008).
+[**Figure 11: Result of the toplister module.**](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png)
 
 
-![](_static/images/Usinggenesets/UsingGenesets_Unsupervised1a.png "'Figure13: Unsupervised hierarchical clustering revealing subgroups in aMedulloblastomadataset.")
+Clicking on the Heatmap (Zscore)  in the right menu will perform an  unsupervised hierarchical clustering and plots a heatmap. 
+
+
+![](_static/images/Usinggenesets/UsingGenesets_Unsupervised1a.png "'Figure 12: Unsupervised hierarchical clustering revealing subgroups in a Esophagal Carcinma dataset.")
 	
-[**Figure13: Unsupervised hierarchical clustering revealing subgroups in a Medulloblastoma dataset.**](_static/images/Usinggenesets/UsingGenesets_Unsupervised1a.png)
+[**Figure 12: Unsupervised hierarchical clustering revealing subgroups in a Esophagal Carcinoma dataset.**](_static/images/Usinggenesets/UsingGenesets_Unsupervised1a.png)
 
 
 
