@@ -64,7 +64,7 @@ Step 1: Selecting a dataset
 
   ![](_static/images/Usingdatasets/UsingDataset_understanding_dataset_names.png "The information parts of a dataset name")
 	
-  [**Figure 6: The informative parts of a dataset name correspond to the columns of the dataset selection grid.**](_static/images/Usingdatasets/UsingDataset_understanding_dataset_names.png) 
+  [**Figure 5: The informative parts of a dataset name correspond to the columns of the dataset selection grid.**](_static/images/Usingdatasets/UsingDataset_understanding_dataset_names.png) 
 
 ----------
 
@@ -81,7 +81,7 @@ Step 2: Advanced selection of datasets
 	
     ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters_v1.png "Figure 7: Combine search filters in the grid")
 	
-    [**Figure 7: Combine search filters in the grid**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
+    [**Figure 6: Combine search filters in the grid**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
 	
 2. Again we use the **Confirm Selection** button if we want to continue our analysis with a specific dataset of the grid. 
 	
@@ -91,7 +91,7 @@ Step 2: Advanced selection of datasets
    
     ![](_static/images/Usingdatasets/UsingDatasets_SelectAcrossDatasetsInR2v1.png "Figure 8: Selecting across datasets")
 	
-    [**Figure 8: Selecting across datasets**](_static/images/Usingdatasets/UsingDatasets_SelectAcrossDatasetsInR2v1.png)
+    [**Figure 7: Selecting across datasets**](_static/images/Usingdatasets/UsingDatasets_SelectAcrossDatasetsInR2v1.png)
 	
     Analysis methods following selecting the “Across Datasets” option in field **1** will be discussed in tutorial “Working with multiple datasets”.  
 
@@ -104,18 +104,18 @@ Since R2 is hosting hundreds of datasets, it could be convenient to store the da
 is easily accessible. In order to maintain favorites, you need to be a registered user. If you did not yet register; 
 accounts can easily be created via 'Login/Register' and are absolutely free. Clicking on the dataset name will open the dataset selection grid, where resources can be searched and selected.
 
-![](_static/images/Usingdatasets/UsingDataset_selectv1b.png  "Figure 7: Change Dataset, to access favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectv1b.png  "Figure 8: Change Dataset, to access favorites")
 	
-[**Figure 9: Change Dataset to access favorites**](_static/images/Usingdatasets/UsingDataset_selectv1b.png)
+[**Figure 8: Change Dataset to access favorites**](_static/images/Usingdatasets/UsingDataset_selectv1b.png)
 
 Within the dataset selection table, you can select and deselect cohorts to add or remove them from your selection of
 preferred sets. This is done by using the favorite select boxes in the last column on the right side. Favorite 
 datasets will always be represented at the top of your selection table and will be marked with a green background 
 olor in the selection column. This makes it very convenient to quickly have access to those. 
 
-![](_static/images/Usingdatasets/UsingDataset_selectfav_v1.png "Figure 10: Managing favorites")
+![](_static/images/Usingdatasets/UsingDataset_selectfav_v1.png "Figure 09: Managing favorites")
 	
-[**Figure 10: Managing favorites**](_static/images/Usingdatasets/UsingDataset_selectfav_v1.png)
+[**Figure 09: Managing favorites**](_static/images/Usingdatasets/UsingDataset_selectfav_v1.png)
 
 
 Step 4: Data Scopes
