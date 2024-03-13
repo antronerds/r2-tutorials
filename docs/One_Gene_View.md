@@ -257,7 +257,7 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 [**Figure 10a: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png)
 
-![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10a: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10b: Fonts and Color changed")
 
 [**Figure 10b: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
 

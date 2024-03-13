@@ -1,4 +1,4 @@
-<a id="using_and_creating_genesets"></a>
+<a id="using_Genesets_creating_Heatmaps"></a>
 
 Using genesets and creating heatmaps in R2
 ===============================
