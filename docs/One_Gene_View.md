@@ -22,8 +22,7 @@ Scope
     provides different types of analyses based on the expression level
     of the chosen gene.
 - Many mRNA expression datasets were generated with Affymetrix
-    profiling arrays and NGS data (rnaseq). In general, the affymetrix  arrays use more than one so-called 
-    probeset to measure the expression level of one single gene.
+    profiling arrays and NGS data (rnaseq). In general, the Affymetrix  arrays use more than one so-called probeset to measure the expression level of one single gene.
     With a separate module “Transcript view”, the details of the
     probesets can be studied. This also holds for multiple RNAseq data in case the chromosomal  location of the reporter (Gene) is stored in the R2 database.
 
@@ -161,11 +160,11 @@ Step 5: Marking / highlighting samples within a plot
 
 
 
-  ![](_static/images/Onegeneview/OneGene_view_interactive.gif "Figure 3a: Marking samples in an interactive plot")
+  ![](_static/images/Onegeneview/OneGene_view_interactive.gif "Figure 6a: Marking samples in an interactive plot")
 
-[**Figure 3a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive.gif)
+[**Figure 6a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive.gif)
 
-* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab.
+* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at thetop on the  the 'More Settings' sections.
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
 * Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
 
@@ -219,16 +218,11 @@ Please note, that there is a semicolon **;** between the 2 groups of samples her
 
 Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting youy own demands. Currently R2 is making use of several modules to generate the graphs. So depending on the type on graph type you selected the svg plots can be generated. 
 
-* Version A. Click on the + sign on the right of the tab to unfold the 'More Settings' tab, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and the 'Submit' button is clicked, a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape (left part of fig 7).
-* In case you have selected a graph annotated with **(v2)** in the name in the name you find the save option in the wheel icon directly in the graph. 
+* Version A. Click on the top  'More Settings' settings, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and the 'Submit' button is clicked, a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape (left part of fig 7).
+* In case you have selected a graph in the interactive section the name in the name you find the save option in the wheel icon directly in the graph.
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1a.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
-
-![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png "Figure 7: Obtain a vector (SVG) image of your graph")
-
-[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png)
-
-![](_static/images/Onegeneview/OneGene_svg_interactive.png "Figure 7a: Obtain a vector (SVG) image of your graph")
-[**Figure 7a: OObtain a vector (SVG) image of your graph (interactive plot)**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png)
+[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1a.png)
 
 
 
@@ -256,14 +250,14 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
    [**Figure 9: Gene versus track sorted**](_static/images/Onegeneview/OneGene_genevstracksort.png)
 
 
-6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot v2' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
 
-![](_static/images/Onegeneview/OneGene_boxplots_v1.png "Figure 10a: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png "Figure 10a: Fonts and Color changed")
 
-[**Figure 10a: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+[**Figure 10a: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png)
 
-![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10a: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10b: Fonts and Color changed")
 
 [**Figure 10b: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
 
@@ -279,9 +273,9 @@ of the traditional plot such as the dotboxplot and violins plot is  the **raincl
 
 8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
 
-![](_static/images/Onegeneview/OneGene_boxmainmnu.png "Figure 11: track vs track and main menu ")
+![](_static/images/Onegeneview/OneGene_boxmainmnu.png "Figure 12: track vs track and main menu ")
 
-[**Figure 11: Track versus Tracks / Main menu**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+[**Figure 12: Track versus Tracks / Main menu**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
 
 
 
@@ -513,7 +507,7 @@ and click on the “Tview” link in the reporter table.
     fold lower than R2's standard pick (22 vs 1369). Below the ESTs the
     average gene expression of the individual probesets is illustrating
     that for this example the correct probeset is selected for analysis.
-3. For many datasets R2 hosts the location of the reporters on the genome so the location and orientation can be inspected as described for the Affymetrix probesets. If the ProbesetVerification table doesn't apears R2 has no information of the  reporter genome location of a given dataset.
+3. For many datasets R2 hosts the location of the reporters on the genome so the location and orientation can be inspected as described for the Affymetrix probesets. If the ProbesetVerification table doesn't appear R2 has no information of the  reporter genome location of a given dataset.
 
    
 

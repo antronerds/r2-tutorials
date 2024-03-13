@@ -218,7 +218,7 @@ this analysis are given. You can also explore the results in the interactive R2 
 -------------------------------------------------------------------------------
 
 
-![](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png "Figure 13: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
+![](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png "Figure 14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes")
 
 [**Figure 14: Statistics of overrepresentation of genes that have a correlation with MYCN on different chromosomes**](_static/images/CorrelatingGenes/FindGenes_ChromeTable.png)
 
@@ -256,7 +256,7 @@ Step 5: Establishing overrepresentation in other domains
     gene-ontology analysis with the up or down regulated genes only.
 
 
-   ![](_static/images/CorrelatingGenes/FindGenes_Adjust.png "Figure 16: Re-do analysis with genes that are either positively or negativelycorrelated withMYCN.")
+   ![](_static/images/CorrelatingGenes/FindGenes_Adjust.png "Figure 16: Re-do analysis with genes that are either positively or negatively correlated with MYCN.")
 
    [**Figure 17: Re-do analysis with genes that are either positively or negatively correlated with MYCN.**](_static/images/CorrelatingGenes/FindGenes_Adjust.png)
 

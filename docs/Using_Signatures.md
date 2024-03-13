@@ -44,9 +44,10 @@ they follow a specific convention (fixed prefix, followed by \_up and
 \_down; e.g. mycn\_up and mycn\_down).
 
 
-![](_static/images/Genesetcorrelation_sig_score_explained_v0.png "Figure 1: Signature score: one category vs up/downcategory")
 
-[**Figure 1: Signature score: one category vs up/downcategory**](_static/images/Genesetcorrelation_sig_score_explained_v0.png)
+![](_static/images/Genesetsignatures/Genesetcorrelation_sig_score_explained_v0.png "Figure 1: Signature score: one category vs up/downcategory")
+
+[**Figure 1: Signature score: one category vs up/downcategory**](_static/images/Genesetsignatures/Genesetcorrelation_sig_score_explained_v0.png)
 
 
 -   What is a genesignature
@@ -75,20 +76,14 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
 2.  In "box 2" verify that the current dataset is "Neuroblastoma
     public - Versteeg - 88 - MAS5.0 - u133p2".
 3.  In "box 3" we select "View geneset (Heatmap)". Click "Next".
-4.  In the following screen we select the
-    "geneset\_\_r2provided\_genesets" Gene set collection and click
-    "Next".
-5.  In the following screen we select the "functional genesignature"
-    subselection and click "Next".
+4.  In the following screen we select the r2 provided genelists category.
+5.  Genelists>oncogenomics_valentijn>functional genesignatures the mycn_dn and _up genesets
     
-    ![](_static/images/genesetcorrelation_selectheatmapa.png "Figure 2: Generating Geneset signatures")
+       ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures.png "Figure 2: Generating Geneset signatures")
 
-    [**Figure 2 : Generating Geneset signatures**](_static/images/genesetcorrelation_selectheatmapa.png)
+       [**Figure 2 : Generating Geneset signatures**](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures.png)
 	     
-6.  We can now see the lists of genes that are represented in
-    this collection. While holding the CTRL key pressed, we can select
-    the following 2 gene categories "r2\_imr32mycn\_dn"
-    and "r2\_imr32mycn\_up". Then click "Next" (Figure 2).
+6.  Confirm the selection with the Green Button. 
 7.  R2 will produce a hierarchical clustered heatmap image of the
     selected gene categories. Note that at the right side of
     the heatmap the red markings indicate in which category a particular gene
@@ -97,7 +92,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     A third colorscale depicts a weighted score, based on the contributions of both signatures (see point 8). 
       
 8.  Scrolling down on this page, we will encounter a heading "Gene set
-    values" (Figure 3, box C), which presents a small table. The links within this table
+    values" (Figure 3, the heatmap), which presents a small table. The links within this table
     point to the numerical values of the geneset scores. For the 2 gene
     categories, R2 will create the scores of the 2 separate categories,
     a matched score (where up and down regulated genes are treated
@@ -106,18 +101,18 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     for number of genes)). Click on "store" for the "weighted\_matched"
     signature, so that we can perform additional analyses on it.    
         
-    ![](_static/images/genesetcorrelation_selectheatmap_boxes.png "Figure 3: A) Category marking per gene; B) Signature score; C) Links for further analyses")
+    ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignaturessave.png "Figure 3: A) Category marking per gene; B) Signature score; Table with  Links for further analyses")
 
-    [**Figure 3: A) Gene set marking per gene; B) Signature score; C) Links for further analyses**](_static/images/genesetcorrelation_selectheatmap_boxes.png)
+    [**Figure 3: A) Gene set marking per gene; B) Signature score;**](_static/images/Genesetsignatures/genesetcorrelation_selectsignaturessave.png)
       
 9.  R2 has now assembled the information into a prescription to generate
     a track. By default R2 will store the track for 24 hours, which is
     fine for the current tutorial. Click on "Build set" to store the new
     track (Figure 4).
 
-    ![](_static/images/genesetcorrelation_createscorea.png "Figure 4: Generating a Track from a gene set Signature Score")
+    ![](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png "Figure 4: Generating a Track from a gene set Signature Score")
 	
-	[**Figure 4: Generating a Track from a gene set Signature Score**](_static/images/genesetcorrelation_createscorea.png)
+	[**Figure 4: Generating a Track from a gene set Signature Score**](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png)
 	
 
 Step 2: Determine the activity of a signature
@@ -130,11 +125,11 @@ the mRNA level.
 1.  Go back to the "main" page and select "correlate gene with track"
     from "box 3". In "box 4" we provide "MYCN" and click "Next".
 2.  On the following page, we select our newly created track in the
-    "select a track" dropdown box and click "Next" (Figure 5).
+    "select a track" dropdown box and click "Submit" (Figure 5).
     
-    ![](_static/images/Genesetcorrelation_mycn_signature_group_va.png "Figure 5: Gene MYCN vs signature score")
+    ![](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_group_vb.png "Figure 5: Gene MYCN vs signature score")
     	
-    [**Figure 5: Gene MYCN vs signature score**](_static/images/Genesetcorrelation_mycn_signature_group_va.png)
+    [**Figure 5: Gene MYCN vs signature score**](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_group_vb.png)
     	
 3.  R2 will now produce a plot where the signature score for every
     patient is related to the MYCN mRNA expression value (Figure 6).
@@ -149,9 +144,9 @@ the mRNA level.
     MYCN gene set activity score. The possibilities for numerical tracks are
     endless with some smart questions (Figure 6).
 
-    ![](_static/images/Genesetcorrelation_mycn_signature_group_vb.png "Figure 6: Add group colouring")
+    ![](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_group_vc.png "Figure 6: Add group colouring")
 	
-    [**Figure 6: Add group colouring**](_static/images/Genesetcorrelation_mycn_signature_group_vb.png)
+    [**Figure 6: Add group colouring**](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_group_vc.png)
 
 
 
@@ -166,41 +161,35 @@ in literature over the past years. We can convert all of these into
 signature scores and start searching for relations of these meta-genes
 with our signature of interest.
 
-1.  Go back to the "main" page and select "Geneset vs Geneset correlation" from "box 3" and click "Next" (Figure 7, left). If this analysis 
-    is not available for your account, email R2 Support (r2-support@amc.uva.nl) for an upgrade of your account.
+1.  Go back to the "main" page and select "Geneset vs Geneset correlation" from "box 3" and click "Next" (Figure 7, left). 
 2.  On the next page, select at the input Geneset -> Gene set
     Collection (source): "geneset\_\_r2provided\_genelists". In the
     Genesets to Scan (target): select 'geneset\_broad\_2015\_oncogenic'
     (Figure 7, right). Then click "next".
     
-    ![](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va1.png "Figure 7: Geneset vs Geneset correlation")
+    ![](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_vb.png "Figure 7: Geneset vs Geneset correlation")
     	
-    [**Figure 7: Geneset vs Geneset correlation**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va1.png)
+    [**Figure 7: Geneset vs Geneset correlation**](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_vb.png)
     
-3.  In the next screen select in the source pull downmenu "functional
-    genesignature" and "ALL" in the target pulldown menu. Leave the
-    remaining settings to their default and click 'next' (see Figure 8, left).
-4.  The gene signature consists of two parts. One set of genes which are
-    up regulated by MYCN and one set of down regulated genes. In the
-    next screen select both presented gene lists by holding the Ctrl-
-    button (see Figure 8, right) and click "next."
+3.  In the next screen, click the **Select geneset** at Geneset(source). In the pop-up selection grid select at r2 provided genelsists > functional_genesignature > oncogenomics_groningen_Natgen_2017 > 'both genesets mes and adrn', Click the green "Confirm selection button".
+   
+4.  Follow teh same procedure for Gene set (target) and select some genesets of interest like Cellular processes in the KEGG pathway section, again Click the green "Confirm selection button". 
      
-    ![](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va2.png "Figure 8: Choose the genesets")
+    ![](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_vb2.png "Figure 8: Choose the genesets")
     	
-    [**Figure 8: Choose the genesets**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va2.png)
+    [**Figure 8: Choose the genesets**](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_vb2.png)
     
 5.  R2 has now generated all the possible correlations for the selected
-    MYCN signature geneset against all the gene lists within the broad
-    oncogene category. This results in a table of geneset versus geneset
+    MYCN signature geneset against all the gene lists within the selected KEGG patway categoriess. This results in a table of geneset versus geneset
     correlations sorted by the p-value. The "venn source/ same / target"
     column provides insight in overlapping number of genes (same) between two gene lists (source and target).
     Another informative parameter in the table is the range parameter in
     the last column. This value indicates the range of geneset scores in
     gene target signature.
     
-    ![](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va3.png "Figure 9: Correlations and overlap between genesets")
+    ![](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_vbc.png "Figure 9: Correlations and overlap between genesets")
         	
-    [**Figure 9: Correlations and overlap between genesets**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_va3.png)
+    [**Figure 9: Correlations and overlap between genesets**](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_vbc.png)
     
 6.  To inspect the correlation in more detail, we can click on the
     "XY-plot" link.
@@ -212,9 +201,9 @@ with our signature of interest.
     the "View heatmap of ", providing gene-by-gene information (see
     Figure 10, right side). 
 
-    ![](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png "Figure 10: XY signature score plot and heatmap of correlated gene sets")
+    ![](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_c.png "Figure 10: XY signature score plot and heatmap of correlated gene sets")
 	
-    [**Figure 10: XY signature score plot and heatmap of correlated gene sets**](_static/images/Genesetcorrelation_mycn_signature_vs_sign_b.png)
+    [**Figure 10: XY signature score plot and heatmap of correlated gene sets**](_static/images/Genesetsignatures/Genesetcorrelation_mycn_signature_vs_sign_c.png)
 	
 
 Step 4:  Plot signature scores using the relate 2-tracks module.
@@ -233,15 +222,15 @@ of neuroblastoma cell lines and 5 neural crest derived cell lines published by (
     two signature scores. However, a clear significant correlation between the two signatures is shown. The
     biological relevance is less prominent so far.
     
-    ![](_static/images/genesignature_mixed52_v1.png "Figure 11: Relate 2 tracks using genesignatures")
+    ![](_static/images/Genesetsignatures/genesignature_mixed52_v1.png "Figure 11: Relate 2 tracks using genesignatures")
     
-    [**Figure 11: Relate 2 tracks using genesignatures**](_static/images/genesignature_mixed52_v1.png)
+    [**Figure 11: Relate 2 tracks using genesignatures**](_static/images/Genesetsignatures/genesignature_mixed52_v1.png)
 
 4.  In order to visualise the biological relevance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click adjust settings.
 
-    ![](_static/images/genesignature_mixed52_trackcolor.png "Figure 12: Color by a biologically meaningful track")
+    ![](_static/images/Genesetsignatures/genesignature_mixed52_trackcolor.png "Figure 12: Color by a biologically meaningful track")
     
-    [**Figure 12: Color by a biologically meaningful track**](_static/images/genesignature_mixed52_trackcolor.png)
+    [**Figure 12: Color by a biologically meaningful track**](_static/images/Genesetsignatures/genesignature_mixed52_trackcolor.png)
 
 5.  In this new plot, mes defined cell lines cluster together with the neural crest derived lines in the left upper part of the plot
     (orange and green respectively) and the ADRN lines in blue in the right lower part of the plot. The purple dots
@@ -262,9 +251,9 @@ Let's give this a try by defining the time series samples within this dataset.
     In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
     gsm2413254, gsm2413255, gsm2413256:#222222' and click "Adjust Settings"
     
-    ![](_static/images/genesignature_mixed52_sample_lines.png "Figure 13: Connection samples")
+    ![](_static/images/Genesetsignatures/genesignature_mixed52_sample_lines.png "Figure 13: Connection samples")
     
-    [**Figure 13: Connecting samples**](_static/images/genesignature_mixed52_sample_lines.png)
+    [**Figure 13: Connecting samples**](_static/images/Genesetsignatures/genesignature_mixed52_sample_lines.png)
     
 2. In figure 13 now the samples of the time series are connected and follow the transition from ADRN defined cells to MES defined cell lines in this dataset.
 
@@ -294,24 +283,21 @@ You can use the gene signature correlation option in order to identify genes whi
 1.  In the 'Gene set values' table below the Heatmap of Step 1, where you stored the genesignature score previously, 
     this time click the link 'Corr' (Figure 3, box C). 
 
-    ![](_static/images/genesignature_selectCorr.png "Figure 11: Select  gene correlations")
+    ![](_static/images/Genesetsignatures/genesignature_selectCorrva.png "Figure 14: Select  gene correlations")
     
-    [**Figure 11: Select Gene Correlations**](_static/images/genesignature_selectCorr.png)
+    [**Figure 14: Select Gene Correlations**](_static/images/Genesetsignatures/genesignature_selectCorrva.png)
 
 2.  This option generates a graph were the R-value is ranked from the highest to the lowest correlation 
     for each member of the gene set that you used to generate the signature score. 
     Clicking on a row in the table will generate a XY-plot. The scatter plot shows the gene expression (Y-axis)
      against the signature score value (X-axis) for each sample.
 
-    ![](_static/images/genesignature_graphtable.png "Figure 12: Ordered R-values + XY-plot")
+    ![](_static/images/Genesetsignatures/genesignature_graphtableva.png "Figure 15: Ordered R-values + XY-plot")
     
-    [**Figure 12: Ordered R-values + XY-plot**](_static/images/genesignature_graphtable.png)
+    [**Figure 15: Ordered R-values + XY-plot**](_static/images/Genesetsignatures/genesignature_graphtableva.png)
 
 You can also select multiple categories to investigate the individual contribution of genes to a signature score. R2 will automatically keep the coloring for the separate gene categories.  
 
-![](_static/images/genesignature_twocategories.png "Figure 13: Ordered R-values + XY-plot")
-
-[**Figure 13: Two categories**](_static/images/genesignature_twocategories.png)
 
 
 
