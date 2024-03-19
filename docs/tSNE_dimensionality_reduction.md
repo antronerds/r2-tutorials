@@ -63,30 +63,49 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the *Color mode* to ‘color by gene’.
 
-1. In the 'Adjustable settings' box  select 'Color by Gene' under *Color mode* 
+1. In the 'Color settings'' box  select 'Color by Gene' under *Color mode* 
     and subsequently type 'CLDN3' in the textfield of *Gene / Reporter*. 
     The  corresponding reporter will automatically pop-up (Figure 3 ), click on it to confirm your choice. 
     The gene selection box autocompletes the proper reporter 
     probeset, but this can take a little bit of time before the gene selection
      box appears.  
 
-  ![](_static/images/Samplemaps/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
-  [**Figure 3: t-SNE select probeset**](_static/images/Samplemaps/Tsne_select_probeset.png)
+![](_static/images/Samplemaps/Tsne_select_probesetv1.png "Figure 3a: Select  A probeset")
 
-2. Again click ‘next’ to refresh the view.  In this view the samples are not colored by a group annotation (track) but by applying a color gradient which reflects the gene expression level according to a log2 scale.  In this sample you can observe  a subgroup of the carcinoma samples which have higher level in contrast to the (other) samples. 
+[**Figure 3a: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_select_probesetv1.png)
 
-  ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
 
-  [**Figure 4: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3.png)
 
-3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup. 
+
+2. Again click ‘set colors’ to refresh the view.  In this view the samples are not colored by a group annotation (track) but by applying a color gradient which reflects the gene expression level according to a log2 scale.  In this sample you can observe   subgroups of the carcinoma samples which have higher level in contrast to the (other) samples.
+
+![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3v1.png "Figure 4a: Color by gene")
+
+[**Figure 4a: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3v1.png)
+
+3. It could be that  you already noticed that the maps are plotted in an interactive fashion allowing you to adapt the graph on the fly. When adapting all kinds of settings such as marking samples, change the dot size, toggle subgroups on and off and much more. As shown in figure 4b.
+
+
+![](_static/images/Samplemaps/SamplemapInteractive.gif "Figure 4a: Changing the layout")
+
+[**Figure 4b: Interactively changing the layout**](_static/images/Samplemaps/SamplemapInteractive.gif)
+
+
+
+
+3. Below the color settings bop you can also use the standard plot module which is static.  In figure  plot Use  the track histology to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of (adeno)carcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup. 
 In this picture below, we also adapted the setting *Color scheme* to 'rainbow_1' in the 'Adjustable settings' box.
 
-  ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 5: Select  A probeset")
+  ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1v1.png "Figure 5: Select  A probeset")
 
-  [**Figure 5: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1.png)
+  [**Figure 5: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1v1.png)
 
+
+
+![](_static/images/Samplemaps/Tsne_select_probesetv2_colorcheme.png "Figure 3: Select  A probeset")
+
+[**Figure 3: t-SNE select probeset**](_static/images/Samplemaps/Tsne_select_probeset.png)
 
 Step 3: Perplexity sweeps for t-SNE maps
 ----------------------------
