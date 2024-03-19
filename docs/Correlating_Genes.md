@@ -106,11 +106,11 @@ updates upon a new genebuild release or from a commercial platform such as Affym
     explore the menu items to the right. All gene names are clickable to
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
-3.  At the bottom of the generated list , the adjustable settings menu is located where the filetr options can be adapted. 
+3.  At the bottom of the generated list , the adjustable settings menu is located where the filetr options can be adapted.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_Gotoadjust.png "Figure 3: Gotoadjust")
+    ![](_static/images/CorrelatingGenes/FindGenes_gotoadjust.png "Figure 3: Gotoadjust")
 
-    [**Figure 3: Adjustable settings**](_static/images/CorrelatingGenes/FindGenes_GotoMain.png)
+    [**Figure 3: Adjustable settings**](_static/images/CorrelatingGenes/FindGenes_gotoadjust.pngg)
 
 
 Step 3: Inspecting correlation between specific genes
@@ -125,7 +125,7 @@ Step 3: Inspecting correlation between specific genes
 
     ![](_static/images/CorrelatingGenes/FindGenes_ExpressionPos_v1.png "Figure 4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.")
 
-    [**Figure    4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/CorrelatingGenes/FindGenes_ExpressionPos.png)
+    [**Figure    4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/CorrelatingGenes/FindGenes_ExpressionPos_v1.png)
 
 2. As an example of the opposite, click on one of the top genes in the
     right column figure 2 ; MEAF6. This produces Figure 6. The original list of
@@ -146,7 +146,7 @@ Step 3: Inspecting correlation between specific genes
 
     ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png "Figure 6: Toggle Histogram")
 
-    [**Figure 6: Toggle Histogram**](_static/images/FindGenes_ExpressionHis.png)
+    [**Figure 6: Toggle Histogram**](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png)
 
 4. Another nice way to adjust the graphical representation of a XY plot is by using the gene expression levels and applying these to a color gradient.
 
@@ -170,7 +170,7 @@ Step 3: Inspecting correlation between specific genes
 
    ![](_static/images/CorrelatingGenes/FindGenes_linearFitFigOnegroup.png "Figure 10: Linear fit")
 
-   [**Figure 10: Linear fit**](_static/imagesCorrelatingGenes/FindGenes_linearFitFigOnegroup.png)
+   [**Figure 10: Linear fit**](_static/images/CorrelatingGenes/FindGenes_linearFitFigOnegroup.png)
 
 6. It could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second cluster seems to have an inverse correlation. An example, which is not directly listed in previous list of correlating genes, is the relationship between MYCN and GATA2. In the adjustable settings box enter MYCN and the GATA2 gene and click 'Change Genes'. Change the color mode to "Color by track", select the MYCN track in the graphics section, turn on the linear fit option at 'More settings' as indicated below, and click redraw.
 
