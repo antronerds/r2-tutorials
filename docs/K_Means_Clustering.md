@@ -32,9 +32,9 @@ Step 1: Selecting data and module
     Kool - 62 MAS5.0 -u133p2' dataset by clicking 'Change Dataset'
 3.  In field 3 choose the 'K-means' option (Figure 1)
     
-	![](_static/images/Kmeans_selecting.png "Figure    1: Selecting K-means clustering on the R2 main    page")
+	![](_static/images/kmeans/Kmeans_selecting1a.png "Figure    1: Selecting K-means clustering on the R2 main    page")
 	
-	[**Figure    1: Selecting K-means clustering on the R2 main    page**](_static/images/Kmeans_selecting.png)
+	[**Figure    1: Selecting K-means clustering on the R2 main    page**](_static/images/kmeans/Kmeans_selecting1a.png)
 	
 4.  Click ‘next’
 
@@ -56,9 +56,9 @@ Step 2: Adapting settings
     (see boxed text on K-means clustering) we set the number of draws
     (performing of the calculation) to 10x10.
     
-	![](_static/images/Kmeans_clustersettings.png "Figure    2: K-means clustering    settings")
+	![](_static/images/kmeans/Kmeans_clustersettings1a.png "Figure    2: K-means clustering    settings")
 	
-	[**Figure    2: K-means clustering    settings**](_static/images/Kmeans_clustersettings.png)
+	[**Figure    2: K-means clustering    settings**](_static/images/kmeans/Kmeans_clustersettings1a.png)
 	
 3.  Dependending on the size of your dataset or geneset you can enlarge
     of minimize your K-means plot by adapting the size of the rectangles
@@ -109,10 +109,10 @@ Step 3: Examining resulting clusters
     always the same. Note that figures reproduced by yourself might
     differ slightly when weaker associations are investigated; k-means
     is non-deterministic (random initiation).
-    
-	![](_static/images/Kmeans_cluster.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
+
+	![](_static/images/kmeans/Kmeans_cluster.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
 	
-	[**Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.**](_static/images/Kmeans_cluster.png)
+	[**Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.**](_static/images/kmeans/Kmeans_cluster.png)
 	
 2.  For visualization of k-means clusters, R2 performs hierarchical
     clustering on the samples for every group of k. Finally a
@@ -134,9 +134,9 @@ Step 3: Examining resulting clusters
     browser click the back button and change the number of groups to 8.
 4.  Click ‘next’.
 
-	![](_static/images/Kmeans_heatmap.png "Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.")
+	![](_static/images/kmeans/Kmeans_heatmap.png "Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.")
 	
-	[**Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.**](_static/images/Kmeans_heatmap.png)
+	[**Figure    4: The heatmap for the k-means clustering in 2 groups; it is obvious    that the data is represented in    the clusters.**](_static/images/kmeans/Kmeans_heatmap.png)
 	
 
 ------------
@@ -164,9 +164,9 @@ Step 4: Creating consistent clusters
 
 1.  The resulting clustering in 8 groups is depicted in Figure 5
     
-	![](_static/images/Kmeans_track1.png "Figure    5: Clustering in 8 groups produces no    consistent outcome.")
+	![](_static/images/kmeans/Kmeans_track1a1.png "Figure    5: Clustering in 8 groups produces no    consistent outcome.")
 	
-	[**Figure    5: Clustering in 8 groups produces no    consistent outcome.**](_static/images/Kmeans_track1.png)
+	[**Figure    5: Clustering in 8 groups produces no    consistent outcome.**](_static/images/kmeans/Kmeans_track1a1.png)
 	
 2.  The outcome is not consistent (except for the cluster of samples
     having a bcat mutation)
@@ -181,13 +181,13 @@ Step 4: Creating consistent clusters
     determine more precisely defined groups. An example of this method
     can be found in the Adapting R2 tutorial.
 
-![](_static/images/Kmeans_track2.png "Figure6: Consistent clustering for 4groups.")
+![](_static/images/kmeans/Kmeans_track2a.png "Figure6: Consistent clustering for 4groups.")
 
-[**Figure 6: Consistent clustering for 4groups.**](_static/images/Kmeans_track2.png)
+[**Figure 6: Consistent clustering for 4groups.**](_static/images/kmeans/Kmeans_track2a.png)
 
-![](_static/images/Kmeans_track3.png "Figure 7: Clustering in 5 groups")
+![](_static/images/kmeans/Kmeans_track3a.png "Figure 7: Clustering in 5 groups")
 
-[**Figure 7: Clustering in 5 groups**](_static/images/Kmeans_track3.png)
+[**Figure 7: Clustering in 5 groups**](_static/images/kmeans/Kmeans_track3a.png)
 
 
 

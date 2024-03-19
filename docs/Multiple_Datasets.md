@@ -35,7 +35,7 @@ Step 1: Selecting multiple datasets
     
 	![](_static/images/megasampler/MultipleDatasets_across1.png "Figure 1: Using across datasets")
 	
-	[**Figure 1: Using across datasets**](_static/images/MultipleDatasets_across1.png)
+	[**Figure 1: Using across datasets**](_static/images/megasampler/MultipleDatasets_across1.png)
 	
 2.  Leave "u133p2, mas5.0" at the "type of data" option and select " XPO
     sampler" at "use presets". The meaning of presets will be explained
@@ -56,9 +56,9 @@ Step 1: Selecting multiple datasets
     (Expression Project for Oncology (expO)) to pre-select a series of
     tumor datasets. Click "next".
     
-	![](_static/images/megasampler/MultipleDatasets_Preset.png "Figure 2: Select a preset")
+	![](_static/images/megasampler/MultipleDatasets_Preset1a.png "Figure 2: Select a preset")
 	
-	[**Figure 2: Select a preset**](_static/images/megasampler/MultipleDatasets_Preset.png)
+	[**Figure 2: Select a preset**](_static/images/megasampler/MultipleDatasets_Preset1a.png)
 	
 2.  In the previous screen the preset "XPOsampler" is selected, a
     collection of datasets is already marked for the
@@ -72,7 +72,7 @@ Step 1: Selecting multiple datasets
     
 	![](_static/images/megasampler/megasampler_selectsdatasetsgroups1.png "Figure3: Megasampler adjustment selection")
 	
-	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler_selectsdatasetsgroups.png)
+	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler/megasampler_selectsdatasetsgroups.png)
 	
 
 
@@ -95,7 +95,7 @@ Step 2: Viewing a gene in multiple datasets
     
 	![](_static/images/megasampler/MultipleDatasets_AdjustGraph1.png "Figure 4: Adjusting the megasampler graph.")
 	
-	[**Figure 4: Adjusting the megasampler graph.**](_static/megasampler/MultipleDatasets_AdjustGraph1.png)
+	[**Figure 4: Adjusting the megasampler graph.**](_static/images/megasampler/MultipleDatasets_AdjustGraph1.png)
 	
 3.  R2 now performs a one-way Anova statistical test on the fly. This
     **AN**alyis **O**f **VA**riance is a statistical test that
@@ -168,22 +168,20 @@ It could be that you also want to stack subgroups of datasets in one singlebox (
 
    ![](_static/images/megasampler/megasampler_stacking_subgroups.png "Figure 9: MYCN expression level distribution for all u133-2 datasets in R2.")
 
-   [**Figure 9: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking_subgroups.png)
+   [**Figure 9: Adjustable settings panel, stacking subgroups.**](_static/images/megasampler/megasampler_stacking_subgroups.png)
 
-Now the expression level of the TP53 gene  for a single dataset is plotted next to the separate subgroups of the histology track,  each box containing the expression levels for single gene of two datasets divided over the subgroups. Of course there is a big chance that you're not so lucky that tracks and their subgroups have the same spelling or you want to stack different subgroups for your research questions. In that case you have to create for each dataset new subgroups with the same spelling for each dataset. You can create these custized tracks you want to incorporate in the user section of the main page of R2. Once created you can select those in the megasampler section. In case you want to stack complete datasets in one box/bar you have to make a track with a subrgroups containing all the samples.
+Now the expression level of the TP53 gene  for a single dataset is plotted next to the separate subgroups of the histology track,  each box containing the expression levels for single gene of two datasets divided over the subgroups. Of course there is a big chance that you're not so lucky that tracks and their subgroups have the same spelling or you want to stack different subgroups for your research questions. In that case you have to create for each dataset new subgroups with the same spelling for each dataset. You can create these customzid tracks you want to incorporate in the user section of the main page of R2. Once created you can select those in the megasampler section. In case you want to stack complete datasets in one box/bar you have to make a track with a subrgroups containing all the samples.
 
    ![](_static/images/megasampler/megasampler_stacking_subgroups2.png "Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.")
 
-   [**Figure 10: Adjustable settings panel, stacking subgroups.**](_static/images//megasampler/megasampler_stacking_subgroups2.png)
+   [**Figure 10: Adjustable settings panel, stacking subgroups.**](_static/images/megasampler/megasampler_stacking_subgroups2.png)
 
 
 
 Step 4: Expression distribution over many datasets
 ----------------
 
-
-
-The red arrow in the "did you know box" brings you to a handy module to
+The blue link  *view expression in many datasets* brings you to a handy module to
 obtain a quick overview of the expression level patterns for most of the
 datasets R2 contains (providing that the normalization allows
 comparison).
@@ -209,7 +207,7 @@ comparison).
     
 	![](_static/images/megasampler/MultipleDatasets_LevelDistribution.png "Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.")
 	
-	[**Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/MultipleDatasets_LevelDistribution.png)
+	[**Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler/MultipleDatasets_LevelDistribution.png)
 	
 2.  Via the the probeset distribution view you can easily investigate a
     specific dataset in more detail. Click a preferred colored dataset
@@ -231,7 +229,7 @@ before not every platform can be used for the megasearch due to the normalisatio
 
  ![](_static/images/megasampler/Megasampler_Select1.png " Megasearch select.")
 	
- [**Figure 12: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler/Megasampler_Select1.png)
+ [**Figure 12: Megasearch select..**](_static/images/megasampler/Megasampler_Select1.png)
 	
  
 1. Select 'Megasearch' in Box 2 and click next

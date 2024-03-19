@@ -248,7 +248,7 @@ A paired analysis is often performed when observations are natural paired or mat
 > - **Correction for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on about multiple testing in [Chapter 25](Did_You_Know.md)*
 > - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. Learn more about gene filters in [Chapter 25](Did_You_Know.md)*
 
-*Of course, to actually get familiar with these settings you should not only read about, but also toy around with them!*
+*Of course, to actually get familiar with these settings you should not only read about it, but also toy around with them!*
 
 
 
@@ -260,7 +260,7 @@ Step 6: Find differential expression in multiple groups
 
 As mentioned above, Find Differential Expression for multiple groups can also be applied with a slightly different "Adjustable settings menu" and including other types of statistical tests. Read further about which test to use in [Chapter 25](Did_You_Know.md).
 
-1. Go back to the **Main** page by the link in the upper left corner.
+1. Go back to the **Main** page by the link in the upper left corner and select again the Neuroblastoma 88 set.
 2. Select **Differential expression between multiple groups** and click **Next**
 3. Select for *Group by* the value **inss (5 cat)** and leave all the other settings at their default value. Click **Submit**.
 
@@ -294,7 +294,7 @@ Step 7: Inspecting single genes
 Step 8: Plot all genes and adapt visualization: Volcano plot etc
 ---------------
 
-1.  The tab with the list of differentially expressed genes (Figure 15) is still open. Click on this tab.
+1.  The tab with the list of differentially expressed genes (Figure 15) is still open or perform the analysis again. Click on this tab.
 2.  Most of the functionalities in the right panel of this window will be explored
     in more advanced tutorials (K-Means clustering etc.). We will explore one
     additional data visualization however to plot all genes of this
@@ -366,7 +366,7 @@ Figure 23 shows the Enrichr button you can click directly when the DEG list gene
 ![](_static/images/R2d2_logo.png)**Did you know that you can tailor visualization of specific genes in one go?**
 
 * You can annotate gene names (gene symbols) by providing them in the 'Mark genes' field of the Adjustable Settings panel. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups.
-* Clicking omn the dots will annotate the dots with the gene name.  
+* Clicking on the dots will annotate the dots with the gene name.  
 * Please take note of the following rules: to mark groups of genes for which the same criteria apply,
 first type the genes (comma separated), followed by :s=size, followed by :c=r,g,b  
 for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0  

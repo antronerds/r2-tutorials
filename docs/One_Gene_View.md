@@ -50,7 +50,7 @@ Step 2: Select the gene or reporter
 
 1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" textfield and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
    
-   In the case of Affymetrix datasets, the term probeset is often used instead of reporter, and more than one probeset can be associated with a gene. As you can see in dropdown list for MYCN in this example, multiple probesets are annotated for the MYCN gene.  
+   In the case of Affymetrix datasets, the term probeset is often used instead of reporter, and more than one probeset can be associated with a gene. As you can see in dropdown list for MYCN in this example, multiple probesets are annotated for the MYCN gene.  The term probeset originates from affymetrix arrays, the terms probeset and reporter will be used in this tutorial interchangeably.
    
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
    Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
@@ -156,7 +156,7 @@ Step 5: Marking / highlighting samples within a plot
 
 
 
-* In the Graphics section you can also select **interactive plot** type which support directly the highlighting/marking of individual samples shown in Figure 3a.
+* In the Graphics section you can also select **interactive plot** type which support directly the highlighting/marking of individual samples shown in Figure 6a.
 
 
 
@@ -164,7 +164,7 @@ Step 5: Marking / highlighting samples within a plot
 
 [**Figure 6a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive.gif)
 
-* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at thetop on the  the 'More Settings' sections.
+* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at the top on the  the 'More Settings' sections.
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
 * Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
 
