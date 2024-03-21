@@ -157,15 +157,15 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 
 3. R2 now shows for all provided genes a 100 Kb region up and downstream of the TSS. Note that the genebody of ALK and BRD4 are colored green and red respectively. Projected on the stretch are the bins that the Rseg-ROSE algorithm considers super-enhancers (Figure 12). Each stretch is clickable and will open a new tab. Click the topmost gene.
 	
-	![](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
+	![](_static/images/IntAna/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
-	[**Figure 12: Histone acetylation around the TSS of a set of genes**](_static/images/IntAnalysis_ChIPSeq_list_RSEG.png)
+	[**Figure 12: Histone acetylation around the TSS of a set of genes**](_static/images/IntAna/IntAnalysis_ChIPSeq_list_RSEG.png)
 	
 4. For the topmost gene the acetylation data is shown on the chosen stretch. To further analyze what's going on we'll add GATA3 binding data and methylation data for the same cell line by checking the appropriate boxes. Click "redraw". Note especially the region to the right where a super-enhancer is located, methylation signal is lower and there is not much GATA binding (Figure 13).
 	
-	![](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
+	![](_static/images/IntAna/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
 	
-	[**Figure 13: ChIP-seq signals around the TSS of a single gene**](_static/images/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
+	[**Figure 13: ChIP-seq signals around the TSS of a single gene**](_static/images/IntAna/IntAnalysis_ChIPSeq_HistoneAcetylation_for_topgene_a.png)
 	
 ## Step 4: Finding active super-enhancers
 
@@ -175,21 +175,21 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 
 3. Again select the SY5Y dataset from Oldridge in the next panel
 	
-	![](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
+	![](_static/images/IntAna/IntAnalysis_ChIPSeq_Rose_select.png)
 	
-	[**Figure 14: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_select.png)
+	[**Figure 14: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAna/IntAnalysis_ChIPSeq_Rose_select.png)
 	
 4. R2 shows an interactive ROSE plot (Figure 15); dots in red are clickable and represent areas on the genome that ROSE has assigned as super-enhancer. Click one of them. In this example the 5th ranked enhancer was chosen.
 
-	![](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
+	![](_static/images/IntAna/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
 	
-	[**Figure 15: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
+	[**Figure 15: Selecting super-enhancers from an interactive ROSE plot**](_static/images/IntAna/IntAnalysis_ChIPSeq_Rose_Genomebr.png)
 
 5. R2 opens a new panel showing the location on the genome of the super-enhancer. To further explore which genes might be influenced, rescale the signal to a value of 150 (*Range*), put *Slider* to 'median' with value 5 and zoom out. The resulting picture shows that there are several genes in the proximity (Figure 16). Also present are other super-enhancers nearby. Feel free to toy around with the settings, and corroborate your findings by showing additional datasets in the same region.
 	
-	![](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
+	![](_static/images/IntAna/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 	
-	[**Figure 16: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
+	[**Figure 16: The genomic context of a top-ranking super-enhancer**](_static/images/IntAna/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 
 Note the "Load/ Store Profile" button in the upper-right corner of the page. With this button your chosen settings can be stored as a profile. Such a profile can be retrieved later on, and function as a template to wander on the genome using the same settings.  
 
