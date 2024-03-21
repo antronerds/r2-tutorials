@@ -30,21 +30,21 @@ Step 1: Selecting t-SNE maps
 
 Let’s have a look at a t-SNE result to see what we can learn from this dimensionality reduction algorithm. The analysis is most informative with large datasets, and actually requires more than 16 samples as an absolute minimum (in R2). We will first have a look at the CCLE (cancer cell line encyclopedia) dataset which is comprised of more than 900 cell lines from various cancers.
 
-1. In the left menu click on Sample maps. 
+1. In the left menu click on Sample maps(UMAP/tSNE). 
   You can see that a grid opens that displays the datasets available to you for which sample maps have been created. The headers of the grid show filtering options to search for the dataset that you are interested in. Here we want to search for the dataset 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2 '. 
-2. Type 'CCLE' in the textfield *Dataset Class*. Multiple sample maps have been generated from this same dataset. Choose the sample map that shows the date '2017-03-28' in the column *Created* by a click on the **Select** button in front of the row.
+2. Type 'CCLE' in the textfield *Dataset Class*. Multiple sample maps have been generated from this same dataset. Choose the sample map that shows the date '2020-11-24', de tSNE version in the column *Created* by a click on the **Select** button in front of the row.
 
-![](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png "Figure 1A: Select a preprocessed sample map (e.g. t-SNE map) from the grid")
+![](_static/images/Samplemaps/Tsne_select_dataset_from_grid1a.png "Figure 1A: Select a preprocessed sample map (e.g. t-SNE map) from the grid")
 
-  [**Figure 1A: Select a preprocessed sample map (e.g. t-SNE map) from the grid**](_static/images/Samplemaps/Tsne_select_dataset_from_grid.png)
-  
-  
+  [**Figure 1: Select a preprocessed sample map (e.g. t-SNE map) from the grid**](_static/images/Samplemaps/Tsne_select_dataset_from_grid1a.png)
+
+<!---
  You can also search for a sample map of datasets by keywords in the textfield above the grid or by the downwards arrow on the right side of the textfield. The grid will adjust to your keywords and/or dataset selection. 
 
   ![](_static/images/Samplemaps/Tsne_select_preprocessed.png "Figure 1B: Select a dataset with a sample map from the dropdown")
 
   [**Figure 1B: Select a dataset with a sample map from the dropdown**](_static/images/Samplemaps/Tsne_select_preprocessed.png)
-
+-->
 
 Step 2: Annotating t-SNE maps
 ----------------------------
@@ -54,39 +54,58 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 1. In the 'adjustable settings box' set "perplexity' to the value of 23.
 
-2. Select ‘color by track’ from the ‘colormode’ and choose ‘primary site’. Press 'next' to redraw the image.
+2. Select ‘color settings’ from the ‘colormode’ and choose ‘primary site’. Press 'Set Colors' to redraw the image.
 
-  ![](_static/images/Samplemaps/Tsne_cellbroad_primsite.png "Figure 2:Coloring by Track")
+  ![](_static/images/Samplemaps/Tsne_cellbroad_primsite1a.png "Figure 2:Coloring by Track")
 
-  [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Samplemaps/Tsne_cellbroad_primsite.png)
+  [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Samplemaps/Tsne_cellbroad_primsite1a.png)
 
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the *Color mode* to ‘color by gene’.
 
-1. In the 'Adjustable settings' box  select 'Color by Gene' under *Color mode* 
+1. In the 'Color settings'' box  select 'Color by Gene' under *Color mode* 
     and subsequently type 'CLDN3' in the textfield of *Gene / Reporter*. 
     The  corresponding reporter will automatically pop-up (Figure 3 ), click on it to confirm your choice. 
     The gene selection box autocompletes the proper reporter 
     probeset, but this can take a little bit of time before the gene selection
      box appears.  
 
-  ![](_static/images/Samplemaps/Tsne_select_probeset.png "Figure 3: Select  A probeset")
 
-  [**Figure 3: t-SNE select probeset**](_static/images/Samplemaps/Tsne_select_probeset.png)
+![](_static/images/Samplemaps/Tsne_select_probesetv1.png "Figure 3a: Select  A probeset")
 
-2. Again click ‘next’ to refresh the view.  In this view the samples are not colored by a group annotation (track) but by applying a color gradient which reflects the gene expression level according to a log2 scale.  In this sample you can observe  a subgroup of the carcinoma samples which have higher level in contrast to the (other) samples. 
+[**Figure 3a: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_select_probesetv1.png)
 
-  ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3.png "Figure 4: Select  A probeset")
 
-  [**Figure 4: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3.png)
 
-3. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of adenocarcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup. 
-In this picture below, we also adapted the setting *Color scheme* to 'rainbow_1' in the 'Adjustable settings' box.
 
-  ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1.png "Figure 5: Select  A probeset")
+2. Again click ‘set colors’ to refresh the view.  In this view the samples are not colored by a group annotation (track) but by applying a color gradient which reflects the gene expression level according to a log2 scale.  In this sample you can observe   subgroups of the carcinoma samples which have higher level in contrast to the (other) samples.
 
-  [**Figure 5: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1.png)
+![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3v1.png "Figure 4a: Color by gene")
 
+[**Figure 4a: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneCLDN3v1.png)
+
+3. It could be that  you already noticed that the maps are plotted in an interactive fashion allowing you to adapt the graph on the fly. When adapting all kinds of settings such as marking samples, change the dot size, toggle subgroups on and off and much more. As shown in figure 4b.
+
+
+![](_static/images/Samplemaps/SamplemapInteractive.gif "Figure 4a: Changing the layout")
+
+[**Figure 4b: Interactively changing the layout**](_static/images/Samplemaps/SamplemapInteractive.gif)
+
+
+
+
+3. Below the color settings bo you can also use the standard plot module which is static. Use  the track histology_subtype1 to generate a new t-SNE plot in the 'Adjustable settings' menu. It appears that the subgroup which stood out by the color gradient consists mostly of (adeno)carcinomas. Another gene which emphasizes the observation in the previous example is the NR3C1 gene showing an inverse gradient pattern for this subgroup. 
+In this picture below, we also adapted the setting *Color scheme* to 'Fireworks' in the 'Adjustable settings' box.
+
+  ![](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1v1.png "Figure 5: Select  A probeset")
+
+  [**Figure 5: t-SNE_Color by Gene**](_static/images/Samplemaps/Tsne_cellbroad_colorbygeneNR3C1v1.png)
+
+
+
+![](_static/images/Samplemaps/Tsne_select_probesetv2_colorcheme.png "Figure 6n: Select  A probeset")
+
+[**Figure 6: t-SNE select probeset 2**](_static/images/Samplemaps/Tsne_select_probeset.png)
 
 Step 3: Perplexity sweeps for t-SNE maps
 ----------------------------
@@ -96,16 +115,18 @@ What perplexity value is the best option for your dataset of interest? This depe
 
 1. In order to generate an overview of all possible perplexities you have to set the number of *Perplexity* to 'all' and *Color by Track* modus to eg. 'primary_site' in the 'Adjustable Settings' box.
 
-  ![](_static/images/Samplemaps/Tnse_cellbroad_allperplexity.png "Figure 6: All perplexities")
+  ![](_static/images/Samplemaps/Tnse_cellbroad_allperplexity1a.png "Figure 7: All perplexities")
 
-  [**Figure 6: t-SNE: all perplexities**](_static/images/Samplemaps/Tnse_cellbroad_allperplexity.png)
+  [**Figure 7: t-SNE: all perplexities**](_static/images/Samplemaps/Tnse_cellbroad_allperplexity1a.png)
 
   
 
 
 By choosing the perplexity value 'all', miniature tiles will be generated for all perplexities (5-50), where it is still possible to use the color by track mode. Also, you can simply click any of the tiles to generate the map of that particular perplexity in normal large format.  
 
+<!--
 You might have noticed the "Direct link to the t-SNE result: " above the Adjustable settings box underneath the maps. This link can be used to indeed obtain the default view of the same sample map.
+-->
 
 
 Step 4: Creating t-SNE maps
@@ -115,11 +136,11 @@ Depending on your access level in R2, you can create t-SNE maps from any dataset
 
 Let's take a look at another nice example of an R2 generated t-SNE map: the large dataset of normal tissue expression profiles.
 
-1. In main menu *Change Dataset* to the Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 (in the Change Dataset grid fill in the number '2921' in the textfield under the *N* column and click *Select*). Then select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown by the dashed box in figure 7. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering, specific gene sets and expression level restrictions.  
+1. In main menu *Change Dataset* to the Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 (in the Change Dataset grid fill in the number '2921' in the textfield under the *N* column and click *Select*). Then select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown in figure 8. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering and specific gene sets
+
+    ![](_static/images/Samplemaps/Tnse_shortcutPlot1a.png "Figure 8: Create map")
   
-    ![](_static/images/Samplemaps/Tnse_shortcutPlot.png "Figure 7: All perplexities")
-  
-    [**Figure 7: t-SNE: Menu**](_static/images/Samplemaps/Tnse_shortcutPlot.png)
+    [**Figure 8: t-SNE: Menu**](_static/images/Samplemaps/Tnse_shortcutPlot1a.png)
   
   Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >6000 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
 
@@ -127,9 +148,9 @@ Let's take a look at another nice example of an R2 generated t-SNE map: the larg
 
 3. In the Adjustable settings box set the *Color by Track* on 'Tissue'  and click *next*.
 
-  ![](_static/images/Samplemaps/Tsne_normaltissuetrackcolored.png "Figure 8: Colored by track")
+  ![](_static/images/Samplemaps/Tsne_normaltissuetrackcolored1a.png "Figure 9: Colored by track")
 
-  [**Figure 8: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_normaltissuetrackcolored.png)
+  [**Figure 9: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_normaltissuetrackcolored1a.png)
 
 
 Step 5: Creating groups with the t-SNE lasso tool 
@@ -137,19 +158,19 @@ Step 5: Creating groups with the t-SNE lasso tool
 
 Suppose the t-SNE algorithm produced some interesting sample clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the t-SNE map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
 
-1. In the left menu click on *Sample maps* and select 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2' with the date '2017-03-28' in the *Created* column.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  'primary_site' with *Color track* option. The haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
+1. In the left menu click on *Sample maps* and select 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2' with the date '2020-11-24' in the *Created* column.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  'primary_site' with *Color track* option. The haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
 
-    ![](_static/images/Samplemaps/Tsne_lassoselection.png "Figure 9: Colored by track")
+    ![](_static/images/Samplemaps/Tsne_lassoselection1a.png "Figure 9: Colored by track")
 
     [**Figure 9: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_lassoselection.png)
 
-2. Click on *Select subset* below the t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
+2. Click on *Select subset* left from the interactive t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
 
 3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track (temporary tracks will be deleted after 24 hrs). Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
-  ![](_static/images/Samplemaps/Tsne_subgroups.png "Figure 10: Using the lasso selection tool")
+  ![](_static/images/Samplemaps/Tsne_subgroups_lasso.png "Figure 10: Using the lasso selection tool")
 
-  [**Figure 10: t-SNE: Using the lasso selection**](_static/images/Samplemaps/Tsne_subgroups.png)
+  [**Figure 10: t-SNE: Using the lasso selection**](_static/images/Samplemaps/Tsne_subgroups_lasso.png)
 
 
 The lasso selection tool is also available for the PCA module;
