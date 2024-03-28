@@ -146,7 +146,7 @@ Step 3: View multiple genes (Bubble plot)
 
    [**Figure    11: Multiple gene view (bubble), 6**](_static/images/VMGB_bubble_6.png)
 
-
+Finally, we have now used these bubble plots in a single cell dataset, where they are very well suited to convey both expression level, as well as 'proportion expressed' information. These plots can be equally informative in many of the bulk expression data sets that are provided within the R2 platform. In many data sets a notion of 'is expressed' is also captured in the 'present call' variable. 
 
 Final remarks / future directions
 ---------------------------------
