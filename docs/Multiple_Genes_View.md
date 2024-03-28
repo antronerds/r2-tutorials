@@ -159,7 +159,7 @@ into any quirks or annoyances don't hesitate to contact r2 support
 
 
 
-Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / https://r2.amc.nl).
+Everything described in this chapter can be performed in the R2: genomics analysis and visualization platform ([http://r2platform.com](http://r2platform.com) / [https://r2.amc.nl]( https://r2.amc.nl)).
 
 
 
