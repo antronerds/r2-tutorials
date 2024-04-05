@@ -25,7 +25,7 @@ Copyright (c) 2006-2023 R2 Support Team
    K_Means_Clustering
    Using_Signatures
    Analysing_Time_Series
-   Using_And_Creating_Genesets
+   Using_Genesets_creating_Heatmaps
    Principle_Components_Analysis
    tSNE_dimensionality_reduction
    Using_The_Genome_Browser

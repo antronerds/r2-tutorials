@@ -13,7 +13,7 @@ Scope
     annotated single dataset or a selection of datasets at the
     same time. Different analyses are available based on the selection
     of one of these options in field 1.
-- R2 contains omic profiles such as expression and methylation profiles for more than 1.200.000 unique
+- R2 contains omic profiles such as expression and methylation profiles for more than ~2.500.000 unique
     individual samples. The samples are grouped in so-called datasets. Each dataset has its own characteristics, 
     such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added the platform.
 - The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
@@ -76,10 +76,10 @@ Step 2: Advanced selection of datasets
    The column dropdown functions and textboxes can filter the datasets for specific characteristics, e.g. datasets 
    with a minimal number of samples, or a specific author, platform or publication date. You can easily combine the search functions of the different columns.  
   
-   As an example, we want to see which largesets  sets are available. First we write part of the word 
-   neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column to order the datasets in descending order. 
+   As an example, we want to see which large sets sets are available. First we write part of the word 
+   Neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column to order the datasets in descending order. 
 	
-    ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters_v1.png "Figure 5: Combine search filters in the grid")
+    ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters_v1.png "Figure 7: Combine search filters in the grid")
 	
     [**Figure 7: Combine search filters in the grid**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
 	
@@ -94,8 +94,6 @@ Step 2: Advanced selection of datasets
     [**Figure 8: Selecting across datasets**](_static/images/Usingdatasets/UsingDatasets_SelectAcrossDatasetsInR2v1.png)
 	
     Analysis methods following selecting the “Across Datasets” option in field **1** will be discussed in tutorial “Working with multiple datasets”.  
-
-
 
 
 

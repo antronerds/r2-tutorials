@@ -58,12 +58,12 @@ Step 2: Select the gene or reporter
    
    The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays,double labeling arrays, drug data etc etc.  
    
-   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a given expression level.  
+   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
    ![](_static/images/Onegeneview/OneGene_multipleprobegrid2.png "Figure 2: By default the reporter with the highest expression level is selected")
    
-   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Bottom, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
+   [**Figure 2: Top, by default the reporter with the highest expression level is selected. Below, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
 
 2. To follow the example of this tutorial, use the pre-defined default settings in the rest of the adjustable settings menu, and click ‘Next’.
    
@@ -96,6 +96,7 @@ Step 3: Plotting Gene expression
    and then click the button *Submit* at the bottom of the panel.   
 
    
+   
 
 ---------------
  ![](_static/images/R2d2_logo.png)**Did you know that converting expression levels using the “transform” option can help you gain additional insight?**                              
@@ -113,7 +114,7 @@ Step 3: Plotting Gene expression
 >  -   *“zscore\_nonlog”: raw intensity values, centered around the average  
 >        and expressed as the number of standard deviations from the average. This transformation is useful when the intensities in R2 are not raw, but for example logfolds as is often the case for aCGH data.*    
 >  -   *“mad/mad2log”: Median absolute deviation (on raw values, or log2     
->        transformed values).*                                                 
+>        transformed values). The MAD is particularly useful in situations where the data may contain outliers or is not normally distributed.*                                                 
 >  -   *“center/log2center”: Expression values centered around 0 (on raw     
 >        values, or log2 transformed values).*
 >  -   *“Rank”: numerical or ordinal values are replaced by their rank when the data are sorted*
@@ -137,19 +138,32 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 [**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v1.png)
 
-2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4). 
+2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4).
 
+![](_static/images/Onegeneview/OneGene_adjustablesettings_v3a.png "Figure 5: Adjusting the graph settings")
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png "Figure 5: Adjusting the graph settings")
-
-[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v3.png)
+[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v3a.png)
 
 Step 5: Marking / highlighting samples within a plot 
 ----------------
 
 
 
+
 3. In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
+
+
+<!-- Check this "normal" plot options should be removed -->
+
+
+
+* In the Graphics section you can also select **interactive plot** type which support directly the highlighting/marking of individual samples shown in Figure 3a.
+
+
+
+  ![](_static/images/Onegeneview/OneGene_view_interactive.gif "Figure 3a: Marking samples in an interactive plot")
+
+[**Figure 3a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive.gif)
 
 * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click on the small + sign on the right side of the 'More Settings' tab.
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
@@ -160,6 +174,8 @@ Step 5: Marking / highlighting samples within a plot
 If you enter sample names in the 'Samples to mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. However, these will be applied to all the marked samples at the same time.
 
 If you would like to use different layouts and or colors for every indicated sample, or for groups of samples, then you can adjust the marker color and type of the samples that you marked with a syntax in the 'Samples to mark' field. The syntax for using this strategy is explained below:
+
+Please note that the explanation below for marking samples is redundant and is linked to the static plot option and the static plots will be removed.
 
 The syntax to use for 'Samples to mark' is: sample1,sample2:hexcolor1:method1.
 
@@ -193,8 +209,8 @@ Please note, that there is a semicolon **;** between the 2 groups of samples her
 > - *'arrow': Places a block arrow pointing to the sample*
 >
 > - *'triangle': Places a filled triangle under the sample*
->
->   
+> 
+> - *'text': will plot the samplename by the corresponding plot (interactive plot only)*
 >
 >   'colors': use a hexadecimal color code (many examples of these can be found online)
 >
@@ -210,6 +226,11 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 ![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
 [**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png)
+
+![](_static/images/Onegeneview/OneGene_svg_interactive.png "Figure 7a: Obtain a vector (SVG) image of your graph")
+[**Figure 7a: OObtain a vector (SVG) image of your graph (interactive plot)**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1.png)
+
+
 
 ----------
 ![](_static/images/R2d2_logo.png)**Did you know that the 'Adjustable settings' panel is available under most graphs and analysis results in R2?**
@@ -228,7 +249,7 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
 
-5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the genesort within the groups (Figure 9).
+5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the track and genesort within the groups (Figure 9).
 
    ![](_static/images/Onegeneview/OneGene_genevstracksort_v1b.png "Figure 9: Gene vs track sorted")
 
@@ -249,7 +270,7 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 The boxplot and dotboxplot can of course reveal valuable information about statistics and the distribution of data. Another relative new visualisation technic which combines several aspects
 of the traditional plot such as the dotboxplot and violins plot is  the **raincloud"** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
 
-7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are coloured by the Z-score of the DBH expression. Keep in mind that in case your dataset also has been profiled for e.g methylation or drug data (IC50) you can use the values from these corresponding sets in the same graph (Figure 11) combine expression data and other omic data.
+7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are coloured by the Z-score of the DBH expression. In case the samples have also been profiled for another type of data such as methylation data or drug data, you can also select these datatypes in the pulldown menu when you have selected color by gene.  you can use these values from these corresponding sets in the same graph (Figure 11) combine expression data and other omic data.
 
 ![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png "Figure 11: Fonts and Color changed")
 
@@ -325,7 +346,7 @@ Step 7: Adapting a plot
 ---------------
 
 
-1. To investigate the values R2 uses for graph generation click on “View Datatable” to open a table with the expression levels for all samples. Within this table you can use filters to restrict samples. By selecting the rows, a second table is generated, that can be copied, and subsequently pasted in Excel, for further investigation.
+1. To investigate the values R2 uses for graph generation click on “View Datatable” to open a table with the expression levels for all samples. Within this table you can use filters to restrict samples. By selecting the rows, a second table is generated, that can be copied, create an additional track e.g based on sorted data and subsequently pasted in Excel, for further investigation.
    
     ![](_static/images/Onegeneview/OneGene_Datatable.png "Figure 13: Unfold the datatable")
 
@@ -351,9 +372,9 @@ Step 7: Adapting a plot
     selecting.
 
 
-![](_static/images/Onegeneview/OneGene_Extrasettings_v3.png "Figure 15: the extra settings Panel")
+![](_static/images/Onegeneview/OneGene_Extrasettings_v3a.png "Figure 15: the extra settings Panel")
 
-[**Figure 15: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v3.png)
+[**Figure 15: the extra settings Panel**](_static/images/Onegeneview/OneGene_Extrasettings_v3a.png)
 
 
 
@@ -444,9 +465,9 @@ In case you wonder whether any unusual expression levels show up for individual 
 
 1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
 
-    ![](_static/images/Onegeneview/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
+    ![](_static/images/Onegeneview/OneGene_selectsampleextreme1a.png "Figure 21: Select your sample to find extremes")
 
-    [**Figure 21: Select your sample to find extremes**](_static/images/Onegeneview/OneGene_selectsampleextreme.png)
+    [**Figure 21: Select your sample to find extremes**](_static/images/Onegeneview/OneGene_selectsampleextreme1a.png)
 
 
 
@@ -492,9 +513,9 @@ and click on the “Tview” link in the reporter table.
     fold lower than R2's standard pick (22 vs 1369). Below the ESTs the
     average gene expression of the individual probesets is illustrating
     that for this example the correct probeset is selected for analysis.
-    NB: Currently probeset verification is only provided for various
-    human Affymetrix array types.
+3. For many datasets R2 hosts the location of the reporters on the genome so the location and orientation can be inspected as described for the Affymetrix probesets. If the ProbesetVerification table doesn't apears R2 has no information of the  reporter genome location of a given dataset.
 
+   
 
 ![](_static/images/Onegeneview/OneGene_Colorlegend.png "Figure 24 Color ")
 
