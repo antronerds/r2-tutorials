@@ -37,7 +37,9 @@ Copyright (c) 2006-2023 R2 Support Team
    Adapting_R2
    Exporting_Data
    R2_Dataset_Addition
+   Graph_Settings
    Did_You_Know
+
 
    
 ..   

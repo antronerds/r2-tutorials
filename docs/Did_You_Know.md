@@ -3,14 +3,15 @@
 
 Concepts of R2: did you know..?
 ===========================================
-Did you know... that throughout the R2 manual many tips and tricks are provided in small blocksof text containing practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
+Did you know... that throughout the R2 manual many tips and tricks are provided in small blocks of text containing 
+practical guidance and theoratical background for the analysis at hand? These explanetory blocks start with the phrase **"Did you know.."**. This chapter aims to centralize the information of the most essential concepts and settings of R2, such that it is easy to integrate these options and understandings in your own analysis. 
 
 Jump to one of the sections:  
 
 
 - [Statistical terms used in r2 explained?](#r-and-p-values)
 - [Statistical tests in Differential expressed genes?](#Statistical-tests)
-- [Often used settings for analyses](#settings-for-analysess)
+- [Often used settings for analyses](#settings-for-analyses)
     - [Statistics in analyses](#statisticspanel)
     - [When to use multiple testing](#multipletesting)
     - [Hugo Once](#hugoonce)
@@ -23,13 +24,27 @@ Jump to one of the sections:
 
 ### R and p-values  
 
-**R**: is the correlation coefficient; it ranges from -1 to +1, if R > 0 the value of two variables tends to increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation.  
-Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared. 
+**R**: is the correlation coefficient; it ranges from -1 to +1. If R > 0 the value of two variables tends to 
+increase or decrease together. If R < 0 the value of X increases if that of Y decreases, if R\~0 there is no relation.  
+Perhaps the best way to interpret the value of R is to square it. This is the fraction of the variance in the two variables that is shared.  
 For example, if R^2 = 0.59 then 59% of the variance in Y can be explained by (or goes along with) variation in X.  
 The p-value for this calculation estimates the probability that this is an observation by pure chance; a p-value of 0.01 you can be 99% sure that this is not the case.
 
 
-**Correlation**: What are the p and r-values when the correlation between two genes is calculated. The significance of a correlation is determined by t = R/sqrt((1-r^2)/(n-2)), where R is the correlation value and n is the number of samples. Distribution measure is approximately as t with n-2 degrees of freedom.
+**t-statistic**: used to calculate the t-statistic for testing the significance of a correlation coefficient (R) between two variables. Here's a breakdown of the components:
+
+- t: This is the t-statistic, a measure of how many standard deviations a data point is from the mean. In the context 
+of correlation, it is used to test whether the observed correlation is significantly different from zero.
+
+- R: This represents the correlation coefficient between the two variables. It measures the strength and direction of 
+the linear relationship between them. R ranges from -1 to 1, where -1 indicates a perfect negative correlation, 1 indicates a perfect positive correlation, and 0 indicates no linear correlation.
+
+- r: This is the sample correlation coefficient, representing the strength and direction of the linear relationship in a sample of data.
+
+- n: The number of pairs of data points in the sample.
+
+The formula involves taking the correlation coefficient (R) and adjusting it based on the sample size (n). The 
+denominator is essentially the standard error of the correlation coefficient. By dividing R by this standard error, the formula produces a t-statistic that can be compared to critical values from a t-distribution to determine the statistical significance of the correlation. If the absolute value of the t-statistic is large, it suggests that the correlation is likely to be statistically significant. The degrees of freedom for the t-distribution are given by (n-2) in this context. t = R/sqrt((1-r^2)/(n-2)), where R is the correlation value and n is the number of samples. Distribution measure is approximately as t with n-2 degrees of freedom.
 
 
 
@@ -37,7 +52,8 @@ The p-value for this calculation estimates the probability that this is an obser
 
 ### Statistical tests
 
-In both types of Differential expressed genes (FindDiff) the two groups and the multiple group variant R2 offers several types of statistical tests as already stated in the differental expressed chapter.
+In the modules Differential expression between (two) groups, various statistical tests can be utilized to find the differentially expressed genes between two or more groups.   
+
 
 * two group differential expression.
   * T-test. For normal distributed and continous data, see ANOVA explanation below.
