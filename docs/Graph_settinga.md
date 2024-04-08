@@ -1,4 +1,4 @@
-<a id="graphs"> </a>
+<a id="graphs_settings"> </a>
 
 ## Graphs: Adjustable Settings menu versus Repsonsive Settings
 
