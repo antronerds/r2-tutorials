@@ -6,7 +6,7 @@ The tutorials have been assembled as guided short stories, that will instruct yo
 
 If you make use of our platform in manuscripts, then please add a citation that includes the following webcite: 'R2: Genomics Analysis and Visualization Platform (https://r2.amc.nl http://r2platform.com)'. This will help us get the necessary funds to keep on going and in addition allows us to 'scan' the literature to keep track of manuscripts that cite our resource.
 
-Copyright (c) 2006-2023 R2 Support Team
+Copyright (c) 2006-2024 R2 Support Team
 
 .. toctree::
    :maxdepth: 2
