@@ -102,16 +102,28 @@ R2 displays the mRNA expression of the samples in a splitted plot in which per g
 
 These results can also be shown in different types of plots (Figure 5).
 1. Scroll down the window to the Adjustable settings menu.
-2. Adapt the selection in the dropdown box *Graph type* to another graphtype, e.g. **Dot plot (dots)**, and change *Color mode* to **Color by Track**.
+2. Adapt the selection in the dropdown box *Graph type* to another graphtype, e.g. **Box plot**, and change *Color mode* to **Color by Track**. Also set  "Add scatter" to TRUE. 
 3. Note that you can change the order of the groups with *Order Groups By*, let's take **median (numeric Y)** in our case.
 4. Click **Submit**. The resulting graph is adapted accordingly.
 
-![](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png "Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track")
+![](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots1a.png "Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track")
 
 [**Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
 
 
 The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed.
+
+5. Clicking on the setting wheel on the left upper corner enables a popup settings window which allows you to choose file types for saving, numerous visualization settings and marking samples by entering the ID or click the sample in the interactive graph.
+
+![](_static/images/FindDiff/DifferentialExpres_thewheel.png "Figure 6: Adapting the visualisation settings and marking samples")
+
+[**Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
+
+
+D:\git\R2tutorials\docs\_static\images\FindDiff\DifferentialExpres_thewheel.png
+
+
+
 
 5. In the 'Adjustable settings' menu, set the *Transformation* dropdown to **none** (Figure 7).
 6. Click **Submit**.
