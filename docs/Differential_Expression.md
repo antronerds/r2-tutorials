@@ -283,9 +283,9 @@ As mentioned above, Find Differential Expression for multiple groups can also be
 2. Select **Differential expression between multiple groups** and click **Next**
 3. Select for *Group by* the value **inss (5 cat)** and leave all the other settings at their default value. Click **Submit**.
 
-![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 17: Genes differentially expressed between groups")
+![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 19: Genes differentially expressed between groups")
 
-[**Figure 17: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
+[**Figure 19: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
 
 4. A list of differentially expressed genes between the groups is generated. Of course, now that we have more than two groups, the table no longer contains the Difference column and group order column.
 
@@ -304,9 +304,9 @@ Step 7: Inspecting single genes
     gene sort** in the *Extra Graph Option* pulldown menu. Click
     **Submit**.
 
-![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 18: Hover over and click on any gene of interest")
+![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 20: Hover over and click on any gene of interest")
 
-[**Figure 18: Hover over and click on any gene of interest**](_static/images/FindDiff/DifferentialExpress_TopGene.png)
+[**Figure 20: Hover over and click on any gene of interest**](_static/images/FindDiff/DifferentialExpress_TopGene.png)
 
 
 --------------
@@ -327,44 +327,40 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
    on the "add hovering" button below the graph to add
    this information. Note: every plot in R2 with larger amounts of
    datapoints (>5000) will have this "add hovering" button. Adapting the plot parameters in the Adjustable settings menu will also adapt the graph on the fly.
+4. In the adjustable settings menu you select genesets to high light the genes and toggle on histograms allong the X and Y axis.
 
-   ![](_static/images/FindDiff/DifferentialExpress_vulcanoplot.png "Figure 19: Different plots of all genes differentially expressed in the current track;")
 
-   [**Figure 19: XY, MA , Vulcano plot of all genes differentially expressed in the current    track;**](_static/images/FindDiff/DifferentialExpress_vulcanoplot.png)
+   ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21: Different plots of all genes differentially expressed in the current track;")
 
-4. Right clicking on the datapoint in the plot opens up a new window showing the expression
+   [**Figure 21: XY, MA , Vulcano plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_vulconoplot1b.png)
+
+This example is from another differtial analysis, right clicking on the datapoint in the plot opens a new window showing the expression
    of the gene in the two groups as a violin plot.
 
-   ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  20: Differential expression of MYCN")
+   ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  21: Differential expression of MYCN")
 
-   [**Figure  20 : Differential expression of MYCN**](_static/images/FindDiff/DifferentialExpress_Violinplot.png)
+   [**Figure  21 : Differential expression of MYCN**](_static/images/FindDiff/DifferentialExpress_Violinplot.png)
 
 
 
-6. The plot has been adapted to show the AKR1C1
-   genesymbol also  DNA-replication genes are highlighted in red. Fold
+6. The plot has been adapted to show the AKR1C1, PIRT etc
+   genesymbols also  DNA-replication genes are highlighted in green. Fold
    change lines show the regions where differential expression is 1 and
    2 fold (Figure 16). Note that most genes of the DNA replication
    pathway seem to be located below the diagonal.
 
-   ![](_static/images/FindDiff/DifferentialExpres_DNArepl.png "Figure 21: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+   ![](_static/images/FindDiff/DifferentialExpres_DNArepl1a.png "Figure 22: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
-   [**Figure 21: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl.png)
+   [**Figure 22: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl1.png)
 
-7. R2 can visualize the same data also as a Volcano plot or an MA plot.
-   In the Adjustable Settings dialog change the Plot type to Volcano or
-   MA (Figure 21). Note that the distinct
-   characteristics of the AKR1C1 gene and the DNA replication are more
-   obvious in the Volcano plot. The DNA replication pathway statistics
-   will be explored in more detail in the 'Find genes correlating with
-   your gene of interest'-tutorial
+[//]: # (8. In another example in the selected Coloncarcinoma TCGA set, some Ribosomal gene categories which were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.)
 
-8. In another example in the selected Coloncarcinoma TCGA set, some Ribosomal gene categories which were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.
+[//]: # ()
+[//]: # (   ![]&#40;_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png "Figure 22: Adjustable settings for the all genes plot"&#41;)
 
-   ![](_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png "Figure 22: Adjustable settings for the all genes plot")
-
-
-[**Figure 22 : Adjustable settings for the all genes plot**](_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png)
+[//]: # ()
+[//]: # ()
+[//]: # ([**Figure 22 : Adjustable settings for the all genes plot**]&#40;_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png&#41;)
 
 --------------
 Step 9: Using the Enrichr
