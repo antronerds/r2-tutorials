@@ -133,58 +133,41 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene-view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at you disposal as illustrated in Figure 4.
 
-![](_static/images/Onegeneview/OneGene_otheranalysis_v1.png "Figure 4: Other analysis type")
+![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type")
 
-[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v1.png)
+[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v2.png)
 
 2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4).
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_v3a.png "Figure 5: Adjusting the graph settings")
+![](_static/images/Onegeneview/OneGene_plotoptionesettings_v1.png "Figure 5: Adjusting the graph settings")
 
-[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_adjustablesettings_v3a.png)
+[**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_plotoptionesettings_v1.png)
 
 Step 5: Marking / highlighting samples within a plot 
 ----------------
 
 
+3. In the “Plotoption panel” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
 
 
-3. In the “Adjustable settings” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
-
-
-<!-- Check this "normal" plot options should be removed -->
-
-
-
-* In the Graphics section you can also select **interactive plot** type which support directly the highlighting/marking of individual samples shown in Figure 6a.
-
-
-
-  ![](_static/images/Onegeneview/OneGene_view_interactive.gif "Figure 6a: Marking samples in an interactive plot")
+  ![](_static/images/Onegeneview/OneGene_view_interactive1a.gif "Figure 6a: Marking samples in an interactive plot")
 
 [**Figure 6a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive.gif)
 
 * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at the top on the  the 'More Settings' sections.
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
-* Several marking options can be selected with the 'Mark method' that can be found in the 'More settings' tab (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
+* Several marking options can be selected with the 'Mark method' that can be found in the opo-up plot option box (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
 
-*Always click on 'Submit' button at the bottom of the 'Adjust settings' panel for your adjustments to take effect!*
+* Using the plot option box will generate on the fly the adaptions your are makinh
 
-If you enter sample names in the 'Samples to mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. However, these will be applied to all the marked samples at the same time.
+If you enter sample names in the 'Id for new mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. H
 
-If you would like to use different layouts and or colors for every indicated sample, or for groups of samples, then you can adjust the marker color and type of the samples that you marked with a syntax in the 'Samples to mark' field. The syntax for using this strategy is explained below:
 
-Please note that the explanation below for marking samples is redundant and is linked to the static plot option and the static plots will be removed.
 
-The syntax to use for 'Samples to mark' is: sample1,sample2:hexcolor1:method1.
+[//]: # (The skeleton for advanced usage is: ‘sample1,sample2:hexcolor1:method1;sample3,sample4:hexcolor2:method2’. )
 
-Lets start with a simple example of manually defining the marking of 2 samples (namely itcc0288,itcc0021). In order to  mark those, we add a ‘:’ after the IDs with a color code (formulated as hexcolor, but without a #), and/or add a ':' with a marker type, for example; 'itcc0288,itcc0021:ff4444:dot'. Please see the 'did you know' box to find out what mark_types ca be used.
-
-To bring attention to different samples, you may want to use multiple colors and types of marking. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. 
-
-The skeleton for advanced usage is: ‘sample1,sample2:hexcolor1:method1;sample3,sample4:hexcolor2:method2’. 
-
-Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.
+[//]: # ()
+[//]: # (Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.)
 
 ![](_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png "Figure 6: Adjusting the graph settings")
 
