@@ -169,9 +169,10 @@ If you enter sample names in the 'Id for new mark' entry field, then the appeara
 [//]: # ()
 [//]: # (Please note, that there is a semicolon **;** between the 2 groups of samples here. For example: ‘“itcc0288:ff4444:epicenter;itcc0021:#FF0000:arrow;itcc0013,itcc0132:00ff00:dot”’ creates the markings as shown in the figure below.)
 
-![](_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png "Figure 6: Adjusting the graph settings")
+[//]: # (![]&#40;_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png "Figure 6: Adjusting the graph settings"&#41;)
 
-[**Figure 6: Adjusting the sample mark layout**](_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png)
+[//]: # ()
+[//]: # ([**Figure 6: Adjusting the sample mark layout**]&#40;_static/images/Onegeneview/OneGene_view_samplesmark_v2a.png&#41;)
 
 ---------------
 ![](_static/images/R2d2_logo.png)**Did you know that R2 allows you to emphasize samples in the graph with many different marker options?**
@@ -199,11 +200,9 @@ If you enter sample names in the 'Id for new mark' entry field, then the appeara
 > *Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
-Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting youy own demands. Currently R2 is making use of several modules to generate the graphs. So depending on the type on graph type you selected the svg plots can be generated. 
+Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting your own demands. In the plot option menu teh SVG output option can be selected.
 
-* Version A. Click on the top  'More Settings' settings, where you can find a dropdown next to the 'Vector (SVG) output' setting. When the dropdown is set to "True", and the 'Submit' button is clicked, a link appears above the 'Adjustable Settings' panel, that you can right-click to save the vector image to your computer. SVG vector images can be manipulated in any vector graphics software, such as Illustrator, GIMP or Inkscape (left part of fig 7).
-* In case you have selected a graph in the interactive section the name in the name you find the save option in the wheel icon directly in the graph.
-![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1a.png "Figure 7: Obtain a vector (SVG) image of your graph")
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1b.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
 [**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1a.png)
 
@@ -219,30 +218,29 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 4. When you are in the one gene view plot, a logical step is to investigate the expression levels in correspondence  with a group parameter. Select in the analysis type menu "gene vs track" in the track selection menu, the inss track and click "submit", Figure 8. The cohort is separated accordingly by the patient INSS staging in alphabetical order. It could be that the ordering of the group parameters is not the most convenient representation for your analysis. In order to customize this, you can create your own track as described in  (the chapter “Adapting R2 to your needs”) and make your own track with the correct ordering eg: a_stage IV, b_stage 1 etc. 
 
 
-   ![](_static/images/Onegeneview/OneGene_genevstrack1a.png "Figure 8A: Gene vs track")
-
-   [**Figure 8: Gene versus track**](_static/images/Onegeneview/OneGene_genevstrack1a.png)
 
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
 
-5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the track and genesort within the groups (Figure 9).
+5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the track and genesort within the groups (Figure 8).
 
-   ![](_static/images/Onegeneview/OneGene_genevstracksort_v1b.png "Figure 9: Gene vs track sorted")
 
-   [**Figure 9: Gene versus track sorted**](_static/images/Onegeneview/OneGene_genevstracksort.png)
+![](_static/images/Onegeneview/OneGene_genevstrack_sort.png "Figure 8: Gene vs track")
+
+[**Figure 8: Gene versus track / track and gene sort**](_static/images/Onegeneview/OneGene_genevstrack1a.png)
+
 
 
 6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
 
 
-![](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png "Figure 10a: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png "Figure 9: Fonts and Color changed")
 
-[**Figure 10a: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png)
+[**Figure 9: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png)
 
-![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10b: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10: Fonts and Color changed")
 
-[**Figure 10b: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
+[**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
 
 The boxplot and dotboxplot can of course reveal valuable information about statistics and the distribution of data. Another relative new visualisation technic which combines several aspects
 of the traditional plot such as the dotboxplot and violins plot is  the **raincloud"** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
