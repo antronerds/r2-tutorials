@@ -16,26 +16,26 @@ Scope
 
 1. To view circos plots of the sequenced genomes in R2, select *Static circos files (v3)* in Box 3 (Fig 1).
 	
-	![](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
+	![](_static/images/IntAnaWGS/IntAnalysis_WGS_main_staticCircosFiles1a.png)
 	
-	[**Figure 1: Choose the Circos plot module**](_static/images/IntAnalysis_WGS_main_staticCircosFiles.png)
+	[**Figure 1: Choose the Circos plot module**](_static/images/IntAnaWGS/IntAnalysis_WGS_main_staticCircosFiles1a.png)
 	
-2. Select a subset of samples by using the menu on the top.
+2. Select the collection Preview and subsequently a subset of samples by using the menu on the top.
 	- Select *inss (cat 3)* from the select a track (subset) selection box.
 	- Select *st2 (1)* from the pop-up selection window and click 'OK'.
 	
-	![](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
+	![](_static/images/IntAnaWGS/IntAnalysis_WGS_SelectSubset_b.png)
 	
-	[**Figure 2: Select a subset of samples**](_static/images/IntAnalysis_WGS_SelectSubset_a.png)
-	
+	[**Figure 2: Select a subset of samples**](_static/images/IntAnaWGS/IntAnalysis_WGS_SelectSubset_b.png)
+3. 
 2. In Neuroblastoma whole and partial chromosome gains and losses are frequent. This is indicated by the red and green colouring of the cgh-like scatterplots.
 	- One sample doesn't appear to have large structural defects (N482TL).
 	- N482 indicates the sample_id, TL indicates that the circos plot shows data of the **T**umor compared to the **L**ymphocytes DNA sequence data.
 	- Click on the N482TL tile and go to the newly opened tab of your browser.
 
-	![](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
+	![](_static/images/IntAnaWGS/IntAnalysis_WGS_inssSt2Subset1a.png)
 	
-	[**Figure 3: Circos plot**](_static/images/IntAnalysis_WGS_inssSt2Subset.png)
+	[**Figure 3: Circos plot**](_static/images/IntAnaWGS/IntAnalysis_WGS_inssSt2Subset1a.png)
 	
 3. Here we entered the detailed view of the circos plot section.
    On the right side you can open different information tabs.
@@ -44,10 +44,10 @@ Scope
 	3.	Somatic structural variants of a limited size inside or close to genes that could be affected by them.
 	4.	Hight quality non structural somatic variants.
 	5.	A link out to the genome browsers showing a cgh-like plot of the sequencing data of a region of interest.
-
-	![](_static/images/IntAnalysis_WGS_CircosDetailView.png)
+   
+	![](_static/images/IntAnaWGS/IntAnalysis_WGS_CircosDetailView1a.png)
 	
-	[**Figure 4: Cgh-like plot in the Genome Browser**](_static/images/IntAnalysis_WGS_CircosDetailView.png)
+	[**Figure 4: Structural variants**](_static/images/IntAnaWGS/IntAnalysis_WGS_CircosDetailView1a.png)
 	
 	- When you open the *Gene Affecting Structural Variants (of limited size)* tab you can now see two variants listed and not one as shown in the circos plot.
 	  For the circos plot a higher threshold was used for the read pair matches. For the table we show more but less accurate data.

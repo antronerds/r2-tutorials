@@ -98,29 +98,46 @@ R2 displays the mRNA expression of the samples in a splitted plot in which per g
    ![](_static/images/FindDiff/DifferentialExpress_Result.png "Figure 5: Order the samples per group with increasing expression.")
 
 
-[**Figure 5: Order the samples per group with increasing expression.**](_static/images/FindDiff/DifferentialExpress_Result.png)
+[**Figure 5a: Order the samples per group with increasing expression.**](_static/images/FindDiff/DifferentialExpress_Result.png)
 
 These results can also be shown in different types of plots (Figure 5).
 1. Scroll down the window to the Adjustable settings menu.
-2. Adapt the selection in the dropdown box *Graph type* to another graphtype, e.g. **Dot plot (dots)**, and change *Color mode* to **Color by Track**.
+2. Adapt the selection in the dropdown box *Graph type* to another graphtype, e.g. **Box plot**, and change *Color mode* to **Color by Track**. Also set  "Add scatter" to TRUE. 
 3. Note that you can change the order of the groups with *Order Groups By*, let's take **median (numeric Y)** in our case.
 4. Click **Submit**. The resulting graph is adapted accordingly.
 
-![](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png "Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track")
+![](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots1a.png "Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track")
 
-[**Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
+[**Figure 5b: Adapting the Graph type to Box plot, Add scatter**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
 
 
 The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed.
 
-5. In the 'Adjustable settings' menu, set the *Transformation* dropdown to **none** (Figure 7).
-6. Click **Submit**.
+5. Clicking on the setting wheel on the left upper corner enables a popup settings window which allows you to choose file types for saving, numerous visualization settings and marking samples by entering the ID or click the sample in the interactive graph.
+
+![](_static/images/FindDiff/DifferentialExpres_thewheel.png "Figure 6a: Adapting the visualisation settings and marking samples")
+
+[**Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
+
+
+
+6. In the 'Adjustable settings' menu, set the *Transformation* dropdown to **none** (Figure 7).
+
+8. Click **Submit**.
 
 The resulting 2 graphs also depicted in different types of plots in Figure 6 show the difference between the expression values in the two groups more dramatically.
 
-![](_static/images/FindDiff/DifferentialExpression_Barplotv1.png "Figure 7: The same data now represented without transformation in bar/box plots")
+![](_static/images/FindDiff/DifferentialExpression_Barplotv2.png "Figure 7a: The same data now represented without transformation in bar/box plots")
 
-[**Figure  7: The same data now represented without transformation in bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
+[**Figure  7a: The same data now represented without transformation in bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
+
+Figure 5 shows that you can add the sample dots after selecting "Add scatter = TRUE" when e.g box plot is selected this allows you add a second level of coloring by using the group parameters or coloring by gene.
+
+![](_static/images/FindDiff/DifferentialExpress_twolevelcolor.png "Figure 7b: Coloring the dots by track or gene expression")
+
+[**Figure  7b: Coloring the dots by track or gene expression**](_static/images/DifferentialExpress_twolevelcolor.png)
+
+
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
@@ -141,10 +158,12 @@ The resulting 2 graphs also depicted in different types of plots in Figure 6 sho
 
 *In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes. Also note that in the interactive plot section you can mark samples by clicking on the dots.*
 
+Clicking the dots in box plot with scatter = TRUE will open the plot optio box were all kinds of settings can be adapted for the selected dots also a sample id can be entered for selection.
 
-![](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample.png)
 
-[**Figure 10: Graph with sample selection INSS 3 and 4 and a marked sample**](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample.png)
+![](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample1a.png)
+
+[**Figure 10: Graph with sample selection INSS 3 and 4 and a marked sample**](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample1a.png)
 
 
 --------
@@ -191,18 +210,18 @@ In our case we continue with the Tumor Neuroblastoma dataset and the Differentia
 3. An extra menu shows up with many options. For now we only adjust the required Group 1 and Group 2 setting: we choose the value **no (33)** for *Group 1* and **yes (55)** for *Group 2*.
 4.  Click **Submit**.
 
-![](_static/images/DifferentialExpress_Progress.png "Figure 14: Progress dialog during on the fly calculation")
+![](_static/images//FindDiff/DifferentialExpress_Progress1a.png "Figure 14: Progress dialog during on the fly calculation")
 
    [**Figure 14: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
 
 The result is a list of genes that is ordered by the most significant differential expression between the groups that you chose (Figure 15). A short summary of the calculation is given above the table; ~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 The generated list can be sorted or filtered by any of the column headers in the grid, such as by the p-value (P) or the difference.  
   
-In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2. As indicated in the right menu
+In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2 and stored as temporary of permanent geneset in R2, as indicated in the right menu
 
-   ![](_static/images/FindDiff/DifferentialExpress_Genelistv2.png "Figure 15 Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpress_Genelistv2a.png "Figure 15 Genes differentially expressed between groups")
 
-   [**Figure 15: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv2.png)
+   [**Figure 15: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv2a.png)
 
 
 -----------------
@@ -214,21 +233,21 @@ A paired analysis is often performed when observations are natural paired or mat
 
 1. Select in the main screen the following dataset. Exp Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and differential expression between two groups, select group by cell_lineage and click submit. Subsequently select adrenergic and mesenchymal for the groups and click the lower submit button.  Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
 
-   ![](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png "Figure 14: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png "Figure 16: Genes differentially expressed between groups")
 
-   [**Figure 14: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png).
+   [**Figure 16: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png).
 
 2. In the select a test box, select Limma and again for Group by: Cell_lineage and click submit. Select Adrenergic and mesenchymal for the groups and now you can select a track you want to correct for in this case, the  genomic_mycn_status, click the lower submit button.
 
-   ![](_static/images/FindDiff/DifferentialExpres_withcorrectfor.png "Figure 15: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpres_withcorrectfor1a.png "Figure 17: Genes differentially expressed between groups")
 
-   [**Figure 15: Genes differentially expressed between groups with correction.**](_static/images/FindDiff/DifferentialExpres_withcorrectfor.png)
+   [**Figure 17: Genes differentially expressed between groups with correction.**](_static/images/FindDiff/DifferentialExpres_withcorrectfor1a.png)
 
 3. After correction for the genomic_mycn status more genes are found to be significant differentially expressed between the two groups. For example also the PAX5 gene appears higher and more significant in the list which could be a candidate for further investigation.
 
-   ![](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png "Figure 16: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png "Figure 18: Genes differentially expressed between groups")
 
-   [**Figure 16: Genes differentially expressed between groups with correcttion.**](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png)
+   [**Figure 18: Genes differentially expressed between groups with correcttion.**](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png)
 
 
 	
@@ -264,9 +283,9 @@ As mentioned above, Find Differential Expression for multiple groups can also be
 2. Select **Differential expression between multiple groups** and click **Next**
 3. Select for *Group by* the value **inss (5 cat)** and leave all the other settings at their default value. Click **Submit**.
 
-![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 17: Genes differentially expressed between groups")
+![](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png "Figure 19: Genes differentially expressed between groups")
 
-[**Figure 17: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
+[**Figure 19: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
 
 4. A list of differentially expressed genes between the groups is generated. Of course, now that we have more than two groups, the table no longer contains the Difference column and group order column.
 
@@ -285,9 +304,9 @@ Step 7: Inspecting single genes
     gene sort** in the *Extra Graph Option* pulldown menu. Click
     **Submit**.
 
-![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 18: Hover over and click on any gene of interest")
+![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 20: Hover over and click on any gene of interest")
 
-[**Figure 18: Hover over and click on any gene of interest**](_static/images/FindDiff/DifferentialExpress_TopGene.png)
+[**Figure 20: Hover over and click on any gene of interest**](_static/images/FindDiff/DifferentialExpress_TopGene.png)
 
 
 --------------
@@ -308,44 +327,40 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
    on the "add hovering" button below the graph to add
    this information. Note: every plot in R2 with larger amounts of
    datapoints (>5000) will have this "add hovering" button. Adapting the plot parameters in the Adjustable settings menu will also adapt the graph on the fly.
+4. In the adjustable settings menu you select genesets to high light the genes and toggle on histograms allong the X and Y axis.
 
-   ![](_static/images/FindDiff/DifferentialExpress_vulcanoplot.png "Figure 19: Different plots of all genes differentially expressed in the current track;")
 
-   [**Figure 19: XY, MA , Vulcano plot of all genes differentially expressed in the current    track;**](_static/images/FindDiff/DifferentialExpress_vulcanoplot.png)
+   ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21: Different plots of all genes differentially expressed in the current track;")
 
-4. Right clicking on the datapoint in the plot opens up a new window showing the expression
+   [**Figure 21: XY, MA , Vulcano plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_vulconoplot1b.png)
+
+This example is from another differtial analysis, right clicking on the datapoint in the plot opens a new window showing the expression
    of the gene in the two groups as a violin plot.
 
-   ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  20: Differential expression of MYCN")
+   ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  21: Differential expression of MYCN")
 
-   [**Figure  20 : Differential expression of MYCN**](_static/images/FindDiff/DifferentialExpress_Violinplot.png)
+   [**Figure  21 : Differential expression of MYCN**](_static/images/FindDiff/DifferentialExpress_Violinplot.png)
 
 
 
-6. The plot has been adapted to show the AKR1C1
-   genesymbol also  DNA-replication genes are highlighted in red. Fold
+6. The plot has been adapted to show the AKR1C1, PIRT etc
+   genesymbols also  DNA-replication genes are highlighted in green. Fold
    change lines show the regions where differential expression is 1 and
    2 fold (Figure 16). Note that most genes of the DNA replication
    pathway seem to be located below the diagonal.
 
-   ![](_static/images/FindDiff/DifferentialExpres_DNArepl.png "Figure 21: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
+   ![](_static/images/FindDiff/DifferentialExpres_DNArepl1a.png "Figure 22: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
-   [**Figure 21: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl.png)
+   [**Figure 22: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl1.png)
 
-7. R2 can visualize the same data also as a Volcano plot or an MA plot.
-   In the Adjustable Settings dialog change the Plot type to Volcano or
-   MA (Figure 21). Note that the distinct
-   characteristics of the AKR1C1 gene and the DNA replication are more
-   obvious in the Volcano plot. The DNA replication pathway statistics
-   will be explored in more detail in the 'Find genes correlating with
-   your gene of interest'-tutorial
+[//]: # (8. In another example in the selected Coloncarcinoma TCGA set, some Ribosomal gene categories which were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.)
 
-8. In another example in the selected Coloncarcinoma TCGA set, some Ribosomal gene categories which were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.
+[//]: # ()
+[//]: # (   ![]&#40;_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png "Figure 22: Adjustable settings for the all genes plot"&#41;)
 
-   ![](_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png "Figure 22: Adjustable settings for the all genes plot")
-
-
-[**Figure 22 : Adjustable settings for the all genes plot**](_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png)
+[//]: # ()
+[//]: # ()
+[//]: # ([**Figure 22 : Adjustable settings for the all genes plot**]&#40;_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png&#41;)
 
 --------------
 Step 9: Using the Enrichr
