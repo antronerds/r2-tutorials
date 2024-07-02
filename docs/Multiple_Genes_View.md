@@ -105,7 +105,7 @@ Step 2: Viewing multiple genes through track annotation
 Step 3: View multiple genes (Bubble plot)
 ---------------
 
-1. Up to now, we have used the more classical graphs to look at more than 1 gene at once within a data set. Within R2, you can also depict multiple genes in a graphical format that is often used within single cell analyses, called 'bubble plot'. The concept here shows the average expression of genes (optionally within different groups contained in a track) as a color representation in a grid. Every cel in this grid is then drawn as a circle, such that the surface area reflects the ratio of the samples within such a group that is considered to be expressed ( having a Present call within R2). 
+1. Up to now, we have used the more classical graphs to look at more than 1 gene at once within a data set. Within R2, you can also depict multiple genes in a graphical format that is often used within single cell analyses, called 'bubble plot'. The concept here shows the average expression of genes (optionally within different groups contained in a track) as a color representation in a grid. Every cel in this grid is then drawn as a circle, such that the surface area reflects the ratio of the samples within such a group that is considered to be expressed (having a Present call within R2). 
 
    So let's have a look and explore this feature in a scRNA dataset first. From the main page, we first select a data set called : '**Cell line Neuroblastoma 13 cell lines - Chapple - 35323 - seurat_cp10k - ensh38e98**'. This resource contains 13 neuroblastoma cell lines, measured by 10x Genomics technology. 
 

@@ -106,11 +106,11 @@ updates upon a new genebuild release or from a commercial platform such as Affym
     explore the menu items to the right. All gene names are clickable to
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
-3.  At the bottom of the generated list , the adjustable settings menu is located where the filetr options can be adapted.
+3.  At the bottom of the generated list , the adjustable settings menu is located where the filter options can be adapted.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_gotoadjust.png "Figure 3: Gotoadjust")
+    ![](_static/images/CorrelatingGenes/FindGenes_gotoadjust1a.png "Figure 3: Gotoadjust")
 
-    [**Figure 3: Adjustable settings**](_static/images/CorrelatingGenes/FindGenes_gotoadjust.pngg)
+    [**Figure 3: Adjustable settings**](_static/images/CorrelatingGenes/FindGenes_gotoadjust1a.pngg)
 
 
 Step 3: Inspecting correlation between specific genes
@@ -128,7 +128,7 @@ Step 3: Inspecting correlation between specific genes
     [**Figure    4: The expression of the MYCN gene correlates with the expression of    the    APEX1 gene.**](_static/images/CorrelatingGenes/FindGenes_ExpressionPos_v1.png)
 
 2. As an example of the opposite, click on one of the top genes in the
-    right column figure 2 ; MEAF6. This produces Figure 6. The original list of
+    right column figure 2 ; MEAF6. This produces Figure 5. The original list of
     results is still open in another tab in your browser, return there.
 
     ![](_static/images/CorrelatingGenes/FindGenes_ExpressionNeg_v1.png "Figure 5: The expression of MYCN has a negative correlation with that of    the MEAf6    gene")
@@ -144,29 +144,29 @@ Step 3: Inspecting correlation between specific genes
     set Histogram to yes, and click on the Adjust Settings button. Now the histogram
     boxes in the x and y axes show the distribution of the expression levels in the correlation plot, see fig 6. In the green bar located above your graph you can easily click through your generate list instead of going each time to the list to inspect your genes.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png "Figure 6: Toggle Histogram")
+    ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis1a.png "Figure 6: Toggle Histogram")
 
-    [**Figure 6: Toggle Histogram**](_static/images/CorrelatingGenes/FindGenes_ExpressionHis.png)
+    [**Figure 6: Toggle Histogram**](_static/images/CorrelatingGenes/FindGenes_ExpressionHis1a.png)
 
 4. Another nice way to adjust the graphical representation of a XY plot is by using the gene expression levels and applying these to a color gradient.
 
 
-   ![](_static/images/CorrelatingGenes/Findgenes_ColorbyGene1.png "Figure 7: Select Color by gene")
+   ![](_static/images/CorrelatingGenes/Findgenes_ColorbyGene1b.png "Figure 7: Select Color by gene")
 
-   [**Figure 7: Select Color by gene**](_static/images/CorrelatingGenes/Findgenes_ColorbyGene1.png)
+   [**Figure 7: Select Color by gene**](_static/images/CorrelatingGenes/Findgenes_ColorbyGene1b.png)
 
-   Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 	coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings". In this example the reporters of the MYCN vs MEAF6 are plotted and subsequently colored by the MYCN expression levels. Of course, you can also enter a third gene for coloring the dots.
+   Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 	coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings". In this example the reporters of the MYCN vs MEAF6 are plotted and subsequently colored by the MYCN expression levels. And a nice collection of gradients can be selected. Of course, you can also enter a third gene for coloring the dots.
 
 
-   ![](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1.png "Figure 8: Colored by expression")
+   ![](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1a.png "Figure 8: Colored by expression")
 
-   [**Figure 8: Select Color by gene epression**](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1.png)
+   [**Figure 8: Select Color by gene epression**](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1a.png)
 
-5. Another way to visualize the relationship of the expression correlation in an XY plot is to switch on the linear fit option. In the "More settings section", turn on "linear fit".
+5. Another way to visualize the relationship of the expression correlation in an XY plot is to switch on the linear fit option. In option menu accessible via the wheel icon you select many extra optio such as linear fit.
 
-   ![](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1.png "Figure 9: Colored by expression")
+   ![](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1b.png "Figure 9: Colored by expression")
 
-   [**Figure 9: Select Linear fit**](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1.png)
+   [**Figure 9: Select Linear fit**](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1b.png)
 
    ![](_static/images/CorrelatingGenes/FindGenes_linearFitFigOnegroup.png "Figure 10: Linear fit")
 
