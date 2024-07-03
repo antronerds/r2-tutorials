@@ -13,7 +13,7 @@ Scope
     specific dataset.
 - In this example the expression levels of the MYCN gene will be used.
 - Adjust several parameters in the advanced settings panel to get a
-    better insight in the expressions levels or adapt your
+    better insight in the expression levels or adapt your
     graphic layout.
 - In R2, the samples are annotated with e.g. clinical data, each group
     of annotated data is called a “Track” in R2. These tracks can be
@@ -22,9 +22,9 @@ Scope
     provides different types of analyses based on the expression level
     of the chosen gene.
 - Many mRNA expression datasets were generated with Affymetrix
-    profiling arrays and NGS data (rnaseq). In general, the Affymetrix  arrays use more than one so-called probeset to measure the expression level of one single gene.
+    profiling arrays and NGS data (RNA-seq). In general, the Affymetrix  arrays use more than one so-called probeset to measure the expression level of one single gene.
     With a separate module “Transcript view”, the details of the
-    probesets can be studied. This also holds for multiple RNAseq data in case the chromosomal  location of the reporter (Gene) is stored in the R2 database.
+    probesets can be studied. This also holds for multiple RNA-seq data in case the chromosomal  location of the reporter (Gene) is stored in the R2 database.
 
 
 
@@ -48,14 +48,14 @@ Step 1: Select the View a Gene module
 Step 2: Select the gene or reporter
 ---------------
 
-1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" textfield and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
+1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" text field and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
    
-   In the case of Affymetrix datasets, the term probeset is often used instead of reporter, and more than one probeset can be associated with a gene. As you can see in dropdown list for MYCN in this example, multiple probesets are annotated for the MYCN gene.  The term probeset originates from affymetrix arrays, the terms probeset and reporter will be used in this tutorial interchangeably.
+   In the case of Affymetrix datasets, the term probeset is often used instead of reporter, and more than one probeset can be associated with a gene. As you can see in dropdown list for MYCN in this example, multiple probesets are annotated for the MYCN gene.  The term probeset originates from Affymetrix arrays, the terms probeset and reporter will be used in this tutorial interchangeably.
    
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can choose from the available probesets that are listed in a small dropdown. The default R2 probeset will be the first one in the list.   
    Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
    
-   The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays,double labeling arrays, drug data etc etc.  
+   The expression levels of datasets are by default converted to log2 values. This does not apply to datasets that contain ratios or logfolds such as methylation arrays, double labeling arrays, drug data etc etc.  
    
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
@@ -117,7 +117,7 @@ Step 3: Plotting Gene expression
 >  -   *“center/log2center”: Expression values centered around 0 (on raw     
 >        values, or log2 transformed values).*
 >  -   *“Rank”: numerical or ordinal values are replaced by their rank when the data are sorted*
->  -   *“zscore\_group”: Coverts the expression levels from the zscore within 
+>  -   *“zscore\_group”: Converts the expression levels from the zscore within 
 >        a group (track). Applicable when e.g. technical variation in          
 >        expression levels is expected. A possible reason could be when       
 >        samples from the same dataset originate from different centers.*  
@@ -131,7 +131,7 @@ Step 4: Selecting analysis types: View a gene in groups
 
 In the one gene view plot we have investigated the gene expression of a single gene together with the sample annotation depicted below the graph.
 
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene-view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at you disposal as illustrated in Figure 4.
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at your disposal as illustrated in Figure 4.
 
 ![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type")
 
@@ -156,7 +156,7 @@ Step 5: Marking / highlighting samples within a plot
 
 * Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at the top on the  the 'More Settings' sections.
 * To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
-* Several marking options can be selected with the 'Mark method' that can be found in the opo-up plot option box (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
+* Several marking options can be selected with the 'Mark method' that can be found in the pop-up plot option box (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
 
 * Using the plot option box will generate on the fly the adaptions your are makinh
 
@@ -193,14 +193,14 @@ If you enter sample names in the 'Id for new mark' entry field, then the appeara
 >
 > - *'triangle': Places a filled triangle under the sample*
 > 
-> - *'text': will plot the samplename by the corresponding plot (interactive plot only)*
+> - *'text': will plot the sample name by the corresponding plot (interactive plot only)*
 >
 >   'colors': use a hexadecimal color code (many examples of these can be found online)
 >
 > *Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 ---------------
 
-Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting your own demands. In the plot option menu teh SVG output option can be selected.
+Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting your own demands. In the plot option menu the SVG output option can be selected.
 
 ![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1b.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
@@ -242,17 +242,17 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 [**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
 
-The boxplot (with add scatter = **TRUE**) can of course reveal valuable information about statistics and the distribution of data. Another relative new visualisation technic which combines several aspects
-of the traditional plots such as the box plot,dot plot and violins plot is  the **raincloud** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
+The boxplot (with add_scatter = **TRUE**) can of course reveal valuable information about statistics and the distribution of data. Another relative new visualization technique which combines several aspects
+of the traditional plots such as the box plot,dot plot and violin plot is  the **raincloud** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
 
-7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are coloured by the Z-score of the DBH expression. In case the samples have also been profiled for another type of data such as methylation data or drug data, you can also select these datatypes in the pulldown menu when you have selected color by gene.  you can use these values from these corresponding sets in the same graph (Figure 11) combine expression data and other omic data.
+7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are colored by the Z-score of the DBH expression. In case the samples have also been profiled for another type of data such as methylation data or drug data, you can also select these datatypes in the pull-down menu when you have selected color by gene.  you can use these values from these corresponding sets in the same graph (Figure 11) combine expression data and other omics data.
 
 ![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1a.png "Figure 11: Fonts and Color changed")
 
 [**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png)
 
 
-8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
+8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "Relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
 
 ![](_static/images/Onegeneview/OneGene_boxmainmnu.png "Figure 12: track vs track and main menu ")
 
@@ -286,19 +286,19 @@ Step 6: Sources for additional information on the selected gene
 
 In the right upper menu-panel several options are available to provide
 you with additional information sources of the MYCN gene and additional
-analyses. When you click on the link (the name of the gene) under the PubSniffer header new screen opens that lists the number of times your gene of interest is found within the NCBI Pubmed database in
+analyses. When you click on the link (the name of the gene) under the PubSniffer header new screen opens that lists the number of times your gene of interest is found within the NCBI PubMed database in
 combination with dataset keywords. Clicking on one of the "PubReMiner" links redirects you
-**to Pubmed PubReMiner** which is a tool for PubMed query building and
+**to PubMed PubReMiner** which is a tool for PubMed query building and
 literature mining.
 
 KaplanScan and Time Series analyses will be discussed in
-separate tutorials. However, keep in mind, in case Kaplan Meier data is available for a given dataset this will always be visible in the right menu for one-gene-view. GeneCards will redirect you to an overview on your gene of interest composed of many different resources. ProbePlus, will
+separate tutorials. However, keep in mind, in case Kaplan-Meier data is available for a given dataset this will always be visible in the right menu for one-gene-view. GeneCards will redirect you to an overview on your gene of interest composed of many different resources. ProbePlus will
 provide the sequences probed by the U133 Affymetrix platforms and other platforms if available.
 
 Across datasets will generate an overview showing the average expression
 of the gene of interest within all datasets of the same
 platform/normalization scheme (provided that the normalization supports
-dataset additions). Further, in the Sample Map section pre-generated high-dimensionality reduction maps (t-SNE and umap) can be plotted.
+dataset additions). Further, in the Sample Map section pre-generated high-dimensionality reduction maps (t-SNE and UMAP) can be plotted.
 
 
 
@@ -309,7 +309,7 @@ dataset additions). Further, in the Sample Map section pre-generated high-dimens
 > *In the large amounts of medical literature, finding information tailored to your needs and interest is becoming more and more complex. Using the right keywords is essential for effective searches, but which ones should you use?*
 >  *PubReMiner is a web-based tool that allows simple text-based query building and information gathering (mining) of the NCBI literature search engine PubMed.*
 >  *PubReMiner presents its results, gathered from abstracts, in frequency tables of journals, authors and words, which can be included / excluded in an iterative fashion.*
->  *Next to building efficient queries, PubReMiner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research) Finding experts in a research area (by viewing the authors associated with your query) Determine the research interest of an author (by viewing the keywords associated with an author*
+>  *Next to building efficient queries, PubReMiner can also be helpful in other areas: selecting a journal for your current work (by scanning the most often used journals of similar research), finding experts in a research area (by viewing the authors associated with your query), determining the research interest of an author (by viewing the keywords associated with an author)*
 
 --------------------
 
@@ -438,7 +438,7 @@ Step 9: Find best track separation with CliniSnitch
     Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
     and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other words the correlation between the p-values.
     categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
-    a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
+    a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
     'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
 
