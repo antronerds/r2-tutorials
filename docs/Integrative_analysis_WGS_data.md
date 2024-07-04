@@ -42,7 +42,7 @@ Scope
 	1.	Sample annotation.
 	2.	Somatic structural variants.
 	3.	Somatic structural variants of a limited size inside or close to genes that could be affected by them.
-	4.	Hight quality non structural somatic variants.
+	4.	High quality non structural somatic variants.
 	5.	A link out to the genome browsers showing a cgh-like plot of the sequencing data of a region of interest.
    
 	![](_static/images/IntAnaWGS/IntAnalysis_WGS_CircosDetailView1a.png)
@@ -66,11 +66,11 @@ Scope
 	
 	[**Figure 6: Including Array data in the scatterplot**](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
 	
-5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you wil be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series. The investigated tumor is highlighted with a red circle.
+5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you will be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series. The investigated tumor is highlighted with a red circle.
 
 	![](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 	
-	[**Figure 7: FOXR1 in the tumorseries**](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
+	[**Figure 7: FOXR1 in the tumor series**](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 
-Using the MegaSampler tool from within R2 you can also show that the FOXR1 gene is only expressed in a hand full of samples out out thousands, and that these mostly are neuroblastoma cases. Out of the samples that could be checked, all appear to have created in-frame fusions with FOXR1. All of these findings, and additional experiments proving that FOXR1 can serve as an oncogene in neuroblastoma have been published by Santo et al in Oncogene (2012).
+Using the MegaSampler tool from within R2 you can also show that the FOXR1 gene is only expressed in a hand full of samples out of thousands, and that these mostly are neuroblastoma cases. Out of the samples that could be checked, all appear to have created in-frame fusions with FOXR1. All of these findings, and additional experiments proving that FOXR1 can serve as an oncogene in neuroblastoma have been published by Santo et al in Oncogene (2012).
 
