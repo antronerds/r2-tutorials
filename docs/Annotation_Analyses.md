@@ -81,13 +81,14 @@ Step 1: Relating 2 (categorical) tracks
     deceased patients who are older than 18 months. As you may appreciate, the combinations that you can make here are virtually endless. 
     We have named this analysis the 'Visual Fisher's Exact test', due to the visual additional insights that it provides over the 'normal' p-value that can be interpreted for this test.
 
-    ![](_static/images/Annotation/AnnotationAnalyses_colorsamplesv1a.png "Figure3: Color samples by track")
-	
-    [**Figure 3: Color samples by track**](_static/images/Annotation/AnnotationAnalyses_colorsamples.png)
+[//]: # (    ![]&#40;_static/images/Annotation/AnnotationAnalyses_colorsamplesv1a.png "Figure3: Color samples by track"&#41;)
 
-   ![](_static/images/Annotation/AnnotationAnalyses_Interactive_plot.gif "Figure 3a: Using the interactive plot options")
+[//]: # (	)
+[//]: # (    [**Figure 3: Color samples by track**]&#40;_static/images/Annotation/AnnotationAnalyses_colorsamples.png&#41;)
 
-   [**Figure 3a: Using the interactive plot options**](_static/images/AnnotationAnnotationAnalyses_Interactive_plot.gif)
+   ![](_static/images/Annotation/AnnotationAnalyses_Interactive_plot.gif "Figure 3: Using the interactive plot options")
+
+   [**Figure 3: Using the interactive plot options**](_static/images/AnnotationAnnotationAnalyses_Interactive_plot.gif)
 
 	
 5. To compare the absolute or relative shares of track values between subgroups of another track, you can use the "Stacked Barplot" or "Stacked Barplot ratio" respectively. The "Stacked Barplot ratio" option scales every group to 100%, and thereby shows the relative contribution of the different groups. Also the grouped bar plot is a handy visualisation to split your representation for a group parameter.
@@ -113,7 +114,7 @@ Step 2: Relating 2 (numerical) tracks
     previous example, we could color the patients by a track if that
     would be appropriate.
 
-	![](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1.png "Figure 5: Output of relating numerical tracks")
+	![](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1a.png "Figure 5: Output of relating numerical tracks")
 	
 	[**Figure 5: Output of relating numerical tracks**](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1.png)
 	
