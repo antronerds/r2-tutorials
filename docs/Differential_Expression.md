@@ -36,7 +36,7 @@ Step 1: Selecting data and the type of analysis
 
 
 
-1.  Logon to the R2 homepage using your credentials and make sure the
+1.  Log on to the R2 homepage using your credentials and make sure the
     **Single Dataset** field is selected in field 1.
 2.  Make sure the **Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2** dataset is selected in
     field 2 (see chapter 1 of the tutorial for more information about the selection of a dataset).
@@ -54,7 +54,7 @@ In the next screen you will choose the gene of interest and decide which groupin
 [**Figure 1: Step-by-step scenario to select 'View a gene in groups' on the main page of R2**](_static/images/FindDiff/DifferentialExpression_Genev1a.png)
 
 
-1. Type **mycn** as gene (see Figure 1) in the first textfield in the Adjustable settings box. Select with a mouse click the first reporter in the popup (the first row). The reporter textfield is automatically filled in.
+1. Type **mycn** as gene (see Figure 1) in the first text field in the Adjustable settings box. Select with a mouse click the first reporter in the popup (the first row). The reporter textfield is automatically filled in.
 
 
 To view the expression of this gene in groups, you can use dataset specific annotation, the so-called "tracks", as grouping variable in R2.
@@ -102,7 +102,7 @@ R2 displays the mRNA expression of the samples in a splitted plot in which per g
 
 These results can also be shown in different types of plots (Figure 5).
 1. Scroll down the window to the Adjustable settings menu.
-2. Adapt the selection in the dropdown box *Graph type* to another graphtype, e.g. **Box plot**, and change *Color mode* to **Color by Track**. Also set  "Add scatter" to TRUE. 
+2. Adapt the selection in the dropdown box *Graph type* to another graph type, e.g. **Box plot**, and change *Color mode* to **Color by Track**. Also set  "Add scatter" to TRUE. 
 3. Note that you can change the order of the groups with *Order Groups By*, let's take **median (numeric Y)** in our case.
 4. Click **Submit**. The resulting graph is adapted accordingly.
 
@@ -131,7 +131,7 @@ The resulting 2 graphs also depicted in different types of plots in Figure 6 sho
 
 [**Figure  7a: The same data now represented without transformation in bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
 
-Figure 5 shows that you can add the sample dots after selecting "Add scatter = TRUE" when e.g box plot is selected this allows you add a second level of coloring by using the group parameters or coloring by gene.
+Figure 5 shows that you can add the sample dots after selecting "Add scatter = TRUE" when e.g. box plot is selected this allows you add a second level of coloring by using the group parameters or coloring by gene.
 
 ![](_static/images/FindDiff/DifferentialExpress_twolevelcolor.png "Figure 7b: Coloring the dots by track or gene expression")
 
@@ -158,7 +158,7 @@ Figure 5 shows that you can add the sample dots after selecting "Add scatter = T
 
 *In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes. Also note that in the interactive plot section you can mark samples by clicking on the dots.*
 
-Clicking the dots in box plot with scatter = TRUE will open the plot optio box were all kinds of settings can be adapted for the selected dots also a sample id can be entered for selection.
+Clicking the dots in box plot with scatter = TRUE will open the plot optio box were all kinds of settings can be adapted for the selected dots also a sample ID can be entered for selection.
 
 
 ![](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample1a.png)
@@ -185,8 +185,8 @@ It would be a pretty tedious job to look for all genes whether they are differen
 
 Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.  Most expression sets are continuous and normally distributed data so the T-test is the most applicable. In case of a dataset which contains categorical data the Mann-whitney test is more suitable.  
 
-A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalised counts. Most of the datasets that have DESeq2_rlog or DESeq2_vst in the name consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
-Using the DESEq2 algorithm in case of RNAseq is often appreciated since this is a well established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst** as normalization procedure. Datasets with this annotation have three slots, rlog normalized data, deseq normalized data (normcounts) and a counts slot. This counts slot is used when you run the DESeq2 algorithm on the fly for two group comparisons.  
+A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalized counts. Most of the datasets that have DESeq2_rlog or DESeq2_vst in the name consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
+Using the DESEq2 algorithm in case of RNAseq is often appreciated since this is a well-established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst** as normalization procedure. Datasets with this annotation have three slots, rlog normalized data, deseq normalized data (normcounts) and a counts slot. This counts slot is used when you run the DESeq2 algorithm on the fly for two group comparisons.  
 
 
    ![](_static/images/FindDiff/DifferentialExpress_deseq2select.png "Figure 12: Selecting Find Differential Expression.")
@@ -217,7 +217,7 @@ In our case we continue with the Tumor Neuroblastoma dataset and the Differentia
 The result is a list of genes that is ordered by the most significant differential expression between the groups that you chose (Figure 15). A short summary of the calculation is given above the table; ~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 The generated list can be sorted or filtered by any of the column headers in the grid, such as by the p-value (P) or the difference.  
   
-In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2 and stored as temporary of permanent geneset in R2, as indicated in the right menu
+In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2 and stored as temporary or permanent geneset in R2, as indicated in the right menu
 
    ![](_static/images/FindDiff/DifferentialExpress_Genelistv2a.png "Figure 15 Genes differentially expressed between groups")
 
@@ -262,8 +262,8 @@ A paired analysis is often performed when observations are natural paired or mat
 >
 >  **You can specify the preferred statistical test and choose a subset of genes?**
 > *Use any (combination) of the following parameters to adapt the analysis to your needs.*
-> - **Hugo Once (hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Scroll down in [Chapter 25](Did_You_Know.md) to the Settings section about Hugo Once.*
-> - **Statistics panel**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal Wallis test is performed. In addition to these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
+> - **Hugo Once (Hugoonce)**: *For most analysis genes should only be reported once in a dataset. R2 uses an algorithm called Hugoonce to choose a single probe-set to represent a gene. Scroll down in [Chapter 25](Did_You_Know.md) to the Settings section about Hugo Once.*
+> - **Statistics panel**: *R2 determines p-values for the differential expression of genes by performing either a one-way anova (default setting) or alternatively a brute-force t-test on any combination of groups when the data is untransformed or log2 transformed. For rank-transformed data, a Kruskal-Wallis test is performed. In addition to these statistical tests, users can also ask for genes with a certain fold change or obtain a top-X list of the genes which are ordered by a user-specified test.*
 > - **Correction for multiple testing**: *We are testing a lot of genes here; so we have to correct for multiple testing. Why? Read on about multiple testing in [Chapter 25](Did_You_Know.md)*
 > - **Gene Filters:** *As for many analyses in R2, the gene filters allow you to study a specific subset of genes for differential expression. There are several domains you can choose from. Learn more about gene filters in [Chapter 25](Did_You_Know.md)*
 
@@ -297,7 +297,7 @@ Step 7: Inspecting single genes
 1. Choose one of the genes in the table to inspect further.
 2. Hover over the magnify symbol in the list next to the gene name to find a description of the gene. 
 3. Now click on the magnify symbol. A similar graph is produced as for TF, the differential
-    expression is more pronounced for this gene (Figure 18). In stage 4s, even indicating  based on the TF expresion that there is possible subgroup within the INSS 4s stage.
+    expression is more pronounced for this gene (Figure 18). In stage 4s, even indicating  based on the TF expression that there is possible subgroup within the INSS 4s stage.
 4. In the
     generated picture the samples are not ordered by their gene
     expression. Go to the adjustable settings menu and select **Track and
@@ -320,21 +320,21 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
     analysis. In the right menu click see Figure 15 'Plot all genes (xy,
     volcano, etc.)'.
 
-3. The resulting plot shows all genes of the list in a XY-plot, MA-plot and vulcano plot depending on your choice; in case of the XY datapoints above and below the diagonal are
+3. The resulting plot shows all genes of the list in a XY-plot, MA-plot and volcano plot depending on your choice; in case of the XY datapoints above and below the diagonal are
    differentially expressed. Hovering over the points shows the
-   genesymbol, clicking on the dots will annotate the dots with the gene name., To speed up the
+   gene symbol, clicking on the dots will annotate the dots with the gene name., To speed up the
    graph generation this information is not automatically loaded: click
    on the "add hovering" button below the graph to add
    this information. Note: every plot in R2 with larger amounts of
    datapoints (>5000) will have this "add hovering" button. Adapting the plot parameters in the Adjustable settings menu will also adapt the graph on the fly.
-4. In the adjustable settings menu you select genesets to high light the genes and toggle on histograms allong the X and Y axis.
+4. In the adjustable settings menu you select genesets to high light the genes and toggle on histograms along the X and Y axis.
 
 
    ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21: Different plots of all genes differentially expressed in the current track;")
 
-   [**Figure 21: XY, MA , Vulcano plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_vulconoplot1b.png)
+   [**Figure 21: XY, MA , Volcano plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_vulconoplot1b.png)
 
-This example is from another differtial analysis, right clicking on the datapoint in the plot opens a new window showing the expression
+This example is from another differential analysis, right clicking on the datapoint in the plot opens a new window showing the expression
    of the gene in the two groups as a violin plot.
 
    ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  21: Differential expression of MYCN")
@@ -344,7 +344,7 @@ This example is from another differtial analysis, right clicking on the datapoin
 
 
 6. The plot has been adapted to show the AKR1C1, PIRT etc
-   genesymbols also  DNA-replication genes are highlighted in green. Fold
+   gene symbols also  DNA-replication genes are highlighted in green. Fold
    change lines show the regions where differential expression is 1 and
    2 fold (Figure 16). Note that most genes of the DNA replication
    pathway seem to be located below the diagonal.
@@ -366,7 +366,7 @@ This example is from another differtial analysis, right clicking on the datapoin
 Step 9: Using the Enrichr
 ---------------
 
-The right menu also allows you to take your result list of differentially expressed genes (DEG) outside R2 to the public available Enrichr platform. Enrichr (https://maayanlab.cloud/Enrichr/enrich) is a web-based platform designed for gene set enrichment analysis (GSEA) and functional annotation of gene lists. It allows you to gain insights into the biological processes, pathways, and functions associated with their gene sets of interest. The Enrichr performs an enrichment analysis by comparing the generated R2-list against a large collection of well curated databases such as Gene Ontlogy, KEGG pathways and disease-associated gene sets
+The right menu also allows you to take your result list of differentially expressed genes (DEG) outside R2 to the public available Enrichr platform. Enrichr (https://maayanlab.cloud/Enrichr/enrich) is a web-based platform designed for gene set enrichment analysis (GSEA) and functional annotation of gene lists. It allows you to gain insights into the biological processes, pathways, and functions associated with their gene sets of interest. The Enrichr performs an enrichment analysis by comparing the generated R2-list against a large collection of well curated databases such as Gene Ontology, KEGG pathways and disease-associated gene sets
 
 ![](_static/images/FindDiff/DifferentialExpres_enrichr.png "Figure    23 : Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
