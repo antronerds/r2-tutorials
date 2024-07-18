@@ -156,7 +156,7 @@ Within R2 the regions of histone modification are calculated with the RSEG algor
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know that you can provide arbitrary locations on the genome?**
 
-
+K
 > *Other than GeneSymbols (where R2 will find the most downstream TSS for you) to jump to a different location on the genome, you can also provide genome positions in the center panel, e.g. *Chromosome* 'chr1', *Start* '10020035', *End* 'chr1:10020035'. Or try clicking on a different part of the chromosome strand above the graph section.*
 
 ---------
