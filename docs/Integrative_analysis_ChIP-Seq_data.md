@@ -117,14 +117,14 @@ In this ADRN type cell line it is clearly shown that active GATA3 is associated 
 
 [**Figure 8: Histone modification profiles around GATA3 location**](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_b.png)
 
-In the next figure the legend is shown by color what kind of chromatin state the colors represent and also how to toggle the NIH plugin to get detailed information for the tissue types.
+In the next figure the legend is shown of the epigenetic profiles of the NIH Epigenome Roadmap project, for each color what kind of chromatin state the colors represent and also how to toggle the NIH plugin to get detailed information for the tissue types.
 
 
    ![](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_c.png)
 	
    [**Figure 8a: Legend and detailed source information**](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_c.png)
 
-Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. As an additional requirement we selected for genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). 
+Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. We selected a list of genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). 
 1. Go back to the ChIP-seq choice menu. Open a new tab by right click "Go to main" and click chip data in the left menu.  Now choose the *ChIPSeq TSS Peak/Coverage Plotter*
 
 2. We're going to inspect Transcription Factor binding; Click on "Select a ChIP profile" and filter the grid by typing 'BE' in the *name* textbox, click somewhere in the table row of the BE2 cell line to select the data collected by Oldridge et al. and confirm by a click on the button "Use this experiment".  
