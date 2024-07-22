@@ -125,11 +125,11 @@ In the next figure the legend is shown of the epigenetic profiles of the NIH Epi
    [**Figure 8a: Legend and detailed source information**](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_c.png)
 
 Going through these steps would be a tedious job if you wish to inspect several genes. Suppose we obtained a list of differentially expressed genes from a transcription factor regulation experiment. We selected a list of genes with a known cancer association. [You can find the list here](_static/files/DiffExprCancerGenesList.txt). 
-1. Go back to the ChIP-seq choice menu. Open a new tab by right click "Go to main" and click chip data in the left menu.  Now choose the *ChIPSeq TSS Peak/Coverage Plotter*
+1. We will go back to the ChIP-seq choice menu: open a new tab by right click "Go to main" and click chip data in the left menu.  Now choose the *ChIPSeq TSS Peak/Coverage Plotter*
 
 2. We're going to inspect Transcription Factor binding; Click on "Select a ChIP profile" and filter the grid by typing 'BE' in the *name* textbox, click somewhere in the table row of the BE2 cell line to select the data collected by Oldridge et al. and confirm by a click on the button "Use this experiment".  
 
-3. Set perspective to peaks if it was not done so already. Copy paste the genes obtained in step 5 or type genes of your interest into the *Enter genesymbols / genome positions* textbox.  In the *Gene Order* selection box select 'by_row_signal' and click "Next". The Gata binding sites around the genes in the list are shown (Figure 9). 
+3. Set perspective to peaks if it was not done so already. Copy paste the genes from our list of genes with a known cancer association above or type genes of your interest into the *Enter genesymbols / genome positions* textbox.  In the *Gene Order* selection box select 'by_row_signal' and click "Next". The Gata binding sites around the genes in the list are shown (Figure 9). 
 
 	![](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_ExpSelect_a.png)
 	
@@ -141,8 +141,9 @@ Going through these steps would be a tedious job if you wish to inspect several 
 	
 	[**Figure 10: ALK profile within GATA3 ChIP-seq experiment**](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_ALKprofile.png)
 	
-	The view can be adapted by ticking additional datasets; e.g. GATA ChIP-seq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.  In picture 11,The following experiments were selected:  chip_Author:Oldridge -> BE,BE2,Kelly,NGP and SY5Y and chip_author Bernstein -> LAN6.
-	Zooming out produces Figure 11 from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *Range* 'a to 120' and *Slider* on 'average' 5.  	
+	The view can be adapted by ticking additional datasets; e.g. GATA ChIP-seq experiments in other cell lines. Colors of the data can be adapted on the right side of the grid to easily distinguish them. Remember to always click the "redraw" button in the center panel for any changed settings to take effect.<br>
+	In picture 11, the following experiments were selected:  chip_Author:Oldridge -> BE,BE2,Kelly,NGP and SY5Y and chip_author Bernstein -> LAN6.
+	Zooming out produces Figure 11, from which it is apparent that in some specific cell lines there is enriched binding of GATA3 near the Transcription Start Site of ALK. Note that the properties have been adapted accordingly *Range* 'a to 120' and *Slider* on 'average' 5.  	
 	
 	![](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_Alk_GATA3_oldridge.png)
 	
