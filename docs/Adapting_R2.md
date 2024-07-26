@@ -103,7 +103,7 @@ Step 3: Create your custom genesets
 
 ![](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png "Figure    5: Selecting your genesets")
 
-[**Figure 5: Selecting your genesets**](_static/images//AdaptingR2/AdaptingR2_Selectgenesetv1.png)
+[**Figure 5: Selecting your genesets**](_static/images/AdaptingR2/AdaptingR2_Selectgenesetv1.png)
 
 7. Now you can specify which gene set you want to view and how you want to the heatmap to be displayed. The geneset '
    Changed Genes' we just made above is available
@@ -125,7 +125,7 @@ Step 3: Create your custom genesets
 
    ![](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage_v1.png "Figure 7: The geneset module")
 
-   [**Figure 7: Adapting your genesets**](_static/images/AdaptingR2/AdaptingR2_CategoryManager_v1.png)
+   [**Figure 7: Adapting your genesets**](_static/images/AdaptingR2/AdaptingR2_customgenesetsmanage_v1.png)
 
    Existing genesets can be adapted, deleted or moved to another collection. New genesets can be based on existing ones.
    As an example we're going to update the genesets we just made. Click the 'pencil' icon next to the custom geneset in
@@ -152,7 +152,7 @@ Step 4: Tracks in R2: create your own data annotation
 
    ![](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png "Figure    8: Selecting a K-means    analysis")
 
-   [**Figure 8: Selecting a K-means analysis**](_static/imagesAdaptingR2_SelectKmeans_v1.png)
+   [**Figure 8: Selecting a K-means analysis**](_static/images/AdaptingR2/AdaptingR2_SelectKmeans_v1.png)
 
 2. In the settings window for the K-means analysis (Figure 9) you can choose the geneset created above to cluster the
    current set of samples. In our case this is called ChangedGenes. Make sure that the number of draws is set to 10x10,
@@ -161,7 +161,7 @@ Step 4: Tracks in R2: create your own data annotation
    ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    9: Settings for K-means; the Category built above is available for    clustering")
 
    [**Figure 9: Settings for K-means; the Category built above is available for
-   clustering**](_static/images/AdaptingR2/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
+   clustering**](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
 
 3. The resulting clustering in two groups might not be ultimately convincing (Figure 10, your result might look slightly
    different), but for our testing purposes this is alright. What is important is that the resulting groups can be
@@ -170,7 +170,7 @@ Step 4: Tracks in R2: create your own data annotation
    ![](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png "Figure    13: Clustering result of the Neuroblastoma dataset with the Category    built in the former    steps")
 
    [**Figure 10: Clustering result of the Neuroblastoma dataset with a geneset built in the former
-   steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrack.png)
+   steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png)
 
 4. R2 now shows all samples as a long table with radio buttons indicating which group each sample belongs to. These can
    be adapted if you want to. Scroll down the window to find the fields that have to be set in order to store this as a
@@ -260,7 +260,7 @@ Step 5: Upload your own tracks
 
    ![](_static/images/AdaptingR2/AdaptingR2_Trackdescribedv1.png "Figure    18 Uploading a track described in a text file; for each sample a    description has to    be provided.")
 
-  [**Figure 18: Uploading a track .**](_static/images/AdaptingR2_Trackdescribedv1.png)
+  [**Figure 18: Uploading a track .**](_static/images/AdaptingR2/AdaptingR2_Trackdescribedv1.png)
 
 3. If you intend to create a track with a limited number of groups, an easier way is provided through the user
    interface. We will try that now: click the back button of your browser to return to Figure 12. By default the Custom
@@ -359,62 +359,66 @@ Step 6: Cooperate through R2: sharing tracks, creating communities
    Figure 25). Through a community you can share your own Gene sets,Tracks and Settings.
 
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroup.png "Figure    25: Setting the Community group name    and description.")
+   ![](_static/images/AdaptingR2/AdaptingR2_CreateNewCommunity.png "Figure    25: Setting the Community group name    and description.")
 
    [**Figure 25: Setting the Community group name and
-   description.**](_static/images/AdaptingR2/AdaptingR2_SettingCommunitygroup.png)
+   description.**](_static/images/AdaptingR2/AdaptingR2_CreateNewCommunity.png)
 
-5. Click 'Next'; you'll be notified that the group has been created; return to the Communities Center by clicking the
-   Community link again in the User Options menu (Figure 27). The TestGroup has been created (next to the already
-   existing MyTestGroup for this user). Click the link to start adding users (Figure 30).
+5. Click 'Next'; you'll be notified that the group has been created; You can click on the community name link to arrive at the Community Group Manager. There you can adapt community tracks, genesets, or adapt the members of the group. To start adding users, click the *Invite users* link. 
 
-     ![](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png "Figure 36: The available Communities for this user")
+     ![](_static/images/AdaptingR2/AdaptingR2_CommunityInviteUsers.png "Figure 26: Invite new members")
     	
-     [**Figure 26: The available Communities for this user**](_static/images/AdaptingR2/AdaptingR2_Availablegroups.png)
+     [**Figure 26: Invite new members**](_static/images/AdaptingR2/AdaptingR2_CommunityInviteUsers.png)
 
-6. Once the community is generated, you can also manage the community from the communities center.
+6. As a side note: once the community is generated, you can also manage the community from the Communities Center (User Options > Community), where you find an overview of the communities that you can adapt .
 
-     ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_1.png "Figure 36: The available Communities for this user")
+     ![](_static/images/AdaptingR2/AdaptingR2_CommunityOverview.png "Figure 27: The available Communities for this user")
     	
-     [**Figure 27: Managing of the community**](_static/images/AdaptingR2/AdaptingR2_Community_invite_1.png)
+     [**Figure 27: The available Communities for this user**](_static/images/AdaptingR2/AdaptingR2_CommunityOverview.png)
 
-7. You have to add users; You can invite R2 users to your group by sending them an invitiation link. we will create a link with 'create invitation'. For your own personal recollection you can specify a target recipient. Here we have used **"my invitee"**.
+7. Let's add a user. You fill in their email address and R2 sends an email with the invitation. 
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_2.png "'Figure    27: Add a user by their R2 user    name")
+   ![](_static/images/AdaptingR2/AdaptingR2_CommunityInvitationEmail.png "'Figure 28: Send an invitation to add a Community member")
 
-   [**Figure 28: Creation of an invitation for your community**](_static/images/AdaptingR2/AdaptingR2_Community_invite_2.png)
+   [**Figure 28: Send an invitation to add a Community member**](_static/images/AdaptingR2/AdaptingR2_CommunityInvitationEmail.png)
 
-8. Once you create the invitation, then a message will be provided that you can send to the person you want to invite to your group. This you can do by using the template in an email or by sharing the provided link via other means. Please do note that invitations to join your group are valid for a limited time only. How long an invitation is still valid can always be checked in the 'invite users' option. you can always revisit the invitation or extend it using the 'view/renew' button.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_3.png "Figure    28: R2 return message; user is invited; but not yet    visible")
+8. Once you send the invitation, the email address that you filled in will receive a message with a link. How long an invitation is still valid can always be checked in the 'Pending invitations' overview, where you can always cancel an invitation as well. If an invitation is expired, simply send a new one if you still want the person to join your group. send a new one the invitation or extend it using the 'view/renew' button.
 
-   [**Figure 29: R2 invited users option**](_static/images/AdaptingR2/AdaptingR2_Community_invite_3.png)
+   ![](_static/images/AdaptingR2/AdaptingR2_CommunityInvitationEmailReceived.png "Figure 29 A: Received email by invited user")
 
-9. The user that has received a link, needs to be logged into their account and can then visit the provided link. This will allow the user to accept the invitation.
+   [**Figure 29 A: Received email by invited user**](_static/images/AdaptingR2/AdaptingR2_CommunityInvitationEmailReceived.png)
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_accepted.png "Figure    29: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+
+   ![](_static/images/AdaptingR2/AdaptingR2_CommunityPendingInvitation.png "Figure 29 B: Pending invitations overview")
+
+   [**Figure 29 B: Pending invitations overview**](_static/images/AdaptingR2/AdaptingR2_CommunityPendingInvitation.png)
+
+9. The user that has received a link, is asked to log into their account (or create an account if they don't have one yet) and can then accept the invitation with the button.
+
+   ![](_static/images/AdaptingR2/AdaptingR2_CommunityReceivedInvitationlink.png "Figure 30: The invited user receives a notification on the main page where they can accept the membership of the group")
 
    [**Figure 30: The invited user will see a message where the user can accept the membership of
-   the group**](_static/images/AdaptingR2_Community_invite_accepted.png)
+   the group**](_static/images/AdaptingR2/AdaptingR2_CommunityReceivedInvitationlink.png)
 
-   Once the invitation is accepted by the user, you can see this within your community as well.
+   Once the invitation is accepted by the user, you can see this within your Community Group Manager overview as well.
 
-   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_accepted_2.png "Figure    29: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
+   ![](_static/images/AdaptingR2/AdaptingR2_Community_invite_accepted.png "Figure 31: The invited user receives a notification on the main page where    he or she can accept the membership of the    group")
 
-   [**Figure 31: Once accepted, the user is a member of the group**](_static/images/AdaptingR2_Community_invite_accepted_2.png)
+   [**Figure 31: Once accepted, the user is a member of the group**](_static/images/AdaptingR2/AdaptingR2_Community_invite_accepted.png)
 
-10. When the invitation has been accepted the user is available in this community. By default an invitee will become a member, who can only see what you are sharing via your community. Next to the label that you have generated yourself, you will also see the username and email address of the member that accepted the invitation (also to make sure the intended user became member). For any of the members,  there is also the possibility to increase the rights of a member, by making the user 'content manager', or (co-)owner. 
+10. When the invitation has been accepted the user is available in this community. By default an invitee will become a member, who can only see what you are sharing via your community. Next to the community member's username, you will also see the username and email address of the member that accepted the invitation (also to make sure the intended user became member). For any of the members,  there is also the possibility to increase the rights of a member, by making the user 'content manager', or (co-)owner.<br>Be aware that for other Community members to be able to save data into this community, their role must have been changed to **Content manager** first.
 
    ![](_static/images/AdaptingR2/AdaptingR2_Community_member_roles.png "Figure    30: The user is available in    the TestGroup.")
 
    [**Figure 32: The user is now visible as a member of the group.**](_static/images/AdaptingR2/AdaptingR2_Community_member_roles.png)
 
-11. When you will add a custom gene set, track or preset the next time, it will be possible to make this available to any of the communities that are yours, or where you have been granted access as content manager. 
+11. When you add a custom gene set, track or preset the next time, it will be possible to make this available to any of the communities that are yours, or where you have been granted access as content manager. 
 
-    ![](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png "Figure    35: As an example here the creation of a category and the assignment    to    a Community.")
+    ![](_static/images/AdaptingR2/AdaptingR2_CommunityAddCustomGeneSet.png "Figure    35: As an example here the creation of a category and the assignment    to    a Community.")
 
     [**Figure 33: As an example here the creation of a gene set and the assignment to a
-    Community.**](_static/images/AdaptingR2/AdaptingR2_CommunityCategory.png)
+    Community.**](_static/images/AdaptingR2/AdaptingR2_CommunityAddCustomGeneSet.png)
 
 12. Managing the tracks, gene categories and megasampler presets is done in a similar way as has been shown in the user
     tracks and user categories at the beginning of this tutorial. <span style="color:red">**my invitee**</span>, as a member of this group, can manage
