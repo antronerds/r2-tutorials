@@ -112,7 +112,7 @@ Underneath these expression values, we see three ChIP seq profiles in LAN1 neuro
 Underneath the  ChIP seq profiles you then first see the exact genomic stretch on the Genome Browser and the RefSeq annotation for gene location (more about the Genome Browser and its annotation can be found [here](Using_The_Genome_Browser.html)). Furthermore, the epigenetic profiles of the NIH Epigenome Roadmap project are shown color coded for the chosen cell lines (see Figure 8b for a legend of the colors).<br>
 Lastly, the annotated locations of superenhancer regions in two different cell lines as reported by George et al (Cell, 2014) are drawn as colored blocks underneath the genome strand(the Kelly cell line in red and  the SY5Y cell line in blue).
 In this ADRN type cell line it is clearly shown that active GATA3 is associated with an enrichment of H3K4me3 and H3K27Ac, but not with H3K27me3.  
-  
+
 ![](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_b.png)
 
 [**Figure 8a: Histone modification profiles around GATA3 location**](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_GATA3_b.png)
@@ -203,6 +203,22 @@ K
 	[**Figure 16: The genomic context of a top-ranking super-enhancer**](_static/images/IntAnalysis_ChIPSeq/IntAnalysis_ChIPSeq_Rose_Genomebradapt.png)
 
 Note the "Load/ Store Profile" button in the upper-right corner of the page. With this button your chosen settings can be stored as a profile. Such a profile can be retrieved later on, and function as a template to wander on the genome using the same settings.  
+
+
+
+## Some notes on the ChIPseq IDs in R2
+
+If you start exploring ChIP seq profiles within R2, then you may notice that some samples appear to be represented more than once, or that most samples have peculiar characters at the end. These characters do have a meaning and may be helpful for you in deciding which profile to use.
+
+SAMPLE**atr**  Can be provided for samples processed by the R2 team.  This means :Adapters removed and ends trimmed for quality
+
+SAMPLE_**bw** This means that the data served by R2 comes from a bigwig file, which is a very efficient storage format. 
+
+SAMPLE_**geobw** This means that R2 is serving the bigwig file that is also available at NCBI GEO.
+
+SAMPLE_**ses** The  Signal Extraction Scaling (SES) algorithm has been used to 'correct' a ChIP profile for its control.   
+
+
 
 ## Final remarks
 
