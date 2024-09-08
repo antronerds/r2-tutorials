@@ -211,11 +211,25 @@ The R2 Genome Browser can be used with different genome builds (versions). Depen
 
 
 
+Step 5: Store / retrieve complex settings with profiles
+---------------
+
+The possibilities of tracks combined with their individual settings within the genome browser are immense. In many 
+instances, it may be opportune to store a visualization, such that it can be
+retrieved in a future R2 session. For this reason, th R2 platform has genome browser profiles. A profile stores all the
+settings to replicate a view. This can be handy as a reference to replicate an image for a publication, or such a profile
+can also be used as a template, which allows you to browse the genome with a number of settings already pre-selected.
+
+Profiles can be stored within your personal account, or shared with other R2 users via the community options that are also
+available within the platform. Every account already has a few profiles, that are shared within the r2 community. profiles
+can be created / loaded via the 'profile' button located in the upper right corner within the genome browser.
+
+
 Final remarks / future directions
 ---------------------------------
 
 
-Everything described in ths chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / http://r2.amc.nl) 
+Everything described in ths chapter can be performed in the R2: genomics analysis and visualization platform (http://r2platform.com / https://r2.amc.nl) 
 
 
 We hope that this tutorial has been helpful, the R2 support team.
