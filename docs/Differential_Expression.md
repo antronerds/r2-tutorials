@@ -92,7 +92,7 @@ The actual result of the ANOVA calculations is shown in the table under the grap
 
 
 2. For a nicely ordered graph, you can adjust the settings in the menu at the bottom. Set *Extra Graph Option*  to **Track and Gene Sort** (Do not forget to click on Submit afterwards!).  
-  
+
 R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph.
 
    ![](_static/images/FindDiff/DifferentialExpress_Result.png "Figure 5: Order the samples per group with increasing expression.")
@@ -185,8 +185,8 @@ It would be a pretty tedious job to look for all genes whether they are differen
 
 Which test is suitable for a given dataset, depends on the normalization of selected dataset and on what kind of data the dataset is build of.  Most expression sets are continuous and normally distributed data so the T-test is the most applicable. In case of a dataset which contains categorical data the Mann-whitney test is more suitable.  
 
-A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data that contains the un-normalized counts. Most of the datasets that have DESeq2_rlog or DESeq2_vst in the name consist of two data parts. A normalised data part is available in case you want to use the T-test and a data part with the counts is available in case the DESeq2 algorithm is preferred. Note that the counts are only used for the test, the values depicted in the graphs etc. are always normalized data.  
-Using the DESEq2 algorithm in case of RNAseq is often appreciated since this is a well-established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have **deseq2_rlog** or **deseq2_vst** as normalization procedure. Datasets with this annotation have three slots, rlog normalized data, deseq normalized data (normcounts) and a counts slot. This counts slot is used when you run the DESeq2 algorithm on the fly for two group comparisons.  
+A special remark for the **DESeq2 algorithm** is at place here. This test is only available for RNAseq data where R2 also has access to the un-normalized counts. Most of the datasets that have 'DESeq2_rlog' or 'DESeq2_vst' in the name consist of multiple data parts. One or more normalised data parts are available in case you want to use the 'T-test', or 'limma' and in addition a data part with the raw non-normalized counts is available. If available, then making use of the DESeq2 algorithm is preferred (especially for smaller data sets). Note that in the case of DESeq2,  the counts are only used for the statistical tests, the values depicted in the graphs etc. are always normalized data.  
+Using the DESEq2 algorithm in case of RNAseq is often preferred since this is a well-established statistical test package dedicated to data such as RNAseq data. In the dataset selection grid box you can search for datasets which have '**deseq2_rlog**' or **'deseq2_vst'** as normalization procedure. Data sets with this annotation have three slots, rlog/vst normalized data, deseq normalized data (normcounts) and a counts slot. This counts slot is used when you run the DESeq2 algorithm on the fly for two group comparisons.  
 
 
    ![](_static/images/FindDiff/DifferentialExpress_deseq2select.png "Figure 12: Selecting Find Differential Expression.")
@@ -216,7 +216,7 @@ In our case we continue with the Tumor Neuroblastoma dataset and the Differentia
 
 The result is a list of genes that is ordered by the most significant differential expression between the groups that you chose (Figure 15). A short summary of the calculation is given above the table; ~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 The generated list can be sorted or filtered by any of the column headers in the grid, such as by the p-value (P) or the difference.  
-  
+
 In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2 and stored as temporary or permanent geneset in R2, as indicated in the right menu
 
    ![](_static/images/FindDiff/DifferentialExpress_Genelistv2a.png "Figure 15 Genes differentially expressed between groups")
@@ -250,7 +250,7 @@ A paired analysis is often performed when observations are natural paired or mat
    [**Figure 18: Genes differentially expressed between groups with correcttion.**](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png)
 
 
-	
+​	
 --------------------------------------------------------------------------
 ![](_static/images/R2d2_logo.png)***Did you know that...***
 
@@ -313,21 +313,20 @@ Step 7: Inspecting single genes
 Step 8: Plot all genes and adapt visualization: Volcano plot etc
 ---------------
 
-1.  The tab with the list of differentially expressed genes (Figure 15) is still open or perform the analysis again. Click on this tab.
-2.  Most of the functionalities in the right panel of this window will be explored
-    in more advanced tutorials (K-Means clustering etc.). We will explore one
-    additional data visualization however to plot all genes of this
-    analysis. In the right menu click see Figure 15 'Plot all genes (xy,
-    volcano, etc.)'.
+1. The tab with the list of differentially expressed genes (Figure 15) is still open or perform the analysis again. Click on this tab.
 
-3. The resulting plot shows all genes of the list in a XY-plot, MA-plot and volcano plot depending on your choice; in case of the XY datapoints above and below the diagonal are
-   differentially expressed. Hovering over the points shows the
-   gene symbol, clicking on the dots will annotate the dots with the gene name., To speed up the
-   graph generation this information is not automatically loaded: click
-   on the "add hovering" button below the graph to add
-   this information. Note: every plot in R2 with larger amounts of
-   datapoints (>5000) will have this "add hovering" button. Adapting the plot parameters in the Adjustable settings menu will also adapt the graph on the fly.
-4. In the adjustable settings menu you select genesets to high light the genes and toggle on histograms along the X and Y axis.
+2. Most of the functionalities in the right panel of this window will be explored in more advanced tutorials (K-Means clustering etc.). We will explore one
+   additional data visualization however to plot all genes of this analysis. In the 'Adjustable settings' form, open the pull down of 'Display' and select 'Volcano plot'. Then press 'submit'.
+
+      ![](_static/images/FindDiff/DifferentiaExpression_display_dropdown.png "Figure  21: Display options for Differential Expression analysis")
+
+      [**Figure  21 : Display options for Differential Expression analysis**](_static/images/FindDiff/DifferentiaExpression_display_dropdown.png)
+
+3. The Analysis will now be initiated again, but since the result is kept for a little while, the analysis should not take more than a couple of seconds. The resulting plot shows all genes of the list in a so called volcano plot. Hovering over the points shows the gene symbol, left-clicking on the dots will annotate the dots with the gene name (or other markings, as you can adapt in the 'Marked' tab of the plot options). To speed up the
+   graph generation, some adaptations may not update automatically. Click on the "redraw plot" button at the bottom of the plot options to add
+   this information. 
+
+4. In the adjustable settings menu you select gene sets to high light the genes and toggle on histograms along the X and Y axis.
 
 
    ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21: Different plots of all genes differentially expressed in the current track;")
@@ -353,14 +352,11 @@ This example is from another differential analysis, right clicking on the datapo
 
    [**Figure 22: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl1.png)
 
-[//]: # (8. In another example in the selected Coloncarcinoma TCGA set, some Ribosomal gene categories which were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.)
+8. In another example in the selected Colon carcinoma TCGA set, some Ribosomal gene categories were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.
 
-[//]: # ()
-[//]: # (   ![]&#40;_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png "Figure 22: Adjustable settings for the all genes plot"&#41;)
+    ![](_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png "Figure 22: Adjustable settings for the all genes plot")
 
-[//]: # ()
-[//]: # ()
-[//]: # ([**Figure 22 : Adjustable settings for the all genes plot**]&#40;_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png&#41;)
+ [**Figure 22 : Gene set(s) Emphasis on TCGA COAD samples**](_static/images/FindDiff/DifferentialExpression_vulcano_emphasize.png)
 
 --------------
 Step 9: Using the Enrichr
@@ -407,5 +403,4 @@ scientific discoveries might lie ahead!
 
 
 We hope that this tutorial has been helpful, the R2 support team.
-
 
