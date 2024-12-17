@@ -222,12 +222,10 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 4. When you are in the one gene view plot, a logical step is to investigate the expression levels in correspondence  with a group parameter. Select in the analysis type menu "gene vs track" in the track selection menu, the inss track and click "submit", Figure 8. The cohort is separated accordingly by the patient INSS staging in alphabetical order. It could be that the ordering of the group parameters is not the most convenient representation for your analysis. In order to customize this, you can create your own track as described in  (the chapter “Adapting R2 to your needs”) and make your own track with the correct ordering eg: a_stage IV, b_stage 1 etc. 
 
 
-
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
 
-5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the track and genesort within the groups (Figure 8).
-
+5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the General section of the Gearbox  switch  on the track and genesort within the groups to organise the epxression levels in your graph. (Figure 8).
 
 ![](_static/images/Onegeneview/OneGene_genevstrack_sort.png "Figure 8: Gene vs track")
 
