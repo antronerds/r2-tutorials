@@ -60,7 +60,7 @@ Step 2: Select the gene or reporter
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
-   ![](_static/images/Onegeneview/OneGene_multipleprobegrid2.png "Figure 2: By default the reporter with the highest expression level is selected")
+   ![](_static/images/Onegeneview/OneGene_multipleprobegrid3.png "Figure 2: By default the reporter with the highest expression level is selected")
    
    [**Figure 2: Top, by default the reporter with the highest expression level is selected. Below, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
 
@@ -76,9 +76,9 @@ Step 3: Plotting Gene expression
    that R2 has stored for the focused sample.
 
    
-   ![](_static/images/Onegeneview/OneGene_MYCN1b.png "Figure 3: YY plot MYCN expression")
+   ![](_static/images/Onegeneview/OneGene_MYCN1c.png "Figure 3: YY plot MYCN expression")
 
-   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1b.png)
+   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1c.png)
   
 2. Underneath the X-axis, colored boxes are depicted, representing
    clinical information of the samples in so-called "tracks". Again,
@@ -126,20 +126,30 @@ Step 3: Plotting Gene expression
 ----------
 
 ---------------
-Step 4: Selecting analysis types: View a gene in groups
+Step 4: Selecting other analysis types:
 ----------------
 
 In the one gene view plot we have investigated the gene expression of a single gene together with the sample annotation depicted below the graph.
 
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at your disposal as illustrated in Figure 4.
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene view adjustable settings menu there are also other analyses to select. In  the adjustable settings menu you can select different analysis types which are at your disposal here we have selected the gene vs gene type. 
 
-![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type")
+Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2.
 
-[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v2.png)
 
-2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4).
+![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type: Gene vs Gene")
+[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v3.png).
 
-![](_static/images/Onegeneview/OneGene_plotoptionesettings_v1.png "Figure 5: Adjusting the graph settings")
+In the top left corner of almost every figure in R2, you will find an icon with the shape of a steering wheel depicted in Figure 4. The Gear 0obx allows you to adapt a large selection of all kind of settings and combinations. Some examples pf things you can do.
+
+
+* Adapting fonts, Colors
+* Coloring individual samples by track
+* Manipulate the axis
+* Plot extra  or de-select tracks
+
+
+
+![](_static/images/Onegeneview/Onegene_plotsettings_v2.gif "Figure 5: Adjusting the graph settings")
 
 [**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_plotoptionesettings_v1.png)
 
@@ -149,18 +159,12 @@ Step 5: Marking / highlighting samples within a plot
 
 3. In the “Plotoption panel” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
 
-
   ![](_static/images/Onegeneview/OneGene_view_interactive1a.gif "Figure 6a: Marking samples in an interactive plot")
 
 [**Figure 6a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive1a.gif)
 
-* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at the top on the  the 'More Settings' sections.
-* To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
+Highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
 * Several marking options can be selected with the 'Mark method' that can be found in the pop-up plot option box (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
-
-* Using the plot option box will generate on the fly the adaptions your are makinh
-
-If you enter sample names in the 'Id for new mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. H
 
 
 
@@ -202,9 +206,9 @@ If you enter sample names in the 'Id for new mark' entry field, then the appeara
 
 Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting your own demands. In the plot option menu the SVG output option can be selected.
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1b.png "Figure 7: Obtain a vector (SVG) image of your graph")
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v2.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
-[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1a.png)
+[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v2.png)
 
 
 
