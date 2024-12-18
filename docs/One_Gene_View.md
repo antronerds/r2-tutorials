@@ -60,7 +60,7 @@ Step 2: Select the gene or reporter
    Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
-   ![](_static/images/Onegeneview/OneGene_multipleprobegrid2.png "Figure 2: By default the reporter with the highest expression level is selected")
+   ![](_static/images/Onegeneview/OneGene_multipleprobegrid3.png "Figure 2: By default the reporter with the highest expression level is selected")
    
    [**Figure 2: Top, by default the reporter with the highest expression level is selected. Below, the advanced search option with the grid**](_static/images/Onegeneview/OneGene_multipleprobegrid2.png)
 
@@ -76,9 +76,9 @@ Step 3: Plotting Gene expression
    that R2 has stored for the focused sample.
 
    
-   ![](_static/images/Onegeneview/OneGene_MYCN1b.png "Figure 3: YY plot MYCN expression")
+   ![](_static/images/Onegeneview/OneGene_MYCN1c.png "Figure 3: YY plot MYCN expression")
 
-   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1b.png)
+   [**Figure 3: YY plot MYCN expression**](_static/images/Onegeneview/OneGene_MYCN1c.png)
   
 2. Underneath the X-axis, colored boxes are depicted, representing
    clinical information of the samples in so-called "tracks". Again,
@@ -126,20 +126,30 @@ Step 3: Plotting Gene expression
 ----------
 
 ---------------
-Step 4: Selecting analysis types: View a gene in groups
+Step 4: Selecting other analysis types:
 ----------------
 
 In the one gene view plot we have investigated the gene expression of a single gene together with the sample annotation depicted below the graph.
 
-1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene view adjustable settings menu there are also other analyses to select. Above the adjustable settings menu you can select different analysis types which are at your disposal as illustrated in Figure 4.
+1. Thus far, we have been looking at the expression of MYCN ordered by the expression. From the one-gene view adjustable settings menu there are also other analyses to select. In  the adjustable settings menu you can select different analysis types which are at your disposal here we have selected the gene vs gene type. 
 
-![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type")
+Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2.
 
-[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v2.png)
 
-2. Select in the analysis type menu, the gene vs gene option the adjustable settings will adapt automatically according to the type which has been selected. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2 (red box in Figure 4).
+![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type: Gene vs Gene")
+[**Figure 4: Select other analysis types**](_static/images/Onegeneview/OneGene_otheranalysis_v3.png).
 
-![](_static/images/Onegeneview/OneGene_plotoptionesettings_v1.png "Figure 5: Adjusting the graph settings")
+In the top left corner of almost every figure in R2, you will find an icon with the shape of a steering wheel depicted in Figure 4. The Gear 0obx allows you to adapt a large selection of all kind of settings and combinations. Some examples pf things you can do.
+
+
+* Adapting fonts, Colors
+* Coloring individual samples by track
+* Manipulate the axis
+* Plot extra  or de-select tracks
+
+
+
+![](_static/images/Onegeneview/Onegene_plotsettings_v2.gif "Figure 5: Adjusting the graph settings")
 
 [**Figure 5: Adjusting the 2 gene plot**](_static/images/Onegeneview/OneGene_plotoptionesettings_v1.png)
 
@@ -149,18 +159,12 @@ Step 5: Marking / highlighting samples within a plot
 
 3. In the “Plotoption panel” panel, several other settings can be found to change the specific input for the analysis or to adapt the looks of the graph:
 
-
   ![](_static/images/Onegeneview/OneGene_view_interactive1a.gif "Figure 6a: Marking samples in an interactive plot")
 
 [**Figure 6a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive1a.gif)
 
-* Many layout settings can be adjusted in the *More Settings* option, such as font size, colors and marker type. In order to view the extra options, click at the top on the  the 'More Settings' sections.
-* To highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
+Highlight specific samples in the graph, you can simply double-click in the graph on the marker-points of the samples that you want to highlight, or you can enter the R2 sample IDs in the field 'Samples to mark' from the ‘Adjustable settings’ panel. If you enter multiple IDs, separate them with a comma.
 * Several marking options can be selected with the 'Mark method' that can be found in the pop-up plot option box (e.g.; ‘epicenter’ and ‘arrow’, Figure 5, the "red arrow"). Changes in marker type and marker color can be achieved as well with a specific syntax applied in the before mentioned 'Samples to mark' text field. Keep reading to find examples of how to use the syntax yourself.
-
-* Using the plot option box will generate on the fly the adaptions your are makinh
-
-If you enter sample names in the 'Id for new mark' entry field, then the appearance of these marked samples can be adapted via the to other fields as indicated above. H
 
 
 
@@ -202,9 +206,9 @@ If you enter sample names in the 'Id for new mark' entry field, then the appeara
 
 Another often used feature is the **Vector (SVG) output** option. The vector images are often used in manuscripts and to increase the resolution meeting your own demands. In the plot option menu the SVG output option can be selected.
 
-![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1b.png "Figure 7: Obtain a vector (SVG) image of your graph")
+![](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v2.png "Figure 7: Obtain a vector (SVG) image of your graph")
 
-[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v1a.png)
+[**Figure 7: Obtain a vector (SVG) image of your graph**](_static/images/Onegeneview/OneGene_adjustablesettings_svg_v2.png)
 
 
 
@@ -218,12 +222,10 @@ Another often used feature is the **Vector (SVG) output** option. The vector ima
 4. When you are in the one gene view plot, a logical step is to investigate the expression levels in correspondence  with a group parameter. Select in the analysis type menu "gene vs track" in the track selection menu, the inss track and click "submit", Figure 8. The cohort is separated accordingly by the patient INSS staging in alphabetical order. It could be that the ordering of the group parameters is not the most convenient representation for your analysis. In order to customize this, you can create your own track as described in  (the chapter “Adapting R2 to your needs”) and make your own track with the correct ordering eg: a_stage IV, b_stage 1 etc. 
 
 
-
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
 
-5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the adjustable settings you can fine-tune your graph for example by switching on the track and genesort within the groups (Figure 8).
-
+5. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the General section of the Gearbox  switch  on the track and genesort within the groups to organise the epxression levels in your graph. (Figure 8).
 
 ![](_static/images/Onegeneview/OneGene_genevstrack_sort.png "Figure 8: Gene vs track")
 
@@ -231,32 +233,32 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 
 
-6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way. The plot types can be selected on two places in the gearbox and in the 
 
 
-![](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png "Figure 9: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1b.png "Figure 9: Fonts and Color changed")
 
-[**Figure 9: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png)
+[**Figure 9: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1b.png)
 
-![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_othergraphs_v2.png "Figure 10: Fonts and Color changed")
 
-[**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
+[**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v2.png)
 
 The boxplot (with add_scatter = **TRUE**) can of course reveal valuable information about statistics and the distribution of data. Another relative new visualization technique which combines several aspects
 of the traditional plots such as the box plot,dot plot and violin plot is  the **raincloud** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
 
 7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are colored by the Z-score of the DBH expression. In case the samples have also been profiled for another type of data such as methylation data or drug data, you can also select these datatypes in the pull-down menu when you have selected color by gene.  you can use these values from these corresponding sets in the same graph (Figure 11) combine expression data and other omics data.
 
-![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1a.png "Figure 11: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1b.png "Figure 11: Fonts and Color changed")
 
-[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png)
+[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1b.png)
 
 
 8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "Relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
 
-![](_static/images/Onegeneview/OneGene_boxmainmnu.png "Figure 12: track vs track and main menu ")
+![](_static/images/Onegeneview/OneGene_boxmainmnu1a.png "Figure 12: track vs track and main menu ")
 
-[**Figure 12: Track versus Tracks / Main menu**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+[**Figure 12: Track versus Tracks / Main menu**](_static/images/Onegeneview/OneGene_boxmainmnu1a.png)
 
 
 
@@ -282,8 +284,6 @@ Step 6: Sources for additional information on the selected gene
    ![](_static/images/Onegeneview/OneGene_rightmenupanel.png "Figure 12:Left menu panel providing additional info (including link-out) and analyses options")
 
    [**Figure 12: Left menu panel providing additional info (including link-out) and analyses options**](_static/images/Onegeneview/OneGene_rightmenupanel.png)
-
-
 In the right upper menu-panel several options are available to provide
 you with additional information sources of the MYCN gene and additional
 analyses. When you click on the link (the name of the gene) under the PubSniffer header new screen opens that lists the number of times your gene of interest is found within the NCBI PubMed database in
@@ -434,10 +434,9 @@ Step 9: Find best track separation with CliniSnitch
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
     the current dataset (like e.g. age group) than the example in the previous section. 
-    For such an analysis R2 has the CliniSnitch function. 
-    Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
+    For such an analysis R2 has the CliniSnitch function. Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
     and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other words the correlation between the p-values.
-    categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
+    categorical vs numerical tracks are tested with an anova test; non-random associations for categorical vs categorical tracks are tested with 
     a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
     'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
