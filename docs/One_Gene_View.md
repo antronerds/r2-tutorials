@@ -233,32 +233,32 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 
 
-6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way.
+6. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'graphtype' dropdown and change 'color by' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the inss groups. Adaptations to other graph types can be made in a similar way. The plot types can be selected on two places in the gearbox and in the 
 
 
-![](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png "Figure 9: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_viewinGroups_v1b.png "Figure 9: Fonts and Color changed")
 
-[**Figure 9: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1a.png)
+[**Figure 9: Making boxplots**](_static/images/Onegeneview/OneGene_viewinGroups_v1b.png)
 
-![](_static/images/Onegeneview/OneGene_othergraphs_v1.png "Figure 10: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_othergraphs_v2.png "Figure 10: Fonts and Color changed")
 
-[**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v1.png)
+[**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v2.png)
 
 The boxplot (with add_scatter = **TRUE**) can of course reveal valuable information about statistics and the distribution of data. Another relative new visualization technique which combines several aspects
 of the traditional plots such as the box plot,dot plot and violin plot is  the **raincloud** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in Figure 10b).
 
 7. You can also sort the groups by their average or median gene expression and customize your graph in various ways. In Figure 11 this illustrated by the INSS stage sequence according to the median gene expression and enlarged dots of MYCN . And on top of that the individual dots are colored by the Z-score of the DBH expression. In case the samples have also been profiled for another type of data such as methylation data or drug data, you can also select these datatypes in the pull-down menu when you have selected color by gene.  you can use these values from these corresponding sets in the same graph (Figure 11) combine expression data and other omics data.
 
-![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1a.png "Figure 11: Fonts and Color changed")
+![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1b.png "Figure 11: Fonts and Color changed")
 
-[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1.png)
+[**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1b.png)
 
 
 8. Also, directly accessible from this menu is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "Relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
 
-![](_static/images/Onegeneview/OneGene_boxmainmnu.png "Figure 12: track vs track and main menu ")
+![](_static/images/Onegeneview/OneGene_boxmainmnu1a.png "Figure 12: track vs track and main menu ")
 
-[**Figure 12: Track versus Tracks / Main menu**](_static/images/Onegeneview/OneGene_viewinGroups_v1.png)
+[**Figure 12: Track versus Tracks / Main menu**](_static/images/Onegeneview/OneGene_boxmainmnu1a.png)
 
 
 
@@ -284,8 +284,6 @@ Step 6: Sources for additional information on the selected gene
    ![](_static/images/Onegeneview/OneGene_rightmenupanel.png "Figure 12:Left menu panel providing additional info (including link-out) and analyses options")
 
    [**Figure 12: Left menu panel providing additional info (including link-out) and analyses options**](_static/images/Onegeneview/OneGene_rightmenupanel.png)
-
-
 In the right upper menu-panel several options are available to provide
 you with additional information sources of the MYCN gene and additional
 analyses. When you click on the link (the name of the gene) under the PubSniffer header new screen opens that lists the number of times your gene of interest is found within the NCBI PubMed database in
@@ -436,10 +434,9 @@ Step 9: Find best track separation with CliniSnitch
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
     the current dataset (like e.g. age group) than the example in the previous section. 
-    For such an analysis R2 has the CliniSnitch function. 
-    Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
+    For such an analysis R2 has the CliniSnitch function. Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
     and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other words the correlation between the p-values.
-    categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
+    categorical vs numerical tracks are tested with an anova test; non-random associations for categorical vs categorical tracks are tested with 
     a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
     We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
     'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
