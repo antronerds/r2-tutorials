@@ -5,7 +5,7 @@ R2 Dataset Addition
 
 
 
-*How to add your own or publicly available datasets for analysis in R2*
+*How to have your own (private) or publicly available datasets added for analysis in R2*
 
 
 
@@ -24,7 +24,7 @@ What to prepare when you would like to have a dataset added
 
 
 
-R2 allows users / groups to have their own (private) human / mouse
+R2 allows users / groups to have their own (private) primarily human / mouse
 datasets added to the platform, which enable them to analyze their own
 data from anywhere in the world, as long as they have access to the
 internet. Such datasets can be added with various access policies,
@@ -65,19 +65,13 @@ Addition of a public dataset from the GEO database
 
 
 Having a public dataset added to R2 from the NCBI GEO database is by far
-the easiest. Depending a bit on whether the array platform is already
+the easiest. Depending a bit on whether the annotation platform is already
 used within R2, such datasets can be added fairly quickly. In most cases
 you only have to send an email to <r2-support@amc.uva.nl> stating the
 GEO series identifier GSE\*\*\*\*\* and one of the administrators will
-take care of the rest. One note for your consideration though. Since the
-R2 platform has initially been designed to work with Affymetrix
-microarrays, it works best with single channel platforms. We do also
-incorporate dual channel datasets, but always warn for potentially
-unwanted behavior. For the addition of Affymetrix datasets, we
-preferably would like to be able to work with the raw data (CEL files),
-so please make sure that those are attached in the GEO series.
-
-
+try to take care of the rest, or get in contact with you. Other public sources
+that provide access to genomics data can also be provided, as long as you can 
+provide the full path to where the primary data can be retrieved. 
 
 
 
@@ -98,7 +92,8 @@ Addition of personal datasets
 Within R2, we also house datasets that are provided by authors which are
 not (yet) available in the public domain. In some cases these are made
 publicly available, but most often, some form of restricted access in
-enforced on them.
+enforced on them. Please get in contact with r2-support@amsterdamumc.nl 
+and we can guide you through the process.
 
 
 
@@ -111,7 +106,7 @@ Access levels
 
 
 
-R2 can provide access to datasets on a number of levels. The default
+R2 can provide access to datasets on a number of access levels. The default
 access model provides public access to a dataset to anybody using R2.
 Within R2, datasets can also be made accessible to a group of users.
 Such a construction is ideal for departments where more people want to
@@ -133,7 +128,7 @@ user-group.
 
 
 
-Preparing the expression data
+Preparing Affymetrix microarray expression data
 -----------------------------
 
 
@@ -179,7 +174,13 @@ for a sample.
 
 
 
+## Preparing RNA sequencing expression data
 
+Nowadays, the most frequently added gene expression series are coming from an RNAseq technology. The R2 platform can handle the counts directly if those are provided. Alternatively / in addition, normalized gene expression values can also readily be used, within the platform.
+
+When possible, we prefer to receive the raw counts per gene per sample in a matrix, where the 1st column contains 'reporters / genes' and the subsequent columns contain the counts per sample. When data is provided as such,then we would also like to receive the annotation source that was used to obtain the counts. Often those will be a flavor of 'Ensembl' or Gencode id, or directly the gene symbols. When the annotation source is provided, then R2 often can add additional meta-data (such as chromosome location etc.) directly from these sources. In any other case we will try to match it with one of our hundreds of platforms that are already available, or make a fresh one to represent your data. When counts are provided, then the R2 team will process those using the **DESeq2** algorithm to obtain 'normalized' values that are most suitable for visualizations. Depending on the size (~50 samples), smaller datasets will be supplemented with **deseq2_rlog**, and bigger sets with **deseq2_vst** values. All count sets will also get a normalized_counts measure, where the counts have been corrected for 'scaling-factors' that are calculated in the DESeq2 procedure as well.
+
+In case that the count data is not available and/or you would like to use (your preferred) gene expression values, then these can also be provided in a similar format as the counts. Measures that are often used are TPM(+1), but any measure can be incorporated (e.g. rpkm, etc.). Simply let us know what the values represent.
 
 
 
@@ -282,7 +283,7 @@ Kaplan curves would get the name "overall survival" on the y-axis.
 
 
 ![](_static/images/DataSetAddition_survival.png "Figure 3: Example 3")
-  
+
 [**Figure 3: Example3**](_static/images/DataSetAddition_survival.png)
 
 **Time series graphs:** When the samples are annotated with the
@@ -302,7 +303,7 @@ you). In case of doubt on the usage of these annotations, do not
 hesitate to get in contact with us via r2-support.
 
 ![](_static/images/DataSetAddition_timeserie.png "Figure 4: Example 4")
-  
+
 [**Figure : Example 4**](_static/images/DataSetAddition_timeserie.png)
 	
 
@@ -390,7 +391,6 @@ for inclusion in R2,
 
 
 R2 support (<r2-support@amc.uva.nl>).
-
 
 
 
