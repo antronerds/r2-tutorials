@@ -59,11 +59,10 @@ In the next screen you will choose the gene of interest and decide which groupin
 
 To view the expression of this gene in groups, you can use dataset specific annotation, the so-called "tracks", as grouping variable in R2.
 
-2. In the dropdown of the setting *Track* select the track called **Alive (2 cat)**. This track contains survival data of the patients from whom the tumor sample was taken.
+2. In the dropdown of the setting *Track* select the track called **alive (2 cat)**. This track contains survival data of the patients from whom the tumor sample was taken.
 3. Note that the other fields can be kept as is, the right choices are already provided. Click **Submit**.
 
-The "one way
-Anova"/"student T test" test will be performed for data on the selected
+The "one-way Analysis of variance (Anova) / student T-test" will be performed for data on the selected
 groups (see explanation in the next step).
 
 ----------------
@@ -135,7 +134,7 @@ Figure 5 shows that you can add the sample dots after selecting "Add scatter = T
 
 ![](_static/images/FindDiff/DifferentialExpress_twolevelcolor.png "Figure 7b: Coloring the dots by track or gene expression")
 
-[**Figure  7b: Coloring the dots by track or gene expression**](_static/images/DifferentialExpress_twolevelcolor.png)
+[**Figure  7b: Coloring the dots by track or gene expression**](_static/images/FindDiff/DifferentialExpress_twolevelcolor.png)
 
 
 
@@ -210,9 +209,9 @@ In our case we continue with the Tumor Neuroblastoma dataset and the Differentia
 3. An extra menu shows up with many options. For now we only adjust the required Group 1 and Group 2 setting: we choose the value **no (33)** for *Group 1* and **yes (55)** for *Group 2*.
 4.  Click **Submit**.
 
-![](_static/images//FindDiff/DifferentialExpress_Progress1a.png "Figure 14: Progress dialog during on the fly calculation")
+![](_static/images/FindDiff/DifferentialExpress_Progress1a.png "Figure 14: Progress dialog during on the fly calculation")
 
-   [**Figure 14: Progress dialog during on the fly calculation**](_static/images/DifferentialExpress_Progress.png)
+   [**Figure 14: Progress dialog during on the fly calculation**](_static/images/FindDiff/DifferentialExpress_Progress1a.png)
 
 The result is a list of genes that is ordered by the most significant differential expression between the groups that you chose (Figure 15). A short summary of the calculation is given above the table; ~ 2600 genes have met the criteria set by default; their expression exhibits a correlation with the separation in the two groups.  
 The generated list can be sorted or filtered by any of the column headers in the grid, such as by the p-value (P) or the difference.  
@@ -331,7 +330,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 
    ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21: Different plots of all genes differentially expressed in the current track;")
 
-   [**Figure 21: XY, MA , Volcano plot of all genes differentially expressed in the current    track;**](_static/images/DifferentialExpress_vulconoplot1b.png)
+   [**Figure 21: XY, MA , Volcano plot of all genes differentially expressed in the current    track;**](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png)
 
 This example is from another differential analysis, right clicking on the datapoint in the plot opens a new window showing the expression
    of the gene in the two groups as a violin plot.
@@ -350,7 +349,7 @@ This example is from another differential analysis, right clicking on the datapo
 
    ![](_static/images/FindDiff/DifferentialExpres_DNArepl1a.png "Figure 22: Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
-   [**Figure 22: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl1.png)
+   [**Figure 22: Adjusted visualization of gene expression,hovering over the dots shows the    gene name.**](_static/images/FindDiff/DifferentialExpres_DNArepl1a.png)
 
 8. In another example in the selected Colon carcinoma TCGA set, some Ribosomal gene categories were selected in the gene filter. The KRT16-gene was selected and adapted in the Adjustable settings box.
 
