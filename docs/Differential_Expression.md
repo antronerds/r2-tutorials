@@ -82,58 +82,70 @@ R2 now performs a one-way Anova statistical test on the fly. More information ab
 1. Check the graph and the information that is displayed underneath the graph in the resulting window.
 
 
-R2 displays the mRNA expression of the samples in a violin plot that illustrates the distribution of the expression values per group (Figure 4).  
+R2 displays the mRNA expression of the samples in a violin plot that illustrates the distribution of the expression values per group (Figure 4a).  
 The actual result of the ANOVA calculations is shown in the table under the graph; the difference in average expression between the two groups is significant.
 
 
-![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png "Figure 4a: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
-[**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
+[**Figure 4a: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
 
-These results can also be shown in different types of plots. When you click on the gear icon  that you find next to each The picture below, Figure 5, shows a few examples: a box plot with scatter (A), a rainbow plot (B) and YY plot with annotation (C).
-
-   ![](_static/images/FindDiff/DifferentialExpression_Result.png "Figure 5: Graph type enables you to choose from various plot types to visualize the data.")
-
-
-[**Figure 5: Graph type enables you to choose from various plot types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Result.png)
-
-To get a feeling of how to play around with the settings menus, we will follow the making of plot the boxplot with scatter. 
-1. Scroll down the window to the Adjustable settings menu.
-2. Adapt the selection in the dropdown box *Graph type* to another graph type, e.g. **Box plot**, and change *Color mode* to **Color by Track**. Also set  "Add scatter" to TRUE. 
-3. Note that you can change the order of the groups with *Order Groups By*, let's take **median (numeric Y)** in our case.
-4. Click **Submit**. The resulting graph is adapted accordingly.
-
-![](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots1a.png "Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track")
-
-[**Figure 5b: Adapting the Graph type to Box plot, Add scatter**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
+With the gear icon you can open up the _plot options_ menu, where many settings can be adjusted to which the plot immediately responds.  Let's try a few tweaks (Figure 4b):
+1. Click on the **gear icon** upperleft from the violin plot.
+2. The plot options menu opens up on the _General tab_. The second settings in that tab, _Order Groups by_, is set to __group name__. Click on __group name__, and choose __median (numeric Y)__ in the dropdown options.
+3. You have multiple different options to color both the dots as well as the group violin shapes. Set _Color mode (groups)_ to **Color by Track** and *Color mode* to **Color by Gene**. Notice how, by default teh chosen gene and source are the currently chosen dataset and gene, but that you can choose a different dataset or gene and add layers of information this way.
+4. Also, we adjusted to dot size in the example to 3.5
 
 
-The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed.
-
-5. Clicking on the setting wheel on the left upper corner enables a popup settings window which allows you to choose file types for saving, numerous visualization settings and marking samples by entering the ID or click the sample in the interactive graph.
-
-![](_static/images/FindDiff/DifferentialExpres_thewheel.png "Figure 6a: Adapting the visualisation settings and marking samples")
-
-[**Figure 6: Adapting the Graph type to Dot plot, change order and set Color by Track**](_static/images/FindDiff/DifferentialExpression_AdaptGraphDotPlots.png)
+![](_static/images/FindDiff/Result_adjusted_with_plotoptions.png "Figure 4b: Click the gear icon to customize the appearance of the result plot with _plot options_.")
 
 
+[**Figure 4b: Click the gear icon to customize the appearance of the result plot with _plot options_.**](_static/images/FindDiff/Result_adjusted_with_plotoptions.png)
 
-6. In the 'Adjustable settings' menu, set the *Transformation* dropdown to **none** (Figure 7).
+Thus with a click on the gear icon, you are offered many options to customize the appearance of this plot direcly. The first setting in the plot options menu, **graph type**, enables you to effortlessly switch between various graph types as well. Each graph type might offer an alternative perspective on the same data.  
 
-8. Click **Submit**.
+In the picture below you can see a few examples: a rainbow plot, a box plot with scatter and a ridge plot.
 
-The resulting 2 graphs also depicted in different types of plots in Figure 6 show the difference between the expression values in the two groups more dramatically.
+   ![](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png "Figure 5: Graph type enables you to choose from various plot types to visualize the data.")
 
-![](_static/images/FindDiff/DifferentialExpression_Barplotv2.png "Figure 7a: The same data now represented without transformation in bar/box plots")
 
-[**Figure  7a: The same data now represented without transformation in bar/box plots**](_static/images/FindDiff/DifferentialExpression_Barplotv1.png)
+[**Figure 5: Graph type enables you to choose from various graph types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png)
 
-Figure 5 shows that you can add the sample dots after selecting "Add scatter = TRUE" when e.g. box plot is selected this allows you add a second level of coloring by using the group parameters or coloring by gene.
+  
+To get a sense of the deeper understanding you can get of your data by changing graph type setting, lets try the _YY plot with annotations_. This plot provides a raw overview of gene expression per sample along with the corresponding annotation values in a single view. The samples will be grouped by the same track, **alive (2 cat)**, and ordered on their gene expression values.   
+1. Click on the gear icon upperleft from the violin plot. 
+2. Adapt the selection in the dropdown box *Graph type* to the option **YY with annotation** 
+3. The setting _Extra Graph Option_ is set to **Track and Gene Sort**, which causes the samples within their respective groups to be ordered in increasing value of MYCN expression.
+4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose our desired color of modest blue**.
 
-![](_static/images/FindDiff/DifferentialExpress_twolevelcolor.png "Figure 7b: Coloring the dots by track or gene expression")
+![](_static/images/FindDiff/DifferentialExpression_YY_annoation.png "Figure 6: Adapt the Graph type to _YY with annotation_ to view MYCN expressions plus annotation underneath")
 
-[**Figure  7b: Coloring the dots by track or gene expression**](_static/images/FindDiff/DifferentialExpress_twolevelcolor.png)
+[**Figure 6: Adapt the Graph type setting to _YY with annotation_ to view MYCN expressions plus annotation underneath"**](_static/images/FindDiff/DifferentialExpression_YY_annoation.png)
+
+
+The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed. For this setting we scroll down to the Adjustable settings menu at the bottom of the page. More and more settings are transferred to the directly responsive plot options menu that pops up with a click on the gear icon. Some options, however, are still residing (or also residing) in teh menu at the bottom of teh page. 
+
+5. Scroll down to the Adjustable settings menu and change the setting *Transformation* to **None**. This Adjustable settings menu still requires a click on the **Submit** button in order for adaptations to take effect.
+6. In the plot option menu, visit the other tabs as well, to e.g. add markers around samples by name (**tab Marked**), or to add/remove tracks in the **Tracks tab**
+
+![](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png "Figure 6: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_")
+
+[**Figure 6: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_**](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png)
+
+
+
+The resulting graph is also depicted in different types of plots in Figure 7, with a simple change of the graph type setting (plot options menu), showing the difference between the expression values in the two groups with or without transformation of the data to Log2 (adjustable settings menu). Without transformation gives a more dramatic view of teh difference between the two groups. the markes sample stays marked when you switch graph types or transformation values.
+
+![](_static/images/FindDiff/DifferentialExpression_transformationbox.png "Figure 7: The same data represented with and without transformation in box (up) and dot(down) plots")
+
+[**Figure 7: The same data represented with and without transformation in box (up) and dot(down) plots**](_static/images/FindDiff/DifferentialExpression_transformationbox.png)
+
+Figure 7b shows that you can add or remove the sample dots after selecting "Add scatter = TRUE" when e.g. a box plot is selected. With scatter allows you to add a second level of coloring by using the group parameters or coloring by gene.
+
+![](_static/images/FindDiff/DifferentialExpression_AddScatter.png "Figure 7b: Add scatter / coloring the dots by track or gene expression")
+
+[**Figure 7b: Add scatter / coloring the dots by track or gene expression**](_static/images/FindDiff/DifferentialExpression_AddScatter.png)
 
 
 
