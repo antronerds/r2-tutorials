@@ -81,25 +81,24 @@ R2 now performs a one-way Anova statistical test on the fly. More information ab
 
 1. Check the graph and the information that is displayed underneath the graph in the resulting window.
 
+
+R2 displays the mRNA expression of the samples in a violin plot that illustrates the distribution of the expression values per group (Figure 4).  
 The actual result of the ANOVA calculations is shown in the table under the graph; the difference in average expression between the two groups is significant.
 
 
-![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png "Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
-[**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups.png)
+[**Figure 4: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
+
+These results can also be shown in different types of plots. When you click on the gear icon  that you find next to each The picture below, Figure 5, shows a few examples: a box plot with scatter (A), a rainbow plot (B) and YY plot with annotation (C).
+
+   ![](_static/images/FindDiff/DifferentialExpression_Result.png "Figure 5: Graph type enables you to choose from various plot types to visualize the data.")
 
 
-2. For a nicely ordered graph, you can adjust the settings in the menu at the bottom. Set *Extra Graph Option*  to **Track and Gene Sort** (Do not forget to click on Submit afterwards!).  
+[**Figure 5: Graph type enables you to choose from various plot types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Result.png)
 
-R2 displays the mRNA expression of the samples in a splitted plot in which per group the samples are ordered with increasing expression (Figure 4). Note that the "alive" annotation is in the second row (track) beneath the graph.
-
-   ![](_static/images/FindDiff/DifferentialExpress_Result.png "Figure 5: Order the samples per group with increasing expression.")
-
-
-[**Figure 5a: Order the samples per group with increasing expression.**](_static/images/FindDiff/DifferentialExpress_Result.png)
-
-These results can also be shown in different types of plots (Figure 5).
+To get a feeling of how to play around with the settings menus, we will follow the making of plot the boxplot with scatter. 
 1. Scroll down the window to the Adjustable settings menu.
 2. Adapt the selection in the dropdown box *Graph type* to another graph type, e.g. **Box plot**, and change *Color mode* to **Color by Track**. Also set  "Add scatter" to TRUE. 
 3. Note that you can change the order of the groups with *Order Groups By*, let's take **median (numeric Y)** in our case.
@@ -325,7 +324,7 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
    graph generation, some adaptations may not update automatically. Click on the "redraw plot" button at the bottom of the plot options to add
    this information. 
 
-4. In the adjustable settings menu you select gene sets to high light the genes and toggle on histograms along the X and Y axis.
+4. In the adjustable settings menu you select gene sets to highlight the genes and toggle on histograms along the X and Y axis.
 
 
    ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21: Different plots of all genes differentially expressed in the current track;")
