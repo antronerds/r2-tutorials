@@ -378,36 +378,18 @@ This example is from another differential analysis, right clicking on the datapo
 Step 9: Using the Enrichr
 ---------------
 
-The right menu also allows you to take your result list of differentially expressed genes (DEG) outside R2 to the public available Enrichr platform. Enrichr (https://maayanlab.cloud/Enrichr/enrich) is a web-based platform designed for gene set enrichment analysis (GSEA) and functional annotation of gene lists. It allows you to gain insights into the biological processes, pathways, and functions associated with their gene sets of interest. The Enrichr performs an enrichment analysis by comparing the generated R2-list against a large collection of well curated databases such as Gene Ontology, KEGG pathways and disease-associated gene sets
+Several buttons lead to follow-up analyses on the right side of the result page of a Differential expression between (two) groups analysis. One of the buttons, **Enrichr**, takes your result list of differentially expressed genes (DEG) outside R2 to the public available Enrichr platform. Enrichr (https://maayanlab.cloud/Enrichr/enrich) is a web-based platform designed for gene set enrichment analysis (GSEA) and functional annotation of gene lists. It allows you to gain insights into the biological processes, pathways, and functions associated with their gene sets of interest. The Enrichr performs an enrichment analysis by comparing the generated R2-list against a large collection of well curated databases such as Gene Ontology, KEGG pathways and disease-associated gene sets
 
 ![](_static/images/FindDiff/DifferentialExpres_enrichr.png "Figure    23 : Adjusted visualization of gene expression,hovering over the dots    shows the    gene name.")
 
 [**Figure 23: Taking the result to the Enrichr platform.**](_static/images/FindDiff/DifferentialExpres_enrichr.png)
 
-Figure 23 shows the Enrichr button you can click directly when the DEG list genes is ready, in the next screen you can select  just one group when coming from the two group analysis or you want to include and even add of delete genes from list. Hitting the submit button will direct lead to the Enrichr platform. 
-
-
-
-
--------------------------------------------
-![](_static/images/R2d2_logo.png)**Did you know that you can tailor visualization of specific genes in one go?**
-
-* You can annotate gene names (gene symbols) by providing them in the 'Mark genes' field of the Adjustable Settings panel. By default, these will appear in red, size=10, on your plot. You can change the size and/or color of these genes either individually, or in groups.
-* Clicking on the dots will annotate the dots with the gene name.  
-* Please take note of the following rules: to mark groups of genes for which the same criteria apply,
-first type the genes (comma separated), followed by :s=size, followed by :c=r,g,b  
-for single genes: gene1:s=25:c=0,0,255;gene2:s=20:c=200,0,0  
-for groups of genes: (gene1,gene2,gene3):s=25:c=0,0,255;(gene4,gene5,gene6):s=20:c=200,0,0"*
-
--------------------------------
-
+Figure 23 shows the Enrichr button you can click directly when the DEG list genes is ready. In the next screen you can select just one group when coming from the two group analysis or if you want to include and even add or delete genes from list. Hitting the **Submit** button will directly lead to the Enrichr platform. 
 
 
 
 Final remarks / future directions
 ---------------------------------
-
-
 
 This tutorial has shown you how to find genes that are differentially
 expressed in your dataset of choice. Now go ahead and toy around with
