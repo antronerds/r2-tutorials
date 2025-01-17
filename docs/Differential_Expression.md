@@ -236,28 +236,31 @@ In the right menu numerous modules can be selected to continue the analysis. Als
 
 -----------------
 
-Step 5: Correct for paired analysis
+Step 5: Correct for setting in paired analysis
 ---------------
 
 A paired analysis is often performed when observations are natural paired or matched such as in the following example. 
+1. In box 2 of the main screen, click on the current dataset name, such that the dataset grid pops up and you can type **George** in the blank search field unerneath the _Author_ column header. Click on the row of the dataset Exp - Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and **Confirm selection**.
+Also, in box 3, select **Differential expression between two groups** analysis, select _group by_ **cell_lineage** and click **Next**. Leave adrenergic and mesenchymal for the groups and click the **Submit** button (! _Not_ the lower Next button) of the _Adjustable settings menu_.  
+  
+Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
 
-1. In box 2 of the main screen, click on the current dataset name, such that the dataset grid pops up and you can type **George** as _Author and **12**  _N__  the main screen the following dataset. Exp Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and differential expression between two groups, select group by cell_lineage and click submit. Subsequently select adrenergic and mesenchymal for the groups and click the lower submit button.  Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
 
-   ![](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png "Figure 16: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpres_Limmawithoutcorrectfor.png "Figure 16: Genes differentially expressed between groups with Limma test.")
 
-   [**Figure 16: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png).
+   [**Figure 16: Genes differentially expressed between groups with Limma test.**](_static/images/FindDiff/DifferentialExpres_Limmawithoutcorrectfor.png).
 
-2. In the select a test box, select Limma and again for Group by: Cell_lineage and click submit. Select Adrenergic and mesenchymal for the groups and now you can select a track you want to correct for in this case, the  genomic_mycn_status, click the lower submit button.
+2. In the _Select a test_ menu at the bottom, select **Limma**, click **Next** and leave _Group by_ on **cell_lineage (2cat)** and click **Next**. Leave adrenergic and mesenchymal for the groups. Now you can select a track in the _Correct for_ setting, in this case, the  **genomic_mycn_status (2cat)**, click the **Submit** button.
 
-   ![](_static/images/FindDiff/DifferentialExpres_withcorrectfor1a.png "Figure 17: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpres_Limmawithcorrectfor.png "Figure 17: Genes differentially expressed between groups with Limma test AND with pairing correction")
 
-   [**Figure 17: Genes differentially expressed between groups with correction.**](_static/images/FindDiff/DifferentialExpres_withcorrectfor1a.png)
+   [**Figure 17: Genes differentially expressed between groups AND with pairing correction.**](_static/images/DifferentialExpres_Limmawithcorrectfor.png)
 
-3. After correction for the genomic_mycn status more genes are found to be significant differentially expressed between the two groups. For example also the PAX5 gene appears higher and more significant in the list which could be a candidate for further investigation.
+3. After correction for the genomic mycn status more genes are found to be significant differentially expressed between the two groups. For example also the PAX5 gene appears higher and more significant in the list which could be a candidate for further investigation.
 
-   ![](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png "Figure 18: Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpres_withandwithoutcorPAX5.png "Figure 18: Genes differentially expressed between groups")
 
-   [**Figure 18: Genes differentially expressed between groups with correcttion.**](_static/images/FindDiff/DifferentialExpres_withcorPAX5.png)
+   [**Figure 18: Genes differentially expressed between groups with correcttion.**](_static/images/FindDiff/DifferentialExpres_withandwithoutcorPAX5.png)
 
 
 ​	
