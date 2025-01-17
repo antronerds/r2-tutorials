@@ -241,7 +241,7 @@ Step 5: Correct for paired analysis
 
 A paired analysis is often performed when observations are natural paired or matched such as in the following example. 
 
-1. Select in the main screen the following dataset. Exp Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and differential expression between two groups, select group by cell_lineage and click submit. Subsequently select adrenergic and mesenchymal for the groups and click the lower submit button.  Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
+1. In box 2 of the main screen, click on the current dataset name, such that the dataset grid pops up and you can type **George** as _Author and **12**  _N__  the main screen the following dataset. Exp Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and differential expression between two groups, select group by cell_lineage and click submit. Subsequently select adrenergic and mesenchymal for the groups and click the lower submit button.  Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
 
    ![](_static/images/FindDiff/DifferentialExpres_nocorrectfor.png "Figure 16: Genes differentially expressed between groups")
 
