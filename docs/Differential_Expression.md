@@ -229,9 +229,9 @@ The generated list can be sorted or filtered by any of the column headers in the
 
 In the right menu numerous modules can be selected to continue the analysis. Also, the generated list can be extracted to continue for further usage outside R2 and stored as temporary or permanent geneset in R2, as indicated in the right menu
 
-   ![](_static/images/FindDiff/DifferentialExpress_Genelistv2a.png "Figure 15 Genes differentially expressed between groups")
+   ![](_static/images/FindDiff/DifferentialExpression_GenelistFollowup.png "Figure 15: Genes differentially expressed between groups and follow up analyses / save options.")
 
-   [**Figure 15: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_Genelistv2a.png)
+   [**Figure 15: Genes differentially expressed between groups and follow up analyses / save options.**](_static/images/FindDiff/DifferentialExpression_GenelistFollowup.png)
 
 
 -----------------
@@ -239,7 +239,7 @@ In the right menu numerous modules can be selected to continue the analysis. Als
 Step 5: Correct for paired analysis
 ---------------
 
-A paired analysis is often performed when observations are natural paired or matched such as in this example. 
+A paired analysis is often performed when observations are natural paired or matched such as in the following example. 
 
 1. Select in the main screen the following dataset. Exp Neuroblastoma Adrn Mes resistant - George - 12 - tpm - gse165748 and differential expression between two groups, select group by cell_lineage and click submit. Subsequently select adrenergic and mesenchymal for the groups and click the lower submit button.  Take a look at the number of found combinations and continue with adapting the settings in the adjustable settings box below the list of combinations.
 
