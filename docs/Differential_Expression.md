@@ -329,32 +329,32 @@ Step 8: Plot all genes and adapt visualization: Volcano plot etc
 
 2. Now we will explore one of the options to visualize the obtained list of differentially expressed genes: the Vulcano plot to plot all genes of this analysis. In the Adjustable settings form, open the pull down of _Display_ and select **Volcano plot**. Then press **Submit**.
 
-      ![](_static/images/FindDiff/DifferentiaExpression_display_dropdown.png "Figure  21: Display options for Differential Expression analysis")
+      ![](_static/images/FindDiff/DifferentiaExpression_display_dropdown.png "Figure  21a: Display options for Differential Expression analysis")
 
-      [**Figure  21 : Display options for Differential Expression analysis**](_static/images/FindDiff/DifferentiaExpression_display_dropdown.png)
+      [**Figure  21a : Display options for Differential Expression analysis**](_static/images/FindDiff/DifferentiaExpression_display_dropdown.png)
 
 3. The analysis will now be initiated again, but since R2 stores analyses results for a little while, the re-initiated analysis should not take more than a couple of seconds. The resulting plot shows all genes of the list in a so-called volcano plot. Hovering over the points shows the gene symbol, left-clicking on the dots will annotate the dots with the gene name (or other markings, as you can adapt in the 'Marked' tab of the plot options). To speed up the
    graph generation, some adaptations may not update automatically. Click on the "redraw plot" button at the bottom of the plot options to add
    this information. 
 
-   ![](_static/images/FindDiff/DifferentialExpression_Volcanoplot_annotation_violininspection.png "Figure 21a: Annotate with a gene name (left-click) or inspect further in violin plot (right-click)")
+   ![](_static/images/FindDiff/DifferentialExpression_Volcanoplot_annotation_violininspection.png "Figure 21b: Annotate with a gene name (left-click) or inspect further in violin plot (right-click)")
 
-   [**Figure 21a: Annotate with a gene name (left-click) or inspect further in violin plot (right-click)**](_static/images/FindDiff/DifferentialExpression_Volcanoplot_annotation_violininspection.png)
+   [**Figure 21b: Annotate with a gene name (left-click) or inspect further in violin plot (right-click)**](_static/images/FindDiff/DifferentialExpression_Volcanoplot_annotation_violininspection.png)
 
 
 4. In the Adjustable settings menu you can select gene sets to highlight specific curated genes sets or/ and toggle on histograms along the X and Y axis.
 
 
-   ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21b: Different plots of all genes differentially expressed in the current track;")
+   ![](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png "Figure 21c: Different plots of all genes differentially expressed in the current track;")
 
-   [**Figure 21b: XY, MA , Volcano plot of all genes differentially expressed in the current    track;**](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png)
+   [**Figure 21c: XY, MA , Volcano plot of all genes differentially expressed in the current    track;**](_static/images/FindDiff/DifferentialExpress_vulconoplot1b.png)
 
 This example is from another differential analysis, right clicking on the datapoint in the plot opens a new window showing the expression
    of the gene in the two groups as a violin plot.
 
-   ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  21: Differential expression of MYCN")
+   ![](_static/images/FindDiff/DifferentialExpress_Violinplot.png "Figure  21d: Differential expression of MYCN")
 
-   [**Figure  21 : Differential expression of MYCN**](_static/images/FindDiff/DifferentialExpress_Violinplot.png)
+   [**Figure  21d : Differential expression of MYCN**](_static/images/FindDiff/DifferentialExpress_Violinplot.png)
 
 
 
