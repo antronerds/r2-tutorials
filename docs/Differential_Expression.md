@@ -103,7 +103,8 @@ With the gear icon you can open up the _plot options_ menu, where many settings 
 
 [**Figure 4b: Click the gear icon to customize the appearance of the result plot with _plot options_.**](_static/images/FindDiff/Result_adjusted_with_plotoptions.png)
 
-Thus with a click on the gear icon, you are offered many options to customize the appearance of this plot direcly. The first setting in the plot options menu, **graph type**, enables you to effortlessly switch between various graph types as well. Each graph type might offer an alternative perspective on the same data.  
+Thus, with a click on the **gear icon**, you are offered many options to customize the appearance of this plot directly.  
+The **graph type** (e.g. violin plot, box plot, YY plot etc.) can be changed as well with one click in the plot options menu. It is the first setting in the *General tab* of the plot options menu. Each graph type might offer an alternative perspective on the same data.  
 
 In the picture below you can see a few examples: a rainbow plot, a box plot with scatter and a ridge plot.
 
@@ -113,11 +114,12 @@ In the picture below you can see a few examples: a rainbow plot, a box plot with
 [**Figure 5: Graph type enables you to choose from various graph types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png)
 
   
-To get a sense of the deeper understanding you can get of your data by changing graph type setting, lets try the _YY plot with annotations_. This plot provides a raw overview of gene expression per sample along with the corresponding annotation values in a single view. The samples will be grouped by the same track, **alive (2 cat)**, and ordered on their gene expression values.   
-1. Click on the gear icon upperleft from the violin plot. 
-2. Adapt the selection in the dropdown box *Graph type* to the option **YY with annotation** 
+To get a sense of the ease of this graph type setting and the different perspective of your data that it can offer you when you play around with it, lets try the _YY with annotations_.  
+The _YY with annotations_ plot provides a raw overview of gene expression per sample along with the corresponding annotation values in a single view. The samples will be grouped by the same track, **alive (2 cat)**, and ordered on their gene expression values.   
+1. Click on the gear icon upperleft from the violin plot if the plot options menu is not open yet. 
+2. Check that you are in the General tab of the menu and adapt the selection in the dropdown box *Graph type* to the option **YY with annotation**. 
 3. The setting _Extra Graph Option_ is set to **Track and Gene Sort**, which causes the samples within their respective groups to be ordered in increasing value of MYCN expression.
-4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose our desired color of modest blue**.
+4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose our desired color of a blue-grey. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker **.
 
 ![](_static/images/FindDiff/DifferentialExpression_YY_annoation.png "Figure 6: Adapt the Graph type to _YY with annotation_ to view MYCN expressions plus annotation underneath")
 
