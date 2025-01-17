@@ -248,13 +248,13 @@ Take a look at the number of found combinations and continue with adapting the s
 
    ![](_static/images/FindDiff/DifferentialExpres_Limmawithoutcorrectfor.png "Figure 16: Genes differentially expressed between groups with Limma test.")
 
-   [**Figure 16: Genes differentially expressed between groups with Limma test.**](_static/images/FindDiff/DifferentialExpres_Limmawithoutcorrectfor.png).
+   [**Figure 16: Genes differentially expressed between groups with Limma test.**](_static/images/FindDiff/DifferentialExpres_Limmawithoutcorrectfor.png)
 
 2. In the _Select a test_ menu at the bottom, select **Limma**, click **Next** and leave _Group by_ on **cell_lineage (2cat)** and click **Next**. Leave adrenergic and mesenchymal for the groups. Now you can select a track in the _Correct for_ setting, in this case, the  **genomic_mycn_status (2cat)**, click the **Submit** button.
 
    ![](_static/images/FindDiff/DifferentialExpres_Limmawithcorrectfor.png "Figure 17: Genes differentially expressed between groups with Limma test AND with pairing correction")
 
-   [**Figure 17: Genes differentially expressed between groups AND with pairing correction.**](_static/images/DifferentialExpres_Limmawithcorrectfor.png)
+   [**Figure 17: Genes differentially expressed between groups AND with pairing correction.**](_static/images/FindDiff/DifferentialExpres_Limmawithcorrectfor.png)
 
 3. After correction for the genomic mycn status more genes are found to be significant differentially expressed between the two groups. For example also the PAX5 gene appears higher and more significant in the list which could be a candidate for further investigation.
 
