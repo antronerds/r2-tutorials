@@ -104,6 +104,7 @@ With the gear icon you can open up the _plot options_ menu, where many settings 
 [**Figure 4b: Click the gear icon to customize the appearance of the result plot with _plot options_.**](_static/images/FindDiff/Result_adjusted_with_plotoptions.png)
 
 Thus, with a click on the **gear icon**, you are offered many options to customize the appearance of this plot directly.  
+  
 The **graph type** (e.g. violin plot, box plot, YY plot etc.) can be changed as well with one click in the plot options menu. It is the first setting in the *General tab* of the plot options menu. Each graph type might offer an alternative perspective on the same data.  
 
 In the picture below you can see a few examples: a rainbow plot, a box plot with scatter and a ridge plot.
@@ -114,68 +115,64 @@ In the picture below you can see a few examples: a rainbow plot, a box plot with
 [**Figure 5: Graph type enables you to choose from various graph types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png)
 
   
-To get a sense of the ease of this graph type setting and the different perspective of your data that it can offer you when you play around with it, lets try the _YY with annotations_.  
-The _YY with annotations_ plot provides a raw overview of gene expression per sample along with the corresponding annotation values in a single view. The samples will be grouped by the same track, **alive (2 cat)**, and ordered on their gene expression values.   
-1. Click on the gear icon upperleft from the violin plot if the plot options menu is not open yet. 
+To get a sense of the ease of this graph type setting and the different perspectives of your data that it can offer you when you play around with it, lets try the _YY with annotations_.  
+The _YY with annotations_ plot provides a raw overview of gene expression per sample. The richness of this view is provided by the corresponding annotation values per sample that are displayed underneath. The samples will be grouped by the same track, **alive (2 cat)**, and ordered on their gene expression values.   
+1. Click on the gear icon upper left from the violin plot if the plot options menu is not open yet. 
 2. Check that you are in the General tab of the menu and adapt the selection in the dropdown box *Graph type* to the option **YY with annotation**. 
 3. The setting _Extra Graph Option_ is set to **Track and Gene Sort**, which causes the samples within their respective groups to be ordered in increasing value of MYCN expression.
-4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose our desired color of a blue-grey. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker **.
+4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose a color of a blue-grey. This blue-grey color is one of teh standard colors that you can find in the color picker. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker.
 
 ![](_static/images/FindDiff/DifferentialExpression_YY_annoation.png "Figure 6: Adapt the Graph type to _YY with annotation_ to view MYCN expressions plus annotation underneath")
 
 [**Figure 6: Adapt the Graph type setting to _YY with annotation_ to view MYCN expressions plus annotation underneath"**](_static/images/FindDiff/DifferentialExpression_YY_annoation.png)
 
 
-The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 transformation. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed. For this setting we scroll down to the Adjustable settings menu at the bottom of the page. More and more settings are transferred to the directly responsive plot options menu that pops up with a click on the gear icon. Some options, however, are still residing (or also residing) in teh menu at the bottom of teh page. 
+The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 data **transformation**. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed. For this setting we scroll down to the _Adjustable settings menu_ at the bottom of the page. More and more settings are transferred to the directly responsive plot options menu that pops up with a click on the gear icon. Some options, however, are still residing (or also residing) in the menu at the bottom of the page. 
 
 5. Scroll down to the Adjustable settings menu and change the setting *Transformation* to **None**. This Adjustable settings menu still requires a click on the **Submit** button in order for adaptations to take effect.
-6. In the plot option menu, visit the other tabs as well, to e.g. add markers around samples by name (**tab Marked**), or to add/remove tracks in the **Tracks tab**
+6. In the plot option menu that you pop up with the gear icon, visit the other tabs as well, to e.g. add markers around samples by name (**tab Marked**), or to add/remove tracks in the **Tracks tab**
 
-![](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png "Figure 6: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_")
+![](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png "Figure 6a: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_")
 
-[**Figure 6: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_**](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png)
+[**Figure 6a: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_**](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png)
 
+You can also mark or unmark a sample with a simple click on the desired sample in the graph. Once a sample is marked, you can adjust the marker appearance in the plot options menu (figure 6b).
 
+![](_static/images/FindDiff/DifferentialExpression_Mark_sample_by_graphclick.png "Figure 6b: Mark a sample with a click on the dot in the graph, and customize the marking in plot options")
 
-The resulting graph is also depicted in different types of plots in Figure 7, with a simple change of the graph type setting (plot options menu), showing the difference between the expression values in the two groups with or without transformation of the data to Log2 (adjustable settings menu). Without transformation gives a more dramatic view of teh difference between the two groups. the markes sample stays marked when you switch graph types or transformation values.
+[**Figure 6b: Mark a sample with a click on the dot in the graph, and customize the marking in plot options**](_static/images/FindDiff/DifferentialExpression_Mark_sample_by_graphclick.png)
+
+The resulting graph is also depicted in different types of plots in Figure 7, with a simple change in the _graph type setting_ (plot options menu). Here too it shows the difference between the expression values in the two groups with Log2 _transformation_ (left) or without (right) transformation of the data to Log2. Log2 transformation (in the Adjustable settings menu underneath the graph) causes high extremes to seem less extreme. Differences between lower values will be more accentuated.  
+You can see that with a change of graph type or transformation setting, the marked sample stays marked. This enables you to view your data from various perspectives and effortlessly track the samples that matter to you across different graphs.
 
 ![](_static/images/FindDiff/DifferentialExpression_transformationbox.png "Figure 7: The same data represented with and without transformation in box (up) and dot(down) plots")
 
-[**Figure 7: The same data represented with and without transformation in box (up) and dot(down) plots**](_static/images/FindDiff/DifferentialExpression_transformationbox.png)
+[**Figure 7: The same data represented with log2 data transformation (left) and without transformation in box (up) and dot (down) plots**](_static/images/FindDiff/DifferentialExpression_transformationbox.png)
 
-Figure 7b shows that you can add or remove the sample dots after selecting "Add scatter = TRUE" when e.g. a box plot is selected. With scatter allows you to add a second level of coloring by using the group parameters or coloring by gene.
+Figure 8 shows that you can add or remove the sample dots after selecting "Add scatter = TRUE" when e.g. a box plot is selected. With scatter allows you to add a second level of coloring by using the group parameters or coloring by gene.
 
-![](_static/images/FindDiff/DifferentialExpression_AddScatter.png "Figure 7b: Add scatter / coloring the dots by track or gene expression")
+![](_static/images/FindDiff/DifferentialExpression_AddScatter.png "Figure 8: Add/ remove scatter and color the dots by track or gene expression values")
 
-[**Figure 7b: Add scatter / coloring the dots by track or gene expression**](_static/images/FindDiff/DifferentialExpression_AddScatter.png)
+[**Figure 8: Add/remove scatter and color the dots by track or by gene expression values**](_static/images/FindDiff/DifferentialExpression_AddScatter.png)
 
 
 
 ------------------
 ![](_static/images/R2d2_logo.png)**Did you know that samples can be filtered and/or marked?**
 
-*Under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation on track. First choose a track, then select the wanted subgroups in the track. The analysis will only be performed on the selected subset.*
+*In the Adjustable settings menu under the sub-header "Sample Filter" you can select a specific subset of samples based on the annotation on track. First choose a track, then select the wanted subgroups in the track. The analysis will only be performed on the selected subset and only the selected samples will appear in a graph.*
 
 ![](_static/images/FindDiff/DifferentialExpress_SampleFilterDropdown.png)
 
-[**Figure 8: Sample selection with the Sample Filter**](_static/images/FindDiff/DifferentialExpress_SampleFilterDropdown.png)
+[**Figure 9: Sample selection with the Sample Filter**](_static/images/FindDiff/DifferentialExpress_SampleFilterDropdown.png)
 
 
 
-*Clicking the wheel icon will open a grid supporting all selection combinations of interest*
+*If you click the wheel icon in the Sample Filter, a grid pops up with which you can make an advanced selection of samples based on combinations of tracks of interest*
 
 ![](_static/images/FindDiff/DifferentialExpress_SampleFilterAdvanced.png)
 
-[**Figure 9: Advanced sample selection**](_static/images/FindDiff/DifferentialExpress_SampleFilterAdvanced.png)
-
-*In the samples to mark section, a sample name can be entered that will be highlighted in the resulting graph; ideal for publication purposes. Also note that in the interactive plot section you can mark samples by clicking on the dots.*
-
-Clicking the dots in box plot with scatter = TRUE will open the plot optio box were all kinds of settings can be adapted for the selected dots also a sample ID can be entered for selection.
-
-
-![](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample1a.png)
-
-[**Figure 10: Graph with sample selection INSS 3 and 4 and a marked sample**](_static/images/FindDiff/DifferentialExpress_SampleFilterMarkedSample1a.png)
+[**Figure 10: Advanced sample selection**](_static/images/FindDiff/DifferentialExpress_SampleFilterAdvanced.png)
 
 
 --------
