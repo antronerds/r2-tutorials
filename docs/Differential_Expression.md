@@ -267,7 +267,7 @@ Take a look at the number of found combinations and continue with adapting the s
 --------------------------------------------------------------------------
 ![](_static/images/R2d2_logo.png)***Did you know that...***
 
-*Very useful background information for this tutorial can be found in Chapter 25 [Concepts of R2: did you know..?](Did_You_Know.md)*
+*Useful background information for this tutorial can be found in Chapter 25 [Concepts of R2: did you know..?](Did_You_Know.md)*
 
 *Check it out:*
 
