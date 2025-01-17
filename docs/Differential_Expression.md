@@ -210,15 +210,15 @@ Step 5 Setting parameters
 
 In our case we continue with the Tumor Neuroblastoma dataset and the Differential Expression between two groups analysis with the T-test. 
 
-1. Now we also make the choice for the two groups. Select behind *Group by* the track **Alive (2cat)** again. Click **Submit**.  
+1. Now we also make the choice for the two groups. Select behind *Group by* the track **Alive (2cat)** again. Click **Next**.  
 
 
-   ![](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png "Figure 13: Differential expression parameters")
+   ![](_static/images/FindDiff/DifferentialExpression_Default_steps_diffexpr_parameters.png "Figure 13: Differential expression parameters")
 
-   [**Figure 13: Differential expression parameters**](_static/images/FindDiff/DifferentialExpress_AdaptParamv1.png)
+   [**Figure 13: Differential expression parameters**](_static/images/FindDiff/DifferentialExpression_Default_steps_diffexpr_parameters.png)
 
-3. An extra menu shows up with many options. For now we only adjust the required Group 1 and Group 2 setting: we choose the value **no (33)** for *Group 1* and **yes (55)** for *Group 2*.
-4.  Click **Submit**.
+3. An extra menu with many options shows up above the test selection menu. Note that the required Group 1 and Group 2 setting is already filled in: the value **no (33)** for *Group 1* and **yes (55)** for *Group 2*.
+4. Click **Submit**.
 
 ![](_static/images/FindDiff/DifferentialExpress_Progress1a.png "Figure 14: Progress dialog during on the fly calculation")
 
