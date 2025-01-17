@@ -290,7 +290,9 @@ Step 6: Find differential expression in multiple groups
 ---------------
 
 
-As mentioned above, Find Differential Expression for multiple groups can also be applied with a slightly different "Adjustable settings menu" and including other types of statistical tests. Read further about which test to use in [Chapter 25](Did_You_Know.md).
+As mentioned above, Find Differential Expression can also be applied with a different parameters and including other types of statistical tests. Read further about which test to use in [Chapter 25](Did_You_Know.md).  
+  
+We will now continue to find differentially expressed genes, this time for multiple groups.
 
 1. Go back to the **Main** page by the link in the upper left corner and select again the Neuroblastoma 88 set.
 2. Select **Differential expression between multiple groups** and click **Next**
@@ -300,7 +302,7 @@ As mentioned above, Find Differential Expression for multiple groups can also be
 
 [**Figure 19: Genes differentially expressed between groups.**](_static/images/FindDiff/DifferentialExpress_AdaptParamv2.png)
 
-4. A list of differentially expressed genes between the groups is generated. Of course, now that we have more than two groups, the table no longer contains the Difference column and group order column.
+A list of differentially expressed genes between the groups is generated. Of course, now that we have more than two groups, the table no longer contains the Difference column and group order column.
 
 
 -----------------
@@ -311,11 +313,7 @@ Step 7: Inspecting single genes
 2. Hover over the magnify symbol in the list next to the gene name to find a description of the gene. 
 3. Now click on the magnify symbol. A similar graph is produced as for TF, the differential
     expression is more pronounced for this gene (Figure 18). In stage 4s, even indicating  based on the TF expression that there is possible subgroup within the INSS 4s stage.
-4. In the
-    generated picture the samples are not ordered by their gene
-    expression. Go to the adjustable settings menu and select **Track and
-    gene sort** in the *Extra Graph Option* pulldown menu. Click
-    **Submit**.
+4. Of course, as usual, with the gear icon upper left from the graph, you can customize the plot to your liking in teh plot options menu. Or, in the tab _Save_ in this menu, you can save the graph as png, svg or copy to clipboard. 
 
 ![](_static/images/FindDiff/DifferentialExpress_TopGene.png "Figure 20: Hover over and click on any gene of interest")
 
