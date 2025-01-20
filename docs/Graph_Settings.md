@@ -35,7 +35,7 @@ Many graphs in R2 are now adaptable without the need to hit a Submit button upon
   
 This level of interactivity enables more direct and smooth play with the plots. 
 
-![](_static/images/Graphs/graphgear2inf.gif "Figure 2: The gear icon opens a menu with settings, e.g. to save and copy a graph")
+![](_static/images/Graphs/graphgear3inf.gif "Figure 2: The gear icon opens a menu with settings, e.g. to save and copy a graph")
 
 [**Figure 2: The gear icon opens a menu with settings to switch between graph types and customize your plot**](_static/images/Graphs/graphgear3inf.gif)
 
@@ -56,25 +56,25 @@ plot blank. One more click allows you to subsequently single out a subgroup quic
 With one more click you then toggle one or a few groups on. 
 
 
-![](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif "Figure 1: Submit buttons (color by track) vs responsive settings (toggle legend subgroups)")
+![](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif "Figure 3: Submit buttons (color by track) vs responsive settings (toggle legend subgroups)")
 
-[**Figure 1: Submit buttons (color by track) vs responsive settings (toggle legend subgroups)**](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif)
+[**Figure 3: Submit buttons (color by track) vs responsive settings (toggle legend subgroups)**](_static/images/Graphs/samplemaps_color_settings_legend_toggle.gif)
 
 In the animation below, we show several responsive settings that you can find in various graphs in R2. In
 responsive graphs, samples can be marked with a click on the sample in the graph; you can zoom in and out with the
 scrolling wheel of your mouse and the graph can be repositioned by dragging the plot while holding the right mouse 
 button.
 
-![](_static/images/Graphs/samplemaps_zoom_drag_mark.gif "Figure 2: Zoom in / out and reposition the plot, mark a
+![](_static/images/Graphs/samplemaps_zoom_drag_mark.gif "Figure 4: Zoom in / out and reposition the plot, mark a
 sample")
 
-[**Figure 2: Zoom in / out and reposition the plot, mark a
+[**Figure 4: Zoom in / out and reposition the plot, mark a
 sample**](_static/images/Graphs/samplemaps_zoom_drag_mark.gif)
 
 Some graphs offer additional responsive options outside the graph. Below the animation shows several other options in 
 the Sample maps module. 
 
 
-![](_static/images/Graphs/sample_maps_dot_size.gif "Figure 3: Adapt dot size / add border/ copy paste to powerpoint")
+![](_static/images/Graphs/sample_maps_dot_size.gif "Figure 5: Adapt dot size / add border/ copy paste to powerpoint")
 
-[**Figure 3: Adapt dot size / add border/ copy paste to powerpoint**](_static/images/Graphs/sample_maps_dot_size.gif)
+[**Figure 5: Adapt dot size / add border/ copy paste to powerpoint**](_static/images/Graphs/sample_maps_dot_size.gif)
