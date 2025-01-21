@@ -78,3 +78,15 @@ the Sample maps module.
 ![](_static/images/Graphs/sample_maps_dot_size.gif "Figure 5: Adapt dot size / add border/ copy paste to powerpoint")
 
 [**Figure 5: Adapt dot size / add border/ copy paste to powerpoint**](_static/images/Graphs/sample_maps_dot_size.gif)
+<br><br>
+
+### Summary: two different kind of R2 menus
+To summarize, many graphs in R2 are now responsive with settings that take immediate effect upon change and with plot elements that are interactive.  
+Below is a picture of the two different kind of menus that you often encounter in R2: 
+* The responsive plot options menu that appears when you hit the gear button (marked in red). Changes made in these setting take immediate effect in the graph. 
+* The grey Adjustable settings menu that you often find on intermediate analysis pages and at the bottom of a result page. These menus require clicking the submit button to apply changes.  
+
+
+![](_static/images/Graphs/Plotoptions_vs_adjustablesettings.png "Figure 6: Two different kind of menus: the responsive plot options vs the adjustable settings menu with a submit button")
+
+[**Figure 6: Two different kind of menus: the responsive plot options vs the adjustable settings menu with a submit button**](_static/images/Graphs/Plotoptions_vs_adjustablesettings.png)
