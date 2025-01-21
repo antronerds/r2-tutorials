@@ -75,9 +75,9 @@ Some graphs offer additional responsive options outside the graph. Below the ani
 the Sample maps module. 
 
 
-![](_static/images/Graphs/sample_maps_dot_size.gif "Figure 5: Adapt dot size / add border/ copy paste to powerpoint")
+![](_static/images/Graphs/sample_maps_dot_sizeinf.gif "Figure 5: Adapt dot size / add border/ copy paste to powerpoint")
 
-[**Figure 5: Adapt dot size / add border/ copy paste to powerpoint**](_static/images/Graphs/sample_maps_dot_size.gif)
+[**Figure 5: Adapt dot size / add border/ copy paste to powerpoint**](_static/images/Graphs/sample_maps_dot_sizeinf.gif)
 <br><br>
 
 ### Summary: two different kind of R2 menus
