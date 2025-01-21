@@ -27,7 +27,7 @@ Check out the below animation to see an example:
 
 ![](_static/images/Graphs/graphgear2inf.gif "Figure 1: The gear icon opens a menu with settings, e.g. to save and copy a graph")
 
-[**Figure 2: The gear icon opens a menu with settings to switch between graph types and customize your plot**](_static/images/Graphs/graphgear3inf.gif)
+[**Figure 1: The gear icon opens a menu with settings, e.g. to save and copy a graph**](_static/images/Graphs/graphgear2inf.gif)
 
 ### Interactively switch between graph types and customize your plot
 
@@ -35,9 +35,9 @@ Many graphs in R2 are now adaptable without the need to hit a Submit button upon
   
 This level of interactivity enables more direct and smooth play with the plots. 
 
-![](_static/images/Graphs/graphgear3inf.gif "Figure 2: The gear icon opens a menu with settings, e.g. to save and copy a graph")
+![](_static/images/Graphs/graphgear3inf.gif "Figure 2: To switch between graph types and customize your plot, left-click the gear icon")
 
-[**Figure 2: The gear icon opens a menu with settings to switch between graph types and customize your plot**](_static/images/Graphs/graphgear3inf.gif)
+[**Figure 2: To switch between graph types and customize your plot, left-click the gear icon**](_static/images/Graphs/graphgear3inf.gif)
 
 
 ### Example settings: color the sample maps
