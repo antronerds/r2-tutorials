@@ -8,36 +8,53 @@ Integrative Analysis : WGS/NGS data
 Scope
 -----
 - In this part R2 is used to provide information about how Whole Genome Sequencing (WGS) data can be viewed, shared and analyzed.
-  This is a specialized topic for which you need access to a dataset containing such information. Most likely close collaboration is needed to tailor your own data to your needs.
+  Find the tools for WGS/WES data on the left side of the left menu.
 
+  ![](_static/images/IntAnaWGS/IntAnalysis_WGS_LeftMenuButton.png)
 
+  [**Figure 1: Find the Personalized Genomics (WGS / WES) analysis options from the left side menu**](_static/images/IntAnaWGS/IntAnalysis_WGS_LeftMenuButton.png)
 
 ## Step 1: View circos files.
 
-1. To view circos plots of the sequenced genomes in R2, select *Static circos files (v3)* in Box 3 (Fig 1).
+1. After a click on the WGS/WES button from the left side menu on the main page (red square in Figure 1), click on the *Static circos files* link in the middle menu (Fig 2a).
+From the Collection dropdown, select **Preview**
+	![](_static/images/IntAnaWGS/IntAnalysis_WGS_staticCircosFiles_preview.png)
 	
-	![](_static/images/IntAnaWGS/IntAnalysis_WGS_main_staticCircosFiles1a.png)
+	[**Figure 2a: Choose the Circos plot module and the example Preview collection**](_static/images/IntAnaWGS/IntAnalysis_WGS_staticCircosFiles_preview.png)
+
+You are presented with an overview of circos plots, each corresponding to a sample in this Preview collection. 
+  
+![](_static/images/IntAnaWGS/IntAnalysis_WGS_preview_overview.png)
 	
-	[**Figure 1: Choose the Circos plot module**](_static/images/IntAnaWGS/IntAnalysis_WGS_main_staticCircosFiles1a.png)
-	
-2. Select the collection Preview and subsequently a subset of samples by using the menu on the top.
+[**Figure 2b: Overview of circos plots of the Preview collection samples**](_static/images/IntAnaWGS/IntAnalysis_WGS_preview_overview.png)
+
+In most collections, the circos plots show the karyogram in a circular layout, fragmented in chromosomal segments. Often you will find a ring containing a cgh-like scatterplot that indicates the copy number variations (green, loss; red, gain). 
+In this collection, the lines traversing the ring represent interchromosomal and intrachromosomal rearrangements identified by discordant mate pairs from paired-end reads.  
+
+To find out more about the detailed information tables on th eright of the circos plots, we will now select one sample to look further into.
+  
+
+2. You can select a subset of samples, based on metadata characteristics of the samples, by using the menu on the top.
 	- Select *inss (cat 3)* from the select a track (subset) selection box.
 	- Select *st2 (1)* from the pop-up selection window and click 'OK'.
+    - Click on **Update**.   
+
 	
-	![](_static/images/IntAnaWGS/IntAnalysis_WGS_SelectSubset_b.png)
+![](_static/images/IntAnaWGS/IntAnalysis_WGS_SelectSubset.png)
 	
-	[**Figure 2: Select a subset of samples**](_static/images/IntAnaWGS/IntAnalysis_WGS_SelectSubset_b.png)
-3. 
-2. In Neuroblastoma whole and partial chromosome gains and losses are frequent. This is indicated by the red and green colouring of the cgh-like scatterplots.
-	- One sample doesn't appear to have large structural defects (N482TL).
-	- N482 indicates the sample_id, TL indicates that the circos plot shows data of the **T**umor compared to the **L**ymphocytes DNA sequence data.
+[**Figure 2c: Select a subset of samples**](_static/images/IntAnaWGS/IntAnalysis_WGS_SelectSubset.png)  
+  
+
+3. 	One sample doesn't appear to have large structural defects (N482TL).  
+	- N482 indicates the sample_id, TL indicates that the circos plot shows data of the **T**umor compared to the **L**ymphocytes DNA sequence data.  
 	- Click on the N482TL tile and go to the newly opened tab of your browser.
 
-	![](_static/images/IntAnaWGS/IntAnalysis_WGS_inssSt2Subset1a.png)
+(_static/images/IntAnaWGS/IntAnalysis_WGS_inssSt2Subset1a.png)
 	
-	[**Figure 3: Circos plot**](_static/images/IntAnaWGS/IntAnalysis_WGS_inssSt2Subset1a.png)
-	
-3. Here we entered the detailed view of the circos plot section.
+[**Figure 3: Circos plot**](_static/images/IntAnaWGS/IntAnalysis_WGS_inssSt2Subset1a.png)  
+  
+
+4. Here we entered the detailed view of the circos plot section.
    On the right side you can open different information tabs.
 	1.	Sample annotation.
 	2.	Somatic structural variants.
