@@ -94,7 +94,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
 7.  Depending on your choice R2 will produce a hierarchical clustered heatmap image of the
     selected gene categories. Note that at the right side of
     the heatmap the red markings indicate in which category a particular gene
-    was represented (Figure 4, box A). In the bottom part of the heatmap a blue-white-red
+    was represented (Figure 4). In the bottom part of the heatmap a blue-white-red
     colorscale is depicted for both gene categories. We can clearly see the opposing effects of the 2 signatures. 
     The fourth colorscale row depicts a weighted score, based on the contributions of both signatures (see point 8). 
       
@@ -121,7 +121,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
 	[**Figure 5: Generating a Track from a gene set Signature Score**](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png)
 	
 
-In the small table you can also inspect the r-values for the selected genesets sorted on their values and direction. In the table below the R-value plot you can inspect for the indivual genes and their correlation with the signature scores.
+In the small table you can also inspect the r-values for the selected genesets sorted on their values and direction. In the table below the R-value plot you can analyse for the indivual genes heir correlation with the signature scores.
 
 
 
