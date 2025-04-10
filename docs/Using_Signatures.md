@@ -75,25 +75,31 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     selected in "box 1".
 2.  In "box 2" verify that the current dataset is "Neuroblastoma
     public - Versteeg - 88 - MAS5.0 - u133p2".
-3.  In "box 3" we select "View geneset (Heatmap)". Click "Next".
-4.  In the following screen we select the r2 provided genelists category.
+3.  In "box 3" we select "View geneset (Heatmap)". We can choose from two options, "View geneset (Heatmap)" or "Create geneset signature score". With the Heatmap option you can first inspect the Hierarchical Heatmap clustering and then create a signature score based track. Via the "Create geneset signature score", you can directy create signature scores without plotting a heatmap which is recommandable for large (single cell) datasets.
+
+    ![](_static/images/Genesetsignatures/genesetcorrelation_select_create.png "Figure 2: Generating Geneset signatures")
+
+    [**Figure 2 : Generating Geneset signatures**](_static/images/Genesetsignatures/genesetcorrelation_select_create.png)
+
+
+
+4.  In the following screen  we select the r2 provided genelists category.
 5.  Genelists>oncogenomics_valentijn>functional genesignatures the mycn_dn and _up genesets
     
-       ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures.png "Figure 2: Generating Geneset signatures")
+       ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures1a.png "Figure 2: Generating Geneset signatures")
 
-       [**Figure 2 : Generating Geneset signatures**](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures.png)
+       [**Figure 3 : Generating Geneset signatures**](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures1a.png)
 	     
 6.  Confirm the selection with the Green Button. 
-7.  R2 will produce a hierarchical clustered heatmap image of the
+7.  Depending on your choice R2 will produce a hierarchical clustered heatmap image of the
     selected gene categories. Note that at the right side of
     the heatmap the red markings indicate in which category a particular gene
-    was represented (Figure 3, box A). In the bottom part of the heatmap (box B in Figure 3), a blue-white-red
+    was represented (Figure 4, box A). In the bottom part of the heatmap a blue-white-red
     colorscale is depicted for both gene categories. We can clearly see the opposing effects of the 2 signatures. 
-    A third colorscale depicts a weighted score, based on the contributions of both signatures (see point 8). 
+    The fourth colorscale row depicts a weighted score, based on the contributions of both signatures (see point 8). 
       
-8.  Scrolling down on this page, we will encounter a heading "Gene set
-    values" (Figure 3, the heatmap), which presents a small table. The links within this table
-    point to the numerical values of the geneset scores. For the 2 gene
+8.  Scrolling down on this page or on the top left in case you have choose to create a signature score without a generating a heatmap you find  a small table. The links within this table
+    point to the numerical values of the geneset scores.  For the 2 gene
     categories, R2 will create the scores of the 2 separate categories,
     a matched score (where up and down regulated genes are treated
     equally (50/50)), and a weighted\_matched score (where up and
@@ -101,19 +107,29 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
     for number of genes)). Click on "store" for the "weighted\_matched"
     signature, so that we can perform additional analyses on it.    
         
-    ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignaturessave.png "Figure 3: A) Category marking per gene; B) Signature score; Table with  Links for further analyses")
+    ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignaturessave.png "Genesets and save signature options")
 
-    [**Figure 3: A) Gene set marking per gene; B) Signature score;**](_static/images/Genesetsignatures/genesetcorrelation_selectsignaturessave.png)
+    [**Figure 4:Genesets and save signature options**](_static/images/Genesetsignatures/genesetcorrelation_selectsignaturessave.png)
       
 9.  R2 has now assembled the information into a prescription to generate
     a track. By default R2 will store the track for 24 hours, which is
     fine for the current tutorial. Click on "Build set" to store the new
     track (Figure 4).
 
-    ![](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png "Figure 4: Generating a Track from a gene set Signature Score")
+    ![](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png "Figure 5: Generating a Track from a gene set Signature Score")
 	
-	[**Figure 4: Generating a Track from a gene set Signature Score**](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png)
+	[**Figure 5: Generating a Track from a gene set Signature Score**](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png)
 	
+
+In the small table you can also inspect the r-values for the selected genesets sorted on their values and direction. In the table below the R-value plot you can inspect for the indivual genes and their correlation with the signature scores.
+
+
+
+![](_static/images/Genesetsignatures/genesignature_rplot.png "Figure 6: R-value plot")
+	
+[**Figure 6: R-value plot**](_static/images/Genesetsignatures/genesignature_rplot.png)
+
+
 
 Step 2: Determine the activity of a signature
 ---------------
