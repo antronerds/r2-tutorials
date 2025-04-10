@@ -95,14 +95,13 @@ Step 2: Relating 2 (numerical) tracks
 1.  Just as in the previous example, we select the "relate 2 tracks"
     option from the main R2 screen and click 'Next'. Now this time, we
     select 2 numerical tracks, which can be recognized by the (\#) sign
-    at the end of a track. Within the Neuroblastoma dataset our options
-    are limited for this example, so we select the "age in years" track
-    vs the "nti\_surv\_overall" track and proceed to the next screen.
+    at the end of a track. Within the 1063 Nunes dataset our options
+    are limited for this example, so we select the "mutated driver genes" track
+    vs the "age_at_diagnosis" track and proceed to the next screen.
 2.  In the result page, R2 has detected that 2 numerical tracks were
     selected, so the correlation between the different tracks is being
     displayed and tested for statistical significance. Just as in the
-    previous example, we could color the patients by a track if that
-    would be appropriate.
+    previous example, we could color the patients showing that the number of mutated driver genes is significant lower in the CMS2 group.
 
 	![](_static/images/Annotation/AnnotationAnalyse_relatetracks_v1b.png "Figure 5: Output of relating numerical tracks")
 	
@@ -124,15 +123,14 @@ Step 3: Relating a categorical track to a numerical track
     select "Relate 2 tracks" from the main menu and navigate to the
     next page.
 2. From the track options, we choose a categorical track for X (
-    stage), and a numerical one for Y overall_survival_days and navigate and click sybmit. 
+    tumour_stage), and a numerical one for Y overall_survival_days and navigate and click submit. 
 3. The result page will now start to look like view a gene in groups,
     only this time using the data contained in your track. Via the
     adjustable settings, you can change the representation to another
-    plot type, such as a stacked box plot, change the colormode to color by
-    track, and you have a nice result here, showing that the survival
-    rate is significantly lower in patients of INSS stage 4.
+    plot type, such as a box plot,  scattter = TRUE,  change the colormode to color by
+    track, and you have a nice result here, 
 
-    ![](_static/images/Annotation/AnnotationAnalyse_relationnumcat1b.png "Figure 6: Representing the relation between categorical and numericaltracks")
+    ![](_static/images/Annotation/AnnotationAnalyse_relationnumcat1b.png "Figure 6: Representing the relation between categorical and numerical tracks")
 	
     [**Figure 6: Representing the relation between categorical and numerical tracks**](_static/images/Annotation/AnnotationAnalyse_relationnumcat1b.png)
 	
@@ -162,8 +160,7 @@ Step 4: Annotation plotter and Cohort Overview
     figures, ordered in a user provided order, we have implemented the
     annotation plotter in R2.
 2. Make sure that you are on the "main" page of R2, and that the
-    selected dataset is "Tumor Neuroblastoma public - Versteeg - 88 -
-    MAS5.0 - u133p2". From the "Select type of analysis" dropdown select
+    selected dataset is "Tumor Colon - Nunes - 1063 - tpm - ensh38e98". From the "Select type of analysis" dropdown select
     "Annotation plotter", which can be found in the annotation
     subsection and press next.
 3. The default view for the dataset will be plotted. Now one can change
@@ -175,7 +172,7 @@ Step 4: Annotation plotter and Cohort Overview
 
     ![](_static/images/Annotation/AnnotationAnalyse_plotting1b.png "Figure 7: Plotting the annotationtracks")
 	
-    [**Figure 7: Plotting the annotationtracks**](_static/images/Annotation/AnnotationAnalyse_plotting1b.png)
+    [**Figure 7: Plotting the annotation tracks**](_static/images/Annotation/AnnotationAnalyse_plotting1b.png)
 	
 4. Another often useful overview is provided by the Cohort Overview. Click on 'Go to Main' in the upper left corner,
 and this time select "Cohort Overview" in box 3 with the "Select type of analysis" dropdown. Then click 'Next'.  
