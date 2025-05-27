@@ -28,71 +28,59 @@ Scope
 Step 1: Viewing multiple genes
 ---------------
 
-1.  Use "single dataset" in field 1 and select the "Tumor
-    Medulloblastoma PLoS One - Kool - 62 - MAS5.0 - u133p2" dataset in
-    field 2.
+1.  Use "single dataset" in field 1 and select the "Mixed Cholangiocarcinoma (2022-v32) - tcga - 44 - tpm - gencode36 " dataset in
+field 2.
 2.  Choose "View multiple genes " in field 3 and Click Next
 3.  To illustrate the possibilities of the multiple gene view, genes
-    identified as classifiers for Medulloblastoma subtypes (Kool et al,
-    Plos one) will be used. In the GENE/reporter textbox type or copy
-    the following genes: AXIN2,BOC,dkk2,GABRA5,PTCH1,SMARCD3,WIF1
+    identified as classifiers for  Cholangiocarcinoma, in Literature. 
+    will be used. In the GENE/reporter textbox type or copy
+    the following genes: S100P,KRT19,EPCAM,CEACAM5,GPC3
     and click next.
     
-	![](_static/images/MultipleGenesView_Default.png "Figure    1: Default multiple geneview.")
+	![](_static/images/Multiplegeneview/MultipleGenesView_Default_1.png "Figure    1: Default multiple geneview.")
 	
-	[**Figure    1: Default multiple genes view.**](_static/images/MultipleGenesView_Default.png)
+	[**Figure    1: Default multiple genes view.**](_static/images/Multiplegeneview/MultipleGenesView_Default_1.png)
 	
-4.  Under the graph many settings can be adjusted in the Adjustable settings box. For instance,
-    you can choose a different type of graph. Next to the option to influence the space between the genes, the height of the plot etc, you can add one or more extra spaces between genes of choice by adding one or more extra delimiters. 
-    In the GENE/reporter textbox add 2 extra comma's behind dkk2 (AXIN2,BOC,dkk2,,,GABRA5,PTCH1,SMARCD3,WIF1); 
-    in the field 'Plot type' select "Average with stderr", set 'Transform' to  and click next. This enables the creation of visual subgroups in the gene representation. 
-    ![](_static/images/MultipleGenesView_ExtraSpacer.png "Figure    2: Add a spacer between genes")
+4.  In the Adjustable settings below the graph or in the toolbox of the steering wheel you can choose for the grouping variable in this case **sample_type** to separate your data panel in normal vs tumor tissue. In the field 'Graphg type' select "Average with stderr and click redraw plot. This enables the creation of visual subgroups in the gene representation. 
+    ![](_static/images/Multiplegeneview/MultipleGenesView_sepgene.png "Figure    2: Separated per group")
     	
-    [**Figure    2: Add a spacer between genes**](_static/images/MultipleGenesView_ExtraSpacer.png)
+    [**Figure    2: Adapted group padding**](_static/images/Multiplegeneview/MultipleGenesView_sepgene.png)
     	
 
 Step 2: Viewing multiple genes through track annotation
 ---------------
 
 1.  In Figure 1 a selection of gene expression profiles is depicted in
-    one picture in contrast to the one gene view. Figure 2 shows the possibility to make gene subgroups by adding extra spacers to the plot.  
+    one picture in contrast to the one gene view. Figure 2 shows the possibility to make gene subgroups adapting  the group padding makes the difference more clear also the graph type is adapet
     Now we will look at the option to represent the gene expression separately for
     each subgroup of a categorical track. In this manner potential relations between subgroups and
     gene expression can be visualized.
-2.  The dataset we are using is described in
-    [PLoS One.](http://www.ncbi.nlm.nih.gov/pubmed/18769486)"2008
-    Aug 28;3(8), Kool M et al. Here the classification of 5
-    medulloblastoma subgroups are reported and annotated as such:
-    A,B,C,D and E. To investigate the expression levels of a small group
-    of genes per subgroup of the categorical track "subtypes" of medullablastoma cells, select in the Adjustable settings box
-    "subtype (5 cat)" at 'use track', "lump by group plot gene" at 'handle
-    groups by' and "Track" at 'color by track'. Further set 'Transform' to
-    "none", select "boxplot" at 'Plot type' and click NEXT.
+2.  Now we change to another data, Mixed Colon Adenocarcinoma (2022-v32) with lots of annotation including the CMS classification. Here the classification of the dataset we are using  is provided  by R2 and is described in
+    [Nat Med ](https://pubmed.ncbi.nlm.nih.gov/26457759/)2015 Nov;21(1) Guinney et al. Here, the classification of  4 molecular subtypes subgroups are described and annotated as such:
+    CMS 1,2,3 and 4. To investigate the expression levels of a small group
+    of genes use as an example the following genes;BEST4,OTOP2,CDH3 and BMP3. Select the categorical track "cms_nearest_ssp" of the Colon cohort in the Adjustable settings box at 'Track separations' and click next. Use the gear box to adapt **Handle groups by**: *seprated by gene grouped by track*,**Separation Track**: *cms_nearest*, tick **add scatter**, adapt **Dot size**:*0.5* and select at **color mode**;**color by track**. No need to click *next*  in the settings panel, the graph is adapted on the fly.
 
-	![](_static/images/MultipleGenesView_perTrack.png "Figure    3: Multiple gene view per subgroup")
+	![](_static/images/Multiplegeneview/MultipleGenesView_perTrack_v2.png "Figure    3: Multiple gene view per subgroup")
 	
-	[**Figure    3: Multiple gene view per subgroup**](_static/images/MultipleGenesView_perTrack.png)
+	[**Figure    3: Multiple gene view per subgroup**](_static/images/Multiplegeneview/MultipleGenesView_perTrack_v2.png)
 	
 
 
-3.  Most of the overexpressed genes are part of the WNT (subgroup A) and de SHH
-    (subgroup B) signaling pathway as shown by Kool et al.  
-    In Figure 3, the gene names and the subtype labels a,b,c,d and e are concatenated on the x-axis. 
-    The Medulloblastoma molecular subtypes clearly show different expression profiles, with an overexpression of genes 
-    in subgroup a and b. 
-4.  Also try the "lump by gene plot group" which will produce an image
-    where the genes are shown, separated by the subtypes. The "group by panel" option under 'handle groups by'
+3.  The genes used in this example are the result of a Differential Expressed gene analysis for normal vs tumor tissue in this cohort.
+    In Figure 3, the gene names and the subgroup labels CMS1,CMS2,CMS3 and CMS4 are concatenated on the x-axis. The grouping per track gives more insight how the genes are expressed for each each subgroup.
+4.  Also try separated track grouped by gene. This which will produce an image
+    where the genes are shown, separated by the subtypes. The "group by panel" option in the gear box
     will display the same information in a multifaceted graph with separate panels for each sub-group of the chosen track. 
     
-	![](_static/images/MultipleGenesView_perTrack_v1.png "Figure    4: Multiple gene view, panel per subgroup")
+	![](_static/images/Multiplegeneview/MultipleGenesView_perpanel_v2.png "Figure    4: Multiple gene view, panel per subgroup")
 	
-	[**Figure    4: Multiple gene view, panel per subgroup**](_static/images/MultipleGenesView_perTrack_v1.png)
+	[**Figure    4: Multiple gene view, panel per subgroup**](_static/images//Multiplegeneview/MultipleGenesView_perpanel_v2.png)
 	
 
 
 5. The sample filter option allows you to generate a multiple gene view representation, that can also depict parts of the data set using subsets, as is available throughout R2. For example you could choose to exclude one or more of the subgroups, or use another track to make any intersection you would like to use.
 
-6. In some situation, you may want to highlight one or more samples or patients from a data set in the multiple gene view. This is easily achieved, if you use the r2 samplename. Lets try it with one of the patients within this medulloblastoma cohort ('itcc0334'). To mark this sample, we simply paste the samplename in the 'samples to mark' field and update the plot. Using the options provided by the settings you can tweak the result to your personal taste.
+6. In some situation, you may want to highlight one or more samples or patients from a data set in the multiple gene view. This is easily achieved, if you use the r2 samplename. Lets try it with one of the patients within this ctga Colon cohort ('tcga-cm-6169-01a_v32'). If you know a sample name, go to the marked section in the gear box,to mark this sample, we simply paste the samplename in the 'samples to mark' field and update the plot. Note that you also click the dot in case the scatter option ius turned on to hight samples of interest.  Using the options provided by the settings you can tweak the result to your personal taste.
 
    ![](_static/images/MultipleGenesView_mark.png "Figure    4: Multiple gene view, mark a sample")
 
