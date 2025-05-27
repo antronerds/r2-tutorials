@@ -32,16 +32,17 @@ Step 1: Viewing multiple genes
 field 2.
 2.  Choose "View multiple genes " in field 3 and Click Next
 3.  To illustrate the possibilities of the multiple gene view, genes
-    identified as classifiers for  Cholangiocarcinoma, in Literature. 
+    identified as classifiers for  Cholangiocarcinomea in literature. 
     will be used. In the GENE/reporter textbox type or copy
-    the following genes: S100P,KRT19,EPCAM,CEACAM5,GPC3
+    the following genes: S100P,KRT19,EPCAM,CEACAM5,GPC3, also genes on every new line will work,
     and click next.
     
 	![](_static/images/Multiplegeneview/MultipleGenesView_Default_1.png "Figure    1: Default multiple geneview.")
 	
 	[**Figure    1: Default multiple genes view.**](_static/images/Multiplegeneview/MultipleGenesView_Default_1.png)
 	
-4.  In the Adjustable settings below the graph or in the toolbox of the steering wheel you can choose for the grouping variable in this case **sample_type** to separate your data panel in normal vs tumor tissue. In the field 'Graphg type' select "Average with stderr and click redraw plot. This enables the creation of visual subgroups in the gene representation. 
+4.  In the adjustable settings below the graph **(Track Separations)** or in the toolbox of the steering wheel, you can select the grouping variable **(Handle groups by)**  *sample_type* from the dropdown menu to separate your data into normal vs. tumor tissue. Then, in the Graph Type field, choose "Average with stderr" and click Redraw Plot. This will generate visual subgroups in the gene representation.
+
     ![](_static/images/Multiplegeneview/MultipleGenesView_sepgene.png "Figure    2: Separated per group")
     	
     [**Figure    2: Adapted group padding**](_static/images/Multiplegeneview/MultipleGenesView_sepgene.png)
@@ -51,14 +52,14 @@ Step 2: Viewing multiple genes through track annotation
 ---------------
 
 1.  In Figure 1 a selection of gene expression profiles is depicted in
-    one picture in contrast to the one gene view. Figure 2 shows the possibility to make gene subgroups adapting  the group padding makes the difference more clear also the graph type is adapet
+    one picture in contrast to the one gene view. Figure 2 shows the possibility to make gene subgroups adapting  the *group padding* makes the difference more clear also the graph type is adapted/
     Now we will look at the option to represent the gene expression separately for
     each subgroup of a categorical track. In this manner potential relations between subgroups and
     gene expression can be visualized.
-2.  Now we change to another data, Mixed Colon Adenocarcinoma (2022-v32) with lots of annotation including the CMS classification. Here the classification of the dataset we are using  is provided  by R2 and is described in
-    [Nat Med ](https://pubmed.ncbi.nlm.nih.gov/26457759/)2015 Nov;21(1) Guinney et al. Here, the classification of  4 molecular subtypes subgroups are described and annotated as such:
+2.  Now we change to another data, Mixed Colon Adenocarcinoma (2022-v32) with a collection of annotation including the CMS classification. Here the classification of the dataset we are using  is provided  by R2 and is described in
+    [Nat Med ](https://pubmed.ncbi.nlm.nih.gov/26457759/)2015 Nov;21(1) Guinney et al. The classification of  4 molecular subtypes subgroups are described and annotated as such:
     CMS 1,2,3 and 4. To investigate the expression levels of a small group
-    of genes use as an example the following genes;BEST4,OTOP2,CDH3 and BMP3. Select the categorical track "cms_nearest_ssp" of the Colon cohort in the Adjustable settings box at 'Track separations' and click next. Use the gear box to adapt **Handle groups by**: *seprated by gene grouped by track*,**Separation Track**: *cms_nearest*, tick **add scatter**, adapt **Dot size**:*0.5* and select at **color mode**;**color by track**. No need to click *next*  in the settings panel, the graph is adapted on the fly.
+    of genes use as an example the following genes;BEST4,OTOP2,CDH3 and BMP3. Select the categorical track "cms_nearest_ssp" of the Colon cohort in the Adjustable settings box at 'Track separations' and click next. Use the gear box to adapt **Handle groups by**: *separated by gene grouped by track*,**Separation Track**: *cms_nearest*, tick **add scatter**, adapt **Dot size**:*0.5* and select at **color mode**;**color by track**. No need to click **next**  in the settings panel, the graph is adapted on the fly.
 
 	![](_static/images/Multiplegeneview/MultipleGenesView_perTrack_v2.png "Figure    3: Multiple gene view per subgroup")
 	
@@ -74,20 +75,23 @@ Step 2: Viewing multiple genes through track annotation
     
 	![](_static/images/Multiplegeneview/MultipleGenesView_perpanel_v2.png "Figure    4: Multiple gene view, panel per subgroup")
 	
-	[**Figure    4: Multiple gene view, panel per subgroup**](_static/images//Multiplegeneview/MultipleGenesView_perpanel_v2.png)
+	[**Figure    4: Multiple gene view, panel per subgroup**](_static/images/Multiplegeneview/MultipleGenesView_perpanel_v2.png)
 	
 
 
 5. The sample filter option allows you to generate a multiple gene view representation, that can also depict parts of the data set using subsets, as is available throughout R2. For example you could choose to exclude one or more of the subgroups, or use another track to make any intersection you would like to use.
 
-6. In some situation, you may want to highlight one or more samples or patients from a data set in the multiple gene view. This is easily achieved, if you use the r2 samplename. Lets try it with one of the patients within this ctga Colon cohort ('tcga-cm-6169-01a_v32'). If you know a sample name, go to the marked section in the gear box,to mark this sample, we simply paste the samplename in the 'samples to mark' field and update the plot. Note that you also click the dot in case the scatter option ius turned on to hight samples of interest.  Using the options provided by the settings you can tweak the result to your personal taste.
+6. In some situation, you may want to highlight one or more samples or patients from a data set in the multiple gene view. This is easily achieved, if you use the r2 samplename. Let's try it with one of the patients within this tcga Colon cohort ('tcga-cm-6169-01a_v32'). If you know a sample name, go to the marked section in the gear box. To mark this sample, we simply paste the samplename in the 'samples to mark' field and the plot will be automatically updated. Note, that you can  also click the dot in case the scatter option iss turned on to highlight samples of interest. Using the options provided by the settings you can tweak the result to your personal taste.
 
-   ![](_static/images/MultipleGenesView_mark.png "Figure    4: Multiple gene view, mark a sample")
+   ![](_static/images/Multiplegeneview/MultipleGenesView_mark_v1.png "Figure    5: Multiple gene view, mark a sample")
 
-   [**Figure    5: Multiple gene view, mark a sample**](_static/images/MultipleGenesView_mark.png)
+   [**Figure    5: Multiple gene view, mark a sample**](_static/images/Multiplegeneview/MultipleGenesView_mark_v1.png )
 
-7. To use the generated image in programs like Powerpoint, you can 'right-click' on the image and 'copy' it to the clipboard. A simple paste will then put the figure in your presentation. You can also store the file as a 'svg' vector file on your computer. Using this reoute, you are also able to adapt the figure in a program like Adobe Illustrator, or Inkscape.
+7. The graph can be stored as a png and/or svg output to use upon publication and adapt in vector supported programs as Adope illustrator or Incape. .
 
+![](_static/images/Multiplegeneview/MultipleGenesView_saveoptions.png "Figure    5: Multiple gene view, mark a sample")
+
+[**Figure    5: Multiple gene view, save options**](_static/images/Multiplegeneview/MultipleGenesView_mark_v1.png )
 
 
 Step 3: View multiple genes (Bubble plot)
