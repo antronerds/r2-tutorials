@@ -51,38 +51,12 @@ Step 1: Selecting data
     Figure 1.
 5.  Click 'Submit'
 
-	![](_static/images/pathwayfinder/Pathway_menu1.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
+	![](_static/images/pathwayfinder/Pathway_menu1a.png "Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin")
 	
-	[**Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin**](_static/images/pathwayfinder/Pathway_menu1.png)
+	[**Figure1: Selecting KEGG pathwayfinder by gene correlation forcatenin**](_static/images/pathwayfinder/Pathway_menu1a.png)
 
 
 
-
-[//]: # (Step 2: Choose the right gene)
-
-[//]: # (---------------)
-
-[//]: # ()
-[//]: # (1.  R2 has found several suggestions with the word catenin, hovering)
-
-[//]: # (    over the gene symbols gives additional information. Based on that)
-
-[//]: # (    information choose CTNNB1, take the probeset with the highest)
-
-[//]: # (    average expression, this is most likely the probeset that best)
-
-[//]: # (    represents mRNA concentration.)
-
-[//]: # (    )
-[//]: # (	![]&#40;_static/images/Pathway_list.png "Figure    2: Options for alternative name catenin: choose    CTNNB1"&#41;)
-
-[//]: # (	)
-[//]: # (	[**Figure    2: Options for alternative name catenin: choose    CTNNB1**]&#40;_static/images/Pathway_list.png&#41;)
-
-[//]: # (	)
-[//]: # (2.  Scroll down, leave the other options as they are, and)
-
-[//]: # (    click 'Submit'.)
 
 
 
@@ -97,12 +71,12 @@ Step 2: Correlating pathways with a gene
     Tutorial; Find genes correlating with your gene of interest. The
     result is returned as a list of pathways; Figure 3.
     
-	![](_static/images/pathwayfinder/Pathway_Kegg.png "Figure    2: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset")
+	![](_static/images/pathwayfinder/Pathway_Kegg1a.png "Figure    2: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset")
 	
-	[**Figure    2: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset**](_static/images/pathwayfinder/Pathway_Kegg.png)
+	[**Figure    2: KEGG pathways that have an overrepresentation of genes that    correlate with CTNNB1 in this    dataset**](_static/images/pathwayfinder/Pathway_Kegg1a.png)
 	
 2.  An overall explanation is printed above the list; of all genes
-    present in all KEGG pathways, \~ 540 correlate with CTNNB1 with a p
+    present in all KEGG pathways, \~ 707 correlate with CTNNB1 with a p
     value < 0.05. In the table the KEGG pathways are listed ranked by
     their p-value for overrepresentation (background in red) or
     under-representation (in green) of these genes. The brightly colored
@@ -135,9 +109,8 @@ Step 2: Correlating pathways with a gene
 
 	![](_static/images/pathwayfinder/Pathway_Zoom.png "Figure 4: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.")
 	
-	[**Figure 4: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating withCTNBB1.**](_static/images/pathwayfinder/Pathway_Zoom.png)
+	[**Figure 4: : Hovering over the Stx1-4 box shows that this actually represents 5genes; only one of them is correlating with CTNBB1.**](_static/images/pathwayfinder/Pathway_Zoom.png)
 	
-
 
 
 
@@ -175,9 +148,9 @@ Step 4: Determining differentially expressed pathways
     differentially expressed between the two groups. 
 2.  Click on the R link to let R2 create a list of these genes.
 
-	![](_static/images/pathwayfinder/Pathway_Wnt.png)
+	![](_static/images/pathwayfinder/Pathway_Wnt1a.png)
 	
-	[**Figure 6: The Wnt pathway has a strong overrepresentation of genes that aredifferentially expressed between the groups of  	tumors that have and don't have a beta catenin.**](_static/images/Pathway_Wnt.png)
+	[**Figure 6: The Wnt pathway has a strong overrepresentation of genes that are differentially expressed between the groups of  	tumors that have and don't have a beta catenin.**](_static/images/pathwayfinder/Pathway_Wnt1a.png)
 
 
 
@@ -188,29 +161,26 @@ Step 5: Verifying a pathway
 1.  A list of hyperlinked genes is returned, sort them by descending
     R-value by clicking on the R-column-header twice;
  
-	![](_static/images/pathwayfinder/Pathway_correlate1.png "Figure    7: Wnt pathway genes correlating with Beta Catenin mutation as    a list.")
+	![](_static/images/pathwayfinder/Pathway_correlate1a.png "Figure    7: Wnt pathway genes correlating with Beta Catenin mutation as    a list.")
 	
-	[**Figure    7: Wnt pathway genes correlating with Beta Catenin mutation as    a list.**](_static/images/pathwayfinder/Pathway_correlate1.png)
+	[**Figure    7: Wnt pathway genes correlating with Beta Catenin mutation as    a list.**](_static/images/pathwayfinder/Pathway_correlate1a.png)
 	
-2.  Each gene-symbol is hyperlinked to a graph representing the specific
-    results; click the top gene in the list: AXIN2.
-
-
-
+2.  Each gene-symbol is hyperlinked via the magnification glass icon to a graph representing the specific
+    results; click the top gene in the list: DKK2.
 
 
 Step 6: Correlating with the expression of a gene
 ---------------
 
 1.  The graph shows an excellent correlation of the expression of the
-    Wnt pathway gene AXIN2 with tumors having a Beta Catenin mutation.
+    Wnt pathway gene DKK2  with tumors having a Beta Catenin mutation.
     The same goes for a significantly overrepresented set of genes in
     this pathway. This specific group of tumors is also known as the
-    Wnt-subtype in the Medulloblastoma field.
+    Wnt-subtype in the Medulloblastoma field. Colored by the inverse correlated gene expression of NLK.
 
-	![](_static/images/pathwayfinder/Pathway_Axin1.png "Figure 8:AXIN2 expression correlates with Beta Cateninmutations")
+	![](_static/images/pathwayfinder/Pathway_DKK2.png "Figure 8:DKK2 expression correlates with Beta Catenin mutations")
 	
-	[**Figure 8:AXIN2 expression correlates with Beta Cateninmutations**](_static/images/pathwayfinder/Pathway_Axin1.png)
+	[**Figure 8:DKK2  expression correlates with Beta Catenin mutations**](_static/images/pathwayfinder/Pathway_DKK2.png)
 	
 
 
