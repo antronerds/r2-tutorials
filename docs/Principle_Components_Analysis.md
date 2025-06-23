@@ -128,12 +128,26 @@ internet browsers support the 3D visualization.
     in order to investigate whether there are any (more)
     subgroups that become visible.
     
-	![](_static/images/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
+	![](_static/images/PCA/PrincipleComponent_3D.png "'Figure    6: Showing a 3D PCA graph from    different angles.")
 	
-	[**'Figure    6: Showing a 3D PCA graph from    different angles.**](_static/images/PrincipleComponent_3D.png)
+	[**'Figure    6: Showing a 3D PCA graph from    different angles.**](_static/images/PCA/PrincipleComponent_3D.png)
 	
 3.  By rotating the graph more subgroups could be revealed as clearly
     shown in Figure 6.
+
+Step 3: Using toplister for PCA
+----------------
+
+Low expression genes can significantly affect the PCA results. This has several reasons, low expressed genes give rise to stochastic noise. Many zero counts or almost zero expression values can distort the distance matrix (e.g. Euclidean and in addition there is no contribution to meaningful variability and do not reflect actual biology.
+
+To avoid the influence for low-expressed genes or the variance between low-expressed genes values the top-lister function wih cut-offs can applied first before running the PCA algorithm as illustrated in figure 7. First generate e.g a top 1000 gene with custom cut-offs, store the generated top-1000 genes and use this list a filter. 
+
+![](_static/images/PCA/Principle_component_PCA_toplister.png "'Figure    7: Showing a 3D PCA graph from    different angles.")
+	
+[**Figure    7: Showing a 3D PCA graph from    different angles.**](_static/images/PCA/Principle_component_PCA_toplister.png)
+
+In the near future the cut-off function will be incorporated directly in the PCA module. 
+
 
 
 
