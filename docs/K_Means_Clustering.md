@@ -56,9 +56,9 @@ Step 2: Adapting settings
     (see boxed text on K-means clustering) we set the number of draws
     (performing of the calculation) to 10x10.
     
-	![](_static/images/kmeans/Kmeans_clustersettings1a.png "Figure    2: K-means clustering    settings")
+	![](_static/images/kmeans/Kmeans_clustersettings1b.png "Figure    2: K-means clustering    settings")
 	
-	[**Figure    2: K-means clustering    settings**](_static/images/kmeans/Kmeans_clustersettings1a.png)
+	[**Figure    2: K-means clustering    settings**](_static/images/kmeans/Kmeans_clustersettings1b.png)
 	
 3.  Dependending on the size of your dataset or geneset you can enlarge
     of minimize your K-means plot by adapting the size of the rectangles
@@ -110,7 +110,7 @@ Step 3: Examining resulting clusters
     differ slightly when weaker associations are investigated; k-means
     is non-deterministic (random initiation).
 
-	![](_static/images/kmeans/Kmeans_cluster.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
+	![](_static/images/kmeans/Kmeans_cluster1a.png "Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.")
 	
 	[**Figure    3: Results for the 10x10 k-means clustering in two groups; two    consistent clusters    are formed.**](_static/images/kmeans/Kmeans_cluster.png)
 	
@@ -145,6 +145,21 @@ Step 3: Examining resulting clusters
 >*Most of the other options (Sample/Gene filters etc) are explained in former tutorials. The "\# highest SD genes" is the number of genes with highest Standard Deviation (genes that 'make a difference' in this set) that is used for the K-means analysis. By default this value is 1500.*
 
 ------------
+
+Below the heatmap you can find the orderded samples and genenames by clicking the small triagle.
+
+![](_static/images/kmeans/Kmeans_genelist.png "Figure    4a: Click the triangle to so get the sample and gene names")
+	
+[**Figure    4b: Click the triangle to so get the sample and gene names**](_static/images/kmeans/Kmeans_genelist.png)
+
+
+Also below the sorted order listing, a table is generated with an overview of the statistical significance of the k-means clusters and the available group parameters for this dataset.
+
+
+
+![](_static/images/kmeans/Kmeans_statistics.png "Figure    4b: Kmeans vs Grouping parameters statistics")
+
+[**Figure    4b:  Kmeans vs Grouping parameters statistics**](_static/images/kmeans/Kmeans_genelist.png)
 
 
 
