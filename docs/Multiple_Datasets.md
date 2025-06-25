@@ -41,11 +41,14 @@ Step 1: Selecting multiple datasets
     sampler" at "use presets". The meaning of presets will be explained
     later on.
 
---------------------------------------------------------------------------
 
- ![](_static/images/R2d2_logo.png)**Did you know that R2 harbours different types of microarray platforms**
 
- ![](_static/images/megasampler/MultipleDatasets_Select.png)             
+3. The megasampler is unfortunately restricted to microarray data and even then, the analyses are only possible within their own platform. Within the platform the experimental bias is decreased since the dataset originates from the same platform and the same normalization algorithm however many other factors such as experimental conditions, country and mental state :) will affect the experimental bias. It is generally accepted that with sufficient samples from different datasets, these datasets can be analyzed together in this manner. Further, an increasing number of datasets in the GEO repository are being remapped and realigned to the same platform, using the TPM algorithm for normalization. Currently, we are also working to make these datasets available through the MegaSampler (2025).
+
+
+
+ ![](_static/images/megasampler/MultipleDatasets_Select1a.png)         
+ [**Figure 1: Select a platform**](_static/images/megasampler/MultipleDatasets_Select1a.png)
                                                                           
 > *Megasampler only allows you to query multiple datasets if they are of the same chiptype and normalized by the same algorithm.*
 
@@ -53,26 +56,24 @@ Step 1: Selecting multiple datasets
 
 1.  With the "selection preset" option a pre-stored dataset collection
     with associated settings can be selected. Select "XPO sampler"
-    (Expression Project for Oncology (expO)) to pre-select a series of
+    (Expression Project for Oncology (EXP) to pre-select a series of
     tumor datasets. Click "next".
     
-	![](_static/images/megasampler/MultipleDatasets_Preset1a.png "Figure 2: Select a preset")
+	![](_static/images/megasampler/MultipleDatasets_Preset1b.png "Figure 2: Select a preset")
 	
-	[**Figure 2: Select a preset**](_static/images/megasampler/MultipleDatasets_Preset1a.png)
+	[**Figure 2: Select a preset**](_static/images/megasampler/MultipleDatasets_Preset1b.png)
 	
-2.  In the previous screen the preset "XPOsampler" is selected, a
+2.  In the previous screen the preset "XPO" is selected, a
     collection of datasets is already marked for the
-    megasampler analyses. In Figure 3 clicking the small triangle
-    unfolds the available dataset categories, notice that some of the
-    datasets in the "tumor" section are already marked. In this way this
-    you can adapt your pre-selection of datasets. Unfold the normal and
+    megasampler analyses. Clicking in the dataset box the familiar grid with dataset pop-up where other datasets can be added note that the XPO datasets are already ticked.
+    In this way this you can adapt your pre-selection of datasets, do not forget to tick and  confirm for each dataset you want to add. In the example we have extended the set 
     tumor category and select the following datasets. Normal Adrenal
     gland - Various " 13, Normal Brain PFC - Harris " 44 and the " Tumor
     Neuroblastoma public - Versteeg " 88" . Enter MYCN and click "next".
     
-	![](_static/images/megasampler/megasampler_selectsdatasetsgroups1.png "Figure3: Megasampler adjustment selection")
+	![](_static/images/megasampler/megasampler_selectsdatasetsgroups2.png "Figure3: Megasampler adjustment selection")
 	
-	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler/megasampler_selectsdatasetsgroups.png)
+	[**Figure 3: Megasampler adjustment selection**](_static/images/megasampler/megasampler_selectsdatasetsgroups2.png)
 	
 
 
@@ -107,15 +108,15 @@ Step 2: Viewing a gene in multiple datasets
 	[**Figure 5: Anova test for the selected datasets.**](_static/images/megasampler/MultipleDatasets_Anova.png)
 	
 
-By default de megasampler graph is plotted in a so called Boxdotplot
-representation. The Boxdotplot shows a combined boxplot, on top of which
+By default de megasampler graph is plotted in a so called Box plot
+representation. If the "add scatter" option is ticked in the gear box
 the signals of the separate samples are plotted; a quickly interpretable
 graph.
 
 
-![](_static/images/megasampler/MultipleDatasets_YCC-express.png "Figure 6: YCC expression levels in 15 datasets covering 2173 samples.")
+![](_static/images/megasampler/MultipleDatasets_boxplots.png "Figure 6: YCC expression levels in 15 datasets covering 2174 samples.")
 
-[**Figure 6: MYCN expression levels in 15 datasets covering 2173 samples.**](_static/images/megasampler/MultipleDatasets_YCC-express.png)
+[**Figure 6: MYCN expression levels in 16 datasets covering 2174 samples.**](_static/images/megasampler/MultipleDatasets_boxplots.png )
 
 
 Additional insight can be obtained transforming the data, in this case
@@ -123,9 +124,9 @@ transform the data to logical values (none) set "graphtype" on barplot
 and click on "redraw at the bottom of the screen.
 
 
-![](_static/images/megasampler/MultipleDatasets_Representations.png "Figure 7: Different Megasampler graphical representations")
+![](_static/images/megasampler/Megasampler_Representations.png "Figure 7: Different Megasampler graphical representations")
 	
-[**Figure 7: Different Megasampler graphical representations**](_static/images/megasampler/MultipleDatasets_Representations.png)
+[**Figure 7: Different Megasampler graphical representations**](_static/images/megasampler/Megasampler_Representations.pn)
 	
 
 The plotted graphs for "MYCN" clearly show a high expression level
@@ -140,7 +141,6 @@ directly.
 ![](_static/images/R2d2_logo.png)**Did you know that you can save your selection of datasets and select your stored dataset the next time you login to R2.**
 
 ![](_static/images/megasampler/MultipleDatasets_Didyou2.png)
-
                          
 > *Storing a preset not only stores the selection of datasets for future use, but will also keep all of the other settings such as order,
 colors, plot type etc. The same visual representation for any other gene can be generated in this way.*
@@ -170,7 +170,7 @@ It could be that you also want to stack subgroups of datasets in one singlebox (
 
    [**Figure 9: Adjustable settings panel, stacking subgroups.**](_static/images/megasampler/megasampler_stacking_subgroups.png)
 
-Now the expression level of the TP53 gene  for a single dataset is plotted next to the separate subgroups of the histology track,  each box containing the expression levels for single gene of two datasets divided over the subgroups. Of course there is a big chance that you're not so lucky that tracks and their subgroups have the same spelling or you want to stack different subgroups for your research questions. In that case you have to create for each dataset new subgroups with the same spelling for each dataset. You can create these customzid tracks you want to incorporate in the user section of the main page of R2. Once created you can select those in the megasampler section. In case you want to stack complete datasets in one box/bar you have to make a track with a subrgroups containing all the samples.
+Now the expression level of the TP53 gene  for a single dataset is plotted next to the separate subgroups of the histology track,  each box containing the expression levels for single gene of two datasets divided over the subgroups. Of course there is a big chance that you're not so lucky that tracks and their subgroups have the same spelling or you want to stack different subgroups for your research questions. In that case you have to create for each dataset new subgroups with the same spelling for each dataset. You can create these customized tracks you want to incorporate in the user section of the main page of R2. Once created you can select those in the megasampler section. In case you want to stack complete datasets in one box/bar you have to make a track with a subrgroups containing all the samples.
 
    ![](_static/images/megasampler/megasampler_stacking_subgroups2.png "Figure 10: MYCN expression level distribution for all u133-2 datasets in R2.")
 
@@ -205,9 +205,9 @@ comparison).
     datasets of the same platform in R2. This module is discussed in the
     Correlate Genes tutorial.
     
-	![](_static/images/megasampler/MultipleDatasets_LevelDistribution.png "Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.")
+	![](_static/images/megasampler/MultipleDatasets_LevelDistribution1a.png "Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.")
 	
-	[**Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler/MultipleDatasets_LevelDistribution.png)
+	[**Figure 11: MYCN expression level distribution for all u133-2 datasets in R2.**](_static/images/megasampler/MultipleDatasets_LevelDistribution1a.png)
 	
 2.  Via the the probeset distribution view you can easily investigate a
     specific dataset in more detail. Click a preferred colored dataset
@@ -238,12 +238,13 @@ before not every platform can be used for the megasearch due to the normalisatio
 
 3. Select the datasets you want to use for the analyses, in this example we have selected Normal Brain , AML and Medulloblastoma datasets, click next.
 
- ![](_static/images/megasampler/megasampler_selectsdatasets1.png "Figure 13: Dataset selection.")
+ ![](_static/images/megasampler/megasampler_selectsdatasets2.png "Figure 13: Dataset selection.")
 
  [**Figure 13:  Dataset selection.**](_static/images/megasampler/megasampler_selectsdatasets1.png)
 
 4. For the megasearch module only two groups can be used to find the statistical differently expressed genes.  In the settings box assign the proper grouping parameters (1 or 2) leave the pulldown menu at the default setting ('NO') for the datasets and click
 next.
+
 
  ![](_static/images/megasampler/megasampler_selectsdatasetsgroups2.png "Figure 14: Assign the statistical group for testing.")
 
@@ -256,12 +257,22 @@ Medulloblastoma datasets depending of the subgroups 242128_at has the highest ex
  At the statictics pulldown  menu you can select fdr_modarate_t_statistics ([Limma](http://bioconductor.org/packages/release/bioc/html/limma.html "Limma") ,
 [Limma-git]( http://genomicsclass.github.io/book/pages/using_limma.html)) 
 or the standard uncorrected_t_test. The Limma algorithm is specifically designed for the analysis of gene expression data , leave the statistics at moderate_t_statistics and click next.
-Two tables of genes are generated with the highest significantly expressed genes for group 1 and group 2. In the left genelist (group 2) we find in the top 10 ,
-the OTX2 gene which is accociated with medulloblastoma.
-6. 
- ![](_static/images/megasampler/megasampler_otx2fig.png "Figure 15: OTX2 BoxDotplot.")
 
- [**Figure 15: OTX2 BoxDotplot**](_static/images/megasampler/megasampler_otx2fig.png)
+
+ ![](_static/images/megasampler/Megasampler_results.png "Figure 15: Result page 2 groups.")
+ [**Figure 15:Result page**](_static/images/megasampler/megasampler_otx2fig.png)
+
+
+
+6. Two tables of genes are generated with the highest significantly expressed genes for group 1 and group 2. The average gene-expression is depictedIn the left genelist (group 2) we find in the top 10 ,
+the OTX2 gene which is accociated with medulloblastoma.
+
+
+
+![](_static/images/megasampler/megasampler_otx2fig.png "Figure 15a: OTX2 Boxplot.")
+
+[**Figure 15a: OTX2 Boxplot**](_static/images/megasampler/megasampler_otx2fig.png)
+
 
 6. In the previous Adjustable settings box, where the grouping parameters were assigned,  you can also split datasets based on their subgoups (tracks) and 
 incorparate the subgroups in different test groups as illustrated in Figure 14.
