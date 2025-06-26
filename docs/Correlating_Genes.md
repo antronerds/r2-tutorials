@@ -137,7 +137,7 @@ Step 3: Inspecting correlation between specific genes
 3. To generate a correlation plot where the negative relationship between MYCN
     and the MEAF6 gene is more clearly visualized, select "XY-plot" as graph type
     in the graphics section in the Adjustable Settings box and click the
-    "Submit" button or use the gearbox in the general tab In this correlation plot it is also still
+    "Submit" button or use the gearbox in the general tab. In this correlation plot it is also still
     possible to show expression levels as a distribution. In
     order to do so, click on the gear wheel at the left top of the graph,
     check the Histogram checkbox the graph is re-generated on the fly.  Now the histogram
@@ -161,8 +161,8 @@ In the gear box select in the general tab "color by gene" and enter the gene nam
  Select in the Adjustable settings box on the bottom "Color Mode" and select "Color by Gene". In the next box enter the gene you want to
    use for coloring the dots. Make sure that after entering the gene name you also select a corresponding probeset and
    click "Adjust Settings". In this example the reporters of the MYCN vs MEAF6 are plotted and subsequently colored by
-   the MYCN expression levels. And a nice collection of gradients can be selected. Of course, you can also enter a 
-   third gene for coloring the dots.
+   the MYCN (or MEAF6) expression levels. And a nice collection of gradients can be selected. Of course, you can also enter a 
+   other gene for coloring the dots.
 
 
    ![](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1b.png "Figure 8: Colored by expression")
@@ -170,34 +170,31 @@ In the gear box select in the general tab "color by gene" and enter the gene nam
    [**Figure 8: Select Color by gene epression**](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1b.png)
 
 5. Another way to visualize the relationship of the expression correlation in an XY plot is to switch on the linear
-   fit option. In the option menu accessible via the wheel icon you select many extra options such as linear fit.
+   fit option. In the gear box you select many extra options such as linear fit.
 
-   ![](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1b.png "Figure 9: Colored by expression")
+   ![](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1c.png "Figure 9: Colored by expression")
 
-   [**Figure 9: Select Linear fit**](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1b.png)
+   [**Figure 9: Select Linear fit**](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1c.png)
 
-[//]: # (   ![]&#40;_static/images/CorrelatingGenes/FindGenes_linearFitFigOnegroup.png "Figure 10: Linear fit"&#41;)
 
-[//]: # ()
-[//]: # (   [**Figure 10: Linear fit**]&#40;_static/images/CorrelatingGenes/FindGenes_linearFitFigOnegroup.png&#41;)
 
 6. It could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of
    the samples seems to form a cluster with a positive correlation and a second cluster seems to have an inverse 
    correlation. An example, which is not directly listed in the previous list of correlating genes, is the
-   relationship between MYCN and GATA2. In the adjustable settings box enter MYCN and the GATA2 gene and click 
+   relationship between MYCN and GATA2. In the adjustable settings box or gear box enter MYCN and the GATA2 gene and click 
    'Submit'. Change the color mode to "Color by track", select the mycn_amp track, turn linear fit 
-   and box plots in the plot option box and click redraw plot. 
+   and box plots in the gear box and click redraw plot. 
 
-   ![](_static/images/CorrelatingGenes/FindGenes_linearFittwogroupsadapt1a.png "Figure 10: Colored by expression")
+   ![](_static/images/CorrelatingGenes/FindGenes_linearFittwogroupsadapt1b.png "Figure 10: Colored by expression")
 
-   [**Figure 10: Linear fit adjust**](_static/images/CorrelatingGenes/FindGenes_linearFittwogroupsadapt1a.png)
+   [**Figure 10: Linear fit adjust**](_static/images/CorrelatingGenes/FindGenes_linearFittwogroupsadapt1b.png)
 
 
 7. In de next figure, the trend line clearly illustrates that there is positive correlation for the MYCN non-amplified group and a negative correlation for the MYCN amplified group.
 
-   ![](_static/images/CorrelatingGenes/FindGenes_LinearFittwogroups.png "Figure 11: Two groups")
+   ![](_static/images/CorrelatingGenes/FindGenes_LinearFittwogroups1a.png "Figure 11: Two groups")
 
-   [**Figure 11: Linear fit per track**](_static/images/CorrelatingGenes/FindGenes_LinearFittwogroups.png)
+   [**Figure 11: Linear fit per track**](_static/images/CorrelatingGenes/FindGenes_LinearFittwogroups1a.png)
 
 
 8. Through the menu on the right, several additional dataviews and
@@ -287,9 +284,9 @@ Step 7: Gene list in pathway context
     members of the pathways in the KEGG database. Click on the p-value
     column header again in case the p-values are not sorted,  to find the most significant ones: Figure 18.
 
-    ![](_static/images/CorrelatingGenes/FindGenes_KeggPath.png " Figure    17: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
+    ![](_static/images/CorrelatingGenes/FindGenes_KeggPath1a.png " Figure    17: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.")
 
-    [**Figure    17: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/CorrelatingGenes/FindGenes_KeggPath.png)
+    [**Figure    17: KEGG pathways exhibiting an overrepresentation of genes of the    current dataset, ordered    by significance.**](_static/images/CorrelatingGenes/FindGenes_KeggPath1a.png)
 
 3. The DNA-replication pathway pops up as most significant. Note that
     most genes are similar to those found by the GO process in the
@@ -314,12 +311,12 @@ individual relation with MYCN. However, it is important to realize that the KEGG
 Step 8: Further pathways analysis
 ---------------
 
-1.  Scroll down and look for the MCM2 gene, click on the link to show
+1.  Scroll down or sort first and look for the MCM2 gene, click on the link to show
     their relationship: Figure 20.
 
-	![](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2_v1.png "Figure    19: MCM2 		expression correlates with    MYCN expression.")
+	![](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2_v2.png "Figure    19: MCM2 		expression correlates with    MYCN expression.")
 	
-	[**Figure 19: MCM2 expression correlates with MYCN expression.**](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2_v1.png)
+	[**Figure 19: MCM2 expression correlates with MYCN expression.**](_static/images/CorrelatingGenes/FindGenes_MYCNMCM2_v2.png)
 
 2.  The correlation is significant. In the left upper table there is a
     link to the Pubsniffer tool within R2. This tool performs a live
@@ -345,7 +342,7 @@ Step 8: Further pathways analysis
     literature search query tailored to your needs. That being slightly
     out of scope of this tutorial, click the "Go to Pubmed with query"
     button to find the article.
-5.  This article is actually published work by our group where the
+5.  This article is actually published work by a collaborting group where the
     relation between the MCM genes and MYCN was proven experimentally.
 
     ![](_static/images/CorrelatingGenes/FindGenes_PubReminerresult.png "Figure19: The correlation between MCM genes and MYCN was proven experimentallyin thisarticle.")
@@ -381,9 +378,9 @@ Step 9: Gene set analysis
     genenames that are considered to be expressed in the
     current dataset. This is a suitable background set for eg. the DAVID
     tool
-    [DAVID](https://david.ncifcrf.gov).
+    [DAVID](https://davidbioinformatics.nih.gov/).
 -   Last but not least, the data can be stored as a personal
-    genecategory; this is further explored in the advanced tutorial
+    genecategory with the "store result a custom geneset" this is further explored in the advanced tutorial
     "Adapting R2 to your own needs".
 
 
