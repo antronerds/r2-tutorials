@@ -27,10 +27,10 @@ Scope
     -   On pathway maps
     -   On a chromosome map
 -   Using this exploratory analysis, new biologically relevant
-    hypotheses can be generated as will be shown in this tutorial by an
+    hypotheses can be generated and will be shown in this tutorial by an
     example concerning MYCN and MCM genes.
 -   The data can be saved and used in other tools.
--   Further advanced analysis based on the use of sets of genes can be
+-   Further advanced analyses based on the use of sets of genes can be
     found in the Kaplan scanner and GeneSets tutorials.
 
 
@@ -43,7 +43,7 @@ Step 1: Selecting data
 1.  Logon to the R2 homepage using your credentials and make sure the
     "Single Dataset" option is selected in field 1 of the R2 step-by-step
     guide.
-2.  Make sure the "Tumor Neuroblastoma public dataset" is selected in
+2.  Make sure the "Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2" dataset is selected in
     field 2 (For additional information on these first two steps,
     consult tutorial: Working with datasets).
 3.  In field 3 select "Find Correlated genes with a single gene"
@@ -78,7 +78,7 @@ Step 2: Inspecting correlating genes
     of calculations! The result is presented as two tables (Figure 3 ).
     In the header a summary is given: \~ 2200 combinations of MYCN and
     another gene met the criteria, i.e. having a significant correlation
-    (**p < 0.001**) with the expression of MYCN, \~ 15000 genes did not
+    (**p < 0.001**) with the expression of MYCN, \~ 16000 genes did not
     obey these criteria. The left table represents the genes whose
     expression correlates positively, or is similar, to that of MYCN
     in this dataset. Of course MYCN has a perfect correlation
@@ -106,7 +106,8 @@ updates upon a new genebuild release or from a commercial platform such as Affym
     explore the menu items to the right. All gene names are clickable to
     explore the specifics of the correlation in a separate graph; try
     and click the APEX1 gene in the left column.
-3.  At the bottom of the generated list , the adjustable settings menu is located where the filter options can be adapted.
+3.  At the bottom of the generated list , the adjustable settings 
+    menu is located where the filter options can be adapted.
 
     ![](_static/images/CorrelatingGenes/FindGenes_filter.png "Figure 3: Gotoadjust")
 
@@ -139,30 +140,38 @@ Step 3: Inspecting correlation between specific genes
     and the MEAF6 gene is more clearly visualized, select "XY-plot" as graph type
     in the graphics section in the Adjustable Settings box and click the
     "Submit" button. In this correlation plot it is also still
-    possible to show expression levels for the samples are distributed. In
-    order to do so, click on more settings in the Adjustable Settings box,
-    set Histogram to yes, and click on the Adjust Settings button. Now the histogram
-    boxes in the x and y axes show the distribution of the expression levels in the correlation plot, see fig 6. In the green bar located above your graph you can easily click through your generate list instead of going each time to the list to inspect your genes.
+    possible to show expression levels as a distribution. In
+    order to do so, click on the gear wheel at the left top of the graph,
+    check the Histogram checkbox, and click on the redraw plot button. Now the histogram
+    boxes in the x and y axes show the distribution of the expression levels in the correlation plot,
+    see fig 6. In the green bar located above your graph you can easily click through your generate 
+    list instead of going each time to the list to inspect your genes.
 
     ![](_static/images/CorrelatingGenes/FindGenes_ExpressionHis1a.png "Figure 6: Toggle Histogram")
 
     [**Figure 6: Toggle Histogram**](_static/images/CorrelatingGenes/FindGenes_ExpressionHis1a.png)
 
-4. Another nice way to adjust the graphical representation of a XY plot is by using the gene expression levels and applying these to a color gradient.
+4. Another nice way to adjust the graphical representation of a XY plot is by using the gene expression levels 
+   and applying these to a color gradient.
 
 
    ![](_static/images/CorrelatingGenes/Findgenes_ColorbyGene1b.png "Figure 7: Select Color by gene")
 
    [**Figure 7: Select Color by gene**](_static/images/CorrelatingGenes/Findgenes_ColorbyGene1b.png)
 
-   Select in the "Color Mode" pull down menu the "Color by gene" option. In the next box enter the gene you want to use for 	coloring the dots. Make sure that after entering  the gene name you also  select a corresponding probeset and click "Adjust Settings". In this example the reporters of the MYCN vs MEAF6 are plotted and subsequently colored by the MYCN expression levels. And a nice collection of gradients can be selected. Of course, you can also enter a third gene for coloring the dots.
+   Select in the Adjustable settings box on the bottom "Color Mode" and select "Color by Gene". In the next box enter the gene you want to
+   use for coloring the dots. Make sure that after entering the gene name you also select a corresponding probeset and
+   click "Adjust Settings". In this example the reporters of the MYCN vs MEAF6 are plotted and subsequently colored by
+   the MYCN expression levels. And a nice collection of gradients can be selected. Of course, you can also enter a 
+   third gene for coloring the dots.
 
 
    ![](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1a.png "Figure 8: Colored by expression")
 
    [**Figure 8: Select Color by gene epression**](_static/images/CorrelatingGenes/Findgenes_XYplotGeneColor_v1a.png)
 
-5. Another way to visualize the relationship of the expression correlation in an XY plot is to switch on the linear fit option. In option menu accessible via the wheel icon you select many extra optio such as linear fit.
+5. Another way to visualize the relationship of the expression correlation in an XY plot is to switch on the linear
+   fit option. In the option menu accessible via the wheel icon you select many extra options such as linear fit.
 
    ![](_static/images/CorrelatingGenes/FindGenes_linearFitAdjust1b.png "Figure 9: Colored by expression")
 
@@ -173,7 +182,12 @@ Step 3: Inspecting correlation between specific genes
 [//]: # ()
 [//]: # (   [**Figure 10: Linear fit**]&#40;_static/images/CorrelatingGenes/FindGenes_linearFitFigOnegroup.png&#41;)
 
-6. It could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of the samples seems to form a cluster with a positive correlation and a second cluster seems to have an inverse correlation. An example, which is not directly listed in previous list of correlating genes, is the relationship between MYCN and GATA2. In the adjustable settings box enter MYCN and the GATA2 gene and click 'Change Genes'. Change the color mode to "Color by track", select the MYCN track in the graphics section, turn linear fit and box plots in the plot option box and click redraw. 
+6. It could be that you encounter a correlation plot for two genes where you can distinguish two clusters. One group of
+   the samples seems to form a cluster with a positive correlation and a second cluster seems to have an inverse 
+   correlation. An example, which is not directly listed in the previous list of correlating genes, is the
+   relationship between MYCN and GATA2. In the adjustable settings box enter MYCN and the GATA2 gene and click 
+   'Submit'. Change the color mode to "Color by track", select the mycn_amp track, turn linear fit 
+   and box plots in the plot option box and click redraw plot. 
 
    ![](_static/images/CorrelatingGenes/FindGenes_linearFittwogroupsadapt1a.png "Figure 10: Colored by expression")
 
