@@ -32,7 +32,7 @@ can be calculated for all samples within a particular dataset. This
 signature score is simply defined as the average zscore of a zscore
 transformed dataset (the standard way of visualizing a heatmap) (Figure
 1). In R2, such scores are automatically generated when one generates
-heatmaps via the "view a geneset" function. With the exception of some
+heatmaps via the "view a geneset" function or in case the dataset is very large a gene signature can be created directly using "Create Gene set signature". With the exception of some
 exceptional cases, most functional signatures will be composed of both
 upregulated genes as well as downregulated ones. Using both as a single
 list may then become problematic, as downregulated genes may counteract
@@ -83,7 +83,7 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
 
 
 
-4.  In the following screen  we select the r2 provided genelists category.
+4.  In the following screen  we select by clicking on "Select Gene set" the r2 provided genelists category.
 5.  Genelists>oncogenomics_valentijn>functional genesignatures the mycn_dn and _up genesets
     
        ![](_static/images/Genesetsignatures/genesetcorrelation_selectsignatures1a.png "Figure 2: Generating Geneset signatures")
