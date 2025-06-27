@@ -113,10 +113,10 @@ dataset (Valentijn et al 2012). This signature is provided within R2.
       
 9.  R2 has now assembled the information into a prescription to generate
     a track. By default R2 will store the track for 24 hours, which is
-    fine for the current tutorial. Click on "Build set" to store the new
+    fine for the current tutorial. Click on "Store" to store the new
     track (Figure 4).
 
-    ![](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png "Figure 5: Generating a Track from a gene set Signature Score")
+    ![](_static/images/Genesetsignatures/genesetcorrelation_createscore1a.png "Figure 5: Generating a Track from a gene set Signature Score")
 	
 	[**Figure 5: Generating a Track from a gene set Signature Score**](_static/images/Genesetsignatures/genesetcorrelation_createscorec.png)
 	
