@@ -238,15 +238,15 @@ of neuroblastoma cell lines and 5 neural crest derived cell lines published by (
     two signature scores. However, a clear significant correlation between the two signatures is shown. The
     biological relevance is less prominent so far.
     
-    ![](_static/images/Genesetsignatures/genesignature_mixed52_v1.png "Figure 11: Relate 2 tracks using genesignatures")
+    ![](_static/images/Genesetsignatures/genesignature_mixed52_v2.png "Figure 11: Relate 2 tracks using genesignatures")
     
-    [**Figure 11: Relate 2 tracks using genesignatures**](_static/images/Genesetsignatures/genesignature_mixed52_v1.png)
+    [**Figure 11: Relate 2 tracks using genesignatures**](_static/images/Genesetsignatures/genesignature_mixed52_v2.png)
 
-4.  In order to visualise the biological relevance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click adjust settings.
+4.  In order to visualise the biological relevance of this correlation plot. Select at ColorMode , "color by track" and at track for color the "mes_adrn_time" track in the pulldown menu, click "Redraw" in case teh graph has not renewed on the fly.
 
-    ![](_static/images/Genesetsignatures/genesignature_mixed52_trackcolor.png "Figure 12: Color by a biologically meaningful track")
+    ![](_static/images/Genesetsignatures/genesignature_mixed52_trackcolor1a.png "Figure 12: Color by a biologically meaningful track")
     
-    [**Figure 12: Color by a biologically meaningful track**](_static/images/Genesetsignatures/genesignature_mixed52_trackcolor.png)
+    [**Figure 12: Color by a biologically meaningful track**](_static/images/Genesetsignatures/genesignature_mixed52_trackcolor1a.png)
 
 5.  In this new plot, mes defined cell lines cluster together with the neural crest derived lines in the left upper part of the plot
     (orange and green respectively) and the ADRN lines in blue in the right lower part of the plot. The purple dots
@@ -262,11 +262,10 @@ it could  be informative to add a line between samples connecting the shifting s
 Let's give this a try by defining the time series samples within this dataset.
 
 1.  Path properties: The appearance of the line can be influenced by providing a color (hex number)
-    and a linewidth. Click and hold the Ctr button and sample path appears by holding the Ctrl button and clicking the sample the dots, the will be connected after releasing the Ctr buttonb
-The recipe for these adaptations makes use of ':' and works as follows.
+    and a linewidth. Click and hold the Ctr button and click the sample dots the dots, the dots will be will be connected after releasing the Ctr button. Also, entering the sample ids in the "Sample path" box work. With the following recipe  ':' and works as follows.
     sample1,sample2:colorcode:width.
     In the Sample paths box; Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253,
-    gsm2413254, gsm2413255, gsm2413256:#222222' and click "Adjust Settings"
+    gsm2413254, gsm2413255, gsm2413256:#222222' and click "redraw plot"
     
     ![](_static/images/Genesetsignatures/Genesignatures_time.gif "Figure 13: Connection samples")
     
