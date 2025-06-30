@@ -129,56 +129,59 @@ You might have noticed the "Direct link to the t-SNE result: " above the Adjusta
 -->
 
 
-Step 4: Creating t-SNE maps
+Step 4: Creating t-SNE maps / UMAP
 ----------------------------
 
-Depending on your access level in R2, you can create t-SNE maps from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module is located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
+Depending on your access level in R2, you can create t-SNE maps and UMAPs from any dataset that is represented in R2 (with at least 16 or more samples). The t-SNE module is located in 'box 3' at the main page of R2. You can either run the algorithm on the complete dataset, or focus on a particular sub-section of the samples using the 'subset' function. 
 
 Let's take a look at another nice example of an R2 generated t-SNE map: the large dataset of normal tissue expression profiles.
 
 1. In main menu *Change Dataset* to the Normal Tissues GTeX v4 - GTeX - 2921 - RPKM - ensgtexv4 in box 2 (in the Change Dataset grid fill in the number '2921' in the textfield under the *N* column and click *Select*). Then select t-SNE in box 3. Click Next. If the 'default' map has already been calculated, a shortcut button will also appear as shown in figure 8. In the 'Adjustable settings' panel you can adjust several settings, such as sample filtering and specific gene sets
 
-    ![](_static/images/Samplemaps/Tnse_shortcutPlot1a.png "Figure 8: Create map")
+    ![](_static/images/Samplemaps/Tnse_selectUMAPtSNE.png "Figure 8: Create map")
   
-    [**Figure 8: t-SNE: Menu**](_static/images/Samplemaps/Tnse_shortcutPlot1a.png)
+    [**Figure 8: t-SNE: Menu**](_static/images/Samplemaps/Tnse_selectUMAPtSNE.png )
   
-  Keep in mind that after adjusting input settings the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >6000 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
+  Keep in mind that after adjusting input settings such as filtering or genesets or sub-groups the t-SNE algorithm will  re-run again,  even though a t-SNE map already has been generated with the default settings. A note on the execution times of t-SNE: the generation of the maps will take a substantial amount of time to generate, especially for larger datasets (up to a number of hours for datasets >6000 samples). Once initiated (showing the message that t-SNE is being calculated), you can close the window. The process will keep on running on the servers and you can view the results later by revisting the analysis: when you return to the mainpage of R2, select the same dataset, again choose t-SNE in box 3, and click next. In the following window, a shortcut button to plot the requested t-SNE result will appear for your chosen dataset.    
 
 2. In our case we just click *next*.
 
-3. In the Adjustable settings box set the *Color by Track* on 'Tissue'  and click *next*.
+3. In the Adjustable settings box set the *Color by Track* on 'Tissue_detail'  and click *next*.
 
-  ![](_static/images/Samplemaps/Tsne_normaltissuetrackcolored1a.png "Figure 9: Colored by track")
+  ![](_static/images/Samplemaps/Tsne_normaltissuetrackcolored1b.png "Figure 9: Colored by track")
 
-  [**Figure 9: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_normaltissuetrackcolored1a.png)
+  [**Figure 9: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_normaltissuetrackcolored1b.png)
 
 
-Step 5: Creating groups with the t-SNE lasso tool 
+Step 5: Creating groups with the lasso tool 
 ----------------------------
 
-Suppose the t-SNE algorithm produced some interesting sample clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the t-SNE map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
+For this step we will use a generated UMAP, suppose the UMAP algorithm produced some interesting sample clusters that you want to explore further. R2 allows you to specifically select any subset of samples from the UMAP  map by using the lasso tool. The subset can be used as track in the other R2 analysis tools. This will be illustrated in the following example.
 
-1. In the left menu click on *Sample maps* and select 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2' with the date '2020-11-24' in the *Created* column.  Plot the corresponding t-SNE map using perplexity 23  and color the maps by selecting  'primary_site' with *Color track* option. The haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
+1. In the left menu click on *Sample maps* and select 'Cellline CCLE Cancer Cell Line Encyclopedia - Broad - 917 - MAS5.0 - u133p2' - UMAP  with the date '2025-06-30' in the *Created* column.  Plot the corresponding  UMAP using nn = 15 - minimal distance 0.99 and color the maps by selecting  'primary_site' with *Color track* option. The haematopoietic group can clearly be subdivided in several groups which can be used to investigate these sub clusters in more detail.
 
-    ![](_static/images/Samplemaps/Tsne_lassoselection1a.png "Figure 9: Colored by track")
+    ![](_static/images/Samplemaps/UMAP_lassoselection1b.png "Figure 10: Colored by track")
 
-    [**Figure 9: t-SNE: Colored by track**](_static/images/Samplemaps/Tsne_lassoselection.png)
+    [**Figure 10: UMAP : Colored by track**](_static/images/Samplemaps/UMAP_lassoselection1b.png)
 
-2. Click on *Select subset* left from the interactive t-SNE map.  In the interactive pop-up t-SNE map you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
+2. Click on *Lasso* left from the interactive UMAP.  In the interactive pop-up UMAP you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
 
 3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track (temporary tracks will be deleted after 24 hrs). Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
-  ![](_static/images/Samplemaps/Tsne_subgroups_lasso.png "Figure 10: Using the lasso selection tool")
+  ![](_static/images/Samplemaps/UMAP_subgroups_lasso.png "Figure 10: Using the lasso selection tool")
 
-  [**Figure 10: t-SNE: Using the lasso selection**](_static/images/Samplemaps/Tsne_subgroups_lasso.png)
+  [**Figure 11: UMAP: Using the lasso selection**](_static/images/Samplemaps/Tsne_subgroups_lasso.png)
 
+
+
+>In step we switched from t-SNE map to UMAP which also data dimensionality reduction algorithm. But with other parameters which van be adapte fo
 
 The lasso selection tool is also available for the PCA module;
 
 Step 6: Creating groups with the t-SNE DBSCAN tool
 ----------------------------
 
-Next to the manual lasso tool for sample grouping on the t-SNE map, R2 provides an automated tool as well: the DBSCAN (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
+Next to the manual lasso tool for sample grouping on the t-SNE map / UMAP, R2 provides an automated tool as well: the DBSCAN (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
 
 Starting with an arbitrary point in the plot, the algorithm recursively groups together all the points that are located close to that point and the points within that group. If no more points can be found close to the group, another point on the plot will randomly be chosen and the process repeats itself.  
 With two parameters you can influence the definition of groups: *Epsilon* and *Min pts*. Epsilon sets the maximal distance allowed between points to be considered close. Min pts determines the minimal amount of points that are needed in order to be called a group. It is recommended to set the minimal amount of points to 3 or higher. 
@@ -186,9 +189,9 @@ If a point is not within the epsilon distance of any cluster, it's considered a 
 
 Let's have a look at the DBSCAN and the parameters Epsilon and Min Ptstool in R2. 
 
-1. Go back to the tab with the t-SNE scan map which was generated in step 1 before applying the lasso functionality. 
+1. Go back to the tab with the UMAP scan map which was generated in step 1 before applying the lasso functionality. 
 
-2. Click on *DBSCAN select subset* below the t-SNE map. The interactive t-SNE map pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. 
+2. Click on *DBSCAN select subset* left form the UMAP an other interactive map type pops-up. This time you can find slides for the two DBSCAN parameters, Epsilon and Min pts, on the right side. The parameters are set to a default value, which by no means are the best settings for the given dataset. 
 
   ![](_static/images/Samplemaps/Tsne_dbscan_default.png "Figure 11: Using the DBSCAN selection tool")
 
