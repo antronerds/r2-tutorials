@@ -268,10 +268,9 @@ Step 5: Establishing overrepresentation in other domains
     gene-ontology analysis with the up or down regulated genes only.
 
 
-   ![](_static/images/CorrelatingGenes/FindGenes_Adjust.png "Figure 16: Re-do analysis with genes that are either positively or negatively correlated with MYCN.")
+   ![](_static/images/CorrelatingGenes/FindGenes_Adjust1b.png "Figure 16: Re-do analysis with genes that are either positively or negatively correlated with MYCN.")
 
-   [**Figure 16: Re-do analysis with genes that are either positively or negatively correlated with MYCN.**](_static/images/CorrelatingGenes/FindGenes_Adjust.png)
-
+   [**Figure 16: Re-do analysis with genes that are either positively or negatively correlated with MYCN.**](_static/images/CorrelatingGenes/FindGenes_Adjust1b.png)
 
 
 
