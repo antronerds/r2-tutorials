@@ -56,9 +56,9 @@ In this screen the t-SNE result is plotted with the highest perplexity, or a pre
 
 2. Select ‘color settings’ from the ‘colormode’ and choose ‘primary site’. Press 'Set Colors' to redraw the image.
 
-  ![](_static/images/Samplemaps/Tsne_cellbroad_primsite1a.png "Figure 2:Coloring by Track")
+  ![](_static/images/Samplemaps/Tsne_cellbroad_primsite1b.png "Figure 2:Coloring by Track")
 
-  [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Samplemaps/Tsne_cellbroad_primsite1a.png)
+  [**Figure 2: t-SNE preprocessed t-SNE maps**](_static/images/Samplemaps/Tsne_cellbroad_primsite1b.png)
 
 
 Another feature that may be informative in the context of a t-SNE map is to ‘overlay’ the expression of a particular gene on the map by coloring the cell lines by the expression values of a dataset, in this case mRNA gene expression. We can have a look at this by changing the *Color mode* to ‘color by gene’.
