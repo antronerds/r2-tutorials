@@ -27,7 +27,7 @@ Step 1: Selecting the Kaplan Meier module
 ---------------
 
 
-1.  Logon the R2 homepage and select the option *Kaplan Meier* either in the left
+1.  Logon the R2 homepage and select the option *R2: Survival (Kaplan-Meier/Cox)* either in the left
     menu panel on the main screen or in field 3 at the type of analysis
     pull down menu. Using the Kaplan Meier module via the left menu
     directly shows from which datasets survival data is available.  
@@ -45,7 +45,7 @@ Step 1: Selecting the Kaplan Meier module
 
 3.  A handy feature of the R2 Kaplan module is the option to combine two
     tracks to generate subgroups for the Kaplan Meier analysis. Use the
-    Kaplan-start button and select at *Separate by* the option 'combination of two tracks'. For example, choose for the first track 'agegroup (2 cat)' and for the second track 'mycn\_amp (2 cat)'. And click *Next*.
+    Kaplan-start button (top-left), click 'Next'. Choose overall-c1103 again and select at *Separate by* the option 'combination of two tracks'. For example, choose for the first track 'agegroup (2 cat)' and for the second track 'mycn\_amp (2 cat)'. And click *Next*.
     
 	![](_static/images/KaplanMeier/WorkingWithKaplan_Combined_1a.png "Figure    3: Kaplan Meier graph with    combined tracks.")
 	
@@ -89,7 +89,7 @@ Step 2: Kaplan Meier by gene expression; the Kaplan Scan
 ---------------
 An often used feature of R2 is the Kaplan Scan (KaplanScan), where an optimum 
 survival cut-off is established based on statistical testing instead 
-of for example just taking the average or median. The Kaplan scanner 
+of, for example, just taking the average or median. The Kaplan scanner 
 separates the samples of a dataset into two groups based on the gene 
 expression of one gene. In the order of expression, it will use 
 every increasing expression value as a cutoff to create 2 groups and 
@@ -105,10 +105,9 @@ is present.
 
 
 
-1.  Select from the main screen either the left menu the *Kaplan Meier* option or in field 3 of the main menu, and choose 
-    *Separate by* 'a single gene'. Make sure that "Tumor
-    Neuroblastoma public Versteeg 88" is selected with *Data type* 'Expression data (H. sapiens) and select in the Separate by menu: "single gene (Kaplan-Meier)" and click next.
-2.  In the next screen fill in 'mycn' in the Search by Gene field and use the first reporter in the list of the dropdown that popspup. Select "overall-c1103" at type of survival and click "Next". In the gear box puc
+1.  Select from the main screen either the left menu the *Kaplan Meier* option or in field 3 of the main menu. Click Next. Make sure that "Tumor
+    Neuroblastoma public Versteeg 88" is selected with *Data set* 'Expression data (H. sapiens) and select in the Separate by menu: "single gene (Kaplan-Meier)" and click next.
+2.  In the next screen fill in 'mycn' in the Search by Gene field and use the first reporter in the list of the dropdown that popspup. Select "overall-c1103" at type of survival and click "Next".
 3.  The Kaplan scan generates a Kaplan Meier Plot based on the most
     optimal mRNA cut-off expression level to discriminate between a good
     and bad prognosis cohort.
@@ -119,7 +118,7 @@ is present.
 	
 	[**Figure    5: Kaplan Scan for a single gene**](_static/images/KaplanMeier/KaplanScanASingleGene.png)
 	
-5.  To illustrate that with the Kaplan Scan more significant biological
+5.  Go back to the plot screen which should still be open. To illustrate that with the Kaplan Scan more significant biological
     subgroups can be found, adjust the cut-off mode to "median" in the
     settings menu and click *Redraw Graph*.
     
@@ -156,17 +155,17 @@ Step 3: Kaplan scan for a group of genes
 ---------------
 
 1.  Instead of using the Kaplan Scan for a single gene you can also
-    analyse a group of genes at the same time click on Kaplan start and choose *Separate by* 'multiple genes' and click "Next".
-2.  In this example search for a *Gene set* with clicking on "select geneset". In the popup grid, type 'apoptosis' in the text field on top and click on the search button. In the adapted grid, open the KEGG pathways by a click on the arrow scroll and go on till you can check the KEGG 'Apoptosis' pathway. Click *Use selected* to go back to the menu, where the 'GS: Apoptosis (85)' geneset is now shown to be selected.
+    analyse a group of genes at the same time. Click on Kaplan start and choose *Separate by* 'multiple genes' and click "Next".
+2.  In this example search for a *Gene set* by clicking on "select gene set". In the popup grid, type 'apoptosis' in the text field on top and click on the search button. In the adapted grid, open the KEGG pathways by a click on the arrow. Scroll and go on untill you can check the KEGG 'Apoptosis' pathway. Click *Confirm Selection* to go back to the menu, where the 'GS: Apoptosis (85)' geneset is now shown to be selected.
     
     ![](_static/images/KaplanMeier/KaplanMeier_selectKEGGPathway.png "Figure 8A: Select a KEGG gene set")
     	
     [**Figure 8A: Select a KEGG gene set**](_static/images/KaplanMeier/KaplanMeier_selectKEGGPathway.png)
     
-3. Leave the *Type of survival* at 'overall-c1103'. In
+3. Set the *Type of survival* at 'overall-c1103'. In
     the statistics panel there are several filtering options possible,
     leave these options unchanged.
-4.  In the graphics section select "yes" at *Draw heatmap* and
+4.  In the graphics Settings section select "yes" at *Draw heatmap* and
     click *Next*.
 5.  In the next screen R2 has generated a list of the genes within the
     apoptosis pathway which have significant prognostic value. A heatmap
@@ -177,14 +176,13 @@ Step 3: Kaplan scan for a group of genes
 	[**Figure 8B: A list of Kaplan Meier for a group of genes**](_static/images/KaplanMeier/WorkingWithKaplan_Kaplanlist1a.png)
 	
 
-In Figure 8B, clicking on each gene name in the hugo column will result
+In Figure 8B, the result is shown when clicking on a gene name in the hugo column. It is shown
 in a new screen or tab with the corresponding Kaplan plot.
 
 
 
-In case the *Draw heatmap* is set to **Yes**  heatmap directly plotted next to list of  found genes with significant cut-offs. Clicking a spot in the heatmap will
-show directly the gene expression level for all samples via a new
-one-gene-view screen.
+In case the *Draw heatmap* is set to **Yes**  heatmap directly plotted next to list of found genes with significant cut-offs. Clicking a spot in the heatmap will
+show the gene expression level directly for all samples via a new one-gene-view screen.
 
 
 ![](_static/images/KaplanMeier/WorkingWithKaplan_Heatmap1a.png "Figure 9: Heatmap of the significant prognostic list of genes.")
@@ -194,7 +192,7 @@ one-gene-view screen.
 
 
 
-5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, again go to the main page, click on *Kaplan-Meier* from the left menu, select 'by multiple genes' in the *Separate by* option, click next. This time don't select anay gene set, but adapt in the Graphic Settings *Draw a heatmap* again to 'yes', choose in *Heatmap data* dropdown 'good_bad (binary)' and click *Next*. 
+5.  To generate a binary heatmap based on the GOOD versus BAD prognoses, again go to the main page, click on *Kaplan-Meier* from the left menu, select 'by multiple genes' in the *Separate by* option, click next. Set Type of Survival to overall-c1103 again. This time don't select anay gene set. In the Graphic Settings set *Draw a heatmap* again to 'yes', choose in *Heatmap data* dropdown 'good_bad (binary)' and click *Next*. 
 
 
 ![](_static/images/KaplanMeier/Workingwithkaplan_heatmapadjust.png "Figure 10: Select binary heatmap")
@@ -202,7 +200,7 @@ one-gene-view screen.
 [**Figure 10: Select binary heatmap.**](_static/images/KaplanMeier/Workingwithkaplan_heatmapadjust.png)
 
 
-Now the heatmap shows a clustering based on the GOOD vs BAD prognoses.
+Now the heatmap shows a clustering based on the GOOD vs BAD prognoses. (Figure 11)
 
  ![](_static/images/KaplanMeier/Workingwithkaplan_heatmapbadgoodbin.png "Figure 11: Binary heatmap")
 
@@ -216,9 +214,10 @@ Step 4: Kaplan scan on your own cohort
 
 1.  It may happen that you would like to use the KaplanScan method on a
     dataset that is not available in R2. Especially for this reason we
-    have made a user defined version within R2, where you can paste your
+    have made a user defined version within R2. Here you can paste your
     cohort into R2 from e.g. a textfile and run the procedure. To initiate such a user
-    defined Kaplan Scan, select the *Kaplan Meier* option again from the main page left menu, and click  on the *Kaplan-Meier analysis using custom data* button underneath the panel. 
+    defined Kaplan Scan, select the *Kaplan start* option again from the main page left menu,
+    and click  on the *Kaplan-Meier analysis using custom data* button underneath the panel. 
     
 	![](_static/images/KaplanMeier/Kaplanscan_userdefined_1a.png "Figure    12: Kaplanscan with user defined    data")
 	
@@ -235,7 +234,7 @@ Step 4: Kaplan scan on your own cohort
     -   Column 4 contains the expression value of the gene of interest
         for the kaplanscan
 
-3.  One can easily prepare this information in Microsoft Excel and paste the
+3.  You could easily prepare this information in Microsoft Excel and paste the
     selected columns into the large white paste box. Do take care that
     we use "." for decimal signs.  
 4.  After you pasted the dataset information, you make the selection for the cutoff option and
@@ -258,7 +257,13 @@ Step 4: Kaplan scan on your own cohort
 Step 4: Cox Regression analysis and hazard ratio
 ---------------
 
-The Cox regression analysis is a statistical method commonly used in biomedical research to analyze the relationship between gene expression and survival outcomes. It is particularly useful for studying the impact of gene expression levels on patient survival times. In this analysis, gene expression data is combined with survival data to assess whether specific genes or gene signatures are associated with increased or decreased survival rates. In r2 your can identify genes or multiple genes (genesets which may act as potential prognostic markers). In general Cox regression analysis in gene expression provides valuable insights into the molecular mechanisms underlying survival outcomes in various diseases, including cancer.
+The Cox regression analysis is a statistical method commonly used in biomedical research to analyze the relationship 
+between gene expression and survival outcomes. It is particularly useful for studying the impact of gene expression 
+levels on patient survival times. In this analysis, gene expression data is combined with survival data to assess 
+whether specific genes or gene signatures are associated with increased or decreased survival rates. In r2 you can 
+identify genes or multiple genes (genesets which may act as potential prognostic markers). In general Cox regression
+analysis in gene expression provides valuable insights into the molecular mechanisms underlying survival outcomes in 
+various diseases, including cancer.
 
 
 ![](_static/images/KaplanMeier/KaplanMeier_Coxregression1a.png "Figure 14: Kaplanscan with user defined data    result")
@@ -266,20 +271,29 @@ The Cox regression analysis is a statistical method commonly used in biomedical 
 [**Figure    14: Cox regression and  hazard ratios**](_static/images/KaplanMeier/KaplanMeier_Coxregression1a.png)
 
 
-The hazard ratio (HR) is a fundamental concept in Cox regression analysis. It represents the relative risk or likelihood of an event occurring in one group compared to another.  The hazard ratio quantifies the effect of gene expression levels on the hazard or risk of a specific outcome, typically survival.
+The hazard ratio (HR) is a fundamental concept in Cox regression analysis. It represents the relative risk or likelihood
+of an event occurring in one group compared to another.  The hazard ratio quantifies the effect of gene expression 
+levels on the hazard or risk of a specific outcome, typically survival.
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_genes.png "Figure 15: Kaplanscan with user defined data ")
 
 [**Figure    15: Cox regression and  hazard ratios steps**](_static/images/KaplanMeier/Kaplan_hazardratio_genes.png)
 
-In R2 you can scan for significant hazard ratios for a single gene or multiple genes for a single dataset, follow the steps as indicated in Figure 15 and select the drug target geneset and click next. A Hazard ratio quantifies the effect of gene expression levels on the hazard of risk for a typical outcome. When the Hazard ratio is greater then 1, higher expression levels suggest a poor prognosis indicated in blue.  Having the opposite,  a hazard ratio less than 1 indicates a decreased risk or hazard, suggesting a better prognosis indicated with red. A hazard ratio of 1 implies that there is no difference in risk between the groups being compared.
+In R2 you can scan for significant hazard ratios for a single gene or multiple genes for a single dataset, follow the 
+steps as indicated in Figure 15 and select the drug target geneset and click next. A Hazard ratio quantifies the effect
+of gene expression levels on the hazard of risk for a typical outcome. When the Hazard ratio is greater than 1, higher
+expression levels suggest a poor prognosis indicated in blue. Having the opposite, a hazard ratio less than 1 indicates
+a decreased risk or hazard, suggesting a better prognosis indicated with red. A hazard ratio of 1 implies that there is
+no difference in risk between the groups being compared.
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_list.png "Figure 16: Kaplanscan with user defined data ")
 
 [**Figure    15: Cox regression and  hazard ratios list**](_static/images/KaplanMeier/Kaplan_hazardratio_genes_list.png)
 
 
-The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** link in the table. As clearly depicted in figure 16 the CSKN2A1 gene with a hazard ratio > 1 in blue show a poor prognosis for a high expression level cut-off while the NTKR1 gene shows a poor prognosis for a low expression level.
+The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** link in the table. As clearly depicted 
+in figure 16 the CSKN2A1 gene with a hazard ratio > 1 in blue show a poor prognosis for a high expression level cut-off
+while the NTKR1 gene shows a poor prognosis for a low expression level.
 
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_genes_inspect.png "Figure 16: Hazard ratios with a list of genes ")
@@ -288,13 +302,18 @@ The hazard ratio outcome can easily be inspected by clicking on the **KAPLAN"** 
 
 
 
-After checking the hazard ratio for multiple genes in one dataset you can also check for hazard ratios across multiple datasets. Select via de main menu survival > cox regresssion in multiple datasets. (Figure 17). Clicking "select datasets" will open de grid where you select the datasets of interest, keep in mind that these dataset are already preselected for those containing survival data.
+After checking the hazard ratio for multiple genes in one dataset you can also check for hazard ratios across multiple
+datasets. Select via de main menu survival > cox regresssion in multiple datasets. (Figure 17). Clicking
+"select datasets" will open de grid where you select the datasets of interest, keep in mind that these dataset are 
+already preselected for those containing survival data.
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_selectsets1a.png "Figure 17: select sets")
 
 [**Figure    17: Cox regression for multiple datasets**](_static/images/KaplanMeier/Kaplan_hazardratio_selectsets1a.png)
 
-In Figure 18, the selected datasets show a significant low hazard ratios with a poor survival for the NOTCH2 gene in the low gene expressed group in contrast to the hazard rations where the group with the high MYCN expression shows a poor prognosis. (Figure 19.)
+In Figure 18, the selected datasets show a significant low hazard ratios with a poor survival for the NOTCH2 gene in
+the low gene expressed group in contrast to the hazard rations where the group with the high MYCN expression shows a 
+poor prognosis. (Figure 19.)
 
 
 ![](_static/images/KaplanMeier/Kaplan_hazardratio_notchdatasets.png "Figure 18: Hazard ratios with a list of genes ")
