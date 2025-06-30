@@ -178,7 +178,7 @@ For this step we will use a generated UMAP, suppose the UMAP algorithm produced 
 
 The lasso selection tool is also available for the PCA module;
 
-Step 6: Creating groups with the t-SNE DBSCAN tool
+Step 6: Creating groups with the DBSCAN tool
 ----------------------------
 
 Next to the manual lasso tool for sample grouping on the t-SNE map / UMAP, R2 provides an automated tool as well: the DBSCAN (Density-based spatial clustering of applications with noise). The DBSCAN allows for automatic detection of points that are closely packed together in a plot. A fun and more detailed blogpost about the DBSCAN can be found <a href="https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/" taget="\_blank">here</a>. 
