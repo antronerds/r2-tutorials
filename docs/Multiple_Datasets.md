@@ -43,7 +43,7 @@ Step 1: Selecting multiple datasets
 
 
 
-3. The megasampler is unfortunately restricted to microarray data and even then, the analyses are only possible within their own platform. Within the platform the experimental bias is decreased since the dataset originates from the same platform and the same normalization algorithm however many other factors such as experimental conditions, country and mental state :) will affect the experimental bias. It is generally accepted that with sufficient samples from different datasets, these datasets can be analyzed together in this manner. Further, an increasing number of datasets in the GEO repository are being remapped and realigned to the same platform, using the TPM algorithm for normalization. Currently, we are also working to make these datasets available through the MegaSampler (2025).
+3. The megasampler is unfortunately restricted to microarray data and even then, the analyses are only possible within their own platform. Within the platform the experimental bias is decreased since the dataset originates from the same platform and the same normalization algorithm however many other factors such as experimental conditions, which laboratory etc etc will affect the experimental bias. It is generally accepted that with sufficient samples from different datasets, these datasets can be analyzed together in this manner. Further, an increasing number of datasets in the GEO repository are being remapped and realigned to the same platform, using the TPM algorithm for normalization. Currently, we are also working to make these datasets available through the MegaSampler (2025).
 
 
 
@@ -56,7 +56,7 @@ Step 1: Selecting multiple datasets
 
 1.  With the "selection preset" option a pre-stored dataset collection
     with associated settings can be selected. Select "XPO sampler"
-    (Expression Project for Oncology (EXP) to pre-select a series of
+    (Expression Project for Oncology (XPO) to pre-select a series of
     tumor datasets. Click "next".
     
 	![](_static/images/megasampler/MultipleDatasets_Preset1b.png "Figure 2: Select a preset")
@@ -108,10 +108,9 @@ Step 2: Viewing a gene in multiple datasets
 	[**Figure 5: Anova test for the selected datasets.**](_static/images/megasampler/MultipleDatasets_Anova.png)
 	
 
-By default de megasampler graph is plotted in a so called Box plot
+By default the megasampler graph is plotted in a so called Box plot
 representation. If the "add scatter" option is ticked in the gear box
-the signals of the separate samples are plotted; a quickly interpretable
-graph.
+the signals of the separate samples are plotted. 
 
 
 ![](_static/images/megasampler/MultipleDatasets_boxplots.png "Figure 6: YCC expression levels in 15 datasets covering 2174 samples.")
@@ -264,7 +263,7 @@ or the standard uncorrected_t_test. The Limma algorithm is specifically designed
 
 
 
-6. Two tables of genes are generated with the highest significantly expressed genes for group 1 and group 2. The average gene-expression is depictedIn the left genelist (group 2) we find in the top 10 ,
+6. Two tables of genes are generated with the highest significantly expressed genes for group 1 and group 2. The average gene-expression is depicted in the left genelist (group 2) we find in the top 10 ,
 the OTX2 gene which is accociated with medulloblastoma.
 
 
