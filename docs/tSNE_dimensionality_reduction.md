@@ -164,7 +164,7 @@ For this step we will use a generated UMAP, suppose the UMAP algorithm produced 
 
     [**Figure 10: UMAP : Colored by track**](_static/images/Samplemaps/UMAP_lassoselection1b.png)
 
-2. Click on *Lasso* left from the interactive UMAP.  In the interactive pop-up UMAP you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
+2. Click on the  *Lasso* button left from the interactive UMAP.  In the interactive pop-up UMAP you use the lasso tool by clicking on the map and hold the mouse button to draw a shape around the samples you want to select as one group. After releasing the mouse button the group with the amount of samples is listed on the right. The samples of the dataset are subsequently annotated with a group id for each lasso selection action. You can select groups up to a number of 10. After you finished the group selections, click below the groups on the "Build Tracks for subset" button. 
 
 3. In a new tab all the samples are listed with the designated and adjustable group label. The samples that were not included in any of the lasso selected subgroups are labeled 'not_defined'. At the bottom in the "Adjustable Settings" menu you can rename the groups, select a color and store them in your personalized tracks or as a temporary track (temporary tracks will be deleted after 24 hrs). Now you can continue with further analysis, for example  by using the module "Find differential expression between groups"  where you can find your newly created tracks in the selection criteria menu.
 
@@ -174,7 +174,7 @@ For this step we will use a generated UMAP, suppose the UMAP algorithm produced 
 
 
 
->In step we switched from t-SNE map to UMAP which also data dimensionality reduction algorithm. But with other parameters which van be adapte fo
+>In ths step we switched from t-SNE map to UMAP which is also data dimensionality reduction algorithm. But with other parameters which van be adapted, which are the NN (near neighborhood and minimal distance. The neighbors (nn_) setting controls how many neighbors the UMAP algorithm ss using when building the data structure. The mimimal distance Low min_dist (e.g., 0.1 or 0.01) results in tighter clusters where the higher value  (e.g., 0.8) reults in more spreadout clusters.
 
 The lasso selection tool is also available for the PCA module;
 
