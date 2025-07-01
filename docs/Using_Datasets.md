@@ -31,7 +31,7 @@ Step 1: Selecting a dataset
 
 1. R2 offers a large number of datasets ready for analysis and visualization.
     The numbered boxes on the main page will guide you through all the steps necessary to perform a task, starting
-    with the selection of a dataset. In field 1 select **Single Dataset**, in field 2 click on the name of the dataset.
+    with the selection of a dataset. In field 1 select *Single Dataset*, in field 2 click on the name of the dataset.
 	
     ![](_static/images/Usingdatasets/UsingDataset_selectv1a.png "Figure 2: Change Dataset on the main page")
 	
@@ -45,7 +45,7 @@ Step 1: Selecting a dataset
    [**Figure 3: Select a dataset by clicking on a row**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
 
 
-3. Every column header provides options to filter the database, e.g. in the Tissue/Tumor text field a keyword such as **medull** can be written to filter for medulloblastoma datasets or, with the Select Filter dropdown under the Data type header you can requests an overview of for instance methylation datasets. If you know specific details, other columns can be of help as well: e.g. you can search for an author, or use the N column to search for a datasets of which you know the number of samples. The grid box will display all the datasets that fulfill the (combined) filter requirements. In the bottom right corner you find the number of (filtered) datasets that are available to you. 
+3. Every column header provides options to filter the database, e.g. in the **Tissue/Tumor** text field a keyword such as *medull* can be written to filter for medulloblastoma datasets or, with the Select Filter dropdown under the Data type header you can requests an overview of for instance methylation datasets. If you know specific details, other columns can be of help as well: e.g. you can search for an author, or use the N column to search for a datasets of which you know the number of samples. The grid box will display all the datasets that fulfill the (combined) filter requirements. In the bottom right corner you find the number of (filtered) datasets that are available to you. 
 
    ![](_static/images/Usingdatasets/UsingDataset_select_autofill_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 		 
@@ -54,7 +54,7 @@ Step 1: Selecting a dataset
 
 
 
-4. Click on the table row of the dataset of your choice and click the blue colored button **Confirm selection** in order to use a dataset in field 2 of the main page for further analysis.
+4. Click on the table row of the dataset of your choice and click the blue colored button 'Confirm selection' in order to use a dataset in field 2 of the main page for further analysis.
 
 
 
@@ -83,17 +83,17 @@ Step 2: Advanced selection of datasets
 	
     [**Figure 6: Combine search filters in the grid**](_static/images/Usingdatasets/UsingDataset_combine_grid_filters.png)
 	
-2. Again we use the **Confirm Selection** button if we want to continue our analysis with a specific dataset of the grid. 
+2. Again we use the 'Confirm Selection' button if we want to continue our analysis with a specific dataset of the grid. 
 	
-3. Select “Across Datasets” in field **1**. Note that in field 2
-    different options become available compared to the “single
-    dataset” option.
+3. Select *Across Datasets* in field **1**. Note that in field 2
+    different options become available compared to the *single
+    dataset* option.
    
     ![](_static/images/Usingdatasets/UsingDatasets_SelectAcrossDatasetsInR2v1.png "Figure 8: Selecting across datasets")
 	
     [**Figure 7: Selecting across datasets**](_static/images/Usingdatasets/UsingDatasets_SelectAcrossDatasetsInR2v1.png)
 	
-    Analysis methods following selecting the “Across Datasets” option in field **1** will be discussed in Chapter 10 “Working with multiple datasets”.  
+    Analysis methods following selecting the *Across Datasets* option in field **1** will be discussed in Chapter 10 “Working with multiple datasets”.  
 
 
 
