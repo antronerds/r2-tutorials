@@ -174,7 +174,7 @@ For this step we will use a generated UMAP, suppose the UMAP algorithm produced 
 
 
 
->In ths step we switched from t-SNE map to UMAP which is also data dimensionality reduction algorithm. But with other parameters which van be adapted, which are the NN (near neighborhood and minimal distance. The neighbors (nn_) setting controls how many neighbors the UMAP algorithm ss using when building the data structure. The mimimal distance Low min_dist (e.g., 0.1 or 0.01) results in tighter clusters where the higher value  (e.g., 0.8) reults in more spreadout clusters.
+>In ths step we switched from t-SNE map to UMAP which is also a data dimensionality reduction algorithm. But with other parameters which can be adapted, these are the NN (near neighborhood and minimal distance. The neighbors (nn_) setting controls how many neighbors the UMAP algorithm is using when building the data structure. The minimal distance Low min_dist (e.g., 0.1 or 0.01) results in tighter clusters where the higher value  (e.g., 0.8) results in more spread out clusters.
 
 The lasso selection tool is also available for the PCA module;
 
