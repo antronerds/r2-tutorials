@@ -185,16 +185,29 @@ The 'Build a track' button at the bottom of the page conveniently allows you to 
     [**Figure 8: Cohort Overview**](_static/images/Annotation/AnnotationAnalyses_CohortOverview1a.png)
 
 
-5. The sunburst plotter is an often used annotation visualization. In the annotation section of the main menu, select 
-   the Cohort sunburst plotter. The sunburst diagram displays a hierarchical structure in a circular shape. The origin 
-   of the organization is represented by the center of the circle, and each level of the organization by an additional 
-   ring. Additionally, other visualization plot types are implemented as illustrated in Figure 9 (circlepack, treemap and icicle).
+
+
+Step 5: The Group Annotation plotter
+-----------------------------------
+
+R2 also offers a group Annotation Plotter module providing different visualization options that overlays group-level information such as labels, classes, or metada onto a data plot. This makes it easier to interpret patterns, group differences, or sample relationships.
+The Sankey plot depicts a flow of one set of group parameters connected to another and is selected by default in the group annotation plotter.
+The flows in the plot are always directional, the width corresponds to the size of the flow and can be split from node or converge from one to many. 
 
 
 
-   ![](_static/images/Annotation/AnnotationAnalyse_sunburst1a.png  "Figure 9: Cohort Sunburst Plotter")
+![](_static/images/Annotation/Annotation_group_sankey.png  "Figure 9: Cohort Sankey Plotter")
 
-   [**Figure 9: Sunburst plotter**](_static/images/Annotation/AnnotationAnalyse_sunburst1a.png)
+[**Figure 9: Sankey plotter**](_static/images/Annotation/AnnotationAnalyse_sunburst1a.png)
+
+
+
+
+
+
+   ![](_static/images/Annotation/AnnotationAnalyse_sunburst1b.png  "Figure 9: ")
+
+   [**Figure 9: Other group visualisations**](_static/images/Annotation/AnnotationAnalyse_sunburst1b.png)
 
 
 
