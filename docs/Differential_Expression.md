@@ -89,7 +89,7 @@ The actual result of the ANOVA calculations is shown in the table under the grap
 ![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png "Figure 2: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
-[**Figure 2a: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
+[**Figure 2: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
 
 With the gear icon you can open up the _plot options_ menu, where many settings can be adjusted to which the plot immediately responds.  Let's try a few tweaks (Figure 4b):
 1. Click on the **gear icon** upperleft from the violin plot.
@@ -120,7 +120,7 @@ The _YY with annotations_ plot provides a raw overview of gene expression per sa
 1. Click on the gear icon upper left from the violin plot if the plot options menu is not open yet. 
 2. Check that you are in the General tab of the menu and adapt the selection in the dropdown box *Graph type* to the option **YY with annotation**. 
 3. The setting _Extra Graph Option_ is set to **Track and Gene Sort**, which causes the samples within their respective groups to be ordered in increasing value of MYCN expression.
-4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose a color of a blue-grey. This blue-grey color is one of teh standard colors that you can find in the color picker. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker.
+4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose a color of a blue-grey. This blue-grey color is one of the standard colors that you can find in the color picker. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker.
 
 ![](_static/images/FindDiff/DifferentialExpression_YY_annoation.png "Figure 5: Adapt the Graph type to _YY with annotation_ to view MYCN expressions plus annotation underneath")
 
