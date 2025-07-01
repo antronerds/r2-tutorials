@@ -33,10 +33,10 @@ Scope
 Step 1: Select the View a Gene module 
 ---------------
 
-1.  Use “Single Dataset” in field 1 and make sure that the “Tumor
-    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2” dataset is
+1.  Use *Single Dataset* in field 1 and make sure that the *Tumor
+    Neuroblastoma public - Versteeg - 88 - MAS5.0 - u133p2* dataset is
     selected in field 2.
-2.  Choose “View a Gene” in field 3 and click "Next".
+2.  Choose *View a Gene* in field 3 and click "Next".
 
 
 ![](_static/images/Onegeneview/OneGene_singleselect_v2a.png "Figure 1: Single gene selection")
@@ -48,14 +48,14 @@ Step 1: Select the View a Gene module
 Step 2: Select the gene or reporter
 ---------------
 
-1. We will take a look at the expression levels of the samples for the MYCN gene. Type "mycn" in the left "Search by Gene" text field and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right "Search by Reporter" box.  
+1. We will take a look at the expression levels of the samples for the MYCN gene. Type *mycn* in the left **Search by Gene** text field and click on the first MYCN reporter that shows up in the list of the dropdown. The reporter ID will then be listed in the right *Search by Reporter* box.  
    
    In the case of Affymetrix datasets, the term probeset is often used instead of reporter, and more than one probeset can be associated with a gene. The term probeset originates from Affymetrix arrays, the terms probeset and reporter will be used in this tutorial interchangeably.
    
-   Clicking the *advanced search* button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level. When typing "mycn" in the "gene symbol" text field, you can see that multiple probesets are annotated for the MYCN gene in a dropdown list.  
+   Clicking the **advanced search** button provides a grid where other selection criteria can be applied, such as gene symbol or average signal. Additionally, the sorting option allows for quick checking of genes with a certain expression level. When typing *mycn* in the **gene symbol** text field, you can see that multiple probesets are annotated for the MYCN gene in a dropdown list.  
    
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can see the available probesets listed in a small dropdown. The default R2 probeset will be the first one in the list. Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). By clicking the desired probeset in the small dropdown of the advanced search, these other probesets can be investigated. Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
-   The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
+   The last column of the grid, named 'R2 default', indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
    The expression levels of datasets are by default converted to log2 values, thereby being the default setting in the tranformation box. This does not apply to datasets that contain ratios or logfolds such as methylation arrays, double labeling arrays, drug data etc. Other options for transformation are also avalaible when clicking the dropdown menu.
    
@@ -85,13 +85,13 @@ Step 3: Plotting Gene expression
    clear relationship between the expression levels and the tracks for
    “MYCN amplification” and “INSS-stage“. The display of these tracks underneath
    the image gives a quick glance at some of the clinical parameters,
-   defined for the dataset. Clicking the triangle at  **View additional detail** provides functional information for the reporters and the genome location if available.  It is also possible to define your own
+   defined for the dataset. Clicking the triangle at **View additional detail** provides functional information for the reporters and the genome location if available.  It is also possible to define your own
    custom-made tracks, or disable/adapt the settings for default tracks
    (further explained in the chapter 23 “Adapting R2 to your needs“)
 
 3. Sometimes you get more insight by reviewing the expression levels
-   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the dropdown menu of the ‘Transformation’ setting, choose “none” 
-   and then click the button *Submit* at the bottom of the panel.   
+   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the dropdown menu of the **Transformation** setting, choose *none* 
+   and then click the button 'Submit' at the bottom of the panel.   
 
    
    
@@ -127,7 +127,7 @@ In the one gene view plot we have investigated the gene expression of a single g
 
 1. Thus far, we have been looking at the expression of MYCN ordered by the expression levels. From the one-gene view "Adjustable settings" panel there are also other analysis types. Here, we will discuss the analysis type; gene vs gene. 
 
-2. Select in the analysis type menu, the gene vs gene option. The "Adjustable settings" panel will adapt automatically according to the selected analysis type. As illustrated in Figure 4 you simply fill in a different Gene for Gene/Reporter 1 than for Gene/Reporter 2.
+2. Select in the analysis type menu, the gene vs gene option. The "Adjustable settings" panel will adapt automatically according to the selected analysis type. As illustrated in Figure 4 you simply fill in a different Gene for **Gene/Reporter 1** than for **Gene/Reporter 2**.
 
 
 ![](_static/images/Onegeneview/OneGene_otheranalysis_v2.png "Figure 4: Other analysis type: Gene vs Gene")
@@ -157,8 +157,8 @@ Step 5: Marking / highlighting samples within a plot
 
 [**Figure 6a: Marking samples in an interactive plot**](_static/images/Onegeneview/OneGene_view_interactive1a.gif)
 
-To highlight specific samples in the graph, you can simply click on the marker-points of the samples in the graph that you want to highlight, or you can enter the R2 sample IDs (shown at the top of the additional information when hovering a sample dot) in the 'id' field in the 'Marked' section of the "plot options" panel.
-* Several marking options can be selected with the 'type' dropdown menu that can be found in the 'Marked' section of the "plot options" panel (e.g.; ‘epicenter’ and ‘arrow’).
+To highlight specific samples in the graph, you can simply click on the marker-points of the samples in the graph that you want to highlight, or you can enter the R2 sample IDs (shown at the top of the additional information when hovering a sample dot) in the **id** field in the 'Marked' section of the "plot options" panel.
+* Several marking options can be selected with the **type** dropdown menu that can be found in the 'Marked' section of the "plot options" panel (e.g.; ‘epicenter’ and ‘arrow’).
 
 
 
@@ -211,13 +211,13 @@ Another often used feature present in the "plot options panel" is the **Vector (
 
 
 
-2. When you are in the one gene view plot, a logical step is to investigate the expression levels in correspondence  with a group parameter. Select in the 'Analysis type' menu of the "Adjustable settings" panel: gene vs track. Select the inss track in the 'Track' menu and click "submit" (**Figure 8**). The cohort is separated accordingly by the patient INSS staging in alphabetical order. It could be that the ordering of the group parameters is not the most convenient representation for your analysis. In order to customize this, you can create your own track as described in Chapter 23 (“Adapting R2 to your needs”) and make your own track with the correct ordering eg: a_stage IV, b_stage 1 etc. 
+2. When you are in the one gene view plot, a logical step is to investigate the expression levels in correspondence with a group parameter. Select in the **Analysis type** menu of the "Adjustable settings" panel: *gene vs track*. Select *inss* in the **Track** dropdown menu and click "submit" (**Figure 8**). The cohort is separated accordingly by the patient INSS staging in alphabetical order. It could be that the ordering of the group parameters is not the most convenient representation for your analysis. In order to customize this, you can create your own track as described in Chapter 23 (“Adapting R2 to your needs”) and make your own track with the correct ordering eg: a_stage IV, b_stage 1 etc. 
 
 
 N.B.  The same analysis can also be obtained with the module "View a Gene in Groups" from the main page.  
 
 
-3. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the 'General' section of the "plot options", the Track and Gene Sort can be selected in the 'Extra Graph Option' dropdown menu to organise the epxression levels in your graph per group (Figure 8).
+3. The current representation is the most honest way of showing your data, as every single value is visible in the plot. In the 'General' section of the "plot options", the *Track and Gene Sort* can be selected in the **Extra Graph Option** dropdown menu to organise the epxression levels in your graph per group (Figure 8).
 
 ![](_static/images/Onegeneview/OneGene_genevstrack_sort.png "Figure 8: Gene vs track")
 
@@ -225,7 +225,7 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 
 
-4. We can also change the graphical representation of the data by selecting another graph type. Select for example 'boxplot' from the 'Graph Type' dropdown in the "Adjustable settings" panel and change 'Color mode' to 'color by track', such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the INSS groups (**Figure 9**). Adaptations to other graph types can be made in a similar way. The plot types can be selected on two places; in the "plot options" panel and in the "Adjustable settings" panel.  
+4. We can also change the graphical representation of the data by selecting another graph type. Select for example *boxplot* from the **Graph Type** dropdown in the "Adjustable settings" panel and change **Color mode** to *color by track*, such that the inss track is used to color the boxes. Press the 'Submit' button again to change the view. We now obtain a boxplot image where the respective groups have been colored according to the INSS groups (**Figure 9**). Adaptations to other graph types can be made in a similar way. The plot types can be selected on two places; in the "plot options" panel and in the "Adjustable settings" panel.  
 
 
 ![](_static/images/Onegeneview/OneGene_viewinGroups_v1b.png "Figure 9: Fonts and Color changed")
@@ -236,16 +236,16 @@ N.B.  The same analysis can also be obtained with the module "View a Gene in Gro
 
 [**Figure 10: Making raincloud plots and more**](_static/images/Onegeneview/OneGene_othergraphs_v2.png)
 
-The boxplot (with add_scatter = **TRUE**) can of course reveal valuable information about statistics and the distribution of data. Another relative new visualization technique which combines several aspects of the traditional plots such as the box plot, dot plot and violin plot is  the **raincloud** plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in **Figure 10**).
+The boxplot (with **add_scatter** = *TRUE*) can of course reveal valuable information about statistics and the distribution of data. Another relative new visualization technique which combines several aspects of the traditional plots such as the box plot, dot plot and violin plot is the *raincloud* plot combining summary statistics such as median and quartiles and the density estimation of the violin plot. The individual datapoints are represented as points or raindrops along the vertical axis which provides a better understanding of the data distribution (see left graph in **Figure 10**).
 
-5. You can also sort the groups by their average or median gene expression and customize your graph in various ways by clicking the Gear-icon and using the 'General' section of the "plot options" panel. In Figure 11 this illustrated by using the Median options of the 'Order Groups By' dropdown menu, thereby ordering the INSS stage sequence according to the median gene expression of MYCN. On top of that the individual dots can be colored by the Z-score of for example the DBH expression by using the Color by a Gene options of the 'Color mode' dropdown menu and selecting DBH as reporter NAME. In case the samples have also been profiled for another type of data such as methylation or drug data, you can also select these datatypes in the pull-down menu when you have selected color by gene. You can use the values from these corresponding sets in the same graph (Figure 11) thereby combining expression and other omics data.
+5. You can also sort the groups by their average or median gene expression and customize your graph in various ways by clicking the Gear-icon and using the 'General' section of the "plot options" panel. In Figure 11 this illustrated by using the *Median (numeric y)* option of the **Order Groups By** dropdown menu, thereby ordering the INSS stage sequence according to the median gene expression of MYCN. On top of that the individual dots can be colored by the Z-score of for example the DBH expression by using the *Color by a Gene* options of the **Color mode** dropdown menu and selecting *DBH* as **Reporter NAME/IDD**. In case the samples have also been profiled for another type of data such as methylation or drug data, you can also select these datatypes in the pull-down menu when you have selected color by gene. You can use the values from these corresponding sets in the same graph (Figure 11) thereby combining expression and other omics data.
 
 ![](_static/images/Onegeneview/OneGene_boxplotsorderby_v1b.png "Figure 11: Fonts and Color changed")
 
 [**Figure 11: Ordering boxplots**](_static/images/Onegeneview/OneGene_boxplotsorderby_v1b.png)
 
 
-6. Also, directly accessible from the "Adjustable settings" panel is the track vs track option described in more detail in Chapter 5: Annotation Analyses; "Relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
+6. Also, directly accessible from the "Adjustable settings" panel is the *track vs track* option described in more detail in Chapter 5: Annotation Analyses; "Relate two tracks". Keep in mind that the analysis type options described in this chapter can also be selected directly from the main menu. 
 
 ![](_static/images/Onegeneview/OneGene_boxmainmnu1a.png "Figure 12: track vs track and main menu ")
 
@@ -392,24 +392,24 @@ Step 7: Advanced sorting and selecting samples
 Step 8: Selecting subsets
 ---------------
 
-To generate a graph of a subgroup of samples, use the 'Subset track' dropdown from the 'sample filter' section in the "Adjustable settings" panel to select a specific group. 
+To generate a graph of a subgroup of samples, use the **Subset track** dropdown from the 'Sample Filter' section in the "Adjustable settings" panel to select a specific group. 
 
 In the neuroblastoma field it is well known that the MYCN expression is strongly correlated with the INSS stage 4, but maybe you are also interested in the MYCN expression for the lower risk stages.
 
-Go to the "Adjustable settings" panel and select in the pull down the INSS stage. In the popup window select the lower risk stages st1, st2, st3 and st4s and click "OK" (**Figure 14**). Back in the "Adjustable settings" panel click on the Submit button. These selections can be repeated a couple of times to build your ultimate selection.
+Go to the "Adjustable settings" panel and select *inss* in the **Subset track** dropdown menu. In the popup window select the lower risk stages st1, st2, st3 and st4s and click "OK" (**Figure 14**). Back in the "Adjustable settings" panel click on the Submit button. These selections can be repeated a couple of times to build your ultimate selection.
 
 
  ![](_static/images/Onegeneview/OneGene_selectsubgroups1a.png "Figure 14: Selecting subgroups")
 
  [**Figure 14: Selecting subgroups**](_static/images/Onegeneview/OneGene_selectsubgroups1a.png)
 
- The graphs below were drawn with Graph type Dot-Plot. On the right side of the figure, all stages are depicted abd only the lower risk stages are shown on the left side. 
+ The graphs below were drawn with **Graph type**: *Dot* Plot. On the right side of the figure, all stages are depicted abd only the lower risk stages are shown on the left side. 
 
  ![](_static/images/Onegeneview/OneGene_subgroupvsall.png "Figure 15: All stages (right) versus lower risk only (left)")
 
  [**Figure 15: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_subgroupvsall.png)
 
-Next to the 'Subset track' dropdown menu, clicking the *"wheel"* will open a pop-up screen with a grid to create tracks where individual samples can be in or excluded for the available tracks (**Figure 16**). From this point also a track can be created and stored. You will encounter the filter option in the "Adjustable settings" panel in many modules.
+Next to the **Subset track** dropdown menu, clicking the "wheel" will open a pop-up screen with a grid to create tracks where individual samples can be in or excluded for the available tracks (**Figure 16**). From this point also a track can be created and stored. You will encounter the filter option in the "Adjustable settings" panel in many modules.
 
 ![](_static/images/Onegeneview/OneGene_advancedfiltering.png "Figure 16: Advanced filtering")
 
@@ -424,7 +424,7 @@ Step 9: Find best track separation with CliniSnitch
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
     the current dataset (like e.g. age group) than the example in the previous section. 
-    For such an analysis, R2 has the CliniSnitch function which performs a test on each track. In addition, tracks are inspected before doing the test, and the test is changed according to the contents. For a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, which indicates the correlation between the p-values. For categorical vs numerical tracks, an ANOVA-test is performed. Non-random associations for categorical vs categorical tracks are tested with a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group. We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 'CliniSnitch' in the upper-right panel. When you click on ‘MYCN’, the results of these test are displayed. When adding private or group tracks to the dataset, these tracks will automatically be included in these analyses.
+    For such an analysis, R2 has the CliniSnitch function which performs a test on each track. In addition, tracks are inspected before doing the test, and the test is changed according to the contents. For a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, which indicates the correlation between the p-values. For categorical vs numerical tracks, an ANOVA-test is performed. Non-random associations for categorical vs categorical tracks are tested with a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group. We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 'CliniSnitch' in the upper-right panel. When you click on *MYCN*, the results of these test are displayed. When adding private or group tracks to the dataset, these tracks will automatically be included in these analyses.
 
     ![](_static/images/Onegeneview/OneGene_CliniSnitch1.png "Figure 17: CliniSnitch representation")
 
@@ -433,14 +433,14 @@ Step 9: Find best track separation with CliniSnitch
 2. Every test can be visualized by clicking on the magnifying glass on the left side of the table. 
 Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. 
 If we look at the ‘inss’ track, we can also see a significant p-value. 
-Click on teh magnifying glass in front of inss to inspect this further.
+Click on the magnifying glass in front of inss to inspect this further.
 
 Step 10: Finding sample extremes.
 ---------------
 
-In case you wonder whether any unusual expression levels show up for individual samples from a given dataset, you can you use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question: can we find extreme expression values for this sample?
+In case you wonder whether any unusual expression levels show up for individual samples from a given dataset, you can  use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question: can we find extreme expression values for this sample?
 
-1. In the one gene view, click the 'Sample overview' in the panel on the right side of the screen and select sample itcc0288 in the Sample overview dropdown menu and click 'View sample'. Scroll down, leave all the settings at their default and click 'Next' to get the extremes for the chosen sample.
+1. In the one gene view, click the **Sample overview** in the panel on the right side of the screen and select sample *itcc0288* in the **Sample overview** dropdown menu and click 'View sample'. Scroll down, leave all the settings at their default and click 'Next' to get the extremes for the chosen sample.
 
     ![](_static/images/Onegeneview/OneGene_selectsampleextreme1a.png "Figure 18: Select your sample to find extremes")
 
@@ -505,9 +505,9 @@ indicate that there may be an issue with it. Click on the probeset link link in 
 
 
 
-2. The same approach can also be follewed in the dataset: Mixed Colon Adenocarcinoma (2022-v32) - tcga - 512 - tpm - **gencode36** you see in bold that this dataset is linked to gencode version 36 (https://www.gencodegenes.org/)) .  
+2. The same approach can also be follewed in the dataset: *Mixed Colon Adenocarcinoma (v32) - tcga - 512 - tpm - gencode36* you see in bold that this dataset is linked to gencode version 36 (https://www.gencodegenes.org/)) .  
 
-3. Clicking on "View Additional Details" unfolds a table with 'TView' link. Here, you can inspect the assigned location of a certain reportor in the genome browser.
+3. Clicking on "View Additional Details" unfolds a table with *TView* link. Here, you can inspect the assigned location of a certain reportor in the genome browser.
 
 
 ![](_static/images/Onegeneview/OneGene_genecodereporters.png "Figure 21: Probeset verification table")
