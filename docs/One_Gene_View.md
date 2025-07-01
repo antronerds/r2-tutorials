@@ -57,7 +57,7 @@ Step 2: Select the gene or reporter
    By default, *the probeset with the highest average present signal (APS) is annotated as the default probeset in R2*. This APS signal is simply the average of all samples that are considered to express a selected gene (have a present call). After you enter the first letters for the mycn gene in the textfield, you can see the available probesets listed in a small dropdown. The default R2 probeset will be the first one in the list. Occasionally, other probesets assigned to the same gene could be of interest depending on the structure of the gene (for example a potential splice variant). By clicking the desired probeset in the small dropdown of the advanced search, these other probesets can be investigated. Also realize that the most informative probeset is re-determined by R2 in every dataset, sometimes resulting in a different probeset.  
    The last column of the grid, named "R2 default", indicates whether the reporter is set as default in R2 (TRUE) or not (FALSE). This information is not available for each dataset in R2.
    
-   The expression levels of datasets are by default converted to log2 values, thereby being the default setting in the tranformation box. This does not apply to datasets that contain ratios or logfolds such as methylation arrays, double labeling arrays, drug data etc. Other options for transformation are also avalaible when clicking the pulldown menu.
+   The expression levels of datasets are by default converted to log2 values, thereby being the default setting in the tranformation box. This does not apply to datasets that contain ratios or logfolds such as methylation arrays, double labeling arrays, drug data etc. Other options for transformation are also avalaible when clicking the dropdown menu.
    
    ![](_static/images/Onegeneview/OneGene_multipleprobegrid3.png "Figure 2: By default the reporter with the highest expression level is selected")
    
@@ -90,7 +90,7 @@ Step 3: Plotting Gene expression
    (further explained in the chapter 23 “Adapting R2 to your needs“)
 
 3. Sometimes you get more insight by reviewing the expression levels
-   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the pulldown menu of the ‘Transformation’ setting, choose “none” 
+   with other transformations. In order to change the transformation, scroll down to the "Adjustable settings" panel underneath the graph and tracks. In the dropdown menu of the ‘Transformation’ setting, choose “none” 
    and then click the button *Submit* at the bottom of the panel.   
 
    
@@ -320,13 +320,11 @@ Step 7: Advanced sorting and selecting samples
 
 	[**Figure 13: Unfold the datatable**](_static/images/Onegeneview/OneGene_Datatable.png)
 	
-2. The “track display selection” section can be opened by clicking on it.
-    In here, you are able to toggle which tracks to display and/or hide
-    within the YY-plots. Do note that these selections are non-persistent
+2. In the "plot options" panel under the 'Tracks' section, you are able to choose which traks to display and/or hide within the YY-plots. Do note that these selections are non-persistent
     and will be forgotten as soon as you leave the One Gene View. Persistent
     changes to the tracks can be made via the ‘User Options’ menu item, which
-    is present in the main screen (see the tutorial 'Adapting R2 to your needs'). 
-    Note that the Adjustable Settings panel, including the Customize Track parameters, 
+    is present in the main screen (see Chapter 23: 'Adapting R2 to your needs'). 
+    Note that the "Adjustable Settings" panel, including the Customize Track parameters, 
     is available throughout R2 for temporary adaptation of Track visibility and other preferences.
 
 	![](_static/images/Onegeneview/OneGene_trackdisplay.png)
@@ -394,9 +392,9 @@ Step 7: Advanced sorting and selecting samples
 Step 8: Selecting subsets
 ---------------
 
-To generate a graph of a subgroup of samples, use the 'Subset track' pulldown from the 'sample filter' section in the "Asjustable settings" panel to select a specific group. 
+To generate a graph of a subgroup of samples, use the 'Subset track' dropwown from the 'sample filter' section in the "Adjustable settings" panel to select a specific group. 
 
-In the neuroblastoma field it is well known that the MYCN expression is strongly correlated with the INSS stage 4, but maybe you are also interested in the mycn expression for the lower risk stages.
+In the neuroblastoma field it is well known that the MYCN expression is strongly correlated with the INSS stage 4, but maybe you are also interested in the MYCN expression for the lower risk stages.
 
 Go to the "Adjustable settings" panel and select in the pull down the INSS stage. In the popup window select the lower risk stages st1, st2, st3 and st4s and click "OK" (**Figure 14**). Back in the "Adjustable settings" panel click on the Submit button. These selections can be repeated a couple of times to build your ultimate selection.
 
@@ -405,14 +403,13 @@ Go to the "Adjustable settings" panel and select in the pull down the INSS stage
 
  [**Figure 14: Selecting subgroups**](_static/images/Onegeneview/OneGene_selectsubgroups1a.png)
 
- The graphs below were drawn with Graphtype BoxDotPlot. All stages are depicted on the right hand side graph and 
- only the lower risk stages on the left. 
+ The graphs below were drawn with Graph type Dot-Plot. On the right side of the figure, all stages are depicted abd only the lower risk stages are shown on the left side. 
 
  ![](_static/images/Onegeneview/OneGene_subgroupvsall.png "Figure 15: All stages (right) versus lower risk only (left)")
 
  [**Figure 15: All stages (right) versus lower risk only (left)**](_static/images/Onegeneview/OneGene_subgroupvsall.png)
 
-Next to the filter dropdown menu , clicking the *"wheel"* will open a pop-up screen with a grid to create tracks with in or excluding individual samples for the available tracks. From this point also a track can be created and stored. You will encounter the filter option in the "Adjustable settings" panel in many modules.
+Next to the 'Subset track' dropdown menu, clicking the *"wheel"* will open a pop-up screen with a grid to create tracks where individual samples can be in or excluded for the available tracks (**Figure 16**). From this point also a track can be created and stored. You will encounter the filter option in the "Adjustable settings" panel in many modules.
 
 ![](_static/images/Onegeneview/OneGene_advancedfiltering.png "Figure 16: Advanced filtering")
 
@@ -427,28 +424,23 @@ Step 9: Find best track separation with CliniSnitch
 
  1. We could wonder if our gene of interest associates even more with any annotation that is already available for 
     the current dataset (like e.g. age group) than the example in the previous section. 
-    For such an analysis R2 has the CliniSnitch function. Within this functionality a test is performed on each track. In addition, tracks are inspected before doing the test, 
-    and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, in other words the correlation between the p-values.
-    categorical vs numerical tracks are tested with an anova test; non-random associations for categorical vs categorical tracks are tested with 
-    a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
-    We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
-    'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
+    For such an analysis, R2 has the CliniSnitch function which performs a test on each track. In addition, tracks are inspected before doing the test, and the test is changed according to the contents. For a numeric vs numeric track the correlation is calculated resulting in an r-pvalue, which indicates the correlation between the p-values. For categorical vs numerical tracks, an ANOVA-test is performed. Non-random associations for categorical vs categorical tracks are tested with a Fisher’s exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group. We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 'CliniSnitch' in the upper-right panel. When you click on ‘MYCN’, the results of these test are displayed. When adding private or group tracks to the dataset, these tracks will automatically be included in these analyses.
 
     ![](_static/images/Onegeneview/OneGene_CliniSnitch1.png "Figure 17: CliniSnitch representation")
 
     [**Figure 17: CliniSnitch result for MYCN**](_static/images/Onegeneview/OneGene_CliniSnitch1.png)
 
-2. Every test can also be visualized by clicking on the View-link in the table. 
+2. Every test can be visualized by clicking on the magnifying glass on the left side of the table. 
 Not surprisingly, we can see that MYCN expression is best separated by the MYCN amplification track. 
-If we look at the ‘inss’ track, we can also see a significant value. 
-Click on ‘View’ behind inss to inspect this further.
+If we look at the ‘inss’ track, we can also see a significant p-value. 
+Click on teh magnifying glass in front of inss to inspect this further.
 
 Step 10: Finding sample extremes.
 ---------------
 
 In case you wonder whether any unusual expression levels show up for individual samples from a given dataset, you can you use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question: can we find extreme expression values for this sample?
 
-1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
+1. In the one gene view, click the 'Sample overview' in the panel on the right side of the screen and select sample itcc0288 in the Sample overview dropdown menu and click 'View sample'. Scroll down, leave all the settings at their default and click 'Next' to get the extremes for the chosen sample.
 
     ![](_static/images/Onegeneview/OneGene_selectsampleextreme1a.png "Figure 18: Select your sample to find extremes")
 
@@ -456,8 +448,8 @@ In case you wonder whether any unusual expression levels show up for individual 
 
 
 
-2. A table shows the negative z-score (left column) and positive z-score (right column) extremes. In Figure 22, genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.  
-   You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the One Gene View of that gene, with your sample marked in the graph. 
+2. There are two tables, one showes the genes with the negative z-score (left column) and one showed the genes with the positive z-score (right column). In Figure 19, genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.  
+   You can click on any of the genes listed in the table (in Figure 19 we clicked on "TH") to obtain the One Gene View of the selected gene, with your sample marked in the graph. 
 
     ![](_static/images/Onegeneview/OneGene_sampleextremePhox2b.png "Figure 19: Sample extremes in one sample")
 
@@ -470,12 +462,11 @@ Step 11: Reporter / Probeset verification
 
 
 
-Datasets are always linked to a so called platform, in this case the **u133p2**  platform of Affymetrix (Thermofisher). R2 hosts for many platforms the reporters on the genome so the location and orientation can be inspected as described for the Affymetrix probesets. In R2 a platform contains specific information for the genes of a selected dateset.
-If the ProbesetVerification table doesn't appear R2 has no information of the  reporter genome location of a given dataset. The table displayed in Figure 20 lists whether the various reporters of MYCN are in agreement with the genome position of MYCN reference sequence (RefSeq).
+Datasets are always linked to a so called platform, in this case the **u133p2**  platform of Affymetrix (Thermofisher). R2 hosts for many platforms the reporters on the genome so the location and orientation can be inspected as described for the Affymetrix probesets. In R2, a platform contains specific information for the genes of a selected dateset.
+If the ProbesetVerification table doesn't appear when opening the additonal information on the One Gene View graph, then R2 has no information of the reporter genome location of a given dataset. The table displayed in Figure 20 lists whether the various reporters of MYCN are in agreement with the genome position of MYCN reference sequence (RefSeq).
 If all are stating “YES” then everything appears alright (from the
 perspective of an automated assessment). The MYCN reporters with a “NO”
-indicate there may be an issue with it. Scroll down the page
-and click on the “Tview” link in the reporter table.
+indicate that there may be an issue with it. Click on the probeset link link in the ProbesetVerification table.
 
 
 ![](_static/images/Onegeneview/OneGene_Probesettable.png "Figure 20: Probeset verification table")
@@ -483,14 +474,13 @@ and click on the “Tview” link in the reporter table.
 [**Figure 20: Probeset verification table**](_static/images/Onegeneview/OneGene_Probesettable.png)
 
 
-2. A new screen (or tab in the browser) appears with TranscriptView.
+1. A new screen (or tab in the browser) appears with TranscriptView.
     The TranscriptView application depicts the alignment of expressed
     sequence tags (EST) and mRNA sequences to the human reference genome
     sequence (Fig 25). The strand orientation of these sequences are
     indicated by a color (green = positive strand, red = negative
     strand, blue = strand information is missing). The structure of the
-    reference sequence has also been indicated. Furthermore, the browser shows the alignment of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays).  
-    This view can be used to inspect the quality of a reporter. Note, for instance, that the reporter
+    reference sequence has also been indicated. Furthermore, the browser shows the alignment of the sequences that were used to generate the reporters on the array (in the case of Affymetrix microarrays). This view can be used to inspect the quality of a reporter. Note, for instance, that the reporter
     “242026\_at” is aligned with the genomic region of the MYCN reference
     sequence, but that its color is different from the rest (colored
     in red). In addition, in this particular case the reporter is
@@ -515,9 +505,9 @@ and click on the “Tview” link in the reporter table.
 
 
 
-3. The same approach can also be follewed in this dataset: Mixed Colon Adenocarcinoma (2022-v32) - tcga - 512 - tpm - **gencode36** you see in bold that this dataset is linked to gencode version 36 (https://www.gencodegenes.org/)) .  
+2. The same approach can also be follewed in the dataset: Mixed Colon Adenocarcinoma (2022-v32) - tcga - 512 - tpm - **gencode36** you see in bold that this dataset is linked to gencode version 36 (https://www.gencodegenes.org/)) .  
 
-1. Clicking on "View Additional Details" unfolds a table with TView link. Here you can inspect in the genome browser the location a certain reporter is assinged to.
+3. Clicking on "View Additional Details" unfolds a table with 'TView' link. Here, you can inspect the assigned location of a certain reportor in the genome browser.
 
 
 ![](_static/images/Onegeneview/OneGene_genecodereporters.png "Figure 21: Probeset verification table")
@@ -527,7 +517,7 @@ and click on the “Tview” link in the reporter table.
 ---------------
 ![](_static/images/R2d2_logo.png)**Did you know that you can browse the gene expression values along the genome?**
 
-> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to / zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
+> *Once you have entered the genome browser with an attached dataset (like above), you can also navigate to or zoom out any other region in the genome. This allows you to look at the neighboring genes in a single go.
 >   It can be informative to separate the expression on the basis of a track. This can be achieved by selecting 'dataset\_track' from the sample dropdown in the middle panel. Finally, within the genome browser, the contents for a panel on the left side can be hidden from a view by setting the height to 0.*
 
 ---------------
