@@ -392,7 +392,7 @@ Step 7: Advanced sorting and selecting samples
 Step 8: Selecting subsets
 ---------------
 
-To generate a graph of a subgroup of samples, use the 'Subset track' dropwown from the 'sample filter' section in the "Adjustable settings" panel to select a specific group. 
+To generate a graph of a subgroup of samples, use the 'Subset track' dropdown from the 'sample filter' section in the "Adjustable settings" panel to select a specific group. 
 
 In the neuroblastoma field it is well known that the MYCN expression is strongly correlated with the INSS stage 4, but maybe you are also interested in the MYCN expression for the lower risk stages.
 
