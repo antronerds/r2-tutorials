@@ -27,7 +27,7 @@ Step 1: Selecting a dataset restrictive DataScope
 	more restricted scopes can be represented in your account. We will start by selecting a 'dataset'
 	restriction Scope by clicking on 'tumor' > 'neuroblastoma'. Alternatively you can click on the 'change data scopes' root item and get a tiled display of all the data scopes that you have access to with your account.
     
-	![](_static/images/Datascope/DataScope_select.png "Figure    1: Selecting a Data Scope.")
+	![](_static/images/Datascope/Datascope_select.png "Figure    1: Selecting a Data Scope.")
 	
 	[**Figure    1: Selecting a Data Scope.**](_static/images//Datascope/DataScope_select.png)
 
@@ -65,7 +65,7 @@ Step 2: Selecting a Data Scope with a landing page
 
 *Researchers have made an important contribution to the understanding and treatment of cancer by developing a Pan-Cancer Proteome Atlas (TPCPA). This research, which was conducted by an international team led by Connie Jimenez, professor of Translational OncoProteomics of Amsterdam UMC, offers a deep overview of proteins expressed in tumors of diverse forms of cancer.June 1, 2025* [AUMC-website](https://www.amsterdamumc.org/en/research/institutes/cancer-center-amsterdam/news/the-pan-cancer-proteome-atlas-discovery-of-cancer-biomarkers-and-therapies.htm)
 
-![](_static/images/Datascope/DataScope_tpcpa.png "Figure    4: Landing Page Proteome atlas")
+![](_static/images/Datascope/Datascope_tpcpa.png "Figure    4: Landing Page Proteome atlas")
 
 [**Figure    4: Pan cancer Proteome atlas**](_static/images/Datascope/DataScope_tpcpa.png)
 
