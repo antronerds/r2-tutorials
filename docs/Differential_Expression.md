@@ -86,10 +86,10 @@ R2 displays the mRNA expression of the samples in a violin plot that illustrates
 The actual result of the ANOVA calculations is shown in the table under the graph; the difference in average expression between the two groups is significant.
 
 
-![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png "Figure 4a: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
+![](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png "Figure 2: Result of the one-way Anova test for the Neuroblastoma 88 samples.")
 
 
-[**Figure 4a: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
+[**Figure 2: Result of the one-way Anova test for the Neuroblastoma 88 samples.**](_static/images/FindDiff/DifferentialExpression_ResultViewInGroups_violin.png)
 
 With the gear icon you can open up the _plot options_ menu, where many settings can be adjusted to which the plot immediately responds.  Let's try a few tweaks (Figure 4b):
 1. Click on the **gear icon** upperleft from the violin plot.
@@ -98,10 +98,10 @@ With the gear icon you can open up the _plot options_ menu, where many settings 
 4. Also, we adjusted to dot size in the example to 3.5
 
 
-![](_static/images/FindDiff/Result_adjusted_with_plotoptions.png "Figure 4b: Click the gear icon to customize the appearance of the result plot with _plot options_.")
+![](_static/images/FindDiff/Result_adjusted_with_plotoptions.png "Figure 3: Click the gear icon to customize the appearance of the result plot with _plot options_.")
 
 
-[**Figure 4b: Click the gear icon to customize the appearance of the result plot with _plot options_.**](_static/images/FindDiff/Result_adjusted_with_plotoptions.png)
+[**Figure 3: Click the gear icon to customize the appearance of the result plot with _plot options_.**](_static/images/FindDiff/Result_adjusted_with_plotoptions.png)
 
 Thus, with a click on the **gear icon**, you are offered many options to customize the appearance of this plot directly.  
   
@@ -109,10 +109,10 @@ The **graph type** (e.g. violin plot, box plot, YY plot etc.) can be changed as 
 
 In the picture below you can see a few examples: a rainbow plot, a box plot with scatter and a ridge plot.
 
-   ![](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png "Figure 5: Graph type enables you to choose from various plot types to visualize the data.")
+   ![](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png "Figure 4: Graph type enables you to choose from various plot types to visualize the data.")
 
 
-[**Figure 5: Graph type enables you to choose from various graph types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png)
+[**Figure 4: Graph type enables you to choose from various graph types to visualize the data.**](_static/images/FindDiff/DifferentialExpression_Alternative_graph_types.png)
 
   
 To get a sense of the ease of this graph type setting and the different perspectives of your data that it can offer you when you play around with it, lets try the _YY with annotations_.  
@@ -120,11 +120,11 @@ The _YY with annotations_ plot provides a raw overview of gene expression per sa
 1. Click on the gear icon upper left from the violin plot if the plot options menu is not open yet. 
 2. Check that you are in the General tab of the menu and adapt the selection in the dropdown box *Graph type* to the option **YY with annotation**. 
 3. The setting _Extra Graph Option_ is set to **Track and Gene Sort**, which causes the samples within their respective groups to be ordered in increasing value of MYCN expression.
-4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose a color of a blue-grey. This blue-grey color is one of teh standard colors that you can find in the color picker. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker.
+4. Lastly, for _Color mode_ we chose **Defined Color**, and with the _color picker_ next to it, we chose a color of a blue-grey. This blue-grey color is one of the standard colors that you can find in the color picker. Note that you do have the option to click on **Other**, which allows you to pick a color from a gradient color wheel and also to use the color picker.
 
-![](_static/images/FindDiff/DifferentialExpression_YY_annoation.png "Figure 6: Adapt the Graph type to _YY with annotation_ to view MYCN expressions plus annotation underneath")
+![](_static/images/FindDiff/DifferentialExpression_YY_annoation.png "Figure 5: Adapt the Graph type to _YY with annotation_ to view MYCN expressions plus annotation underneath")
 
-[**Figure 6: Adapt the Graph type setting to _YY with annotation_ to view MYCN expressions plus annotation underneath"**](_static/images/FindDiff/DifferentialExpression_YY_annoation.png)
+[**Figure 5: Adapt the Graph type setting to _YY with annotation_ to view MYCN expressions plus annotation underneath"**](_static/images/FindDiff/DifferentialExpression_YY_annoation.png)
 
 
 The difference in expression between the groups can be shown more dramatically by plotting the data without a log2 data **transformation**. Make sure to use log2 transformation in scientific reports, though, as untransformed mRNA gene expression data is hardly ever normally distributed. For this setting we scroll down to the _Adjustable settings menu_ at the bottom of the page. More and more settings are transferred to the directly responsive plot options menu that pops up with a click on the gear icon. Some options, however, are still residing (or also residing) in the menu at the bottom of the page. 
@@ -132,9 +132,9 @@ The difference in expression between the groups can be shown more dramatically b
 5. Scroll down to the Adjustable settings menu and change the setting *Transformation* to **None**. This Adjustable settings menu still requires a click on the **Submit** button in order for adaptations to take effect.
 6. In the plot option menu that you pop up with the gear icon, visit the other tabs as well, to e.g. add markers around samples by name (**tab Marked**), or to add/remove tracks in the **Tracks tab**
 
-![](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png "Figure 6a: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_")
+![](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png "Figure 6: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_")
 
-[**Figure 6a: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_**](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png)
+[**Figure 6: Change Transformation in the _Adjustable Settings menu_; Add/ delete Markers and Tracks in the different tabs of the _plot options menu_**](_static/images/FindDiff/DifferentialExpression_AdaptGraphYYPlots.png)
 
 You can also mark or unmark a sample with a simple click on the desired sample in the graph. Once a sample is marked, you can adjust the marker appearance in the plot options menu (figure 6b).
 
