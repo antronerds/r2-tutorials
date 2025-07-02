@@ -163,9 +163,9 @@ to do a simple hierarchical clustering
     case leave " which set" at standard deviation (SD) which is the
     default settings.
 
-    ![](_static/images/Usinggenesets/UsingGenesets_Toplister1a.png "Figure    10: Selecting the domain to order samples by: Order by a    track")
+    ![](_static/images/Usinggenesets/UsingGenesets_Toplister.png "Figure    10: Using toplister")
 
-    [**Figure    10: Selecting the track (subgroup) to order samples by: Order by a  track**](_static/images/Usinggenesets/UsingGenesets_Toplister.png)
+    [**Figure    10: Using toplister**](_static/images/Usinggenesets/UsingGenesets_Toplister.png)
 
 
 In this case the selected TCGA dataset gene annotation has been assigned to gencode reporters and in this example R2 also has stored gene category information which can be used as a filter. Note that this doesn't hold for all the platforms linked to a dataset.
