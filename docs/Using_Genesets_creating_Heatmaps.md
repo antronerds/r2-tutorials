@@ -28,9 +28,9 @@ Step 1: Selecting data and modules; creating a Heatmap
 1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
     Click 'Next'.
     
-	![](_static/images/Usinggenesets/UsingGenesets_Select1b.png "Figure    1: Select View a    Geneset")
+	![](_static/images/Usinggenesets/UsingGenesets_Select1a.png "Figure    1: Select View a    Geneset")
 	
-	[**Figure    1: Select: View a Geneset**](_static/images/Usinggenesets/UsingGenesets_Select1b.png)
+	[**Figure    1: Select: View a Geneset**](_static/images/Usinggenesets/UsingGenesets_Select1a.png)
 	
 2.  In the Adjustable settings many choices are available to customize
     the way the GeneSet data will be presented (Figure 2). With the geneset selection method you can indicate wether you want to pick one of the hundreds genesets R2 harbors; public or your own genesets. Selecting the manual ordered list enables you also to manipulate the ordering of the genes om de heatmap. In the adjustable settings many settings can be altered, such filtering for samples, the sample order and many types of graphical adaptations.
@@ -78,7 +78,7 @@ Step 2: Using multiple GeneSets
     
 	![](_static/images/Usinggenesets/UsingGenesets_multiplegenesets.png "Figure 6: Selection a subcollection from the large collection of pathways")
 	
-	[**Figure    6: Selection a subcollection from the large collection of pathways**](_static/images/UsingGenesets_multiplegenesets.png)
+	[**Figure    6: Selection a subcollection from the large collection of pathways**](_static/images/Usinggenesets/UsingGenesets_multiplegenesets.png)
 	
 
 3. The resulting heatmap (Figure 7) has the samples ordered by the
@@ -115,7 +115,7 @@ Step 3: Relating genesets with data annotation
 [![](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png)**Figure
     9: Heatmap sorted by INSS stage, there is a clear relation between
     the stage 4 tumors (in red in the INSS track) and up-regulation of a
-    subset of genes**](_static/images/UsingGenesets/UsingGenesets_HeatmapSorted1a.png)
+    subset of genes**](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png)
 
 
 
