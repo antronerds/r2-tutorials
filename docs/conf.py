@@ -11,7 +11,7 @@ copyright = u'2023, R2 support team, http://r2.amc.nl - http://r2platform.com'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '3.3.5'
+release = '4.0.0'
 language = None
 
 exclude_patterns = ['_build']
