@@ -15,6 +15,8 @@ platform consists of 2 parts; a (publicly accessible) database, that
 stores the data, coupled to a web-interface that provides a set of interactive and interconnected tools
 and visualizations to mine the database. 
 
+
+
 Even though many people appreciate the concept of R2, getting started with the
 platform as a new user can be a bit difficult or intimidating with the wide range of options that we provide.  With this
 tutorial book, we hope to help new users getting started and at the same time
@@ -56,5 +58,5 @@ You can also follow one of our [online courses](https://r2-training-courses.read
 
 
 We hope that these tutorials will be helpful. If you have any comments
-or suggestions you're welcome to contact us through the [R2
+or suggestions, you're welcome to contact us through the [R2
 website](https://r2.amc.nl).
