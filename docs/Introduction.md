@@ -51,9 +51,10 @@ your own user group and share information with specific other users for
 collaborative work. It is further elaborated how to add your own
 data and how to export data from R2 for use in other tools. 
 
-If you don't feel like reading the tutorials, then have a look at our YouTube channel, where team members of the R2 platform demonstrate many functionalities in short videos.
+If you don't feel like reading the tutorials, then have a look at our [YouTube channel](https://www.youtube.com/c/R2GenomicsPlatform), where team members of the R2 platform demonstrate many functionalities in short videos.
+You can also follow one of our [online courses](https://r2-training-courses.readthedocs.io/en/latest/). 
 
 
 We hope that these tutorials will be helpful. If you have any comments
 or suggestions you're welcome to contact us through the [R2
-website](http://r2.amc.nl).
+website](https://r2.amc.nl).
