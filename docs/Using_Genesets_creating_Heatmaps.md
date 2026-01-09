@@ -42,7 +42,7 @@ Step 1: Selecting data and modules; creating a Heatmap
     [**Figure    2: A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection**](_static/images/Usinggenesets/UsingGenesets_Settings1a.png)
 
 3.  By default, R2 presents the data in a heatmap where hierarchical clustering is applied to the genes, using information from all samples to determine the gene order. We will first demonstrate what this clustering-based ordering looks like.  
-Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset**to open the gene set selection grid. Type **cell cycle** into the white text box at the top of the grid and hit **Enter**.
+Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset** to open the gene set selection grid. Type **cell cycle** into the white text box at the top of the grid and hit **Enter**.
 
 
     ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Finding and selecting a geneset in R2")
