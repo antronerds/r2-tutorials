@@ -13,7 +13,7 @@ Scope
     annotated single dataset or a selection of datasets at the
     same time. Different analyses are available based on the selection
     of one of these options in field 1.
-- R2 contains omic profiles such as expression and methylation profiles for more than ~2.500.000 unique
+- R2 contains omic profiles such as expression and methylation profiles for more than ~5.000.000 unique
     individual samples. The samples are grouped in so-called datasets. Each dataset has its own characteristics, 
     such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added the platform.
 - The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -

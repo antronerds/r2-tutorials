@@ -25,7 +25,7 @@ Scope
 Step 1: Selecting data and modules; creating a Heatmap
 ---------------
 
-1.  On the main page of R2 select View Geneset (Heatmap) (Figure 1).
+1.  On the main page of R2 select **View Geneset (Heatmap)** (Figure 1).
     Click 'Next'.
     
 	![](_static/images/Usinggenesets/UsingGenesets_Select1a.png "Figure    1: Select View a    Geneset")
@@ -33,22 +33,26 @@ Step 1: Selecting data and modules; creating a Heatmap
 	[**Figure    1: Select: View a Geneset**](_static/images/Usinggenesets/UsingGenesets_Select1a.png)
 	
 2.  In the Adjustable settings many choices are available to customize
-    the way the GeneSet data will be presented (Figure 2). With the geneset selection method you can indicate wether you want to pick one of the hundreds genesets R2 harbors; public or your own genesets. Selecting the manual ordered list enables you also to manipulate the ordering of the genes om de heatmap. In the adjustable settings many settings can be altered, such filtering for samples, the sample order and many types of graphical adaptations.
+    the way the Gene set data will be presented (Figure 2). With the default _Gene selection method_ value set to **Gene set** (also shown in the right-hand menu overview in the figure below), you can choose from the hundreds of gene sets available in R2, including both public and user-defined gene sets. If you change the setting to the value **Manual ordered list**, it also allows you to control the ordering of genes in the heatmap (left-hand menu overview).  
+    
+    In the adjustable settings, many parameters can be modified, including sample filtering, sample ordering, and a wide range of graphical customizations.
 
-    ![](_static/images/Usinggenesets/UsingGenesets_Settings1a.png "Figure 2: Geneset view settings")
+    ![](_static/images/Usinggenesets/UsingGenesets_Settings1a.png "Figure 2: Gene set view settings")
 
     [**Figure    2: A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection**](_static/images/Usinggenesets/UsingGenesets_Settings1a.png)
 
-3.  By default R2 presents the data in a heatmap where a hierarchical clustering is performed on the genes, making use of the information present in all samples to order the data. We will show  first what this ordering by clustering looks like. Suppose we want to find a geneset
-containing Cell Cycle genes. Click on **"Select a geneset"**, Type Cell Cycle in the 'Search a geneset' box, and click submit
+3.  By default, R2 presents the data in a heatmap where hierarchical clustering is applied to the genes, using information from all samples to determine the gene order. We will first demonstrate what this clustering-based ordering looks like.  
+Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset**to open the gene set selection grid. Type **cell cycle** into the white text box at the top of the grid and hit **Enter**.
 
-    ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Selecting a geneset  R2")
 
-    [**Figure 3: Selecting a geneset**](_static/images/Usinggenesets/UsingGenesets_Collections1a.png)
+    ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Finding and selecting a geneset in R2")
+
+    [**Figure 3: Finding and selecting a geneset in R2**](_static/images/Usinggenesets/UsingGenesets_Collections1a.png)
 
 	
-4. In the grid box all genesets containing the words Cell Cycle (**Cell_cycle**) in
-    their description are shown. Choose the (KEGG) Cell Cycle collection of Cellular Processes or another category were you find cell cycle. Note: sometimes such as in case of KEGG pathways '_' could be in the naming  and click the magnification glass.
+4. In the grid box all gene sets containing the words Cell Cycle (**Cell_cycle**) in
+    their description are shown. You can click on the arrows in front of the main Gene set list names to go deeper in the tree of gene sets and their subsets. In our case we click on the arrow in front of **Categories** and check the box in front of **cell cycle** (a list that originated from the GO pathway database). You can select multiple gene sets as well, they will be listed on the left side in the overview box. When you are satisfied with your selection, you can hit the green **Confirm selection button**.  
+    The cell cycle gene set (537) is now selected. And you can continue to adapt other settings, such as for instance te ordering of the samples in the heatmap. Hit **Submit** to create the heatmap with your chosen settings. 
 
    ![](_static/images/Usinggenesets/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for  samples")
 
