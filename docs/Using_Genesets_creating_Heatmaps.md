@@ -51,7 +51,7 @@ Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a 
 
 	
 4. In the grid box all gene sets containing the words Cell Cycle (**Cell_cycle**) in
-    their description are shown. You can click on the arrows in front of the main Gene set list names to go deeper in the tree of gene sets and their subsets. In our case we click on the arrow in front of **Categories** and check the box in front of **cell cycle** (a list that originated from the GO pathway database). You can select multiple gene sets as well, they will be listed on the left side in the overview box. When you are satisfied with your selection, you can hit the green **Confirm selection button**.  
+    their description are shown. You can click on the arrows in front of the main Gene set list names to go deeper in the tree of gene sets and their subsets. In our case we click on the arrow in front of **Categories** and check the box in front of **cell cycle** (a list that originated from the GO database). You can select multiple gene sets as well, they will be listed on the left side in the overview box. When you are satisfied with your selection, you can hit the green **Confirm selection button**.  
     The cell cycle gene set (537) is now selected. And you can continue to adapt other settings, such as for instance te ordering of the samples in the heatmap. Hit **Submit** to create the heatmap with your chosen settings. 
 
    ![](_static/images/Usinggenesets/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for  samples")
