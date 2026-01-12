@@ -42,7 +42,7 @@ Step 1: Selecting data and modules; creating a Heatmap
     [**Figure    2: A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection**](_static/images/Usinggenesets/UsingGenesets_Settings1a.png)
 
 3.  By default, R2 presents the data in a heatmap where hierarchical clustering is applied to the genes, using information from all samples to determine the gene order. We will first demonstrate what this clustering-based ordering looks like.  
-Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset** to open the gene set selection grid. Type **cell cycle** into the white text box at the top of the grid and hit **Enter**.
+Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset** to open the gene set selection grid. Type **cell_cycle** into the white text box at the top of the grid and hit **Enter**. Many geneset contain an underscore in their name, such as genesets from the KEGG database. You can also check available genesets for "cell cycle" with a space in between instead of an underscore, and different gene sets will be shown. 
 
 
     ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Finding and selecting a geneset in R2")
@@ -50,9 +50,9 @@ Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a 
     [**Figure 3: Finding and selecting a geneset in R2**](_static/images/Usinggenesets/UsingGenesets_Collections1a.png)
 
 	
-4. In the grid box all gene sets containing the words Cell Cycle (**Cell_cycle**) in
-    their description are shown. You can click on the arrows in front of the main Gene set list names to go deeper in the tree of gene sets and their subsets. In our case we click on the arrow in front of **Categories** and check the box in front of **cell cycle** (a list that originated from the GO database). You can select multiple gene sets as well, they will be listed on the left side in the overview box. When you are satisfied with your selection, you can hit the green **Confirm selection button**.  
-    The cell cycle gene set (537) is now selected. And you can continue to adapt other settings, such as for instance te ordering of the samples in the heatmap. Hit **Submit** to create the heatmap with your chosen settings. 
+4. In the grid box all gene sets containing the words cell_cycle (**cell_cycle**) in
+    their description are shown. You can click on the arrows in front of the main Gene set list names to go deeper in the tree of gene sets and their subsets. In our case we click on the arrows in front of **KEGG pathways** > **Cellular_Processes** > **Cell_growth_and_death** and check the box in front of **cell_cycle**. You can select multiple gene sets as well, as explained in the next section. Verify that your selection appears in the overview box on the left. When you are satisfied with the selection, click the green **Confirm selection button**.  
+    The KEGG cell cycle gene set (124) is now selected. And you can continue to adapt other settings, such as for instance te ordering of the samples in the heatmap. Hit **Submit** to create the heatmap with your chosen settings. 
 
    ![](_static/images/Usinggenesets/UsingGenesets_Ordering.png "Figure    4: Available ordering domains for  samples")
 
@@ -60,15 +60,15 @@ Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a 
 
 
 5.  The Affymetrix data for the Neuroblastoma 88 dataset is shown for
-    the genes in the Cell Cycle as a clustered heatmap. Hovering over
+    the genes in the KEGG Cell Cycle pathway gene set as a clustered heatmap. Hovering over
     the heatmap rectangles reveals the sample information stored in the
     R2 database. Keep in mind that the hovering option is limited to
     10000 cells otherwise the graph generation consumes too much time.
-    This limitation can be adapted in the 'User Options' menu item.
+    This limitation can be adapted in the 'User Options' menu item. Above the heatmap, dataset annotations are displayed, allowing you to relate patterns in the heatmap to known sample annotations.
 
-    ![](_static/images/Usinggenesets/UsingGenesets_Heatmap.png "Figure 5:Heatmap view of the Cell Cycle geneset for the Neuroblastoma 88 dataset; genes and samples are sorted according to the clustering.")
+    ![](_static/images/Usinggenesets/UsingGenesets_Heatmap.png "Figure 5:Heatmap of the KEGG Cell Cycle geneset for the Neuroblastoma 88 dataset; genes and samples are sorted according to the hierarchical clustering.")
 	
-    [**Figure 5: Heatmap view of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to the clustering.**](_static/images/Usinggenesets/UsingGenesets_Heatmap.png)
+    [**Figure 5: Heatmap of the Kegg Cell Cycle geneset for the Neuroblastoma 88 dataset;genes and samples are sorted according to the hierarchical clustering.**](_static/images/Usinggenesets/UsingGenesets_Heatmap.png)
 
 
 Step 2: Using multiple GeneSets
