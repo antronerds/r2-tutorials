@@ -74,7 +74,7 @@ Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a 
 Step 2: Using multiple GeneSets
 ---------------
 
-1.  R2 also allows for multiple genesets to be shown at once; return to
+1.  R2 also allows for multiple genesets to be shown at once. To do so, scroll down to the 
     the main page; select View Geneset (Figure 1: Select View
     a Geneset). We're not going to search for a geneset but look for
     multiple sets at once. 
