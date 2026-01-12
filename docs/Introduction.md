@@ -15,6 +15,8 @@ platform consists of 2 parts; a (publicly accessible) database, that
 stores the data, coupled to a web-interface that provides a set of interactive and interconnected tools
 and visualizations to mine the database. 
 
+
+
 Even though many people appreciate the concept of R2, getting started with the
 platform as a new user can be a bit difficult or intimidating with the wide range of options that we provide.  With this
 tutorial book, we hope to help new users getting started and at the same time
@@ -43,17 +45,21 @@ The steps will be interspersed with additional information in **Did you know** b
 
 Chapters 2-10 demonstrate a great number of core
 functionalities, which you will encounter often and from different
-angles when working within the platform. The next set of chapters (11-18) dive more into specialized functions and in chapters 19-21 more advanced integrated analyses are shown, that some of you may be interested
-in. Chapters 22-24 demonstrates how users can adapt R2 to their needs by
+angles when working within the platform.  
+The next set of chapters (11-18) dive more into specialized functions and in chapters 19-21 more advanced integrated analyses are shown, that some of you may be interested
+in.  
+Chapters 22-24 demonstrates how users can adapt R2 to their needs by
 explaining how you can generate your own grouping variables or store
 personal lists of genes. These also explain how you can start
 your own user group and share information with specific other users for
 collaborative work. It is further elaborated how to add your own
 data and how to export data from R2 for use in other tools. 
 
-If you don't feel like reading the tutorials, then have a look at our YouTube channel, where team members of the R2 platform demonstrate many functionalities in short videos.
+*Other online educational resources*
 
+If you don't feel like reading the tutorials, then have a look at our [YouTube channel](https://www.youtube.com/c/R2GenomicsPlatform), where team members of the R2 platform demonstrate many functionalities in short videos.
+You can also follow one of our [online courses](https://r2-training-courses.readthedocs.io/en/latest/).
 
 We hope that these tutorials will be helpful. If you have any comments
-or suggestions you're welcome to contact us through the [R2
-website](http://r2.amc.nl).
+or suggestions, you're welcome to contact us through the [R2
+website](https://r2.amc.nl).
