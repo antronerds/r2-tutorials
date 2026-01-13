@@ -42,7 +42,7 @@ Step 1: Selecting data and modules; creating a Heatmap
     [**Figure    2: A set can be selected, filtered for subsets and the clustering results will be ordered according to the selection**](_static/images/Usinggenesets/UsingGenesets_Settings1a.png)
 
 3.  By default, R2 presents the data in a heatmap where hierarchical clustering is applied to the genes, using information from all samples to determine the gene order. We will first demonstrate what this clustering-based ordering looks like.  
-Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset** to open the gene set selection grid. Type **cell_cycle** into the white text box at the top of the grid and hit **Enter**. Many geneset contain an underscore in their name, such as genesets from the KEGG database. You can also check available genesets for "cell cycle" with a space in between instead of an underscore, and different gene sets will be shown. 
+Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a geneset** to open the gene set selection grid. Type **cell_cycle** into the white text box at the top of the grid and hit **Enter**. Many genesets contain an underscore in their name, such as genesets from the KEGG database. You can also check available genesets for "cell cycle" with a space in between instead of an underscore, and different gene sets will be shown. 
 
 
     ![](_static/images/Usinggenesets/UsingGenesets_Collections1a.png "Figure    3: Finding and selecting a geneset in R2")
@@ -50,7 +50,7 @@ Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a 
     [**Figure 3: Finding and selecting a geneset in R2**](_static/images/Usinggenesets/UsingGenesets_Collections1a.png)
 
 	
-4. In the grid box all gene sets containing the words cell_cycle (**cell_cycle**) in
+4. In the grid box all gene sets containing the keywords **cell_cycle** (with underscore) in
     their description are shown. You can click on the arrows in front of the main Gene set list names to go deeper in the tree of gene sets and their subsets. In our case we click on the arrows in front of **KEGG pathways** > **Cellular_Processes** > **Cell_growth_and_death** and check the box in front of **cell_cycle**. You can select multiple gene sets as well, as explained in the next section. Verify that your selection appears in the overview box on the left. When you are satisfied with the selection, click the green **Confirm selection button**.  
     The KEGG cell cycle gene set (124) is now selected. And you can continue to adapt other settings, such as for instance te ordering of the samples in the heatmap. Hit **Submit** to create the heatmap with your chosen settings. 
 
@@ -74,20 +74,23 @@ Suppose we want to find a geneset containing Cell Cycle genes. Click **Select a 
 Step 2: Using multiple GeneSets
 ---------------
 
-1.  R2 also allows for multiple genesets to be shown at once. To do so, scroll down to the 
-    the main page; select View Geneset (Figure 1: Select View
-    a Geneset). We're not going to search for a geneset but look for
-    multiple sets at once. 
-2.  In the next screen click "select geneset",  Select 'Cellular Processes' in the KEGG pathway collection of look via keywords or going through al the sub-collections, select the apoptosis path way and click  the "Confirm Collection" button.
+1.  R2 also allows for multiple genesets to be selected and to be shown in one heatmap. Let's get the gene selection grid up:  
+    * If you are on the result page of the previous section where the heatmap is shown for the KEGG Cell_cycle geneset, you can simply *scroll down* to the **Adjustable Settings menu**;  
+    * If you come from another place, go to the main page and select **View Geneset (Heatmap)** (Figure 1: Select View a Geneset) and click **Next**.  
+2.  Behind the setting *Gene set*, click on the dropdown field. You can check the boxes of multiple gene sets. If you come from the above section, the KEGG Cell_cycle geneset is still selected, and you can add other genesets to your selection. If you haven't selected any genesets yet, you can go back to step 1.3 and part of 1.4 of the previous section to select the Cell_cycle geneset. Before hitting the Confirmation button, we now  add another geneset. Click on the triangle in front of **KEGG pathways**, followed by the triangles of **Cellular_Processes** and **Cell_growth_and_death** in the KEGG pathway collection, to check the box in front of **Apoptosis** (Figure 6A). Of course, you can also look via the keyword **apoptosis** for collections that contain an apoptosis geneset (Figure 6B). You can also select sub-genesets from multiple larger collections. And search consequetively for different keywords to find multiple gene sets that you are interested int. Once you checked the boxes of the correct gene sets, they will appear together in the selectionoverview on the left, and you can click the green **Confirm selection** button underneath. And hit the **Submit** button of teh menu.
     
-	![](_static/images/Usinggenesets/UsingGenesets_multiplegenesets.png "Figure 6: Selection a subcollection from the large collection of pathways")
+	![](_static/images/Usinggenesets/UsingGenesets_multiplegenesets_browsesubcats.png "Figure 6 A: Select multiple su- genesets from large collections")
 	
-	[**Figure    6: Selection a subcollection from the large collection of pathways**](_static/images/Usinggenesets/UsingGenesets_multiplegenesets.png)
+	[**Figure    6 A: Selection multiple sub gene sets from large collections**](_static/images/Usinggenesets/UsingGenesets_multiplegenesets_browsesubcats.png)
+
+    ![](_static/images/Usinggenesets/UsingGenesets_multiplegenesets_searchbykeyword.png "Figure 6 B: Select multiple sub-genesets from large collections by keyword search")
+
+    [**Figure    6 A: Selection multiple sub gene sets from large collections**](_static/images/Usinggenesets/UsingGenesets_multiplegenesets_searchbykeyword.png)
 	
 
-3. The resulting heatmap (Figure 7) has the samples ordered by the
+3. The resulting heatmap (Figure 7) has both the samples and the genes ordered by the
     result of the clustering of the dataset. On the y-axis the genes are
-    annotated with their membership to both pathways;  Using both genesets shows clearly some blocks in the heatmap which could be linked to the annotation plotted above the heatmap
+    annotated with their membership to both pathways by the red/ grey bars on the right hand side;  Using both genesets shows clearly some blocks in the heatmap which could be linked to the annotation plotted above the heatmap
 
 
 ![](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple1a.png "Figure 7: Heatmap view of the Cell Cycle and Apoptosis genesets for the Neuroblastoma 88 dataset.")
@@ -100,38 +103,35 @@ Step 2: Using multiple GeneSets
 Step 3: Relating genesets with data annotation
 ---------------
 
-1.  We're going to explore that in further detail by sorting the dataset
-    according to the staging. Return to the former choice page
-    (Figure 2) by clicking the back button in your browser. Choose some genesets of interest and choose order samples by track and choose the INSS category. 
-    'Order samples by a track' and click "next" (Figure 10). I
+1.  We're going to explore in further detail how to relate genesets to dataset annotation. We will do so by sorting the dataset according to the staging. Scroll down to the Adjustable settings menu. You can adapt the genesets of choice but we leave them as set in the previous section. Cell_cycle and apoptosis. In stead we now focus on the settings *Order samples by* and choose the value **a track** from the dropdown. An extra setting is shown underneath to choose the track by which you want to order the samples in the heatmap. In the _Track_ dropdown, choose the **inss (5 cat)** annotation. 
+    'Order samples by a track' and click **Submit** (Figure 8). 
     
-	![](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png "Figure 8: Selecting the domain to order samples by: Order by a    track")
+	![](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png "Figure 8: Selecting the track to order samples by subgroups: Order by a    track")
 	
-	[**Figure 8: Selecting the track (subgroup) to order samples by: Order by a  track**](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png)
+	[**Figure 8: Selecting the track to order samples by subgroups: Order by a  track**](_static/images/Usinggenesets/UsingGenesets_sortedbytrack.png)
 	
 
-2. In the resulting heatmap it is clear that there is a segment of
-    genes pathways cluster that is consistently
-    upregulated in the stage 4 Neuroblastoma samples (in red in the
-    INSS track).
-3. 
+2. In the resulting heatmap clusters of genes of the selected pathways are clearly 
+    upregulated in the stage 4 Neuroblastoma samples (colored red in the
+    inss track above the heatmap). Other clusters of genes are upregulated in other stages. 
 
-[![](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png)**Figure
-    9: Heatmap sorted by INSS stage, there is a clear relation between
-    the stage 4 tumors (in red in the INSS track) and up-regulation of a
-    subset of genes**](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png)
+    ![](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png "Figure
+    9: Heatmap sorted by INSS stage. there is a clear relation between
+   the stage 4 tumors (in red in the INSS track) and up-regulation of a
+   subset of genes")
+
+    [**Figure
+   9: Heatmap sorted by INSS stage. there is a clear relation between
+   the stage 4 tumors (in red in the INSS track) and up-regulation of a
+   subset of genes**](_static/images/Usinggenesets/UsingGenesets_HeatmapSorted1a.png)
 
 
 
 3. In the previous example R2 offers the possibility to set a fixed
-    ordering of samples by track. It's also possible to perform a
-    clustering and set a fixed ordering of genes. In the "adjustable
-    settings" panel, select manual orderd list in the gene selection
-    method and click submit. Here you can paste a list of
-    genes sorted according to your needs.
-4. If you want to perform hierarchical clustering with a fixed
-    sample order. Select current of manual order and click
-    submit.
+    ordering of _samples_ by track. It's also possible to perform a
+    clustering and set a fixed ordering of _genes_. In the "Adjustable
+    settings" panel, select for the setting *Gene selection method* **Manual ordered list**. Here you can paste a list of genes and define their order according to your needs. As always with the Adjustable settings menu, click **Submit** to apply your changes.
+4. If you want to have a fixed sample order, you can set the settings _Order samples by_ to **current or manual order** and click **Submit**.
 
 
 
@@ -139,56 +139,51 @@ Step 4: Unsupervised hierarchical clustering with a geneset
 ---------------
 
 
+Heatmaps are often used to discover new subgroups in your dataset.
+In the chapter "Differential expression of genes in your dataset", we explain how to
+generate genesets describing the difference between known subgroups (by tracks)
+from an annotated dataset. A heatmap visualization of such a geneset will show often the clustering of the samples corresponding with the used annotation for the geneset generation. A researcher might discover clusters of genes that are upregulated with particular  annotation groups. Or the researcher might find subgroups within annotation groups.  
+  
+If you need to find subgroups without the use of annotation as a starting point, you could look for genes that show the highest variation within your dataset with the R2 tool **Toplister**. The resulting gene list can then be visualized with hierarchical clustering to result in sample clusters (subgroups) in a heatmap.
 
-It could be that for a given dataset there is no annotation to apply the
-analysis tools R2 is offering or your"re lacking a starting point to
-further investigated a dataset. A good starting point could be to do is
-to do a simple hierarchical clustering
+1. For this example we make use of a different dataset. On the main page, select in box 2 the dataset
+   **Expression data and select Mixed Esophageal Carcinoma - tcga - 174 - tpm - gencode36**  and find the tool **Toplister** from the dropdown menu in _box 3_. Click **Next**
 
+   ![](_static/images/Usinggenesets/UsingGenesets_SelectToplister.png "Figure    10: Select the tool Toplister to look for the genes with the highest variance in your datase")
 
+   [**Figure    10: Select the tool Toplister to look for the genes with the highest variance in your datase**](_static/images/Usinggenesets/UsingGenesets_SelectToplister.png)
 
-1.  In chapter "Differential expression" is explained how to
-    generate genesets describing the difference between tracks (groups)
-    from an annotated dataset. Researchers often want to investigate the
-    presence of subgroups without using annotation information in their
-    dataset or just find a list of genes with the highest variation in
-    gene expression. In case your dataset of interest lack annotation
-    you are still able via the Toplister tool to investigate datasets
-    for biological relevance.
-2.  For this purpose R2 is hosting a convenient tool to generated lists
-    of genes using a filter. By using this filter you can select groups
-    of genes with the highest, lowest or most variable genes etc etc.
-3.  To use the Toplister tool, either select 'Toplister' from the dropdown menu 
-    in box 3 of the main page or go to the menu on the left and select
-    tools> small tools > Toplister. Make sure Data Type is set to
-    Expression data and select Mixed Esophageal Carcinoma - tcga - 174 - tpm - gencode36  and click next. In the adjustable settings
-    screen all kinds of settings and filtering options can be adapted.
-    We want to know which 100 genes have the highest variation in this
-    case leave " which set" at standard deviation (SD) which is the
-    default settings.
+2. In the Adjustable settings menu, all kinds of settings and filtering options can be adapted.
+    We want to know which 100 genes have the highest variation. In this
+    case, leave the setting _Which set_ at the default **Standard Deviation (SD)**.
 
-    ![](_static/images/Usinggenesets/UsingGenesets_Toplister.png "Figure    10: Using toplister")
+    ![](_static/images/Usinggenesets/UsingGenesets_Toplister.png "Figure    11: Toplister settings")
 
-    [**Figure    10: Using toplister**](_static/images/Usinggenesets/UsingGenesets_Toplister.png)
+    [**Figure    11: Toplister settings**](_static/images/Usinggenesets/UsingGenesets_Toplister.png)
 
 
-In this case the selected TCGA dataset gene annotation has been assigned to gencode reporters and in this example R2 also has stored gene category information which can be used as a filter. Note that this doesn't hold for all the platforms linked to a dataset.
-
+   The selected TCGA dataset gene annotation has been assigned to gencode reporters and R2 also has stored gene set information which can be used as a filter. Note that this doesn't hold for all the platforms linked to a dataset. We leave it as is for now and click **Next**.
 
 4.  R2 has generated a list of 100 genes showing the highest variation
-    in gene expression. Beneath the list als kinds  of settings can be adapeted and in the right menu the genelist can be exported of stored in r2 as a geneset.
+    in gene expression. Beneath the list the settings can be adapted again. With the buttons on the right hand side of the page, the gene list can be exported or stored in R2 as a geneset.
 
-![](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png "'Figure 11:Result of the toplister module.")
+    ![](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png "'Figure 12:Result of the toplister module.")
 
-[**Figure 11: Result of the toplister module.**](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png)
+    [**Figure 12: Result of the toplister module.**](_static/images/Usinggenesets/UsingGenesets_toplisteroptions.png)
+  
+  
+  Clicking on the Heatmap (Zscore) button on the right will perform an unsupervised hierarchical clustering and plot a heatmap. 
 
 
-Clicking on the Heatmap (Zscore)  in the right menu will perform an  unsupervised hierarchical clustering and plots a heatmap. 
-
-
-![](_static/images/Usinggenesets/UsingGenesets_Unsupervised1b.png "'Figure 12: Unsupervised hierarchical clustering revealing subgroups in a Esophagal Carcinma dataset.")
+![](_static/images/Usinggenesets/UsingGenesets_Unsupervised1b.png "'Figure 13: Unsupervised hierarchical clustering revealing subgroups in a Esophagal Carcinma dataset.")
 	
-[**Figure 12: Unsupervised hierarchical clustering revealing subgroups in a Esophagal Carcinoma dataset.**](_static/images/Usinggenesets/UsingGenesets_Unsupervised1b.png)
+[**Figure 13: Unsupervised hierarchical clustering revealing subgroups in a Esophagal Carcinoma dataset.**](_static/images/Usinggenesets/UsingGenesets_Unsupervised1b.png)
+
+  If you click on **the triangle in front of Sort Order Listing** underneath the Heatmap, you can find the sample and gene ordering, and you can find the lists of clusters of samples or of genes that can be found in the heatmap. 
+
+![](_static/images/Usinggenesets/UsingGenesets_HeatmapToplister_sorting.png "'Figure 14: Lists of the sample and gene ordering after the unsupervised clustering in the heatmap.")
+
+[**Figure 14: Lists of the sample and gene ordering after the unsupervised clustering in the heatmap.**](_static/images/Usinggenesets/UsingGenesets_HeatmapToplister_sorting.png)
 
 
 
