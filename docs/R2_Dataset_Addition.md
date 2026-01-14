@@ -253,7 +253,7 @@ automatically if such information information is not encountered.
 Finally, you may describe the contents of a track.
 
 
-
+[Download the template to fill in ](https://github.com/antronerds/r2-tutorials/blob/master/fillin_template_example.xlsx)
 
 
 ### Special sample annotation
