@@ -158,10 +158,10 @@ Step 4: Tracks in R2: create your own data annotation
    current set of samples. In our case this is called ChangedGenes. Make sure that the number of draws is set to 10x10,
    click 'next'
 
-   ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png "Figure    9: Settings for K-means; the Category built above is available for    clustering")
+   ![](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv2.png "Figure    9: Settings for K-means; the Category built above is available for    clustering")
 
    [**Figure 9: Settings for K-means; the Category built above is available for
-   clustering**](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv1.png)
+   clustering**](_static/images/AdaptingR2/AdaptingR2_SelectOwnCatv2.png)
 
 3. The resulting clustering in two groups might not be ultimately convincing (Figure 10, your result might look slightly
    different), but for our testing purposes this is alright. What is important is that the resulting groups can be
@@ -172,14 +172,13 @@ Step 4: Tracks in R2: create your own data annotation
    [**Figure 10: Clustering result of the Neuroblastoma dataset with a geneset built in the former
    steps**](_static/images/AdaptingR2/AdaptingR2_UsestoredTrackv1.png)
 
-4. R2 now shows all samples as a long table with radio buttons indicating which group each sample belongs to. These can
-   be adapted if you want to. Scroll down the window to find the fields that have to be set in order to store this as a
-   track (Figure 11). You may want to change the group names into something more informative, and potentially also
-   change the name to something you could easily relate to.
+4. In the Adjustable track properties box (Figure 11). You may want to change the group names into something more informative, and potentially also
+   change the name to something you could easily relate to. In case you want remove samples from the track you are building or you want to switch samples to another cluster, this can be adapted in the inpout after clicking the "change input or dataset" button. In case the same samples are also present in another dataset also another dataset can be selected.  
 
-   ![](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png "Figure    11: Storing the current groups as a Track for use in later analysis.")
 
-   [**Figure    11: Storing the current groups as a Track for use in later analysis.**](_static/images/AdaptingR2/AdaptingR2_DefineGroups.png)
+   ![](_static/images/AdaptingR2/AdaptingR2_DefineGroups1a.png "Figure    11: Storing the current groups as a Track for use in later analysis.")
+
+   [**Figure    11: Storing the current groups as a Track for use in later analysis.**](_static/images/AdaptingR2/AdaptingR2_DefineGroups1a.png)
 
 5. After optionally changing the parameters, you can click the Build set button to store the track. In the custom tracks
    manager we can adapt this track again. From the 'User Options' menu select 'Manage Custom Tracks' (Figure 12).
@@ -196,7 +195,7 @@ Step 4: Tracks in R2: create your own data annotation
    [**Figure 13: Tracks are defined per dataset; keep the current
    selection.**](_static/images/AdaptingR2/AdaptingR2_CustomtrackTrack.png)
 
-7. In the next screen you're able to adapt the Track we just generated. Of interest in here is the option "Show as track: Yes/No",
+7. In the next screen you're able to adapt the Track we just generated. Of interest in here is the option "Draw track: Yes/No",
    which will result in the display of the information underneath the YY-plots.  
    The tracks can also be assigned to collections to make large sets of tracks manageable. We leave the deletion of the
    track to the imagination of the reader.  
@@ -209,7 +208,7 @@ Step 4: Tracks in R2: create your own data annotation
 
 8. Select Manage Default Tracks from the 'User Options' > 'Tracks' sub-menu (Figure 15)
 
-   ![](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png "Figure  18: Selecting the Default Tracks    Manager")
+   ![](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png "Figure  15: Selecting the Default Tracks    Manager")
 
    [**Figure 15: Selecting the Default Tracks Manager**](_static/images/AdaptingR2/AdaptingR2_ManageDefaultTracksv2.png)
 
