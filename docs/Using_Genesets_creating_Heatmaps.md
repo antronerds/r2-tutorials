@@ -90,14 +90,15 @@ Step 2: Using multiple GeneSets
 
 3. The resulting heatmap (Figure 7) has both the samples and the genes ordered by the
     result of the clustering of the dataset. On the y-axis the genes are
-    annotated with their membership to both pathways by the red/ grey bars on the right hand side;  Using both genesets shows clearly some blocks in the heatmap which could be linked to the annotation plotted above the heatmap
+    annotated with their membership to both pathways by the red/ grey bars on the right hand side;  Using both genesets shows clearly some blocks in the heatmap which could be linked to the annotation plotted above the heatmap.
 
 
 ![](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple1a.png "Figure 7: Heatmap view of the Cell Cycle and Apoptosis genesets for the Neuroblastoma 88 dataset.")
 	
 [**Figure 7: Heatmap view of the Cell Cycle and Apoptosis genesets for the Neuroblastoma 88 dataset.**](_static/images/Usinggenesets/UsingGenesets_Heatmap_multiple1a.png)
 	
-
+    
+   Underneath the heatmap, you can find the signature score visualization per sample. The geneset signature score is calculated as the average z-score from a z-score–transformed dataset. This results in one score per sample (or two scores when upregulated and downregulated gene subsets are found), summarizing how the genes in the selected gene set behave collectively in each sample. In the chapter *Using signatures* you can read more about signature scores and how to incorporate them in your analysis. 
 
 
 Step 3: Relating genesets with data annotation
