@@ -252,8 +252,8 @@ required to supply this information. R2 will color groupnames
 automatically if such information information is not encountered.
 Finally, you may describe the contents of a track.
 
-#[Download the template to fill in ]
-<a href="https://github.com/antronerds/r2-tutorials/blob/master/fillin_template_example.xlsx" download>download template</a>
+
+<a href="https://github.com/antronerds/r2-tutorials/raw/master/fillin_template_example.xlsx" download>download template excel</a>
 
 
 ### Special sample annotation
