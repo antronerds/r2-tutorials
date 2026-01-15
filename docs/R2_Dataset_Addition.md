@@ -118,15 +118,9 @@ administrator. Requests for access to a group should be send by the
 owner of a group, or such an owner should at least be cc-ed in the email
 correspondence. Additional owners of a group or transfer of the
 ownership to another person can be done achieved by email to
-<r2-support@amsterdammumc.nl> from the current owner. If your research group
+<r2-support@amsterdamumc.nl> from the current owner. If your research group
 already has data in R2, then you should already know the name of your
 user-group.
-
-
-
-
-
-
 
 
 	
@@ -200,7 +194,7 @@ contact us by email.
 
 
 Omic data is not very useful without proper annotation. Annotation
-is provided in a separate tab delimited text file. Here the 1^st^ column
+can be provided in a separate tab delimited text file. Here the 1^st^ column
 contains the sample names and any subsequent column is treated as an
 annotation field (termed tracks within R2). Please refrain from using
 special characters within the annotation. Also, spaces in track naming
@@ -227,7 +221,7 @@ file.
 [**Figure 3: Annotation specs**](_static/images/Dataset_addition/DataSetAddition_annotation_specs.png)
 
 
-The way how R2 should treat annotation parameters can be indicated in a so called seperat relation file. For example you can indicate of the annotation should be numeric, add a description or indicate whether a certain annotatiom paramaterr should be  sample information or a grouping variable to use for analysis (DEG). 
+The way how R2 should treat annotation parameters can be indicated in a so called seperate relation file. For example you can indicate of the annotation should be numeric, add a description or indicate whether a certain annotatiom paramaterr should be  sample information or a grouping variable to use for analysis (DEG). 
 Please make sure that the header of the relate file is identical to the
 example, and that the tracknames match to the ones that have been
 defined in the sample annotation. The "istrack" column tells R2 whether
@@ -239,7 +233,7 @@ In the track_col** columns a specific color to groups can be assigned which are
 defined within a track. These can be indicated by groupname:hexcolor.
  R2 will color groupnames
 automatically if such information information is not encountered.
-Finally, you may describe the contents of a track. Keep in mind providing suchg supporting annotation file is optional. 
+Finally, you may describe the contents of a track. Keep in mind providing such supporting annotation file is optional. 
 
 
 
