@@ -59,7 +59,7 @@ supervise / guide the upload procedure.
 
 
 
-Addition of a public dataset from the GEO database
+Addition of a public dataset from GEO database and other databases
 --------------------------------------------------
 
 
@@ -67,16 +67,16 @@ Addition of a public dataset from the GEO database
 Having a public dataset added to R2 from the NCBI GEO database is by far
 the easiest. Depending a bit on whether the annotation platform is already
 used within R2, such datasets can be added fairly quickly. In most cases
-you only have to send an email to <r2-support@amc.uva.nl> stating the
+you only have to send an email to <r2-support@amsterdamumc.nl> stating the
 GEO series identifier GSE\*\*\*\*\* and one of the administrators will
 try to take care of the rest, or get in contact with you. Other public sources
 that provide access to genomics data can also be provided, as long as you can 
 provide the full path to where the primary data can be retrieved. 
 
 
-
 The GEO database can be browsed from
 [](http://www.ncbi.nlm.nih.gov/geo/browse/?view=series)<http://www.ncbi.nlm.nih.gov/geo/browse/?view=series>
+
 
 
 
@@ -118,7 +118,7 @@ administrator. Requests for access to a group should be send by the
 owner of a group, or such an owner should at least be cc-ed in the email
 correspondence. Additional owners of a group or transfer of the
 ownership to another person can be done achieved by email to
-<r2-support@amc.uva.nl> from the current owner. If your research group
+<r2-support@amsterdammumc.nl> from the current owner. If your research group
 already has data in R2, then you should already know the name of your
 user-group.
 
@@ -128,40 +128,7 @@ user-group.
 
 
 
-Preparing Affymetrix microarray expression data
------------------------------
 
-
-
-When the data to be uploaded originates from Affymetrix gene expression
-platforms, and you would like to have the data added in the standard
-way, then we prefer to have the original CEL files send to us by
-[www.wetransfer.com](http://www.wetransfer.com) or a
-similar service. We can then add the dataset in such a way that it can
-be used in conjunction with the publicly available datasets from the
-same platform and normalization scheme. If normalization schemes, other
-than the mainstream MAS5.0, RMA, gcRMA, or RMA-sketch are preferred,
-then you should perform the normalization yourself and send us the
-normalized data as a matrix (like a tab delimited export from an Excel
-sheet). A data matrix should be constructed in the following manner: the
-first row is considered to be the header and should preferably start
-with the following sign \#H: for the 1^st^ column. The 1^st^ column
-should contain the reporter IDs of the platform (such as probe sets, in
-the case of Affymetrix). If you are not sure which column represents the
-reporters that can be used in R2, then please ask by email (Especially
-Illumina arrays contain a number of fields that look usable). The signal
-values (preferably non-transformed) of the samples can then be added in
-subsequent columns, where the 1^st^ row should contain the sample
-identifier (that needs to be identical to the sample identifier in the
-annotation file). R2 can perform a range of transformations (such as
-log2) on the data itself, thereby allowing the most flexible use of your
-expression data, if provided in a non-transformed fashion. The figure
-below shows an example for an Affymetrix array.
-
-
-![](_static/images/DataSetAddition_table.png "Figure1: Example")
-	
-[**Figure1: Example**](_static/images/DataSetAddition_table.png)
 	
 A number of platforms and/or normalizations not only provide a signal
 intensity, but can also express the likelihood that a reporter is
@@ -183,17 +150,41 @@ When possible, we prefer to receive the raw counts per gene per sample in a matr
 In case that the count data is not available and/or you would like to use (your preferred) gene expression values, then these can also be provided in a similar format as the counts. Measures that are often used are TPM(+1), but any measure can be incorporated (e.g. rpkm, etc.). Simply let us know what the values represent.
 
 
+![](_static/images/Dataset_addition/DataSetAddition_table1a.png "Figure1: Matrix")
 
-Preparing the gene annotation
------------------------------
+[**Figure1: Matrx with expression data**](_static/images//Dataset_addition/DataSetAddition_table1a.png)
 
+
+
+
+
+### Preparing Affymetrix microarray expression data
+
+
+
+
+When the data to be uploaded originates from Affymetrix gene expression
+platforms, and you would like to have the data added in the standard
+way, then we prefer to have the original CEL files send to us by
+[www.wetransfer.com](http://www.wetransfer.com) or a
+similar service. We can then add the dataset in such a way that it can
+be used in conjunction with the publicly available datasets from the
+same platform and normalization scheme. If normalization schemes, other
+than the mainstream MAS5.0, RMA, gcRMA, or RMA-sketch are preferred,
+then you should perform the normalization yourself and send us the
+normalized data as a matrix (like a tab delimited export from an Excel
+sheet). In case the data already has been normalized we just need matrix see the example above with in the first column the affymetrix exporters. Note that also for illumina arrays R2 is supporting multiple versions. 
+
+
+
+### Preparing the gene annotation
 
 
 If a platform has already been added to the R2 database, then there is
 no need to supply gene annotation again. If a new platform has to be
 added, then we require at the very least a list of all the reporters,
 together with their mapping to the genome (for human preferably
-HG18/NCBI36; for mouse preferably mm9). Furthermore, the relation
+HG18/NCBI36; for mouse preferably mm10). Furthermore, the relation
 between reporters and genesymbols as well as gene ids (NCBI Gene) would
 speed up the process of adding a new platform. In many cases, vendors of
 the arrays make annotation files available for download. Usually a link
@@ -203,15 +194,12 @@ contact us by email.
 
 
 
+## Preparing the sample annotation
 
 
 
-Preparing the sample annotation
--------------------------------
 
-
-
-Expression data is not very useful without proper annotation. Annotation
+Omic data is not very useful without proper annotation. Annotation
 is provided in a separate tab delimited text file. Here the 1^st^ column
 contains the sample names and any subsequent column is treated as an
 annotation field (termed tracks within R2). Please refrain from using
@@ -222,9 +210,9 @@ find useful. There are a number of special tracks, which you can make
 use of, which will now be described.
 
 
-![](_static/images/DataSetAddition_sampleanno.png "Figure2: Example2")
+![](_static/images/Dataset_addition/DataSetAddition_annot1a.png "Figure2: Example2")
 	
-[**Figure2: Example2**](_static/images/DataSetAddition_sampleanno.png)
+[**Figure2: supporting annotation file**](_static/images/Dataset_addition/DataSetAddition_annot1a.png)
 	
 Besides providing the annotation for usage in R2, you can also specify
 how R2 makes use of these annotations, specifically in graphical
@@ -234,10 +222,12 @@ for the different tracks. Below, you can see a section of such a relate
 file.
 
 
-![](_static/images/DataSetAddition_relatefile.png "Figure3: Example2")
+![](_static/images/Dataset_addition/DataSetAddition_annotation_specs.png "Figure3: Example2")
   	
-[**Figure 3: Example3**](_static/images/DataSetAddition_relatefile.png)
-	
+[**Figure 3: Annotation specs**](_static/images/Dataset_addition/DataSetAddition_annotation_specs.png)
+
+
+The way how R2 should treat annotation parameters can be indicated in a so called seperat relation file. For example you can indicate of the annotation should be numeric, add a description or indicate whether a certain annotatiom paramaterr should be  sample information or a grouping variable to use for analysis (DEG). 
 Please make sure that the header of the relate file is identical to the
 example, and that the tracknames match to the ones that have been
 defined in the sample annotation. The "istrack" column tells R2 whether
@@ -245,18 +235,19 @@ the annotation needs to be drawn as color coded information below
 YY-plots, and headers of heatmaps. The "isinfo" column defines whether
 the information is displayed in the table once you hover over a sample
 in graphs within R2. "visible" can enable/disable the use of a track.
-The "color" column can preset a specific color to groups which are
+In the track_col** columns a specific color to groups can be assigned which are
 defined within a track. These can be indicated by groupname:hexcolor.
-The different groups are then separated by the ";" sign. It is not
-required to supply this information. R2 will color groupnames
+ R2 will color groupnames
 automatically if such information information is not encountered.
-Finally, you may describe the contents of a track.
+Finally, you may describe the contents of a track. Keep in mind providing suchg supporting annotation file is optional. 
 
 
-<a href="https://github.com/antronerds/r2-tutorials/raw/master/fillin_template_example.xlsx" download>download template excel</a>
+
+#### Download a template for the annotation. 
+<a href="https://github.com/antronerds/r2-tutorials/raw/master/fillin_template_example.xlsx" download>> Excel template</a>
 
 
-### Special sample annotation
+### Survival data
 
 
 
@@ -282,41 +273,12 @@ For example, the file below would be named "overall.txt". Subsequent
 Kaplan curves would get the name "overall survival" on the y-axis.
 
 
-![](_static/images/DataSetAddition_survival.png "Figure 3: Example 3")
+![](_static/images/Dataset_addition/DataSetAddition_survival.png "Survival data: ")
 
-[**Figure 3: Example3**](_static/images/DataSetAddition_survival.png)
-
-**Time series graphs:** When the samples are annotated with the
-appropriate tracks, then R2 can also present datasets as time series.
-When R2 encounters a column named "r2\_ts\_timepoint", combined with
-either "r2\_ts\_profile" and/or "r2\_ts\_series", then this will enable
-the option to represent the dataset as a time series (where
-samples/groups are connected by a line following the time variable).
-Profiles are intended to connect a single experiment or the following of
-a single subject in time. Series are intended as the grouping of
-profiles (for example biological replicates of an experiment), which
-will also create error bars on the measurements. The "r2\_ts\_timepoint"
-annotation should only contain numerical information (the time, in
-whatever scale you prefer (minutes / hours / days)). The other 1 or 2
-annotations should provide a grouping label (which would be useful for
-you). In case of doubt on the usage of these annotations, do not
-hesitate to get in contact with us via r2-support.
-
-![](_static/images/DataSetAddition_timeserie.png "Figure 4: Example 4")
-
-[**Figure : Example 4**](_static/images/DataSetAddition_timeserie.png)
-	
+[**Figure 4: Survival fiel example**](_static/images/DataSetAddition_survival.png)
 
 
-
-
-
-
-
-Describing your dataset
------------------------
-
-
+## Describing your dataset
 
 Within R2, your dataset will get a name, so that you can find it back
 for analyses. For dataset naming the program makes use of a small number
@@ -349,26 +311,13 @@ same theme are close together. If we would describe the shRNA knockdown
 of the MYCN gene in the neuroblastoma cell line IMR32 for example, then
 this would become "Exp Neuroblastoma IMR32 MYCN shRNA".
 
-
-
-
-
 3\. **Author**. Finally, you can supply the author / consortium in naming
 your dataset. This should be self-explanatory.
 
 
-
-
-
 R2 will add the number of samples within the dataset, a normalization
 scheme and finally also a code representing the platform which has been
-used. If you are supplying a dataset other than Affymetrix gene
-expression arrays (Exon or U\*\*\*), then you should provide us with the
-normalization, and platform used as well. The platform, doesn"t have to
-be the code that R2 uses, but can also be described by the manufacturer
-and the array ID.
-
-
+used. 
 
 
 
@@ -379,7 +328,33 @@ next to a dataset). **Title**: 1 line description of your dataset.
 as you wish (See also GEO for examples). **Design**: free text
 describing the design of your dataset (See also GEO for examples).
 
+**These field are in the excel template you can download as indcated above**
 
+
+
+
+### Timeseries graphs
+
+**Time series graphs:** When the samples are annotated with the
+appropriate tracks, then R2 can also present datasets as time series.
+When R2 encounters a column named "r2\_ts\_timepoint", combined with
+either "r2\_ts\_profile" and/or "r2\_ts\_series", then this will enable
+the option to represent the dataset as a time series (where
+samples/groups are connected by a line following the time variable).
+Profiles are intended to connect a single experiment or the following of
+a single subject in time. Series are intended as the grouping of
+profiles (for example biological replicates of an experiment), which
+will also create error bars on the measurements. The "r2\_ts\_timepoint"
+annotation should only contain numerical information (the time, in
+whatever scale you prefer (minutes / hours / days)). The other 1 or 2
+annotations should provide a grouping label (which would be useful for
+you). In case of doubt on the usage of these annotations, do not
+hesitate to get in contact with us via r2-support.
+
+![](_static/images/Dataset_addition/DataSetAddition_timeserie.png "Figure 4: Example 4")
+
+[**Figure 5: Timeries**](_static/images/DataSetAddition/DataSetAddition_timeserie.png)
+	
 
 
 
