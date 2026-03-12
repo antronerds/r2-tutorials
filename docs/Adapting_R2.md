@@ -14,10 +14,10 @@ Scope
 -----
 
 - This tutorial describes the adaptable settings within R2. These are basically all items under the User Options
-  menu-item. Through these you can personalize the use of R2
-- First a couple of regular settings will be treated: changing colors, setting parameters
-- Next we'll delve into the practical adaptation of R2; uploading your dataset, adding your personal genesets (
-  categories), creating/exporting /uploading your own tracks and maintaining a user community
+  menu-item. Through these you can personalize the use of R2.
+- First a couple of regular settings will be treated. Like changing colors and setting parameters.
+- Next we'll delve into the practical adaptation of R2; uploading your dataset, adding your personal genesets
+(categories), creating/exporting/uploading your own tracks and maintaining a user community.
 
 Step 1: Adapt your settings
 ---------------

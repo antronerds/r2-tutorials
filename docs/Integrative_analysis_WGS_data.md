@@ -83,7 +83,7 @@ To find out more about the detailed information tables on th eright of the circo
 	
 	[**Figure 6: Including Array data in the scatterplot**](_static/images/IntAnalysis_WGS_StucVarGenomebrowser.png)
 	
-5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you will be taken into the one gene view of r2 showing the expression of this gene inside a Neuroblastoma tumor series. The investigated tumor is highlighted with a red circle.
+5. The *FOXR1* gene shows a high zscore and by clicking on the dot above this gene you will be taken into the View a Gene of r2 showing the expression of this gene inside a Neuroblastoma tumor series. The investigated tumor is highlighted with a red circle.
 
 	![](_static/images/IntAnalysis_WGS_FoxM1oneGeneView.png)
 	

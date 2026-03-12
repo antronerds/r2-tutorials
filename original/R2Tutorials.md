@@ -262,7 +262,7 @@ We hope that this tutorial has been helpful,The R2 support team.
 
 
 
-One Gene View
+View a Gene
 =============
 
 
@@ -287,7 +287,7 @@ Scope
     specific dataset.
 -   In this example the expression levels of the MYCN gene will be used.
 -   Adjust several parameters in the advanced settings panel to get a
-    better insight in the expressions levels or adapt your
+    better insight into the expressions levels or adapt your
     graphic layout.
 -   In R2, the samples are annotated with e.g clinical data, each group
     of annotated data is called a "Track" in R2. These tracks can be
@@ -753,7 +753,7 @@ Tutorial step 2
 ---------------
 
 1.  In Figure 1 a selection of gene expression profiles are depicted in
-    one picture in contrast to the one gene view. The multiple gene view
+    one picture in contrast to the View a Gene. The multiple gene view
     enables the option to represent the gene expression separately for
     each track. In this manner potential relations between subgroups and
     gene expression can be visualized.
@@ -3174,7 +3174,7 @@ with our signature of interest.
     MYCN signature against all the gene lists within the broad
     oncogene category. This results in a table of geneset versus geneset
     correlations sorted by the p-value. The "venn source/ same / target"
-    column provides insight in overlapping genes between two gene lists.
+    column provides insight into overlapping genes between two gene lists.
     Another informative parameter in the table is the range parameter in
     the last column. This value indicates the range of geneset scores in
     gene target signature (see Figure 4.5).
@@ -4067,7 +4067,7 @@ Tutorial step 1
     choose "View a gene" at "type of analysis". In field 4: type "MYCN"
     and click "next".
 2.  Leave all the settings at their default and click "next". You have
-    now arrived at the "One Gene View". In this tutorial the main focus
+    now arrived at the "View a Gene". In this tutorial the main focus
     is the evaluation of the reporters designed by manufactures such as
     Affymetrix represented in the R2 Genome browser and to a lesser
     extent the gene expression. When you slide down on the "One gene

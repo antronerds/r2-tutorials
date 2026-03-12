@@ -16,7 +16,7 @@ Scope
 
 -   Export gene expression data with the ‘Data Grabber’ functionality
     directly from the main menu of R2 (<http://r2platform.com> / <http://r2.amc.nl>)
--   Export focussed gene expression data in R2 after an analysis (result).
+-   Export focused gene expression data in R2 after an analysis (result).
 
 
 
