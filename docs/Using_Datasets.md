@@ -15,10 +15,10 @@ Scope
     of one of these options in field 1.
 - R2 contains omic profiles such as expression and methylation profiles for more than ~5.000.000 unique
     individual samples. The samples are grouped in so-called datasets. Each dataset has its own characteristics, 
-    such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added the platform.
+    such as tissue type, tumor/disease type, or from cell-line experiments. Frequently, new datasets are added to the platform.
 - The *Tumor Neuroblastoma public - Versteeg - 88 - MAS5.0 -
     u133p2* dataset will be used as an example dataset to guide you
-    through most of the tutorial but other datasets will be used as examples. Later on, working with multiple datasets will be discussed.
+    through most of the tutorial, but other datasets will be used as examples. Later on, working with multiple datasets will be discussed.
 
    ![](_static/images/Usingdatasets/Usingdatasets_type1a.png "Figure 1: Change Dataset on the main page")
 
@@ -45,7 +45,7 @@ Step 1: Selecting a dataset
    [**Figure 3: Select a dataset by clicking on a row**](_static/images/Usingdatasets/UsingDataset_select_selectbutton.png)  
 
 
-3. Every column header provides options to filter the database, e.g. in the **Tissue/Tumor** text field a keyword such as *medull* can be written to filter for medulloblastoma datasets or, with the Select Filter dropdown under the Data type header you can requests an overview of for instance methylation datasets. If you know specific details, other columns can be of help as well: e.g. you can search for an author, or use the N column to search for a datasets of which you know the number of samples. The grid box will display all the datasets that fulfill the (combined) filter requirements. In the bottom right corner you find the number of (filtered) datasets that are available to you. 
+3. Every column header provides options to filter the database, e.g. in the **Tissue/Tumor** text field a keyword such as *medull* can be written to filter for medulloblastoma datasets or, with the Select Filter dropdown under the Data type header you can request an overview of for instance methylation datasets. If you know specific details, other columns can be of help as well: e.g. you can search for an author, or use the N column to search for a datasets of which you know the number of samples. The grid box will display all the datasets that fulfill the (combined) filter requirements. In the bottom right corner you find the number of (filtered) datasets that are available to you. 
 
    ![](_static/images/Usingdatasets/UsingDataset_select_autofill_text.png "Figure 4: Use the search bar to filter the list of datasets with a keyword")
 		 
@@ -76,7 +76,7 @@ Step 2: Advanced selection of datasets
    The column dropdown functions and textboxes can filter the datasets for specific characteristics, e.g. datasets 
    with a minimal number of samples, a specific author, platform or publication date. You can easily combine the search functions of the different columns.  
   
-   As an example, we want to see which large sets sets are available. First we write part of the word 
+   As an example, we want to see which large sets are available. First, we write part of the word 
    Neuroblastoma in the search box of the Tissue/Tumor column. Next, we use the pull down of the N (sample number) column to order the datasets in descending order. 
 	
     ![](_static/images/Usingdatasets/UsingDataset_combine_grid_filters_v1.png "Figure 7: Combine search filters in the grid")
@@ -125,7 +125,7 @@ Step 4: Data Scopes
     These are called data scopes and can be selected from within R2 by the left-hand menu item 'Change Data Scope'. 
     From here you can use one of the pre-set scopes. 
     This is also the section where you can remove a scope that has been set. 
-    An obvious reason why scopes can be convenient, is the focussed view on the available data, 
+    An obvious reason why scopes can be convenient, is the focused view on the available data, 
     to restrict data to a particular subject or as a landing page for a specific publication/subject.
     Datascopes as dedicated landing pages can also be configured to expose additional functionalities and quick jumps to sections in the platform. 
     Just have a look at which ones are already accessible.  

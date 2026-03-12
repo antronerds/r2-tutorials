@@ -198,7 +198,7 @@ with our signature of interest.
 5.  R2 has now generated all the possible correlations for the selected
     MYCN signature geneset against all the gene lists within the selected KEGG patway categoriess. This results in a table of geneset versus geneset
     correlations sorted by the p-value. The "venn source/ same / target"
-    column provides insight in overlapping number of genes (same) between two gene lists (source and target).
+    column provides insight into overlapping number of genes (same) between two gene lists (source and target).
     Another informative parameter in the table is the range parameter in
     the last column. This value indicates the range of geneset scores in
     gene target signature.

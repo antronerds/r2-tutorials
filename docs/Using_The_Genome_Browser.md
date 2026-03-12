@@ -31,14 +31,14 @@ Step 1: Exploring the genome browser
     choose “View a gene” at “type of analysis”. In field 4: type “MYCN”
     and click ‘next’.
 2.  Leave all the settings at their default and click ‘next’. You have
-    now arrived at the “One Gene View”. In this part of the tutorial the main focus
+    now arrived at the “View a Gene”. In this part of the tutorial the main focus
     is the evaluation of the reporters designed by manufactures such as
     Affymetrix represented in the R2 Genome browser. To a lesser
     extent gene expression profiles will be looked at as well.  
-    When you slide down on the “One gene view” page of the MYCN expression, you encounter the “Probeset verification” table. The Probeset verification table, displays an automated analysis for U133 based Affymetrix platforms, where the
+    When you slide down on the “View a Gene” page of the MYCN expression, you encounter the “Probeset verification” table. The Probeset verification table, displays an automated analysis for U133 based Affymetrix platforms, where the
     reporter-gene relation validity has been verified by their genomic
     location (also described in more detail in the
-    tutorial on One Gene View). Click on the “R2 Tview” link of the upper
+    tutorial on View a Gene). Click on the “R2 Tview” link of the upper
     probeset and the embedded R2 genome browser will open in a
     new screen. The genome browser shows the genomic span where the MYCN
     gene is located together with the 5 MYCN probesets mapped to their
@@ -48,7 +48,7 @@ Step 1: Exploring the genome browser
     
     [**Figure    1: Probeset Verification table**](_static/images/UsingR2genome_probesettable.png)
     
-	When we access the genome browser via the One Gene View page, by
+	When we access the genome browser via the View a Gene page, by
 	default R2 has enabled a number of annotations (Tracks). At the top
     of the Transcript View display, R2 depicts all known expressed sequence tag (EST) and mRNA sequences aligned to the genome (synchronized with the USCS
 	database regularly).

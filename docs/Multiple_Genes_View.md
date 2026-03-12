@@ -50,7 +50,7 @@ Step 2: Viewing multiple genes through track annotation
 ---------------
 
 1.  In Figure 1, a selection of gene expression profiles is depicted in
-    one picture in contrast to the one gene view. Figure 2 shows the possibility to make gene subgroups. Adapting the **Box padding** makes the difference more clear, also the graph type is adapted. 
+    one picture in contrast to the View a Gene. Figure 2 shows the possibility to make gene subgroups. Adapting the **Box padding** makes the difference more clear, also the graph type is adapted. 
     Now we will look at the option to represent the gene expression separately for
     each subgroup of a categorical track. In this manner potential relations between subgroups and
     gene expression can be visualized.

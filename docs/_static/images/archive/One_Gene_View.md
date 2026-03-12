@@ -1,6 +1,6 @@
 <a id="one_gene_view"> </a>
 
-One Gene View
+View a Gene
 =============
 
 *Analyze the expression levels of a single gene within a dataset*
@@ -13,7 +13,7 @@ Scope
     specific dataset.
 -   In this example the expression levels of the MYCN gene will be used.
 -   Adjust several parameters in the advanced settings panel to get a
-    better insight in the expressions levels or adapt your
+    better insight into the expressions levels or adapt your
     graphic layout.
 -   In R2, the samples are annotated with e.g clinical data, each group
     of annotated data is called a “Track” in R2. These tracks can be
@@ -231,7 +231,7 @@ and click on the “Tview” link in the reporter table.
 Step 5: Sources for additional information on the selected gene 
 ----------------
 
-1. Close the Genome Browser tab or go back to the MYCN One Gene View expression screen.
+1. Close the Genome Browser tab or go back to the MYCN View a Gene expression screen.
 
    ![](_static/images/OneGene_menupanel.png "Figure 9:Left menu panel providing additional info (including link-out) andanalyses options")
 
@@ -280,7 +280,7 @@ Step 6: Adapting plot
 2. The “track display selection” section can be opened by clicking on it.
     In here, you are able to toggle which tracks to display and/or hide
     within the YY-plots. Do note that these selections are non-persistent
-    and will be forgotten as soon as you leave the One Gene View. Persistent
+    and will be forgotten as soon as you leave the View a Gene. Persistent
     changes to the tracks can be made via the ‘User Options’ menu item, which
     is present in the main screen (see the tutorial 'Adapting R2 to your needs'). 
     Note that the Adjustable Settings panel, including the Customize Track parameters, 
@@ -402,7 +402,7 @@ Step 9: Find best track separation with CliniSnitch
     and the test is changed according to the contents: for a numeric vs numeric track the correlation is calculated resulting in an r-pvalue;
     categorical vs numerical tracks are tested with an anova test; nonrandom associations for categorical vs categorical tracks are tested with 
     a Fisher's exact test. Furthermore, 'ND' samples are automatically removed, and are not considered a valid group.  
-    We can run a CliniSnitch analysis directly from the One Gene View page by clicking on the gene name under 
+    We can run a CliniSnitch analysis directly from the View a Gene page by clicking on the gene name under 
     'CliniSnitch' in the upper-left panel. Click on ‘MYCN’. Private/Group tracks that you may add to this dataset over time, will automatically be included in these analyses.
 
     ![](_static/images/OneGene_CliniSnitch1.png "Figure 20: CliniSnitch representation")
@@ -419,7 +419,7 @@ Step 10: Finding sample extremes.
 
 In case you wonder whether any unusual expression levels show up for individual samples from a given dataset, you can you use the "Find sample extreme" option. In this example we know that sample ITCC0288 harbors a Phox2b mutation which leads to the question: can we find extreme expression values for this sample?
 
-1. In the one gene view for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
+1. In the View a Gene for this dataset select in the right panel sample itcc0288 in the sample overview  section and click 'view', leave all the settings at their default and click next.
 
     ![](_static/images/OneGene_selectsampleextreme.png "Figure 21: Select your sample to find extremes")
 
@@ -428,7 +428,7 @@ In case you wonder whether any unusual expression levels show up for individual 
 
 
 2. A table shows the negative z-score (left column) and positive z-score (right column) extremes.  In figure 22 genes which are a part of the Nor-Adrenalin pathway are in the top of the negative z-score list. This suggests that wild-type Phox2b is involved in the up-regulation of the Nor-Adrenalin pathway.  
-You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the One Gene View of that gene, with your sample marked in the graph. 
+You can click on any of the genes listed in the table (here we clicked on "TH") to obtain the View a Gene of that gene, with your sample marked in the graph. 
 
     ![](_static/images/OneGene_sampleextremePhox2b.png "Figure 22: Sample extremes in one sample")
 
