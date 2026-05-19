@@ -18,17 +18,61 @@
 
 The table below gives an overview of all data types R2 can accommodate. Use it to navigate directly to the relevant preparation section.
 
-| Data type | File format(s) | Genome build required | Paired design supported | Section |
-|---|---|---|---|---|
-| RNA-seq expression | Count matrix, TPM/RPKM matrix | Optional (for annotation) | No | [RNA-seq](#preparing-rna-sequencing-expression-data) |
-| Microarray expression | CEL (Affymetrix), matrix (Illumina) | No | No | [Microarray](#preparing-affymetrix-microarray-expression-data) |
-| DNA methylation | IDAT or beta/M-value matrix | No | No | [Methylation](#preparing-dna-methylation-data) |
-| Somatic SNV/Indel | VCF | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf) |
-| Copy number variation | SEG | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [CNV](#preparing-copy-number-variation-data-seg) |
-| Structural variants | SV-VCF or BEDPE | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [SV](#preparing-structural-variant-data) |
-| ChIP-seq / ATAC-seq | BED/narrowPeak + BigWig | GRCh38 or GRCh37/hg19 | No | [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data) |
-| Sample annotation | Tab-delimited text | — | — | [Annotation](#preparing-the-sample-annotation) |
-| Survival data | Tab-delimited text | — | — | [Survival](#survival-data) |
+```{list-table}
+:header-rows: 1
+:widths: 20 25 20 15 20
+
+* - Data type
+  - File format(s)
+  - Genome build required
+  - Paired design supported
+  - Section
+* - RNA-seq expression
+  - Count matrix, TPM/RPKM matrix
+  - Optional (for annotation)
+  - No
+  - [RNA-seq](#preparing-rna-sequencing-expression-data)
+* - Microarray expression
+  - CEL (Affymetrix), matrix (Illumina)
+  - No
+  - No
+  - [Microarray](#preparing-affymetrix-microarray-expression-data)
+* - DNA methylation
+  - IDAT or beta/M-value matrix
+  - No
+  - No
+  - [Methylation](#preparing-dna-methylation-data)
+* - Somatic SNV/Indel
+  - VCF
+  - GRCh38 or GRCh37/hg19
+  - Yes (tumor-normal)
+  - [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf)
+* - Copy number variation
+  - SEG
+  - GRCh38 or GRCh37/hg19
+  - Yes (tumor-normal)
+  - [CNV](#preparing-copy-number-variation-data-seg)
+* - Structural variants
+  - SV-VCF or BEDPE
+  - GRCh38 or GRCh37/hg19
+  - Yes (tumor-normal)
+  - [SV](#preparing-structural-variant-data)
+* - ChIP-seq / ATAC-seq
+  - BED/narrowPeak + BigWig
+  - GRCh38 or GRCh37/hg19
+  - No
+  - [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data)
+* - Sample annotation
+  - Tab-delimited text
+  - —
+  - —
+  - [Annotation](#preparing-the-sample-annotation)
+* - Survival data
+  - Tab-delimited text
+  - —
+  - —
+  - [Survival](#survival-data)
+```
 
 ---
 
@@ -186,14 +230,25 @@ Copy number variation (CNV) data is displayed in R2 as CGH-like scatter plots in
 
 The SEG (segmentation) file is a tab-delimited text file with the following columns:
 
-| Column | Description |
-|---|---|
-| `ID` | Sample identifier (must match your sample annotation file) |
-| `chrom` | Chromosome (use `chr1`, `chr2`, … `chrX`, `chrY`) |
-| `loc.start` | Segment start position (1-based) |
-| `loc.end` | Segment end position (1-based) |
-| `num.mark` | Number of probes or bins in the segment |
-| `seg.mean` | Segmented value (log2 ratio tumor/normal, or log2 copy number ratio) |
+```{list-table}
+:header-rows: 1
+:widths: 20 80
+
+* - Column
+  - Description
+* - `ID`
+  - Sample identifier (must match your sample annotation file)
+* - `chrom`
+  - Chromosome (use `chr1`, `chr2`, … `chrX`, `chrY`)
+* - `loc.start`
+  - Segment start position (1-based)
+* - `loc.end`
+  - Segment end position (1-based)
+* - `num.mark`
+  - Number of probes or bins in the segment
+* - `seg.mean`
+  - Segmented value (log2 ratio tumor/normal, or log2 copy number ratio)
+```
 
 Example:
 
@@ -239,18 +294,33 @@ Provide one VCF per sample (or per tumor-normal pair for somatic SVs).
 
 BEDPE format encodes SVs as paired genomic coordinates. The file must be tab-delimited with at minimum these columns:
 
-| Column | Description |
-|---|---|
-| `chrom1` | Chromosome of breakpoint 1 |
-| `start1` | Start of breakpoint 1 interval |
-| `end1` | End of breakpoint 1 interval |
-| `chrom2` | Chromosome of breakpoint 2 |
-| `start2` | Start of breakpoint 2 interval |
-| `end2` | End of breakpoint 2 interval |
-| `name` | Variant name or ID |
-| `score` | Quality score or read support |
-| `strand1` | Strand at breakpoint 1 |
-| `strand2` | Strand at breakpoint 2 |
+```{list-table}
+:header-rows: 1
+:widths: 15 85
+
+* - Column
+  - Description
+* - `chrom1`
+  - Chromosome of breakpoint 1
+* - `start1`
+  - Start of breakpoint 1 interval
+* - `end1`
+  - End of breakpoint 1 interval
+* - `chrom2`
+  - Chromosome of breakpoint 2
+* - `start2`
+  - Start of breakpoint 2 interval
+* - `end2`
+  - End of breakpoint 2 interval
+* - `name`
+  - Variant name or ID
+* - `score`
+  - Quality score or read support
+* - `strand1`
+  - Strand at breakpoint 1
+* - `strand2`
+  - Strand at breakpoint 2
+```
 
 Additional columns for SV type, sample ID, and supporting reads are recommended.
 
@@ -270,13 +340,13 @@ ChIP-seq and ATAC-seq data can be added to R2 for visualization in the genome br
 ### Required files per sample/condition
 
 1. **Peak file** — BED or narrowPeak format (ENCODE narrowPeak is preferred):
-    - For ChIP-seq: peaks called against an input/IgG control
-    - For ATAC-seq: peaks called with e.g. MACS2 or HMMRATAC
-    - Recommended minimum columns: `chrom`, `chromStart`, `chromEnd`, `name`, `score`, `strand`, `signalValue`, `pValue`, `qValue`, `peak`
+   - For ChIP-seq: peaks called against an input/IgG control
+   - For ATAC-seq: peaks called with e.g. MACS2 or HMMRATAC
+   - Recommended minimum columns: `chrom`, `chromStart`, `chromEnd`, `name`, `score`, `strand`, `signalValue`, `pValue`, `qValue`, `peak`
 
 2. **Signal track** — BigWig format (`.bw`):
-    - Normalized read coverage (e.g. RPKM, CPM, or fold-enrichment over input)
-    - Must be coordinate-sorted and indexed
+   - Normalized read coverage (e.g. RPKM, CPM, or fold-enrichment over input)
+   - Must be coordinate-sorted and indexed
 
 ### Requirements
 
