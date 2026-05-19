@@ -16,63 +16,21 @@
 
 ## Quick reference: supported data types
 
-The table below gives an overview of all data types R2 can accommodate. Use it to navigate directly to the relevant preparation section.
+R2 is a generic multi-omics platform. Any data type that can be represented as a matrix — with feature identifiers (genes, probes, CpG sites, variants, peaks, or similar) in rows and samples in columns — can in principle be hosted in R2. Genomics data types such as somatic variants, copy number profiles, and structural variants require specific file formats and are described in the sections below, but they are one layer of a broader omics landscape that R2 supports, which also includes transcriptomics, epigenomics, and chromatin accessibility data.
 
-```{list-table}
-:header-rows: 1
-:widths: 20 25 20 15 20
+The table below gives an overview of the data types covered in this chapter, together with their required file formats. Use it to navigate directly to the relevant preparation section.
 
-* - Data type
-  - File format(s)
-  - Genome build required
-  - Paired design supported
-  - Section
-* - RNA-seq expression
-  - Count matrix, TPM/RPKM matrix
-  - Optional (for annotation)
-  - No
-  - [RNA-seq](#preparing-rna-sequencing-expression-data)
-* - Microarray expression
-  - CEL (Affymetrix), matrix (Illumina)
-  - No
-  - No
-  - [Microarray](#preparing-affymetrix-microarray-expression-data)
-* - DNA methylation
-  - IDAT or beta/M-value matrix
-  - No
-  - No
-  - [Methylation](#preparing-dna-methylation-data)
-* - Somatic SNV/Indel
-  - VCF
-  - GRCh38 or GRCh37/hg19
-  - Yes (tumor-normal)
-  - [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf)
-* - Copy number variation
-  - SEG
-  - GRCh38 or GRCh37/hg19
-  - Yes (tumor-normal)
-  - [CNV](#preparing-copy-number-variation-data-seg)
-* - Structural variants
-  - SV-VCF or BEDPE
-  - GRCh38 or GRCh37/hg19
-  - Yes (tumor-normal)
-  - [SV](#preparing-structural-variant-data)
-* - ChIP-seq / ATAC-seq
-  - BED/narrowPeak + BigWig
-  - GRCh38 or GRCh37/hg19
-  - No
-  - [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data)
-* - Sample annotation
-  - Tab-delimited text
-  - —
-  - —
-  - [Annotation](#preparing-the-sample-annotation)
-* - Survival data
-  - Tab-delimited text
-  - —
-  - —
-  - [Survival](#survival-data)
-```
+| Data type | Omics layer | File format(s) | Genome build required | Paired design supported | Section |
+|---|---|---|---|---|---|
+| RNA-seq expression | Transcriptomics | Count matrix, TPM/RPKM matrix | Optional (for annotation) | No | [RNA-seq](#preparing-rna-sequencing-expression-data) |
+| Microarray expression | Transcriptomics | CEL (Affymetrix), matrix (Illumina) | No | No | [Microarray](#preparing-affymetrix-microarray-expression-data) |
+| DNA methylation | Epigenomics | IDAT or beta/M-value matrix | No | No | [Methylation](#preparing-dna-methylation-data) |
+| Somatic SNV/Indel | Genomics | VCF | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf) |
+| Copy number variation | Genomics | SEG | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [CNV](#preparing-copy-number-variation-data-seg) |
+| Structural variants | Genomics | SV-VCF or BEDPE | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [SV](#preparing-structural-variant-data) |
+| ChIP-seq / ATAC-seq | Epigenomics / Chromatin | BED/narrowPeak + BigWig | GRCh38 or GRCh37/hg19 | No | [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data) |
+| Sample annotation | — | Tab-delimited text | — | — | [Annotation](#preparing-the-sample-annotation) |
+| Survival data | — | Tab-delimited text | — | — | [Survival](#survival-data) |
 
 ---
 
@@ -230,25 +188,14 @@ Copy number variation (CNV) data is displayed in R2 as CGH-like scatter plots in
 
 The SEG (segmentation) file is a tab-delimited text file with the following columns:
 
-```{list-table}
-:header-rows: 1
-:widths: 20 80
-
-* - Column
-  - Description
-* - `ID`
-  - Sample identifier (must match your sample annotation file)
-* - `chrom`
-  - Chromosome (use `chr1`, `chr2`, … `chrX`, `chrY`)
-* - `loc.start`
-  - Segment start position (1-based)
-* - `loc.end`
-  - Segment end position (1-based)
-* - `num.mark`
-  - Number of probes or bins in the segment
-* - `seg.mean`
-  - Segmented value (log2 ratio tumor/normal, or log2 copy number ratio)
-```
+| Column | Description |
+|---|---|
+| `ID` | Sample identifier (must match your sample annotation file) |
+| `chrom` | Chromosome (use `chr1`, `chr2`, … `chrX`, `chrY`) |
+| `loc.start` | Segment start position (1-based) |
+| `loc.end` | Segment end position (1-based) |
+| `num.mark` | Number of probes or bins in the segment |
+| `seg.mean` | Segmented value (log2 ratio tumor/normal, or log2 copy number ratio) |
 
 Example:
 
@@ -294,33 +241,18 @@ Provide one VCF per sample (or per tumor-normal pair for somatic SVs).
 
 BEDPE format encodes SVs as paired genomic coordinates. The file must be tab-delimited with at minimum these columns:
 
-```{list-table}
-:header-rows: 1
-:widths: 15 85
-
-* - Column
-  - Description
-* - `chrom1`
-  - Chromosome of breakpoint 1
-* - `start1`
-  - Start of breakpoint 1 interval
-* - `end1`
-  - End of breakpoint 1 interval
-* - `chrom2`
-  - Chromosome of breakpoint 2
-* - `start2`
-  - Start of breakpoint 2 interval
-* - `end2`
-  - End of breakpoint 2 interval
-* - `name`
-  - Variant name or ID
-* - `score`
-  - Quality score or read support
-* - `strand1`
-  - Strand at breakpoint 1
-* - `strand2`
-  - Strand at breakpoint 2
-```
+| Column | Description |
+|---|---|
+| `chrom1` | Chromosome of breakpoint 1 |
+| `start1` | Start of breakpoint 1 interval |
+| `end1` | End of breakpoint 1 interval |
+| `chrom2` | Chromosome of breakpoint 2 |
+| `start2` | Start of breakpoint 2 interval |
+| `end2` | End of breakpoint 2 interval |
+| `name` | Variant name or ID |
+| `score` | Quality score or read support |
+| `strand1` | Strand at breakpoint 1 |
+| `strand2` | Strand at breakpoint 2 |
 
 Additional columns for SV type, sample ID, and supporting reads are recommended.
 

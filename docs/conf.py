@@ -1,6 +1,6 @@
 import datetime
 
-extensions = []
+extensions = ['sphinx_markdown_tables']
 templates_path = ['_templates']
 
 master_doc = 'index'
