@@ -20,17 +20,17 @@ R2 started out as a genomics platform but has grown into a more generic multi-om
 
 The table below gives an overview of the data types covered in this chapter, together with their required file formats. Use it to navigate directly to the relevant preparation section. If your data type is not listed here or elsewhere in the tutorials, please contact us at <r2-support@amsterdamumc.nl> and we will be happy to guide you through the options.
 
-| Data type | Omics layer | File format(s) | Paired design supported | Section |
-|---|---|---|---|---|
-| RNA-seq expression | Transcriptomics | Count matrix, TPM/RPKM matrix | No | [RNA-seq](#preparing-rna-sequencing-expression-data) |
-| Microarray expression | Transcriptomics | CEL (Affymetrix), matrix (Illumina) | No | [Microarray](#preparing-affymetrix-microarray-expression-data) |
-| DNA methylation | Epigenomics | IDAT or beta/M-value matrix | No | [Methylation](#preparing-dna-methylation-data) |
-| Somatic SNV/Indel | Genomics | VCF | Yes (tumor-normal) | [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf) |
-| Copy number variation | Genomics | SEG | Yes (tumor-normal) | [CNV](#preparing-copy-number-variation-data-seg) |
-| Structural variants | Genomics | SV-VCF or BEDPE | Yes (tumor-normal) | [SV](#preparing-structural-variant-data) |
-| ChIP-seq / ATAC-seq | Epigenomics / Chromatin | BED/narrowPeak + BigWig | No | [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data) |
-| Sample annotation | — | Tab-delimited text | — | [Annotation](#preparing-the-sample-annotation) |
-| Survival data | — | Tab-delimited text | — | [Survival](#survival-data) |
+| Data type | File format(s) | Paired design supported |
+|---|---|---|
+| [RNA-seq expression](#preparing-rna-sequencing-expression-data) | Count matrix, TPM/RPKM matrix | No |
+| [Microarray expression](#preparing-affymetrix-microarray-expression-data) | CEL (Affymetrix), matrix (Illumina) | No |
+| [DNA methylation](#preparing-dna-methylation-data) | IDAT or beta/M-value matrix | No |
+| [Somatic SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf) | VCF | Yes (tumor-normal) |
+| [Copy number variation](#preparing-copy-number-variation-data-seg) | SEG | Yes (tumor-normal) |
+| [Structural variants](#preparing-structural-variant-data) | SV-VCF or BEDPE | Yes (tumor-normal) |
+| [ChIP-seq / ATAC-seq](#preparing-chip-seq-and-atac-seq-data) | BED/narrowPeak + BigWig | No |
+| [Sample annotation](#preparing-the-sample-annotation) | Tab-delimited text | — |
+| [Survival data](#survival-data) | Tab-delimited text | — |
 
 ---
 
