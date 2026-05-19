@@ -16,21 +16,21 @@
 
 ## Quick reference: supported data types
 
-R2 is a generic multi-omics platform. Any data type that can be represented as a matrix — with feature identifiers (genes, probes, CpG sites, variants, peaks, or similar) in rows and samples in columns — can in principle be hosted in R2. Genomics data types such as somatic variants, copy number profiles, and structural variants require specific file formats and are described in the sections below, but they are one layer of a broader omics landscape that R2 supports, which also includes transcriptomics, epigenomics, and chromatin accessibility data.
+R2 started out as a genomics platform but has grown into a more generic multi-omics platform. Any data type that can be represented as a matrix — with feature identifiers (genes, probes, CpG sites, variants, peaks, or similar) in rows and samples in columns — can in principle be hosted in R2. Genomics data types such as somatic variants, copy number profiles, and structural variants require specific file formats and are described in the sections below.
 
-The table below gives an overview of the data types covered in this chapter, together with their required file formats. Use it to navigate directly to the relevant preparation section.
+The table below gives an overview of the data types covered in this chapter, together with their required file formats. Use it to navigate directly to the relevant preparation section. If your data type is not listed here or elsewhere in the tutorials, please contact us at <r2-support@amsterdamumc.nl> and we will be happy to guide you through the options.
 
-| Data type | Omics layer | File format(s) | Genome build required | Paired design supported | Section |
-|---|---|---|---|---|---|
-| RNA-seq expression | Transcriptomics | Count matrix, TPM/RPKM matrix | Optional (for annotation) | No | [RNA-seq](#preparing-rna-sequencing-expression-data) |
-| Microarray expression | Transcriptomics | CEL (Affymetrix), matrix (Illumina) | No | No | [Microarray](#preparing-affymetrix-microarray-expression-data) |
-| DNA methylation | Epigenomics | IDAT or beta/M-value matrix | No | No | [Methylation](#preparing-dna-methylation-data) |
-| Somatic SNV/Indel | Genomics | VCF | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf) |
-| Copy number variation | Genomics | SEG | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [CNV](#preparing-copy-number-variation-data-seg) |
-| Structural variants | Genomics | SV-VCF or BEDPE | GRCh38 or GRCh37/hg19 | Yes (tumor-normal) | [SV](#preparing-structural-variant-data) |
-| ChIP-seq / ATAC-seq | Epigenomics / Chromatin | BED/narrowPeak + BigWig | GRCh38 or GRCh37/hg19 | No | [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data) |
-| Sample annotation | — | Tab-delimited text | — | — | [Annotation](#preparing-the-sample-annotation) |
-| Survival data | — | Tab-delimited text | — | — | [Survival](#survival-data) |
+| Data type | Omics layer | File format(s) | Paired design supported | Section |
+|---|---|---|---|---|
+| RNA-seq expression | Transcriptomics | Count matrix, TPM/RPKM matrix | No | [RNA-seq](#preparing-rna-sequencing-expression-data) |
+| Microarray expression | Transcriptomics | CEL (Affymetrix), matrix (Illumina) | No | [Microarray](#preparing-affymetrix-microarray-expression-data) |
+| DNA methylation | Epigenomics | IDAT or beta/M-value matrix | No | [Methylation](#preparing-dna-methylation-data) |
+| Somatic SNV/Indel | Genomics | VCF | Yes (tumor-normal) | [SNV/Indel](#preparing-somatic-snv-and-indel-data-vcf) |
+| Copy number variation | Genomics | SEG | Yes (tumor-normal) | [CNV](#preparing-copy-number-variation-data-seg) |
+| Structural variants | Genomics | SV-VCF or BEDPE | Yes (tumor-normal) | [SV](#preparing-structural-variant-data) |
+| ChIP-seq / ATAC-seq | Epigenomics / Chromatin | BED/narrowPeak + BigWig | No | [ChIP-seq/ATAC-seq](#preparing-chip-seq-and-atac-seq-data) |
+| Sample annotation | — | Tab-delimited text | — | [Annotation](#preparing-the-sample-annotation) |
+| Survival data | — | Tab-delimited text | — | [Survival](#survival-data) |
 
 ---
 
