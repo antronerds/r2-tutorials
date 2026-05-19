@@ -113,27 +113,19 @@ Vendor annotation files (with a download link) are usually sufficient. When in d
 
 ## Preparing DNA methylation data
 
-R2 supports DNA methylation data from **Illumina array platforms** (450k and EPIC/850k). Two submission routes are available:
+R2 supports DNA methylation data in a matrix format analogous to expression data. Provide a tab-delimited matrix where:
 
-### Option A: IDAT files (preferred)
-
-Provide the raw IDAT files (one Red and one Green file per sample). The R2 team will handle background correction, normalization, and probe filtering. Please also supply the array type (450k or EPIC) and the genome build used.
-
-### Option B: Pre-processed matrix
-
-If you have already processed your methylation data, provide a tab-delimited matrix where:
-
-- The first column contains Illumina probe IDs (e.g. `cg00000029`)
+- The first column contains feature identifiers (e.g. probe IDs such as `cg00000029` for Illumina arrays, or region identifiers for other platforms)
 - Subsequent columns contain per-sample values, one column per sample
 - Values should be **beta values** (0–1 range) or **M-values** (log2 ratio); indicate which
 
-Please specify the genome build (GRCh38 or GRCh37/hg19), the array type, and the preprocessing pipeline used (e.g. minfi, ChAMP, or SeSAMe).
+Please specify the genome build (e.g. GRCh38), the array or platform type, and the preprocessing pipeline used when contacting us.
 
 ### Sample annotation for methylation data
 
 Supply a sample annotation file (see [Preparing the sample annotation](#preparing-the-sample-annotation)) matching the sample names in the matrix. For tumor samples, include relevant clinical and pathological variables as annotation tracks.
 
-> **Note for tumor-normal paired datasets:** If your dataset contains matched tumor and normal pairs (e.g. for differential methylation analysis), indicate the pairing in the annotation file using a dedicated track (e.g. `pair_id`).
+> **Note for tumor-normal paired datasets:** If your dataset contains matched tumor and normal pairs, indicate the pairing in the annotation file using a dedicated track (e.g. `pair_id`).
 
 ---
 
@@ -143,7 +135,7 @@ R2 supports somatic small variant data (single nucleotide variants and small ins
 
 ### Genome build
 
-Always specify the genome build. R2 supports **GRCh38** and **GRCh37/hg19**. Mixing builds within a dataset is not supported.
+Always specify the genome build when submitting (e.g. GRCh38). Mixing builds within a dataset is not supported.
 
 ### VCF requirements
 
@@ -162,11 +154,11 @@ For somatic variant calling from paired tumor-normal WES/WGS data, provide:
 
 - A VCF file representing **somatic calls** (germline variants filtered out)
 - The sample naming convention used: in R2, paired samples are typically named as `<SampleID>T` (tumor) and `<SampleID>N` (normal), e.g. `P001T` / `P001N`
-- The variant caller used (e.g. Mutect2, Strelka2, VarScan2) — this helps the R2 team apply appropriate quality filters
+- The variant caller used (e.g. Mutect2, Strelka2) — this helps the R2 team apply appropriate quality filters
 
 ### Variant annotation
 
-Pre-annotating your VCF with functional consequences using **VEP** (Ensembl Variant Effect Predictor) or **ANNOVAR** is recommended but not required. If annotation is included, please indicate the field name and format used (e.g. `CSQ` for VEP).
+Pre-annotating your VCF with functional consequences (e.g. using VEP or ANNOVAR) is recommended but not required. If annotation is included, please indicate the field name and format used.
 
 ### Submitting VCF data
 
@@ -208,8 +200,8 @@ Sample01    chr1    38590145    48596063    394         -0.9841
 ### Requirements and recommendations
 
 - Provide **log2 ratios** (tumor vs. normal or vs. reference) as the `seg.mean` value; indicate clearly if you provide absolute copy number instead
-- Specify the genome build (GRCh38 or GRCh37/hg19)
-- Indicate the segmentation algorithm used (e.g. GATK CNV, CNVkit, PURPLE, CBS/DNAcopy)
+- Specify the genome build (e.g. GRCh38)
+- Indicate the segmentation algorithm used
 - For tumor-normal paired data, indicate whether the log2 ratios are already corrected against the matched normal
 
 ### Tumor purity and ploidy
@@ -258,8 +250,8 @@ Additional columns for SV type, sample ID, and supporting reads are recommended.
 
 ### Requirements
 
-- Specify the genome build
-- Specify the SV caller used (e.g. DELLY, Manta, GRIDSS, LUMPY)
+- Specify the genome build (e.g. GRCh38)
+- Specify the SV caller used
 - For somatic SVs, indicate whether germline events have been filtered out and how
 - Use the same sample naming convention as for your SNV/CNV files
 
@@ -273,7 +265,7 @@ ChIP-seq and ATAC-seq data can be added to R2 for visualization in the genome br
 
 1. **Peak file** — BED or narrowPeak format (ENCODE narrowPeak is preferred):
    - For ChIP-seq: peaks called against an input/IgG control
-   - For ATAC-seq: peaks called with e.g. MACS2 or HMMRATAC
+   - For ATAC-seq: peaks called with your peak caller of choice
    - Recommended minimum columns: `chrom`, `chromStart`, `chromEnd`, `name`, `score`, `strand`, `signalValue`, `pValue`, `qValue`, `peak`
 
 2. **Signal track** — BigWig format (`.bw`):
@@ -282,8 +274,8 @@ ChIP-seq and ATAC-seq data can be added to R2 for visualization in the genome br
 
 ### Requirements
 
-- Specify the genome build (GRCh38 or GRCh37/hg19)
-- Specify the alignment tool used (e.g. Bowtie2, BWA) and the peak caller (e.g. MACS2)
+- Specify the genome build (e.g. GRCh38)
+- Specify the alignment tool and peak caller used
 - For ChIP-seq, specify the target (histone mark, transcription factor, or chromatin state)
 - For ATAC-seq, indicate whether data is from bulk or single-cell experiments
 
