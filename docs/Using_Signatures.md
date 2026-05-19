@@ -16,15 +16,17 @@ Scope
 
 
 
-Within the current context, we define a signature as a collection of
+To interpret gene-expression data at the level of biological processes rather than individual genes, R2 offers several ways to convert a list of genes (a “signature” or “gene set”) into a single activity score per sample. These methods differ in how they summarize the expression patterns of the genes in the signature and in how sensitive they are to subtle differences across samples. In this chapter we introduce three approaches: the weighted average z-score used by R2, ssGSEA, and GSVA.  
+  
+Why We define a signature as a collection of
 genes that are defined on a particular basis. This can be the presence
 within a gene-ontology class, the genomic location of a gene, or perhaps
 something potentially more meaningful like a functional pathway
 signature. Functional pathway signatures are mRNA proxies for a
-particular perturbation, such as the response to the downregulation of a
+particular perturbation, such as the response to the down regulation of a
 gene, or the consequence of a targeted compound (drug). Especially in
 this context, the collection of genes may have predictive power for the
-activity of a process. Of course it becomes cumbersome to assess the
+activity of a process. Of course, it becomes cumbersome to assess the
 activity on a gene-by-gene basis. It would be very handy if we could
 express the behavior of all the genes in a single value. Within R2, we
 can convert the behavior of a list of genes into a signature score that
@@ -50,10 +52,10 @@ they follow a specific convention (fixed prefix, followed by \_up and
 [**Figure 1: Signature score: one category vs up/downcategory**](_static/images/Genesetsignatures/Genesetcorrelation_sig_score_explained_v0.png)
 
 
--   What is a genesignature
--   Create a track using the weight scores of a genesignature
--   Relate a weighed genesignature track to a single gene
--   Find correlating genesignatures with a track
+-   What is a gene signature
+-   Create a track using the weight scores of a gene signature
+-   Relate a weighed gene signature track to a single gene
+-   Find correlating gene signatures with a track
 
 ------------------------
   ![](_static/images/R2d2_logo.png)**Did you know that you can create gene category couples**
@@ -66,10 +68,10 @@ they follow a specific convention (fixed prefix, followed by \_up and
 Step 1: Creating a geneset signature, a Track within R2
 ---------------
 
-As a start, let"s create the signature scores for a pair of gene
+As a start, let's create the signature scores for a pair of gene
 categories. In this tutorial, we will make use of a published functional
 MYCN pathway activity signature that was created on the Neuroblastoma 88
-dataset (Valentijn et al 2012). This signature is provided within R2.
+dataset (Valentijn et al. 2012). This signature is provided within R2.
 
 1.  We start at "Main". Make sure that the "Single dataset" option is
     selected in "box 1".
@@ -312,12 +314,19 @@ You can use the gene signature correlation option in order to identify genes whi
     
     [**Figure 15: Ordered R-values + XY-plot**](_static/images/Genesetsignatures/genesignature_graphtableva.png)
 
-You can also select multiple categories to investigate the individual contribution of genes to a signature score. R2 will automatically keep the coloring for the separate gene categories.  
+You can also select multiple gene sets to investigate the individual contribution of genes to a signature score. R2 will automatically keep the coloring for the separate gene sets.  
 
 
 
-
-
+Alternative signature score algorithms in R2
+---------------
+The R2 signature score algorithm is an unsupervised single sample enrichment score, that creates a fast and intuitive summary of gene set behavior in your dataset, but it comes with some assumptions that are not always correct. 
+It assumes that genes The R2 platform has another module that calculates unsupervised single sample enrichment scores: the Gene Set Variation Analysis (GSVA) and the single sample GSEA (ssGSEA).  
+The input is again a gene expression matrix and a (collection) of gene set(S) and the output is a heatmap with a geneset per row and the samples in the columns.
+The benefit of this module is that it is specifically designed for viewing the gene set enrichments scores themselves in a heatmap and therefor allowing 
+The module that is also handy for looking at larger selection of GSVA (Gene Set Variation Analysis) takes a gene-expression dataset and converts it into pathway- or geneset activity scores for every sample.
+Similarly to the signature score above, GSVA  looks at how active a gene set is in each sample, compared with the other samples. 
+It does this without needing any predefined groups (unsupervised).
 
 
 
