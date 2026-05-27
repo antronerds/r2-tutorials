@@ -29,6 +29,8 @@ The table below gives an overview of the data types covered in this chapter, tog
 | [Copy number variation](#preparing-copy-number-variation-data-seg) | SEG | Yes (tumor-normal) |
 | [Structural variants](#preparing-structural-variant-data) | SV-VCF or BEDPE | Yes (tumor-normal) |
 | [ChIP-seq / ATAC-seq](#preparing-chip-seq-and-atac-seq-data) | BED/narrowPeak + BigWig | No |
+| [CRISPR screen](#preparing-crispr-screen-data) | Tab-delimited count matrix | No |
+| [GWAS summary statistics](#preparing-gwas-summary-statistics) | Tab-delimited (REGENIE format) | No |
 | [Sample annotation](#preparing-the-sample-annotation) | Tab-delimited text | — |
 | [Survival data](#survival-data) | Tab-delimited text | — |
 
@@ -264,13 +266,13 @@ ChIP-seq and ATAC-seq data can be added to R2 for visualization in the genome br
 ### Required files per sample/condition
 
 1. **Peak file** — BED or narrowPeak format (ENCODE narrowPeak is preferred):
-   - For ChIP-seq: peaks called against an input/IgG control
-   - For ATAC-seq: peaks called with your peak caller of choice
-   - Recommended minimum columns: `chrom`, `chromStart`, `chromEnd`, `name`, `score`, `strand`, `signalValue`, `pValue`, `qValue`, `peak`
+    - For ChIP-seq: peaks called against an input/IgG control
+    - For ATAC-seq: peaks called with your peak caller of choice
+    - Recommended minimum columns: `chrom`, `chromStart`, `chromEnd`, `name`, `score`, `strand`, `signalValue`, `pValue`, `qValue`, `peak`
 
 2. **Signal track** — BigWig format (`.bw`):
-   - Normalized read coverage (e.g. RPKM, CPM, or fold-enrichment over input)
-   - Must be coordinate-sorted and indexed
+    - Normalized read coverage (e.g. RPKM, CPM, or fold-enrichment over input)
+    - Must be coordinate-sorted and indexed
 
 ### Requirements
 
@@ -282,6 +284,116 @@ ChIP-seq and ATAC-seq data can be added to R2 for visualization in the genome br
 ### Submitting ChIP-seq / ATAC-seq data
 
 Transfer BigWig and peak files to us via [www.wetransfer.com](http://www.wetransfer.com) or a secure institutional transfer, and email <r2-support@amsterdamumc.nl> with the details listed above. For large cohorts, contact us first to discuss the most efficient transfer method.
+
+---
+
+## Preparing CRISPR screen data
+
+CRISPR screens belong to the field of functional genomics. The data readout is guide RNA abundance measured by sequencing, and the resulting count matrix fits R2's standard matrix model well: guide sequences (or guide IDs) as row identifiers, and samples or conditions as columns.
+
+Most CRISPR screens are genome-wide, targeting all ~20,000 human genes simultaneously with multiple guides per gene, resulting in a file with hundreds of thousands of rows. Focused or targeted screens (e.g. a kinome-only library) follow the same format but with fewer rows.
+
+### File format
+
+Provide a tab-delimited text file with the following columns:
+
+- **GUIDE_SEQUENCE** (or a unique guide ID) as the first column — this is the row identifier
+- **GENE** as the second column — the target gene for each guide
+- One column per sample, named to reflect the condition and replicate (e.g. `Untreated_1`, `Treated_1`)
+
+Values should be **raw counts** per guide per sample. If you have already normalized the data, indicate the normalization method used.
+
+A typical genome-wide screen file will contain 4–6 guides per gene and cover all protein-coding genes, but the format is the same regardless of library size. Below is a truncated example (the full file would continue for all genes in the library, sorted alphabetically):
+
+```
+GUIDE_SEQUENCE        GENE   Untreated_1  Untreated_2  Untreated_3  Treated_1  Treated_2  Treated_3
+CCTAGCTAATGCTGACCAGT  AAVS1  501          488          512          495        503        498
+AGTCGATGCCTAGCAGTCCT  AAVS1  467          453          478          460        471        465
+GCTAGTACCTGAATCGCTAA  AAVS1  523          510          534          518        525        511
+TGACCAGCTAATCCTGACTA  AAVS1  489          476          501          484        492        479
+AAGTTGCCTAGCAGTCGATG  A1BG   423          389          401          210        198        224
+TCCAGGTACCTGAGTCAAGC  A1BG   601          578          620          289        301        315
+GCATTAGCCTGAATCGGTAC  A1BG   318          302          340          290        310        298
+CGTAACCTGAGTTCAGATCG  A1BG   475          461          489          231        245        219
+...
+```
+
+> **Note:** Non-targeting or safe-harbor control guides (e.g. targeting AAVS1) should always be included in the file, as they are essential for normalization and quality control.
+
+### Submitting CRISPR screen data
+
+Transfer the count file alongside the sample annotation to <r2-support@amsterdamumc.nl>, and include:
+
+1. The screen type (genome-wide, focused, or targeted)
+2. The guide library used
+3. Whether values are raw counts or normalized
+4. The number of samples and conditions
+
+---
+
+## Preparing GWAS summary statistics
+
+GWAS (genome-wide association study) summary statistics represent the per-variant statistical output of a genetic association analysis. Unlike individual-level genotype data, summary statistics do not contain information about individual study participants — they report aggregate results such as effect sizes, p-values, and allele frequencies per variant across the genome. This makes them suitable for broader sharing within controlled access settings.
+
+In R2, each GWAS analysis (e.g. a specific phenotype, model, or cohort) is treated as a study, and studies are managed analogously to samples in other data types. This means the existing R2 access control system can be used to restrict visibility of a study to specific users or groups.
+
+### File format
+
+R2 accepts GWAS summary statistics in the REGENIE output format, which is a tab-delimited text file with one row per variant. The expected columns are:
+
+| Column | Description |
+|---|---|
+| `#CHROM` | Chromosome |
+| `POS` | Base-pair position |
+| `ID` | Variant identifier (e.g. rsID) |
+| `REF` | Reference allele |
+| `ALT` | Alternate allele |
+| `A1` | Tested allele (usually ALT) |
+| `A1_FREQ` | Frequency of the A1 allele in the full sample |
+| `A1_CASE_FREQ` | A1 frequency in cases |
+| `A1_CTRL_FREQ` | A1 frequency in controls |
+| `MACH_R2` | Imputation quality score |
+| `TEST` | Type of test performed (e.g. `ADD` for additive model) |
+| `OBS_CT` | Number of observed (non-missing) samples |
+| `BETA` | Effect size estimate |
+| `SE` | Standard error of BETA |
+| `Z_STAT` | Z-statistic (BETA / SE) |
+| `P` | P-value |
+| `ERRCODE` | Error or warning code (`.` means no issue) |
+
+> **Note:** Only records without an error code (`ERRCODE = .`) will be stored in R2. Please do not pre-filter your file on this — the R2 team will handle this step during ingestion.
+
+### Study identifier
+
+Every summary statistics file must be accompanied by a unique study identifier, which R2 uses to distinguish analyses from one another (e.g. `GLASS-NL_GBM_vs_ctrl_additive_GRCh38`). This identifier is the equivalent of a sample name in other data types and determines how the study appears in the R2 interface and genome browser.
+
+### Study metadata
+
+In addition to the summary statistics file, provide a short metadata description of the study in a separate tab-delimited file with at minimum the following fields:
+
+| Field | Description |
+|---|---|
+| `study_id` | Unique study identifier (must match the filename or header) |
+| `phenotype` | The trait or outcome tested |
+| `model` | The association model used (e.g. additive, dominant) |
+| `n_cases` | Number of cases |
+| `n_controls` | Number of controls (if applicable) |
+| `genome_build` | Genome build used (e.g. GRCh38) |
+| `software` | Analysis software and version (e.g. REGENIE v3.2) |
+| `description` | Free-text description of the study |
+
+### Genome browser visualization
+
+By default, R2 applies a p-value cutoff when displaying GWAS summary statistics in the genome browser, showing only the most significant associations. This cutoff is set for performance reasons given the large number of variants in a typical genome-wide file. If you have a specific cutoff preference, indicate this when submitting.
+
+### Submitting GWAS summary statistics
+
+Transfer your summary statistics file(s) and metadata file to <r2-support@amsterdamumc.nl> and include:
+
+1. The study identifier(s)
+2. Genome build
+3. Software and version used (e.g. REGENIE)
+4. Whether access should be restricted to a specific user group
 
 ---
 
