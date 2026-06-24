@@ -23,7 +23,7 @@ Scope
 
 
 
-Step 1: Exploring the genome browser
+Explore the genome browser
 ---------------
 
 1.  In the main menu select in field 2 the default dataset “Tumor
@@ -121,7 +121,7 @@ Step 1: Exploring the genome browser
 [**Figure 4: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 
 
-Step 2: Zooming and panning
+Zoom and pan
 ---------------
 
 1.  The R2 Genome browser is a highly interactive application offering
@@ -174,7 +174,7 @@ Step 2: Zooming and panning
 
 
 
-Step 3: Looking up chromosome regions
+Look up chromosome regions
 ---------------
 
 
@@ -199,7 +199,7 @@ chromosome at a certain location.
     The genome browser can directly be accessed from the main menu
     including many basic functionalities.
 
-Step 4: Adding annotations to the Genome Browser view
+Add annotations to the Genome Browser view
 ---------------
 You can add many annotations to your Genome Browser view. Don't forget to click **redraw** in the middle menu block, every time you changed annotation(s) setting(s) for it to take effect.
 
@@ -226,7 +226,7 @@ Here you can find a list of many of the frequently used annotations:
 
 :::
 
-Step 5: Working with multiple samples listed within a track
+Work with multiple samples listed within a track
 ---------------
 
 In some instances, genome tracks may list a whole array of samples, that can individually be selected for display. If R2 has the ability to also display multiple samples for that specific track, then the items 'all' and 'custom' will be represented in the sample dropdown list as well. The first does not require further explanation, however the 'custom' option probably does.
@@ -237,7 +237,7 @@ The R2 Genome Browser can be used with different genome builds (versions). Depen
 
 
 
-Step 6: Store / retrieve complex settings with profiles
+Store / retrieve complex settings with profiles
 ---------------
 
 The possibilities of tracks combined with their individual settings within the genome browser are immense. In many 
