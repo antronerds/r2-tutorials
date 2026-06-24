@@ -1,7 +1,7 @@
 import datetime
 
 extensions = ['sphinx_search.extension', 'myst_parser', 'sphinx_markdown_tables', 'sphinx_design', 'sphinx_copybutton']
-myst_enable_extensions = ["linkify", "colon_fence"]
+myst_enable_extensions = ["breaks","linkify", "colon_fence"]
 myst_commonmark_only = False
 templates_path = ['_templates']
 
