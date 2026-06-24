@@ -209,6 +209,8 @@ Here you can find a list of many of the frequently used annotations:
 
 :::{dropdown} Click to expand to see a preview
 
+**_Genome Structure & Sequence Features_**
+
 **Giemsa / Cytoband**
 **Link:** <https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=cytoBand>
 
@@ -220,6 +222,7 @@ Here you can find a list of many of the frequently used annotations:
 **Link:** <https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=cpgIslandExt>
 
 **Description (UCSC):** "CpG islands are regions where CpGs are present at significantly higher levels than is typical for the genome as a whole. CpG islands are associated with genes, particularly housekeeping genes, in vertebrates, and are typically common near transcription start sites and may be associated with promoter regions." Predicted using criteria: length ≥200 bp, GC content ≥50%, observed/expected CpG ratio ≥0.6.
+
 
 
 [more...](Using_TheGenome_Browser_Annotations.md)
