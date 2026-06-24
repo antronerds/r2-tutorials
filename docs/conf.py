@@ -1,6 +1,6 @@
 import datetime
 
-extensions = ['sphinx_search.extension', 'myst_parser', 'sphinx_markdown_tables', 'sphinx_design']
+extensions = ['sphinx_search.extension', 'myst_parser', 'sphinx_markdown_tables', 'sphinx_design', 'sphinx_copybutton']
 myst_enable_extensions = ["breaks", "linkify", "colon_fence"]
 
 
