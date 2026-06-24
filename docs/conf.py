@@ -3,7 +3,6 @@ import datetime
 extensions = ['sphinx_search.extension', 'myst_parser', 'sphinx_markdown_tables', 'sphinx_design', 'sphinx_copybutton']
 myst_enable_extensions = ["breaks", "linkify", "colon_fence"]
 
-
 templates_path = ['_templates']
 
 master_doc = 'index'
@@ -24,7 +23,7 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 def setup(app):
-  app.add_stylesheet( "css/r2tutorials.css" )
+  app.add_css_file("css/r2tutorials.css")
 # from http://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc/32079202#32079202
 
 html_static_path = ['_static']
