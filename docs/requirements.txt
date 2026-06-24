@@ -4,4 +4,3 @@ myst-parser==0.13.7
 sphinx-markdown-tables
 docutils<0.17
 jinja2==3.0.3
-sphinx_search.extension
