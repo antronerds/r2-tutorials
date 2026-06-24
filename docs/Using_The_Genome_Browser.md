@@ -199,7 +199,7 @@ chromosome at a certain location.
     The genome browser can directly be accessed from the main menu
     including many basic functionalities.
 
-Step 4: Working with multiple samples listed within a track
+Step 4: Adding annotations to the Genome Browser view
 ---------------
 You can add many annotations to your Genome Browser view. Don't forget to click **redraw** in the middle menu block, every time you changed annotation(s) setting(s) for it to take effect.
 
