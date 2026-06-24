@@ -9,16 +9,18 @@
 ## Scope
 
 - Learn how to add your own datasets to R2
-- Understand which file formats are required per genomics data type
+- Understand which file formats are required per data type
 - Have datasets added that are published in the literature
 
 ---
 
 ## Quick reference: supported data types
 
-R2 started out as a genomics platform but has grown into a more generic multi-omics platform. Any data type that can be represented as a matrix — with feature identifiers (genes, probes, CpG sites, variants, peaks, or similar) in rows and samples in columns — can in principle be hosted in R2. Genomics data types such as somatic variants, copy number profiles, and structural variants require specific file formats and are described in the sections below.
+R2 started out as a genomics platform but has grown into a more generic multi-omics platform. Any data type that can be represented as a matrix — with feature identifiers (genes, probes, CpG sites, variants, peaks, or similar) in rows and samples in columns — can in principle be hosted in R2. Certain data types require specific file formats and are described in the sections below.
 
-The table below gives an overview of the data types covered in this chapter, together with their required file formats. Use it to navigate directly to the relevant preparation section. If your data type is not listed here or elsewhere in the tutorials, please contact us at <r2-support@amsterdamumc.nl> and we will be happy to guide you through the options.
+The table below gives an overview of the data types covered in this chapter, together with their required file formats. Use it to navigate directly to the relevant preparation section.  
+
+**Please contact us at <r2-support@amsterdamumc.nl> if your data type is not listed here**, or you have a custom file structure. We will be happy to guide you through the options.
 
 | Data type | File format(s) | Paired design supported |
 |---|---|---|
