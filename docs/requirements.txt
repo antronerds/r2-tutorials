@@ -3,5 +3,5 @@ sphinx-rtd-theme==0.5.2
 myst-parser==0.13.7
 sphinx-markdown-tables
 docutils<0.17
-jinja2==3.0.3should i add this to the requirements?
+jinja2==3.0.3
 readthedocs-sphinx-search
