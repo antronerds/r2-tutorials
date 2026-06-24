@@ -1,6 +1,6 @@
 import datetime
 
-extensions = []
+extensions = ['sphinx_search.extension',]
 templates_path = ['_templates']
 
 master_doc = 'index'
