@@ -1,6 +1,6 @@
 import datetime
 
-extensions = [myst_parser', 'sphinx_markdown_tables']
+extensions = ['sphinx_search.extension', 'myst_parser', 'sphinx_markdown_tables']
 myst_enable_extensions = ["breaks"]
 
 
