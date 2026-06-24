@@ -7,3 +7,4 @@ jinja2==3.0.3
 readthedocs-sphinx-search
 linkify-it-py
 sphinx-design
+sphinx-copybutton
