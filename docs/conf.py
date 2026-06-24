@@ -1,6 +1,9 @@
 import datetime
 
-extensions = ['sphinx_search.extension',]
+extensions = ['sphinx_search.extension', 'myst_parser', 'sphinx_markdown_tables']
+myst_enable_extensions = ["breaks"]
+
+
 templates_path = ['_templates']
 
 master_doc = 'index'
@@ -69,11 +72,5 @@ texinfo_documents = [
    'Miscellaneous'),
 ]
 
-from recommonmark.parser import CommonMarkParser
-
 # The suffix of source filenames.
 source_suffix = ['.rst', '.md']
-
-source_parsers = {
-	'.md': CommonMarkParser,
-}
