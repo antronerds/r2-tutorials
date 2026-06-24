@@ -208,6 +208,7 @@ Here you can find a list of many of the frequently used annotations:
 [Genome Browser Annotations](Using_TheGenome_Browser_Annotations.md)
 
 :::{dropdown} Click to expand to see a preview
+
 **Giemsa / Cytoband**
 **Link:** <https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=cytoBand>
 
@@ -222,6 +223,7 @@ Here you can find a list of many of the frequently used annotations:
 
 ---
 [more...](Using_TheGenome_Browser_Annotations.md)
+
 :::
 
 Step 5: Working with multiple samples listed within a track
