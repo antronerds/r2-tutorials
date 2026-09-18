@@ -1,7 +1,7 @@
 import datetime
 
 extensions = ['myst_parser', 'sphinx_markdown_tables', 'sphinx_design', 'sphinx_copybutton']
-myst_enable_extensions = ["breaks","linkify", "colon_fence"]
+myst_enable_extensions = ["linkify", "colon_fence"]
 myst_commonmark_only = False
 myst_heading_anchors = 3
 myst_all_links_external = True
