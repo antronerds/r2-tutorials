@@ -1,34 +1,32 @@
 # R2 Genome Browser — Annotation Track Reference
 
-**!! Verify tracks (SuperEnhancers NB, MACS AMC/DKFZ) !!**
-
-This document lists many of the annotation tracks available in the R2 genome browser, with a description of each resource and a numbered reference to the original publication. The tracks are grouped by their biological category.
+This document lists many of the annotation tracks available in the R2 genome browser, with a description of each resource and a numbered reference to the original publication. The tracks are grouped by data type and source.
 
 ---
 
 ## Contents
 
-**[Genome Structure & Sequence Features](#genome-structure--sequence-features)**
+**[Genome Structure & Sequence Features](#genome-structure-sequence-features)**
 
-- [Giemsa / Cytoband](#giemsa--cytoband)
+- [Giemsa / Cytoband](#giemsa-cytoband)
 - [CpG Islands](#cpg-islands)
 - [Repeats (RepeatMasker)](#repeats-repeatmasker)
 - [Conservation (PlacMammal)](#conservation-placmammal)
 - [BlackListed (Consensus)](#blacklisted-consensus)
 - [LaminB1 Boundaries](#laminb1-boundaries)
-- [NAD Domains — Németh 2010](#nad-domains-németh-2010)
+- [NAD Domains — Németh 2010](#nad-domains-n-meth-2010)
 - [R-loop Forming Sequences](#r-loop-forming-sequences)
-- [Sequence & GC Windows / GC Percentage](#sequence--gc-windows--gc-percentage)
+- [Sequence & GC Windows / GC Percentage](#sequence-gc-windows-gc-percentage)
 
 **[Gene Annotation](#gene-annotation)**
 
-- [RefSeq (R2) / RefSeq (CDS) / RefSeq features](#refseq-r2--refseq-cds--refseq-features)
+- [RefSeq (R2) / RefSeq (CDS) / RefSeq features](#refseq-r2-refseq-cds-refseq-features)
 - [Ensembl Gene (e75)](#ensembl-gene-e75)
 - [Gencode](#gencode)
 - [lincRNA from LNCipedia](#lincrna-from-lncipedia)
-- [Neogenes — Vibert 2022 Mol. Cell](#neogenes--vibert-2022-mol-cell)
+- [Neogenes — Vibert 2022 Mol. Cell](#neogenes-vibert-2022-mol-cell)
 
-**[Regulatory Elements & Chromatin Accessibility](#regulatory-elements--chromatin-accessibility)**
+**[Regulatory Elements & Chromatin Accessibility](#regulatory-elements-chromatin-accessibility)**
 
 - [SuperEnhancers (dbSUPER)](#superenhancers-dbsuper)
 - [Deepmind AlphaMissense](#deepmind-alphamissense)
@@ -36,10 +34,10 @@ This document lists many of the annotation tracks available in the R2 genome bro
 - [Encode TF Clustered (~340 TFs)](#encode-tf-clustered-340-tfs)
 - [ENCODE cCREs combined](#encode-ccres-combined)
 - [NIH Epigenome Roadmap](#nih-epigenome-roadmap)
-- [FANTOM5 Enhancers (permissive / robust / Gex FDR)](#fantom5-enhancers-permissive--robust--gex-fdr)
+- [FANTOM5 Enhancers (permissive / robust / Gex FDR)](#fantom5-enhancers-permissive-robust-gex-fdr)
 - [CAGE FANTOM5 Phase1 2 tpm Summary](#cage-fantom5-phase1-2-tpm-summary)
 - [G4-quadruplex HEK293T (G4-seq, Marsico 2019)](#g4-quadruplex-hek293t-g4-seq-marsico-2019)
-- [GVATdb — measured 83 T2D loci](#gvatdb--measured-83-t2d-loci)
+- [GVATdb — measured 83 T2D loci](#gvatdb-measured-83-t2d-loci)
 - [GVATdb DeltaSVM 1k genomes (94 TFs)](#gvatdb-deltasvm-1k-genomes-94-tfs)
 - [Hi-C Domains (Literature)](#hi-c-domains-literature)
 - [Homer Known Motifs (Genome)](#homer-known-motifs-genome)
@@ -47,13 +45,13 @@ This document lists many of the annotation tracks available in the R2 genome bro
 - [SuperEnhancers NB (George)](#superenhancers-nb-george)
 - [Vista Enhancers](#vista-enhancers)
 
-**[ChIP-seq & Chromatin State](#chip-seq--chromatin-state)**
+**[ChIP-seq & Chromatin State](#chip-seq-chromatin-state)**
 
-- [ChromHMM (18-state models: ucle_18 / 18)](#chromhmm-18-state-models-ucle_18--18)
+- [ChromHMM (18-state models: ucle_18 / 18)](#chromhmm-18-state-models-ucle-18-18)
 - [DiffBind](#diffbind)
-- [ENCODE bed v1 / ENCODE bed v1 Ext](#encode-bed-v1--encode-bed-v1-ext)
-- [MACS 1.4 (AMC / DKFZ / Public)](#macs-14-amc--dkfz--public)
-- [MACS2 (Narrow) / MACS2 (Broad) 2](#macs2-narrow--macs2-broad-2)
+- [ENCODE bed v1 / ENCODE bed v1 Ext](#encode-bed-v1-encode-bed-v1-ext)
+- [MACS 1.4 (AMC / DKFZ / Public)](#macs-1-4-amc-dkfz-public)
+- [MACS2 (Narrow) / MACS2 (Broad) 2](#macs2-narrow-macs2-broad-2)
 
 **[References](#references)**
 
@@ -67,17 +65,17 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### CpG Islands
-**Description:** "CpG islands are regions where CpGs are present at significantly higher levels than is typical for the genome as a whole. CpG islands are associated with genes, particularly housekeeping genes, in vertebrates, and are typically common near transcription start sites and may be associated with promoter regions." Predicted using criteria: length ≥200 bp, GC content ≥50%, observed/expected CpG ratio ≥0.6. [1]
+**Description:** Regions where CpG dinucleotides occur at significantly higher density than is typical for the genome as a whole. CpG islands are associated with genes, particularly housekeeping genes, in vertebrates, and are commonly found near transcription start sites and promoter regions. Predicted using criteria: length ≥200 bp, GC content ≥50%, observed/expected CpG ratio ≥0.6. [1]
 
 ---
 
 ### Repeats (RepeatMasker)
-**Description:** "This track was created using Arian Smit's RepeatMasker program, which screens DNA sequences for interspersed repeats and low complexity DNA sequences. The program outputs a detailed annotation of the repeats that are present in the query sequence, as well as a modified version of the query sequence in which all the annotated repeats have been masked." Uses the Repbase Update library from the Genetic Information Research Institute (GIRI). [1, 2]
+**Description:** Generated with the RepeatMasker program, which screens DNA sequences for interspersed repeats and low-complexity sequence. RepeatMasker outputs an annotation of the repeats present in the query sequence, together with a version of that sequence in which the annotated repeats are masked. Uses the Repbase Update library from the Genetic Information Research Institute (GIRI). [1, 2]
 
 ---
 
 ### Conservation (PlacMammal)
-**Description:** PhastCons conservation scores across placental mammals, derived from multiz alignments of 46 vertebrate genomes. Measures the probability that each base belongs to a conserved element, useful for identifying functionally constrained regions across evolution. [1, 3]
+**Description:** PhastCons conservation scores for placental mammals, computed from multi-species genome alignments. Measures the probability that each base belongs to a conserved element, useful for identifying functionally constrained regions across evolution. [1, 3]
 
 ---
 
@@ -89,12 +87,10 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ### LaminB1 Boundaries
 **Description:** Boundaries of lamina-associated domains (LADs) as determined by LAMIN B1 ChIP-seq or DamID. LADs are genomic regions in contact with the nuclear lamina — typically heterochromatic, late-replicating, and transcriptionally repressed. The boundaries mark transitions between lamina-associated and non-lamina-associated chromatin and are associated with CTCF binding and TAD boundaries. [5]
 
-*(!!! Verify the exact source dataset)*
-
 ---
 
-### NAD Domains Németh 2010
-**Description:** Nucleolus-associated domains (NADs) represent genomic regions in close contact with the nucleolus. "NADs represent several megabases of the human genome from all 23 chromosomes, typically regions displaying silent chromatin signatures." NADs overlap extensively with LADs and are enriched for heterochromatic marks (H3K9me3), low gene density, and low expression levels. [6]
+### NAD Domains — Németh 2010
+**Description:** Nucleolus-associated domains (NADs) are genomic regions in close contact with the nucleolus, mapped by Németh et al. using 454 sequencing and microarray analysis. NADs make up roughly 4% of the human genome and are built largely from particular gene families and satellite repeats. NADs overlap extensively with LADs and are enriched for heterochromatic marks (H3K9me3), low gene density, and low expression levels. [6]
 
 ---
 
@@ -111,17 +107,17 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ## Gene Annotation
 
 ### RefSeq (R2) / RefSeq (CDS) / RefSeq features
-**Description:** "The Reference Sequence (RefSeq) collection provides a comprehensive, integrated, non-redundant, well-annotated set of sequences, including genomic DNA, transcripts, and proteins." RefSeq is the primary curated gene annotation resource used in R2. The CDS track specifically marks coding sequence exons; RefSeq features includes additional annotations such as UTRs and non-coding transcripts. [8]
+**Description:** RefSeq is a curated collection of stable, non-redundant reference sequences maintained by NCBI, covering genomic DNA, transcripts and proteins. RefSeq is the primary curated gene annotation resource used in R2. The CDS track specifically marks coding sequence exons; RefSeq features includes additional annotations such as UTRs and non-coding transcripts. [8]
 
 ---
 
 ### Ensembl Gene (e75)
-**Description:** Ensembl provides automated genome annotation of gene structures, transcripts, and regulatory features. Release 75 (GRCh37/hg19, February 2014) is shown here for compatibility with the hg19 genome build. Ensembl annotation integrates ab initio gene predictions, EST alignments, and manually curated Havana annotations. [9]
+**Description:** Ensembl provides automated genome annotation of gene structures, transcripts, and regulatory features. Release 75 is an Ensembl release built on the GRCh37/hg19 assembly. Ensembl annotation integrates ab initio gene predictions, EST alignments, and manually curated Havana annotations. [9]
 
 ---
 
 ### Gencode
-**Description:** "The GENCODE project produces high quality reference gene annotation and experimental validation for human and mouse genomes." GENCODE integrates both automated Ensembl annotation and manual HAVANA curation, and is the standard gene annotation used by ENCODE and many large-scale genomics projects. [10]
+**Description:** GENCODE produces reference-quality gene annotation for the human and mouse genomes, covering protein-coding and non-coding loci including alternatively spliced isoforms and pseudogenes. GENCODE integrates both automated Ensembl annotation and manual HAVANA curation, and is the standard gene annotation used by ENCODE and many large-scale genomics projects. [10]
 
 ---
 
@@ -131,7 +127,7 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### Neogenes — Vibert 2022 Mol. Cell
-**Description:** "EWS::FLI1 induces the robust expression of a specific set of novel spliced and polyadenylated transcripts within otherwise transcriptionally silent regions of the genome. These neogenes are virtually undetectable in large collections of normal tissues or non-EwS tumors." The Vibert 2022 track marks genomic coordinates of neogenes identified across oncogenic transcription factor fusion proteins — tumor-specific transcriptional outputs from otherwise silent regions, representing potential immunotherapy targets. [12]
+**Description:** "EWS::FLI1 induces the robust expression of a specific set of novel spliced and polyadenylated transcripts within otherwise transcriptionally silent regions of the genome. These neogenes are virtually undetectable in large collections of normal tissues or non-EwS tumors." The study reports neogenes driven by EWS::FLI1 and by 22 further chimeric transcription factors across 17 cancer types, and shows that some are translated into tumour-specific peptides. [12]
 
 ---
 
@@ -153,17 +149,17 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### Encode TF Clustered (~340 TFs)
-**Description:** An expanded version of the ENCODE transcription factor ChIP-seq clustering track, covering approximately 340 transcription factors. Derived from ENCODE Phase 3 and 4 data using a unified peak calling and clustering pipeline across hundreds of cell types and conditions. [15]
+**Description:** An ENCODE transcription factor ChIP-seq clustering track covering approximately 340 transcription factors, larger than the V3 clustering track above. [15]
 
 ---
 
 ### ENCODE cCREs combined
-**Description:** "The Registry of cCREs pipeline integrates DNase-seq datasets to generate a set of representative DNase hypersensitive sites (rDHSs). It then classifies a subset of rDHSs with supporting histone or CTCF ChIP-seq as candidate cis-regulatory elements (cCREs)." cCREs are classified as promoter-like (PLS), enhancer-like (ELS), or CTCF-only elements, providing a comprehensive catalogue of potential regulatory sequences across hundreds of human cell types. [16]
+**Description:** The Registry of candidate cis-regulatory elements is built by integrating DNase-seq data into representative DNase hypersensitive sites, then classifying the subset with supporting histone or CTCF ChIP-seq signal as cCREs. cCREs are classified as promoter-like (PLS), enhancer-like (ELS), or CTCF-only elements, providing a comprehensive catalogue of potential regulatory sequences across hundreds of human cell types. [16]
 
 ---
 
 ### NIH Epigenome Roadmap
-**Description:** "The NIH Roadmap Epigenomics Mapping Consortium was launched with the goal of producing a public resource of human epigenomic data to catalyze basic biology and disease-oriented research. The project has generated high-quality, genome-wide maps of several key histone modifications, chromatin accessibility, DNA methylation and mRNA expression across hundreds of human cell types and tissues." This track displays reference epigenome data from 111 consolidated epigenomes. [17]
+**Description:** The NIH Roadmap Epigenomics Mapping Consortium produced a public resource of human epigenomic data, generating genome-wide maps of key histone modifications, chromatin accessibility, DNA methylation and mRNA expression across a large panel of human cell types and tissues. This track displays reference epigenome data from 111 consolidated epigenomes. [17]
 
 ---
 
@@ -183,7 +179,7 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### GVATdb — measured 83 T2D loci
-**Description:** "This database characterizes the allelic binding of 95,886 common human single nucleotide polymorphisms (SNPs, MAF >1%) to 270 distinct transcription factors. The SNPs were chosen from neighboring regions (≤500 kb) of 83 risk loci of type 2 diabetes identified in several genome-wide association studies. The data were generated using SNP-SELEX." This track displays the genomic locations of the measured T2D risk locus variants. [20]
+**Description:** Yan et al. measured the binding of 270 human transcription factors to 95,886 common noncoding variants using SNP-SELEX, a high-throughput multiplex protein–DNA binding assay, yielding 828 million transcription factor–DNA interaction measurements. The variants were drawn from regions surrounding 83 type 2 diabetes risk loci identified in genome-wide association studies. This track displays the genomic locations of the measured T2D risk locus variants. [20]
 
 ---
 
@@ -193,12 +189,12 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### Hi-C Domains (Literature)
-**Description:** Topologically associating domains (TADs) identified from Hi-C chromosome conformation capture experiments, as reported across multiple publications. TADs are megabase-scale regions of preferential self-interaction that compartmentalize the genome into structural and regulatory units. TAD boundaries are enriched for CTCF binding sites and often coincide with housekeeping genes and tRNA genes. [21]
+**Description:** Topologically associating domains (TADs) identified from Hi-C chromosome conformation capture experiments. TADs are megabase-scale regions of preferential self-interaction that compartmentalize the genome into structural and regulatory units. TAD boundaries are enriched for CTCF binding sites and often coincide with housekeeping genes and tRNA genes. [21]
 
 ---
 
 ### Homer Known Motifs (Genome)
-**Description:** "These tracks display motif positions genome-wide for human and mouse. They are based on HOMER-motifs, and certainly miss many 'weak' binding sites and incorrectly predict others. However, the predictions can still serve as a useful guide to where factors are likely to bind." HOMER (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for motif discovery and ChIP-seq analysis. This track shows predicted genome-wide binding locations for known transcription factor motifs. [22]
+**Description:** Genome-wide positions of known transcription factor binding motifs, predicted with HOMER. Motif-based predictions of this kind will miss weaker binding sites and will produce some false positives, so the track is best used as a guide to where a factor is likely to bind rather than as a definitive binding map. HOMER (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for motif discovery and ChIP-seq analysis. This track shows predicted genome-wide binding locations for known transcription factor motifs. [22]
 
 ---
 
@@ -208,21 +204,19 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### SuperEnhancers NB (George)
-**Description:** Super-enhancer regions identified in neuroblastoma cell lines and tumor samples, as generated by the George lab. Super-enhancers in neuroblastoma are often associated with key oncogenes such as MYCN and ALK, and mark cell-type-specific transcriptional programs relevant to neuroblastoma biology.
-
-*(!!! Verify publication)*
+**Description:** Super-enhancer regions in neuroblastoma. Super-enhancers are clusters of transcriptional enhancers that mark cell-type-specific transcriptional programs.
 
 ---
 
 ### Vista Enhancers
-**Description:** "The VISTA Enhancer Browser is a central resource for experimentally validated human noncoding fragments with gene enhancer activity as assessed in transgenic mice. The core dataset consists of experimental in vivo data of tissue-specific enhancers identified by their conservation between human and non-mammalian vertebrates across long evolutionary distances or by their unusually high conservation among mammals." Elements are tested by cloning upstream of a reporter gene and assaying tissue-specific expression in transgenic mouse embryos. [24]
+**Description:** The VISTA Enhancer Browser is a resource of experimentally validated noncoding human sequences with enhancer activity. Candidate elements are selected by comparative genome analysis and their in vivo enhancer activity is then determined experimentally in transgenic mice. Elements are tested by cloning upstream of a reporter gene and assaying tissue-specific expression in transgenic mouse embryos. [24]
 
 ---
 
 ## ChIP-seq & Chromatin State
 
 ### ChromHMM (18-state models: ucle_18 / 18)
-**Description:** "ChromHMM displays a chromatin state segmentation derived by computationally integrating ChIP-seq data for multiple histone marks using a Hidden Markov Model. States were learned across multiple cell types and represent combinations of histone modifications associated with distinct functional elements such as active promoters, enhancers, transcribed regions, heterochromatin, and repressed regions." The 18-state models here were derived from ENCODE data. [25]
+**Description:** A chromatin state segmentation produced by ChromHMM, which learns states from combinations of chromatin marks using a multivariate hidden Markov model that explicitly models the presence or absence of each mark. The resulting states can be used to annotate a genome in one or more cell types, and correspond to functional categories such as active promoters, enhancers, transcribed regions and repressed chromatin. [25]
 
 ---
 
@@ -232,7 +226,7 @@ This document lists many of the annotation tracks available in the R2 genome bro
 ---
 
 ### ENCODE bed v1 / ENCODE bed v1 Ext
-**Description:** BED-format peak files from ENCODE ChIP-seq experiments, representing transcription factor binding sites or histone modification peaks from Version 1 of the ENCODE data release. The "Ext" (extended) version includes a broader set of experiments or extended peak regions. [15]
+**Description:** BED-format peak files from ENCODE ChIP-seq experiments, representing transcription factor binding sites or histone modification peaks. [15]
 
 ---
 
@@ -248,18 +242,18 @@ This document lists many of the annotation tracks available in the R2 genome bro
 
 ## References
 
-1. UCSC Genome Browser. University of California Santa Cruz. https://genome.ucsc.edu
+1. Kent WJ, Sugnet CW, Furey TS, et al. The human genome browser at UCSC. *Genome Research* 2002; 12(6):996–1006. https://doi.org/10.1101/gr.229102
 2. Smit AFA, Hubley R, Green P. RepeatMasker Open-4.0. 2013–2015. http://www.repeatmasker.org
 3. Siepel A, et al. Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes. *Genome Research* 2005; 15(8):1034–1050. https://doi.org/10.1101/gr.3715005
 4. Amemiya HM, Kundaje A, Boyle AP. The ENCODE Blacklist: Identification of Problematic Regions of the Genome. *Scientific Reports* 2019; 9:9354. https://doi.org/10.1038/s41598-019-45839-z
-5. Chen Y, et al. An atlas of lamina-associated chromatin across twelve human cell types reveals an intermediate chromatin subtype. *Genome Biology* 2023; 24:1. https://doi.org/10.1186/s13059-022-02849-5
+5. Shah PP, Keough KC, Gjoni K, et al. An atlas of lamina-associated chromatin across twelve human cell types reveals an intermediate chromatin subtype. *Genome Biology* 2023; 24:16. https://doi.org/10.1186/s13059-023-02849-5
 6. Németh A, et al. Initial genomics of the human nucleolus. *PLOS Genetics* 2010; 6(3):e1000889. https://doi.org/10.1371/journal.pgen.1000889
 7. Jenjaroenpun P, et al. R-loopDB: a database for R-loop forming sequences (RLFS) and R-loops. *Nucleic Acids Research* 2017; 45(D1):D119–D127. https://doi.org/10.1093/nar/gkw1054
 8. O'Leary NA, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. *Nucleic Acids Research* 2016; 44(D1):D733–D745. https://doi.org/10.1093/nar/gkv1189
 9. Cunningham F, et al. Ensembl 2022. *Nucleic Acids Research* 2022; 50(D1):D988–D995. https://doi.org/10.1093/nar/gkab1049
 10. Frankish A, et al. GENCODE reference annotation for the human and mouse genomes. *Nucleic Acids Research* 2019; 47(D1):D766–D773. https://doi.org/10.1093/nar/gky955
 11. Volders PJ, et al. LNCipedia 5: towards a reference set of human long non-coding RNAs. *Nucleic Acids Research* 2019; 47(D1):D135–D139. https://doi.org/10.1093/nar/gky1031
-12. Vibert J, et al. Oncogenic fusion proteins and their role in three-dimensional chromatin structure, phase separation, and cancer. *Molecular Cell* 2022; 82(18):3484–3498. https://doi.org/10.1016/j.molcel.2022.04.022
+12. Vibert J, Saulnier O, Collin C, et al. Oncogenic chimeric transcription factors drive tumor-specific transcription, processing, and translation of silent genomic regions. *Molecular Cell* 2022; 82(13):2458–2471.e9. https://doi.org/10.1016/j.molcel.2022.04.019
 13. Khan A, Zhang X. dbSUPER: a database of super-enhancers in mouse and human genome. *Nucleic Acids Research* 2016; 44(D1):D164–D171. https://doi.org/10.1093/nar/gkv1002
 14. Cheng J, et al. Accurate proteome-wide missense variant effect prediction with AlphaMissense. *Science* 2023; 381(6664):eadg7492. https://doi.org/10.1126/science.adg7492
 15. ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome. *Nature* 2012; 489:57–74. https://doi.org/10.1038/nature11247
@@ -275,7 +269,3 @@ This document lists many of the annotation tracks available in the R2 genome bro
 25. Ernst J, Kellis M. ChromHMM: automating chromatin-state discovery and characterization. *Nature Methods* 2012; 9:215–216. https://doi.org/10.1038/nmeth.1906
 26. Ross-Innes CS, et al. Differential oestrogen receptor binding is associated with clinical outcome in breast cancer. *Nature* 2012; 481:389–393. https://doi.org/10.1038/nature10730
 27. Zhang Y, et al. Model-based analysis of ChIP-Seq (MACS). *Genome Biology* 2008; 9:R137. https://doi.org/10.1186/gb-2008-9-9-r137
-
----
-
- 
