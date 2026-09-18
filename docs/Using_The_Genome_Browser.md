@@ -207,7 +207,7 @@ You can add many annotations to your Genome Browser view. Don't forget to click 
 Here you can find a list of many of the frequently used annotations:
 [Genome Browser Annotations](Using_TheGenome_Browser_Annotations.html)
 
-:::{dropdown} Click to expand to see a preview
+:::{dropdown} Click to expand to see a preview, click on "more..." to see all described annotations.
 
 ## Genome Structure & Sequence Features
 
