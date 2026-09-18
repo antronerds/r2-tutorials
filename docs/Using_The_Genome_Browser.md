@@ -207,7 +207,7 @@ You can add many annotations to your Genome Browser view. Don't forget to click 
 Here you can find a list of many of the frequently used annotations:
 [Genome Browser Annotations](Using_TheGenome_Browser_Annotations.html)
 
-:::{dropdown} Click to expand to see a preview, click on "more..." to see all described annotations.
+:::{dropdown} Click to expand to see a preview, or click on "See all..." to see all described annotations.
 
 ## Genome Structure & Sequence Features
 
@@ -224,11 +224,9 @@ Here you can find a list of many of the frequently used annotations:
 ### Repeats (RepeatMasker)
 **Description:** "This track was created using Arian Smit's RepeatMasker program, which screens DNA sequences for interspersed repeats and low complexity DNA sequences. The program outputs a detailed annotation of the repeats that are present in the query sequence, as well as a modified version of the query sequence in which all the annotated repeats have been masked." Uses the Repbase Update library from the Genetic Information Research Institute (GIRI). [1, 2]
 
-
-
-[more...](Using_TheGenome_Browser_Annotations.html)
-
 :::
+
+[See all Genome Browser Annotation descriptions...](Using_TheGenome_Browser_Annotations.html)
 
 Work with multiple samples listed within a track
 ---------------
