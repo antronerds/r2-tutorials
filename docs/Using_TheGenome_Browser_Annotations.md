@@ -28,7 +28,9 @@ This document describes the annotation tracks available in the R2 genome browser
 
 **[Gene Annotation](#gene-annotation)**
 
-- [RefSeq(R2) / RefSeq(CDS) / RefSeq_features](#refseq-r2-refseq-cds-refseq-features)
+- [RefSeq(R2)](#refseq-r2)
+- [RefSeq(CDS)](#refseq-cds)
+- [RefSeq_features](#refseq-features)
 - [Ensembl Gene e75](#ensembl-gene-e75)
 - [Gencode](#gencode)
 - [Neogenes Vibert 2022 Mol. Cell](#neogenes-vibert-2022-mol-cell)
@@ -118,9 +120,21 @@ This document describes the annotation tracks available in the R2 genome browser
 
 ## Gene Annotation
 
-### RefSeq(R2) / RefSeq(CDS) / RefSeq_features
-**View in R2:** [RefSeq(R2) / RefSeq(CDS) / RefSeq_features](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a10refseq=on&tview_drawmode=off)  
+### RefSeq(R2)
+**View in R2:** [RefSeq(R2)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a10refseq=on&tview_drawmode=off)  
 **Description:** Known protein-coding and non-protein-coding genes taken from the NCBI RNA reference sequences collection (RefSeq). Colour shading indicates the level of review the RefSeq record has undergone: predicted (light), provisional (medium), reviewed (dark). UCSC track: NCBI RefSeq Genes, loaded from the UCSC refFlat table (`refFlat`, hg19) [8]
+
+---
+
+### RefSeq(CDS)
+**View in R2:** [RefSeq(CDS)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25362797&end=25362893&a01giemsa=on&a10refseq=on&a10refseq_cds=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Coding sequence (CDS) annotation of the RefSeq records, mapped to the genome. Shows the coding part of each RefSeq transcript as nucleotides and the translated amino acids; best viewed zoomed in to base level. [8]
+
+---
+
+### RefSeq_features
+**View in R2:** [RefSeq_features](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&a10refseq_features=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Features as annotated within the NCBI RefSeq flat-file records, mapped to genome coordinates. [8]
 
 ---
 
