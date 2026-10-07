@@ -8,7 +8,7 @@
 
 # R2 Genome Browser - Annotation Track Reference
 
-This document describes the annotation tracks available in the R2 genome browser. Each annotation below includes a link to an example location in the R2 Genome Browser, with the corresponding track switched on.
+This document describes the annotation tracks available in the R2 genome browser. Each annotation description below includes a link to an example location in the R2 Genome Browser, with the corresponding track switched on.
 
 ---
 
