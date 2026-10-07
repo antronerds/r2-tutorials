@@ -47,7 +47,7 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 - [DiffBind](#diffbind)
 - [ENCODE bed v1 / ENCODE bed v1 Ext](#encode-bed-v1-encode-bed-v1-ext)
-- [MACS 1.4 (AMC / DKFZ / Public)](#macs-1-4-amc-dkfz-public)
+- [MACS 1.4 (AMC / Public)](#macs-1-4-amc-public)
 - [MACS2 (Narrow) / MACS2 (Broad) 2](#macs2-narrow-macs2-broad-2)
 
 **[References](#references)**
@@ -230,9 +230,9 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 ---
 
-### MACS 1.4 (AMC / DKFZ / Public)
+### MACS 1.4 (AMC / Public)
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr2&start=15640000&end=15750000&a01giemsa=on&a10refseq=on&macs14_geo_og_v1=custom&custom_id=GSM2113521%2CGSM2113517%2CGSM2113523&pluginopt%3Amacs14_geo_og_v1%3Amodus=by_line&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr2:15,640,000-15,750,000, three transcription factors in the BE2C neuroblastoma line sharing a binding site at the DDX1 promoter.  
-**Description:** Peak calls generated using MACS (Model-based Analysis of ChIP-Seq) version 1.4, an algorithm for identifying enriched regions in ChIP-seq data. Like the MACS2 tracks these are sample-based, using the same custom plus custom_id mechanism. R2 describes them as MACS 1.4 analysis with default parameters on experiment versus input, generated at AMC OncoGenomics, so peaks are control-corrected and were called in-house whatever the origin of the data. The AMC, DKFZ and Public suffixes refer to where the ChIP-seq data came from, with Public denoting datasets taken from GEO. The samples in these tracks are predominantly transcription factors rather than histone marks, and peaks are narrow, on the order of one to two kilobases. Hovering a peak reports a MACS score and the summit position; note this is a different measure from the -10log p-value reported by the MACS2 tracks, so the two are not directly comparable. [24]
+**Description:** Peak calls generated using MACS (Model-based Analysis of ChIP-Seq) version 1.4, an algorithm for identifying enriched regions in ChIP-seq data. Like the MACS2 tracks these are sample-based, using the same custom plus custom_id mechanism. R2 describes them as MACS 1.4 analysis with default parameters on experiment versus input, generated at AMC OncoGenomics, so peaks are control-corrected and were called in-house whatever the origin of the data. The AMC and Public suffixes refer to where the ChIP-seq data came from, with Public denoting datasets taken from GEO. The samples in these tracks are predominantly transcription factors rather than histone marks, and peaks are narrow, on the order of one to two kilobases. Hovering a peak reports a MACS score and the summit position; note this is a different measure from the -10log p-value reported by the MACS2 tracks, so the two are not directly comparable. [24]
 
 ---
 
