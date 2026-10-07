@@ -8,7 +8,7 @@
 
 # R2 Genome Browser - Annotation Track Reference
 
-This document describes the annotation tracks available in the R2 genome browser. Where a track was taken from the UCSC Genome Browser, the reference is the UCSC track description page, since UCSC may have processed or lifted over the data; the papers UCSC itself cites are listed alongside. Tracks not sourced from UCSC cite their original publication.
+This document describes the annotation tracks available in the R2 genome browser.
 
 ---
 
@@ -249,6 +249,8 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ## References
+
+Where a track was taken from the UCSC Genome Browser, the reference is the UCSC track description page, since UCSC may have processed or lifted over the data; the papers UCSC itself cites are listed alongside. Tracks not sourced from UCSC cite their original publication.
 
 UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrackUi?db=<assembly>&g=<track>`.
 
