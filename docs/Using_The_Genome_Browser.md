@@ -142,7 +142,7 @@ Zoom and pan
 3.  At a larger magnification certain features such as basepair pair
     coloring at the sequence annotation track may become visible. Note
     the black rectangles in the dark green exon region a collection of
-    the probes which form together a probeset . Repeat the same drag and
+    the probes which form together a probeset. Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
 	![](_static/images/UsingR2genome_zoomgraph.png "Figure    6: Zoom-in    graph")
