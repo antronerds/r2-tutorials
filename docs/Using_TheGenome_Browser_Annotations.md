@@ -4,6 +4,19 @@
 .rst-content code.literal { color: #404040; background: #fbfbfb;
     border: 1px solid #e1e4e5; font-weight: normal; }
 .rst-content a code.literal { color: #2980b9; }
+/* Page-local: compact "More..." dropdowns (sphinx-design) */
+.rst-content details.sd-dropdown { border: none; box-shadow: none;
+    background: transparent; margin: -1em 0 1.2em 0; }
+.rst-content details.sd-dropdown > summary.sd-summary-title {
+    display: inline-flex; align-items: center; width: auto;
+    padding: 0; border: none; background: transparent;
+    font-size: 90%; font-weight: normal; color: #2980b9; }
+.rst-content details.sd-dropdown > summary .sd-summary-up,
+.rst-content details.sd-dropdown > summary .sd-summary-down {
+    position: static; margin-left: 0.2em; line-height: 0; }
+.rst-content details.sd-dropdown > summary svg { width: 1em; height: 1em; }
+.rst-content details.sd-dropdown > .sd-summary-content {
+    padding: 0.4em 0 0.1em 1em; border-left: 3px solid #e1e4e5; }
 </style>
 
 # R2 Genome Browser - Annotation Track Reference
