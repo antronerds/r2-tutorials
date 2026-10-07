@@ -58,8 +58,7 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 ### Giemsa / Cytoband
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** Chromosome Bands Localized by FISH Mapping Clones (`cytoBand`, hg19)  
-**Description:** The chromosome band track represents the approximate location of bands seen on Giemsa-stained chromosomes. Cytologically identified bands are numbered outward from the centromere on the short (p) and long (q) arms. Band information is downloaded from NCBI and transformed into the browser's visualisation format; band lengths are typically estimated from FISH or other molecular markers interpreted via microscopy. [1]
+**Description:** The chromosome band track represents the approximate location of bands seen on Giemsa-stained chromosomes. Cytologically identified bands are numbered outward from the centromere on the short (p) and long (q) arms. Band information is downloaded from NCBI and transformed into the browser's visualisation format; band lengths are typically estimated from FISH or other molecular markers interpreted via microscopy. UCSC track: Chromosome Bands Localized by FISH Mapping Clones (`cytoBand`, hg19) [1]
 
 ---
 
@@ -71,36 +70,31 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 ### CpG Islands
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr9&start=21966750&end=21996323&a01giemsa=on&a10refseq=on&cpgisland=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** CpG Islands (`cpgIslandExt`, hg19)  
-**Description:** CpG islands are regions where CpG dinucleotides are present at significantly higher levels than is typical for the genome as a whole. They are associated with genes, particularly housekeeping genes, in vertebrates, and are typically common near transcription start sites and promoter regions. Islands were predicted by scoring each dinucleotide and identifying maximally scoring segments, then requiring GC content of 50% or greater, length greater than 200 bp, and a ratio greater than 0.6 of observed to expected CpG dinucleotides. [3]
+**Description:** CpG islands are regions where CpG dinucleotides are present at significantly higher levels than is typical for the genome as a whole. They are associated with genes, particularly housekeeping genes, in vertebrates, and are typically common near transcription start sites and promoter regions. Islands were predicted by scoring each dinucleotide and identifying maximally scoring segments, then requiring GC content of 50% or greater, length greater than 200 bp, and a ratio greater than 0.6 of observed to expected CpG dinucleotides. UCSC track: CpG Islands (`cpgIslandExt`, hg19) [3]
 
 ---
 
 ### Conservation (PlacMammal)
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&a04cons=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** Conservation, phyloP placental mammal subset (`phyloP46wayPlacental`, hg19)  
-**Description:** Per-base evolutionary conservation scores for the placental mammal subset of a 46-species vertebrate alignment, computed with phyloP. UCSC aligns vertebrate species and derives several score sets from that one alignment - all vertebrates, the primates subset and the placental mammal subset - so 'placental mammal' and 'vertebrate' are not in conflict. phyloP scores each site independently and detects both conservation and acceleration, reporting accelerated sites as negative values; this makes it more variable from base to base than the hidden Markov model-based phastCons, which measures conservation only and considers runs of conserved sites. R2 reads the table phylop46wayplacental. [26]
+**Description:** Per-base evolutionary conservation scores for the placental mammal subset of a 46-species vertebrate alignment, computed with phyloP. UCSC aligns vertebrate species and derives several score sets from that one alignment - all vertebrates, the primates subset and the placental mammal subset - so 'placental mammal' and 'vertebrate' are not in conflict. phyloP scores each site independently and detects both conservation and acceleration, reporting accelerated sites as negative values; this makes it more variable from base to base than the hidden Markov model-based phastCons, which measures conservation only and considers runs of conserved sites. R2 reads the table phylop46wayplacental. UCSC track: Conservation, phyloP placental mammal subset (`phyloP46wayPlacental`, hg19) [26]
 
 ---
 
 ### Repeats (RepeatMasker)
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&rmsk=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** Repeating Elements by RepeatMasker (`rmsk`, hg19)  
-**Description:** Generated with the RepeatMasker program, which screens DNA sequences for interspersed repeats and low-complexity sequence, using the Repbase Update library from the Genetic Information Research Institute. [4]
+**Description:** Generated with the RepeatMasker program, which screens DNA sequences for interspersed repeats and low-complexity sequence, using the Repbase Update library from the Genetic Information Research Institute. UCSC track: Repeating Elements by RepeatMasker (`rmsk`, hg19) [4]
 
 ---
 
 ### GC Percentage
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr9&start=21966750&end=21996323&a01giemsa=on&a10refseq=on&a03gc=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr9:21,966,750-21,996,323, the same window as the CpG Islands entry so the two can be compared.  
-**UCSC track:** GC Percent (`gc5Base`, hg19)  
-**Description:** The GC percent track shows the percentage of G (guanine) and C (cytosine) bases in 5-base windows. High GC content is typically associated with gene-rich areas. R2 draws the track as a grey ramp: 30% GC or below is white, 80% or above is black, and values in between are shaded proportionally. When zoomed out far enough that several windows share a pixel, their values are averaged rather than dropped, so the track stays informative at any scale. Hovering reports the coordinates and the GC percentage at that position. The track is off by default. [5]
+**Description:** The GC percent track shows the percentage of G (guanine) and C (cytosine) bases in 5-base windows. High GC content is typically associated with gene-rich areas. R2 draws the track as a grey ramp: 30% GC or below is white, 80% or above is black, and values in between are shaded proportionally. When zoomed out far enough that several windows share a pixel, their values are averaged rather than dropped, so the track stays informative at any scale. Hovering reports the coordinates and the GC percentage at that position. The track is off by default. UCSC track: GC Percent (`gc5Base`, hg19) [5]
 
 ---
 
 ### LaminB1_boundaries
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr5&start=139860000&end=140950000&a01giemsa=on&a10refseq=on&laminb_steensel=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr5:139,860,000-140,950,000, showing a 582 kb lamina-associated domain with both borders in view.  
-**UCSC track:** NKI Nuclear Lamina Associated Domains (LaminB1 DamID) (`laminB1Super`, hg19)  
-**Description:** A high-resolution map of genome interactions with the nuclear lamina in human Tig3 lung fibroblasts, determined by the DamID technique using a Dam-LaminB1 fusion protein. Genome-lamina interactions occur through more than 1,300 sharply defined domains of 0.1-10 megabases. These lamina associated domains (LADs) show low gene-expression levels, indicating a repressive chromatin environment, and their borders are demarcated by CTCF, by promoters oriented away from LADs, or by CpG islands. The hg19 coordinates were lifted over from hg18. In R2 the track renders as custom_laminb1_steensel and reports a sharp-boundary domain score per domain (LaminB1_domain_shrp_bndr). [6]
+**Description:** A high-resolution map of genome interactions with the nuclear lamina in human Tig3 lung fibroblasts, determined by the DamID technique using a Dam-LaminB1 fusion protein. Genome-lamina interactions occur through more than 1,300 sharply defined domains of 0.1-10 megabases. These lamina associated domains (LADs) show low gene-expression levels, indicating a repressive chromatin environment, and their borders are demarcated by CTCF, by promoters oriented away from LADs, or by CpG islands. The hg19 coordinates were lifted over from hg18. In R2 the track renders as custom_laminb1_steensel and reports a sharp-boundary domain score per domain (LaminB1_domain_shrp_bndr). UCSC track: NKI Nuclear Lamina Associated Domains (LaminB1 DamID) (`laminB1Super`, hg19) [6]
 
 ---
 
@@ -120,22 +114,19 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 ### RefSeq(R2) / RefSeq(CDS) / RefSeq_features
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a10refseq=on&tview_drawmode=off)  
-**UCSC track:** NCBI RefSeq Genes (`refGene`, hg19). R2 loads this as the UCSC refFlat track, held internally in the tables `gb_refflat` and `gb_reflink`.  
-**Description:** Known protein-coding and non-protein-coding genes taken from the NCBI RNA reference sequences collection (RefSeq). Colour shading indicates the level of review the RefSeq record has undergone: predicted (light), provisional (medium), reviewed (dark). [8]
+**Description:** Known protein-coding and non-protein-coding genes taken from the NCBI RNA reference sequences collection (RefSeq). Colour shading indicates the level of review the RefSeq record has undergone: predicted (light), provisional (medium), reviewed (dark). UCSC track: NCBI RefSeq Genes, loaded from the UCSC refFlat table (`refFlat`, hg19) [8]
 
 ---
 
 ### Ensembl Gene e75
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&a15ensgene=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** Ensembl Genes (`ensGene`, hg19)  
-**Description:** Gene predictions generated by Ensembl. Release 75 is built on the GRCh37/hg19 assembly. [9]
+**Description:** Gene predictions generated by Ensembl. Release 75 is built on the GRCh37/hg19 assembly. UCSC track: Ensembl Genes (`ensGene`, hg19) [9]
 
 ---
 
 ### Gencode
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&gencode=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** GENCODE Genes V19 (`wgEncodeGencodeV19`, hg19)  
-**Description:** The GENCODE reference human genome annotation produced for the ENCODE Project, covering protein-coding and non-coding loci including alternatively spliced isoforms and pseudogenes, combining automated Ensembl annotation with manual HAVANA curation. [10]
+**Description:** The GENCODE reference human genome annotation produced for the ENCODE Project, covering protein-coding and non-coding loci including alternatively spliced isoforms and pseudogenes, combining automated Ensembl annotation with manual HAVANA curation. UCSC track: GENCODE Genes V19 (`wgEncodeGencodeV19`, hg19) [10]
 
 ---
 
@@ -149,29 +140,25 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 ### Deepmind AlphaMissense
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25362797&end=25362893&a01giemsa=on&a10refseq=on&deepmind_alpha_missense=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** AlphaMissense (`alphaMissense`, hg38)  
-**Description:** AlphaMissense predictions for all possible single amino acid substitutions in the human proteome. AlphaMissense is a deep learning method for predicting the pathogenicity of missense variants, classifying 32% of all missense variants as likely pathogenic and 57% as likely benign at a cutoff yielding 90% precision on ClinVar. Four lettered subtracks show scores for mutation from the reference to each nucleotide. [12]
+**Description:** AlphaMissense predictions for all possible single amino acid substitutions in the human proteome. AlphaMissense is a deep learning method for predicting the pathogenicity of missense variants, classifying 32% of all missense variants as likely pathogenic and 57% as likely benign at a cutoff yielding 90% precision on ClinVar. Four lettered subtracks show scores for mutation from the reference to each nucleotide. UCSC track: AlphaMissense (`alphaMissense`, hg38) [12]
 
 ---
 
 ### Encode TF Clustered V3 (161 TFs)
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encode_tf_v1=on&pluginopt%3Aencode_tf_v1%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) with transcription factor names switched on.  
-**UCSC track:** Transcription Factor ChIP-seq Clusters (V3) (`wgEncodeRegTfbsClusteredV3`, hg19)  
-**Description:** Regions of transcription factor binding derived from a large collection of ChIP-seq experiments performed by the ENCODE project, together with DNA binding motifs identified within these regions by the ENCODE Factorbook repository. Clusters are derived from 161 transcription factors assayed across multiple cell types. In R2 the track renders with the row label wgencoderegtfbsclusteredv3, matching the UCSC table name. Each cluster is labelled with the transcription factor bound there, so at gene-scale zoom the dense binding at an active promoter is visible against the sparse gene body. [13]
+**Description:** Regions of transcription factor binding derived from a large collection of ChIP-seq experiments performed by the ENCODE project, together with DNA binding motifs identified within these regions by the ENCODE Factorbook repository. Clusters are derived from 161 transcription factors assayed across multiple cell types. In R2 the track renders with the row label wgencoderegtfbsclusteredv3, matching the UCSC table name. Each cluster is labelled with the transcription factor bound there, so at gene-scale zoom the dense binding at an active promoter is visible against the sparse gene body. UCSC track: Transcription Factor ChIP-seq Clusters (V3) (`wgEncodeRegTfbsClusteredV3`, hg19) [13]
 
 ---
 
 ### Encode TF Clustered (~340 TFs)
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encode_tf_v2=on&pluginopt%3Aencode_tf_v2%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) with transcription factor names switched on.  
-**UCSC track:** Transcription Factor ChIP-seq Clusters (`encRegTfbsClustered`, hg38)  
-**Description:** An ENCODE transcription factor ChIP-seq clustering track covering approximately 340 transcription factors, larger than the V3 clustering track. [14]
+**Description:** An ENCODE transcription factor ChIP-seq clustering track covering approximately 340 transcription factors, larger than the V3 clustering track. UCSC track: Transcription Factor ChIP-seq Clusters (`encRegTfbsClustered`, hg38) [14]
 
 ---
 
 ### ENCODE cCREs combined
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encodeccrecombined=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** ENCODE cCREs (`encodeCcreCombined`, hg38)  
-**Description:** The Registry of candidate cis-regulatory elements, built by integrating DNase-seq data into representative DNase hypersensitive sites, then classifying the subset with supporting histone or CTCF ChIP-seq signal as cCREs. Elements are classified as promoter-like (PLS), enhancer-like (ELS), or CTCF-only. [15]
+**Description:** The Registry of candidate cis-regulatory elements, built by integrating DNase-seq data into representative DNase hypersensitive sites, then classifying the subset with supporting histone or CTCF ChIP-seq signal as cCREs. Elements are classified as promoter-like (PLS), enhancer-like (ELS), or CTCF-only. UCSC track: ENCODE cCREs (`encodeCcreCombined`, hg38) [15]
 
 ---
 
@@ -225,8 +212,7 @@ UCSC track description pages follow the pattern `genome.ucsc.edu/cgi-bin/hgTrack
 
 ### Vista Enhancers
 **View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&vista_enhancers=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
-**UCSC track:** VISTA Enhancers (`vistaEnhancers`, hg19)  
-**Description:** The VISTA Enhancer Browser identifies distant-acting transcriptional enhancers in the human genome by coupling the identification of evolutionarily conserved non-coding sequences with a moderate-throughput mouse transgenesis enhancer assay. Conserved non-coding elements are cloned upstream of a minimal promoter fused to LacZ, injected into a fertilised mouse egg, and the 11.5 day embryo assayed with lacZ stain. An element is defined as a positive enhancer when it shows reproducible expression in the same structure in at least three independent transgenic embryos. [22]
+**Description:** The VISTA Enhancer Browser identifies distant-acting transcriptional enhancers in the human genome by coupling the identification of evolutionarily conserved non-coding sequences with a moderate-throughput mouse transgenesis enhancer assay. Conserved non-coding elements are cloned upstream of a minimal promoter fused to LacZ, injected into a fertilised mouse egg, and the 11.5 day embryo assayed with lacZ stain. An element is defined as a positive enhancer when it shows reproducible expression in the same structure in at least three independent transgenic embryos. UCSC track: VISTA Enhancers (`vistaEnhancers`, hg19) [22]
 
 ---
 
