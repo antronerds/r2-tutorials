@@ -31,8 +31,8 @@ See the accompanying notes table for the specific open question per track.
 ## Genome Structure & Sequence Features
 
 ### BlackListed (Consensus)
-**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr21&start=9600000&end=11250000&a01giemsa=on&a10refseq=on&consensusblacklist=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr21:9,600,000-11,250,000, chosen because it holds ten blacklisted regions spanning five different label types.
-**UCSC track:** DAC Blacklisted Regions, a subtrack of Mapability (`wgEncodeMapability`, hg19)
+**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr21&start=9600000&end=11250000&a01giemsa=on&a10refseq=on&consensusblacklist=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr21:9,600,000-11,250,000, chosen because it holds ten blacklisted regions spanning five different label types.  
+**UCSC track:** DAC Blacklisted Regions, a subtrack of Mapability (`wgEncodeMapability`, hg19)  
 **Description:** The DAC Blacklisted Regions identify a comprehensive set of regions in the human genome that have anomalous, unstructured, high signal or read counts in next-generation sequencing experiments, independent of cell line and type of experiment. They were derived from 80 open chromatin tracks (DNase and FAIRE datasets) and 20 ChIP-seq input/control tracks spanning approximately 60 human tissue types and cell lines. These regions tend to have a very high ratio of multi-mapping to unique mapping reads and high variance in mappability. Some overlap pathological repeat elements such as satellite, centromeric and telomeric repeats, but simple mappability-based filters do not account for most of them, so UCSC recommends using this blacklist alongside mappability filters. Release 3, October 2011. Each region carries a label giving the reason for exclusion, shown on hover in R2: the most frequent are Low_mappability_island, BSR/Beta, centromeric_repeat, Satellite_repeat, LSU-rRNA_Hsa, ALR/Alpha and TAR1, alongside rarer labels such as High_Mappability_island, telomeric_repeat and chrM. [U1]
 
 ---
@@ -40,7 +40,7 @@ See the accompanying notes table for the specific open question per track.
 ## Gene Annotation
 
 ### lincRNA from Lincipedia
-**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&lincipedia=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)
+**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&lincipedia=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** A publicly available database of human long non-coding RNA sequences and annotation, integrating lncRNA annotations from GENCODE, RefSeq and the literature, with an emphasis on large intergenic non-coding RNAs. [U2]
 
 ---
@@ -48,21 +48,21 @@ See the accompanying notes table for the specific open question per track.
 ## Regulatory Elements & Chromatin Accessibility
 
 ### Fantom5 enhancers (permissive / robust / Gex FDR)
-**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&fantom5_enhancer_premissive=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)
-**Candidate UCSC track:** FANTOM5 (`fantom5`, hg19)
+**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&fantom5_enhancer_premissive=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Candidate UCSC track:** FANTOM5 (`fantom5`, hg19)  
 **Description:** Enhancer candidates identified from bidirectional capped RNAs in the FANTOM5 CAGE expression atlas, across over 800 human cell and tissue samples. The permissive set includes all identified enhancers; the robust set applies stricter thresholds. [U3]
 
 ---
 
 ### CAGE FANTOM5 Phase1 2 tpm Summary
-**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&fantom5_phase1_2_tpm=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)
-**Candidate UCSC track:** FANTOM5 (`fantom5`, hg19)
+**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&fantom5_phase1_2_tpm=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Candidate UCSC track:** FANTOM5 (`fantom5`, hg19)  
 **Description:** Mapped transcription start sites and their usage in primary cells, cell lines and tissues, profiled by HeliScopeCAGE, a variation of the CAGE protocol based on a single molecule sequencer. Filtered here at a minimum of 2 tags per million. [U3]
 
 ---
 
 ### Hi-C domains (Literature)
-**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr19&start=56400000&end=57600000&a01giemsa=on&a10refseq=on&hic_domains_lit=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr19:56,400,000-57,600,000, where the four dataset rows show both shared and cell-type-specific domain boundaries.
+**View in R2:** [Open this annotation in the genome browser](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr19&start=56400000&end=57600000&a01giemsa=on&a10refseq=on&hic_domains_lit=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off) - chr19:56,400,000-57,600,000, where the four dataset rows show both shared and cell-type-specific domain boundaries.  
 **Description:** Topologically associating domains (TADs) identified from Hi-C chromosome conformation capture experiments. TADs are megabase-scale regions of preferential self-interaction; their boundaries are enriched for CTCF binding sites. [U4]
 
 ---
