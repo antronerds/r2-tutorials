@@ -212,17 +212,20 @@ Here you can find a list of many of the frequently used annotations:
 ## Genome Structure & Sequence Features
 
 ### Giemsa / Cytoband
-**Description:** Cytogenetic band locations derived from Giemsa staining of chromosomes, used to define the chromosomal banding pattern (p and q arms, centromeres, heterochromatic regions). Standard reference for cytogenetic coordinates. [1]
+**View in R2:** [Giemsa / Cytoband](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=1&end=133851895&a01giemsa=on&a10refseq=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Approximate locations of the cytogenetic bands seen on Giemsa-stained chromosomes, numbered outward from the centromere on the short (p) and long (q) arms. [1]
 
 ---
 
 ### CpG Islands
-**Description:** "CpG islands are regions where CpGs are present at significantly higher levels than is typical for the genome as a whole. CpG islands are associated with genes, particularly housekeeping genes, in vertebrates, and are typically common near transcription start sites and may be associated with promoter regions." Predicted using criteria: length ≥200 bp, GC content ≥50%, observed/expected CpG ratio ≥0.6. [1]
+**View in R2:** [CpG Islands](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr9&start=21966750&end=21996323&a01giemsa=on&a10refseq=on&cpgisland=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Regions where CpG dinucleotides occur at much higher frequency than elsewhere in the genome; they are common near transcription start sites and promoters. [3]
 
 ---
 
 ### Repeats (RepeatMasker)
-**Description:** "This track was created using Arian Smit's RepeatMasker program, which screens DNA sequences for interspersed repeats and low complexity DNA sequences. The program outputs a detailed annotation of the repeats that are present in the query sequence, as well as a modified version of the query sequence in which all the annotated repeats have been masked." Uses the Repbase Update library from the Genetic Information Research Institute (GIRI). [1, 2]
+**View in R2:** [Repeats (RepeatMasker)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&rmsk=on&pluginopt%3Armsk%3Amodus=by_class&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Interspersed repeats and low-complexity sequence identified with the RepeatMasker program, using the Repbase Update library. [4]
 
 :::
 

@@ -301,17 +301,18 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### Neogenes Vibert 2022 Mol. Cell
-**View in R2:** [Neogenes Vibert 2022 Mol. Cell](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&neogenes_vibert_2022=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Neogenes Vibert 2022 Mol. Cell](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr2&start=1&end=6000000&a01giemsa=on&a10refseq=on&neogenes_vibert_2022=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Neogenes: novel spliced and polyadenylated transcripts induced by EWS::FLI1 and other chimeric transcription factors in otherwise transcriptionally silent regions of the genome. [11]
 
 :::{dropdown} More...
-**Background:** "EWS::FLI1 induces the robust expression of a specific set of novel spliced and polyadenylated transcripts within otherwise transcriptionally silent regions of the genome. These neogenes are virtually undetectable in large collections of normal tissues or non-EwS tumors." The study reports neogenes driven by EWS::FLI1 and by 22 further chimeric transcription factors across 17 cancer types.
+**Background:** "EWS::FLI1 induces the robust expression of a specific set of novel spliced and polyadenylated transcripts within otherwise transcriptionally silent regions of the genome. These neogenes are virtually undetectable in large collections of normal tissues or non-EwS tumors." The study reports neogenes driven by EWS::FLI1 and by 22 further chimeric transcription factors across 17 cancer types. The example view shows the first 6 Mb of chromosome 2, with neogenes from several cancer types, including Ewing sarcoma (Ew_NG2).
 
 **In the R2 Genome Browser:**
 - Transcripts are drawn as footprints when zoomed out; exons and labels appear when zoomed in.
 - Hovering over a transcript shows its position, gene symbol and transcript accession, plus, where available, its bio source, source, the GENCODE versions it occurs in and its expression (FPKM). Hovering over an exon shows the exon; with `merge_by_symbol` it shows in how many of the gene's transcripts the exon occurs.
 - Clicking a transcript or exon zooms in to it.
 - Track settings: `class` (all, protein_coding, non_coding), `represent` (`merge_by_symbol` merges a gene's transcripts into one), `label` (symbol, transcript, both, off), `strand_show` (both, plus or minus strand) and `hilite` (gene names to highlight, separated by `;`).
+- Neogene names start with an abbreviation of the cancer type, followed by the neogene number (for example Ew_NG2 for Ewing sarcoma, mLPS_NG1 for myxoid liposarcoma, ASPS_NG3 for alveolar soft part sarcoma).
 :::
 
 ---
