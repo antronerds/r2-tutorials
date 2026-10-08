@@ -26,6 +26,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 def setup(app):
   app.add_css_file("css/r2tutorials.css")
+  app.add_js_file("js/r2_links.js")
 # from http://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc/32079202#32079202
 
 html_static_path = ['_static']
