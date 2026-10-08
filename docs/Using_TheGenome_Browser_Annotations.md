@@ -152,7 +152,7 @@ This document describes the annotation tracks available in the R2 genome browser
 - Hovering over a repeat shows its position, repeat class, family and name.
 - Clicking a feature zooms in to it.
 - Individual repeats are drawn up to 1,000 bp per pixel; zoomed out further they are summarised as counts per bin.
-- The `color_by` setting colours repeats by class (default, following the UCSC class colours) or by strand.
+- The `color_by` setting colours repeats by class (default) or by strand (green plus, red minus). Class colours: SINE blue, LINE orange, LTR green, DNA red, Low_complexity brown, Satellite pink, RNA grey, Other olive, Unknown cyan; Simple_repeat is drawn in black.
 - The `modus` setting `by_class` places each repeat class on its own labelled row.
 
 **Source:** UCSC track: Repeating Elements by RepeatMasker (`rmsk`, hg19)
@@ -296,8 +296,6 @@ This document describes the annotation tracks available in the R2 genome browser
 - Hovering over a transcript shows its position, gene symbol and transcript accession, plus, where available, its bio source, source, the GENCODE versions it occurs in and its expression (FPKM). Hovering over an exon shows the exon; with `merge_by_symbol` it shows in how many of the gene's transcripts the exon occurs.
 - Clicking a transcript or exon zooms in to it.
 - Track settings: `class` (all, protein_coding, non_coding), `represent` (`merge_by_symbol` merges a gene's transcripts into one), `label` (symbol, transcript, both, off), `strand_show` (both, plus or minus strand) and `hilite` (gene names to highlight, separated by `;`).
-
-**Source:** UCSC track: GENCODE Genes V19 (`wgEncodeGencodeV19`, hg19)
 :::
 
 ---
@@ -331,8 +329,6 @@ This document describes the annotation tracks available in the R2 genome browser
 - Each possible substitution is drawn as a dot whose height is its AlphaMissense pathogenicity score.
 - Hovering over a dot shows the pathogenicity score, the nucleotide change and the amino-acid change.
 - The `color_mode` setting colours dots by the resulting amino acid (default), by predicted effect (blue below 0.34, red above 0.564, grey in between), or all grey. `dotsize` and `height_histo` change the dot size and track height.
-
-**Source:** UCSC track: AlphaMissense (`alphaMissense`, hg38)
 :::
 
 ---
@@ -402,7 +398,7 @@ This document describes the annotation tracks available in the R2 genome browser
 **In the R2 Genome Browser:**
 - The track is only drawn when zoomed in to 200 bp per pixel or less.
 - Each of the 15 states has its own colour, for example red for active TSS, yellow for enhancers and white for quiescent.
-- Choose `all` epigenomes, a single epigenome, or `custom` with a list of samples. The `modus` setting switches between an `overview` (default), a grouped overview (`grp_overview`) and `detail`, which shows one row per epigenome.
+- Choose `all` epigenomes, a single epigenome, or `custom` with a list of samples. The `modus` setting switches between an `overview` (default), `grp_overview`, which shows one stacked overview per tissue group (for example Blood & T-cell, Brain, ESC) and `detail`, which shows one row per epigenome.
 - In `detail` mode, zoomed in to 100 bp per pixel or less, hovering shows the sample, chromatin state and sample label, and clicking zooms in to the segment.
 :::
 
@@ -568,8 +564,8 @@ This document describes the annotation tracks available in the R2 genome browser
 
 **In the R2 Genome Browser:**
 - This is a sample-based track: select `all` samples, or `custom` and list the samples in the `custom_id` field.
-- Peaks are drawn in blue, brightened in proportion to their signal value.
-- Hovering over a peak shows the coordinates, the sample label (cell line, treatment and mark, for example RA_48h SKNSH H3K4me3), the ENCODE file accession, a description (when available) and the signal value. Clicking a peak zooms in to it.
+- Peaks are drawn in blue.
+- Hovering over a peak shows the coordinates, the sample label (cell line, treatment and mark, for example RA_48h SKNSH H3K4me3), the ENCODE file accession, a description that differs per dataset (for example a peak name such as peak5402, a location, 'unannotated', a value or '.') and the signal value. Clicking a peak zooms in to it.
 - Beyond 5,000 bases per pixel the display switches from individual peaks to a grey histogram of peak counts per bin (`xfactor_count_switch`).
 - The `modus` setting (`by_line`, `by_factor`) places samples on separate lines; both tracks can also be shown genome-wide in karyotype view.
 :::
