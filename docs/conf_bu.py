@@ -1,10 +1,6 @@
 import datetime
 
-extensions = ['myst_parser', 'sphinx_markdown_tables', 'sphinx_design', 'sphinx_copybutton']
-myst_enable_extensions = ["linkify", "colon_fence"]
-myst_commonmark_only = False
-myst_heading_anchors = 3
-myst_all_links_external = True
+extensions = ['sphinx_search.extension',]
 templates_path = ['_templates']
 
 master_doc = 'index'
@@ -25,7 +21,7 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 def setup(app):
-  app.add_css_file("css/r2tutorials.css")
+  app.add_stylesheet( "css/r2tutorials.css" )
 # from http://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc/32079202#32079202
 
 html_static_path = ['_static']
@@ -73,5 +69,11 @@ texinfo_documents = [
    'Miscellaneous'),
 ]
 
+from recommonmark.parser import CommonMarkParser
+
 # The suffix of source filenames.
 source_suffix = ['.rst', '.md']
+
+source_parsers = {
+	'.md': CommonMarkParser,
+}

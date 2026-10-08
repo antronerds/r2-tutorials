@@ -23,7 +23,7 @@ Scope
 
 
 
-Step 1: Exploring the genome browser
+Explore the genome browser
 ---------------
 
 1.  In the main menu select in field 2 the default dataset “Tumor
@@ -121,7 +121,7 @@ Step 1: Exploring the genome browser
 [**Figure 4: Adjustable settingspanel.**](_static/images/UsingR2genome_settingspanel.png)
 
 
-Step 2: Zooming and panning
+Zoom and pan
 ---------------
 
 1.  The R2 Genome browser is a highly interactive application offering
@@ -142,7 +142,7 @@ Step 2: Zooming and panning
 3.  At a larger magnification certain features such as basepair pair
     coloring at the sequence annotation track may become visible. Note
     the black rectangles in the dark green exon region a collection of
-    the probes which form together a probeset . Repeat the same drag and
+    the probes which form together a probeset. Repeat the same drag and
     zoom procedure for one probe and click redraw.
     
 	![](_static/images/UsingR2genome_zoomgraph.png "Figure    6: Zoom-in    graph")
@@ -174,7 +174,7 @@ Step 2: Zooming and panning
 
 
 
-Step 3: Looking up chromosome regions
+Look up chromosome regions
 ---------------
 
 
@@ -199,8 +199,39 @@ chromosome at a certain location.
     The genome browser can directly be accessed from the main menu
     including many basic functionalities.
 
+Add annotations to the Genome Browser view
+---------------
+You can add many annotations to your Genome Browser view. Don't forget to click **redraw** in the middle menu block, every time you changed annotation(s) setting(s) for it to take effect.
 
-Step 4: Working with multiple samples listed within a track
+
+Here you can find a list of many of the frequently used annotations:
+[Genome Browser Annotations](Using_TheGenome_Browser_Annotations.html)
+
+:::{dropdown} Click to expand to see a preview, or click on "See all..." to see all described annotations.
+
+## Genome Structure & Sequence Features
+
+### Giemsa / Cytoband
+**View in R2:** [Giemsa / Cytoband](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=1&end=133851895&a01giemsa=on&a10refseq=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Approximate locations of the cytogenetic bands seen on Giemsa-stained chromosomes, numbered outward from the centromere on the short (p) and long (q) arms. [1]
+
+---
+
+### CpG Islands
+**View in R2:** [CpG Islands](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr9&start=21966750&end=21996323&a01giemsa=on&a10refseq=on&cpgisland=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Regions where CpG dinucleotides occur at much higher frequency than elsewhere in the genome; they are common near transcription start sites and promoters. [3]
+
+---
+
+### Repeats (RepeatMasker)
+**View in R2:** [Repeats (RepeatMasker)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&rmsk=on&pluginopt%3Armsk%3Amodus=by_class&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**Description:** Interspersed repeats and low-complexity sequence identified with the RepeatMasker program, using the Repbase Update library. [4]
+
+:::
+
+[See all Genome Browser Annotation descriptions...](Using_TheGenome_Browser_Annotations.html)
+
+Work with multiple samples listed within a track
 ---------------
 
 In some instances, genome tracks may list a whole array of samples, that can individually be selected for display. If R2 has the ability to also display multiple samples for that specific track, then the items 'all' and 'custom' will be represented in the sample dropdown list as well. The first does not require further explanation, however the 'custom' option probably does.
@@ -211,7 +242,7 @@ The R2 Genome Browser can be used with different genome builds (versions). Depen
 
 
 
-Step 5: Store / retrieve complex settings with profiles
+Store / retrieve complex settings with profiles
 ---------------
 
 The possibilities of tracks combined with their individual settings within the genome browser are immense. In many 
