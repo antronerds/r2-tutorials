@@ -78,7 +78,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ## Genome Structure & Sequence Features
 
 ### Giemsa / Cytoband
-**View in R2:** [Giemsa / Cytoband](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Giemsa / Cytoband](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=1&end=133851895&a01giemsa=on&a10refseq=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Approximate locations of the cytogenetic bands seen on Giemsa-stained chromosomes, numbered outward from the centromere on the short (p) and long (q) arms. [1]
 
 :::{dropdown} More...
@@ -95,7 +95,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### Sequence Bases (Sequence_b)
-**View in R2:** [Sequence Bases (Sequence_b)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25362797&end=25362893&a01giemsa=on&a10refseq=on&a02bsequence=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Sequence Bases (Sequence_b)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25398230&end=25398330&a01giemsa=on&a10refseq=on&a02bsequence=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** The reference genome sequence itself, shown as individual nucleotides when zoomed in. [2]
 
 :::{dropdown} More...
@@ -142,7 +142,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### Repeats (RepeatMasker)
-**View in R2:** [Repeats (RepeatMasker)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&rmsk=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Repeats (RepeatMasker)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&rmsk=on&pluginopt%3Armsk%3Amodus=by_class&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Interspersed repeats and low-complexity sequence identified with the RepeatMasker program, using the Repbase Update library. [4]
 
 :::{dropdown} More...
@@ -153,7 +153,7 @@ This document describes the annotation tracks available in the R2 genome browser
 - Clicking a feature zooms in to it.
 - Individual repeats are drawn up to 1,000 bp per pixel; zoomed out further they are summarised as counts per bin.
 - The `color_by` setting colours repeats by class (default, following the UCSC class colours) or by strand.
-- The `modus` setting `by_class` groups the repeats by class.
+- The `modus` setting `by_class` places each repeat class on its own labelled row.
 
 **Source:** UCSC track: Repeating Elements by RepeatMasker (`rmsk`, hg19)
 :::
@@ -234,6 +234,7 @@ This document describes the annotation tracks available in the R2 genome browser
 - Hovering over a transcript shows its position, RefSeq accession, gene symbol and product description; hovering over an exon shows the exon position.
 - Clicking a transcript or exon zooms in to it.
 - Track settings let you show only protein-coding or non-coding transcripts (`class`), merge transcript variants into one representation per gene symbol (`represent` = `merge_by_symbol`), and highlight genes by name (`hilite`, separated by `;`).
+- The example links in this tutorial use `represent` = `merge_by_symbol`, a simpler view that collapses the isoforms of each gene into one representation. R2 itself shows all transcripts by default (`represent` = `all`); the RefSeq(CDS) example uses that setting to show the individual isoforms.
 
 **Source:** UCSC track: NCBI RefSeq Genes, loaded from the UCSC refFlat table (`refFlat`, hg19)
 :::
@@ -241,10 +242,12 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### RefSeq(CDS)
-**View in R2:** [RefSeq(CDS)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25362797&end=25362893&a01giemsa=on&a10refseq=on&a10refseq_cds=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [RefSeq(CDS)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr9&start=21971000&end=21971100&a01giemsa=on&a10refseq=on&a10refseq_cds=on&pluginopt%3Aa10refseq%3Arepresent=all&tview_drawmode=off)  
 **Description:** Coding sequences of the RefSeq transcripts, shown codon by codon with the encoded amino acids. [8]
 
 :::{dropdown} More...
+**Background:** The example view shows exon 2 of CDKN2A, which different CDKN2A transcripts read in two different reading frames (encoding p16INK4a and p14ARF). The track therefore shows two rows of amino acids over the same bases. RefSeq(R2) is set to show all transcripts (`represent` = `all`) so the individual isoforms are visible.
+
 **In the R2 Genome Browser:**
 - The track is only drawn when zoomed in to 3 bp per pixel or less.
 - Each codon is drawn as a block coloured by the amino acid it encodes; the amino-acid letter appears from 0.34 bp per pixel. A second row shows the coding-strand nucleotides (from 1 bp per pixel, letters from 0.1 bp per pixel).
@@ -281,7 +284,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### Gencode
-**View in R2:** [Gencode](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&gencode=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Gencode](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&gencode=gencode_v45lift37&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** The GENCODE reference annotation of the human genome: protein-coding and non-coding loci, including alternatively spliced isoforms and pseudogenes. [10]
 
 :::{dropdown} More...
@@ -318,7 +321,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ## Regulatory Elements & Chromatin Accessibility
 
 ### Deepmind AlphaMissense
-**View in R2:** [Deepmind AlphaMissense](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25362797&end=25362893&a01giemsa=on&a10refseq=on&deepmind_alpha_missense=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Deepmind AlphaMissense](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25398180&end=25398340&a01giemsa=on&a10refseq=on&deepmind_alpha_missense=on&pluginopt%3Adeepmind_alpha_missense%3Acolor_mode=by_predicted_effect&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** AlphaMissense pathogenicity predictions for all possible single amino-acid substitutions in the human proteome. [12]
 
 :::{dropdown} More...
@@ -371,7 +374,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### ENCODE cCREs combined
-**View in R2:** [ENCODE cCREs combined](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encodeccrecombined=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [ENCODE cCREs combined](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encodeccrecombined=on&pluginopt%3Aencodeccrecombined%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** ENCODE registry of candidate cis-regulatory elements (cCREs), classified as promoter-like (PLS), enhancer-like (ELS) or CTCF-only. [15]
 
 :::{dropdown} More...
@@ -381,6 +384,7 @@ This document describes the annotation tracks available in the R2 genome browser
 - Hovering over an element shows its position, strand and cCRE label.
 - Clicking a feature zooms in to it.
 - Zoomed out beyond 3,000 bp per pixel, the elements are summarised as a histogram of counts per bin (hover shows the count).
+- Colours and labels show the cCRE class: red `prom` (promoter-like), orange `enhP` (proximal enhancer-like), yellow `enhD` (distal enhancer-like), pink `K4m3` (DNase-H3K4me3) and blue `CTCF` (CTCF-only).
 - The `names` setting (`yes`) prints the cCRE labels in the image.
 
 **Source:** UCSC track: ENCODE cCREs (`encodeCcreCombined`, hg38)
@@ -455,15 +459,15 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### GVATdb DeltaSVM 1k genomes (94 TFs)
-**View in R2:** [GVATdb DeltaSVM 1k genomes (94 TFs)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&gvatdb_deltasvm=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [GVATdb DeltaSVM 1k genomes (94 TFs)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr10&start=12298000&end=12318000&a01giemsa=on&a10refseq=on&gvatdb_deltasvm=on&pluginopt%3Agvatdb_deltasvm%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Predicted effects of 1000 Genomes variants on transcription factor binding, computed with deltaSVM models for 94 transcription factors. [19]
 
 :::{dropdown} More...
-**Background:** The deltaSVM models were trained on SNP-SELEX data. DeltaSVM scores quantify the predicted change in TF binding affinity resulting from each SNP allele.
+**Background:** The deltaSVM models were trained on SNP-SELEX data. DeltaSVM scores quantify the predicted change in TF binding affinity resulting from each SNP allele. A gkm-SVM (gapped k-mer support vector machine) score measures how strongly a DNA sequence resembles the binding sites of a transcription factor; deltaSVM is the change in that score caused by the variant. The example view shows 20 kb around the type 2 diabetes variant rs11257655, the same locus as the GVATdb (measured) example, so predicted and measured binding can be compared.
 
 **In the R2 Genome Browser:**
 - Each entry is a variant-transcription factor pair, coloured by deltaSVM score from blue (-20) to red (+20).
-- Hovering shows the position, the transcription factor and a description of the prediction.
+- Hovering shows the position, the transcription factor, the gkm-SVM score, the deltaSVM score and the allele.
 - Clicking a feature zooms in to it.
 - Zoomed out beyond 3,000 bp per pixel, the entries are summarised as a histogram of counts per bin (hover shows the count). The threshold can be changed with the `xfactor_count_switch` setting.
 - The `names` setting prints labels in the image: the name (`yes`), name and description (`ext`) or description only (`descr`).
@@ -472,7 +476,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### Homer Known Motifs (Genome)
-**View in R2:** [Homer Known Motifs (Genome)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&homer_known_motifs=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Homer Known Motifs (Genome)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr12&start=25403550&end=25403850&a01giemsa=on&a10refseq=on&homer_known_motifs=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Genome-wide positions of known transcription factor binding motifs, predicted with HOMER. [20]
 
 :::{dropdown} More...
@@ -481,6 +485,7 @@ This document describes the annotation tracks available in the R2 genome browser
 **In the R2 Genome Browser:**
 - Hovering over a motif shows its position, strand, motif name and score.
 - Clicking a motif zooms in to it.
+- Motifs are coloured by strand: green for the plus strand, red for the minus strand. The `label` setting shows the motif name (`symbol`), score (`transcript`), both, or no labels (`off`).
 :::
 
 ---
@@ -502,14 +507,14 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### SuperEnhancers NB (George)
-**View in R2:** [SuperEnhancers NB (George)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&superenhancer_nb_george=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [SuperEnhancers NB (George)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr4&start=174300000&end=174600000&a01giemsa=on&a10refseq=on&superenhancer_nb_george=on&pluginopt%3Asuperenhancer_nb_george%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Super-enhancer regions in neuroblastoma, defined from H3K27ac signal. [28]
 
 :::{dropdown} More...
-**Background:** Super-enhancers are clusters of transcriptional enhancers that mark cell-type-specific transcriptional programs; in MYCN-amplified neuroblastoma they are associated with MYCN itself and with other oncogenic drivers.
+**Background:** Super-enhancers are clusters of transcriptional enhancers that mark cell-type-specific transcriptional programs; in MYCN-amplified neuroblastoma they are associated with MYCN itself and with other oncogenic drivers. The example view shows the super-enhancer over HAND2, a core regulatory transcription factor in neuroblastoma, in the neuroblastoma cell lines SH-SY5Y and Kelly.
 
 **In the R2 Genome Browser:**
-- Hovering over a region shows its position, name and description.
+- Hovering over a region shows its position, the cell line and mark (for example Kelly_SuperEnhancer_k27ac) and the rank of the super-enhancer.
 - Clicking a feature zooms in to it.
 - Zoomed out beyond 3,000 bp per pixel, the regions are summarised as a histogram of counts per bin (hover shows the count). The threshold can be changed with the `xfactor_count_switch` setting.
 - The `names` setting prints labels in the image: the name (`yes`), name and description (`ext`) or description only (`descr`).
@@ -538,12 +543,15 @@ This document describes the annotation tracks available in the R2 genome browser
 ## ChIP-seq & Chromatin State
 
 ### DiffBind
-**View in R2:** [DiffBind](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&diffbind_v1=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [DiffBind](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr4&start=174300000&end=174600000&a01giemsa=on&a10refseq=on&diffbind_v1=all&pluginopt%3Adiffbind_v1%3Amodus=by_line&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Regions with statistically significant differential ChIP-seq binding between sample groups, identified with the DiffBind R/Bioconductor package. [23]
 
 :::{dropdown} More...
+**Background:** The example view shows ATAC-seq in the neuroblastoma cell lines IMR32 and SH-SY5Y after knockout of ASCL1, compared with control cells (GEO GSE202629), around HAND2, the same region as the SuperEnhancers NB example; each row is one cell line (`modus` = `by_line`).
+
 **In the R2 Genome Browser:**
 - This is a sample-based track: select `all` samples, or `custom` and list the samples in the `custom_id` field.
+- Samples are comparisons, such as GSE202629MA1 (IMR32, ASCL1 knockout vs control) and GSE202629MA2 (SH-SY5Y, ASCL1 knockout vs control).
 - Hovering over a region shows its position, name, -10log p-value, concentrations (target and control) and fold change.
 - Clicking a region zooms in to it; zoomed out far, regions are summarised as counts per bin.
 - Settings: `logpval` sets the minimal -10log p-value (default 2); `modus` (`by_line`, `by_factor`) places samples on separate lines.
@@ -552,7 +560,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### ENCODE bed v1 / ENCODE bed v1 Ext
-**View in R2:** [ENCODE bed v1 / ENCODE bed v1 Ext](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encode_bed_data_v1=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [ENCODE bed v1 / ENCODE bed v1 Ext](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&encode_bed_data_v1=all&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Transcription factor binding and histone modification peaks downloaded directly from the ENCODE portal. [25]
 
 :::{dropdown} More...
@@ -561,7 +569,7 @@ This document describes the annotation tracks available in the R2 genome browser
 **In the R2 Genome Browser:**
 - This is a sample-based track: select `all` samples, or `custom` and list the samples in the `custom_id` field.
 - Peaks are drawn in blue, brightened in proportion to their signal value.
-- Hovering over a peak shows the coordinates, the sample label, the description and the signal value. Clicking a peak zooms in to it.
+- Hovering over a peak shows the coordinates, the sample label (cell line, treatment and mark, for example RA_48h SKNSH H3K4me3), the ENCODE file accession, a description (when available) and the signal value. Clicking a peak zooms in to it.
 - Beyond 5,000 bases per pixel the display switches from individual peaks to a grey histogram of peak counts per bin (`xfactor_count_switch`).
 - The `modus` setting (`by_line`, `by_factor`) places samples on separate lines; both tracks can also be shown genome-wide in karyotype view.
 :::
