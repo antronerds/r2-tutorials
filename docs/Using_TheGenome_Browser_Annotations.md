@@ -290,7 +290,7 @@ This document describes the annotation tracks available in the R2 genome browser
 **In the R2 Genome Browser:**
 - The track dropdown lists the GENCODE versions available for the genome build; select the version to show. Hovering over a transcript also shows the GENCODE versions it occurs in.
 - Transcripts are drawn as footprints when zoomed out; exons and labels appear when zoomed in.
-- Hovering over a transcript shows its position, gene symbol and transcript accession, plus extra annotation where available. Hovering over an exon shows the exon; with `merge_by_symbol` it shows in how many of the gene's transcripts the exon occurs.
+- Hovering over a transcript shows its position, gene symbol and transcript accession, plus, where available, its bio source, source, the GENCODE versions it occurs in and its expression (FPKM). Hovering over an exon shows the exon; with `merge_by_symbol` it shows in how many of the gene's transcripts the exon occurs.
 - Clicking a transcript or exon zooms in to it.
 - Track settings: `class` (all, protein_coding, non_coding), `represent` (`merge_by_symbol` merges a gene's transcripts into one), `label` (symbol, transcript, both, off), `strand_show` (both, plus or minus strand) and `hilite` (gene names to highlight, separated by `;`).
 
@@ -308,7 +308,7 @@ This document describes the annotation tracks available in the R2 genome browser
 
 **In the R2 Genome Browser:**
 - Transcripts are drawn as footprints when zoomed out; exons and labels appear when zoomed in.
-- Hovering over a transcript shows its position, gene symbol and transcript accession, plus extra annotation where available. Hovering over an exon shows the exon; with `merge_by_symbol` it shows in how many of the gene's transcripts the exon occurs.
+- Hovering over a transcript shows its position, gene symbol and transcript accession, plus, where available, its bio source, source, the GENCODE versions it occurs in and its expression (FPKM). Hovering over an exon shows the exon; with `merge_by_symbol` it shows in how many of the gene's transcripts the exon occurs.
 - Clicking a transcript or exon zooms in to it.
 - Track settings: `class` (all, protein_coding, non_coding), `represent` (`merge_by_symbol` merges a gene's transcripts into one), `label` (symbol, transcript, both, off), `strand_show` (both, plus or minus strand) and `hilite` (gene names to highlight, separated by `;`).
 :::
@@ -389,7 +389,7 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### NIH Epigenome Roadmap
-**View in R2:** [NIH Epigenome Roadmap](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&epi_roadmap=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [NIH Epigenome Roadmap](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr7&start=27120000&end=27260000&a01giemsa=on&a10refseq=on&epi_roadmap=all&pluginopt%3Aepi_roadmap%3Amodus=grp_overview&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Chromatin states of 111 reference epigenomes from the NIH Roadmap Epigenomics project: a 15-state hidden Markov model segmentation based on H3K4me3, H3K4me1, H3K36me3, H3K27me3 and H3K9me3. [16]
 
 :::{dropdown} More...
@@ -438,11 +438,11 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### GVATdb (measured 83 T2D loci)
-**View in R2:** [GVATdb (measured 83 T2D loci)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&gvatdb_b1=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [GVATdb (measured 83 T2D loci)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr10&start=12307770&end=12308010&a01giemsa=on&a10refseq=on&gvatdb_b1=on&pluginopt%3Agvatdb_b1%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Allelic transcription factor binding measured with SNP-SELEX for 95,886 common noncoding variants around 83 type 2 diabetes risk loci. [19]
 
 :::{dropdown} More...
-**Background:** Binding of 270 human transcription factors to the variants was measured using SNP-SELEX, a high-throughput multiplex protein-DNA binding assay yielding 828 million transcription factor-DNA interaction measurements. The variants were drawn from regions surrounding risk loci identified in genome-wide association studies.
+**Background:** Binding of 270 human transcription factors to the variants was measured using SNP-SELEX, a high-throughput multiplex protein-DNA binding assay yielding 828 million transcription factor-DNA interaction measurements. The variants were drawn from regions surrounding risk loci identified in genome-wide association studies. The example view shows the region around the non-coding type 2 diabetes variant rs11257655 (chr10:12,307,894), about 16 kb past the end of the CDC123 gene; red entries such as MAFB (beta-cell transcription factor) and SREBF2 (lipid metabolism) bind the two alleles differently.
 
 **In the R2 Genome Browser:**
 - Each entry is a variant-transcription factor pair, coloured from grey (0) to red (2) by the difference in log p-value between the alleles.
@@ -486,14 +486,14 @@ This document describes the annotation tracks available in the R2 genome browser
 ---
 
 ### Liver Enhancers (Cell 2015, Villar)
-**View in R2:** [Liver Enhancers (Cell 2015, Villar)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&gene_symbol=kras&a01giemsa=on&a10refseq=on&liver_enhancer_cell201501=on&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
+**View in R2:** [Liver Enhancers (Cell 2015, Villar)](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?option=gbv2_base&modus=complex%3Atview&genome_build=hg19&chrom=chr4&start=74090000&end=74480000&a01giemsa=on&a10refseq=on&liver_enhancer_cell201501=on&pluginopt%3Aliver_enhancer_cell201501%3Anames=yes&pluginopt%3Aa10refseq%3Arepresent=merge_by_symbol&tview_drawmode=off)  
 **Description:** Human liver enhancers and active promoters, identified from H3K27ac and H3K4me3 profiling. [21]
 
 :::{dropdown} More...
-**Background:** "We track the evolution of promoters and enhancers active in liver across 20 mammalian species from six diverse orders by profiling genomic enrichment of H3K27 acetylation and H3K4 trimethylation. We report that rapid evolution of enhancers is a universal feature of mammalian genomes." Regions with H3K27ac only are enhancers; regions with H3K27ac combined with H3K4me3 are active promoters.
+**Background:** "We track the evolution of promoters and enhancers active in liver across 20 mammalian species from six diverse orders by profiling genomic enrichment of H3K27 acetylation and H3K4 trimethylation. We report that rapid evolution of enhancers is a universal feature of mammalian genomes." Regions with H3K27ac only are enhancers; regions with H3K27ac combined with H3K4me3 are active promoters. The example view shows the albumin gene cluster (ALB, AFP, AFM) on chr4: many regions carry H3K27ac only (enhancers), while a few also carry H3K4me3 (active promoters).
 
 **In the R2 Genome Browser:**
-- Hovering over a region shows its position, name and description.
+- Hovering over a region shows its position, the histone mark, read count, fold enrichment, number of replicates and number of peaks.
 - Clicking a feature zooms in to it.
 - Zoomed out beyond 3,000 bp per pixel, the regions are summarised as a histogram of counts per bin (hover shows the count). The threshold can be changed with the `xfactor_count_switch` setting.
 - The `names` setting prints labels in the image: the name (`yes`), name and description (`ext`) or description only (`descr`).
