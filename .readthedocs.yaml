@@ -19,3 +19,4 @@ python:
 # Build PDF & ePub
 formats:
   - epub
+  - pdf
